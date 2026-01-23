@@ -10,13 +10,51 @@ export default function DayPage() {
   const dayId = params.dayId as string;
   const [audioCompleted, setAudioCompleted] = useState(false);
 
-  // TODO: Fetch real data from API
+  const dayNumber = parseInt(dayId);
+
+  // Títulos por día del Módulo 1
+  const dayTitles: Record<number, string> = {
+    1: "¿Qué es Lectura Crítica?",
+    2: "Estructura del Examen",
+    3: "Las 3 Afirmaciones del ICFES",
+    4: "Las 12 Evidencias - Parte 1",
+    5: "Las 12 Evidencias - Parte 2",
+    6: "Las 12 Evidencias - Parte 3",
+    7: "Textos Continuos Informativos",
+    8: "Textos Continuos Literarios",
+    9: "Textos Discontinuos - Tablas y Gráficas",
+    10: "Textos Discontinuos - Infografías y Mixtos",
+    11: "Estrategias Integradas por Nivel",
+    12: "Anatomía de las Preguntas ICFES",
+    13: "Banco de Preguntas Explicadas - Parte 1",
+    14: "Banco de Preguntas Explicadas - Parte 2",
+    15: "Consolidación Final y Preparación",
+  };
+
+  const daySummaries: Record<number, string> = {
+    1: "La lectura crítica implica comprender, interpretar y evaluar textos. Es fundamental para la medicina basada en evidencia.",
+    2: "El examen tiene 35 preguntas: 26% literal, 40% inferencial, 34% crítico. 70% son textos continuos informativos.",
+    3: "Afirmación 1: contenidos locales. Afirmación 2: articulación global. Afirmación 3: reflexión y evaluación.",
+    4: "Nivel literal: significado de palabras en contexto, función de conectores, localización de información explícita.",
+    5: "Nivel inferencial: estructura del texto, función de párrafos, relaciones lógicas entre ideas, voces del texto.",
+    6: "Nivel crítico: supuestos implícitos, estrategias retóricas, sesgos, validez de argumentos.",
+    7: "Ensayos, artículos de opinión, textos expositivos y argumentativos. Representan el 70% del examen.",
+    8: "Cuentos, novelas, poemas. Requieren identificar recursos literarios y propósito estético.",
+    9: "Tablas de datos, gráficas de barras y líneas. Habilidad fundamental para interpretar estudios clínicos.",
+    10: "Infografías, cómics, textos mixtos. Lectura no lineal que combina elementos verbales y visuales.",
+    11: "Sistema integrado de estrategias para identificar rápidamente el nivel de cada pregunta.",
+    12: "Cómo están construidas las preguntas del ICFES: stem, opciones, distractores comunes.",
+    13: "Práctica con preguntas modelo del ICFES con explicación detallada de cada respuesta.",
+    14: "Más práctica con preguntas de nivel inferencial y crítico con análisis de distractores.",
+    15: "Consolidación de estrategias, simulación de condiciones reales, tips para el día del examen.",
+  };
+
   const dayData = {
-    dayNumber: parseInt(dayId),
-    title: "¿Qué es Lectura Crítica?",
+    dayNumber,
+    title: dayTitles[dayNumber] || `Día ${dayNumber}`,
     moduleName: "Lectura Crítica",
-    audioUrl: "", // Will be Cloudinary URL
-    summary: "Comprende qué evalúa el módulo de Lectura Crítica del Saber Pro y cómo prepararte.",
+    audioUrl: `/api/audio/file/${dayId}`,
+    summary: daySummaries[dayNumber] || "Contenido del día.",
   };
 
   const handleAudioComplete = async () => {
