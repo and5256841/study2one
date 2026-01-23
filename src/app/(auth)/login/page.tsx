@@ -30,7 +30,14 @@ export default function LoginPage() {
         setError("Email o contraseña incorrectos");
       }
     } else {
-      router.push("/dashboard");
+      // Fetch session to check role
+      const sessionRes = await fetch("/api/auth/session");
+      const session = await sessionRes.json();
+      if (session?.user?.role === "COORDINATOR") {
+        router.push("/coordinator/dashboard");
+      } else {
+        router.push("/dashboard");
+      }
     }
     setLoading(false);
   };
