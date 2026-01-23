@@ -60,31 +60,51 @@ async function listAvailableVoices() {
 
 /**
  * Parsea un archivo TTS y extrae el contenido por día
+ * Soporta dos formatos de marcadores:
+ *   ===== DÍA X: TITLE =====
+ *   DÍA X: TITLE\n---------
  */
 function parseTTSFile(filePath) {
   const content = fs.readFileSync(filePath, "utf-8");
   const days = [];
 
-  const dayRegex = /={5}\s*DÍA\s+(\d+):\s*(.+?)\s*={5}/g;
+  // Patrón 1: ===== DÍA X: TITLE =====
+  // Patrón 2: ^DÍA X: TITLE$ (al inicio de línea)
+  const dayRegex = /(?:={5}\s*DÍA\s+(\d+):\s*(.+?)\s*={5})|(?:^DÍA\s+(\d+):\s*(.+?)$)/gm;
   let match;
   const markers = [];
 
   while ((match = dayRegex.exec(content)) !== null) {
-    markers.push({
-      dayNumber: parseInt(match[1]),
-      title: match[2].trim(),
-      startIndex: match.index + match[0].length,
-    });
+    const dayNumber = parseInt(match[1] || match[3]);
+    const title = (match[2] || match[4]).trim();
+
+    // Encontrar el inicio del contenido (después del marcador y posible línea de guiones)
+    let startIndex = match.index + match[0].length;
+    const afterMatch = content.substring(startIndex, startIndex + 100);
+    const dashLine = afterMatch.match(/^\r?\n-+\r?\n/);
+    if (dashLine) {
+      startIndex += dashLine[0].length;
+    }
+
+    markers.push({ dayNumber, title, startIndex });
   }
 
   for (let i = 0; i < markers.length; i++) {
-    const endIndex = i < markers.length - 1
-      ? content.lastIndexOf("=====", markers[i + 1].startIndex - 1)
-      : content.length;
+    let endIndex;
+    if (i < markers.length - 1) {
+      // Buscar el inicio del siguiente marcador
+      endIndex = content.lastIndexOf("DÍA", markers[i + 1].startIndex);
+      if (endIndex <= markers[i].startIndex) {
+        endIndex = markers[i + 1].startIndex;
+      }
+    } else {
+      endIndex = content.length;
+    }
 
     const text = content
       .substring(markers[i].startIndex, endIndex)
-      .replace(/={5}.*?={5}/g, "")
+      .replace(/={3,}.*$/gm, "") // Remover líneas de separadores
+      .replace(/-{10,}/g, "") // Remover líneas de guiones
       .replace(/\r\n/g, "\n")
       .trim();
 
