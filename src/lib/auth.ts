@@ -1,9 +1,9 @@
-import { NextAuthOptions } from "next-auth";
+import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import bcrypt from "bcryptjs";
 import { prisma } from "./prisma";
 
-export const authOptions: NextAuthOptions = {
+export const { handlers, auth, signIn, signOut } = NextAuth({
   providers: [
     CredentialsProvider({
       name: "credentials",
@@ -17,7 +17,7 @@ export const authOptions: NextAuthOptions = {
         }
 
         const user = await prisma.user.findUnique({
-          where: { email: credentials.email },
+          where: { email: credentials.email as string },
         });
 
         if (!user || !user.passwordHash) {
@@ -25,7 +25,7 @@ export const authOptions: NextAuthOptions = {
         }
 
         const isValid = await bcrypt.compare(
-          credentials.password,
+          credentials.password as string,
           user.passwordHash
         );
 
@@ -52,21 +52,21 @@ export const authOptions: NextAuthOptions = {
   callbacks: {
     async jwt({ token, user }) {
       if (user) {
-        token.role = (user as any).role;
-        token.userId = (user as any).id;
-        token.pseudonym = (user as any).pseudonym;
-        token.avatarSeed = (user as any).avatarSeed;
-        token.avatarStyle = (user as any).avatarStyle;
+        token.role = (user as Record<string, unknown>).role as string;
+        token.userId = (user as Record<string, unknown>).id as string;
+        token.pseudonym = (user as Record<string, unknown>).pseudonym as string;
+        token.avatarSeed = (user as Record<string, unknown>).avatarSeed as string;
+        token.avatarStyle = (user as Record<string, unknown>).avatarStyle as string;
       }
       return token;
     },
     async session({ session, token }) {
       if (session.user) {
-        (session.user as any).role = token.role;
-        (session.user as any).id = token.userId;
-        (session.user as any).pseudonym = token.pseudonym;
-        (session.user as any).avatarSeed = token.avatarSeed;
-        (session.user as any).avatarStyle = token.avatarStyle;
+        session.user.id = token.userId as string;
+        session.user.role = token.role as "STUDENT" | "COORDINATOR" | "CLIENT";
+        session.user.pseudonym = token.pseudonym as string;
+        session.user.avatarSeed = token.avatarSeed as string;
+        session.user.avatarStyle = token.avatarStyle as string;
       }
       return session;
     },
@@ -78,4 +78,4 @@ export const authOptions: NextAuthOptions = {
     strategy: "jwt",
   },
   secret: process.env.NEXTAUTH_SECRET,
-};
+});

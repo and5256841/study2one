@@ -21,12 +21,27 @@ export default function DayPage() {
 
   const handleAudioComplete = async () => {
     setAudioCompleted(true);
-    // TODO: POST to /api/audio/:dailyContentId/complete
+    try {
+      await fetch(`/api/audio/${dayId}/progress`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ currentTime: 0, percentage: 100, playbackSpeed: 1.0 }),
+      });
+    } catch (error) {
+      console.error("Error marking complete:", error);
+    }
   };
 
   const handleAudioProgress = async (percentage: number, currentTime: number) => {
-    // TODO: POST to /api/audio/:dailyContentId/progress
-    // Throttled every 10 seconds
+    try {
+      await fetch(`/api/audio/${dayId}/progress`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ currentTime, percentage, playbackSpeed: 1.0 }),
+      });
+    } catch (error) {
+      console.error("Error saving progress:", error);
+    }
   };
 
   return (

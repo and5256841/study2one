@@ -1,13 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
+import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 
 export async function POST(
   req: NextRequest,
   { params }: { params: { dailyContentId: string } }
 ) {
-  const session = await getServerSession(authOptions);
+  const session = await auth();
   if (!session?.user?.id) {
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
@@ -39,7 +38,6 @@ export async function POST(
     },
   });
 
-  // Check if completed (90%+)
   if (percentage >= 90 && !progress.isCompleted) {
     await prisma.audioProgress.update({
       where: { id: progress.id },
@@ -49,7 +47,6 @@ export async function POST(
       },
     });
 
-    // Update streak
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
@@ -58,10 +55,6 @@ export async function POST(
       update: {
         currentStreak: { increment: 1 },
         lastActivityDate: today,
-        longestStreak: {
-          // Will be handled in application logic
-          increment: 0,
-        },
       },
       create: {
         studentId: session.user.id,
