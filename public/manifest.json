@@ -1,0 +1,22 @@
+{
+  "name": "Study2One - Saber Pro Medicina",
+  "short_name": "Study2One",
+  "description": "Prepárate para el Saber Pro Medicina 2026",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1a1a2e",
+  "background_color": "#0f0f1a",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

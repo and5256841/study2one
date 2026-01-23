@@ -1,0 +1,470 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============ ENUMS ============
+
+enum Role {
+  STUDENT
+  COORDINATOR
+  CLIENT
+}
+
+enum EnrollmentStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum PhotoType {
+  CUADERNILLO
+  MIND_MAP
+  NOTES
+  OTHER
+}
+
+enum EmailType {
+  WELCOME
+  WEEKLY_REPORT
+  FEEDBACK
+  INACTIVITY_ALERT
+  SIMULACRO_REMINDER
+  CERTIFICATE
+}
+
+enum EmailStatus {
+  SENT
+  FAILED
+  BOUNCED
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum NotificationType {
+  REMINDER
+  STREAK
+  ACHIEVEMENT
+  ANNOUNCEMENT
+  SIMULACRO
+}
+
+// ============ USERS & AUTH ============
+
+model User {
+  id               String           @id @default(uuid())
+  email            String           @unique
+  passwordHash     String?          @map("password_hash")
+  role             Role             @default(STUDENT)
+  fullName         String           @map("full_name")
+  documentId       String?          @map("document_id")
+  pseudonym        String?
+  avatarSeed       String?          @map("avatar_seed")
+  avatarStyle      String?          @map("avatar_style")
+  phone            String?
+  university       String?
+  isActive         Boolean          @default(true) @map("is_active")
+  enrollmentStatus EnrollmentStatus @default(PENDING) @map("enrollment_status")
+  enrolledAt       DateTime?        @map("enrolled_at")
+  approvedAt       DateTime?        @map("approved_at")
+  approvedById     String?          @map("approved_by_id")
+  createdAt        DateTime         @default(now()) @map("created_at")
+  updatedAt        DateTime         @updatedAt @map("updated_at")
+
+  approvedBy       User?            @relation("ApprovalRelation", fields: [approvedById], references: [id])
+  approvedUsers    User[]           @relation("ApprovalRelation")
+
+  cohortStudents   CohortStudent[]
+  coordinatedCohorts Cohort[]       @relation("CoordinatorCohorts")
+  clientCohorts    Cohort[]         @relation("ClientCohorts")
+
+  audioProgress    AudioProgress[]
+  quizAttempts     QuizAttempt[]
+  photoUploads     PhotoUpload[]
+  streak           Streak?
+  simulacroAttempts SimulacroAttempt[]
+  announcements    Announcement[]
+  emailLogs        EmailLog[]
+  pushSubscriptions PushSubscription[]
+  notifications    Notification[]
+  certificates     Certificate[]
+  createdSimulacros Simulacro[]
+
+  @@map("users")
+}
+
+// ============ COHORTS ============
+
+model Cohort {
+  id              String          @id @default(uuid())
+  name            String
+  startDate       DateTime        @map("start_date")
+  endDate         DateTime?       @map("end_date")
+  coordinatorId   String          @map("coordinator_id")
+  clientId        String?         @map("client_id")
+  enrollmentQrCode String?        @map("enrollment_qr_code")
+  isActive        Boolean         @default(true) @map("is_active")
+  createdAt       DateTime        @default(now()) @map("created_at")
+
+  coordinator     User            @relation("CoordinatorCohorts", fields: [coordinatorId], references: [id])
+  client          User?           @relation("ClientCohorts", fields: [clientId], references: [id])
+  students        CohortStudent[]
+  simulacros      Simulacro[]
+  announcements   Announcement[]
+  certificates    Certificate[]
+
+  @@map("cohorts")
+}
+
+model CohortStudent {
+  cohortId  String   @map("cohort_id")
+  studentId String   @map("student_id")
+  joinedAt  DateTime @default(now()) @map("joined_at")
+
+  cohort    Cohort   @relation(fields: [cohortId], references: [id])
+  student   User     @relation(fields: [studentId], references: [id])
+
+  @@id([cohortId, studentId])
+  @@map("cohort_students")
+}
+
+// ============ CONTENT ============
+
+model Module {
+  id          String         @id @default(uuid())
+  number      Int            @unique
+  name        String
+  slug        String         @unique
+  description String?
+  icon        String?
+  totalDays   Int            @default(15) @map("total_days")
+  orderIndex  Int            @map("order_index")
+
+  blocks      Block[]
+  dailyContent DailyContent[]
+  simulacroQuestions SimulacroQuestion[]
+
+  @@map("modules")
+}
+
+model Block {
+  id        String         @id @default(uuid())
+  moduleId  String         @map("module_id")
+  number    Int
+  name      String?
+  daysStart Int            @map("days_start")
+  daysEnd   Int            @map("days_end")
+
+  module    Module         @relation(fields: [moduleId], references: [id])
+  dailyContent DailyContent[]
+
+  @@unique([moduleId, number])
+  @@map("blocks")
+}
+
+model DailyContent {
+  id                   String          @id @default(uuid())
+  moduleId             String          @map("module_id")
+  blockId              String          @map("block_id")
+  dayNumber            Int             @map("day_number")
+  title                String
+  ttsText              String?         @map("tts_text")
+  audioUrl             String?         @map("audio_url")
+  audioDurationSeconds Int?            @map("audio_duration_seconds")
+  summary              String?
+  keyConcepts          Json?           @map("key_concepts")
+  createdAt            DateTime        @default(now()) @map("created_at")
+
+  module               Module          @relation(fields: [moduleId], references: [id])
+  block                Block           @relation(fields: [blockId], references: [id])
+  questions            DailyQuestion[]
+  audioProgress        AudioProgress[]
+  quizAttempts         QuizAttempt[]
+  photoUploads         PhotoUpload[]
+
+  @@unique([moduleId, dayNumber])
+  @@map("daily_content")
+}
+
+// ============ QUIZ ============
+
+model DailyQuestion {
+  id             String           @id @default(uuid())
+  dailyContentId String           @map("daily_content_id")
+  questionOrder  Int              @map("question_order")
+  caseText       String?          @map("case_text")
+  questionText   String           @map("question_text")
+  explanation    String
+  competency     String?
+  difficulty     Difficulty       @default(MEDIUM)
+
+  dailyContent   DailyContent     @relation(fields: [dailyContentId], references: [id])
+  options        QuestionOption[]
+  quizAnswers    QuizAnswer[]
+
+  @@unique([dailyContentId, questionOrder])
+  @@map("daily_questions")
+}
+
+model QuestionOption {
+  id         String       @id @default(uuid())
+  questionId String       @map("question_id")
+  letter     String
+  text       String
+  isCorrect  Boolean      @default(false) @map("is_correct")
+
+  question   DailyQuestion @relation(fields: [questionId], references: [id])
+  quizAnswers QuizAnswer[]
+
+  @@map("question_options")
+}
+
+// ============ STUDENT PROGRESS ============
+
+model AudioProgress {
+  id                    String       @id @default(uuid())
+  studentId             String       @map("student_id")
+  dailyContentId        String       @map("daily_content_id")
+  startedAt             DateTime?    @map("started_at")
+  completedAt           DateTime?    @map("completed_at")
+  lastPositionSeconds   Int          @default(0) @map("last_position_seconds")
+  totalListenedSeconds  Int          @default(0) @map("total_listened_seconds")
+  playbackSpeed         Float        @default(1.0) @map("playback_speed")
+  isCompleted           Boolean      @default(false) @map("is_completed")
+  completionPercentage  Float        @default(0) @map("completion_percentage")
+
+  student               User         @relation(fields: [studentId], references: [id])
+  dailyContent          DailyContent @relation(fields: [dailyContentId], references: [id])
+
+  @@unique([studentId, dailyContentId])
+  @@map("audio_progress")
+}
+
+model QuizAttempt {
+  id             String       @id @default(uuid())
+  studentId      String       @map("student_id")
+  dailyContentId String       @map("daily_content_id")
+  startedAt      DateTime     @default(now()) @map("started_at")
+  completedAt    DateTime?    @map("completed_at")
+  score          Int          @default(0)
+  totalQuestions Int          @default(3) @map("total_questions")
+
+  student        User         @relation(fields: [studentId], references: [id])
+  dailyContent   DailyContent @relation(fields: [dailyContentId], references: [id])
+  answers        QuizAnswer[]
+
+  @@map("quiz_attempts")
+}
+
+model QuizAnswer {
+  attemptId        String         @map("attempt_id")
+  questionId       String         @map("question_id")
+  selectedOptionId String?        @map("selected_option_id")
+  isCorrect        Boolean        @default(false) @map("is_correct")
+  answeredAt       DateTime       @default(now()) @map("answered_at")
+
+  attempt          QuizAttempt    @relation(fields: [attemptId], references: [id])
+  question         DailyQuestion  @relation(fields: [questionId], references: [id])
+  selectedOption   QuestionOption? @relation(fields: [selectedOptionId], references: [id])
+
+  @@id([attemptId, questionId])
+  @@map("quiz_answers")
+}
+
+model PhotoUpload {
+  id             String       @id @default(uuid())
+  studentId      String       @map("student_id")
+  dailyContentId String       @map("daily_content_id")
+  photoUrl       String       @map("photo_url")
+  thumbnailUrl   String?      @map("thumbnail_url")
+  photoType      PhotoType    @default(OTHER) @map("photo_type")
+  uploadedAt     DateTime     @default(now()) @map("uploaded_at")
+
+  student        User         @relation(fields: [studentId], references: [id])
+  dailyContent   DailyContent @relation(fields: [dailyContentId], references: [id])
+
+  @@map("photo_uploads")
+}
+
+model Streak {
+  id               String   @id @default(uuid())
+  studentId        String   @unique @map("student_id")
+  currentStreak    Int      @default(0) @map("current_streak")
+  longestStreak    Int      @default(0) @map("longest_streak")
+  lastActivityDate DateTime? @map("last_activity_date")
+  updatedAt        DateTime @updatedAt @map("updated_at")
+
+  student          User     @relation(fields: [studentId], references: [id])
+
+  @@map("streaks")
+}
+
+// ============ SIMULACROS ============
+
+model Simulacro {
+  id              String             @id @default(uuid())
+  cohortId        String             @map("cohort_id")
+  title           String
+  scheduledDate   DateTime           @map("scheduled_date")
+  durationMinutes Int                @default(75) @map("duration_minutes")
+  totalQuestions  Int                @default(50) @map("total_questions")
+  isActive        Boolean            @default(false) @map("is_active")
+  createdById     String             @map("created_by_id")
+  createdAt       DateTime           @default(now()) @map("created_at")
+
+  cohort          Cohort             @relation(fields: [cohortId], references: [id])
+  createdBy       User               @relation(fields: [createdById], references: [id])
+  questions       SimulacroQuestion[]
+  attempts        SimulacroAttempt[]
+
+  @@map("simulacros")
+}
+
+model SimulacroQuestion {
+  id            String            @id @default(uuid())
+  simulacroId   String            @map("simulacro_id")
+  questionOrder Int               @map("question_order")
+  caseText      String?           @map("case_text")
+  questionText  String            @map("question_text")
+  explanation   String?
+  competency    String?
+  moduleId      String?           @map("module_id")
+
+  simulacro     Simulacro         @relation(fields: [simulacroId], references: [id])
+  module        Module?           @relation(fields: [moduleId], references: [id])
+  options       SimulacroOption[]
+  answers       SimulacroAnswer[]
+
+  @@map("simulacro_questions")
+}
+
+model SimulacroOption {
+  id         String            @id @default(uuid())
+  questionId String            @map("question_id")
+  letter     String
+  text       String
+  isCorrect  Boolean           @default(false) @map("is_correct")
+
+  question   SimulacroQuestion @relation(fields: [questionId], references: [id])
+  answers    SimulacroAnswer[]
+
+  @@map("simulacro_options")
+}
+
+model SimulacroAttempt {
+  id                   String            @id @default(uuid())
+  simulacroId          String            @map("simulacro_id")
+  studentId            String            @map("student_id")
+  startedAt            DateTime          @default(now()) @map("started_at")
+  finishedAt           DateTime?         @map("finished_at")
+  totalCorrect         Int               @default(0) @map("total_correct")
+  totalAnswered        Int               @default(0) @map("total_answered")
+  scorePercentage      Float?            @map("score_percentage")
+  tabSwitches          Int               @default(0) @map("tab_switches")
+  timeSpentSeconds     Int?              @map("time_spent_seconds")
+  reportByCompetency   Json?             @map("report_by_competency")
+  isCompleted          Boolean           @default(false) @map("is_completed")
+
+  simulacro            Simulacro         @relation(fields: [simulacroId], references: [id])
+  student              User              @relation(fields: [studentId], references: [id])
+  answers              SimulacroAnswer[]
+
+  @@map("simulacro_attempts")
+}
+
+model SimulacroAnswer {
+  attemptId        String            @map("attempt_id")
+  questionId       String            @map("question_id")
+  selectedOptionId String?           @map("selected_option_id")
+  answeredAt       DateTime          @default(now()) @map("answered_at")
+  timeSpentSeconds Int?              @map("time_spent_seconds")
+
+  attempt          SimulacroAttempt  @relation(fields: [attemptId], references: [id])
+  question         SimulacroQuestion @relation(fields: [questionId], references: [id])
+  selectedOption   SimulacroOption?  @relation(fields: [selectedOptionId], references: [id])
+
+  @@id([attemptId, questionId])
+  @@map("simulacro_answers")
+}
+
+// ============ COMMUNICATION ============
+
+model Announcement {
+  id        String   @id @default(uuid())
+  cohortId  String   @map("cohort_id")
+  authorId  String   @map("author_id")
+  title     String
+  body      String
+  isPinned  Boolean  @default(false) @map("is_pinned")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  cohort    Cohort   @relation(fields: [cohortId], references: [id])
+  author    User     @relation(fields: [authorId], references: [id])
+
+  @@map("announcements")
+}
+
+model EmailLog {
+  id          String      @id @default(uuid())
+  recipientId String      @map("recipient_id")
+  emailType   EmailType   @map("email_type")
+  subject     String
+  sentAt      DateTime    @default(now()) @map("sent_at")
+  resendId    String?     @map("resend_id")
+  status      EmailStatus @default(SENT)
+
+  recipient   User        @relation(fields: [recipientId], references: [id])
+
+  @@map("email_logs")
+}
+
+model PushSubscription {
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id")
+  endpoint  String
+  p256dhKey String   @map("p256dh_key")
+  authKey   String   @map("auth_key")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user      User     @relation(fields: [userId], references: [id])
+
+  @@map("push_subscriptions")
+}
+
+model Notification {
+  id        String           @id @default(uuid())
+  userId    String           @map("user_id")
+  title     String
+  body      String
+  type      NotificationType
+  isRead    Boolean          @default(false) @map("is_read")
+  createdAt DateTime         @default(now()) @map("created_at")
+
+  user      User             @relation(fields: [userId], references: [id])
+
+  @@map("notifications")
+}
+
+// ============ CERTIFICATES ============
+
+model Certificate {
+  id               String   @id @default(uuid())
+  studentId        String   @map("student_id")
+  cohortId         String   @map("cohort_id")
+  issuedAt         DateTime @default(now()) @map("issued_at")
+  certificateUrl   String?  @map("certificate_url")
+  verificationCode String   @unique @map("verification_code")
+
+  student          User     @relation(fields: [studentId], references: [id])
+  cohort           Cohort   @relation(fields: [cohortId], references: [id])
+
+  @@map("certificates")
+}

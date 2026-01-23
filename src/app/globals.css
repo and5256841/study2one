@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2E7D32;
+  --primary-light: #4CAF50;
+  --secondary: #0277BD;
+  --secondary-light: #03A9F4;
+  --accent: #FF6F00;
+  --accent-light: #FFA726;
+  --success: #00C853;
+  --warning: #FFD600;
+  --danger: #FF1744;
+  --dark: #1a1a2e;
+  --darker: #0f0f1a;
+}
+
+body {
+  background: linear-gradient(180deg, var(--darker) 0%, var(--dark) 100%);
+  min-height: 100vh;
+  color: #f8fafc;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
