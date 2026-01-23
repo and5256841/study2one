@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 interface ProfileData {
   name: string;
@@ -64,9 +65,12 @@ export default function ProfilePage() {
     <div className="px-4 py-6 space-y-5">
       {/* Avatar & Name */}
       <div className="text-center">
-        <div className="w-20 h-20 mx-auto bg-gradient-to-br from-green-400 to-blue-400 rounded-full flex items-center justify-center text-3xl font-bold text-white">
-          {profile.name.charAt(0).toUpperCase()}
-        </div>
+        <Link href="/profile/avatar" className="inline-block relative group">
+          <div className="w-20 h-20 mx-auto bg-gradient-to-br from-green-400 to-blue-400 rounded-full flex items-center justify-center text-3xl font-bold text-white overflow-hidden">
+            {profile.name.charAt(0).toUpperCase()}
+          </div>
+          <span className="absolute bottom-0 right-0 w-6 h-6 bg-white/20 rounded-full flex items-center justify-center text-xs border border-white/30 group-hover:bg-white/30">✏️</span>
+        </Link>
         <h2 className="text-xl font-bold mt-3">{profile.name}</h2>
         {profile.pseudonym && (
           <p className="text-gray-400 text-sm">@{profile.pseudonym}</p>

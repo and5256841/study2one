@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import PushNotificationSetup from "@/components/PushNotificationSetup";
 
 const navItems = [
   { href: "/dashboard", label: "Inicio", icon: "🏠" },
@@ -25,6 +26,9 @@ export default function StudentLayout({
           study<span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400">2one</span>
         </h1>
       </header>
+
+      {/* Push Notification Banner */}
+      <PushNotificationSetup />
 
       {/* Content */}
       <main>{children}</main>
