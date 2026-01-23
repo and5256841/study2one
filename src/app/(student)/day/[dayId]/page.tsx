@@ -3,12 +3,15 @@
 import { useParams } from "next/navigation";
 import AudioPlayer from "@/components/audio/AudioPlayer";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 export default function DayPage() {
   const params = useParams();
   const dayId = params.dayId as string;
   const [audioCompleted, setAudioCompleted] = useState(false);
+  const [photoUploading, setPhotoUploading] = useState(false);
+  const [photoUploaded, setPhotoUploaded] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const dayNumber = parseInt(dayId);
 
@@ -82,6 +85,29 @@ export default function DayPage() {
     }
   };
 
+  const handlePhotoUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    setPhotoUploading(true);
+    const formData = new FormData();
+    formData.append("photo", file);
+    formData.append("photoType", "STUDY_EVIDENCE");
+
+    try {
+      const res = await fetch(`/api/photos/${dayId}`, {
+        method: "POST",
+        body: formData,
+      });
+      if (res.ok) {
+        setPhotoUploaded(true);
+      }
+    } catch (error) {
+      console.error("Error uploading photo:", error);
+    }
+    setPhotoUploading(false);
+  };
+
   return (
     <div className="px-4 py-6 space-y-4 pb-32">
       {/* Day Header */}
@@ -124,8 +150,30 @@ export default function DayPage() {
         </Link>
 
         {/* Photo Upload Button */}
-        <button className="w-full py-3 bg-white/5 border border-white/10 text-gray-300 font-medium rounded-xl hover:bg-white/10 transition-all flex items-center justify-center gap-2">
-          <span>📷</span> Subir evidencia de estudio
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept="image/*"
+          capture="environment"
+          onChange={handlePhotoUpload}
+          className="hidden"
+        />
+        <button
+          onClick={() => fileInputRef.current?.click()}
+          disabled={photoUploading}
+          className={`w-full py-3 border font-medium rounded-xl transition-all flex items-center justify-center gap-2 ${
+            photoUploaded
+              ? "bg-green-500/10 border-green-500/30 text-green-400"
+              : "bg-white/5 border-white/10 text-gray-300 hover:bg-white/10"
+          }`}
+        >
+          {photoUploading ? (
+            <>Subiendo...</>
+          ) : photoUploaded ? (
+            <><span>✓</span> Evidencia subida</>
+          ) : (
+            <><span>📷</span> Subir evidencia de estudio</>
+          )}
         </button>
       </div>
     </div>

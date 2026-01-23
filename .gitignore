@@ -40,3 +40,6 @@ next-env.d.ts
 
 # audio output
 /audio-output
+
+# photo uploads
+/uploads
