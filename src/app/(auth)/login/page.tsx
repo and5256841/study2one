@@ -35,6 +35,8 @@ export default function LoginPage() {
       const session = await sessionRes.json();
       if (session?.user?.role === "COORDINATOR") {
         router.push("/coordinator/dashboard");
+      } else if (session?.user?.role === "CLIENT") {
+        router.push("/client/dashboard");
       } else {
         router.push("/dashboard");
       }
