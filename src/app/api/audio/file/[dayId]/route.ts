@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import { prisma } from "@/lib/prisma";
 
 export async function GET(
   req: NextRequest,
@@ -13,29 +12,30 @@ export async function GET(
     return NextResponse.json({ error: "Invalid day" }, { status: 400 });
   }
 
-  // For now, all days are in module-01. Later this will use the database.
-  const moduleNumber = dayNumber <= 15 ? 1 : Math.ceil(dayNumber / 15);
-  const fileName = `day-${String(dayNumber).padStart(2, "0")}.mp3`;
-  const audioPath = path.join(
-    process.cwd(),
-    "audio-output",
-    `module-${String(moduleNumber).padStart(2, "0")}`,
-    fileName
-  );
+  // Calcular módulo basado en el día global
+  const moduleNumber = Math.ceil(dayNumber / 15);
+  const dayInModule = ((dayNumber - 1) % 15) + 1;
 
-  if (!fs.existsSync(audioPath)) {
-    return NextResponse.json({ error: "Audio not found" }, { status: 404 });
-  }
-
-  const stat = fs.statSync(audioPath);
-  const fileBuffer = fs.readFileSync(audioPath);
-
-  return new NextResponse(fileBuffer, {
-    headers: {
-      "Content-Type": "audio/mpeg",
-      "Content-Length": stat.size.toString(),
-      "Accept-Ranges": "bytes",
-      "Cache-Control": "public, max-age=86400",
+  // Buscar el DailyContent en la BD
+  const dailyContent = await prisma.dailyContent.findFirst({
+    where: {
+      dayNumber: dayInModule,
+      module: {
+        number: moduleNumber,
+      },
+    },
+    select: {
+      audioUrl: true,
     },
   });
+
+  if (!dailyContent?.audioUrl) {
+    return NextResponse.json(
+      { error: "Audio not found for this day" },
+      { status: 404 }
+    );
+  }
+
+  // Redirect a Cloudinary (mejor para CDN caching y no consume memoria del servidor)
+  return NextResponse.redirect(dailyContent.audioUrl, 302);
 }

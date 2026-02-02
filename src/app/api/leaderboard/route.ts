@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
+import { getTwemojiUrl, getDefaultTwemoji } from "@/lib/twemoji";
 
 export async function GET() {
   const session = await auth();
@@ -37,9 +38,15 @@ export async function GET() {
       // Score: weighted combination of days completed + streak
       const score = completedDays * 10 + quizzesPassed * 5 + (s.streak?.currentStreak || 0) * 3;
 
+      // Generar URL del avatar
+      const avatarUrl = s.avatarStyle === "twemoji" && s.avatarSeed
+        ? getTwemojiUrl(s.avatarSeed)
+        : getTwemojiUrl(getDefaultTwemoji().code);
+
       return {
         id: s.id,
         name: s.pseudonym || s.fullName.split(" ")[0],
+        avatarUrl,
         streak: s.streak?.currentStreak || 0,
         completedDays,
         quizzesPassed,

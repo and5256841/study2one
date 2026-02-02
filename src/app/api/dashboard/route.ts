@@ -1,6 +1,13 @@
 import { NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
+import {
+  getStudentCurrentDay,
+  getModuleForDay,
+  getDayInModule,
+  MODULES_INFO,
+  TOTAL_DAYS,
+} from "@/lib/student-day";
 
 export async function GET() {
   const session = await auth();
@@ -8,46 +15,137 @@ export async function GET() {
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
+  const studentId = session.user.id;
+
+  // Get student day info from cohort
+  const studentDayInfo = await getStudentCurrentDay(studentId);
+
+  if (!studentDayInfo) {
+    return NextResponse.json(
+      { error: "No tienes un cohort asignado. Contacta a tu coordinador." },
+      { status: 400 }
+    );
+  }
+
+  const { dayNumber: maxUnlockedDay } = studentDayInfo;
+
   // Get streak
   const streak = await prisma.streak.findUnique({
-    where: { studentId: session.user.id },
+    where: { studentId },
   });
 
   // Get completed days (audio completed)
   const completedAudio = await prisma.audioProgress.findMany({
     where: {
-      studentId: session.user.id,
+      studentId,
       isCompleted: true,
     },
-    include: { dailyContent: true },
-    orderBy: { dailyContent: { dayNumber: "asc" } },
+    include: {
+      dailyContent: {
+        include: { module: true },
+      },
+    },
   });
 
-  // Get quiz attempts
-  const quizAttempts = await prisma.quizAttempt.findMany({
-    where: { studentId: session.user.id },
-    include: { dailyContent: true },
+  // Get quiz attempts (passed with score >= 2)
+  const passedQuizzes = await prisma.quizAttempt.findMany({
+    where: {
+      studentId,
+      score: { gte: 2 },
+    },
+    include: {
+      dailyContent: {
+        include: { module: true },
+      },
+    },
   });
 
-  // Determine current day (next uncompleted day)
-  const completedDayNumbers = completedAudio.map((ap) => ap.dailyContent.dayNumber);
-  const quizDayNumbers = quizAttempts.map((qa) => qa.dailyContent.dayNumber);
+  // Calculate fully completed days using new module structure
+  const completedDaysSet = new Set<number>();
+  for (const progress of completedAudio) {
+    const moduleNum = progress.dailyContent.module.number;
+    const dayNum = progress.dailyContent.dayNumber;
+    const moduleInfo = MODULES_INFO[moduleNum - 1];
+    if (moduleInfo) {
+      const globalDay = moduleInfo.startDay + dayNum - 1;
+      completedDaysSet.add(globalDay);
+    }
+  }
 
-  // A day is fully completed when audio is done AND quiz is passed (score >= 2)
-  const fullyCompletedDays = completedDayNumbers.filter((day) => quizDayNumbers.includes(day));
+  const passedQuizDaysSet = new Set<number>();
+  for (const quiz of passedQuizzes) {
+    const moduleNum = quiz.dailyContent.module.number;
+    const dayNum = quiz.dailyContent.dayNumber;
+    const moduleInfo = MODULES_INFO[moduleNum - 1];
+    if (moduleInfo) {
+      const globalDay = moduleInfo.startDay + dayNum - 1;
+      passedQuizDaysSet.add(globalDay);
+    }
+  }
 
+  // Fully completed = audio + quiz passed
+  const fullyCompletedDays: number[] = [];
+  completedDaysSet.forEach((day) => {
+    if (passedQuizDaysSet.has(day)) {
+      fullyCompletedDays.push(day);
+    }
+  });
+
+  // Find current day (first uncompleted day up to maxUnlockedDay)
   let currentDay = 1;
-  for (let i = 1; i <= 15; i++) {
+  for (let i = 1; i <= maxUnlockedDay; i++) {
     if (!fullyCompletedDays.includes(i)) {
       currentDay = i;
       break;
     }
-    if (i === 15) currentDay = 15;
+    currentDay = i + 1;
+  }
+  currentDay = Math.min(currentDay, maxUnlockedDay);
+
+  // Get current module info using new structure
+  const currentModuleInfo = getModuleForDay(currentDay);
+
+  // Get next 5 days info
+  const upcomingDays = [];
+  for (let i = 0; i < 5; i++) {
+    const globalDay = currentDay + i;
+    if (globalDay > TOTAL_DAYS) break;
+
+    const moduleInfo = getModuleForDay(globalDay);
+    const dayInModule = getDayInModule(globalDay);
+
+    // Get daily content info
+    const dailyContent = await prisma.dailyContent.findFirst({
+      where: {
+        dayNumber: dayInModule,
+        module: { number: moduleInfo.number },
+      },
+      select: {
+        id: true,
+        title: true,
+      },
+    });
+
+    const isUnlocked = globalDay <= maxUnlockedDay;
+    const isCompleted = fullyCompletedDays.includes(globalDay);
+
+    upcomingDays.push({
+      globalDay,
+      dayInModule,
+      moduleNumber: moduleInfo.number,
+      moduleName: moduleInfo.name,
+      moduleIcon: moduleInfo.icon,
+      title: dailyContent?.title || `Dia ${dayInModule}`,
+      dailyContentId: dailyContent?.id || null,
+      isUnlocked,
+      isCompleted,
+      isCurrent: i === 0,
+    });
   }
 
   // Get user info
   const user = await prisma.user.findUnique({
-    where: { id: session.user.id },
+    where: { id: studentId },
     select: { fullName: true, pseudonym: true, avatarSeed: true, avatarStyle: true },
   });
 
@@ -56,7 +154,13 @@ export async function GET() {
     avatarSeed: user?.avatarSeed,
     avatarStyle: user?.avatarStyle,
     currentDay,
-    currentModule: "Lectura Critica",
+    maxUnlockedDay,
+    currentModule: {
+      number: currentModuleInfo.number,
+      name: currentModuleInfo.name,
+      icon: currentModuleInfo.icon,
+    },
+    upcomingDays,
     streak: {
       current: streak?.currentStreak || 0,
       longest: streak?.longestStreak || 0,
@@ -64,8 +168,13 @@ export async function GET() {
     },
     progress: {
       completedDays: fullyCompletedDays.length,
-      totalDays: 120,
-      percentage: Math.round((fullyCompletedDays.length / 120) * 100),
+      totalDays: TOTAL_DAYS,
+      percentage: Math.round((fullyCompletedDays.length / TOTAL_DAYS) * 100),
+    },
+    cohort: {
+      id: studentDayInfo.cohortId,
+      name: studentDayInfo.cohortName,
+      startDate: studentDayInfo.cohortStartDate.toISOString(),
     },
   });
 }

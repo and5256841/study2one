@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
+import { getTwemojiUrl, getDefaultTwemoji } from "@/lib/twemoji";
 
 export async function GET() {
   const session = await auth();
@@ -21,11 +22,16 @@ export async function GET() {
       enrollmentStatus: true,
       createdAt: true,
       streak: true,
-      audioProgress: {
-        where: { isCompleted: true },
-      },
+      audioProgress: true, // Get all to calculate stats
       quizAttempts: true,
       photoUploads: true,
+      simulacroAttempts: {
+        include: {
+          simulacro: {
+            select: { title: true },
+          },
+        },
+      },
     },
   });
 
@@ -33,18 +39,81 @@ export async function GET() {
     return NextResponse.json({ error: "Usuario no encontrado" }, { status: 404 });
   }
 
-  // Calculate stats
-  const totalAudioCompleted = user.audioProgress.length;
+  // Audio stats
+  const completedAudios = user.audioProgress.filter((a) => a.isCompleted);
+  const totalAudioCompleted = completedAudios.length;
+  const totalListenedSeconds = user.audioProgress.reduce(
+    (sum, a) => sum + (a.totalListenedSeconds || 0),
+    0
+  );
+
+  // Calculate average playback speed
+  const speedCounts: Record<number, number> = {};
+  user.audioProgress.forEach((a) => {
+    const speed = a.playbackSpeed || 1.0;
+    speedCounts[speed] = (speedCounts[speed] || 0) + 1;
+  });
+  const mostUsedSpeed =
+    Object.entries(speedCounts).length > 0
+      ? parseFloat(
+          Object.entries(speedCounts).sort((a, b) => b[1] - a[1])[0][0]
+        )
+      : 1.0;
+
+  // Quiz stats
   const totalQuizzes = user.quizAttempts.length;
-  const avgScore = totalQuizzes > 0
-    ? Math.round(user.quizAttempts.reduce((sum, q) => sum + q.score, 0) / totalQuizzes * 100 / 3)
-    : 0;
-  const totalPhotos = user.photoUploads.length;
+  const passedQuizzes = user.quizAttempts.filter((q) => q.score >= 2).length;
+  const failedQuizzes = totalQuizzes - passedQuizzes;
+  const avgScore =
+    totalQuizzes > 0
+      ? Math.round(
+          (user.quizAttempts.reduce((sum, q) => sum + q.score, 0) /
+            totalQuizzes /
+            3) *
+            100
+        )
+      : 0;
+
+  // Simulacro stats
+  const totalSimulacros = user.simulacroAttempts.length;
+  const completedSimulacros = user.simulacroAttempts.filter(
+    (s) => s.isCompleted
+  ).length;
+  const avgSimulacroScore =
+    totalSimulacros > 0
+      ? Math.round(
+          user.simulacroAttempts.reduce((sum, s) => sum + (s.scorePercentage || 0), 0) /
+            totalSimulacros
+        )
+      : 0;
+
+  // Calculate total platform time (audio + quiz estimate)
+  const estimatedQuizTime = totalQuizzes * 60; // 1 min per quiz estimate
+  const totalPlatformSeconds = totalListenedSeconds + estimatedQuizTime;
+
+  // Format time
+  const formatTime = (seconds: number) => {
+    const hours = Math.floor(seconds / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
+    if (hours > 0) {
+      return `${hours}h ${minutes}m`;
+    }
+    return `${minutes}m`;
+  };
+
+  // Avatar URL
+  const avatarUrl =
+    user.avatarStyle === "twemoji" && user.avatarSeed
+      ? getTwemojiUrl(user.avatarSeed)
+      : getTwemojiUrl(getDefaultTwemoji().code);
 
   return NextResponse.json({
     name: user.fullName,
     email: user.email,
     pseudonym: user.pseudonym,
+    avatarSeed: user.avatarSeed,
+    avatarStyle: user.avatarStyle,
+    avatarUrl,
     university: user.university,
     enrollmentStatus: user.enrollmentStatus,
     memberSince: user.createdAt,
@@ -55,8 +124,24 @@ export async function GET() {
     stats: {
       audioCompleted: totalAudioCompleted,
       quizzesTaken: totalQuizzes,
+      quizzesPassed: passedQuizzes,
+      quizzesFailed: failedQuizzes,
       avgQuizScore: avgScore,
-      photosUploaded: totalPhotos,
+      photosUploaded: user.photoUploads.length,
+    },
+    audioStats: {
+      totalListenedSeconds,
+      totalListenedFormatted: formatTime(totalListenedSeconds),
+      mostUsedSpeed,
+    },
+    simulacroStats: {
+      total: totalSimulacros,
+      completed: completedSimulacros,
+      avgScore: avgSimulacroScore,
+    },
+    platformTime: {
+      totalSeconds: totalPlatformSeconds,
+      formatted: formatTime(totalPlatformSeconds),
     },
   });
 }

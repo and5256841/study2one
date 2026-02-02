@@ -1,41 +1,113 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
-const modules = [
-  { number: 1, name: "Lectura Crítica", icon: "📖", weeks: "Semana 1-2" },
-  { number: 2, name: "Razonamiento Cuantitativo", icon: "🔢", weeks: "Semana 3-4" },
-  { number: 3, name: "Competencias Ciudadanas", icon: "🏛️", weeks: "Semana 5" },
-  { number: 4, name: "Comunicación Escrita", icon: "✍️", weeks: "Semana 6" },
-  { number: 5, name: "Inglés", icon: "🌎", weeks: "Semana 7" },
-  { number: 6, name: "Pensamiento Científico", icon: "🔬", weeks: "Semana 8" },
-  { number: 7, name: "Fundamentación Dx y Tx", icon: "🩺", weeks: "Semana 9-10" },
-  { number: 8, name: "Atención en Salud PyP", icon: "🏥", weeks: "Semana 11-12" },
-];
+interface ModuleData {
+  number: number;
+  name: string;
+  icon: string;
+  weeks: string;
+  description: string;
+  totalWeeks: number;
+  totalDays: number;
+  startDay: number;
+  endDay: number;
+  status: "completed" | "in_progress" | "locked";
+  completedDays: number;
+  dateRange: {
+    start: string;
+    end: string;
+    formatted: string;
+  };
+}
+
+interface RoadmapData {
+  cohort: {
+    id: string;
+    name: string;
+    startDate: string;
+  };
+  currentDay: number;
+  maxUnlockedDay: number;
+  currentModule: {
+    number: number;
+    name: string;
+    icon: string;
+  };
+  modules: ModuleData[];
+  progress: {
+    completedDays: number;
+    totalDays: number;
+    percentage: number;
+  };
+}
 
 export default function RoadmapPage() {
-  const currentModule = 1;
-  const completedDays = 0;
-  const totalDays = 120;
-  const progressPercent = Math.round((completedDays / totalDays) * 100);
+  const [data, setData] = useState<RoadmapData | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch("/api/student/roadmap")
+      .then((res) => {
+        if (!res.ok) throw new Error("Error cargando roadmap");
+        return res.json();
+      })
+      .then((data) => {
+        setData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="px-4 py-6 flex justify-center items-center min-h-[50vh]">
+        <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-green-400"></div>
+      </div>
+    );
+  }
+
+  if (error || !data) {
+    return (
+      <div className="px-4 py-6 text-center">
+        <p className="text-red-400">{error || "Error cargando datos"}</p>
+        <p className="text-gray-400 text-sm mt-2">
+          Contacta a tu coordinador si el problema persiste.
+        </p>
+      </div>
+    );
+  }
+
+  const { modules, progress, currentDay, cohort } = data;
 
   return (
-    <div className="px-4 py-6 space-y-4">
+    <div className="px-4 py-6 space-y-4 pb-24">
       <div className="text-center">
         <h2 className="text-xl font-bold">Tu Plan de Estudio</h2>
-        <p className="text-gray-400 text-sm">8 módulos para dominar el Saber Pro</p>
+        <p className="text-gray-400 text-sm">
+          {cohort.name} - 25 semanas para dominar el Saber Pro
+        </p>
       </div>
 
       {/* Progress Bar */}
       <div className="bg-white/5 border border-white/10 rounded-xl p-3">
+        <div className="flex justify-between items-center mb-2">
+          <span className="text-xs text-gray-400">Progreso general</span>
+          <span className="text-xs font-semibold text-green-400">{progress.percentage}%</span>
+        </div>
         <div className="bg-white/10 rounded-full h-2.5 overflow-hidden">
           <div
             className="h-full bg-gradient-to-r from-green-400 to-blue-400 rounded-full transition-all"
-            style={{ width: `${progressPercent}%` }}
+            style={{ width: `${progress.percentage}%` }}
           />
         </div>
-        <p className="text-gray-400 text-xs mt-2 text-right">
-          {completedDays} de {totalDays} días • {progressPercent}% completado
+        <p className="text-gray-500 text-xs mt-2 text-right">
+          {progress.completedDays} de {progress.totalDays} dias completados
         </p>
       </div>
 
@@ -45,8 +117,9 @@ export default function RoadmapPage() {
         <div className="absolute left-[9px] top-2 bottom-2 w-0.5 bg-white/10" />
 
         {modules.map((mod) => {
-          const isCurrent = mod.number === currentModule;
-          const isLocked = mod.number > currentModule;
+          const isCompleted = mod.status === "completed";
+          const isCurrent = mod.status === "in_progress";
+          const isLocked = mod.status === "locked";
 
           return (
             <div
@@ -61,44 +134,91 @@ export default function RoadmapPage() {
             >
               {/* Dot */}
               <div
-                className={`absolute -left-5 top-1/2 -translate-y-1/2 w-3 h-3 rounded-full ${
-                  isCurrent
+                className={`absolute -left-5 top-6 w-3 h-3 rounded-full ${
+                  isCompleted
+                    ? "bg-green-500"
+                    : isCurrent
                     ? "bg-orange-500 shadow-lg shadow-orange-500/50"
-                    : isLocked
-                    ? "bg-gray-600"
-                    : "bg-green-500"
+                    : "bg-gray-600"
                 }`}
               />
 
               <div className="flex justify-between items-start">
-                <div>
-                  <p className="text-xs text-gray-400 font-semibold uppercase tracking-wider">
-                    {mod.weeks}
-                  </p>
-                  <h3 className="font-semibold mt-0.5">
-                    {mod.icon} {mod.name}
+                <div className="flex-1">
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs text-gray-500 font-medium">{mod.weeks}</span>
+                    <span className="text-gray-600">•</span>
+                    <span className="text-xs text-gray-400">{mod.dateRange.formatted}</span>
+                  </div>
+                  <h3 className="font-semibold mt-1 flex items-center gap-2">
+                    <span className="text-lg">{mod.icon}</span>
+                    <span>{mod.name}</span>
                   </h3>
+                  <p className="text-xs text-gray-500 mt-1">{mod.description}</p>
+                  {!isLocked && (
+                    <p className="text-xs text-gray-400 mt-2">
+                      {mod.completedDays}/{mod.totalDays} dias • {mod.totalWeeks} semanas
+                    </p>
+                  )}
                 </div>
-                {isCurrent && (
-                  <span className="bg-orange-500/20 text-orange-400 text-xs px-2 py-0.5 rounded-full font-semibold">
-                    En curso
-                  </span>
-                )}
-                {isLocked && (
-                  <span className="text-xs text-gray-500">🔒</span>
-                )}
+                <div className="flex flex-col items-end gap-1 ml-2">
+                  {isCompleted && (
+                    <span className="bg-green-500/20 text-green-400 text-xs px-2 py-0.5 rounded-full font-semibold">
+                      Completado
+                    </span>
+                  )}
+                  {isCurrent && (
+                    <span className="bg-orange-500/20 text-orange-400 text-xs px-2 py-0.5 rounded-full font-semibold">
+                      En curso
+                    </span>
+                  )}
+                  {isLocked && <span className="text-gray-600">🔒</span>}
+                </div>
               </div>
+
+              {/* Progress bar del módulo */}
+              {!isLocked && (
+                <div className="mt-3 bg-white/10 rounded-full h-1.5 overflow-hidden">
+                  <div
+                    className={`h-full rounded-full transition-all ${
+                      isCompleted ? "bg-green-500" : "bg-orange-500"
+                    }`}
+                    style={{
+                      width: `${(mod.completedDays / mod.totalDays) * 100}%`,
+                    }}
+                  />
+                </div>
+              )}
 
               {isCurrent && (
                 <Link
-                  href="/day/1"
+                  href={`/day/${currentDay}`}
                   className="block mt-3 w-full py-2 bg-gradient-to-r from-orange-600 to-orange-400 text-white text-sm font-semibold rounded-lg text-center"
                 >
-                  Continuar →
+                  Continuar Dia {currentDay} →
+                </Link>
+              )}
+
+              {isCompleted && (
+                <Link
+                  href={`/day/${mod.startDay}`}
+                  className="block mt-3 w-full py-2 bg-white/10 text-white text-sm font-semibold rounded-lg text-center hover:bg-white/20 transition"
+                >
+                  Repasar modulo
                 </Link>
               )}
             </div>
           );
+        })}
+      </div>
+
+      {/* Info del cohort */}
+      <div className="text-center text-xs text-gray-500 pt-4">
+        Inicio del programa:{" "}
+        {new Date(cohort.startDate).toLocaleDateString("es-CO", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
         })}
       </div>
     </div>

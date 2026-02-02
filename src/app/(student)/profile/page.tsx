@@ -7,6 +7,7 @@ interface ProfileData {
   name: string;
   email: string;
   pseudonym: string | null;
+  avatarUrl: string;
   university: string | null;
   enrollmentStatus: string;
   memberSince: string;
@@ -14,8 +15,24 @@ interface ProfileData {
   stats: {
     audioCompleted: number;
     quizzesTaken: number;
+    quizzesPassed: number;
+    quizzesFailed: number;
     avgQuizScore: number;
     photosUploaded: number;
+  };
+  audioStats: {
+    totalListenedSeconds: number;
+    totalListenedFormatted: string;
+    mostUsedSpeed: number;
+  };
+  simulacroStats: {
+    total: number;
+    completed: number;
+    avgScore: number;
+  };
+  platformTime: {
+    totalSeconds: number;
+    formatted: string;
   };
 }
 
@@ -62,12 +79,16 @@ export default function ProfilePage() {
   };
 
   return (
-    <div className="px-4 py-6 space-y-5">
+    <div className="px-4 py-6 space-y-5 pb-24">
       {/* Avatar & Name */}
       <div className="text-center">
         <Link href="/profile/avatar" className="inline-block relative group">
-          <div className="w-20 h-20 mx-auto bg-gradient-to-br from-green-400 to-blue-400 rounded-full flex items-center justify-center text-3xl font-bold text-white overflow-hidden">
-            {profile.name.charAt(0).toUpperCase()}
+          <div className="w-20 h-20 mx-auto bg-white/10 rounded-full flex items-center justify-center overflow-hidden p-2">
+            <img
+              src={profile.avatarUrl}
+              alt="Avatar"
+              className="w-full h-full"
+            />
           </div>
           <span className="absolute bottom-0 right-0 w-6 h-6 bg-white/20 rounded-full flex items-center justify-center text-xs border border-white/30 group-hover:bg-white/30">✏️</span>
         </Link>
@@ -84,7 +105,7 @@ export default function ProfilePage() {
       <div className="bg-white/5 border border-white/10 rounded-2xl p-4 space-y-3">
         <div className="flex justify-between items-center">
           <span className="text-gray-400 text-sm">Email</span>
-          <span className="text-sm">{profile.email}</span>
+          <span className="text-sm truncate ml-2">{profile.email}</span>
         </div>
         {profile.university && (
           <div className="flex justify-between items-center">
@@ -103,33 +124,92 @@ export default function ProfilePage() {
         </div>
       </div>
 
-      {/* Stats Grid */}
+      {/* Time Stats */}
+      <div className="bg-gradient-to-r from-green-500/10 to-blue-500/10 border border-white/10 rounded-2xl p-4">
+        <h3 className="font-semibold text-sm text-gray-400 mb-3">Tiempo en la plataforma</h3>
+        <div className="flex justify-between items-center">
+          <div>
+            <p className="text-3xl font-bold">{profile.platformTime.formatted}</p>
+            <p className="text-gray-500 text-xs">Tiempo total</p>
+          </div>
+          <div className="text-right">
+            <p className="text-lg font-semibold">{profile.audioStats.totalListenedFormatted}</p>
+            <p className="text-gray-500 text-xs">Escuchando audios</p>
+          </div>
+        </div>
+        <div className="mt-3 pt-3 border-t border-white/10 flex justify-between items-center">
+          <span className="text-gray-400 text-sm">Velocidad favorita</span>
+          <span className="font-semibold">{profile.audioStats.mostUsedSpeed}x</span>
+        </div>
+      </div>
+
+      {/* Streak Stats */}
       <div className="grid grid-cols-2 gap-3">
         <div className="bg-white/5 border border-white/10 rounded-xl p-3 text-center">
           <p className="text-2xl font-bold">{profile.streak.current}</p>
-          <p className="text-gray-400 text-xs">Racha actual</p>
+          <p className="text-gray-400 text-xs">Racha actual 🔥</p>
         </div>
         <div className="bg-white/5 border border-white/10 rounded-xl p-3 text-center">
           <p className="text-2xl font-bold">{profile.streak.longest}</p>
           <p className="text-gray-400 text-xs">Mejor racha</p>
         </div>
+      </div>
+
+      {/* Quiz Stats */}
+      <div className="bg-white/5 border border-white/10 rounded-2xl p-4">
+        <h3 className="font-semibold text-sm text-gray-400 mb-3">Quizzes diarios</h3>
+        <div className="grid grid-cols-3 gap-3 text-center">
+          <div>
+            <p className="text-xl font-bold">{profile.stats.quizzesTaken}</p>
+            <p className="text-gray-500 text-xs">Intentos</p>
+          </div>
+          <div>
+            <p className="text-xl font-bold text-green-400">{profile.stats.quizzesPassed}</p>
+            <p className="text-gray-500 text-xs">Aprobados</p>
+          </div>
+          <div>
+            <p className="text-xl font-bold text-red-400">{profile.stats.quizzesFailed}</p>
+            <p className="text-gray-500 text-xs">Reprobados</p>
+          </div>
+        </div>
+        <div className="mt-3 pt-3 border-t border-white/10 flex justify-between items-center">
+          <span className="text-gray-400 text-sm">Promedio</span>
+          <span className="font-semibold">{profile.stats.avgQuizScore}%</span>
+        </div>
+      </div>
+
+      {/* Audio & Photos Stats */}
+      <div className="grid grid-cols-2 gap-3">
         <div className="bg-white/5 border border-white/10 rounded-xl p-3 text-center">
           <p className="text-2xl font-bold">{profile.stats.audioCompleted}</p>
           <p className="text-gray-400 text-xs">Audios completados</p>
-        </div>
-        <div className="bg-white/5 border border-white/10 rounded-xl p-3 text-center">
-          <p className="text-2xl font-bold">{profile.stats.avgQuizScore}%</p>
-          <p className="text-gray-400 text-xs">Promedio quiz</p>
-        </div>
-        <div className="bg-white/5 border border-white/10 rounded-xl p-3 text-center">
-          <p className="text-2xl font-bold">{profile.stats.quizzesTaken}</p>
-          <p className="text-gray-400 text-xs">Quizzes hechos</p>
         </div>
         <div className="bg-white/5 border border-white/10 rounded-xl p-3 text-center">
           <p className="text-2xl font-bold">{profile.stats.photosUploaded}</p>
           <p className="text-gray-400 text-xs">Fotos subidas</p>
         </div>
       </div>
+
+      {/* Simulacros Stats */}
+      {profile.simulacroStats.total > 0 && (
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-4">
+          <h3 className="font-semibold text-sm text-gray-400 mb-3">Simulacros</h3>
+          <div className="grid grid-cols-3 gap-3 text-center">
+            <div>
+              <p className="text-xl font-bold">{profile.simulacroStats.total}</p>
+              <p className="text-gray-500 text-xs">Iniciados</p>
+            </div>
+            <div>
+              <p className="text-xl font-bold text-green-400">{profile.simulacroStats.completed}</p>
+              <p className="text-gray-500 text-xs">Completados</p>
+            </div>
+            <div>
+              <p className="text-xl font-bold">{profile.simulacroStats.avgScore}%</p>
+              <p className="text-gray-500 text-xs">Promedio</p>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Logout Button */}
       <button

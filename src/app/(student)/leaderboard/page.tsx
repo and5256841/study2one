@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 interface LeaderboardEntry {
   id: string;
   name: string;
+  avatarUrl: string;
   rank: number;
   streak: number;
   completedDays: number;
@@ -75,6 +76,15 @@ export default function LeaderboardPage() {
                 ) : (
                   <span className="text-gray-400 font-bold text-sm">{entry.rank}</span>
                 )}
+              </div>
+
+              {/* Avatar */}
+              <div className="w-10 h-10 rounded-full bg-white/10 p-1 flex-shrink-0">
+                <img
+                  src={entry.avatarUrl}
+                  alt={entry.name}
+                  className="w-full h-full"
+                />
               </div>
 
               {/* Name */}
