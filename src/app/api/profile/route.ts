@@ -1,7 +1,7 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { getTwemojiUrl, getDefaultTwemoji } from "@/lib/twemoji";
+import { getStudentRhythmFromActivity } from "@/lib/ecg-rhythms";
 
 export async function GET() {
   const session = await auth();
@@ -16,8 +16,6 @@ export async function GET() {
       fullName: true,
       email: true,
       pseudonym: true,
-      avatarSeed: true,
-      avatarStyle: true,
       university: true,
       enrollmentStatus: true,
       createdAt: true,
@@ -101,19 +99,21 @@ export async function GET() {
     return `${minutes}m`;
   };
 
-  // Avatar URL
-  const avatarUrl =
-    user.avatarStyle === "twemoji" && user.avatarSeed
-      ? getTwemojiUrl(user.avatarSeed)
-      : getTwemojiUrl(getDefaultTwemoji().code);
+  // ECG Rhythm based on student metrics
+  const lastActivity = user.streak?.lastActivityDate?.toISOString() ?? null;
+  const currentStreak = user.streak?.currentStreak ?? 0;
+  const rhythm = getStudentRhythmFromActivity(lastActivity, currentStreak, avgScore);
 
   return NextResponse.json({
     name: user.fullName,
     email: user.email,
     pseudonym: user.pseudonym,
-    avatarSeed: user.avatarSeed,
-    avatarStyle: user.avatarStyle,
-    avatarUrl,
+    rhythm: {
+      type: rhythm.type,
+      label: rhythm.label,
+      color: rhythm.color,
+      description: rhythm.description,
+    },
     university: user.university,
     enrollmentStatus: user.enrollmentStatus,
     memberSince: user.createdAt,
@@ -144,4 +144,27 @@ export async function GET() {
       formatted: formatTime(totalPlatformSeconds),
     },
   });
+}
+
+export async function PUT(req: NextRequest) {
+  const session = await auth();
+  if (!session?.user?.id) {
+    return NextResponse.json({ error: "No autorizado" }, { status: 401 });
+  }
+
+  const { pseudonym } = await req.json();
+
+  if (!pseudonym || pseudonym.length < 3 || pseudonym.length > 20) {
+    return NextResponse.json(
+      { error: "El seudónimo debe tener entre 3 y 20 caracteres" },
+      { status: 400 }
+    );
+  }
+
+  await prisma.user.update({
+    where: { id: session.user.id },
+    data: { pseudonym },
+  });
+
+  return NextResponse.json({ success: true });
 }

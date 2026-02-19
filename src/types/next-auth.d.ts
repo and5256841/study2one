@@ -6,8 +6,6 @@ declare module "next-auth" {
       id: string;
       role: "STUDENT" | "COORDINATOR" | "CLIENT";
       pseudonym?: string;
-      avatarSeed?: string;
-      avatarStyle?: string;
     } & DefaultSession["user"];
   }
 }
@@ -17,7 +15,5 @@ declare module "next-auth/jwt" {
     role: string;
     userId: string;
     pseudonym?: string;
-    avatarSeed?: string;
-    avatarStyle?: string;
   }
 }

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import { getModuleForDay, getDayInModule, TOTAL_DAYS } from "@/lib/student-day";
 
 export async function GET(
   req: NextRequest,
@@ -8,25 +9,20 @@ export async function GET(
   const { dayId } = params;
   const dayNumber = parseInt(dayId);
 
-  if (isNaN(dayNumber) || dayNumber < 1 || dayNumber > 120) {
+  if (isNaN(dayNumber) || dayNumber < 1 || dayNumber > TOTAL_DAYS) {
     return NextResponse.json({ error: "Invalid day" }, { status: 400 });
   }
 
-  // Calcular módulo basado en el día global
-  const moduleNumber = Math.ceil(dayNumber / 15);
-  const dayInModule = ((dayNumber - 1) % 15) + 1;
+  // Calcular módulo y día dentro del módulo usando MODULES_INFO correcto
+  const moduleInfo = getModuleForDay(dayNumber);
+  const dayInModule = getDayInModule(dayNumber);
 
-  // Buscar el DailyContent en la BD
   const dailyContent = await prisma.dailyContent.findFirst({
     where: {
       dayNumber: dayInModule,
-      module: {
-        number: moduleNumber,
-      },
+      module: { number: moduleInfo.number },
     },
-    select: {
-      audioUrl: true,
-    },
+    select: { audioUrl: true },
   });
 
   if (!dailyContent?.audioUrl) {
@@ -36,6 +32,6 @@ export async function GET(
     );
   }
 
-  // Redirect a Cloudinary (mejor para CDN caching y no consume memoria del servidor)
+  // Redirect a Cloudinary (CDN caching, no consume memoria del servidor)
   return NextResponse.redirect(dailyContent.audioUrl, 302);
 }

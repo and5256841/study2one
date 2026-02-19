@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { getTwemojiUrl, getDefaultTwemoji } from "@/lib/twemoji";
+import { getStudentRhythmFromActivity } from "@/lib/ecg-rhythms";
 
 export async function GET() {
   const session = await auth();
@@ -16,12 +16,9 @@ export async function GET() {
       id: true,
       pseudonym: true,
       fullName: true,
-      avatarSeed: true,
-      avatarStyle: true,
       streak: true,
       quizAttempts: {
-        where: { score: { gte: 2 } },
-        select: { dailyContentId: true },
+        select: { score: true, totalQuestions: true },
       },
       audioProgress: {
         where: { isCompleted: true },
@@ -34,19 +31,27 @@ export async function GET() {
   const ranked = students
     .map((s) => {
       const completedDays = s.audioProgress.length;
-      const quizzesPassed = s.quizAttempts.length;
-      // Score: weighted combination of days completed + streak
+      const quizzesPassed = s.quizAttempts.filter((q) => q.score >= 2).length;
       const score = completedDays * 10 + quizzesPassed * 5 + (s.streak?.currentStreak || 0) * 3;
 
-      // Generar URL del avatar
-      const avatarUrl = s.avatarStyle === "twemoji" && s.avatarSeed
-        ? getTwemojiUrl(s.avatarSeed)
-        : getTwemojiUrl(getDefaultTwemoji().code);
+      // ECG rhythm based on quiz performance + activity
+      const avgQuizScore = s.quizAttempts.length > 0
+        ? Math.round(
+            (s.quizAttempts.reduce((sum, q) => sum + q.score, 0) /
+              s.quizAttempts.reduce((sum, q) => sum + q.totalQuestions, 0)) * 100
+          )
+        : 0;
+      const rhythm = getStudentRhythmFromActivity(
+        s.streak?.lastActivityDate?.toISOString() ?? null,
+        s.streak?.currentStreak ?? 0,
+        avgQuizScore,
+      );
 
       return {
         id: s.id,
         name: s.pseudonym || s.fullName.split(" ")[0],
-        avatarUrl,
+        rhythmType: rhythm.type,
+        rhythmColor: rhythm.color,
         streak: s.streak?.currentStreak || 0,
         completedDays,
         quizzesPassed,

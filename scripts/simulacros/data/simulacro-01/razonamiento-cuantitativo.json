@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Un hospital registró el número de consultas de urgencias durante una semana:\n\n| Día | Lunes | Martes | Miércoles | Jueves | Viernes | Sábado | Domingo |\n|-----|-------|--------|-----------|--------|---------|--------|---------|\n| Consultas | 82 | 75 | 68 | 71 | 90 | 104 | 112 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la mediana del número de consultas durante esa semana?",
+    "explanation": "Ordenando los datos de menor a mayor: 68, 71, 75, 82, 90, 104, 112. Con 7 datos, la mediana es el valor central (posición 4): 82.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "75", "isCorrect": false },
+      { "letter": "B", "text": "82", "isCorrect": true },
+      { "letter": "C", "text": "86", "isCorrect": false },
+      { "letter": "D", "text": "90", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "Con base en la tabla anterior, ¿cuál afirmación es correcta sobre la variabilidad de las consultas?",
+    "explanation": "El rango es 112 − 68 = 44. El promedio es (82+75+68+71+90+104+112)/7 = 602/7 ≈ 86. Los fines de semana (104 y 112) superan claramente el promedio, confirmando que el fin de semana tiene la mayor demanda. La desviación estándar requiere cálculo adicional y no es 12.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La desviación estándar de los datos es exactamente 12.", "isCorrect": false },
+      { "letter": "B", "text": "El rango de los datos es 44 y los días de mayor demanda son sábado y domingo.", "isCorrect": true },
+      { "letter": "C", "text": "La distribución es simétrica porque la media y la mediana son iguales.", "isCorrect": false },
+      { "letter": "D", "text": "No hay variabilidad significativa porque todos los valores están entre 60 y 120.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "En un estudio epidemiológico se analizó la relación entre el índice de masa corporal (IMC) y la presión arterial sistólica (PAS) en 200 adultos. Se obtuvo un coeficiente de correlación de Pearson r = 0,72.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué se puede concluir correctamente a partir de este coeficiente de correlación?",
+    "explanation": "Un r = 0,72 indica una correlación positiva fuerte: a mayor IMC, tiende a haber mayor PAS. Sin embargo, correlación no implica causalidad. El coeficiente de determinación sería r² = 0,5184 ≈ 52%, no 72%. Además, r = 0,72 no es perfecta (que sería r = 1).",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El aumento del IMC causa directamente el aumento de la presión arterial.", "isCorrect": false },
+      { "letter": "B", "text": "Existe una asociación lineal positiva fuerte entre IMC y presión arterial.", "isCorrect": true },
+      { "letter": "C", "text": "El 72 % de la variabilidad de la presión arterial se explica por el IMC.", "isCorrect": false },
+      { "letter": "D", "text": "La relación entre IMC y presión arterial es perfecta y predecible.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Una clínica ofrece dos planes de atención prepagada:\n\n• Plan A: cuota fija mensual de $180.000 y $15.000 por cada consulta.\n• Plan B: sin cuota fija, pero cada consulta cuesta $45.000.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿A partir de cuántas consultas mensuales el Plan A resulta más económico que el Plan B?",
+    "explanation": "Igualando costos: 180.000 + 15.000x = 45.000x → 180.000 = 30.000x → x = 6. Con 6 consultas los planes cuestan igual ($450.000). A partir de 7 consultas, el Plan A es más barato.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "A partir de 5 consultas.", "isCorrect": false },
+      { "letter": "B", "text": "A partir de 6 consultas.", "isCorrect": false },
+      { "letter": "C", "text": "A partir de 7 consultas.", "isCorrect": true },
+      { "letter": "D", "text": "A partir de 8 consultas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Se realizó una encuesta a 400 estudiantes universitarios sobre su nivel de actividad física semanal. Los resultados se presentan en la siguiente tabla:\n\n| Nivel de actividad | Hombres | Mujeres | Total |\n|-------------------|---------|---------|-------|\n| Sedentario | 40 | 60 | 100 |\n| Moderado | 80 | 100 | 180 |\n| Alto | 70 | 50 | 120 |\n| Total | 190 | 210 | 400 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la probabilidad de que un estudiante seleccionado al azar sea mujer y tenga un nivel de actividad alto?",
+    "explanation": "La probabilidad de ser mujer con actividad alta es 50/400 = 0,125 = 12,5%. Las demás opciones confunden con la probabilidad de ser mujer (210/400), de actividad alta (120/400), o de actividad alta dado que es mujer (50/210).",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "12,5 %", "isCorrect": true },
+      { "letter": "B", "text": "23,8 %", "isCorrect": false },
+      { "letter": "C", "text": "30,0 %", "isCorrect": false },
+      { "letter": "D", "text": "52,5 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "Con base en la tabla anterior, ¿cuál afirmación es correcta?",
+    "explanation": "Porcentaje sedentario hombres: 40/190 ≈ 21,1%. Porcentaje sedentario mujeres: 60/210 ≈ 28,6%. Así, el porcentaje de sedentarismo es mayor en mujeres. La moda para hombres es Moderado (80), no Alto. El porcentaje de actividad alta total es 120/400 = 30%, no 50%.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El porcentaje de sedentarismo es mayor entre los hombres que entre las mujeres.", "isCorrect": false },
+      { "letter": "B", "text": "La categoría modal para los hombres es 'Alto'.", "isCorrect": false },
+      { "letter": "C", "text": "Más del 50 % de los estudiantes tiene un nivel de actividad alto.", "isCorrect": false },
+      { "letter": "D", "text": "El porcentaje de sedentarismo es mayor entre las mujeres que entre los hombres.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Un medicamento tiene una vida media de eliminación de 6 horas. Un paciente recibe una dosis inicial de 400 mg por vía oral.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué cantidad aproximada del medicamento queda en el organismo después de 18 horas?",
+    "explanation": "En 18 horas transcurren 18/6 = 3 vidas medias. Después de cada vida media, la cantidad se reduce a la mitad: 400 → 200 → 100 → 50 mg.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "25 mg", "isCorrect": false },
+      { "letter": "B", "text": "50 mg", "isCorrect": true },
+      { "letter": "C", "text": "100 mg", "isCorrect": false },
+      { "letter": "D", "text": "200 mg", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "La siguiente gráfica muestra la evolución de la tasa de mortalidad infantil (por cada 1.000 nacidos vivos) en un país durante cuatro décadas:\n\n• 1980: 45\n• 1990: 32\n• 2000: 20\n• 2010: 14\n• 2020: 9\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿En qué década se produjo la mayor reducción absoluta de la tasa de mortalidad infantil?",
+    "explanation": "Reducciones absolutas por década: 1980-1990: 45−32 = 13; 1990-2000: 32−20 = 12; 2000-2010: 20−14 = 6; 2010-2020: 14−9 = 5. La mayor reducción absoluta fue 13, en la década 1980-1990.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "1980 a 1990", "isCorrect": true },
+      { "letter": "B", "text": "1990 a 2000", "isCorrect": false },
+      { "letter": "C", "text": "2000 a 2010", "isCorrect": false },
+      { "letter": "D", "text": "2010 a 2020", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "Si la tendencia de reducción porcentual entre 2010 y 2020 (aproximadamente 36 %) se mantuviera, ¿cuál sería la tasa estimada para 2030?",
+    "explanation": "De 2010 a 2020 la tasa bajó de 14 a 9, una reducción de 5/14 ≈ 35,7%. Aplicando la misma reducción porcentual a 9: 9 × (1 − 0,357) = 9 × 0,643 ≈ 5,8. La opción más cercana es 5,8.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "Aproximadamente 4,0", "isCorrect": false },
+      { "letter": "B", "text": "Aproximadamente 5,8", "isCorrect": true },
+      { "letter": "C", "text": "Aproximadamente 7,2", "isCorrect": false },
+      { "letter": "D", "text": "Aproximadamente 3,0", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Un laboratorio reporta los siguientes resultados de glucemia en ayunas (mg/dL) para 10 pacientes:\n\n85, 92, 78, 110, 95, 88, 102, 240, 91, 87\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál medida de tendencia central es más apropiada para describir el valor típico de glucemia en este grupo?",
+    "explanation": "El valor 240 es un dato atípico (outlier) que eleva significativamente la media aritmética. La mediana no se ve afectada por valores extremos y representa mejor el valor típico del grupo. La moda no aplica bien con datos continuos sin repeticiones, y la media geométrica no es estándar para este tipo de datos clínicos.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La media aritmética, porque incluye todos los valores.", "isCorrect": false },
+      { "letter": "B", "text": "La moda, porque indica el valor más frecuente.", "isCorrect": false },
+      { "letter": "C", "text": "La mediana, porque no se afecta por el valor atípico de 240.", "isCorrect": true },
+      { "letter": "D", "text": "La media geométrica, porque los datos tienen distribución logarítmica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "En una campaña de vacunación, se vacunó al 80 % de la población objetivo de 12.500 personas. De las personas vacunadas, el 95 % desarrolló inmunidad efectiva.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuántas personas de la población objetivo desarrollaron inmunidad efectiva?",
+    "explanation": "Personas vacunadas: 12.500 × 0,80 = 10.000. Con inmunidad efectiva: 10.000 × 0,95 = 9.500.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "9.000", "isCorrect": false },
+      { "letter": "B", "text": "9.500", "isCorrect": true },
+      { "letter": "C", "text": "10.000", "isCorrect": false },
+      { "letter": "D", "text": "11.875", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Una prueba diagnóstica para detectar una enfermedad tiene una sensibilidad del 90 % y una especificidad del 85 %. En una población de 10.000 personas, la prevalencia de la enfermedad es del 5 %.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuántos falsos positivos se esperan al aplicar la prueba a toda la población?",
+    "explanation": "Personas sin la enfermedad: 10.000 × 0,95 = 9.500. Especificidad = 85%, por lo que el 15% de los sanos darán falso positivo: 9.500 × 0,15 = 1.425.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "50", "isCorrect": false },
+      { "letter": "B", "text": "500", "isCorrect": false },
+      { "letter": "C", "text": "1.425", "isCorrect": true },
+      { "letter": "D", "text": "1.500", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "Con los datos de la pregunta anterior, ¿cuál es el valor predictivo positivo (VPP) aproximado de la prueba?",
+    "explanation": "Verdaderos positivos: 500 × 0,90 = 450. Falsos positivos: 1.425. Total de positivos: 450 + 1.425 = 1.875. VPP = 450/1.875 = 0,24 = 24%.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "24 %", "isCorrect": true },
+      { "letter": "B", "text": "45 %", "isCorrect": false },
+      { "letter": "C", "text": "85 %", "isCorrect": false },
+      { "letter": "D", "text": "90 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "El resultado anterior (VPP ≈ 24 %) indica que:",
+    "explanation": "Un VPP del 24% significa que de cada 100 personas con resultado positivo, solo 24 realmente tienen la enfermedad. Esto ocurre porque cuando la prevalencia es baja, los falsos positivos superan ampliamente a los verdaderos positivos, incluso con buena sensibilidad y especificidad.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La prueba es inútil y no debería usarse bajo ninguna circunstancia.", "isCorrect": false },
+      { "letter": "B", "text": "De cada 100 personas con resultado positivo, aproximadamente 24 realmente tienen la enfermedad.", "isCorrect": true },
+      { "letter": "C", "text": "La prueba detecta correctamente al 24 % de los enfermos.", "isCorrect": false },
+      { "letter": "D", "text": "El 24 % de la población total tiene la enfermedad según la prueba.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "Un investigador desea estimar la proporción de adultos hipertensos en una ciudad. Realiza un muestreo aleatorio de 600 personas y encuentra que 138 son hipertensas.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la proporción muestral de hipertensos y su intervalo de confianza del 95 % aproximado?",
+    "explanation": "Proporción muestral: p̂ = 138/600 = 0,23. Error estándar: √(0,23 × 0,77 / 600) = √(0,000295) ≈ 0,0172. IC 95%: 0,23 ± 1,96 × 0,0172 ≈ 0,23 ± 0,034 → (0,196; 0,264), es decir, entre 19,6% y 26,4%.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "23 %, con intervalo aproximado de 19,6 % a 26,4 %.", "isCorrect": true },
+      { "letter": "B", "text": "23 %, con intervalo aproximado de 21 % a 25 %.", "isCorrect": false },
+      { "letter": "C", "text": "13,8 %, con intervalo aproximado de 10 % a 17 %.", "isCorrect": false },
+      { "letter": "D", "text": "23 %, con intervalo aproximado de 13 % a 33 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Un estudio comparó el tiempo promedio de recuperación (en días) de dos tratamientos para una fractura de muñeca:\n\n| Tratamiento | n | Media | Desviación estándar |\n|------------|---|-------|--------------------|\n| A (yeso convencional) | 50 | 42 | 8 |\n| B (férula funcional) | 50 | 38 | 7 |\n\nSe obtuvo un valor p = 0,008.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál interpretación del valor p es correcta?",
+    "explanation": "Un valor p = 0,008 < 0,05 indica que la diferencia observada (4 días) es estadísticamente significativa, es decir, es poco probable que se deba al azar. Esto no prueba causalidad directa ni determina la magnitud del beneficio clínico. Tampoco significa que haya un 0,8% de probabilidad de que B sea mejor.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Hay un 0,8 % de probabilidad de que el tratamiento B sea mejor que el A.", "isCorrect": false },
+      { "letter": "B", "text": "Si no hubiera diferencia real entre los tratamientos, la probabilidad de observar una diferencia igual o mayor es del 0,8 %.", "isCorrect": true },
+      { "letter": "C", "text": "El tratamiento B es 0,8 % más efectivo que el tratamiento A.", "isCorrect": false },
+      { "letter": "D", "text": "El resultado demuestra que el tratamiento B causa una recuperación más rápida.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Un tanque de oxígeno tiene una capacidad de 50 litros y se llena a una presión de 200 atmósferas. Un paciente requiere un flujo de 5 litros por minuto a presión atmosférica.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Durante cuánto tiempo aproximado puede suministrarse oxígeno al paciente con un tanque lleno?",
+    "explanation": "Volumen total a presión atmosférica: 50 L × 200 atm = 10.000 L (por ley de Boyle). Tiempo: 10.000 L / 5 L/min = 2.000 minutos = 33 horas y 20 minutos, aproximadamente 33 horas.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "Aproximadamente 10 horas.", "isCorrect": false },
+      { "letter": "B", "text": "Aproximadamente 17 horas.", "isCorrect": false },
+      { "letter": "C", "text": "Aproximadamente 33 horas.", "isCorrect": true },
+      { "letter": "D", "text": "Aproximadamente 67 horas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "La siguiente tabla muestra los resultados de un ensayo clínico que evaluó la eficacia de un nuevo fármaco antihipertensivo:\n\n|  | Evento (infarto) | Sin evento | Total |\n|--|------------------|-----------|-------|\n| Fármaco nuevo | 15 | 485 | 500 |\n| Placebo | 30 | 470 | 500 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la reducción relativa del riesgo (RRR) del fármaco nuevo comparado con el placebo?",
+    "explanation": "Riesgo en grupo fármaco: 15/500 = 0,03 (3%). Riesgo en grupo placebo: 30/500 = 0,06 (6%). Reducción absoluta: 0,06 − 0,03 = 0,03. RRR = 0,03/0,06 = 0,50 = 50%.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "3 %", "isCorrect": false },
+      { "letter": "B", "text": "15 %", "isCorrect": false },
+      { "letter": "C", "text": "50 %", "isCorrect": true },
+      { "letter": "D", "text": "97 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": null,
+    "questionText": "Con base en la tabla anterior, ¿cuál es el número necesario a tratar (NNT)?",
+    "explanation": "Reducción absoluta del riesgo (RAR) = 0,06 − 0,03 = 0,03. NNT = 1/RAR = 1/0,03 ≈ 33,3. Se redondea hacia arriba: NNT ≈ 34. Esto significa que hay que tratar a 34 pacientes con el fármaco nuevo para prevenir un infarto adicional.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "2", "isCorrect": false },
+      { "letter": "B", "text": "17", "isCorrect": false },
+      { "letter": "C", "text": "34", "isCorrect": true },
+      { "letter": "D", "text": "50", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "Un centro de salud atiende en promedio 120 pacientes diarios. El 15 % de los pacientes requiere exámenes de laboratorio, y de estos, el 40 % necesita resultados urgentes que se procesan en el mismo día.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuántos resultados urgentes de laboratorio se procesan diariamente en promedio?",
+    "explanation": "Pacientes que requieren laboratorio: 120 × 0,15 = 18. De estos, urgentes: 18 × 0,40 = 7,2 ≈ 7 resultados urgentes diarios.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "5", "isCorrect": false },
+      { "letter": "B", "text": "7", "isCorrect": true },
+      { "letter": "C", "text": "18", "isCorrect": false },
+      { "letter": "D", "text": "48", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "La gráfica de barras muestra la distribución de pacientes por grupo etario en un servicio de consulta externa durante un mes:\n\n• 0-14 años: 45 pacientes\n• 15-29 años: 80 pacientes\n• 30-44 años: 110 pacientes\n• 45-59 años: 95 pacientes\n• 60-74 años: 50 pacientes\n• 75 o más: 20 pacientes\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué porcentaje de los pacientes tiene 45 años o más?",
+    "explanation": "Total de pacientes: 45 + 80 + 110 + 95 + 50 + 20 = 400. Pacientes de 45 o más: 95 + 50 + 20 = 165. Porcentaje: 165/400 × 100 = 41,25%.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "33,8 %", "isCorrect": false },
+      { "letter": "B", "text": "36,3 %", "isCorrect": false },
+      { "letter": "C", "text": "41,3 %", "isCorrect": true },
+      { "letter": "D", "text": "47,5 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "Con base en los datos anteriores, si el servicio quiere diseñar un programa de prevención que cubra al menos al 70 % de los pacientes, ¿cuáles grupos etarios debería incluir como mínimo?",
+    "explanation": "Ordenando de mayor a menor frecuencia: 30-44 (110), 45-59 (95), 15-29 (80), 60-74 (50), 0-14 (45), 75+ (20). Acumulando: 110 = 27,5%; 110+95 = 51,3%; 110+95+80 = 71,3%. Los tres grupos de mayor frecuencia (15-29, 30-44, 45-59) suman 285/400 = 71,3%, superando el 70%.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Los grupos de 30-44 y 45-59 años.", "isCorrect": false },
+      { "letter": "B", "text": "Los grupos de 15-29, 30-44 y 45-59 años.", "isCorrect": true },
+      { "letter": "C", "text": "Los grupos de 0-14, 15-29 y 30-44 años.", "isCorrect": false },
+      { "letter": "D", "text": "Todos los grupos de 15 años en adelante.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Una bacteria se reproduce por fisión binaria, duplicando su población cada 30 minutos. Un cultivo comienza con 500 bacterias.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuántas bacterias habrá después de 3 horas?",
+    "explanation": "En 3 horas hay 6 periodos de duplicación (3h × 60min / 30min = 6). Población = 500 × 2⁶ = 500 × 64 = 32.000.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "8.000", "isCorrect": false },
+      { "letter": "B", "text": "16.000", "isCorrect": false },
+      { "letter": "C", "text": "32.000", "isCorrect": true },
+      { "letter": "D", "text": "64.000", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Un hospital reporta la siguiente información sobre infecciones nosocomiales en un trimestre:\n\n| Mes | Pacientes hospitalizados | Infecciones nuevas |\n|-----|--------------------------|-------------------|\n| Enero | 820 | 41 |\n| Febrero | 780 | 47 |\n| Marzo | 850 | 34 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿En qué mes fue mayor la tasa de incidencia de infecciones nosocomiales?",
+    "explanation": "Tasas: Enero: 41/820 = 5,0%. Febrero: 47/780 = 6,0%. Marzo: 34/850 = 4,0%. Febrero tuvo la mayor tasa de incidencia (6,0%).",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Enero, con una tasa del 5,0 %.", "isCorrect": false },
+      { "letter": "B", "text": "Febrero, con una tasa del 6,0 %.", "isCorrect": true },
+      { "letter": "C", "text": "Marzo, con una tasa del 4,0 %.", "isCorrect": false },
+      { "letter": "D", "text": "Enero y febrero tuvieron la misma tasa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Un fármaco se administra por vía intravenosa con una concentración inicial en plasma de 20 μg/mL. Su eliminación sigue una cinética de primer orden con una constante de eliminación k = 0,1 h⁻¹.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la concentración plasmática aproximada después de 10 horas?",
+    "explanation": "C(t) = C₀ × e^(−kt) = 20 × e^(−0,1 × 10) = 20 × e^(−1) = 20 × 0,368 ≈ 7,4 μg/mL.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "2,0 μg/mL", "isCorrect": false },
+      { "letter": "B", "text": "7,4 μg/mL", "isCorrect": true },
+      { "letter": "C", "text": "10,0 μg/mL", "isCorrect": false },
+      { "letter": "D", "text": "13,5 μg/mL", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Se presentan los resultados de hemoglobina (g/dL) de 5 pacientes antes y después de un tratamiento con hierro:\n\n| Paciente | Antes | Después |\n|----------|-------|--------|\n| 1 | 9,2 | 11,5 |\n| 2 | 8,8 | 10,1 |\n| 3 | 10,0 | 11,8 |\n| 4 | 7,5 | 9,3 |\n| 5 | 9,5 | 11,0 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el incremento promedio de hemoglobina tras el tratamiento?",
+    "explanation": "Diferencias: 2,3; 1,3; 1,8; 1,8; 1,5. Suma: 8,7. Promedio: 8,7/5 = 1,74 g/dL.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "1,30 g/dL", "isCorrect": false },
+      { "letter": "B", "text": "1,54 g/dL", "isCorrect": false },
+      { "letter": "C", "text": "1,74 g/dL", "isCorrect": true },
+      { "letter": "D", "text": "2,30 g/dL", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Un municipio tiene 50.000 habitantes. Durante un año se registraron 1.200 nacidos vivos, 350 defunciones totales y 18 defunciones de menores de un año.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la tasa de mortalidad infantil del municipio?",
+    "explanation": "La tasa de mortalidad infantil se calcula como: (defunciones menores de 1 año / nacidos vivos) × 1.000 = (18/1.200) × 1.000 = 15 por cada 1.000 nacidos vivos.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "0,36 por cada 1.000 habitantes", "isCorrect": false },
+      { "letter": "B", "text": "7,0 por cada 1.000 habitantes", "isCorrect": false },
+      { "letter": "C", "text": "15,0 por cada 1.000 nacidos vivos", "isCorrect": true },
+      { "letter": "D", "text": "24,0 por cada 1.000 nacidos vivos", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "Con los datos del municipio anterior, ¿cuál es la tasa bruta de natalidad?",
+    "explanation": "Tasa bruta de natalidad = (nacidos vivos / población total) × 1.000 = (1.200/50.000) × 1.000 = 24 por cada 1.000 habitantes.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "7,0 por cada 1.000 habitantes", "isCorrect": false },
+      { "letter": "B", "text": "15,0 por cada 1.000 habitantes", "isCorrect": false },
+      { "letter": "C", "text": "24,0 por cada 1.000 habitantes", "isCorrect": true },
+      { "letter": "D", "text": "2,4 por cada 100 habitantes", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Una solución de dextrosa al 5 % se administra a un paciente a razón de 40 gotas por minuto. El equipo de venoclisis tiene un factor de conversión de 20 gotas por mililitro.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuántos mililitros de solución recibirá el paciente en 6 horas?",
+    "explanation": "Flujo: 40 gotas/min ÷ 20 gotas/mL = 2 mL/min. En 6 horas: 2 mL/min × 360 min = 720 mL.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "360 mL", "isCorrect": false },
+      { "letter": "B", "text": "480 mL", "isCorrect": false },
+      { "letter": "C", "text": "720 mL", "isCorrect": true },
+      { "letter": "D", "text": "1.440 mL", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Un diagrama de caja (boxplot) muestra la distribución de las edades de pacientes en dos servicios hospitalarios:\n\nServicio de Pediatría:\n• Mínimo: 1 año, Q1: 3, Mediana: 6, Q3: 10, Máximo: 16\n\nServicio de Medicina Interna:\n• Mínimo: 25 años, Q1: 42, Mediana: 55, Q3: 68, Máximo: 89\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál afirmación es correcta al comparar ambas distribuciones?",
+    "explanation": "Rango intercuartílico (IQR) de Pediatría: 10 − 3 = 7. IQR de Medicina Interna: 68 − 42 = 26. Medicina Interna tiene mayor dispersión central. No se puede saber si hay atípicos sin el criterio 1,5×IQR aplicado a datos individuales. La asimetría no puede afirmarse solo con estos cinco números. El rango total de Pediatría (15) es menor que el de Medicina (64).",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Ambos servicios tienen la misma dispersión relativa de edades.", "isCorrect": false },
+      { "letter": "B", "text": "Medicina Interna tiene mayor rango intercuartílico, lo que indica mayor variabilidad central.", "isCorrect": true },
+      { "letter": "C", "text": "Pediatría presenta datos atípicos porque su rango es mayor que su IQR.", "isCorrect": false },
+      { "letter": "D", "text": "Ambas distribuciones son simétricas porque la mediana está centrada en la caja.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Un estudio de cohorte siguió durante 5 años a 2.000 fumadores y 3.000 no fumadores para evaluar la incidencia de enfermedad pulmonar obstructiva crónica (EPOC). Los resultados fueron:\n\n| Grupo | Casos de EPOC | Total |\n|-------|---------------|-------|\n| Fumadores | 160 | 2.000 |\n| No fumadores | 30 | 3.000 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el riesgo relativo (RR) de desarrollar EPOC en fumadores respecto a no fumadores?",
+    "explanation": "Incidencia en fumadores: 160/2.000 = 0,08 (8%). Incidencia en no fumadores: 30/3.000 = 0,01 (1%). RR = 0,08/0,01 = 8,0. Los fumadores tienen 8 veces más riesgo de desarrollar EPOC.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "2,7", "isCorrect": false },
+      { "letter": "B", "text": "5,3", "isCorrect": false },
+      { "letter": "C", "text": "8,0", "isCorrect": true },
+      { "letter": "D", "text": "16,0", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Un profesional de salud debe preparar 500 mL de una solución de cloruro de sodio (NaCl) al 0,45 % a partir de una solución al 0,9 % (solución salina normal) y agua destilada.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué volumen de solución al 0,9 % se necesita?",
+    "explanation": "Usando C₁V₁ = C₂V₂: 0,9% × V₁ = 0,45% × 500 mL. V₁ = (0,45 × 500)/0,9 = 225/0,9 = 250 mL. Se necesitan 250 mL de solución al 0,9% y se completa con 250 mL de agua destilada.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "200 mL", "isCorrect": false },
+      { "letter": "B", "text": "250 mL", "isCorrect": true },
+      { "letter": "C", "text": "300 mL", "isCorrect": false },
+      { "letter": "D", "text": "450 mL", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "La siguiente tabla de doble entrada muestra la relación entre el tipo de seguro médico y la satisfacción con la atención recibida en una muestra de 500 pacientes:\n\n| Satisfacción | Contributivo | Subsidiado | Prepagada | Total |\n|-------------|-------------|-----------|-----------|-------|\n| Alta | 80 | 50 | 70 | 200 |\n| Media | 60 | 70 | 40 | 170 |\n| Baja | 40 | 60 | 30 | 130 |\n| Total | 180 | 180 | 140 | 500 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Si se selecciona al azar un paciente del régimen subsidiado, ¿cuál es la probabilidad de que reporte satisfacción baja?",
+    "explanation": "Probabilidad condicional: P(Baja | Subsidiado) = 60/180 = 1/3 ≈ 33,3%.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "12,0 %", "isCorrect": false },
+      { "letter": "B", "text": "26,0 %", "isCorrect": false },
+      { "letter": "C", "text": "33,3 %", "isCorrect": true },
+      { "letter": "D", "text": "46,2 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "Con base en la tabla anterior, ¿cuál régimen de aseguramiento tiene el mayor porcentaje de satisfacción alta?",
+    "explanation": "Porcentajes de satisfacción alta: Contributivo: 80/180 = 44,4%. Subsidiado: 50/180 = 27,8%. Prepagada: 70/140 = 50,0%. Prepagada tiene el mayor porcentaje de satisfacción alta.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Contributivo, con el 44,4 %.", "isCorrect": false },
+      { "letter": "B", "text": "Subsidiado, con el 27,8 %.", "isCorrect": false },
+      { "letter": "C", "text": "Prepagada, con el 50,0 %.", "isCorrect": true },
+      { "letter": "D", "text": "Contributivo y Prepagada están empatados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "Un investigador quiere determinar si existe asociación entre el consumo de café (≥ 3 tazas/día vs. < 3 tazas/día) y la presencia de insomnio en trabajadores de salud. Realiza una prueba de chi-cuadrado y obtiene:\n\n• χ² calculado = 6,2\n• Grados de libertad = 1\n• χ² crítico (α = 0,05) = 3,84\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la conclusión estadística correcta?",
+    "explanation": "Como χ² calculado (6,2) > χ² crítico (3,84), se rechaza la hipótesis nula de independencia. Esto significa que existe una asociación estadísticamente significativa entre el consumo de café y el insomnio. No indica causalidad ni que la asociación sea fuerte, solo que no es atribuible al azar con α = 0,05.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "No se rechaza la hipótesis nula; no hay evidencia de asociación significativa.", "isCorrect": false },
+      { "letter": "B", "text": "Se rechaza la hipótesis nula; existe asociación estadísticamente significativa entre consumo de café e insomnio.", "isCorrect": true },
+      { "letter": "C", "text": "Se demuestra que el café causa insomnio en los trabajadores de salud.", "isCorrect": false },
+      { "letter": "D", "text": "El resultado no es concluyente porque los grados de libertad son insuficientes.", "isCorrect": false }
+    ]
+  }
+]

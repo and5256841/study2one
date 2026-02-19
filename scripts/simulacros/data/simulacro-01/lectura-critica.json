@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Lea el siguiente texto.\n\n«La telemedicina no es simplemente una alternativa tecnológica a la consulta presencial; es, ante todo, una respuesta estructural a la inequidad geográfica que padecen millones de colombianos. En las zonas rurales dispersas del Chocó, Guainía o Vaupés, donde un paciente puede tardar dos días en lancha para llegar al hospital más cercano, la posibilidad de recibir una valoración médica a través de una pantalla no es un lujo: es una necesidad vital. Sin embargo, reducir la telemedicina a una cuestión de conectividad sería un error. Su implementación efectiva requiere, además de infraestructura digital, la formación de profesionales capaces de realizar anamnesis rigurosas sin el recurso del examen físico directo, y la creación de protocolos clínicos adaptados a la virtualidad. De lo contrario, se corre el riesgo de ofrecer una medicina de segunda categoría disfrazada de innovación.»\n\n(Redacción Study2One)",
+    "questionText": "En el contexto del fragmento, la expresión «medicina de segunda categoría» hace referencia a:",
+    "explanation": "El texto advierte que sin formación adecuada ni protocolos adaptados, la telemedicina podría ser una atención de menor calidad. La expresión se refiere a una atención médica deficiente presentada como avance tecnológico. No se refiere a medicina alternativa, especialidades médicas ni a un sistema de clasificación formal.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Un sistema de clasificación de los servicios hospitalarios según su complejidad.", "isCorrect": false },
+      { "letter": "B", "text": "Una atención médica de calidad inferior que se presenta como si fuera un avance.", "isCorrect": true },
+      { "letter": "C", "text": "La medicina alternativa que se practica en regiones sin acceso a tecnología.", "isCorrect": false },
+      { "letter": "D", "text": "Las especialidades médicas que no requieren examen físico para su ejercicio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "Del texto anterior se puede inferir que, para el autor, el principal obstáculo para el éxito de la telemedicina en Colombia es:",
+    "explanation": "El autor reconoce la necesidad de conectividad pero explícitamente dice que 'reducir la telemedicina a una cuestión de conectividad sería un error', y luego señala que se necesita formación profesional y protocolos. Infiere que el problema va más allá de lo técnico: es un problema de preparación integral del sistema de salud.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La falta de cobertura de internet en las zonas rurales del país.", "isCorrect": false },
+      { "letter": "B", "text": "La resistencia de los pacientes a recibir consultas por medios virtuales.", "isCorrect": false },
+      { "letter": "C", "text": "La ausencia de una preparación integral que acompañe la infraestructura tecnológica.", "isCorrect": true },
+      { "letter": "D", "text": "El desinterés del Estado por financiar programas de salud en regiones apartadas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "La tesis central del texto puede formularse como:",
+    "explanation": "El texto argumenta que la telemedicina responde a una necesidad real (inequidad geográfica) pero que su implementación requiere más que tecnología: necesita formación y protocolos. Esta es la tesis central, que abarca tanto la justificación como la advertencia.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La telemedicina es la única solución viable para la atención médica en zonas rurales colombianas.", "isCorrect": false },
+      { "letter": "B", "text": "La telemedicina responde a una necesidad real, pero su éxito depende de condiciones que van más allá de la tecnología.", "isCorrect": true },
+      { "letter": "C", "text": "Colombia carece de la infraestructura digital necesaria para implementar la telemedicina de forma masiva.", "isCorrect": false },
+      { "letter": "D", "text": "Los profesionales de la salud no están preparados para ejercer la medicina sin contacto físico con el paciente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": null,
+    "questionText": "Un lector crítico podría señalar que el argumento del texto presenta la siguiente limitación:",
+    "explanation": "El texto presenta la telemedicina exclusivamente desde la perspectiva de la inequidad geográfica rural y no considera la visión de los pacientes ni de las comunidades sobre esta modalidad. No menciona si las comunidades la desean, la aceptan o tienen reservas culturales. Esto constituye una limitación argumentativa real.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "No menciona datos estadísticos sobre mortalidad en zonas rurales.", "isCorrect": false },
+      { "letter": "B", "text": "Omite la perspectiva de los pacientes y comunidades sobre la atención virtual.", "isCorrect": true },
+      { "letter": "C", "text": "Utiliza un tono excesivamente técnico que dificulta la comprensión del lector general.", "isCorrect": false },
+      { "letter": "D", "text": "Contradice la evidencia científica sobre la eficacia de las consultas virtuales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Lea el siguiente texto.\n\n«En 1796, Edward Jenner realizó un experimento que transformaría para siempre la historia de la medicina. Observó que las lecheras que habían contraído la viruela bovina, una enfermedad leve, no enfermaban de viruela humana, una de las plagas más mortíferas de la época. Jenner extrajo material de una pústula de viruela bovina de la mano de una lechera llamada Sarah Nelmes y lo inoculó en el brazo de James Phipps, un niño de ocho años. Semanas después, expuso al niño a la viruela humana. El niño no enfermó. Había nacido la vacunación.\n\nNo obstante, el camino de Jenner estuvo plagado de resistencias. La comunidad médica de su época lo ridiculizó; los caricaturistas lo representaban inyectando vacas en los brazos de las personas; y los sectores religiosos lo acusaron de desafiar la voluntad divina. Paradójicamente, las mismas objeciones que Jenner enfrentó a finales del siglo XVIII —desconfianza, desinformación y apelación a lo natural— reaparecen hoy en los movimientos antivacunas contemporáneos, como si dos siglos de evidencia científica no hubieran transcurrido.»\n\n(Redacción Study2One)",
+    "questionText": "Según el texto, ¿qué observación condujo a Jenner a desarrollar su experimento?",
+    "explanation": "El texto dice explícitamente que Jenner 'observó que las lecheras que habían contraído la viruela bovina no enfermaban de viruela humana'. Esta es información literal del texto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Que los niños expuestos al ganado desarrollaban inmunidad natural contra diversas enfermedades.", "isCorrect": false },
+      { "letter": "B", "text": "Que las lecheras infectadas con viruela bovina no contraían la viruela humana.", "isCorrect": true },
+      { "letter": "C", "text": "Que las vacas producían una sustancia capaz de curar las infecciones bacterianas.", "isCorrect": false },
+      { "letter": "D", "text": "Que los habitantes rurales presentaban tasas de mortalidad menores que los urbanos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "La expresión «como si dos siglos de evidencia científica no hubieran transcurrido» cumple la función de:",
+    "explanation": "La comparación con la situación de Jenner en el siglo XVIII y los movimientos antivacunas actuales, seguida de esta frase, tiene una función retórica clara: evidenciar lo irracional de rechazar las vacunas cuando existe evidencia acumulada durante más de 200 años. Es una estrategia retórica de contraste temporal.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Informar al lector sobre la antigüedad de la práctica de la vacunación.", "isCorrect": false },
+      { "letter": "B", "text": "Destacar la contradicción entre la evidencia acumulada y la persistencia del rechazo a las vacunas.", "isCorrect": true },
+      { "letter": "C", "text": "Justificar la postura de quienes desconfían de los avances de la medicina moderna.", "isCorrect": false },
+      { "letter": "D", "text": "Cuestionar la validez de los métodos experimentales utilizados por Jenner.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": null,
+    "questionText": "¿Cuál de los siguientes supuestos subyace al argumento del último párrafo?",
+    "explanation": "El autor da por sentado que la acumulación de evidencia científica debería ser suficiente para eliminar la desconfianza hacia las vacunas. Este supuesto implícito no se demuestra en el texto; simplemente se asume. Un lector crítico puede identificar que la resistencia a las vacunas tiene dimensiones culturales, emocionales y políticas que la evidencia por sí sola no resuelve.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "La evidencia científica acumulada debería ser razón suficiente para eliminar la desconfianza hacia las vacunas.", "isCorrect": true },
+      { "letter": "B", "text": "Los movimientos antivacunas contemporáneos están financiados por intereses económicos.", "isCorrect": false },
+      { "letter": "C", "text": "La comunidad médica del siglo XVIII era más abierta al cambio que la actual.", "isCorrect": false },
+      { "letter": "D", "text": "El método experimental de Jenner no cumplía con los estándares éticos de su época.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Lea el siguiente fragmento.\n\n«El doctor Dowell llegó a Mitú un martes de lluvia con una maleta de cuero y un estetoscopio que ya había auscultado más pueblos que pacientes. Lo recibió el silencio. No había comité de bienvenida ni cartel con su nombre: solo un muelle de madera carcomida y un niño descalzo que lo miraba desde la orilla como quien mira llegar un objeto extraño arrastrado por la corriente.\n\n—¿Usted es el médico nuevo? —preguntó el niño.\n—Soy el médico —respondió Dowell, sin agregar «nuevo», porque sabía que en estos pueblos los médicos no duraban lo suficiente para volverse viejos.\n\nDurante los primeros meses, Dowell aprendió más de sus pacientes que ellos de él. Aprendió que la fiebre tiene nombre propio en lengua cubeo, que el dolor de una madre que pierde un hijo no se mide en escalas numéricas, y que la confianza de una comunidad indígena no se gana con diplomas sino con presencia. Cada amanecer que Dowell seguía allí era una credencial más valiosa que cualquier certificado universitario.»\n\n(Redacción Study2One)",
+    "questionText": "La frase «un estetoscopio que ya había auscultado más pueblos que pacientes» sugiere que el doctor Dowell:",
+    "explanation": "La figura retórica implica que el estetoscopio ha pasado por muchos pueblos (rotación constante) pero no ha atendido proporcionalmente a muchos pacientes en cada uno. Esto sugiere una trayectoria itinerante: ha estado en muchos lugares sin establecerse en ninguno.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Poseía un instrumento antiguo y poco confiable para la práctica médica.", "isCorrect": false },
+      { "letter": "B", "text": "Había recorrido numerosos destinos rurales sin permanecer mucho tiempo en ninguno.", "isCorrect": true },
+      { "letter": "C", "text": "Prefería la investigación de campo a la atención clínica directa de pacientes.", "isCorrect": false },
+      { "letter": "D", "text": "Carecía de la experiencia necesaria para ejercer la medicina en comunidades aisladas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "La respuesta de Dowell al niño — «sin agregar «nuevo», porque sabía que en estos pueblos los médicos no duraban lo suficiente para volverse viejos» — revela que el personaje:",
+    "explanation": "El texto indica explícitamente que Dowell omite la palabra 'nuevo' porque sabe que los médicos no permanecen en estos pueblos. Esto revela un conocimiento previo directo de la rotación médica en zonas rurales: es consciente de que la deserción es el patrón habitual.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Siente indiferencia ante las condiciones de vida en las zonas rurales.", "isCorrect": false },
+      { "letter": "B", "text": "Conoce de antemano el patrón de abandono médico en estos territorios.", "isCorrect": true },
+      { "letter": "C", "text": "Desea ocultar al niño que su permanencia en el pueblo será temporal.", "isCorrect": false },
+      { "letter": "D", "text": "Considera que la distinción entre médico nuevo y antiguo carece de importancia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": null,
+    "questionText": "El fragmento emplea la estrategia narrativa de presentar el aprendizaje del médico a través de sus pacientes con el propósito de:",
+    "explanation": "El texto invierte la relación esperada (médico enseña, paciente aprende) al mostrar que Dowell aprende de la comunidad. Esta inversión cuestiona la idea de que el conocimiento académico es suficiente o superior al saber comunitario, proponiendo que la medicina efectiva requiere humildad cultural.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Cuestionar la suficiencia de la formación académica frente al saber comunitario.", "isCorrect": true },
+      { "letter": "B", "text": "Demostrar que los médicos rurales carecen de preparación clínica adecuada.", "isCorrect": false },
+      { "letter": "C", "text": "Idealizar la vida en las comunidades indígenas como superior a la vida urbana.", "isCorrect": false },
+      { "letter": "D", "text": "Ilustrar las dificultades logísticas de la atención médica en zonas remotas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "Lea el siguiente texto.\n\n«Los determinantes sociales de la salud son las condiciones en las que las personas nacen, crecen, viven, trabajan y envejecen. Estas circunstancias están configuradas por la distribución del dinero, el poder y los recursos a nivel mundial, nacional y local. Los determinantes sociales explican la mayor parte de las inequidades sanitarias, es decir, de las diferencias injustas y evitables observadas dentro de un mismo país y entre países en lo que respecta a la situación sanitaria.\n\nLa Comisión sobre Determinantes Sociales de la Salud de la OMS (2008) estableció que la esperanza de vida de un niño puede variar hasta en 40 años dependiendo del país donde nazca. Pero incluso dentro de un mismo país, las diferencias son abismales: en Colombia, la mortalidad infantil en el Chocó es cuatro veces mayor que en Bogotá. Estas brechas no se explican por diferencias genéticas ni por elecciones individuales; se explican por condiciones estructurales que determinan quién tiene acceso a agua potable, nutrición adecuada, educación y servicios de salud de calidad.\n\nNo obstante, el enfoque de determinantes sociales ha recibido críticas. Algunos autores señalan que, al enfatizar las condiciones estructurales, se puede caer en un determinismo que anula la capacidad de agencia de los individuos y las comunidades. Otros argumentan que el modelo es tan amplio que pierde utilidad operativa: si todo es un determinante de la salud, entonces el concepto deja de ser útil para diseñar intervenciones específicas.»\n\n(Redacción Study2One)",
+    "questionText": "El conector «No obstante» al inicio del tercer párrafo cumple la función de:",
+    "explanation": "Los dos primeros párrafos presentan el concepto de determinantes sociales y su evidencia. El tercer párrafo introduce críticas al enfoque. 'No obstante' es un conector adversativo que introduce una contraposición o matiz frente a lo dicho anteriormente.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Agregar información complementaria que refuerza la tesis de los párrafos anteriores.", "isCorrect": false },
+      { "letter": "B", "text": "Introducir una perspectiva contraria o matizada frente a lo expuesto previamente.", "isCorrect": true },
+      { "letter": "C", "text": "Señalar una consecuencia directa del enfoque de determinantes sociales.", "isCorrect": false },
+      { "letter": "D", "text": "Retomar una idea mencionada al inicio del texto que había quedado sin desarrollar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "La función principal del dato sobre la mortalidad infantil en Chocó comparada con Bogotá es:",
+    "explanation": "El autor primero presenta las diferencias entre países (hasta 40 años de esperanza de vida) y luego usa el dato de Colombia para mostrar que las brechas también existen dentro del mismo país. Es un ejemplo concreto que respalda la afirmación general sobre inequidades intranacionales.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Demostrar que el sistema de salud colombiano es deficiente en comparación con otros países.", "isCorrect": false },
+      { "letter": "B", "text": "Ilustrar con un caso concreto y local que las inequidades sanitarias también ocurren dentro de un mismo país.", "isCorrect": true },
+      { "letter": "C", "text": "Probar que la genética es un factor determinante en la mortalidad infantil.", "isCorrect": false },
+      { "letter": "D", "text": "Comparar la calidad de los hospitales del Chocó con los de la capital.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "La crítica que señala que «si todo es un determinante de la salud, entonces el concepto deja de ser útil» se basa en el principio lógico de que:",
+    "explanation": "La crítica plantea que un concepto que abarca todo pierde capacidad explicativa. Si cualquier factor es un determinante, el término no permite distinguir qué intervenir prioritariamente. Es un argumento sobre la pérdida de especificidad: un concepto demasiado amplio se vuelve vacío.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Las definiciones científicas deben basarse exclusivamente en evidencia cuantitativa.", "isCorrect": false },
+      { "letter": "B", "text": "Un concepto que lo abarca todo pierde capacidad de distinción y, por tanto, de aplicación práctica.", "isCorrect": true },
+      { "letter": "C", "text": "La salud pública debe centrarse en factores individuales y no en condiciones estructurales.", "isCorrect": false },
+      { "letter": "D", "text": "Los organismos internacionales carecen de autoridad para definir modelos de salud nacionales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "¿Cuál de las siguientes afirmaciones representa un supuesto implícito del segundo párrafo del texto?",
+    "explanation": "El segundo párrafo afirma que las brechas 'no se explican por diferencias genéticas ni por elecciones individuales' sino por 'condiciones estructurales'. Esto presupone que las diferencias genéticas entre poblaciones no son un factor significativo en las inequidades sanitarias, algo que el texto asume sin demostrar.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Las diferencias genéticas entre poblaciones no son un factor significativo en las inequidades sanitarias.", "isCorrect": true },
+      { "letter": "B", "text": "Bogotá tiene el mejor sistema de salud de toda América Latina.", "isCorrect": false },
+      { "letter": "C", "text": "La mortalidad infantil es el indicador más confiable para medir la calidad de vida.", "isCorrect": false },
+      { "letter": "D", "text": "Los países con mayor riqueza económica tienen siempre mejores indicadores de salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "Lea el siguiente texto.\n\n«La inteligencia artificial (IA) ha demostrado, en múltiples estudios recientes, una capacidad diagnóstica comparable —y en algunos casos superior— a la de especialistas humanos en áreas como la dermatología, la radiología y la patología. Un algoritmo entrenado con millones de imágenes puede detectar un melanoma con una sensibilidad del 95%, mientras que el promedio de los dermatólogos alcanza el 87%. Estos datos han generado tanto entusiasmo como inquietud en la comunidad médica.\n\nLos defensores de la IA en medicina argumentan que estas herramientas democratizarán el acceso al diagnóstico especializado: un centro de salud rural sin dermatólogo podría, mediante una fotografía y un algoritmo, obtener una valoración de alta precisión. Los críticos, por su parte, advierten que un diagnóstico no es solamente la identificación de un patrón visual. Implica contextualizar los hallazgos dentro de la historia clínica del paciente, su entorno sociocultural y sus preferencias. Un algoritmo que diagnostica sin preguntar, sin escuchar y sin comprender es, en el mejor de los casos, una herramienta incompleta.\n\nEl debate no es, en realidad, si la IA reemplazará a los médicos. Es si la medicina será capaz de integrar la IA sin perder lo que la hace humana.»\n\n(Redacción Study2One)",
+    "questionText": "Según el texto, la sensibilidad del algoritmo para detectar melanoma es del:",
+    "explanation": "El dato está explícito en el texto: 'un algoritmo entrenado con millones de imágenes puede detectar un melanoma con una sensibilidad del 95%'. Es una pregunta de recuperación de información literal.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "87%", "isCorrect": false },
+      { "letter": "B", "text": "90%", "isCorrect": false },
+      { "letter": "C", "text": "95%", "isCorrect": true },
+      { "letter": "D", "text": "97%", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": null,
+    "questionText": "La oración final del texto — «si la medicina será capaz de integrar la IA sin perder lo que la hace humana» — reformula el debate en términos de:",
+    "explanation": "El autor desplaza el debate de 'IA vs. médicos' hacia una pregunta sobre identidad profesional: qué es lo esencialmente humano de la medicina y si puede preservarse al incorporar tecnología. Es una reformulación que pasa de lo técnico a lo filosófico.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La viabilidad económica de implementar sistemas de IA en hospitales públicos.", "isCorrect": false },
+      { "letter": "B", "text": "La capacidad de la profesión médica de preservar su dimensión humana al adoptar tecnología.", "isCorrect": true },
+      { "letter": "C", "text": "La superioridad técnica de los algoritmos frente al juicio clínico de los especialistas.", "isCorrect": false },
+      { "letter": "D", "text": "La necesidad de regular legalmente el uso de inteligencia artificial en el sector salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "Un lector crítico podría objetar que el texto presenta un sesgo al:",
+    "explanation": "El texto compara la IA con dermatólogos promedio, no con los mejores especialistas. Un 87% promedio incluye dermatólogos en formación y con menos experiencia. Si se comparara con especialistas de alto rendimiento, la diferencia podría ser menor o inexistente. Esto constituye un sesgo de selección en la comparación.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Comparar el rendimiento del algoritmo con el promedio de los especialistas y no con los de mayor experiencia.", "isCorrect": true },
+      { "letter": "B", "text": "Citar estudios científicos sin mencionar los nombres de los investigadores.", "isCorrect": false },
+      { "letter": "C", "text": "Incluir las perspectivas tanto de defensores como de críticos de la inteligencia artificial.", "isCorrect": false },
+      { "letter": "D", "text": "Utilizar un lenguaje excesivamente técnico que impide la comprensión del lector no especializado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Lea el siguiente texto.\n\n«La autonomía del paciente, entendida como el derecho a tomar decisiones informadas sobre su propio cuerpo y su salud, constituye uno de los pilares fundamentales de la bioética contemporánea. Este principio, consagrado en la Declaración de Lisboa de la Asociación Médica Mundial (1981), establece que ningún procedimiento médico puede realizarse sin el consentimiento libre e informado del paciente.\n\nSin embargo, la autonomía no opera en el vacío. Un paciente analfabeto que firma un consentimiento informado de doce páginas redactado en lenguaje jurídico-médico no está ejerciendo autonomía: está cumpliendo un trámite burocrático. Del mismo modo, un paciente que recibe un diagnóstico terminal en una consulta de diez minutos y debe decidir inmediatamente sobre su tratamiento difícilmente puede considerarse libre en su elección. La autonomía real requiere condiciones materiales que la hagan posible: educación en salud, tiempo suficiente para deliberar, información comprensible y apoyo emocional.\n\nAsí las cosas, defender la autonomía del paciente sin garantizar las condiciones para su ejercicio efectivo es, en la práctica, una forma sofisticada de abandono.»\n\n(Redacción Study2One)",
+    "questionText": "La expresión «una forma sofisticada de abandono» significa, en el contexto del texto, que:",
+    "explanation": "El autor argumenta que defender la autonomía solo en lo formal (firmar un consentimiento) sin crear las condiciones reales para ejercerla (educación, tiempo, comprensión) equivale a abandonar al paciente de manera encubierta. La 'sofisticación' radica en que parece respetuoso pero en la práctica desampara.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Los hospitales modernos ofrecen servicios tecnológicamente avanzados pero humanamente deficientes.", "isCorrect": false },
+      { "letter": "B", "text": "Reconocer formalmente el derecho a decidir sin crear las condiciones reales para ejercerlo equivale a desproteger al paciente.", "isCorrect": true },
+      { "letter": "C", "text": "Los profesionales de la salud evitan deliberadamente informar a los pacientes sobre sus opciones de tratamiento.", "isCorrect": false },
+      { "letter": "D", "text": "El sistema de salud colombiano prioriza los procedimientos administrativos sobre la atención clínica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": null,
+    "questionText": "Los dos ejemplos del segundo párrafo (el paciente analfabeto y el paciente con diagnóstico terminal) cumplen la función argumentativa de:",
+    "explanation": "Ambos ejemplos muestran situaciones donde la autonomía existe formalmente (hay consentimiento, hay opciones de tratamiento) pero no se ejerce realmente. Son casos concretos que ilustran la brecha entre el principio abstracto y su aplicación real, que es exactamente lo que el autor quiere demostrar.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Presentar excepciones a la regla general sobre el consentimiento informado.", "isCorrect": false },
+      { "letter": "B", "text": "Demostrar mediante casos concretos la distancia entre el principio de autonomía y su ejercicio real.", "isCorrect": true },
+      { "letter": "C", "text": "Criticar la formación ética de los profesionales de la salud en Colombia.", "isCorrect": false },
+      { "letter": "D", "text": "Proponer alternativas al modelo actual de consentimiento informado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "¿Cuál de las siguientes opciones debilitaría más el argumento central del texto?",
+    "explanation": "El argumento del autor es que la autonomía formal sin condiciones materiales es insuficiente. Si se demostrara que los pacientes que firman consentimientos sin comprenderlos plenamente reportan el mismo nivel de satisfacción y resultados clínicos que aquellos que comprenden todo, el argumento de que las condiciones materiales son esenciales perdería fuerza.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Un estudio que muestre que los pacientes con menor nivel educativo confían más en las decisiones de sus médicos.", "isCorrect": false },
+      { "letter": "B", "text": "Evidencia de que los consentimientos informados simplificados no reducen las demandas legales contra hospitales.", "isCorrect": false },
+      { "letter": "C", "text": "Datos que demuestren que los pacientes que firman consentimientos sin comprenderlos reportan igual satisfacción y resultados clínicos.", "isCorrect": true },
+      { "letter": "D", "text": "La opinión de un comité de bioética que respalde la obligatoriedad del consentimiento informado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Lea el siguiente texto.\n\n«La resistencia a los antibióticos es considerada por la Organización Mundial de la Salud como una de las diez principales amenazas para la salud pública mundial. Se estima que para 2050, las infecciones resistentes podrían causar diez millones de muertes anuales, superando al cáncer como causa de mortalidad global.\n\nEl mecanismo es relativamente sencillo de comprender. Cuando una población bacteriana se expone a un antibiótico, la mayoría de los organismos muere. Sin embargo, aquellos que poseen mutaciones aleatorias que confieren resistencia sobreviven y se reproducen. En ausencia de competencia, estas bacterias resistentes proliferan. El uso indiscriminado de antibióticos —tanto en la medicina humana como en la ganadería industrial— acelera este proceso al multiplicar las oportunidades de selección.\n\nLo más preocupante no es la resistencia en sí, que es un fenómeno natural de la evolución, sino la velocidad a la que se está produciendo. La industria farmacéutica ha reducido significativamente la inversión en nuevos antibióticos porque su rentabilidad es baja comparada con la de los medicamentos para enfermedades crónicas. Desarrollar un antibiótico toma entre diez y quince años, pero una bacteria puede volverse resistente a él en meses. Esta asimetría temporal es, quizá, el mayor desafío de la salud pública del siglo XXI.»\n\n(Redacción Study2One)",
+    "questionText": "Según el texto, ¿por qué la industria farmacéutica ha disminuido la inversión en nuevos antibióticos?",
+    "explanation": "El texto lo dice explícitamente: 'La industria farmacéutica ha reducido significativamente la inversión en nuevos antibióticos porque su rentabilidad es baja comparada con la de los medicamentos para enfermedades crónicas.' Es información literal.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Porque los antibióticos existentes siguen siendo eficaces contra la mayoría de las infecciones.", "isCorrect": false },
+      { "letter": "B", "text": "Porque la rentabilidad de los antibióticos es baja frente a la de medicamentos para enfermedades crónicas.", "isCorrect": true },
+      { "letter": "C", "text": "Porque los gobiernos no ofrecen incentivos fiscales para la investigación antimicrobiana.", "isCorrect": false },
+      { "letter": "D", "text": "Porque las bacterias resistentes son demasiado complejas para los métodos de laboratorio actuales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "La expresión «asimetría temporal» en el último párrafo se refiere a:",
+    "explanation": "El texto contrasta dos tiempos: 'diez a quince años' para desarrollar un antibiótico y 'meses' para que una bacteria se vuelva resistente. La 'asimetría temporal' es la desproporción entre el tiempo de creación del fármaco y el tiempo de adaptación bacteriana.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La diferencia entre el tiempo que tarda un paciente en recuperarse y el tiempo de tratamiento prescrito.", "isCorrect": false },
+      { "letter": "B", "text": "El contraste entre la velocidad de reproducción bacteriana y la velocidad de acción de los antibióticos.", "isCorrect": false },
+      { "letter": "C", "text": "La desproporción entre el largo tiempo de desarrollo de un antibiótico y la rapidez con que las bacterias se vuelven resistentes.", "isCorrect": true },
+      { "letter": "D", "text": "La diferencia entre el tiempo que dedica la industria a investigación básica y a investigación aplicada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "El autor estructura su argumento presentando sucesivamente:",
+    "explanation": "Párrafo 1: magnitud de la amenaza (datos de mortalidad). Párrafo 2: explicación del mecanismo biológico (selección natural). Párrafo 3: causa estructural del problema (falta de inversión farmacéutica y asimetría temporal). Es una progresión de consecuencia → mecanismo → causa raíz.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "La magnitud del problema, el mecanismo biológico que lo produce y la causa estructural que lo agrava.", "isCorrect": true },
+      { "letter": "B", "text": "La historia del descubrimiento de los antibióticos, su uso actual y las perspectivas futuras.", "isCorrect": false },
+      { "letter": "C", "text": "Las posturas de la OMS, de los médicos clínicos y de la industria farmacéutica.", "isCorrect": false },
+      { "letter": "D", "text": "Los argumentos a favor del uso de antibióticos, los argumentos en contra y una síntesis final.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Lea el siguiente texto.\n\n«El estigma asociado a las enfermedades mentales es, probablemente, la barrera más invisible y más eficaz contra la atención psiquiátrica oportuna. A diferencia de una fractura o una infección, que generan compasión y apoyo social, un diagnóstico de depresión mayor o esquizofrenia sigue provocando, en amplios sectores de la sociedad colombiana, reacciones que oscilan entre el rechazo y la minimización: «eso es falta de voluntad», «salga y haga ejercicio», «no se deje».\n\nEstas respuestas no son simplemente insensibles; son epistémicamente erróneas. Reducir un trastorno neurobiológico complejo a una cuestión de actitud personal es equivalente a decirle a un paciente diabético que controle su glucosa con optimismo. La depresión mayor implica alteraciones verificables en los niveles de serotonina, norepinefrina y dopamina, así como cambios estructurales observables en el hipocampo y la corteza prefrontal. No es una elección. No es debilidad. Es una enfermedad.\n\nParadójicamente, el estigma no solo afecta a los pacientes sino también a los profesionales. En Colombia, los psiquiatras enfrentan una subvaloración profesional dentro del propio gremio médico, y la salud mental recibe apenas el 2% del presupuesto total de salud. Si los mismos médicos minimizan la salud mental, ¿qué puede esperarse del resto de la sociedad?»\n\n(Redacción Study2One)",
+    "questionText": "Las expresiones entre comillas en el primer párrafo — «eso es falta de voluntad», «salga y haga ejercicio», «no se deje» — se incluyen en el texto para:",
+    "explanation": "El autor usa estas frases como ejemplos directos de las reacciones estigmatizantes que describe. No las apoya; las presenta para ilustrar el tipo de minimización que critica en el texto. Son ejemplos de las 'reacciones que oscilan entre el rechazo y la minimización'.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Recomendar estrategias de afrontamiento validadas por la psicología positiva.", "isCorrect": false },
+      { "letter": "B", "text": "Ejemplificar las reacciones sociales estigmatizantes que el autor critica.", "isCorrect": true },
+      { "letter": "C", "text": "Presentar la perspectiva de los pacientes sobre su propia enfermedad.", "isCorrect": false },
+      { "letter": "D", "text": "Contrastar el lenguaje popular con la terminología médica especializada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "La analogía entre decirle a un paciente deprimido que «tenga voluntad» y a un diabético que «controle su glucosa con optimismo» tiene como propósito:",
+    "explanation": "El autor usa una analogía con una enfermedad física cuya naturaleza biológica es ampliamente aceptada (diabetes) para mostrar lo absurdo de tratar una enfermedad mental (también biológica) como si fuera cuestión de actitud. La analogía busca que el lector reconozca la inconsistencia lógica.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Demostrar que la diabetes y la depresión comparten los mismos mecanismos fisiológicos.", "isCorrect": false },
+      { "letter": "B", "text": "Evidenciar lo absurdo de reducir una enfermedad neurobiológica a una cuestión de actitud personal.", "isCorrect": true },
+      { "letter": "C", "text": "Sugerir que las enfermedades crónicas requieren tratamientos más intensivos que las enfermedades mentales.", "isCorrect": false },
+      { "letter": "D", "text": "Criticar a los médicos que prescriben tratamientos farmacológicos en lugar de terapias conductuales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "La pregunta retórica con la que cierra el texto — «¿qué puede esperarse del resto de la sociedad?» — implica que:",
+    "explanation": "La pregunta retórica no espera respuesta; establece un argumento: si los profesionales médicos (que deberían saber más) minimizan la salud mental, es lógico que la sociedad general haga lo mismo. El autor está argumentando que el cambio debe empezar desde dentro del gremio médico.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "La sociedad colombiana es incapaz de superar sus prejuicios sobre la salud mental.", "isCorrect": false },
+      { "letter": "B", "text": "Es improbable que la sociedad valore la salud mental si el propio gremio médico no la prioriza.", "isCorrect": true },
+      { "letter": "C", "text": "Los pacientes psiquiátricos deberían buscar apoyo fuera del sistema de salud formal.", "isCorrect": false },
+      { "letter": "D", "text": "El presupuesto de salud mental debe aumentarse antes de cualquier otra intervención.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Lea el siguiente texto.\n\n«El artículo 49 de la Constitución Política de Colombia establece que la atención de la salud es un servicio público a cargo del Estado. Esta formulación, que en apariencia es inequívoca, ha sido objeto de un extenso debate jurídico y filosófico. ¿La salud es un derecho fundamental o un servicio público? La distinción no es semántica: si es un derecho, el Estado tiene la obligación de garantizarlo a todos los ciudadanos sin condiciones; si es un servicio, puede estar sujeto a limitaciones presupuestales y criterios de focalización.\n\nLa Corte Constitucional zanjó parcialmente el debate mediante la Sentencia T-760 de 2008, en la que reconoció la salud como un derecho fundamental autónomo, no condicionado a su conexión con otros derechos como la vida o la dignidad humana. Esta sentencia ordenó la unificación de los planes de beneficios entre los regímenes contributivo y subsidiado, bajo el principio de que la calidad de la atención no puede depender de la capacidad de pago del ciudadano.\n\nA pesar de este avance normativo, la brecha entre el derecho consagrado y el derecho efectivamente garantizado sigue siendo considerable. Las tutelas por negación de servicios de salud representan más del 30% del total de tutelas interpuestas en Colombia, lo que sugiere que el reconocimiento jurídico de un derecho no equivale automáticamente a su materialización.»\n\n(Redacción Study2One)",
+    "questionText": "Según el texto, la Sentencia T-760 de 2008 de la Corte Constitucional estableció que:",
+    "explanation": "El texto dice explícitamente que la Sentencia 'reconoció la salud como un derecho fundamental autónomo, no condicionado a su conexión con otros derechos'. Esta es información literal directa.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "El Estado debe privatizar los servicios de salud para mejorar su eficiencia.", "isCorrect": false },
+      { "letter": "B", "text": "La salud es un derecho fundamental autónomo, independiente de su conexión con otros derechos.", "isCorrect": true },
+      { "letter": "C", "text": "Todos los colombianos deben estar afiliados obligatoriamente al régimen contributivo.", "isCorrect": false },
+      { "letter": "D", "text": "Las tutelas son el único mecanismo para acceder a servicios de salud no incluidos en el plan de beneficios.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "El dato sobre las tutelas en el último párrafo cumple la función de:",
+    "explanation": "El autor presenta el reconocimiento jurídico (Sentencia T-760) como un avance y luego usa el dato de las tutelas para mostrar que, en la práctica, los ciudadanos siguen necesitando mecanismos judiciales para acceder a servicios. Esto evidencia la brecha entre lo normativo y lo real.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Probar que la Sentencia T-760 fue ineficaz y debería ser derogada.", "isCorrect": false },
+      { "letter": "B", "text": "Evidenciar que el reconocimiento jurídico de un derecho no garantiza su cumplimiento efectivo.", "isCorrect": true },
+      { "letter": "C", "text": "Demostrar que los ciudadanos colombianos abusan del mecanismo de la tutela.", "isCorrect": false },
+      { "letter": "D", "text": "Comparar la eficiencia del sistema judicial con la del sistema de salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "Un lector crítico podría señalar que el texto omite:",
+    "explanation": "El texto analiza la salud como derecho vs. servicio y menciona las tutelas como evidencia de incumplimiento, pero no explora las razones estructurales (falta de presupuesto, corrupción, ineficiencia administrativa, problemas de infraestructura) que explican por qué el derecho no se materializa. Esta omisión limita la profundidad del análisis.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "La posición de los pacientes sobre la calidad del servicio de salud.", "isCorrect": false },
+      { "letter": "B", "text": "Las causas estructurales que explican la brecha entre el derecho reconocido y su cumplimiento efectivo.", "isCorrect": true },
+      { "letter": "C", "text": "La comparación del sistema de salud colombiano con los de otros países latinoamericanos.", "isCorrect": false },
+      { "letter": "D", "text": "La definición jurídica precisa del concepto de derecho fundamental en la Constitución.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Lea el siguiente texto.\n\n«El agua no es solamente un recurso natural; es un indicador de justicia social. Según datos de la Defensoría del Pueblo (2023), el 40% de los municipios colombianos no cuenta con agua apta para consumo humano. En departamentos como La Guajira, Amazonas y Chocó, comunidades enteras dependen de fuentes hídricas contaminadas con metales pesados, residuos agroindustriales y coliformes fecales.\n\nLas consecuencias sanitarias son predecibles y devastadoras. La enfermedad diarreica aguda (EDA), directamente asociada al consumo de agua no potable, sigue siendo una de las principales causas de mortalidad en menores de cinco años en las regiones mencionadas. Pero la EDA es apenas la manifestación más visible de un problema sistémico: la exposición crónica a metales pesados como mercurio y plomo produce daño neurológico irreversible, alteraciones renales y cáncer, efectos que se manifiestan años o décadas después de la exposición inicial.\n\nEs tentador atribuir esta situación a la «falta de infraestructura» como si se tratara de una carencia técnica. Sin embargo, Colombia no carece de ingenieros ni de tecnología para potabilizar agua. Lo que falta es voluntad política para priorizar a las poblaciones que históricamente han sido invisibilizadas. La contaminación del agua en La Guajira no es un problema técnico; es un problema político.»\n\n(Redacción Study2One)",
+    "questionText": "La expresión «indicador de justicia social» al inicio del texto significa que, para el autor:",
+    "explanation": "El autor abre el texto estableciendo que el acceso al agua refleja qué tan justa es una sociedad. Si ciertos grupos no tienen agua potable mientras otros sí, eso evidencia una distribución inequitativa de recursos. El agua funciona como termómetro de justicia social.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "El acceso al agua potable refleja el grado de equidad con que una sociedad distribuye sus recursos.", "isCorrect": true },
+      { "letter": "B", "text": "La calidad del agua es el único factor que determina el desarrollo social de una región.", "isCorrect": false },
+      { "letter": "C", "text": "Los indicadores de salud hídrica deben incluirse en los informes de derechos humanos.", "isCorrect": false },
+      { "letter": "D", "text": "Las organizaciones de justicia social deben encargarse de la distribución del agua potable.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": null,
+    "questionText": "La relación lógica entre el segundo y el tercer párrafo puede describirse como:",
+    "explanation": "El segundo párrafo describe los efectos sanitarios (consecuencias de la falta de agua potable). El tercer párrafo identifica la causa verdadera: no es técnica sino política. La transición va de las consecuencias a la identificación de la causa raíz.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "El segundo párrafo presenta las consecuencias del problema y el tercero identifica su causa real.", "isCorrect": true },
+      { "letter": "B", "text": "El segundo párrafo plantea una hipótesis y el tercero la refuta con evidencia.", "isCorrect": false },
+      { "letter": "C", "text": "Ambos párrafos presentan argumentos paralelos que se complementan sin jerarquía.", "isCorrect": false },
+      { "letter": "D", "text": "El segundo párrafo describe el problema en zonas urbanas y el tercero en zonas rurales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "El uso de comillas en la expresión «falta de infraestructura» indica que el autor:",
+    "explanation": "Las comillas señalan distanciamiento: el autor no comparte esa explicación. Inmediatamente después la contradice diciendo que Colombia SÍ tiene la capacidad técnica. Las comillas marcan que la expresión pertenece a un discurso que el autor considera insuficiente o falso.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Cita textualmente un informe oficial sobre la situación del agua en Colombia.", "isCorrect": false },
+      { "letter": "B", "text": "Toma distancia de esa explicación para señalar que es insuficiente o engañosa.", "isCorrect": true },
+      { "letter": "C", "text": "Utiliza un término técnico que necesita ser definido para el lector general.", "isCorrect": false },
+      { "letter": "D", "text": "Enfatiza la importancia de la infraestructura como solución prioritaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Lea el siguiente fragmento.\n\n«Cuenta Hipócrates que un médico que no conoce las estaciones del año, los vientos dominantes ni las aguas de una ciudad no puede comprender las enfermedades de sus habitantes. Para Hipócrates, la medicina no empezaba en el cuerpo del enfermo sino en el lugar donde vivía.\n\nVeinticinco siglos después, la medicina contemporánea parece haber olvidado esta lección. La hiperespecialización ha producido profesionales extraordinariamente competentes en fragmentos cada vez más pequeños del cuerpo humano, pero progresivamente incapaces de ver al paciente como una totalidad inserta en un contexto social, ambiental y cultural. Un cardiólogo puede describir con precisión molecular el mecanismo de una arritmia, pero rara vez pregunta si su paciente tiene acceso a alimentos frescos, si vive cerca de una fábrica contaminante o si duerme suficiente porque trabaja dos turnos para sobrevivir.\n\nLas humanidades médicas proponen recuperar esa visión integral. No se trata de que los médicos escriban poesía —aunque no haría daño—, sino de que la formación médica incluya herramientas para comprender al ser humano en su complejidad: la narrativa del paciente, su historia de vida, sus miedos, sus valores. Una medicina que solo ve órganos produce técnicos excelentes. Una medicina que ve personas produce médicos.»\n\n(Redacción Study2One, con referencia a los principios hipocráticos de «Sobre los aires, aguas y lugares» de Hipócrates, siglo V a.C., obra de dominio público)",
+    "questionText": "La referencia a Hipócrates al inicio del texto cumple la función de:",
+    "explanation": "El autor abre con Hipócrates para establecer que la visión integral del paciente no es una moda nueva sino un principio ancestral de la medicina. Esto le permite argumentar que la hiperespecialización actual es una desviación del origen de la disciplina, no su evolución natural.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Establecer un antecedente histórico que legitima la visión integral que el texto defiende.", "isCorrect": true },
+      { "letter": "B", "text": "Demostrar que la medicina antigua era superior a la medicina contemporánea.", "isCorrect": false },
+      { "letter": "C", "text": "Introducir una cita de autoridad para impresionar al lector con erudición.", "isCorrect": false },
+      { "letter": "D", "text": "Describir las prácticas médicas de la Grecia clásica como modelo a imitar literalmente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "La distinción final entre «técnicos excelentes» y «médicos» implica que, para el autor:",
+    "explanation": "El autor establece una distinción valorativa: un técnico excelente domina los aspectos mecánicos de la medicina (órganos, procedimientos), pero un médico completo integra también la dimensión humana (narrativa, valores, contexto). La palabra 'médico' adquiere un sentido más amplio que lo puramente clínico.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La competencia técnica es innecesaria si el médico tiene buenas habilidades comunicativas.", "isCorrect": false },
+      { "letter": "B", "text": "Ser médico implica, además de la competencia técnica, la capacidad de comprender al paciente como persona integral.", "isCorrect": true },
+      { "letter": "C", "text": "Los técnicos de la salud deberían recibir la misma formación que los médicos especialistas.", "isCorrect": false },
+      { "letter": "D", "text": "La formación humanística debe reemplazar la formación científica en las facultades de medicina.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "¿Cuál de las siguientes afirmaciones representa una debilidad argumentativa del texto?",
+    "explanation": "El texto presenta la hiperespecialización como inherentemente opuesta a la visión integral, pero no considera que ambas pueden coexistir. Un cardiólogo hiperespecializado PUEDE también preguntar por el contexto social de su paciente. La dicotomía que el texto plantea (especialización vs. humanismo) es una falsa disyuntiva: no son mutuamente excluyentes.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Asume sin evidencia que los médicos hiperespecializados carecen de empatía.", "isCorrect": false },
+      { "letter": "B", "text": "Presenta la especialización y la visión integral como mutuamente excluyentes, cuando podrían ser complementarias.", "isCorrect": true },
+      { "letter": "C", "text": "Utiliza una fuente histórica de hace 25 siglos que no tiene validez científica actual.", "isCorrect": false },
+      { "letter": "D", "text": "No define con precisión qué disciplinas componen las humanidades médicas.", "isCorrect": false }
+    ]
+  }
+]

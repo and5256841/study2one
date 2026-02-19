@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 
 interface Option {
@@ -20,18 +20,29 @@ interface Question {
   options: Option[];
 }
 
+function formatTime(seconds: number) {
+  const m = Math.floor(seconds / 60).toString().padStart(2, "0");
+  const s = (seconds % 60).toString().padStart(2, "0");
+  return `${m}:${s}`;
+}
+
 export default function QuizPage() {
   const params = useParams();
   const router = useRouter();
   const dayId = params.dayId as string;
 
   const [questions, setQuestions] = useState<Question[]>([]);
+  const [isExamDay, setIsExamDay] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const [answers, setAnswers] = useState<{ questionId: string; optionId: string; isCorrect: boolean }[]>([]);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [loading, setLoading] = useState(true);
+
+  // Timer (only for exam days)
+  const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const fetchQuestions = async () => {
@@ -40,6 +51,7 @@ export default function QuizPage() {
         if (res.ok) {
           const data = await res.json();
           setQuestions(data.questions);
+          setIsExamDay(data.isExamDay ?? false);
         }
       } catch (error) {
         console.error("Error fetching questions:", error);
@@ -48,6 +60,18 @@ export default function QuizPage() {
     };
     fetchQuestions();
   }, [dayId]);
+
+  // Start timer when exam begins (questions loaded + isExamDay)
+  useEffect(() => {
+    if (isExamDay && questions.length > 0 && !quizCompleted) {
+      timerRef.current = setInterval(() => {
+        setElapsedSeconds((s) => s + 1);
+      }, 1000);
+    }
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [isExamDay, questions.length, quizCompleted]);
 
   const handleSelectOption = (optionId: string) => {
     if (showFeedback) return;
@@ -76,6 +100,7 @@ export default function QuizPage() {
       setShowFeedback(false);
     } else {
       // Quiz terminado
+      if (timerRef.current) clearInterval(timerRef.current);
       setQuizCompleted(true);
       // Enviar resultados al servidor
       const finalAnswers = [...answers];
@@ -84,7 +109,11 @@ export default function QuizPage() {
         await fetch(`/api/quiz/${dayId}/submit`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ answers: finalAnswers, score }),
+          body: JSON.stringify({
+            answers: finalAnswers,
+            score,
+            ...(isExamDay ? { timeSpentSeconds: elapsedSeconds } : {}),
+          }),
         });
       } catch (error) {
         console.error("Error submitting quiz:", error);
@@ -187,26 +216,42 @@ export default function QuizPage() {
 
   return (
     <div className="px-4 py-6 space-y-4 pb-32">
-      {/* Progress */}
+      {/* Progress header — with timer for exam days */}
       <div className="flex items-center justify-between">
         <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">
-          Pregunta {currentIndex + 1} de {questions.length}
+          {isExamDay ? `Examen · ` : ""}Pregunta {currentIndex + 1} de {questions.length}
         </p>
-        <div className="flex gap-1.5">
-          {questions.map((_, i) => (
-            <div
-              key={i}
-              className={`w-2.5 h-2.5 rounded-full ${
-                i < currentIndex
-                  ? answers[i]?.isCorrect ? "bg-green-400" : "bg-red-400"
-                  : i === currentIndex
-                  ? "bg-orange-400"
-                  : "bg-white/20"
-              }`}
-            />
-          ))}
-        </div>
+        {isExamDay ? (
+          <span className="text-xs font-mono bg-orange-500/10 text-orange-300 border border-orange-500/20 px-2 py-0.5 rounded-lg">
+            ⏱ {formatTime(elapsedSeconds)}
+          </span>
+        ) : (
+          <div className="flex gap-1.5">
+            {questions.map((_, i) => (
+              <div
+                key={i}
+                className={`w-2.5 h-2.5 rounded-full ${
+                  i < currentIndex
+                    ? answers[i]?.isCorrect ? "bg-green-400" : "bg-red-400"
+                    : i === currentIndex
+                    ? "bg-orange-400"
+                    : "bg-white/20"
+                }`}
+              />
+            ))}
+          </div>
+        )}
       </div>
+
+      {/* Exam day progress bar */}
+      {isExamDay && (
+        <div className="bg-white/10 rounded-full h-1.5 overflow-hidden">
+          <div
+            className="h-full bg-gradient-to-r from-orange-500 to-orange-400 transition-all"
+            style={{ width: `${((currentIndex + (showFeedback ? 1 : 0)) / questions.length) * 100}%` }}
+          />
+        </div>
+      )}
 
       {/* Case text */}
       {currentQuestion.caseText && (

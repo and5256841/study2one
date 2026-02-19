@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import EcgWaveform from "@/components/EcgWaveform";
+import { type EcgRhythmType } from "@/lib/ecg-rhythms";
 
 interface UpcomingDay {
   globalDay: number;
@@ -16,8 +18,20 @@ interface UpcomingDay {
   isCurrent: boolean;
 }
 
+interface TodaySimulacro {
+  examId: string;
+  examTitle: string;
+  examNumber: number;
+  sectionNumber: number;
+  sectionTitle: string;
+  sectionId: string;
+  durationMinutes: number;
+  alreadySubmitted: boolean;
+}
+
 interface DashboardData {
   studentName: string;
+  rhythm?: { type: EcgRhythmType; label: string; color: string; description: string };
   currentDay: number;
   maxUnlockedDay: number;
   currentModule: { number: number; name: string; icon: string };
@@ -25,6 +39,7 @@ interface DashboardData {
   streak: { current: number; longest: number };
   progress: { completedDays: number; totalDays: number; percentage: number };
   cohort: { id: string; name: string; startDate: string };
+  todaySimulacro?: TodaySimulacro | null;
   error?: string;
 }
 
@@ -35,8 +50,12 @@ export default function StudentDashboard() {
 
   useEffect(() => {
     fetch("/api/dashboard")
-      .then((res) => res.json())
+      .then((res) => {
+        if (res.status === 401) { window.location.href = "/login"; return null; }
+        return res.json();
+      })
       .then((d) => {
+        if (!d) return;
         if (d.error) {
           setError(d.error);
         } else {
@@ -84,8 +103,48 @@ export default function StudentDashboard() {
       {/* Welcome */}
       <div>
         <h2 className="text-2xl font-bold">Hola, {studentName}</h2>
-        <p className="text-gray-400 text-sm">Tu progreso de hoy</p>
+        <div className="flex items-center gap-2 mt-1">
+          {data?.rhythm && (
+            <EcgWaveform rhythm={data.rhythm.type} size="sm" showLabel />
+          )}
+        </div>
       </div>
+
+      {/* Simulacro Alert */}
+      {data?.todaySimulacro && !data.todaySimulacro.alreadySubmitted && (
+        <div className="bg-orange-500/15 border border-orange-500/30 rounded-2xl p-5">
+          <div className="flex items-center gap-3 mb-3">
+            <span className="text-3xl">📝</span>
+            <div>
+              <h3 className="font-bold text-orange-300">Hoy tienes simulacro</h3>
+              <p className="text-xs text-gray-400">
+                {data.todaySimulacro.examTitle} — Seccion {data.todaySimulacro.sectionNumber}: {data.todaySimulacro.sectionTitle}
+              </p>
+            </div>
+          </div>
+          <p className="text-sm text-gray-300 mb-4">
+            Lo puedes realizar durante todo el dia, a la hora que quieras, pero debes cumplir con las reglas del Saber Pro. Una vez iniciado, el tiempo corre de forma oficial.
+          </p>
+          <Link
+            href={`/examen/${data.todaySimulacro.examId}/seccion/${data.todaySimulacro.sectionId}`}
+            className="block w-full text-center py-3 rounded-xl bg-gradient-to-r from-orange-500/80 to-red-500/80 hover:from-orange-500 hover:to-red-500 text-white font-semibold transition-all"
+          >
+            Iniciar seccion ({data.todaySimulacro.durationMinutes} min)
+          </Link>
+        </div>
+      )}
+
+      {data?.todaySimulacro && data.todaySimulacro.alreadySubmitted && (
+        <div className="bg-green-500/15 border border-green-500/30 rounded-2xl p-4 flex items-center gap-3">
+          <span className="text-2xl">✅</span>
+          <div>
+            <p className="font-semibold text-green-300 text-sm">Simulacro del dia completado</p>
+            <p className="text-xs text-gray-400">
+              {data.todaySimulacro.examTitle} — Seccion {data.todaySimulacro.sectionNumber}: {data.todaySimulacro.sectionTitle}
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* Streak Card */}
       <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex items-center gap-4">

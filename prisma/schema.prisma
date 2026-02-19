@@ -55,6 +55,24 @@ enum NotificationType {
   ACHIEVEMENT
   ANNOUNCEMENT
   SIMULACRO
+  COORDINATOR_MESSAGE
+}
+
+enum MonthlyExamMode {
+  WEEKLY
+  CONTINUOUS
+}
+
+enum ExamSectionStatus {
+  NOT_STARTED
+  IN_PROGRESS
+  SUBMITTED
+}
+
+enum ExamAnswerEventType {
+  SELECTED
+  CHANGED
+  CLEARED
 }
 
 // ============ USERS & AUTH ============
@@ -79,17 +97,21 @@ model User {
   createdAt        DateTime         @default(now()) @map("created_at")
   updatedAt        DateTime         @updatedAt @map("updated_at")
 
+  enrolledById     String?          @map("enrolled_by_id")
   approvedBy       User?            @relation("ApprovalRelation", fields: [approvedById], references: [id])
   approvedUsers    User[]           @relation("ApprovalRelation")
+  enrolledBy       User?            @relation("EnrolledBy", fields: [enrolledById], references: [id])
+  enrolledUsers    User[]           @relation("EnrolledBy")
 
   cohortStudents   CohortStudent[]
   coordinatedCohorts Cohort[]       @relation("CoordinatorCohorts")
   clientCohorts    Cohort[]         @relation("ClientCohorts")
 
-  audioProgress    AudioProgress[]
-  quizAttempts     QuizAttempt[]
-  photoUploads     PhotoUpload[]
-  streak           Streak?
+  audioProgress      AudioProgress[]
+  quizAttempts       QuizAttempt[]
+  photoUploads       PhotoUpload[]
+  writingSubmissions WritingSubmission[]
+  streak             Streak?
   simulacroAttempts SimulacroAttempt[]
   announcements    Announcement[]
   emailLogs        EmailLog[]
@@ -97,6 +119,12 @@ model User {
   notifications    Notification[]
   certificates     Certificate[]
   createdSimulacros Simulacro[]
+  monthlyExamAttempts MonthlyExamAttempt[]
+  approvedPhotos   PhotoUpload[]    @relation("ApprovedPhotos")
+  sentNotifications Notification[]  @relation("SentNotifications")
+  manualUnlocks    ManualUnlock[]   @relation("ManualUnlocks")
+  unlockedByMe     ManualUnlock[]   @relation("UnlockedByMe")
+  scheduledExams   CohortExamSchedule[] @relation("ScheduledExams")
 
   @@map("users")
 }
@@ -120,6 +148,7 @@ model Cohort {
   simulacros      Simulacro[]
   announcements   Announcement[]
   certificates    Certificate[]
+  examSchedules   CohortExamSchedule[]
 
   @@map("cohorts")
 }
@@ -181,6 +210,7 @@ model DailyContent {
   audioDurationSeconds Int?            @map("audio_duration_seconds")
   summary              String?
   keyConcepts          Json?           @map("key_concepts")
+  isExamDay            Boolean         @default(false) @map("is_exam_day")
   createdAt            DateTime        @default(now()) @map("created_at")
 
   module               Module          @relation(fields: [moduleId], references: [id])
@@ -189,6 +219,7 @@ model DailyContent {
   audioProgress        AudioProgress[]
   quizAttempts         QuizAttempt[]
   photoUploads         PhotoUpload[]
+  writingSubmissions   WritingSubmission[]
 
   @@unique([moduleId, dayNumber])
   @@map("daily_content")
@@ -254,8 +285,9 @@ model QuizAttempt {
   dailyContentId String       @map("daily_content_id")
   startedAt      DateTime     @default(now()) @map("started_at")
   completedAt    DateTime?    @map("completed_at")
-  score          Int          @default(0)
-  totalQuestions Int          @default(3) @map("total_questions")
+  score            Int          @default(0)
+  totalQuestions   Int          @default(3) @map("total_questions")
+  timeSpentSeconds Int?         @map("time_spent_seconds")
 
   student        User         @relation(fields: [studentId], references: [id])
   dailyContent   DailyContent @relation(fields: [dailyContentId], references: [id])
@@ -283,15 +315,34 @@ model PhotoUpload {
   id             String       @id @default(uuid())
   studentId      String       @map("student_id")
   dailyContentId String       @map("daily_content_id")
-  photoUrl       String       @map("photo_url")
+  photoUrl       String?      @map("photo_url")
   thumbnailUrl   String?      @map("thumbnail_url")
   photoType      PhotoType    @default(OTHER) @map("photo_type")
   uploadedAt     DateTime     @default(now()) @map("uploaded_at")
+  isApproved     Boolean      @default(false) @map("is_approved")
+  approvedAt     DateTime?    @map("approved_at")
+  approvedById   String?      @map("approved_by_id")
 
   student        User         @relation(fields: [studentId], references: [id])
   dailyContent   DailyContent @relation(fields: [dailyContentId], references: [id])
+  approvedBy     User?        @relation("ApprovedPhotos", fields: [approvedById], references: [id])
 
   @@map("photo_uploads")
+}
+
+model WritingSubmission {
+  id               String       @id @default(uuid())
+  studentId        String       @map("student_id")
+  dailyContentId   String       @map("daily_content_id")
+  content          String
+  wordCount        Int          @map("word_count")
+  timeSpentSeconds Int?         @map("time_spent_seconds")
+  submittedAt      DateTime     @default(now()) @map("submitted_at")
+
+  student          User         @relation(fields: [studentId], references: [id])
+  dailyContent     DailyContent @relation(fields: [dailyContentId], references: [id])
+
+  @@map("writing_submissions")
 }
 
 model Streak {
@@ -440,15 +491,18 @@ model PushSubscription {
 }
 
 model Notification {
-  id        String           @id @default(uuid())
-  userId    String           @map("user_id")
-  title     String
-  body      String
-  type      NotificationType
-  isRead    Boolean          @default(false) @map("is_read")
-  createdAt DateTime         @default(now()) @map("created_at")
+  id          String           @id @default(uuid())
+  userId      String           @map("user_id")
+  senderId    String?          @map("sender_id")
+  title       String
+  body        String
+  type        NotificationType
+  templateKey String?          @map("template_key")
+  isRead      Boolean          @default(false) @map("is_read")
+  createdAt   DateTime         @default(now()) @map("created_at")
 
-  user      User             @relation(fields: [userId], references: [id])
+  user        User             @relation(fields: [userId], references: [id])
+  sender      User?            @relation("SentNotifications", fields: [senderId], references: [id])
 
   @@map("notifications")
 }
@@ -467,4 +521,204 @@ model Certificate {
   cohort           Cohort   @relation(fields: [cohortId], references: [id])
 
   @@map("certificates")
+}
+
+// ============ MONTHLY EXAMS (SIMULACROS MENSUALES) ============
+
+model MonthlyExam {
+  id                   String           @id @default(uuid())
+  number               Int              @unique
+  title                String
+  mode                 MonthlyExamMode  @default(WEEKLY)
+  availableFrom        DateTime?        @map("available_from")
+  availableUntil       DateTime?        @map("available_until")
+  isActive             Boolean          @default(false) @map("is_active")
+  requiredModuleNumber Int?             @map("required_module_number")
+  isBaseline           Boolean          @default(false) @map("is_baseline")
+  createdAt            DateTime         @default(now()) @map("created_at")
+
+  sections        ExamSection[]
+  attempts        MonthlyExamAttempt[]
+  manualUnlocks   ManualUnlock[]
+  cohortSchedules CohortExamSchedule[]
+
+  @@map("monthly_exams")
+}
+
+model ManualUnlock {
+  id           String      @id @default(uuid())
+  studentId    String      @map("student_id")
+  examId       String      @map("exam_id")
+  unlockedById String      @map("unlocked_by_id")
+  reason       String?
+  createdAt    DateTime    @default(now()) @map("created_at")
+
+  student      User        @relation("ManualUnlocks", fields: [studentId], references: [id])
+  exam         MonthlyExam @relation(fields: [examId], references: [id])
+  unlockedBy   User        @relation("UnlockedByMe", fields: [unlockedById], references: [id])
+
+  @@unique([studentId, examId])
+  @@map("manual_unlocks")
+}
+
+model ExamSection {
+  id              String              @id @default(uuid())
+  examId          String              @map("exam_id")
+  sectionNumber   Int                 @map("section_number")
+  moduleNumber    Int                 @map("module_number")
+  title           String
+  durationMinutes Int                 @map("duration_minutes")
+  totalQuestions  Int                 @map("total_questions")
+  isWriting       Boolean             @default(false) @map("is_writing")
+  orderIndex      Int                 @map("order_index")
+
+  exam            MonthlyExam         @relation(fields: [examId], references: [id])
+  questions       ExamSectionQuestion[]
+  sectionAttempts ExamSectionAttempt[]
+
+  @@unique([examId, sectionNumber])
+  @@map("exam_sections")
+}
+
+model ExamSectionQuestion {
+  id            String             @id @default(uuid())
+  sectionId     String             @map("section_id")
+  questionOrder Int                @map("question_order")
+  caseText      String?            @map("case_text")
+  questionText  String             @map("question_text")
+  explanation   String?
+  competency    String?
+
+  section        ExamSection        @relation(fields: [sectionId], references: [id])
+  options        ExamSectionOption[]
+  answers        ExamSectionAnswer[]
+  answerEvents   ExamAnswerEvent[]
+  questionViews  ExamQuestionView[]
+
+  @@unique([sectionId, questionOrder])
+  @@map("exam_section_questions")
+}
+
+model ExamSectionOption {
+  id         String              @id @default(uuid())
+  questionId String              @map("question_id")
+  letter     String
+  text       String
+  isCorrect  Boolean             @default(false) @map("is_correct")
+
+  question       ExamSectionQuestion @relation(fields: [questionId], references: [id])
+  answers        ExamSectionAnswer[]
+  selectedEvents ExamAnswerEvent[]   @relation("SelectedOptionEvents")
+  previousEvents ExamAnswerEvent[]   @relation("PreviousOptionEvents")
+
+  @@map("exam_section_options")
+}
+
+model MonthlyExamAttempt {
+  id          String              @id @default(uuid())
+  examId      String              @map("exam_id")
+  studentId   String              @map("student_id")
+  startedAt   DateTime            @default(now()) @map("started_at")
+  isCompleted Boolean             @default(false) @map("is_completed")
+  totalScore  Float?              @map("total_score")
+
+  exam        MonthlyExam         @relation(fields: [examId], references: [id])
+  student     User                @relation(fields: [studentId], references: [id])
+  sectionAttempts ExamSectionAttempt[]
+
+  @@unique([examId, studentId])
+  @@map("monthly_exam_attempts")
+}
+
+model ExamSectionAttempt {
+  id               String            @id @default(uuid())
+  examAttemptId    String            @map("exam_attempt_id")
+  sectionId        String            @map("section_id")
+  status           ExamSectionStatus @default(NOT_STARTED)
+  startedAt        DateTime?         @map("started_at")
+  submittedAt      DateTime?         @map("submitted_at")
+  timeSpentSeconds Int               @default(0) @map("time_spent_seconds")
+  tabSwitches      Int               @default(0) @map("tab_switches")
+  totalCorrect     Int               @default(0) @map("total_correct")
+  writingContent     String?           @map("writing_content")
+  writingWordCount   Int?              @map("writing_word_count")
+  totalAnswerChanges Int               @default(0) @map("total_answer_changes")
+
+  examAttempt      MonthlyExamAttempt @relation(fields: [examAttemptId], references: [id])
+  section          ExamSection        @relation(fields: [sectionId], references: [id])
+  answers          ExamSectionAnswer[]
+  answerEvents     ExamAnswerEvent[]
+  questionViews    ExamQuestionView[]
+
+  @@unique([examAttemptId, sectionId])
+  @@map("exam_section_attempts")
+}
+
+model ExamSectionAnswer {
+  sectionAttemptId String              @map("section_attempt_id")
+  questionId       String              @map("question_id")
+  selectedOptionId String?             @map("selected_option_id")
+  answeredAt       DateTime            @default(now()) @map("answered_at")
+
+  sectionAttempt   ExamSectionAttempt  @relation(fields: [sectionAttemptId], references: [id])
+  question         ExamSectionQuestion @relation(fields: [questionId], references: [id])
+  selectedOption   ExamSectionOption?  @relation(fields: [selectedOptionId], references: [id])
+
+  @@id([sectionAttemptId, questionId])
+  @@map("exam_section_answers")
+}
+
+// ============ EXAM RESEARCH METRICS ============
+
+model ExamAnswerEvent {
+  id               String               @id @default(uuid())
+  sectionAttemptId String               @map("section_attempt_id")
+  questionId       String               @map("question_id")
+  selectedOptionId String?              @map("selected_option_id")
+  previousOptionId String?              @map("previous_option_id")
+  eventType        ExamAnswerEventType  @map("event_type")
+  isCorrect        Boolean              @default(false) @map("is_correct")
+  timestamp        DateTime             @default(now())
+
+  sectionAttempt   ExamSectionAttempt   @relation(fields: [sectionAttemptId], references: [id])
+  question         ExamSectionQuestion  @relation(fields: [questionId], references: [id])
+  selectedOption   ExamSectionOption?   @relation("SelectedOptionEvents", fields: [selectedOptionId], references: [id])
+  previousOption   ExamSectionOption?   @relation("PreviousOptionEvents", fields: [previousOptionId], references: [id])
+
+  @@index([sectionAttemptId])
+  @@index([sectionAttemptId, questionId])
+  @@map("exam_answer_events")
+}
+
+model ExamQuestionView {
+  id               String              @id @default(uuid())
+  sectionAttemptId String              @map("section_attempt_id")
+  questionId       String              @map("question_id")
+  viewedAt         DateTime            @map("viewed_at")
+  leftAt           DateTime?           @map("left_at")
+  durationSeconds  Int?                @map("duration_seconds")
+
+  sectionAttempt   ExamSectionAttempt  @relation(fields: [sectionAttemptId], references: [id])
+  question         ExamSectionQuestion @relation(fields: [questionId], references: [id])
+
+  @@index([sectionAttemptId])
+  @@map("exam_question_views")
+}
+
+// ============ COHORT EXAM SCHEDULING ============
+
+model CohortExamSchedule {
+  id            String      @id @default(uuid())
+  cohortId      String      @map("cohort_id")
+  examId        String      @map("exam_id")
+  startDay      Int         @map("start_day")
+  scheduledById String      @map("scheduled_by_id")
+  createdAt     DateTime    @default(now()) @map("created_at")
+
+  cohort      Cohort      @relation(fields: [cohortId], references: [id])
+  exam        MonthlyExam @relation(fields: [examId], references: [id])
+  scheduledBy User        @relation("ScheduledExams", fields: [scheduledById], references: [id])
+
+  @@unique([cohortId, examId])
+  @@map("cohort_exam_schedules")
 }

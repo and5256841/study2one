@@ -8,6 +8,8 @@ import {
   MODULES_INFO,
   TOTAL_DAYS,
 } from "@/lib/student-day";
+import { getStudentRhythmFromActivity } from "@/lib/ecg-rhythms";
+import { getTodaysSection } from "@/lib/exam-schedule";
 
 export async function GET() {
   const session = await auth();
@@ -146,13 +148,105 @@ export async function GET() {
   // Get user info
   const user = await prisma.user.findUnique({
     where: { id: studentId },
-    select: { fullName: true, pseudonym: true, avatarSeed: true, avatarStyle: true },
+    select: { fullName: true, pseudonym: true },
   });
+
+  // Calculate average quiz score for rhythm
+  const allQuizAttempts = await prisma.quizAttempt.findMany({
+    where: { studentId },
+    select: { score: true, totalQuestions: true },
+  });
+  const avgQuizScore = allQuizAttempts.length > 0
+    ? Math.round(
+        (allQuizAttempts.reduce((sum, q) => sum + q.score, 0) /
+          allQuizAttempts.reduce((sum, q) => sum + q.totalQuestions, 0)) * 100
+      )
+    : 0;
+  const rhythm = getStudentRhythmFromActivity(
+    streak?.lastActivityDate?.toISOString() ?? null,
+    streak?.currentStreak ?? 0,
+    avgQuizScore,
+  );
+
+  // Check if today has a scheduled simulacro section
+  let todaySimulacro: {
+    examId: string;
+    examTitle: string;
+    examNumber: number;
+    sectionNumber: number;
+    sectionTitle: string;
+    sectionId: string;
+    durationMinutes: number;
+    alreadySubmitted: boolean;
+  } | null = null;
+
+  try {
+    const examSchedules = await prisma.cohortExamSchedule.findMany({
+      where: { cohortId: studentDayInfo.cohortId },
+      include: {
+        exam: {
+          select: {
+            id: true,
+            title: true,
+            number: true,
+            isActive: true,
+            sections: {
+              select: { id: true, sectionNumber: true, title: true, durationMinutes: true },
+              orderBy: { orderIndex: "asc" },
+            },
+          },
+        },
+      },
+    });
+
+    for (const schedule of examSchedules) {
+      if (!schedule.exam.isActive) continue;
+      const sectionNum = getTodaysSection(schedule.startDay, maxUnlockedDay);
+      if (sectionNum === null) continue;
+
+      const section = schedule.exam.sections.find(
+        (s) => s.sectionNumber === sectionNum
+      );
+      if (!section) continue;
+
+      // Check if already submitted
+      const existingAttempt = await prisma.monthlyExamAttempt.findUnique({
+        where: { examId_studentId: { examId: schedule.exam.id, studentId } },
+        select: {
+          sectionAttempts: {
+            where: { sectionId: section.id },
+            select: { status: true },
+          },
+        },
+      });
+
+      const alreadySubmitted =
+        existingAttempt?.sectionAttempts?.[0]?.status === "SUBMITTED";
+
+      todaySimulacro = {
+        examId: schedule.exam.id,
+        examTitle: schedule.exam.title,
+        examNumber: schedule.exam.number,
+        sectionNumber: sectionNum,
+        sectionTitle: section.title,
+        sectionId: section.id,
+        durationMinutes: section.durationMinutes,
+        alreadySubmitted,
+      };
+      break;
+    }
+  } catch {
+    // Don't fail dashboard if exam check fails
+  }
 
   return NextResponse.json({
     studentName: user?.pseudonym || user?.fullName || "Estudiante",
-    avatarSeed: user?.avatarSeed,
-    avatarStyle: user?.avatarStyle,
+    rhythm: {
+      type: rhythm.type,
+      label: rhythm.label,
+      color: rhythm.color,
+      description: rhythm.description,
+    },
     currentDay,
     maxUnlockedDay,
     currentModule: {
@@ -176,5 +270,6 @@ export async function GET() {
       name: studentDayInfo.cohortName,
       startDate: studentDayInfo.cohortStartDate.toISOString(),
     },
+    todaySimulacro,
   });
 }

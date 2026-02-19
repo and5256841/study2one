@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Lea el siguiente texto.\n\nEl artículo 49 de la Constitución Política de Colombia establece que la atención de la salud y el saneamiento ambiental son servicios públicos a cargo del Estado. Sin embargo, en la práctica, muchas comunidades rurales carecen de acceso a servicios básicos de salud, agua potable y alcantarillado. Un grupo de líderes comunitarios del municipio de Toribío (Cauca) decidió interponer una acción de tutela argumentando que la falta de un puesto de salud funcional en su vereda vulnera su derecho fundamental a la vida y a la salud.\n\n(Redacción Study2One)",
+    "questionText": "La acción de tutela interpuesta por los líderes comunitarios se fundamenta en:",
+    "explanation": "La tutela protege derechos fundamentales. Los líderes argumentan que la ausencia de servicios de salud viola el derecho a la vida (art. 11) y a la salud (art. 49, que la Corte Constitucional ha reconocido como fundamental). No se basa en el derecho de petición ni en derechos colectivos (que se protegen con acción popular), ni en el derecho al trabajo.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "La protección del derecho de petición ante las autoridades.", "isCorrect": false },
+      { "letter": "B", "text": "La protección de derechos colectivos relacionados con el medio ambiente.", "isCorrect": false },
+      { "letter": "C", "text": "La protección de derechos fundamentales como la vida y la salud.", "isCorrect": true },
+      { "letter": "D", "text": "La protección del derecho al trabajo de los profesionales de salud de la zona.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "Si un juez falla a favor de los líderes comunitarios, ¿qué tipo de obligación genera para el Estado?",
+    "explanation": "Un fallo de tutela favorable genera una orden judicial concreta que obliga al Estado a tomar medidas específicas para garantizar el derecho vulnerado (en este caso, garantizar acceso a servicios de salud). No es una recomendación ni genera automáticamente una sanción penal.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Una recomendación que el Estado puede atender según su presupuesto.", "isCorrect": false },
+      { "letter": "B", "text": "Una orden judicial de obligatorio cumplimiento para garantizar el derecho vulnerado.", "isCorrect": true },
+      { "letter": "C", "text": "Una sanción económica directa contra el alcalde del municipio.", "isCorrect": false },
+      { "letter": "D", "text": "Una demanda penal automática contra los funcionarios responsables.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "En un hospital público, una enfermera observa que un médico prescribe un medicamento al que el paciente ha declarado ser alérgico, según consta en la historia clínica. La enfermera duda entre administrar el medicamento (siguiendo la orden médica) o detenerse y cuestionar la prescripción.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva de la ética profesional, ¿cuál debería ser la conducta de la enfermera?",
+    "explanation": "El principio de no maleficencia (no hacer daño) obliga a la enfermera a verificar la seguridad del paciente. Una orden médica no exime de responsabilidad ética individual. Administrar un medicamento conocido como alérgeno podría causar daño grave. El protocolo correcto es alertar al médico sobre la alergia registrada.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Administrar el medicamento porque la responsabilidad recae exclusivamente en el médico que prescribe.", "isCorrect": false },
+      { "letter": "B", "text": "Negarse a administrar el medicamento sin dar explicaciones al médico.", "isCorrect": false },
+      { "letter": "C", "text": "Alertar al médico sobre la alergia registrada antes de administrar el medicamento.", "isCorrect": true },
+      { "letter": "D", "text": "Consultar primero a los familiares del paciente sobre la alergia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Una empresa farmacéutica financia un estudio clínico sobre un nuevo medicamento. Los resultados muestran una eficacia moderada con efectos secundarios significativos. La empresa solicita a los investigadores que enfaticen la eficacia y minimicen los efectos adversos en la publicación.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál principio ético se vulnera si los investigadores aceptan la solicitud de la empresa?",
+    "explanation": "La transparencia y la integridad científica exigen reportar los resultados de manera objetiva y completa. Minimizar los efectos adversos vulnera la veracidad en la comunicación científica y, por extensión, la autonomía de otros profesionales y pacientes que tomarán decisiones basadas en esos datos. El principio más directamente afectado es la veracidad/transparencia.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El principio de beneficencia, porque el medicamento podría ayudar a algunos pacientes.", "isCorrect": false },
+      { "letter": "B", "text": "El principio de veracidad y transparencia en la investigación científica.", "isCorrect": true },
+      { "letter": "C", "text": "El principio de justicia distributiva en la asignación de recursos.", "isCorrect": false },
+      { "letter": "D", "text": "El principio de confidencialidad de los participantes del estudio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "En Colombia, la Ley 1751 de 2015 (Ley Estatutaria de Salud) consagra la salud como un derecho fundamental autónomo. Entre sus disposiciones, establece que el Estado debe garantizar la disponibilidad, aceptabilidad, accesibilidad y calidad de los servicios de salud.\n\n(Redacción Study2One, con referencia a la Ley 1751 de 2015)",
+    "questionText": "El componente de «accesibilidad» en los servicios de salud incluye:",
+    "explanation": "La accesibilidad, según la Ley 1751 y estándares internacionales (OMS), abarca cuatro dimensiones: no discriminación, accesibilidad física, accesibilidad económica (asequibilidad) y acceso a la información. La eliminación de barreras geográficas, económicas y culturales es central. La calidad de los equipos se refiere al componente de calidad, no de accesibilidad.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Que los servicios de salud tengan equipos de última tecnología.", "isCorrect": false },
+      { "letter": "B", "text": "Que no existan barreras geográficas, económicas ni culturales para recibir atención.", "isCorrect": true },
+      { "letter": "C", "text": "Que los médicos estén disponibles las 24 horas del día.", "isCorrect": false },
+      { "letter": "D", "text": "Que los medicamentos se vendan a precios regulados por el gobierno.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "Un alcalde de un municipio de categoría 6 destina la totalidad del presupuesto de salud pública a la construcción de un hospital de alta complejidad, argumentando que así se resuelve definitivamente el problema de salud de la región. Como consecuencia, los programas de vacunación, promoción de la salud y atención primaria quedan sin financiación durante ese año.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva de la salud pública, ¿cuál es el principal problema de esta decisión?",
+    "explanation": "La atención primaria en salud (APS) y los programas de prevención y promoción tienen mayor impacto poblacional que un hospital de alta complejidad en un municipio pequeño. Desfinanciar estos programas puede generar un aumento de enfermedades prevenibles, afectando a más personas que las que el hospital podría atender. El enfoque integral de la salud pública prioriza la prevención sobre la atención curativa de alta complejidad.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Los hospitales de alta complejidad no son necesarios en municipios pequeños.", "isCorrect": false },
+      { "letter": "B", "text": "Se sacrifican programas de prevención y atención primaria que benefician a toda la población.", "isCorrect": true },
+      { "letter": "C", "text": "La decisión es ilegal porque solo el gobierno nacional puede construir hospitales.", "isCorrect": false },
+      { "letter": "D", "text": "Los alcaldes no tienen competencia para tomar decisiones sobre salud pública.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Un médico rural atiende a un paciente indígena wayúu que rechaza la transfusión sanguínea recomendada por razones culturales y espirituales. El paciente está consciente, es mayor de edad y comprende las consecuencias de su decisión. La familia apoya la posición del paciente.\n\n(Redacción Study2One)",
+    "questionText": "Ante esta situación, el médico debería:",
+    "explanation": "El principio de autonomía del paciente, reforzado por el respeto a la diversidad cultural (reconocida en el art. 7 de la Constitución colombiana), obliga al médico a respetar la decisión informada de un paciente competente. El consentimiento informado incluye el derecho a rechazar tratamientos. El médico debe documentar la decisión y ofrecer alternativas viables.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Realizar la transfusión de emergencia, ya que la vida del paciente está en riesgo.", "isCorrect": false },
+      { "letter": "B", "text": "Respetar la decisión del paciente, documentarla y buscar alternativas terapéuticas.", "isCorrect": true },
+      { "letter": "C", "text": "Solicitar autorización judicial para realizar el procedimiento contra la voluntad del paciente.", "isCorrect": false },
+      { "letter": "D", "text": "Convencer a la familia de que obliguen al paciente a aceptar el tratamiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Una investigación reveló que en el departamento del Chocó, la tasa de mortalidad materna es 4 veces superior al promedio nacional, y que el 60 % de los partos en zonas rurales ocurren sin asistencia profesional. Simultáneamente, el departamento recibe la menor inversión per cápita en salud del país.\n\n(Datos ficticios basados en tendencias reales — Redacción Study2One)",
+    "questionText": "Esta situación ilustra principalmente una vulneración del principio de:",
+    "explanation": "El principio de equidad en salud exige que los recursos se distribuyan de acuerdo con las necesidades de la población. Que el departamento con peores indicadores reciba la menor inversión es una clara inequidad. No se trata solo de eficiencia (hacer más con menos) sino de justicia distributiva: asignar más recursos donde hay mayor necesidad.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Eficiencia administrativa en la gestión de recursos públicos.", "isCorrect": false },
+      { "letter": "B", "text": "Equidad en la distribución de recursos para la salud.", "isCorrect": true },
+      { "letter": "C", "text": "Legalidad en la contratación de profesionales de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Sostenibilidad financiera del sistema de salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "El Decreto 780 de 2016 define que el Sistema General de Seguridad Social en Salud (SGSSS) en Colombia se organiza en dos regímenes:\n\n• Régimen contributivo: para trabajadores formales y sus familias.\n• Régimen subsidiado: para personas sin capacidad de pago, financiado con recursos fiscales y solidaridad del contributivo.\n\n(Redacción Study2One, con referencia al Decreto 780 de 2016)",
+    "questionText": "El mecanismo de solidaridad entre los dos regímenes significa que:",
+    "explanation": "En el SGSSS colombiano, parte de las cotizaciones del régimen contributivo se transfieren al subsidiado a través de la subcuenta de solidaridad del FOSYGA (ahora ADRES). Este mecanismo busca que quienes tienen capacidad de pago contribuyan a la cobertura de quienes no la tienen.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Los afiliados al régimen subsidiado deben pagar una cuota mínima mensual.", "isCorrect": false },
+      { "letter": "B", "text": "Una parte de las cotizaciones del régimen contributivo financia la atención del régimen subsidiado.", "isCorrect": true },
+      { "letter": "C", "text": "Los dos regímenes comparten los mismos hospitales y profesionales.", "isCorrect": false },
+      { "letter": "D", "text": "Las EPS del régimen contributivo administran también el régimen subsidiado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "En una reunión comunitaria, se discute la instalación de una antena de telefonía celular cerca de un colegio. Los padres de familia se oponen argumentando posibles riesgos para la salud de los niños. La empresa de telecomunicaciones presenta estudios que concluyen que las radiaciones están dentro de los límites permitidos. El alcalde debe tomar una decisión.\n\n(Redacción Study2One)",
+    "questionText": "El principio de precaución sugiere que el alcalde debería:",
+    "explanation": "El principio de precaución establece que ante la incertidumbre científica sobre posibles daños graves o irreversibles, la falta de certeza absoluta no debe ser razón para no tomar medidas preventivas. Buscar una ubicación alternativa que reduzca la exposición de los niños sin prohibir la infraestructura es una aplicación proporcionada de este principio.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Autorizar la instalación porque los estudios de la empresa cumplen la normativa.", "isCorrect": false },
+      { "letter": "B", "text": "Prohibir permanentemente todas las antenas de celular en el municipio.", "isCorrect": false },
+      { "letter": "C", "text": "Buscar una ubicación alternativa que minimice la exposición de los niños, sin prohibir la infraestructura.", "isCorrect": true },
+      { "letter": "D", "text": "Ignorar las preocupaciones de los padres porque no tienen sustento científico.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "La Constitución Política de Colombia de 1991 declara en su artículo 1 que Colombia es un Estado social de derecho. A diferencia de un Estado liberal clásico (que se limita a no interferir en las libertades individuales), el Estado social de derecho tiene una obligación activa.\n\n(Redacción Study2One)",
+    "questionText": "La diferencia fundamental entre un Estado liberal clásico y un Estado social de derecho radica en que este último:",
+    "explanation": "El Estado social de derecho, a diferencia del liberal clásico que solo protege libertades negativas (no interferencia), asume obligaciones positivas: debe actuar para garantizar condiciones materiales mínimas (salud, educación, vivienda) que permitan el ejercicio real de los derechos. No se limita a no interferir, sino que interviene activamente.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Elimina todas las formas de propiedad privada para redistribuir la riqueza.", "isCorrect": false },
+      { "letter": "B", "text": "Asume la obligación de garantizar condiciones materiales mínimas para el ejercicio real de los derechos.", "isCorrect": true },
+      { "letter": "C", "text": "Otorga al gobierno poderes ilimitados para intervenir en la economía.", "isCorrect": false },
+      { "letter": "D", "text": "Prohíbe la participación del sector privado en la prestación de servicios públicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Un grupo de vecinos de un barrio popular de Medellín organiza una jornada de recolección de residuos sólidos, limpieza de un caño contaminado y siembra de árboles en zonas comunes. No reciben apoyo gubernamental ni de ONG.\n\n(Redacción Study2One)",
+    "questionText": "Esta acción es un ejemplo de:",
+    "explanation": "La participación comunitaria en salud ambiental se refiere a las acciones voluntarias y organizadas de la ciudadanía para mejorar las condiciones de su entorno sin depender de instituciones. No es asistencialismo (viene del Estado), ni desobediencia civil (no implica resistencia a una norma), ni clientelismo (no hay intercambio de favores políticos).",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Asistencialismo estatal disfrazado de iniciativa comunitaria.", "isCorrect": false },
+      { "letter": "B", "text": "Participación comunitaria autónoma en la gestión de la salud ambiental.", "isCorrect": true },
+      { "letter": "C", "text": "Desobediencia civil frente a la inacción del gobierno.", "isCorrect": false },
+      { "letter": "D", "text": "Clientelismo político a nivel barrial.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Un profesional de enfermería trabaja en una zona de conflicto armado. Un grupo armado ilegal le exige que atienda exclusivamente a sus combatientes heridos y que no brinde atención a la población civil. El profesional se niega.\n\n(Redacción Study2One)",
+    "questionText": "La negativa del profesional se fundamenta principalmente en:",
+    "explanation": "El Derecho Internacional Humanitario (DIH) y la ética médica establecen que el personal de salud debe atender a toda persona herida o enferma sin distinción. El principio de neutralidad médica y el de no discriminación prohíben condicionar la atención por la pertenencia a un bando del conflicto. Las Convenciones de Ginebra protegen esta neutralidad.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "El Código Penal colombiano, que sanciona la colaboración con grupos armados.", "isCorrect": false },
+      { "letter": "B", "text": "El principio de neutralidad médica y el derecho humanitario que obliga a atender a todos sin distinción.", "isCorrect": true },
+      { "letter": "C", "text": "Las directrices administrativas del hospital que le prohíben salir de su área de influencia.", "isCorrect": false },
+      { "letter": "D", "text": "Su convicción personal de que no debe ayudar a combatientes de ningún bando.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "En un debate público, dos posiciones se enfrentan:\n\nPosición A: «La vacunación debe ser obligatoria para todos los niños porque la inmunidad colectiva protege a los más vulnerables. Los padres no tienen derecho a poner en riesgo la salud pública por creencias personales.»\n\nPosición B: «Los padres tienen derecho a decidir sobre la salud de sus hijos. Obligar a vacunar es una violación de la libertad individual y del consentimiento informado.»\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál de las siguientes afirmaciones refleja mejor la tensión ética del debate?",
+    "explanation": "El debate vacunación obligatoria ilustra la tensión clásica entre el bienestar colectivo (salud pública, inmunidad de grupo) y los derechos individuales (autonomía parental, consentimiento). Ambas posiciones tienen fundamento ético; la pregunta busca identificar la tensión, no resolver el debate.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La posición A es correcta porque la ciencia ha demostrado que las vacunas son seguras.", "isCorrect": false },
+      { "letter": "B", "text": "La posición B es correcta porque ningún Estado puede obligar a tratamientos médicos.", "isCorrect": false },
+      { "letter": "C", "text": "El debate refleja la tensión entre el derecho a la salud colectiva y la autonomía individual.", "isCorrect": true },
+      { "letter": "D", "text": "El debate es irrelevante porque las vacunas no afectan los derechos de nadie.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "La Corte Constitucional de Colombia, en la Sentencia T-760 de 2008, ordenó al sistema de salud colombiano tomar medidas estructurales para garantizar el derecho a la salud de manera efectiva. Entre otras cosas, ordenó la unificación progresiva de los planes de beneficios de los regímenes contributivo y subsidiado.\n\n(Redacción Study2One, con referencia a la Sentencia T-760 de 2008)",
+    "questionText": "La unificación de los planes de beneficios busca principalmente:",
+    "explanation": "Antes de la unificación, el régimen subsidiado tenía un plan de beneficios más limitado que el contributivo, generando inequidad. La unificación busca que todos los colombianos, independientemente de su capacidad de pago, tengan acceso a los mismos servicios de salud, aplicando el principio de igualdad.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Reducir los costos de operación de las EPS.", "isCorrect": false },
+      { "letter": "B", "text": "Eliminar las diferencias en cobertura entre quienes pagan y quienes no pueden pagar.", "isCorrect": true },
+      { "letter": "C", "text": "Privatizar completamente la prestación de servicios de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Transferir la responsabilidad de la salud del Estado a los ciudadanos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Un estudio identifica que la tasa de suicidio en adolescentes de un barrio marginado es 3 veces superior al promedio de la ciudad. Al investigar las causas, se encuentran múltiples factores: pobreza, violencia intrafamiliar, consumo de sustancias psicoactivas, falta de espacios recreativos y estigmatización social.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde el enfoque de determinantes sociales de la salud, ¿cuál intervención tendría mayor impacto a largo plazo?",
+    "explanation": "El enfoque de determinantes sociales reconoce que la salud está condicionada por factores estructurales (pobreza, exclusión, violencia). Una intervención integral que aborde las condiciones socioeconómicas y comunitarias (determinantes intermedios y estructurales) tendrá mayor impacto que intervenciones aisladas dirigidas solo a los individuos (como más psicólogos o campañas de sensibilización).",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Contratar más psicólogos para atender a los adolescentes en riesgo.", "isCorrect": false },
+      { "letter": "B", "text": "Implementar un programa integral que aborde la pobreza, la violencia y la exclusión social del barrio.", "isCorrect": true },
+      { "letter": "C", "text": "Realizar una campaña de sensibilización sobre el suicidio en los colegios.", "isCorrect": false },
+      { "letter": "D", "text": "Aumentar la presencia policial en el barrio para reducir la violencia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Un hospital privado se niega a atender a una mujer embarazada en trabajo de parto porque no está afiliada a ninguna EPS y no puede pagar. La mujer es trasladada a un hospital público que queda a 45 minutos, y durante el trayecto presenta complicaciones que ponen en riesgo su vida y la del bebé.\n\n(Redacción Study2One)",
+    "questionText": "La conducta del hospital privado:",
+    "explanation": "En Colombia, la Ley 10 de 1990 y la jurisprudencia constitucional establecen que ninguna institución de salud puede negar la atención de urgencias, independientemente de la capacidad de pago o afiliación del paciente. Un parto en curso es una urgencia vital. La negación de atención en este caso vulnera el derecho a la vida y constituye una infracción legal.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es legal porque los hospitales privados pueden seleccionar a sus pacientes.", "isCorrect": false },
+      { "letter": "B", "text": "Es comprensible porque el hospital debe garantizar su sostenibilidad financiera.", "isCorrect": false },
+      { "letter": "C", "text": "Viola la obligación legal de atender urgencias sin exigir pago previo ni verificar afiliación.", "isCorrect": true },
+      { "letter": "D", "text": "Es correcta siempre que el hospital haya coordinado el traslado de forma oportuna.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Dos países implementan estrategias diferentes para reducir el consumo de tabaco:\n\n• País X: Prohíbe la publicidad de tabaco, aumenta impuestos al cigarrillo en un 40 % e implementa ambientes 100 % libres de humo en todos los espacios cerrados.\n• País Y: Realiza campañas educativas en medios de comunicación sobre los riesgos del tabaco y ofrece programas gratuitos de cesación.\n\nDespués de 5 años, el País X redujo el consumo en un 25 % y el País Y en un 8 %.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "La diferencia en los resultados puede explicarse principalmente porque:",
+    "explanation": "Las políticas regulatorias (impuestos, prohibición de publicidad, espacios libres de humo) actúan sobre el entorno y afectan a toda la población simultáneamente, independientemente de la motivación individual. Las campañas educativas dependen de que cada persona procese la información y decida cambiar. La evidencia en salud pública muestra que las intervenciones estructurales/poblacionales son más efectivas que las individuales para cambiar comportamientos masivos.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Las campañas educativas no tienen ningún efecto sobre el comportamiento.", "isCorrect": false },
+      { "letter": "B", "text": "Las medidas regulatorias modifican el entorno y afectan a toda la población, mientras que las campañas dependen de decisiones individuales.", "isCorrect": true },
+      { "letter": "C", "text": "El País X tiene una población más educada y por eso responde mejor a las políticas.", "isCorrect": false },
+      { "letter": "D", "text": "Los impuestos al tabaco son la única medida efectiva contra el consumo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Un coordinador de salud pública descubre que un funcionario de su equipo ha estado desviando insumos médicos (guantes, jeringas, medicamentos básicos) destinados a una brigada de salud en una comunidad indígena, para venderlos en el mercado informal.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la acción correcta que debe tomar el coordinador?",
+    "explanation": "El coordinador tiene la obligación legal y ética de denunciar la conducta irregular. El desvío de insumos públicos constituye un delito (peculado) y afecta directamente a una población vulnerable. No denunciar lo convierte en cómplice. La denuncia debe ser formal, no solo un llamado de atención.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Hacer un llamado de atención verbal y dar una segunda oportunidad al funcionario.", "isCorrect": false },
+      { "letter": "B", "text": "Denunciar formalmente ante las autoridades competentes y documentar la evidencia.", "isCorrect": true },
+      { "letter": "C", "text": "Trasladar al funcionario a otra dependencia para evitar el conflicto.", "isCorrect": false },
+      { "letter": "D", "text": "Reemplazar los insumos con recursos propios para no afectar la brigada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "En la vereda El Porvenir, la única fuente de agua es un río contaminado por desechos de una mina de oro artesanal que opera sin licencia ambiental. Los habitantes reportan casos frecuentes de enfermedades gastrointestinales y erupciones cutáneas, especialmente en niños.\n\n(Redacción Study2One)",
+    "questionText": "Desde el marco de los derechos humanos, esta situación implica la violación simultánea de:",
+    "explanation": "La contaminación del agua afecta: el derecho a la salud (enfermedades por agua contaminada), el derecho al agua potable (reconocido como derecho humano por la ONU en 2010), y el derecho a un ambiente sano (art. 79 de la Constitución colombiana). El derecho al trabajo de los mineros no está siendo violado en este contexto, sino que es la fuente del problema.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Solo el derecho a la salud.", "isCorrect": false },
+      { "letter": "B", "text": "Los derechos a la salud, al agua potable y a un ambiente sano.", "isCorrect": true },
+      { "letter": "C", "text": "El derecho al trabajo de los mineros y el derecho a la salud de la comunidad.", "isCorrect": false },
+      { "letter": "D", "text": "Solo el derecho a un ambiente sano.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "El consentimiento informado es un proceso mediante el cual un paciente autoriza un procedimiento médico después de recibir información completa sobre: el diagnóstico, el procedimiento propuesto, los riesgos y beneficios, las alternativas disponibles y las consecuencias de no realizarlo.\n\n(Redacción Study2One)",
+    "questionText": "Un consentimiento informado NO es válido cuando:",
+    "explanation": "El consentimiento informado requiere tres elementos esenciales: información suficiente, comprensión y voluntariedad. Si el paciente firma bajo presión, sin entender lo que firma, o sin información completa, el consentimiento no es válido. Firmar rápidamente no invalida si hubo información previa; pero firmar sin haber recibido información sobre riesgos y alternativas sí lo invalida.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "El paciente firma el formulario inmediatamente después de la explicación del médico.", "isCorrect": false },
+      { "letter": "B", "text": "El paciente firma sin haber recibido información sobre los riesgos ni las alternativas al procedimiento.", "isCorrect": true },
+      { "letter": "C", "text": "Un familiar acompaña al paciente durante el proceso de firma.", "isCorrect": false },
+      { "letter": "D", "text": "El paciente solicita un tiempo para pensarlo antes de firmar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Una comunidad afrocolombiana del Pacífico colombiano utiliza tradicionalmente plantas medicinales para tratar diversas enfermedades. Un equipo de salud pública llega a la zona y, en lugar de descartar estas prácticas, decide integrarlas en su plan de atención, siempre que no contraindiquen los tratamientos convencionales.\n\n(Redacción Study2One)",
+    "questionText": "Esta estrategia del equipo de salud refleja el principio de:",
+    "explanation": "La interculturalidad en salud reconoce la validez de los saberes ancestrales y busca integrarlos con la medicina convencional de forma respetuosa. La Ley 1751 de 2015 menciona la interculturalidad como un componente del derecho a la salud. No es paternalismo (que impondría la medicina occidental) ni relativismo cultural (que aceptaría cualquier práctica sin criterio clínico).",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Paternalismo médico hacia las comunidades étnicas.", "isCorrect": false },
+      { "letter": "B", "text": "Interculturalidad en la atención en salud.", "isCorrect": true },
+      { "letter": "C", "text": "Relativismo cultural que acepta cualquier práctica sin cuestionarla.", "isCorrect": false },
+      { "letter": "D", "text": "Asistencialismo del Estado hacia las minorías étnicas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Durante la pandemia de COVID-19, varios países enfrentaron la necesidad de decidir qué grupos poblacionales recibirían primero la vacuna, dado que la oferta era limitada.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál criterio de priorización es más coherente con el principio de justicia en salud pública?",
+    "explanation": "El principio de justicia en salud pública busca maximizar el beneficio colectivo y proteger a los más vulnerables. Priorizar a quienes tienen mayor riesgo de muerte (adultos mayores, personal de salud, personas con comorbilidades) es coherente con este principio porque reduce la mortalidad y protege la infraestructura sanitaria. No prioriza por capacidad económica ni por productividad laboral.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Vacunar primero a quienes puedan pagar más para financiar la compra de más dosis.", "isCorrect": false },
+      { "letter": "B", "text": "Vacunar por orden de llegada, sin distinciones.", "isCorrect": false },
+      { "letter": "C", "text": "Priorizar a los grupos con mayor riesgo de enfermedad grave y muerte.", "isCorrect": true },
+      { "letter": "D", "text": "Vacunar primero a la población en edad productiva para reactivar la economía.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "El artículo 86 de la Constitución Política de Colombia establece la acción de tutela como mecanismo de protección de los derechos fundamentales. Esta acción puede ser interpuesta por cualquier persona, en todo momento y lugar, mediante un procedimiento preferente y sumario.\n\n(Redacción Study2One, con referencia al artículo 86 de la Constitución de 1991)",
+    "questionText": "¿Cuál de las siguientes situaciones amerita la interposición de una acción de tutela?",
+    "explanation": "La tutela protege derechos fundamentales cuando son vulnerados o amenazados y no existe otro mecanismo de defensa judicial, o cuando se usa como mecanismo transitorio para evitar un perjuicio irremediable. Un paciente que necesita un tratamiento vital y le es negado por la EPS tiene su derecho a la salud (fundamental según la Ley 1751) directamente amenazado.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Una persona desea que el Estado le otorgue un subsidio de vivienda.", "isCorrect": false },
+      { "letter": "B", "text": "Un paciente con cáncer solicita un tratamiento que la EPS le niega argumentando que no está en el plan de beneficios.", "isCorrect": true },
+      { "letter": "C", "text": "Un ciudadano quiere impugnar una multa de tránsito que considera injusta.", "isCorrect": false },
+      { "letter": "D", "text": "Una empresa solicita una exención tributaria por invertir en salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Un municipio enfrenta un brote de dengue. El alcalde ordena la fumigación masiva con un insecticida que, según estudios, puede causar irritación respiratoria en personas con asma y enfermedades pulmonares crónicas. El municipio tiene una alta prevalencia de asma en adultos mayores.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál sería la decisión más adecuada desde una perspectiva integral de salud pública?",
+    "explanation": "Una perspectiva integral de salud pública debe considerar tanto la urgencia de controlar el vector del dengue como los riesgos para poblaciones vulnerables (asmáticos, adultos mayores). Fumigar sin precauciones puede generar nuevos problemas de salud. No fumigar deja el brote sin control. La solución más adecuada combina el control vectorial con medidas de protección para los grupos vulnerables.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Cancelar la fumigación para proteger a las personas con asma.", "isCorrect": false },
+      { "letter": "B", "text": "Fumigar de inmediato sin restricciones porque el dengue es una emergencia.", "isCorrect": false },
+      { "letter": "C", "text": "Fumigar con medidas de protección para los grupos vulnerables y combinando con eliminación de criaderos.", "isCorrect": true },
+      { "letter": "D", "text": "Esperar a que el brote ceda naturalmente para evitar los riesgos del insecticida.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Un médico general de una IPS pública tiene un paciente con síntomas de una enfermedad rara que requiere la valoración de un especialista. Sin embargo, la IPS no cuenta con el especialista y la EPS del paciente demora semanas en autorizar la remisión. El paciente se deteriora visiblemente.\n\n(Redacción Study2One)",
+    "questionText": "¿Qué mecanismo legal puede usar el paciente o su familia para agilizar la remisión?",
+    "explanation": "La acción de tutela es el mecanismo más expedito cuando existe una amenaza al derecho fundamental a la salud por demoras administrativas. Un juez puede ordenar la remisión inmediata. El derecho de petición es más lento y no tiene carácter vinculante inmediato. La acción popular protege derechos colectivos, no individuales. La demanda ordinaria tarda meses o años.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Una acción popular ante el tribunal administrativo.", "isCorrect": false },
+      { "letter": "B", "text": "Una acción de tutela invocando la protección del derecho a la salud.", "isCorrect": true },
+      { "letter": "C", "text": "Un derecho de petición ante el Ministerio de Salud.", "isCorrect": false },
+      { "letter": "D", "text": "Una demanda civil ordinaria contra la EPS por daños y perjuicios.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "En una región de Colombia, la tasa de embarazo adolescente es significativamente mayor que el promedio nacional. Una investigación identifica que las principales causas son: falta de educación sexual integral, acceso limitado a métodos anticonceptivos, machismo cultural que normaliza las relaciones sexuales tempranas y pobreza que reduce las perspectivas de proyecto de vida.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Un programa efectivo para reducir el embarazo adolescente en esta región debería:",
+    "explanation": "El problema tiene causas múltiples (educativas, culturales, económicas, de acceso). Un enfoque basado en determinantes sociales reconoce que las intervenciones deben ser intersectoriales, abordando simultáneamente educación, acceso a servicios y transformación cultural. Las intervenciones parciales (solo educación, solo anticonceptivos, solo campañas) han demostrado ser insuficientes cuando las causas son multifactoriales.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Distribuir masivamente anticonceptivos en los colegios de la región.", "isCorrect": false },
+      { "letter": "B", "text": "Implementar una intervención intersectorial que aborde educación sexual, acceso a anticonceptivos, empoderamiento femenino y oportunidades de vida.", "isCorrect": true },
+      { "letter": "C", "text": "Realizar una campaña de abstinencia sexual dirigida a los adolescentes.", "isCorrect": false },
+      { "letter": "D", "text": "Sancionar a los padres de las adolescentes embarazadas por negligencia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Un profesional de salud se entera de que un paciente VIH positivo no ha informado a su pareja sexual sobre su diagnóstico. El paciente le pide al profesional que mantenga la confidencialidad absoluta.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el dilema ético central en esta situación?",
+    "explanation": "Este es un caso clásico de conflicto entre el deber de confidencialidad (pilar de la relación médico-paciente) y el deber de proteger a terceros (la pareja está en riesgo de contraer una enfermedad grave). Ambos principios tienen fundamento ético y legal. La resolución requiere un análisis ponderado, no una respuesta automática.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La tensión entre el deber de confidencialidad hacia el paciente y el deber de proteger la salud de un tercero en riesgo.", "isCorrect": true },
+      { "letter": "B", "text": "La obligación del médico de reportar todas las enfermedades infecciosas a las autoridades.", "isCorrect": false },
+      { "letter": "C", "text": "El derecho del paciente a no ser discriminado por su diagnóstico.", "isCorrect": false },
+      { "letter": "D", "text": "La responsabilidad penal del paciente por no informar a su pareja.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "La Declaración Universal de los Derechos Humanos de 1948 establece en su artículo 25 que toda persona tiene derecho a un nivel de vida adecuado que le asegure la salud y el bienestar, incluidos la alimentación, el vestido, la vivienda, la asistencia médica y los servicios sociales necesarios.\n\n(Redacción Study2One, con referencia a la Declaración Universal de los Derechos Humanos de 1948)",
+    "questionText": "Según este artículo, el derecho a la salud se entiende como:",
+    "explanation": "El artículo 25 de la DUDH vincula la salud con un nivel de vida adecuado, incluyendo alimentación, vivienda, vestido y servicios sociales. Esto implica un concepto amplio de salud que no se limita a la atención médica (ausencia de enfermedad) sino que incluye las condiciones de vida que la posibilitan. Es coherente con la definición de la OMS: la salud como bienestar físico, mental y social.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "El derecho a recibir tratamiento médico gratuito en cualquier país del mundo.", "isCorrect": false },
+      { "letter": "B", "text": "Un derecho integral que incluye condiciones de vida adecuadas, no solo la ausencia de enfermedad.", "isCorrect": true },
+      { "letter": "C", "text": "Una aspiración moral sin carácter vinculante para los Estados.", "isCorrect": false },
+      { "letter": "D", "text": "El derecho a elegir libremente al médico y al centro de atención.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "En un comité de ética hospitalario se discute el caso de un paciente terminal de 82 años con cáncer avanzado. El paciente ha expresado en un documento de voluntad anticipada que no desea reanimación ni medidas invasivas. Sin embargo, su hijo insiste en que se realicen todos los esfuerzos posibles para mantenerlo con vida.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál posición debe primar según la ética médica y la normativa colombiana?",
+    "explanation": "En Colombia, la Ley 1733 de 2014 regula los servicios de cuidados paliativos y reconoce el derecho al documento de voluntad anticipada. La voluntad del paciente competente, expresada en un documento válido, prima sobre los deseos de los familiares. El principio de autonomía respalda esta posición. El comité debe seguir la voluntad anticipada del paciente.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La voluntad del hijo, porque es el familiar más cercano y quien tomará las decisiones.", "isCorrect": false },
+      { "letter": "B", "text": "La voluntad anticipada del paciente, que representa su autonomía y debe ser respetada.", "isCorrect": true },
+      { "letter": "C", "text": "La decisión del médico tratante, que tiene el conocimiento técnico para determinar lo mejor.", "isCorrect": false },
+      { "letter": "D", "text": "La opinión mayoritaria del comité de ética, sin considerar documentos previos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Un estudio publicado en una revista científica colombiana compara los indicadores de salud entre municipios con diferente nivel de desarrollo:\n\n| Indicador | Municipios de alto desarrollo | Municipios de bajo desarrollo |\n|-----------|------------------------------|------------------------------|\n| Esperanza de vida | 76 años | 65 años |\n| Mortalidad infantil (×1.000 NV) | 8 | 28 |\n| Cobertura de vacunación | 95 % | 62 % |\n| Acceso a agua potable | 98 % | 47 % |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Los datos de la tabla respaldan la tesis de que:",
+    "explanation": "La tabla muestra una clara relación entre el nivel de desarrollo del municipio y todos los indicadores de salud: mayor desarrollo se asocia con mejor esperanza de vida, menor mortalidad infantil, mayor vacunación y mayor acceso a agua potable. Esto evidencia que las condiciones socioeconómicas (determinantes sociales) inciden directamente en la salud de la población.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La genética de las poblaciones rurales explica sus peores indicadores de salud.", "isCorrect": false },
+      { "letter": "B", "text": "Las condiciones socioeconómicas son determinantes clave de los resultados en salud.", "isCorrect": true },
+      { "letter": "C", "text": "Los municipios menos desarrollados gastan más en salud per cápita.", "isCorrect": false },
+      { "letter": "D", "text": "La diferencia se debe exclusivamente a la falta de profesionales de salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Un grupo de estudiantes de medicina realiza una práctica en una comunidad rural. Uno de los estudiantes publica en sus redes sociales una fotografía de un paciente durante una consulta, junto con un comentario sobre su diagnóstico, sin consentimiento del paciente.\n\n(Redacción Study2One)",
+    "questionText": "Esta acción del estudiante vulnera:",
+    "explanation": "La publicación viola: (1) el secreto profesional, que obliga a mantener confidencial la información del paciente (art. 74 de la Constitución, Ley 23 de 1981); (2) el derecho a la intimidad del paciente (art. 15 de la Constitución); y (3) el derecho a la imagen. La Ley de Habeas Data y las normas de protección de datos personales en salud también son relevantes.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Solo el derecho a la imagen del paciente.", "isCorrect": false },
+      { "letter": "B", "text": "El secreto profesional, el derecho a la intimidad y el derecho a la imagen del paciente.", "isCorrect": true },
+      { "letter": "C", "text": "Solo el reglamento interno de la universidad.", "isCorrect": false },
+      { "letter": "D", "text": "No vulnera ningún derecho si el estudiante no identifica al paciente por su nombre.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "La Ley 1438 de 2011 establece que la Atención Primaria en Salud (APS) es la estrategia de coordinación intersectorial que permite la atención integral e integrada, desde la salud pública, la promoción de la salud, la prevención de la enfermedad, el diagnóstico, el tratamiento y la rehabilitación del paciente en todos los niveles de complejidad.\n\n(Redacción Study2One, con referencia a la Ley 1438 de 2011)",
+    "questionText": "La APS se diferencia de la atención hospitalaria convencional porque:",
+    "explanation": "La APS se centra en la comunidad y abarca no solo el tratamiento sino la promoción, prevención y rehabilitación. Es coordinadora del sistema, busca resolver la mayoría de los problemas de salud en el primer nivel y articula con otros sectores (educación, vivienda, saneamiento). La atención hospitalaria convencional se centra en el diagnóstico y tratamiento de enfermedades ya establecidas.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La APS solo atiende enfermedades leves que no requieren hospitalización.", "isCorrect": false },
+      { "letter": "B", "text": "La APS integra promoción, prevención, tratamiento y rehabilitación con enfoque comunitario e intersectorial.", "isCorrect": true },
+      { "letter": "C", "text": "La APS es exclusiva del régimen subsidiado y no aplica al contributivo.", "isCorrect": false },
+      { "letter": "D", "text": "La APS reemplaza la atención hospitalaria en todos los niveles de complejidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Un gobierno local decide implementar un programa de salud mental comunitaria. Tiene dos opciones:\n\nOpción 1: Construir un centro especializado de salud mental en la cabecera municipal, con psiquiatras y psicólogos clínicos.\n\nOpción 2: Capacitar a los agentes comunitarios de salud ya existentes en detección temprana de problemas de salud mental, y crear una red de apoyo con líderes comunitarios, docentes y familias.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva de la APS, ¿cuál opción es más adecuada y por qué?",
+    "explanation": "La APS privilegia la acción comunitaria, la prevención, la detección temprana y el uso de los recursos existentes en la comunidad. La opción 2 descentraliza la atención, la hace más accesible, involucra a la comunidad y aborda determinantes sociales. La opción 1 es importante pero concentra los recursos en un punto y actúa principalmente sobre la enfermedad ya establecida.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "La opción 1, porque la salud mental requiere exclusivamente profesionales especializados.", "isCorrect": false },
+      { "letter": "B", "text": "La opción 2, porque descentraliza la detección, involucra a la comunidad y prioriza la prevención.", "isCorrect": true },
+      { "letter": "C", "text": "Ambas son equivalentes; da igual cuál se elija.", "isCorrect": false },
+      { "letter": "D", "text": "Ninguna es adecuada; la salud mental no es competencia de la APS.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "Una EPS niega un medicamento de alto costo a un paciente argumentando que no está incluido en el plan de beneficios. El médico tratante ha justificado que no existe alternativa terapéutica dentro del plan y que la vida del paciente depende de este medicamento. La Corte Constitucional ha establecido que cuando no hay sustituto dentro del plan y el medicamento es necesario para preservar la vida, debe ser suministrado.\n\n(Redacción Study2One, con referencia a jurisprudencia constitucional colombiana)",
+    "questionText": "En este caso, ¿qué debe hacer la EPS según la jurisprudencia constitucional?",
+    "explanation": "La jurisprudencia constitucional (particularmente la Sentencia T-760 de 2008 y otras) ha establecido que cuando un medicamento no incluido en el plan es necesario para preservar la vida y no tiene sustituto, la EPS debe suministrarlo y puede recobrar el costo ante la ADRES (antes FOSYGA). Negar el medicamento vulnera el derecho fundamental a la salud.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Mantener la negación porque el medicamento no está en el plan de beneficios.", "isCorrect": false },
+      { "letter": "B", "text": "Suministrar el medicamento al paciente y recobrar el costo ante la ADRES.", "isCorrect": true },
+      { "letter": "C", "text": "Remitir al paciente a otra EPS que sí cubra el medicamento.", "isCorrect": false },
+      { "letter": "D", "text": "Esperar a que el medicamento sea incluido en la próxima actualización del plan.", "isCorrect": false }
+    ]
+  }
+]

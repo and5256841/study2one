@@ -1,11 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import EcgWaveform from "@/components/EcgWaveform";
+import { type EcgRhythmType } from "@/lib/ecg-rhythms";
 
 interface LeaderboardEntry {
   id: string;
   name: string;
-  avatarUrl: string;
+  rhythmType: EcgRhythmType;
+  rhythmColor: string;
   rank: number;
   streak: number;
   completedDays: number;
@@ -20,8 +23,11 @@ export default function LeaderboardPage() {
 
   useEffect(() => {
     fetch("/api/leaderboard")
-      .then((res) => res.json())
-      .then((d) => setEntries(d.leaderboard || []))
+      .then((res) => {
+        if (res.status === 401) { window.location.href = "/login"; return null; }
+        return res.json();
+      })
+      .then((d) => { if (d) setEntries(d.leaderboard || []); })
       .catch(console.error)
       .finally(() => setLoading(false));
   }, []);
@@ -78,13 +84,9 @@ export default function LeaderboardPage() {
                 )}
               </div>
 
-              {/* Avatar */}
-              <div className="w-10 h-10 rounded-full bg-white/10 p-1 flex-shrink-0">
-                <img
-                  src={entry.avatarUrl}
-                  alt={entry.name}
-                  className="w-full h-full"
-                />
+              {/* ECG Rhythm */}
+              <div className="flex-shrink-0">
+                <EcgWaveform rhythm={entry.rhythmType} size="xs" />
               </div>
 
               {/* Name */}

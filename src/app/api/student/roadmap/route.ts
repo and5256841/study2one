@@ -110,6 +110,15 @@ export async function GET() {
     // Calcular rango de fechas
     const dateRange = getModuleDateRange(cohortStartDate, moduleInfo.number);
 
+    // Calculate the first incomplete day within this module
+    let nextDay = startDay;
+    for (let d = startDay; d <= endDay; d++) {
+      if (!fullyCompletedDays.includes(d)) {
+        nextDay = d;
+        break;
+      }
+    }
+
     return {
       number: moduleInfo.number,
       name: moduleInfo.name,
@@ -122,6 +131,7 @@ export async function GET() {
       endDay,
       status,
       completedDays: completedInModule,
+      nextDay,
       dateRange: {
         start: dateRange.start.toISOString(),
         end: dateRange.end.toISOString(),

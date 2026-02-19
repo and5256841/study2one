@@ -1,0 +1,717 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "PART 1: Photographs (Questions 1-5)\nLevel: A1-A2\n\nLook at the description of the photograph and choose the sentence that best describes it.\n\nPhotograph description: A nurse is taking the blood pressure of an elderly woman sitting in a wheelchair in a hospital corridor. The nurse is smiling and the patient looks calm.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The description clearly shows a nurse measuring blood pressure of a seated elderly patient. Option B accurately captures the main action. Option A incorrectly says the patient is lying down. Option C describes a different action (injection). Option D misidentifies the professional.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A doctor is examining a patient who is lying on a bed.", "isCorrect": false },
+      { "letter": "B", "text": "A nurse is checking the blood pressure of an elderly patient.", "isCorrect": true },
+      { "letter": "C", "text": "A nurse is giving an injection to a young woman.", "isCorrect": false },
+      { "letter": "D", "text": "A doctor is talking to a patient in the waiting room.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Photograph description: A pharmacy counter with organized shelves of medicine bottles behind it. A pharmacist wearing a white coat is handing a small paper bag to a customer.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The scene is a pharmacy with a pharmacist giving medication to a customer. Option C correctly identifies the setting and action. Option A places it in a hospital room. Option B says the pharmacist is counting pills. Option D describes a grocery store.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A doctor is giving a patient some pills in a hospital room.", "isCorrect": false },
+      { "letter": "B", "text": "A pharmacist is counting pills at the back of the store.", "isCorrect": false },
+      { "letter": "C", "text": "A pharmacist is giving a bag of medicine to a customer at the counter.", "isCorrect": true },
+      { "letter": "D", "text": "A woman is buying food at a grocery store.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Photograph description: Two surgeons in blue scrubs and masks are in an operating room. They are standing on opposite sides of an operating table. Bright lights are above them.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows two surgeons in an operating room. Option A correctly identifies the number of people, their clothing, and the setting. Option B says three people. Option C describes a different setting. Option D says they are wearing white coats, not scrubs.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "Two surgeons are standing in an operating room.", "isCorrect": true },
+      { "letter": "B", "text": "Three doctors are examining a patient on a bed.", "isCorrect": false },
+      { "letter": "C", "text": "Two nurses are preparing instruments in a laboratory.", "isCorrect": false },
+      { "letter": "D", "text": "Two doctors in white coats are talking in an office.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Photograph description: A group of children are sitting in a circle on the floor of a classroom. A health worker is showing them how to wash their hands using a poster with colorful illustrations.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The scene shows a health education activity for children about hand washing. Option D accurately describes the main action and setting. Option A says they are eating. Option B mentions a hospital. Option C describes individual activity, not group.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Children are eating lunch in a school cafeteria.", "isCorrect": false },
+      { "letter": "B", "text": "A doctor is examining children in a hospital.", "isCorrect": false },
+      { "letter": "C", "text": "A child is washing their hands in a bathroom.", "isCorrect": false },
+      { "letter": "D", "text": "A health worker is teaching children about hand washing in a classroom.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Photograph description: An ambulance is parked in front of an emergency room entrance. Two paramedics are pushing a stretcher with a patient toward the open doors. It is nighttime.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows paramedics bringing a patient to the emergency room at night. Option B correctly describes the scene. Option A says firefighters. Option C says the ambulance is moving. Option D describes daytime.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Firefighters are helping people get out of a building.", "isCorrect": false },
+      { "letter": "B", "text": "Paramedics are taking a patient into the emergency room at night.", "isCorrect": true },
+      { "letter": "C", "text": "An ambulance is driving fast through the city streets.", "isCorrect": false },
+      { "letter": "D", "text": "A patient is walking out of the hospital during the day.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "PART 2: Short conversations (Questions 6-10)\nLevel: A2\n\nRead the short conversation and answer the question.\n\nPatient: Good morning. I have an appointment with Dr. Ramírez at 10 o'clock.\nReceptionist: Good morning. Could I have your name, please?\nPatient: Yes, it's María López.\nReceptionist: Thank you, Ms. López. Please take a seat. The doctor will see you in a few minutes.\n\n(Original content — Study2One)",
+    "questionText": "What does the receptionist ask the patient to do?",
+    "explanation": "The receptionist says 'Please take a seat' and 'The doctor will see you in a few minutes.' This means the patient should sit down and wait. Option A matches this instruction.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Sit down and wait for the doctor.", "isCorrect": true },
+      { "letter": "B", "text": "Fill out a medical form.", "isCorrect": false },
+      { "letter": "C", "text": "Go directly to the doctor's office.", "isCorrect": false },
+      { "letter": "D", "text": "Come back later in the afternoon.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Doctor: How are you feeling today?\nPatient: I've had a terrible headache for the past three days, and I also feel dizzy sometimes.\nDoctor: I see. Are you taking any medication at the moment?\nPatient: No, just some aspirin, but it doesn't help much.\n\n(Original content — Study2One)",
+    "questionText": "What symptoms does the patient describe?",
+    "explanation": "The patient mentions 'a terrible headache for the past three days' and feeling 'dizzy sometimes.' These are the two symptoms described. Option C correctly identifies both.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Stomach pain and nausea.", "isCorrect": false },
+      { "letter": "B", "text": "Fever and sore throat.", "isCorrect": false },
+      { "letter": "C", "text": "Headache and dizziness.", "isCorrect": true },
+      { "letter": "D", "text": "Back pain and fatigue.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Nurse: Mr. Torres, you need to take this medication twice a day — once in the morning with breakfast and once at night before bed.\nPatient: Can I take it with milk?\nNurse: No, please take it with water only. And don't skip any doses.\n\n(Original content — Study2One)",
+    "questionText": "How should the patient take the medication?",
+    "explanation": "The nurse says: twice a day (morning and night), with water only, and without skipping doses. Option D matches all these instructions. Option A says once a day. Option B says with milk. Option C says three times a day.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Once a day with breakfast.", "isCorrect": false },
+      { "letter": "B", "text": "Twice a day with milk.", "isCorrect": false },
+      { "letter": "C", "text": "Three times a day with meals.", "isCorrect": false },
+      { "letter": "D", "text": "Twice a day with water, morning and night.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Pharmacist: Here is your prescription. Take one capsule every eight hours for seven days.\nCustomer: What if I forget to take one?\nPharmacist: If you miss a dose, take it as soon as you remember. But if it's almost time for the next dose, just skip the missed one. Don't take a double dose.\n\n(Original content — Study2One)",
+    "questionText": "What should the customer do if they miss a dose?",
+    "explanation": "The pharmacist gives clear instructions: take the missed dose when you remember, unless it's almost time for the next one. In that case, skip it and never double the dose. Option B captures this advice.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Take two capsules at the next scheduled time.", "isCorrect": false },
+      { "letter": "B", "text": "Take it when they remember, unless the next dose is soon.", "isCorrect": true },
+      { "letter": "C", "text": "Stop taking the medication completely.", "isCorrect": false },
+      { "letter": "D", "text": "Call the doctor immediately.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Patient: Doctor, I'm worried about my mother. She's been forgetting things a lot lately — people's names, where she put her keys, even what day it is.\nDoctor: How old is your mother?\nPatient: She's 78.\nDoctor: I think we should do some cognitive tests. It might be normal age-related memory loss, but we should check.\n\n(Original content — Study2One)",
+    "questionText": "Why does the doctor suggest cognitive tests?",
+    "explanation": "The doctor wants to determine if the memory problems are normal for the patient's age or if they indicate something more serious (such as dementia). The tests will help differentiate. Option A captures this reasoning.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "To find out if the memory loss is a normal part of aging or a sign of a condition.", "isCorrect": true },
+      { "letter": "B", "text": "To confirm that the mother has Alzheimer's disease.", "isCorrect": false },
+      { "letter": "C", "text": "Because the mother is too old to remember anything.", "isCorrect": false },
+      { "letter": "D", "text": "To help the patient stop worrying about their mother.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "PART 3: Incomplete sentences (Questions 11-15)\nLevel: A2-B1\n\nChoose the correct word or phrase to complete each sentence.\n\n(Original content — Study2One)",
+    "questionText": "The doctor told the patient that she _______ take the antibiotics for the full 10 days, even if she feels better.",
+    "explanation": "When giving strong medical advice or instructions, 'must' or 'should' are appropriate. 'Must' conveys obligation and is most appropriate for medical prescriptions. 'Might' expresses possibility, 'can' expresses ability, and 'would' expresses conditionality — none are appropriate for this medical instruction.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "might", "isCorrect": false },
+      { "letter": "B", "text": "must", "isCorrect": true },
+      { "letter": "C", "text": "can", "isCorrect": false },
+      { "letter": "D", "text": "would", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "If the patient _______ her medication on time, she wouldn't have had the allergic reaction.",
+    "explanation": "This is a third conditional sentence (past unreal condition). The correct form is: 'If + subject + had + past participle.' 'Had taken' is the correct answer. 'Took' is simple past (second conditional). 'Would take' and 'takes' don't fit the conditional structure.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "took", "isCorrect": false },
+      { "letter": "B", "text": "takes", "isCorrect": false },
+      { "letter": "C", "text": "had taken", "isCorrect": true },
+      { "letter": "D", "text": "would take", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "The number of patients who suffer from diabetes _______ increased significantly in the last two decades.",
+    "explanation": "The subject is 'the number' (singular), so the verb must be singular: 'has increased.' 'Have increased' would be correct with 'patients' as subject but not with 'the number of patients.' 'Is increasing' describes current action, not the completed change over two decades.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "have", "isCorrect": false },
+      { "letter": "B", "text": "has", "isCorrect": true },
+      { "letter": "C", "text": "is", "isCorrect": false },
+      { "letter": "D", "text": "are", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "The hospital _______ built in 1985, but it was completely renovated in 2018.",
+    "explanation": "'Was built' is the correct passive voice form in simple past for a singular subject. 'Were built' is for plural subjects. 'Has built' is active voice. 'Is building' is present continuous active.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "is building", "isCorrect": false },
+      { "letter": "B", "text": "has built", "isCorrect": false },
+      { "letter": "C", "text": "was built", "isCorrect": true },
+      { "letter": "D", "text": "were built", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "Researchers are looking for a treatment _______ can slow down the progression of the disease without causing severe side effects.",
+    "explanation": "A relative pronoun is needed to introduce the relative clause 'can slow down the progression.' 'That' (or 'which') is the correct relative pronoun referring to 'treatment' (a thing). 'Who' refers to people. 'Where' refers to places. 'When' refers to time.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "who", "isCorrect": false },
+      { "letter": "B", "text": "where", "isCorrect": false },
+      { "letter": "C", "text": "that", "isCorrect": true },
+      { "letter": "D", "text": "when", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "PART 4: Reading comprehension — short texts (Questions 16-25)\nLevel: B1\n\nRead the following text and answer the questions.\n\nText 1:\n\nHand hygiene is one of the most important measures to prevent the spread of infections in healthcare settings. According to the World Health Organization, healthcare workers should clean their hands at five key moments: before touching a patient, before a clean or aseptic procedure, after body fluid exposure risk, after touching a patient, and after touching patient surroundings.\n\nDespite these clear guidelines, studies show that hand hygiene compliance among healthcare workers worldwide averages only about 40%. Common reasons for poor compliance include lack of time, skin irritation from frequent washing, insufficient access to hand sanitizer, and the perception that gloves are a substitute for hand washing.\n\nHospitals that have implemented multimodal strategies — combining education, reminders, accessible sanitizer dispensers, and performance feedback — have seen compliance rates rise above 70%.\n\n(Original content — Study2One, based on WHO guidelines)",
+    "questionText": "According to the text, what is the average hand hygiene compliance rate among healthcare workers?",
+    "explanation": "The text states: 'hand hygiene compliance among healthcare workers worldwide averages only about 40%.' Option B matches this figure directly.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "About 25%.", "isCorrect": false },
+      { "letter": "B", "text": "About 40%.", "isCorrect": true },
+      { "letter": "C", "text": "About 60%.", "isCorrect": false },
+      { "letter": "D", "text": "About 70%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "Which of the following is NOT mentioned as a reason for poor hand hygiene compliance?",
+    "explanation": "The text lists: lack of time, skin irritation, insufficient access to sanitizer, and the perception that gloves replace hand washing. 'Belief that infections are not serious' is not mentioned in the text.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Lack of time during patient care.", "isCorrect": false },
+      { "letter": "B", "text": "Skin irritation from frequent washing.", "isCorrect": false },
+      { "letter": "C", "text": "Belief that infections are not serious.", "isCorrect": true },
+      { "letter": "D", "text": "Thinking that wearing gloves is enough.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "What does the word 'multimodal' most likely mean in this context?",
+    "explanation": "'Multimodal strategies' are described as 'combining education, reminders, accessible sanitizer dispensers, and performance feedback.' This means using multiple different approaches together, not just one method. Option A captures this meaning.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Using several different methods at the same time.", "isCorrect": true },
+      { "letter": "B", "text": "Focusing on one highly effective strategy.", "isCorrect": false },
+      { "letter": "C", "text": "Using technology instead of traditional methods.", "isCorrect": false },
+      { "letter": "D", "text": "Applying strategies only when there is an outbreak.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Text 2:\n\nAntibiotic resistance is considered one of the greatest threats to global health in the 21st century. When bacteria are repeatedly exposed to antibiotics, some develop mutations that allow them to survive. These resistant bacteria can then multiply and spread, making infections harder to treat.\n\nThe problem is made worse by the overuse and misuse of antibiotics — for example, when patients stop taking their prescribed course early because they feel better, or when antibiotics are prescribed for viral infections like the common cold, against which they have no effect.\n\nIn many developing countries, antibiotics are available without a prescription, which contributes to their inappropriate use. The World Health Organization has warned that without urgent action, we could enter a 'post-antibiotic era' in which common infections become fatal once again.\n\n(Original content — Study2One, based on WHO reports)",
+    "questionText": "According to the text, what happens when bacteria are repeatedly exposed to antibiotics?",
+    "explanation": "The text states: 'some develop mutations that allow them to survive. These resistant bacteria can then multiply and spread.' Option B accurately describes this process.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "All bacteria die immediately.", "isCorrect": false },
+      { "letter": "B", "text": "Some bacteria develop mutations that make them resistant.", "isCorrect": true },
+      { "letter": "C", "text": "The antibiotics become stronger over time.", "isCorrect": false },
+      { "letter": "D", "text": "The bacteria become helpful to the human body.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "What does the 'post-antibiotic era' refer to in the text?",
+    "explanation": "The text explains: 'a post-antibiotic era in which common infections become fatal once again.' This means a time when antibiotics no longer work effectively, and previously treatable infections could kill people. Option C captures this meaning.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "A time when new antibiotics are discovered every year.", "isCorrect": false },
+      { "letter": "B", "text": "A period when all infections will be caused by viruses.", "isCorrect": false },
+      { "letter": "C", "text": "A future where common infections could become untreatable and deadly.", "isCorrect": true },
+      { "letter": "D", "text": "An era when antibiotics are no longer manufactured.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Text 3:\n\nA recent survey in a Latin American city found that 65% of adults get less than the recommended 7-8 hours of sleep per night. The study, which surveyed 3,000 adults between the ages of 25 and 65, identified shift work, excessive screen time before bed, and high stress levels as the main factors affecting sleep quality.\n\nResearchers noted that poor sleep is associated with an increased risk of cardiovascular disease, obesity, diabetes, and mental health disorders. They also found that people who sleep fewer than 6 hours per night are 23% more likely to be obese compared to those who sleep 7-8 hours.\n\nThe researchers recommend establishing a consistent sleep schedule, limiting screen use one hour before bedtime, and creating a cool, dark sleeping environment.\n\n(Original content — Study2One)",
+    "questionText": "According to the survey, what percentage of adults sleep less than the recommended amount?",
+    "explanation": "The text directly states: '65% of adults get less than the recommended 7-8 hours of sleep per night.' Option C matches.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "23%", "isCorrect": false },
+      { "letter": "B", "text": "50%", "isCorrect": false },
+      { "letter": "C", "text": "65%", "isCorrect": true },
+      { "letter": "D", "text": "78%", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "Which of the following is a recommendation made by the researchers?",
+    "explanation": "The text recommends: 'establishing a consistent sleep schedule, limiting screen use one hour before bedtime, and creating a cool, dark sleeping environment.' Option D matches one of these recommendations. Options A, B, and C are not mentioned in the text.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Exercise intensely right before going to bed.", "isCorrect": false },
+      { "letter": "B", "text": "Take sleeping pills every night.", "isCorrect": false },
+      { "letter": "C", "text": "Sleep at different times each day to adapt the body.", "isCorrect": false },
+      { "letter": "D", "text": "Avoid using screens one hour before going to sleep.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Text 4:\n\nVaccines work by training the immune system to recognize and fight specific pathogens. Most vaccines contain weakened or inactivated forms of a virus or bacterium, or pieces of it (such as proteins). When a person is vaccinated, their immune system produces antibodies against the pathogen without causing the actual disease.\n\nIf the vaccinated person is later exposed to the real pathogen, their immune system can respond quickly and effectively because it \"remembers\" how to fight it. This is called immunological memory.\n\nHerd immunity occurs when a large portion of a community becomes immune to a disease, either through vaccination or previous infection. This makes the spread of the disease unlikely and protects individuals who cannot be vaccinated, such as newborns or people with weakened immune systems.\n\n(Original content — Study2One)",
+    "questionText": "What is 'immunological memory' according to the text?",
+    "explanation": "The text explains: when a vaccinated person is exposed to the real pathogen, 'their immune system can respond quickly and effectively because it remembers how to fight it. This is called immunological memory.' Option A captures this definition.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "The ability of the immune system to remember and quickly respond to a previously encountered pathogen.", "isCorrect": true },
+      { "letter": "B", "text": "The process of injecting a vaccine into the body.", "isCorrect": false },
+      { "letter": "C", "text": "The ability of bacteria to resist antibiotics.", "isCorrect": false },
+      { "letter": "D", "text": "The natural immunity that people are born with.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "According to the text, who benefits from herd immunity?",
+    "explanation": "The text states that herd immunity 'protects individuals who cannot be vaccinated, such as newborns or people with weakened immune systems.' Option B identifies these beneficiaries. It's not about who gets the vaccine but who is protected by others being vaccinated.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Only people who have been vaccinated.", "isCorrect": false },
+      { "letter": "B", "text": "People who cannot be vaccinated, like newborns and immunocompromised individuals.", "isCorrect": true },
+      { "letter": "C", "text": "Only healthy adults with strong immune systems.", "isCorrect": false },
+      { "letter": "D", "text": "Animals that carry the disease.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "The main purpose of this text is to:",
+    "explanation": "The text explains how vaccines work (mechanism), what immunological memory is, and what herd immunity means. Its purpose is informational/educational, explaining scientific concepts. It doesn't argue for mandatory vaccination, criticize anti-vaccine movements, or describe a specific vaccine.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Argue that vaccination should be mandatory for everyone.", "isCorrect": false },
+      { "letter": "B", "text": "Explain how vaccines work and the concept of herd immunity.", "isCorrect": true },
+      { "letter": "C", "text": "Describe the side effects of common vaccines.", "isCorrect": false },
+      { "letter": "D", "text": "Criticize people who refuse to get vaccinated.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "PART 5: Cloze test (Questions 26-35)\nLevel: B1\n\nRead the text and choose the best word to fill each gap.\n\nPhysical activity is essential for maintaining good health throughout life. Regular exercise helps (26)_______ the risk of chronic diseases such as heart disease, type 2 diabetes, and certain types of cancer. It also improves mental health by reducing symptoms of anxiety and depression.\n\n(Original content — Study2One)",
+    "questionText": "Choose the best word for gap (26).",
+    "explanation": "'Reduce the risk' is the standard collocation in health contexts. 'Grow' means increase. 'Keep' would need 'down' to work. 'Stop' is too absolute — exercise reduces risk, it doesn't eliminate it completely.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "grow", "isCorrect": false },
+      { "letter": "B", "text": "reduce", "isCorrect": true },
+      { "letter": "C", "text": "keep", "isCorrect": false },
+      { "letter": "D", "text": "stop", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "The World Health Organization recommends that adults (27)_______ at least 150 minutes of moderate-intensity physical activity per week, or 75 minutes of vigorous activity.\n\n(Original content — Study2One)",
+    "questionText": "Choose the best word for gap (27).",
+    "explanation": "'Get' is the most natural verb in this context — 'get physical activity' means to do or obtain a certain amount of exercise. 'Make' doesn't collocate with 'minutes of activity.' 'Take' could work but is less natural. 'Give' doesn't fit the meaning.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "make", "isCorrect": false },
+      { "letter": "B", "text": "take", "isCorrect": false },
+      { "letter": "C", "text": "get", "isCorrect": true },
+      { "letter": "D", "text": "give", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "(28)_______, many people find it difficult to incorporate exercise into their daily routines due to long working hours and sedentary lifestyles.\n\n(Original content — Study2One)",
+    "questionText": "Choose the best word for gap (28).",
+    "explanation": "The sentence introduces a contrast with the previous recommendation. 'However' is the correct discourse connector to show this contrast. 'Moreover' adds information. 'Therefore' shows consequence. 'Meanwhile' shows simultaneous actions.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Moreover", "isCorrect": false },
+      { "letter": "B", "text": "However", "isCorrect": true },
+      { "letter": "C", "text": "Therefore", "isCorrect": false },
+      { "letter": "D", "text": "Meanwhile", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Experts suggest that even small changes, (29)_______ taking the stairs instead of the elevator or walking during lunch breaks, can make a significant difference.\n\n(Original content — Study2One)",
+    "questionText": "Choose the best word for gap (29).",
+    "explanation": "'Such as' is used to introduce examples. 'In spite of' expresses contrast. 'Because of' shows cause. 'According to' attributes information to a source. The examples (stairs, walking) illustrate 'small changes,' so 'such as' is correct.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "in spite of", "isCorrect": false },
+      { "letter": "B", "text": "because of", "isCorrect": false },
+      { "letter": "C", "text": "such as", "isCorrect": true },
+      { "letter": "D", "text": "according to", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Children and adolescents should be (30)_______ active for at least 60 minutes every day, including activities that strengthen muscles and bones.\n\n(Original content — Study2One)",
+    "questionText": "Choose the best word for gap (30).",
+    "explanation": "'Physically active' is the correct collocation. 'Mentally' doesn't match the context of exercise. 'Hardly' means barely (opposite meaning). 'Slightly' means a little, which contradicts 'at least 60 minutes.'",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "mentally", "isCorrect": false },
+      { "letter": "B", "text": "physically", "isCorrect": true },
+      { "letter": "C", "text": "hardly", "isCorrect": false },
+      { "letter": "D", "text": "slightly", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "For older adults, physical activity is particularly important (31)_______ it helps prevent falls, maintain independence, and improve cognitive function.\n\n(Original content — Study2One)",
+    "questionText": "Choose the best word for gap (31).",
+    "explanation": "'Because' introduces the reason why physical activity is important for older adults. 'Although' introduces contrast. 'Unless' introduces a condition. 'Until' introduces a time limit. The sentence explains why activity is important, so 'because' is correct.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "although", "isCorrect": false },
+      { "letter": "B", "text": "because", "isCorrect": true },
+      { "letter": "C", "text": "unless", "isCorrect": false },
+      { "letter": "D", "text": "until", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "People who have been inactive for a long time should start (32)_______ and gradually increase the duration and intensity of their activities.\n\n(Original content — Study2One)",
+    "questionText": "Choose the best word for gap (32).",
+    "explanation": "'Slowly' makes sense with 'start slowly and gradually increase.' 'Quickly' contradicts the cautious approach. 'Immediately' and 'suddenly' both suggest an abrupt start, which is not recommended for previously inactive people.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "quickly", "isCorrect": false },
+      { "letter": "B", "text": "slowly", "isCorrect": true },
+      { "letter": "C", "text": "immediately", "isCorrect": false },
+      { "letter": "D", "text": "suddenly", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Swimming, cycling, and yoga are all excellent (33)_______ of exercise that can be adapted to different fitness levels.\n\n(Original content — Study2One)",
+    "questionText": "Choose the best word for gap (33).",
+    "explanation": "'Forms of exercise' is the correct collocation. 'Pieces' is used for physical objects. 'Methods' implies ways of doing something. 'Views' means opinions. Swimming, cycling, and yoga are forms/types of exercise.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "pieces", "isCorrect": false },
+      { "letter": "B", "text": "forms", "isCorrect": true },
+      { "letter": "C", "text": "methods", "isCorrect": false },
+      { "letter": "D", "text": "views", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "The benefits of regular exercise (34)_______ not only physical but also psychological, as it improves mood, self-esteem, and overall quality of life.\n\n(Original content — Study2One)",
+    "questionText": "Choose the best word for gap (34).",
+    "explanation": "'The benefits are' — the subject 'benefits' is plural, so the verb must be 'are.' 'Is' is singular. 'Has' and 'was' are also incorrect for plural subjects in this context.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "is", "isCorrect": false },
+      { "letter": "B", "text": "are", "isCorrect": true },
+      { "letter": "C", "text": "has", "isCorrect": false },
+      { "letter": "D", "text": "was", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "In conclusion, making physical activity a regular part of life is one of the best things a person can do (35)_______ their long-term health and well-being.\n\n(Original content — Study2One)",
+    "questionText": "Choose the best word for gap (35).",
+    "explanation": "'For their health' — 'for' indicates purpose or benefit. 'At' doesn't fit. 'With' doesn't express purpose. 'From' indicates origin, not benefit.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "at", "isCorrect": false },
+      { "letter": "B", "text": "with", "isCorrect": false },
+      { "letter": "C", "text": "for", "isCorrect": true },
+      { "letter": "D", "text": "from", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "PART 6: Reading comprehension — longer text (Questions 36-45)\nLevel: B1-B2\n\nRead the following text and answer the questions.\n\nThe Opioid Crisis: A Global Public Health Challenge\n\nThe misuse of opioid medications has become one of the most pressing public health challenges of the 21st century. Originally developed to manage severe pain — particularly after surgery or in cancer patients — opioids such as morphine, oxycodone, and fentanyl have powerful analgesic properties. However, they also carry a high risk of dependence and addiction.\n\nIn the United States, the opioid crisis began in the late 1990s when pharmaceutical companies assured the medical community that patients would not become addicted to prescription opioid painkillers. This led to widespread prescribing, and it soon became clear that these medications were indeed highly addictive. By 2017, more than 47,000 Americans died from opioid overdoses in a single year.\n\nThe crisis has evolved through three waves. The first wave, starting in the 1990s, was driven by prescription opioids. The second wave began around 2010 with a sharp increase in heroin use as people who had become dependent on prescription drugs sought cheaper alternatives. The third wave, beginning in 2013, has been characterized by the rise of synthetic opioids, particularly illicitly manufactured fentanyl, which is 50 to 100 times more potent than morphine.\n\nWhile the crisis is most acute in North America, other regions are not immune. Europe, Australia, and parts of Asia have reported increasing rates of opioid misuse. In Latin America, where access to pain management medications is often limited, the challenge is different: ensuring adequate pain treatment while preventing the patterns of overprescription seen elsewhere.\n\nExperts agree that addressing the opioid crisis requires a comprehensive approach: stricter regulation of prescribing practices, expanded access to addiction treatment (including medication-assisted therapy), public education about the risks of opioid misuse, and investment in alternative pain management strategies such as physical therapy, cognitive behavioral therapy, and non-opioid medications.\n\n(Original content — Study2One, based on publicly available WHO and CDC reports)",
+    "questionText": "According to the text, why did opioid prescribing become widespread in the late 1990s?",
+    "explanation": "The text states: 'pharmaceutical companies assured the medical community that patients would not become addicted to prescription opioid painkillers. This led to widespread prescribing.' Option B captures this reason.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Because opioids were the cheapest available medication for pain.", "isCorrect": false },
+      { "letter": "B", "text": "Because pharmaceutical companies claimed that patients would not become addicted.", "isCorrect": true },
+      { "letter": "C", "text": "Because the government mandated the use of opioids for all pain patients.", "isCorrect": false },
+      { "letter": "D", "text": "Because there were no other pain medications available at the time.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": null,
+    "questionText": "What characterizes the 'third wave' of the opioid crisis?",
+    "explanation": "The text states: 'The third wave, beginning in 2013, has been characterized by the rise of synthetic opioids, particularly illicitly manufactured fentanyl.' Option C matches this description.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Increased use of prescription painkillers from doctors.", "isCorrect": false },
+      { "letter": "B", "text": "A sharp increase in heroin use.", "isCorrect": false },
+      { "letter": "C", "text": "The rise of synthetic opioids like illegally manufactured fentanyl.", "isCorrect": true },
+      { "letter": "D", "text": "The development of new, safer opioid medications.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": null,
+    "questionText": "According to the text, the opioid challenge in Latin America is different because:",
+    "explanation": "The text states: 'In Latin America, where access to pain management medications is often limited, the challenge is different: ensuring adequate pain treatment while preventing the patterns of overprescription seen elsewhere.' Option D captures this dual challenge.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Latin American countries do not have any opioid problems.", "isCorrect": false },
+      { "letter": "B", "text": "Opioids are completely banned in Latin American countries.", "isCorrect": false },
+      { "letter": "C", "text": "The crisis in Latin America started earlier than in the United States.", "isCorrect": false },
+      { "letter": "D", "text": "The challenge is to ensure adequate pain treatment while avoiding overprescription.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": null,
+    "questionText": "The word 'potent' in paragraph 3 is closest in meaning to:",
+    "explanation": "'Potent' means having great power or effect. In the context 'fentanyl, which is 50 to 100 times more potent than morphine,' it means powerful/strong. 'Expensive' refers to cost. 'Common' means frequent. 'Safe' means not dangerous.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "expensive", "isCorrect": false },
+      { "letter": "B", "text": "powerful", "isCorrect": true },
+      { "letter": "C", "text": "common", "isCorrect": false },
+      { "letter": "D", "text": "safe", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": null,
+    "questionText": "Which of the following strategies is NOT mentioned in the text as part of the solution?",
+    "explanation": "The text mentions: stricter regulation, expanded addiction treatment, public education, and alternative pain management. It does NOT mention 'completely banning all opioid medications.' In fact, it acknowledges their role in managing severe pain.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Stricter regulation of how opioids are prescribed.", "isCorrect": false },
+      { "letter": "B", "text": "Completely banning all opioid medications.", "isCorrect": true },
+      { "letter": "C", "text": "Expanded access to addiction treatment programs.", "isCorrect": false },
+      { "letter": "D", "text": "Investment in non-opioid pain management strategies.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": null,
+    "questionText": "What can be inferred about the author's perspective on opioids?",
+    "explanation": "The author acknowledges opioids' medical value ('powerful analgesic properties,' 'manage severe pain') while detailing their risks. The text advocates regulation and alternatives, not elimination. This balanced view is captured by option C.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Opioids should never be used under any circumstances.", "isCorrect": false },
+      { "letter": "B", "text": "Opioids are the best solution for all types of pain.", "isCorrect": false },
+      { "letter": "C", "text": "Opioids have legitimate medical uses but require careful regulation to prevent misuse.", "isCorrect": true },
+      { "letter": "D", "text": "The pharmaceutical industry is solely responsible for the crisis.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": null,
+    "questionText": "The text states that by 2017, the number of Americans who died from opioid overdoses in one year was:",
+    "explanation": "The text directly states: 'By 2017, more than 47,000 Americans died from opioid overdoses in a single year.' Option B is correct.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "More than 17,000.", "isCorrect": false },
+      { "letter": "B", "text": "More than 47,000.", "isCorrect": true },
+      { "letter": "C", "text": "More than 100,000.", "isCorrect": false },
+      { "letter": "D", "text": "The text does not provide a specific number.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "PART 7: Reading comprehension — academic text (Questions 43-55)\nLevel: B2\n\nRead the following text and answer the questions.\n\nTelemedicine: Bridging the Gap in Healthcare Access\n\nTelemedicine — the provision of healthcare services remotely through telecommunications technology — has grown exponentially in recent years, accelerated significantly by the COVID-19 pandemic. What was once considered a supplementary service has rapidly become an integral component of healthcare delivery systems worldwide.\n\nThe benefits of telemedicine are substantial. For patients in rural or underserved areas, it eliminates the need for long, costly journeys to see specialists. For healthcare systems, it increases efficiency by allowing doctors to see more patients in less time and reduces the burden on emergency departments by enabling remote triage. Studies have shown that telemedicine consultations for certain conditions — such as dermatological assessments, mental health therapy, and chronic disease management — can be as effective as in-person visits.\n\nHowever, telemedicine is not without limitations. Physical examinations, which are essential for many diagnoses, cannot be fully replicated remotely. The technology requires reliable internet connectivity and digital literacy, both of which may be lacking in the very populations that stand to benefit most from remote care. Furthermore, concerns about data privacy and the security of patient information transmitted electronically remain significant.\n\nThe regulatory landscape for telemedicine varies considerably across countries. In some nations, strict licensing requirements limit which providers can offer telehealth services and across which borders. In others, pandemic-era relaxations of regulations have been made permanent, facilitating broader access. Reimbursement policies also differ: in some healthcare systems, telemedicine visits are compensated at the same rate as in-person consultations, while in others, lower reimbursement rates may disincentivize providers from offering telehealth services.\n\nLooking ahead, the integration of artificial intelligence (AI) into telemedicine platforms promises to enhance diagnostic accuracy and streamline administrative processes. AI-powered tools could assist clinicians in interpreting medical images, identifying patterns in patient data, and prioritizing cases that require urgent attention. Nevertheless, ethical considerations surrounding AI in healthcare — including algorithmic bias, accountability for errors, and the potential reduction of the human element in medical care — must be carefully addressed as these technologies evolve.\n\n(Original content — Study2One)",
+    "questionText": "According to the text, what was the main catalyst for the rapid growth of telemedicine?",
+    "explanation": "The text states: telemedicine 'has grown exponentially in recent years, accelerated significantly by the COVID-19 pandemic.' While telemedicine existed before, the pandemic was the main catalyst for its rapid expansion.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "The development of faster internet connections.", "isCorrect": false },
+      { "letter": "B", "text": "The COVID-19 pandemic.", "isCorrect": true },
+      { "letter": "C", "text": "Government regulations requiring telehealth services.", "isCorrect": false },
+      { "letter": "D", "text": "Patient demand for more convenient healthcare.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": null,
+    "questionText": "The text suggests that telemedicine is most effective for:",
+    "explanation": "The text mentions: 'telemedicine consultations for certain conditions — such as dermatological assessments, mental health therapy, and chronic disease management — can be as effective as in-person visits.' These are conditions that don't necessarily require physical examination. Option B represents this.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "All medical conditions equally.", "isCorrect": false },
+      { "letter": "B", "text": "Conditions that don't require extensive physical examination, like mental health therapy.", "isCorrect": true },
+      { "letter": "C", "text": "Only emergency medical situations.", "isCorrect": false },
+      { "letter": "D", "text": "Surgical procedures and post-operative care.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": null,
+    "questionText": "The phrase 'stand to benefit most' in paragraph 3 means:",
+    "explanation": "'Stand to benefit most' means 'are most likely to gain advantages from' or 'have the most to gain from.' In context, it refers to rural and underserved populations who would benefit most from telemedicine but may lack the necessary technology.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "are forced to accept", "isCorrect": false },
+      { "letter": "B", "text": "are most likely to gain advantages from", "isCorrect": true },
+      { "letter": "C", "text": "are already benefiting from", "isCorrect": false },
+      { "letter": "D", "text": "are standing in line to receive", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": null,
+    "questionText": "According to the text, what is a potential problem with telemedicine reimbursement policies?",
+    "explanation": "The text states: 'in others, lower reimbursement rates may disincentivize providers from offering telehealth services.' This means if doctors are paid less for telemedicine visits, they may not want to offer them. Option A captures this problem.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Lower payment rates for telehealth visits may discourage doctors from offering them.", "isCorrect": true },
+      { "letter": "B", "text": "Insurance companies refuse to cover any telemedicine services.", "isCorrect": false },
+      { "letter": "C", "text": "Patients must pay more for telemedicine than for in-person visits.", "isCorrect": false },
+      { "letter": "D", "text": "Governments are unable to regulate telemedicine pricing.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": null,
+    "questionText": "Which of the following ethical concerns about AI in telemedicine is mentioned in the text?",
+    "explanation": "The text mentions three ethical concerns: 'algorithmic bias, accountability for errors, and the potential reduction of the human element in medical care.' Option C (algorithmic bias leading to unequal treatment) matches the first concern. Options A, B, and D are not mentioned.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "AI systems are too expensive for most hospitals to afford.", "isCorrect": false },
+      { "letter": "B", "text": "AI will completely replace doctors within the next decade.", "isCorrect": false },
+      { "letter": "C", "text": "Algorithmic bias could lead to unequal treatment of different patient groups.", "isCorrect": true },
+      { "letter": "D", "text": "AI cannot process medical images accurately.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": null,
+    "questionText": "The word 'disincentivize' in paragraph 4 most closely means:",
+    "explanation": "'Disincentivize' means to make someone less willing or motivated to do something, to discourage. The prefix 'dis-' reverses the meaning of 'incentivize' (to encourage). Option D captures this meaning.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "to encourage strongly", "isCorrect": false },
+      { "letter": "B", "text": "to make illegal", "isCorrect": false },
+      { "letter": "C", "text": "to improve the quality of", "isCorrect": false },
+      { "letter": "D", "text": "to discourage or make less motivated to do", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": null,
+    "questionText": "The author's overall tone in discussing telemedicine can best be described as:",
+    "explanation": "The author presents both the substantial benefits and the significant limitations of telemedicine. They acknowledge its potential while cautioning about challenges (digital divide, privacy, regulation, AI ethics). This is a balanced, analytical approach — neither purely enthusiastic nor dismissive.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Highly critical and skeptical of telemedicine's value.", "isCorrect": false },
+      { "letter": "B", "text": "Unconditionally enthusiastic about telemedicine's potential.", "isCorrect": false },
+      { "letter": "C", "text": "Balanced and analytical, acknowledging both benefits and challenges.", "isCorrect": true },
+      { "letter": "D", "text": "Indifferent, presenting facts without any apparent opinion.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": null,
+    "questionText": "What paradox does the text identify regarding telemedicine and underserved populations?",
+    "explanation": "The text states that telemedicine 'requires reliable internet connectivity and digital literacy, both of which may be lacking in the very populations that stand to benefit most.' This is the paradox: the people who need it most may not be able to access it due to the digital divide.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Underserved populations prefer in-person care and reject telemedicine.", "isCorrect": false },
+      { "letter": "B", "text": "The populations that would benefit most from telemedicine often lack the technology needed to access it.", "isCorrect": true },
+      { "letter": "C", "text": "Telemedicine is too expensive for underserved populations to afford.", "isCorrect": false },
+      { "letter": "D", "text": "Doctors in underserved areas refuse to participate in telemedicine programs.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 51,
+    "caseText": null,
+    "questionText": "Based on the text, which statement about the regulatory landscape for telemedicine is true?",
+    "explanation": "The text states: 'The regulatory landscape for telemedicine varies considerably across countries.' It mentions that some countries have strict licensing requirements while others have made pandemic-era relaxations permanent. Option D captures this variation.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "All countries have adopted the same telemedicine regulations.", "isCorrect": false },
+      { "letter": "B", "text": "No country has permanent telemedicine regulations yet.", "isCorrect": false },
+      { "letter": "C", "text": "Telemedicine is illegal in most countries outside of emergencies.", "isCorrect": false },
+      { "letter": "D", "text": "Regulations differ widely between countries, with some having strict rules and others more relaxed ones.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 52,
+    "caseText": null,
+    "questionText": "According to the text, how could AI enhance telemedicine in the future?",
+    "explanation": "The text states: 'AI-powered tools could assist clinicians in interpreting medical images, identifying patterns in patient data, and prioritizing cases that require urgent attention.' Option A combines these functions.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "By helping interpret medical images and identifying patterns in patient data.", "isCorrect": true },
+      { "letter": "B", "text": "By completely replacing the need for human doctors.", "isCorrect": false },
+      { "letter": "C", "text": "By making internet access available to all rural communities.", "isCorrect": false },
+      { "letter": "D", "text": "By eliminating all privacy concerns in electronic health records.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 53,
+    "caseText": null,
+    "questionText": "The word 'streamline' in the last paragraph most closely means:",
+    "explanation": "'Streamline' means to make a process more efficient by simplifying or eliminating unnecessary steps. In the context of 'streamline administrative processes,' it means making them faster and more efficient. Option C captures this meaning.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "to make more complicated", "isCorrect": false },
+      { "letter": "B", "text": "to eliminate completely", "isCorrect": false },
+      { "letter": "C", "text": "to make more efficient and simpler", "isCorrect": true },
+      { "letter": "D", "text": "to transfer to another department", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 54,
+    "caseText": null,
+    "questionText": "Which organizational pattern does the author primarily use in this text?",
+    "explanation": "The text follows a clear structure: introduces telemedicine (definition), discusses benefits, then limitations, then regulatory issues, then future with AI. Each paragraph presents advantages and then counterbalances with challenges. This is a problem-solution and pros-and-cons structure within an overall analytical framework.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Chronological order of events in telemedicine history.", "isCorrect": false },
+      { "letter": "B", "text": "A compare-and-contrast analysis of different countries' healthcare systems.", "isCorrect": false },
+      { "letter": "C", "text": "An analytical structure that examines benefits, limitations, and future prospects.", "isCorrect": true },
+      { "letter": "D", "text": "A personal narrative of the author's experience with telemedicine.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 55,
+    "caseText": null,
+    "questionText": "The text implies that the most significant barrier to widespread telemedicine adoption is:",
+    "explanation": "Throughout the text, the author returns to the issue of unequal access: lack of internet, digital literacy gaps, regulatory differences, and reimbursement disparities. The digital divide (technology access gap) is presented as the most fundamental barrier, because it underlies many other issues and is highlighted as a paradox. Option B captures this.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Doctors' unwillingness to adopt new technologies.", "isCorrect": false },
+      { "letter": "B", "text": "The digital divide — unequal access to technology and digital skills.", "isCorrect": true },
+      { "letter": "C", "text": "The high cost of telemedicine equipment.", "isCorrect": false },
+      { "letter": "D", "text": "Patient preference for face-to-face consultations.", "isCorrect": false }
+    ]
+  }
+]

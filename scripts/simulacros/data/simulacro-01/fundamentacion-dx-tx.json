@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Caso clínico: Mujer de 45 años consulta por dolor epigástrico tipo ardor que se presenta después de las comidas, especialmente con alimentos picantes y café. Refiere que el dolor mejora parcialmente con antiácidos. No tiene antecedentes quirúrgicos. No toma AINEs de forma regular. El examen físico revela dolor a la palpación en epigastrio sin signos de irritación peritoneal.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El cuadro clínico de dolor epigástrico tipo ardor postprandial que mejora con antiácidos, sin uso de AINEs y sin signos de alarma, es característico de una gastritis o dispepsia funcional. La enfermedad ácido-péptica (gastritis/dispepsia) es el diagnóstico más probable. La pancreatitis cursa con dolor en barra irradiado a espalda. La colelitiasis produce dolor en hipocondrio derecho. La apendicitis se localiza en fosa ilíaca derecha.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Pancreatitis aguda", "isCorrect": false },
+      { "letter": "B", "text": "Enfermedad ácido-péptica (gastritis)", "isCorrect": true },
+      { "letter": "C", "text": "Colelitiasis complicada", "isCorrect": false },
+      { "letter": "D", "text": "Apendicitis aguda", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "¿Cuál es el estudio inicial más apropiado para esta paciente?",
+    "explanation": "En una paciente de 45 años con síntomas dispépticos sin signos de alarma (sangrado, pérdida de peso, disfagia, anemia), el abordaje inicial incluye una prueba no invasiva para H. pylori (como el test de urea en aliento o antígeno en heces). La endoscopia se reserva para pacientes mayores de 55 años con síntomas nuevos o con signos de alarma. La TAC y la ecografía no son de primera línea para dispepsia sin complicaciones.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Endoscopia digestiva alta inmediata.", "isCorrect": false },
+      { "letter": "B", "text": "Prueba no invasiva para Helicobacter pylori.", "isCorrect": true },
+      { "letter": "C", "text": "Tomografía computarizada de abdomen.", "isCorrect": false },
+      { "letter": "D", "text": "Ecografía hepatobiliar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Caso clínico: Hombre de 62 años, diabético tipo 2 e hipertenso, acude a urgencias por dolor torácico opresivo retroesternal de 2 horas de evolución que se irradia al brazo izquierdo. Presenta diaforesis, náuseas y sensación de muerte inminente. El electrocardiograma muestra elevación del segmento ST en derivaciones DII, DIII y aVF.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El cuadro clínico de dolor torácico opresivo irradiado al brazo izquierdo, con diaforesis y elevación del ST en derivaciones de cara inferior (DII, DIII, aVF) es característico de un infarto agudo de miocardio con elevación del ST (IAMCEST) de pared inferior. La angina estable no produce elevación del ST. La disección aórtica tiene características diferentes (dolor desgarrante). El TEP no produce típicamente elevación del ST en cara inferior.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Angina estable.", "isCorrect": false },
+      { "letter": "B", "text": "Infarto agudo de miocardio con elevación del ST de pared inferior.", "isCorrect": true },
+      { "letter": "C", "text": "Disección aórtica tipo A.", "isCorrect": false },
+      { "letter": "D", "text": "Tromboembolismo pulmonar masivo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta terapéutica inmediata más apropiada?",
+    "explanation": "En un IAMCEST, la prioridad es la reperfusión coronaria. La intervención coronaria percutánea (ICP) primaria es el tratamiento de elección si está disponible dentro de los 120 minutos. Si no, se debe administrar trombolítico. Adicionalmente se inicia aspirina, heparina, clopidogrel y manejo del dolor. La cirugía de bypass no es de primera línea en el manejo agudo.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Observación hospitalaria con monitorización y analgesia.", "isCorrect": false },
+      { "letter": "B", "text": "Reperfusión coronaria urgente (ICP primaria o trombolítico) más antiagregación y anticoagulación.", "isCorrect": true },
+      { "letter": "C", "text": "Cirugía de bypass coronario de emergencia.", "isCorrect": false },
+      { "letter": "D", "text": "Iniciar tratamiento ambulatorio con betabloqueador y cita de control.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Caso clínico: Niño de 4 años es traído a urgencias por su madre porque presenta fiebre de 39,5 °C de 3 días de evolución, tos húmeda, dificultad respiratoria y tirajes intercostales. A la auscultación se escuchan crépitos en base pulmonar derecha. La radiografía de tórax muestra una consolidación en el lóbulo inferior derecho.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Fiebre alta, tos productiva, dificultad respiratoria con tirajes, crépitos localizados y consolidación radiológica en un niño configuran el cuadro clásico de neumonía bacteriana adquirida en la comunidad. La bronquiolitis es más frecuente en menores de 2 años. El asma no produce fiebre alta ni consolidación. La tuberculosis tiene una presentación más subaguda.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Bronquiolitis viral.", "isCorrect": false },
+      { "letter": "B", "text": "Neumonía bacteriana adquirida en la comunidad.", "isCorrect": true },
+      { "letter": "C", "text": "Crisis asmática con sobreinfección.", "isCorrect": false },
+      { "letter": "D", "text": "Tuberculosis pulmonar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "¿Cuál es el agente etiológico más probable en este grupo etario?",
+    "explanation": "En niños de 3 meses a 5 años, el agente bacteriano más frecuente de neumonía adquirida en la comunidad es Streptococcus pneumoniae. Staphylococcus aureus es más frecuente en neonatos o neumonía complicada. Mycoplasma pneumoniae predomina en escolares y adolescentes. Pseudomonas aeruginosa es típica de infecciones nosocomiales.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Staphylococcus aureus", "isCorrect": false },
+      { "letter": "B", "text": "Streptococcus pneumoniae", "isCorrect": true },
+      { "letter": "C", "text": "Mycoplasma pneumoniae", "isCorrect": false },
+      { "letter": "D", "text": "Pseudomonas aeruginosa", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": null,
+    "questionText": "El antibiótico de primera línea para el manejo ambulatorio de este paciente sería:",
+    "explanation": "Para neumonía bacteriana típica en niños de 3 meses a 5 años sin complicaciones, el tratamiento de primera línea es amoxicilina a dosis altas (80-90 mg/kg/día). Si hay alergia a penicilina, se puede usar un macrólido. Las cefalosporinas de tercera generación IV se reservan para pacientes hospitalizados. La ciprofloxacina no se usa en pediatría de rutina.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Ciprofloxacina oral", "isCorrect": false },
+      { "letter": "B", "text": "Amoxicilina oral a dosis altas", "isCorrect": true },
+      { "letter": "C", "text": "Ceftriaxona intramuscular", "isCorrect": false },
+      { "letter": "D", "text": "Vancomicina intravenosa", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Caso clínico: Mujer de 28 años, previamente sana, consulta por aumento de volumen en la región anterior del cuello que ha crecido progresivamente en los últimos 3 meses. Refiere pérdida de peso de 5 kg a pesar de aumento del apetito, palpitaciones, temblor fino en manos, intolerancia al calor y diarrea frecuente. Al examen físico se palpa bocio difuso, exoftalmos bilateral y frecuencia cardíaca de 110 lpm.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Bocio difuso + exoftalmos bilateral + síntomas de hipertiroidismo (pérdida de peso con apetito aumentado, taquicardia, temblor, intolerancia al calor, diarrea) en una mujer joven es patognomónico de enfermedad de Graves. El bocio multinodular tóxico no cursa con exoftalmos. El hipotiroidismo presenta síntomas opuestos. El carcinoma de tiroides generalmente es un nódulo único sin hipertiroidismo.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Hipotiroidismo primario (tiroiditis de Hashimoto).", "isCorrect": false },
+      { "letter": "B", "text": "Enfermedad de Graves (hipertiroidismo autoinmune).", "isCorrect": true },
+      { "letter": "C", "text": "Bocio multinodular tóxico.", "isCorrect": false },
+      { "letter": "D", "text": "Carcinoma papilar de tiroides.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "El tratamiento farmacológico inicial más adecuado es:",
+    "explanation": "Los antitiroideos (metimazol o propiltiouracilo) son el tratamiento de primera línea para la enfermedad de Graves. El metimazol es preferido excepto en el primer trimestre del embarazo. Se asocia un betabloqueador (propranolol) para controlar los síntomas adrenérgicos mientras se logra el eutiroidismo. La levotiroxina empeoraría el hipertiroidismo. La cirugía es segunda o tercera línea.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Levotiroxina sódica.", "isCorrect": false },
+      { "letter": "B", "text": "Metimazol más propranolol.", "isCorrect": true },
+      { "letter": "C", "text": "Tiroidectomía total inmediata.", "isCorrect": false },
+      { "letter": "D", "text": "Yodo radioactivo como primera opción.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Caso clínico: Hombre de 55 años, fumador de 30 paquetes/año, consulta por disnea progresiva de 2 años de evolución que actualmente se presenta al subir un piso de escaleras. Refiere tos crónica con expectoración mucosa matutina. Al examen: tórax en tonel, murmullo vesicular disminuido globalmente con sibilancias espiratorias. Espirometría: VEF1/CVF = 0,58; VEF1 post-broncodilatador = 52% del predicho.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico y la clasificación GOLD de gravedad?",
+    "explanation": "Fumador pesado + disnea progresiva + tos crónica productiva + tórax en tonel + obstrucción persistente (VEF1/CVF < 0,70 post-BD) = EPOC. VEF1 = 52% post-BD clasifica como GOLD 3 (grave: 30-49%) — pero 52% está en GOLD 2 (moderada: 50-79%). Según GOLD, VEF1 50-79% del predicho = moderada (GOLD 2).",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "EPOC GOLD 1 (leve).", "isCorrect": false },
+      { "letter": "B", "text": "EPOC GOLD 2 (moderada).", "isCorrect": true },
+      { "letter": "C", "text": "Asma bronquial moderada persistente.", "isCorrect": false },
+      { "letter": "D", "text": "Fibrosis pulmonar idiopática.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "El pilar fundamental del tratamiento no farmacológico para este paciente es:",
+    "explanation": "La cesación del tabaquismo es la ÚNICA medida que ha demostrado modificar la historia natural de la EPOC y reducir la tasa de declive del VEF1. Es el pilar fundamental del tratamiento independientemente de la gravedad. El oxígeno domiciliario se indica con PaO2 < 55 mmHg. La rehabilitación pulmonar es importante pero no modifica la progresión como lo hace dejar de fumar.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Oxigenoterapia domiciliaria continua.", "isCorrect": false },
+      { "letter": "B", "text": "Cesación del tabaquismo.", "isCorrect": true },
+      { "letter": "C", "text": "Reposo absoluto para evitar la disnea.", "isCorrect": false },
+      { "letter": "D", "text": "Dieta hiperproteica sin restricción calórica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Caso clínico: Mujer de 32 años consulta por dolor e inflamación en la rodilla derecha de inicio agudo hace 24 horas. No refiere trauma. Al examen: rodilla caliente, eritematosa, con derrame articular y limitación dolorosa de la movilidad. Temperatura: 38,8 °C. La artrocentesis muestra líquido turbio con 80.000 leucocitos/μL (90% neutrófilos).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Monoartritis aguda + fiebre + líquido articular turbio con > 50.000 leucocitos/μL (predominio neutrofílico) = artritis séptica hasta que se demuestre lo contrario. La gota puede presentar monoartritis aguda pero típicamente el líquido muestra cristales de urato. La artritis reumatoide es poliarticular y crónica. La bursitis no produce derrame intraarticular.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Artritis gotosa aguda.", "isCorrect": false },
+      { "letter": "B", "text": "Artritis séptica.", "isCorrect": true },
+      { "letter": "C", "text": "Artritis reumatoide de inicio.", "isCorrect": false },
+      { "letter": "D", "text": "Bursitis prepatelar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta inmediata más importante?",
+    "explanation": "La artritis séptica es una urgencia ortopédica. Requiere: 1) Cultivo del líquido articular y hemocultivos, 2) Antibioticoterapia empírica IV inmediata (usualmente vancomicina + cefalosporina de 3ª gen para cubrir S. aureus y gram negativos), y 3) Drenaje articular (artroscópico o quirúrgico). No se debe esperar el resultado de cultivos para iniciar antibióticos.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "AINEs orales y reposo con cita de control en una semana.", "isCorrect": false },
+      { "letter": "B", "text": "Antibioticoterapia intravenosa empírica inmediata y drenaje articular.", "isCorrect": true },
+      { "letter": "C", "text": "Corticoides intraarticulares para desinflamar.", "isCorrect": false },
+      { "letter": "D", "text": "Inmovilización con yeso y analgesia ambulatoria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Caso clínico: Hombre de 70 años consulta por debilidad progresiva en miembros inferiores de 3 días de evolución que ha ascendido hasta los muslos. Hace 2 semanas tuvo un episodio de gastroenteritis. Al examen: parálisis flácida simétrica de miembros inferiores, arreflexia patelar y aquiliana bilateral, sensibilidad conservada. Fuerza en miembros superiores: 4/5.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Parálisis ascendente simétrica + arreflexia + antecedente de infección gastrointestinal reciente = Síndrome de Guillain-Barré (polirradiculoneuropatía desmielinizante aguda). La mielitis transversa presenta nivel sensitivo. El ACV afecta un solo lado. La miastenia gravis afecta predominantemente musculatura ocular y proximal sin arreflexia.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Accidente cerebrovascular del tronco encefálico.", "isCorrect": false },
+      { "letter": "B", "text": "Síndrome de Guillain-Barré.", "isCorrect": true },
+      { "letter": "C", "text": "Mielitis transversa.", "isCorrect": false },
+      { "letter": "D", "text": "Miastenia gravis generalizada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "¿Qué estudio confirma el diagnóstico y cuál es el tratamiento?",
+    "explanation": "El diagnóstico se confirma con punción lumbar (disociación albumino-citológica: proteínas elevadas con celularidad normal) y electromiografía (desmielinización). El tratamiento es inmunoglobulina intravenosa (IGIV) o plasmaféresis. Los corticoides NO son efectivos en Guillain-Barré (a diferencia de otras neuropatías autoinmunes).",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "RMN cerebral; tratamiento con corticoides IV.", "isCorrect": false },
+      { "letter": "B", "text": "Punción lumbar y electromiografía; tratamiento con inmunoglobulina IV o plasmaféresis.", "isCorrect": true },
+      { "letter": "C", "text": "TAC de columna; tratamiento con cirugía descompresiva.", "isCorrect": false },
+      { "letter": "D", "text": "Electroencefalograma; tratamiento con anticonvulsivantes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Caso clínico: Mujer de 25 años consulta por cefalea pulsátil unilateral derecha de 8 horas de evolución, acompañada de náuseas, fotofobia y fonofobia. Refiere que antes del dolor vio «luces brillantes en zigzag» durante 20 minutos. Tiene antecedente familiar de cefaleas similares en su madre. Los episodios ocurren 3-4 veces al mes.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Cefalea pulsátil unilateral + náuseas + fotofobia/fonofobia + aura visual previa (escotomas centellantes en zigzag) + antecedente familiar = Migraña con aura. La cefalea tensional es bilateral, opresiva, sin aura. La cefalea en racimos es periorbital con lagrimeo y rinorrea ipsilateral. La arteritis temporal ocurre en mayores de 50 años.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Cefalea tensional crónica.", "isCorrect": false },
+      { "letter": "B", "text": "Migraña con aura.", "isCorrect": true },
+      { "letter": "C", "text": "Cefalea en racimos.", "isCorrect": false },
+      { "letter": "D", "text": "Arteritis de células gigantes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "Dado que los episodios ocurren 3-4 veces al mes, además del manejo agudo, ¿cuál estrategia adicional está indicada?",
+    "explanation": "Con ≥ 4 episodios/mes (o episodios que interfieren significativamente con la calidad de vida), se indica tratamiento profiláctico. Las opciones de primera línea incluyen betabloqueadores (propranolol), antiepilépticos (topiramato, valproato), antidepresivos tricíclicos (amitriptilina) o anticuerpos monoclonales anti-CGRP. Los opioides no se recomiendan para profilaxis ni para manejo agudo de migraña.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Solo tratamiento agudo (triptanes o AINEs) y nada más.", "isCorrect": false },
+      { "letter": "B", "text": "Tratamiento profiláctico con betabloqueador, antiepiléptico o antidepresivo.", "isCorrect": true },
+      { "letter": "C", "text": "Uso diario de opioides para prevenir las crisis.", "isCorrect": false },
+      { "letter": "D", "text": "Cirugía de descompresión del nervio trigémino.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Caso clínico: Hombre de 58 años, obeso (IMC 34), consulta por poliuria, polidipsia y pérdida de peso de 4 kg en los últimos 2 meses. Refiere visión borrosa intermitente. Glucemia en ayunas: 210 mg/dL. HbA1c: 9,2 %. Creatinina: 1,0 mg/dL.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico y la conducta inicial?",
+    "explanation": "Paciente con síntomas cardinales de diabetes (poliuria, polidipsia, pérdida de peso) + glucemia en ayunas > 126 mg/dL + HbA1c > 6,5% = Diabetes mellitus tipo 2. Con HbA1c > 9% y síntomas, las guías recomiendan iniciar terapia combinada (metformina + otro agente) o directamente insulina basal junto con metformina, ya que la metformina sola no logrará control glucémico adecuado.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Diabetes tipo 2; iniciar solo dieta y ejercicio.", "isCorrect": false },
+      { "letter": "B", "text": "Diabetes tipo 2; iniciar metformina como monoterapia.", "isCorrect": false },
+      { "letter": "C", "text": "Diabetes tipo 2; iniciar terapia combinada o insulina basal con metformina.", "isCorrect": true },
+      { "letter": "D", "text": "Diabetes tipo 1; iniciar esquema intensivo de insulina basal-bolo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Caso clínico: Mujer de 35 años consulta por masas en ambas mamas que ha notado desde hace 6 meses. Refiere que aumentan de tamaño y se vuelven dolorosas antes de la menstruación. Al examen: múltiples masas bilaterales, móviles, bien delimitadas, de consistencia firme-elástica. No hay retracción del pezón, secreción ni adenopatías axilares.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Masas bilaterales, múltiples, móviles, que fluctúan con el ciclo menstrual (aumentan antes de la menstruación) en una mujer joven = Enfermedad fibroquística de la mama (mastopatía fibroquística). El fibroadenoma es generalmente único. El carcinoma de mama suele ser unilateral, duro, fijo. El tumor phyllodes es raro y usualmente unilateral.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Carcinoma ductal infiltrante bilateral.", "isCorrect": false },
+      { "letter": "B", "text": "Enfermedad fibroquística de la mama.", "isCorrect": true },
+      { "letter": "C", "text": "Fibroadenoma mamario bilateral.", "isCorrect": false },
+      { "letter": "D", "text": "Tumor phyllodes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "Caso clínico: Hombre de 50 años, alcohólico crónico, es traído a urgencias por familiares porque lleva 2 días con confusión, desorientación y agitación psicomotora después de haber dejado de beber abruptamente hace 48 horas. Al examen: diaforético, taquicárdico (FC 120), hipertenso (PA 170/100), febril (38,5 °C), temblor generalizado y alucinaciones visuales (ve insectos en la pared).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico?",
+    "explanation": "Paciente alcohólico crónico que cesa el consumo abruptamente + confusión + agitación + hiperactividad autonómica (taquicardia, hipertensión, diaforesis, fiebre) + temblor + alucinaciones visuales = Delirium tremens (síndrome de abstinencia alcohólica grave). Es una emergencia médica con mortalidad del 5-15% sin tratamiento.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Encefalopatía hepática.", "isCorrect": false },
+      { "letter": "B", "text": "Delirium tremens (síndrome de abstinencia alcohólica grave).", "isCorrect": true },
+      { "letter": "C", "text": "Intoxicación alcohólica aguda.", "isCorrect": false },
+      { "letter": "D", "text": "Psicosis esquizofrénica aguda.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": null,
+    "questionText": "El tratamiento farmacológico de primera línea para esta condición es:",
+    "explanation": "Las benzodiacepinas (diazepam, lorazepam, clordiazepóxido) son el tratamiento de primera línea para el delirium tremens. Reducen la mortalidad al controlar la hiperactividad autonómica y prevenir convulsiones. Se deben administrar en dosis tituladas. La tiamina IV se agrega para prevenir la encefalopatía de Wernicke. Los antipsicóticos solos están contraindicados porque reducen el umbral convulsivo.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Haloperidol intravenoso en dosis altas.", "isCorrect": false },
+      { "letter": "B", "text": "Benzodiacepinas IV (diazepam/lorazepam) más tiamina IV.", "isCorrect": true },
+      { "letter": "C", "text": "Disulfiram oral para evitar el consumo de alcohol.", "isCorrect": false },
+      { "letter": "D", "text": "Fenitoína IV para prevenir convulsiones.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Caso clínico: Mujer de 22 años, sin antecedentes patológicos, consulta porque desde hace 3 semanas presenta fatiga extrema, fiebre baja intermitente, artralgias en manos y rodillas, y un eritema en forma de alas de mariposa en ambas mejillas que empeora con la exposición solar. Los laboratorios muestran: ANA positivos (1:640), anti-dsDNA positivos, complemento C3 y C4 disminuidos, linfopenia.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Mujer joven + eritema malar (alas de mariposa) + artralgias + fiebre + ANA positivos + anti-dsDNA positivos + complemento consumido + linfopenia = Lupus eritematoso sistémico (LES). Cumple múltiples criterios clasificatorios. La artritis reumatoide no cursa con eritema malar ni anti-dsDNA. La dermatomiositis tiene exantema heliotropo periorbital. La esclerodermia tiene piel engrosada.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Artritis reumatoide de inicio.", "isCorrect": false },
+      { "letter": "B", "text": "Lupus eritematoso sistémico.", "isCorrect": true },
+      { "letter": "C", "text": "Dermatomiositis.", "isCorrect": false },
+      { "letter": "D", "text": "Esclerosis sistémica (esclerodermia).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Caso clínico: Hombre de 40 años consulta por dolor abdominal en fosa ilíaca derecha de 12 horas de evolución que inició como dolor periumbilical difuso y luego migró. Presenta náuseas, un vómito y fiebre de 38,2 °C. Al examen: signo de McBurney positivo, defensa muscular en fosa ilíaca derecha, signo de Blumberg positivo.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable y la conducta?",
+    "explanation": "Dolor periumbilical que migra a fosa ilíaca derecha + náuseas/vómito + fiebre + McBurney positivo + Blumberg positivo (irritación peritoneal) = Apendicitis aguda. El signo de Blumberg positivo sugiere posible perforación o inflamación avanzada. La conducta es apendicectomía quirúrgica urgente (laparoscópica o abierta) previa estabilización y antibióticos profilácticos.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Apendicitis aguda; observación con antibióticos y control ecográfico en 48 horas.", "isCorrect": false },
+      { "letter": "B", "text": "Apendicitis aguda; apendicectomía quirúrgica urgente.", "isCorrect": true },
+      { "letter": "C", "text": "Diverticulitis aguda; tratamiento ambulatorio con ciprofloxacina y metronidazol.", "isCorrect": false },
+      { "letter": "D", "text": "Cólico renal derecho; analgesia parenteral y estudio de imagen.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Caso clínico: Mujer de 60 años consulta por dolor lumbar bajo de 1 año de evolución que empeora con la bipedestación prolongada y mejora con el reposo. No refiere trauma. Antecedentes: menopausia a los 48 años, no usó terapia hormonal. Al examen: dolor a la palpación de apófisis espinosas lumbares. Densitometría ósea: T-score −3,0 en columna lumbar.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico?",
+    "explanation": "Mujer posmenopáusica + dolor lumbar crónico + T-score ≤ −2,5 en densitometría = Osteoporosis. Se define osteoporosis con T-score ≤ −2,5. Osteopenia es T-score entre −1,0 y −2,5. La espondilolistesis y la hernia discal no se diagnostican por densitometría. La artrosis lumbar puede coexistir pero no es lo que mide la densitometría.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Osteopenia leve.", "isCorrect": false },
+      { "letter": "B", "text": "Osteoporosis.", "isCorrect": true },
+      { "letter": "C", "text": "Espondilolistesis degenerativa.", "isCorrect": false },
+      { "letter": "D", "text": "Hernia discal lumbar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "El tratamiento farmacológico de primera línea para esta paciente es:",
+    "explanation": "Para osteoporosis posmenopáusica, los bifosfonatos (alendronato, risedronato) son la primera línea junto con calcio y vitamina D. Denosumab es segunda línea. La calcitonina tiene eficacia limitada y ya no se recomienda como primera línea. La terapia hormonal puede considerarse en posmenopáusicas recientes pero no como tratamiento primario de osteoporosis.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Solo calcio y vitamina D.", "isCorrect": false },
+      { "letter": "B", "text": "Bifosfonato (alendronato) más calcio y vitamina D.", "isCorrect": true },
+      { "letter": "C", "text": "Calcitonina nasal diaria.", "isCorrect": false },
+      { "letter": "D", "text": "Terapia hormonal sustitutiva exclusivamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Caso clínico: Lactante de 8 meses es traído a urgencias por su madre porque desde hace 6 horas presenta episodios paroxísticos de llanto inconsolable con flexión de las piernas sobre el abdomen, intercalados con periodos de calma. Tiene un vómito y una deposición con sangre y moco (aspecto de «jalea de grosella»). Al examen: abdomen distendido con masa palpable en hipocondrio derecho.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Lactante de 6-12 meses + dolor abdominal paroxístico (llanto con flexión) + deposiciones con sangre y moco (jalea de grosella) + masa abdominal palpable = Invaginación intestinal (intususcepción). La estenosis pilórica se presenta antes de los 3 meses con vómitos en proyectil sin sangrado. El vólvulo intestinal es agudo y grave desde el inicio. La gastroenteritis no produce masa abdominal.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Estenosis hipertrófica del píloro.", "isCorrect": false },
+      { "letter": "B", "text": "Invaginación intestinal (intususcepción).", "isCorrect": true },
+      { "letter": "C", "text": "Vólvulo intestinal.", "isCorrect": false },
+      { "letter": "D", "text": "Gastroenteritis aguda bacteriana.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento de primera línea?",
+    "explanation": "En la invaginación intestinal no complicada, la reducción neumática (con aire) o hidrostática (con solución salina) guiada por ecografía o fluoroscopia es el tratamiento de primera línea, con éxito del 80-95%. La cirugía se reserva para casos con signos de peritonitis, perforación o fracaso de la reducción no quirúrgica.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Cirugía exploradora inmediata.", "isCorrect": false },
+      { "letter": "B", "text": "Reducción neumática o hidrostática guiada por imagen.", "isCorrect": true },
+      { "letter": "C", "text": "Antibioticoterapia IV y observación.", "isCorrect": false },
+      { "letter": "D", "text": "Laxantes y enema evacuante.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Caso clínico: Hombre de 30 años consulta por disuria, frecuencia urinaria aumentada y secreción uretral mucopurulenta de 5 días de evolución. Refiere relaciones sexuales sin protección hace 10 días. Al examen: secreción uretral visible al presionar el pene. No hay lesiones genitales ulceradas.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable y el tratamiento?",
+    "explanation": "Hombre joven + secreción uretral mucopurulenta + disuria + antecedente de relación sexual de riesgo = Uretritis gonocócica (hasta descartar coinfección con Chlamydia). El tratamiento actual recomendado (CDC/OMS) es terapia dual: ceftriaxona 500 mg IM dosis única + azitromicina 1 g oral dosis única para cubrir tanto N. gonorrhoeae como C. trachomatis. Se debe tratar también a la(s) pareja(s) sexual(es).",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Infección urinaria; ciprofloxacina oral por 7 días.", "isCorrect": false },
+      { "letter": "B", "text": "Uretritis gonocócica; ceftriaxona IM + azitromicina oral dosis única.", "isCorrect": true },
+      { "letter": "C", "text": "Prostatitis aguda; trimetoprim-sulfametoxazol por 4 semanas.", "isCorrect": false },
+      { "letter": "D", "text": "Uretritis viral; aciclovir oral por 10 días.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Caso clínico: Mujer embarazada de 36 semanas de gestación consulta por cefalea intensa, visión borrosa y dolor en epigastrio. PA: 170/110 mmHg. Edema en miembros inferiores y cara. Laboratorios: proteinuria 3+, plaquetas 85.000/μL, AST 280 U/L, ALT 310 U/L, LDH 750 U/L, creatinina 1,3 mg/dL.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico?",
+    "explanation": "Embarazada en tercer trimestre + HTA severa + proteinuria + cefalea + visión borrosa + epigastralgia + trombocitopenia + transaminasas elevadas + LDH elevada = Preeclampsia severa con síndrome HELLP (Hemolysis, Elevated Liver enzymes, Low Platelets). Es una emergencia obstétrica. La eclampsia requeriría convulsiones. La colestasis intrahepática presenta prurito sin HTA.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Hipertensión gestacional sin complicaciones.", "isCorrect": false },
+      { "letter": "B", "text": "Preeclampsia severa con síndrome HELLP.", "isCorrect": true },
+      { "letter": "C", "text": "Eclampsia.", "isCorrect": false },
+      { "letter": "D", "text": "Colestasis intrahepática del embarazo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta terapéutica definitiva?",
+    "explanation": "En preeclampsia severa/HELLP con embarazo ≥ 34 semanas, la conducta definitiva es la terminación del embarazo (parto, usualmente por cesárea). Se debe estabilizar primero con sulfato de magnesio (prevención de eclampsia) y antihipertensivos IV (labetalol o hidralazina). A las 36 semanas, no hay beneficio en prolongar el embarazo frente al riesgo materno-fetal.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Manejo expectante con antihipertensivos hasta las 40 semanas.", "isCorrect": false },
+      { "letter": "B", "text": "Estabilización con sulfato de magnesio y antihipertensivos, seguida de terminación del embarazo.", "isCorrect": true },
+      { "letter": "C", "text": "Reposo absoluto en cama y control semanal.", "isCorrect": false },
+      { "letter": "D", "text": "Plasmaféresis para corregir la trombocitopenia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Caso clínico: Niño de 6 años presenta fiebre de 38,5 °C, odinofagia y exantema eritematoso difuso con textura áspera (aspecto de «papel de lija») que inició en tronco y se extendió a extremidades, respetando palmas y plantas. Al examen: amígdalas hipertróficas con exudado purulento, lengua aframbuesada, palidez perioral.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico?",
+    "explanation": "Fiebre + odinofagia + exantema en «papel de lija» + lengua aframbuesada + palidez perioral (signo de Filatov) = Escarlatina (producida por Streptococcus pyogenes del grupo A que produce toxina eritrogénica). El sarampión tiene exantema maculopapular con manchas de Koplik. La rubéola tiene exantema más leve. La enfermedad de Kawasaki tiene criterios diferentes.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Sarampión.", "isCorrect": false },
+      { "letter": "B", "text": "Escarlatina.", "isCorrect": true },
+      { "letter": "C", "text": "Rubéola.", "isCorrect": false },
+      { "letter": "D", "text": "Enfermedad de Kawasaki.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "El tratamiento de elección y su importancia es:",
+    "explanation": "La escarlatina es causada por S. pyogenes, y el tratamiento de elección es penicilina (o amoxicilina). El tratamiento antibiótico es crucial no solo para resolver los síntomas sino para prevenir complicaciones como fiebre reumática y glomerulonefritis post-estreptocócica. En alérgicos a penicilina se usa eritromicina o azitromicina.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Penicilina o amoxicilina por 10 días, para prevenir fiebre reumática.", "isCorrect": true },
+      { "letter": "B", "text": "Solo manejo sintomático porque es una enfermedad viral autolimitada.", "isCorrect": false },
+      { "letter": "C", "text": "Aciclovir oral por 7 días.", "isCorrect": false },
+      { "letter": "D", "text": "Cefalosporina de tercera generación IV por 14 días.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Caso clínico: Hombre de 65 años consulta por hematuria macroscópica indolora de 2 semanas de evolución. No tiene disuria ni fiebre. Es fumador de 40 paquetes/año. Ha trabajado en una fábrica de pinturas durante 30 años. Al examen físico no se palpan masas abdominales.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico que se debe descartar prioritariamente?",
+    "explanation": "Hematuria macroscópica indolora en un adulto mayor, fumador, con exposición ocupacional a aminas aromáticas (pinturas) = Alto riesgo de carcinoma urotelial (cáncer de vejiga) hasta demostrar lo contrario. El tabaquismo y la exposición a anilinas/aminas aromáticas son los principales factores de riesgo. La urolitiasis produce dolor cólico. La IVU produce disuria y fiebre. La hiperplasia prostática produce hematuria pero con síntomas obstructivos.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Infección de vías urinarias.", "isCorrect": false },
+      { "letter": "B", "text": "Carcinoma urotelial (cáncer de vejiga).", "isCorrect": true },
+      { "letter": "C", "text": "Urolitiasis (cálculos renales).", "isCorrect": false },
+      { "letter": "D", "text": "Hiperplasia prostática benigna.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Caso clínico: Mujer de 38 años consulta porque desde hace 4 meses presenta fatiga extrema, palidez y disnea al esfuerzo. Refiere menstruaciones abundantes (cambio de toalla cada 2 horas por 7 días). Laboratorios: Hb 8,5 g/dL, VCM 68 fL (bajo), ferritina 5 ng/mL (baja), hierro sérico bajo, capacidad de fijación de hierro aumentada.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el tipo de anemia y su causa más probable?",
+    "explanation": "Hb baja + VCM bajo (microcítica) + ferritina muy baja + hierro sérico bajo + TIBC aumentada = Anemia ferropénica. La causa más probable en esta paciente es el sangrado menstrual abundante (menorragia). La anemia megaloblástica tiene VCM alto. La anemia de enfermedad crónica tiene ferritina normal o alta. La talasemia tiene ferritina normal.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Anemia megaloblástica por deficiencia de vitamina B12.", "isCorrect": false },
+      { "letter": "B", "text": "Anemia ferropénica por sangrado menstrual abundante.", "isCorrect": true },
+      { "letter": "C", "text": "Anemia de enfermedad crónica.", "isCorrect": false },
+      { "letter": "D", "text": "Talasemia menor.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "Además de la suplementación con hierro, ¿qué otra acción es fundamental?",
+    "explanation": "Tratar la causa de la pérdida de hierro es tan importante como la suplementación. En esta paciente, la menorragia es la causa. Se debe investigar y tratar la causa del sangrado abundante (podría ser miomas, pólipos, coagulopatía, disfunción hormonal). Sin corregir la causa, la anemia recurrirá.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Transfusión sanguínea inmediata.", "isCorrect": false },
+      { "letter": "B", "text": "Investigar y tratar la causa de la menorragia.", "isCorrect": true },
+      { "letter": "C", "text": "Iniciar eritropoyetina subcutánea.", "isCorrect": false },
+      { "letter": "D", "text": "Suplementación con vitamina B12 intramuscular.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "Caso clínico: Hombre de 72 años es traído a urgencias por su familia porque desde hace 3 horas presenta debilidad en hemicuerpo derecho (no puede mover el brazo ni la pierna derechos) y dificultad para hablar (afasia). Los síntomas iniciaron de forma súbita mientras almorzaba. Antecedentes: hipertensión arterial, fibrilación auricular crónica (no anticoagulado). TAC cerebral simple: sin evidencia de hemorragia.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico y el mecanismo más probable?",
+    "explanation": "Déficit neurológico focal súbito (hemiparesia derecha + afasia) + fibrilación auricular no anticoagulada + TAC sin hemorragia = ACV isquémico de probable origen cardioembólico. La fibrilación auricular es la causa más común de embolismo cerebral. El ACV hemorrágico se descarta con la TAC normal. Un TIA se resuelve antes de 24 horas. La encefalopatía hipertensiva es más difusa.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "ACV hemorrágico por crisis hipertensiva.", "isCorrect": false },
+      { "letter": "B", "text": "ACV isquémico de probable origen cardioembólico.", "isCorrect": true },
+      { "letter": "C", "text": "Ataque isquémico transitorio (TIA).", "isCorrect": false },
+      { "letter": "D", "text": "Encefalopatía hipertensiva.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": null,
+    "questionText": "Si el paciente llega dentro de la ventana terapéutica, ¿cuál es el tratamiento agudo indicado?",
+    "explanation": "Para ACV isquémico dentro de la ventana terapéutica (< 4,5 horas para trombolíticos IV, o hasta 24 horas para trombectomía mecánica en casos seleccionados), el tratamiento es reperfusión con trombolítico IV (alteplasa) si cumple criterios y/o trombectomía mecánica para oclusiones de grandes vasos. La anticoagulación con heparina NO se usa en la fase aguda del ACV isquémico.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Anticoagulación con heparina intravenosa inmediata.", "isCorrect": false },
+      { "letter": "B", "text": "Trombólisis IV con alteplasa y/o trombectomía mecánica.", "isCorrect": true },
+      { "letter": "C", "text": "Craniectomía descompresiva de emergencia.", "isCorrect": false },
+      { "letter": "D", "text": "Solo aspirina y observación hospitalaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": "Caso clínico: Mujer de 55 años, obesa, consulta por dolor en hipocondrio derecho tipo cólico que se irradia a hombro derecho, de 4 horas de evolución, que inició después de cenar comida grasosa. Presenta náuseas y un vómito. Al examen: signo de Murphy positivo, sin fiebre ni ictericia. Laboratorios: leucocitos normales, bilirrubinas normales, amilasa normal.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Mujer obesa + dolor en hipocondrio derecho tipo cólico postprandial (comida grasosa) + irradiación a hombro derecho + Murphy positivo + sin fiebre + laboratorios normales = Cólico biliar (colelitiasis sintomática). Si hubiera fiebre, leucocitosis y Murphy positivo, sería colecistitis aguda. La coledocolitiasis tendría ictericia y bilirrubinas elevadas. La pancreatitis tendría amilasa elevada.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Colecistitis aguda.", "isCorrect": false },
+      { "letter": "B", "text": "Cólico biliar (colelitiasis sintomática).", "isCorrect": true },
+      { "letter": "C", "text": "Coledocolitiasis.", "isCorrect": false },
+      { "letter": "D", "text": "Pancreatitis aguda biliar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "Caso clínico: Hombre de 45 años, VIH positivo con CD4 de 80 células/μL (no está en tratamiento antirretroviral), consulta por tos seca, fiebre baja de 3 semanas y disnea progresiva al esfuerzo. La radiografía de tórax muestra infiltrados intersticiales bilaterales difusos. La pulsioximetría muestra SaO2 de 88% al aire ambiente.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Paciente VIH positivo con CD4 < 200 + tos seca + fiebre subaguda + disnea progresiva + infiltrados intersticiales bilaterales + hipoxemia = Neumonía por Pneumocystis jirovecii (PCP). Es la infección oportunista más frecuente en pacientes VIH con CD4 < 200. La tuberculosis pulmonar tiene infiltrados apicales o cavitarios. El sarcoma de Kaposi pulmonar es menos frecuente. La neumonía bacteriana tiene consolidación lobar.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Tuberculosis pulmonar.", "isCorrect": false },
+      { "letter": "B", "text": "Neumonía por Pneumocystis jirovecii.", "isCorrect": true },
+      { "letter": "C", "text": "Sarcoma de Kaposi pulmonar.", "isCorrect": false },
+      { "letter": "D", "text": "Neumonía bacteriana lobar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": null,
+    "questionText": "El tratamiento de primera línea para esta infección es:",
+    "explanation": "El tratamiento de primera línea para PCP es trimetoprim-sulfametoxazol (TMP-SMX) por 21 días. Cuando la PaO2 < 70 mmHg o la SaO2 < 92% (como en este caso), se agregan corticoides (prednisona) porque reducen la mortalidad. Se debe iniciar también terapia antirretroviral una vez estabilizado.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Isoniazida + rifampicina + pirazinamida + etambutol.", "isCorrect": false },
+      { "letter": "B", "text": "Trimetoprim-sulfametoxazol más corticoides (por la hipoxemia).", "isCorrect": true },
+      { "letter": "C", "text": "Anfotericina B intravenosa.", "isCorrect": false },
+      { "letter": "D", "text": "Amoxicilina-ácido clavulánico oral.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "Caso clínico: Recién nacido de 2 días de vida, producto de parto vaginal a término, presenta ictericia que inició en la cara y se ha extendido a tronco. El bebé está activo, se alimenta bien al seno materno. Peso al nacer: 3.200 g. Madre grupo O Rh positivo, bebé grupo A Rh positivo. Bilirrubina total: 14 mg/dL (a las 48 horas de vida).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es la causa más probable de la ictericia?",
+    "explanation": "Ictericia neonatal que aparece después de las 24 horas de vida, en un recién nacido a término que se alimenta bien, con madre grupo O y bebé grupo A, sugiere ictericia por incompatibilidad ABO (más frecuente que la incompatibilidad Rh). La bilirrubina de 14 mg/dL a las 48 horas requiere evaluación pero puede estar dentro del rango de fototerapia según el nomograma de Bhutani. La ictericia fisiológica es un diagnóstico de exclusión.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Atresia de vías biliares.", "isCorrect": false },
+      { "letter": "B", "text": "Ictericia por incompatibilidad de grupo sanguíneo ABO.", "isCorrect": true },
+      { "letter": "C", "text": "Sepsis neonatal.", "isCorrect": false },
+      { "letter": "D", "text": "Hepatitis neonatal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "Caso clínico: Mujer de 48 años consulta por un nódulo tiroideo que descubrió hace 2 semanas al palparse el cuello. Es asintomática. No tiene antecedentes de radiación cervical ni antecedentes familiares de cáncer de tiroides. Al examen: nódulo solitario de 2 cm en el lóbulo derecho, firme, no doloroso, móvil. No hay adenopatías cervicales. TSH: normal.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el estudio inicial más apropiado para evaluar este nódulo?",
+    "explanation": "Para un nódulo tiroideo > 1 cm con TSH normal, el siguiente paso es una ecografía tiroidea para caracterizar el nódulo (tamaño, ecogenicidad, márgenes, calcificaciones, vascularidad) y determinar si requiere biopsia por aspiración con aguja fina (BAAF). Si la TSH estuviera baja, se haría una gammagrafía. La TAC no es de primera línea. La biopsia incisional no se hace sin ecografía previa.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Gammagrafía tiroidea con yodo 131.", "isCorrect": false },
+      { "letter": "B", "text": "Ecografía tiroidea.", "isCorrect": true },
+      { "letter": "C", "text": "TAC de cuello con contraste.", "isCorrect": false },
+      { "letter": "D", "text": "Biopsia incisional directa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "Caso clínico: Hombre de 35 años sufre un accidente de tránsito (moto vs. carro). Llega a urgencias consciente pero con dolor torácico derecho y dificultad respiratoria. Al examen: murmullo vesicular ausente en hemitórax derecho, timpanismo a la percusión derecha, desviación traqueal hacia la izquierda, ingurgitación yugular, taquicardia (FC 130), hipotensión (PA 80/50).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico y la conducta inmediata?",
+    "explanation": "Trauma torácico + ausencia de murmullo vesicular + timpanismo + desviación traqueal contralateral + ingurgitación yugular + hipotensión = Neumotórax a tensión. Es una emergencia vital que requiere descompresión inmediata con aguja (toracocentesis) en el segundo espacio intercostal línea medioclavicular, seguida de tubo de tórax. NO se debe esperar la radiografía; el diagnóstico es clínico.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Neumotórax a tensión; radiografía de tórax urgente antes de cualquier intervención.", "isCorrect": false },
+      { "letter": "B", "text": "Neumotórax a tensión; descompresión inmediata con aguja seguida de tubo de tórax.", "isCorrect": true },
+      { "letter": "C", "text": "Hemotórax masivo; transfusión sanguínea inmediata.", "isCorrect": false },
+      { "letter": "D", "text": "Contusión pulmonar; observación con oxígeno suplementario.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": "Caso clínico: Mujer de 68 años con diabetes tipo 2, hipertensión y dislipidemia controladas, acude a consulta de rutina. Sus laboratorios recientes muestran: creatinina 1,8 mg/dL (previas: 0,9 hace 1 año), TFG estimada: 35 mL/min/1,73 m², proteinuria 1.500 mg/día. HbA1c: 7,5%. PA: 145/90 mmHg.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico y la clasificación?",
+    "explanation": "Creatinina elevada progresiva + TFG 35 mL/min + proteinuria significativa en paciente diabética e hipertensa = Enfermedad renal crónica (ERC). TFG 30-44 = estadio 3b. Con proteinuria > 300 mg/día se clasifica como A3 (albuminuria severa). La causa más probable en este contexto es nefropatía diabética. La insuficiencia renal aguda muestra elevación súbita, no progresiva en 1 año.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Insuficiencia renal aguda prerrenal.", "isCorrect": false },
+      { "letter": "B", "text": "Enfermedad renal crónica estadio 3b (probable nefropatía diabética).", "isCorrect": true },
+      { "letter": "C", "text": "Glomerulonefritis aguda.", "isCorrect": false },
+      { "letter": "D", "text": "Nefritis intersticial por medicamentos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": null,
+    "questionText": "¿Qué grupo farmacológico es prioritario en el manejo de esta paciente para nefroprotección?",
+    "explanation": "Los IECA (enalapril, ramipril) o ARA II (losartán, valsartán) son los fármacos nefroprotectores de elección en ERC con proteinuria, especialmente en nefropatía diabética. Reducen la presión intraglomerular y la proteinuria. Los iSGLT2 (dapagliflozina, empagliflozina) también han demostrado nefroprotección y son complementarios. Los calcioantagonistas no tienen efecto nefroprotector directo.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Calcioantagonistas (amlodipino).", "isCorrect": false },
+      { "letter": "B", "text": "IECA o ARA II (enalapril/losartán).", "isCorrect": true },
+      { "letter": "C", "text": "Betabloqueadores (atenolol).", "isCorrect": false },
+      { "letter": "D", "text": "Diuréticos tiazídicos (hidroclorotiazida).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "Caso clínico: Hombre de 25 años es traído a urgencias después de una caída de 3 metros. Está inconsciente (Glasgow 7). Presenta anisocoria (pupila izquierda dilatada y fija), hemiparesia contralateral derecha. Tiene un hematoma en la región temporal izquierda.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Trauma craneoencefálico + alteración de conciencia + anisocoria ipsilateral al trauma (pupila izquierda dilatada) + hemiparesia contralateral = Herniación uncal por hematoma epidural o subdural agudo. El trauma temporal sugiere hematoma epidural (rotura de arteria meníngea media). La TAC mostraría imagen biconvexa hiperdensa (epidural) o imagen en media luna (subdural).",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Conmoción cerebral simple.", "isCorrect": false },
+      { "letter": "B", "text": "Hematoma epidural agudo con herniación uncal.", "isCorrect": true },
+      { "letter": "C", "text": "Hemorragia subaracnoidea espontánea.", "isCorrect": false },
+      { "letter": "D", "text": "Contusión cerebral sin efecto de masa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "Caso clínico: Mujer de 30 años, previamente sana, consulta por diarrea acuosa profusa de 5 días con 8-10 deposiciones diarias, dolor abdominal tipo cólico y fiebre de 38 °C. Refiere que tomó amoxicilina por 10 días por una sinusitis y terminó hace 3 días. Al examen: abdomen distendido, blando, doloroso a la palpación difusa. Leucocitos: 18.000/μL.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es la causa más probable de la diarrea?",
+    "explanation": "Diarrea acuosa profusa + uso reciente de antibióticos + fiebre + leucocitosis = Infección por Clostridioides difficile (antes Clostridium difficile). Los antibióticos alteran la flora intestinal permitiendo la proliferación de C. difficile. Se confirma con toxina en heces. La amoxicilina es uno de los antibióticos frecuentemente asociados.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Síndrome de intestino irritable.", "isCorrect": false },
+      { "letter": "B", "text": "Infección por Clostridioides difficile.", "isCorrect": true },
+      { "letter": "C", "text": "Enfermedad celíaca.", "isCorrect": false },
+      { "letter": "D", "text": "Intolerancia a la lactosa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": null,
+    "questionText": "El antibiótico de primera línea para el primer episodio no severo de esta infección es:",
+    "explanation": "Según las guías actuales (IDSA/SHEA 2021), el tratamiento de primera línea para el primer episodio no severo de C. difficile es fidaxomicina. Si no está disponible, vancomicina oral. El metronidazol oral ya no se recomienda como primera línea debido a menor eficacia y mayor recurrencia. La vancomicina IV no alcanza concentraciones intestinales adecuadas.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Metronidazol intravenoso.", "isCorrect": false },
+      { "letter": "B", "text": "Vancomicina oral o fidaxomicina.", "isCorrect": true },
+      { "letter": "C", "text": "Ciprofloxacina oral.", "isCorrect": false },
+      { "letter": "D", "text": "Amoxicilina-ácido clavulánico.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "Caso clínico: Hombre de 52 años, asintomático, acude a consulta de chequeo ejecutivo. Sus laboratorios revelan: colesterol total 285 mg/dL, LDL 190 mg/dL, HDL 38 mg/dL, triglicéridos 280 mg/dL, glucemia 105 mg/dL. PA: 128/82 mmHg. IMC: 29. No fuma. Padre tuvo infarto a los 50 años.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Además de cambios en estilo de vida, ¿cuál es el manejo farmacológico indicado?",
+    "explanation": "Con LDL 190 mg/dL (≥ 190 se indica estatina de alta intensidad independientemente del riesgo calculado), antecedente familiar de enfermedad coronaria prematura, HDL bajo y triglicéridos elevados, se debe iniciar estatina de alta intensidad (atorvastatina 40-80 mg o rosuvastatina 20-40 mg). Los cambios en estilo de vida solos son insuficientes con LDL ≥ 190. Los fibratos solos no reducen eventos cardiovasculares.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Solo cambios en estilo de vida; reevaluar en 6 meses.", "isCorrect": false },
+      { "letter": "B", "text": "Estatina de alta intensidad (atorvastatina 40-80 mg).", "isCorrect": true },
+      { "letter": "C", "text": "Fibrato (gemfibrozilo) como monoterapia.", "isCorrect": false },
+      { "letter": "D", "text": "Ezetimibe como monoterapia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": "Caso clínico: Mujer de 42 años consulta por palpitaciones, ansiedad, insomnio y episodios de sudoración profusa desde hace 6 meses. Refiere que ha tenido 3 episodios de cefalea intensa con sensación de presión en el pecho, durante los cuales la presión arterial registrada fue superior a 200/120 mmHg. Entre los episodios, la PA es normal. Los laboratorios generales son normales.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable y el estudio confirmatorio?",
+    "explanation": "Hipertensión episódica (crisis) + cefalea + palpitaciones + sudoración profusa (tríada clásica) + ansiedad = Feocromocitoma (tumor productor de catecolaminas). Se confirma con metanefrinas y catecolaminas fraccionadas en orina de 24 horas o metanefrinas plasmáticas libres. La localización se hace con TAC/RMN de abdomen (suprarrenal en 90% de casos). No es hipertensión esencial porque la PA es normal entre episodios.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Trastorno de ansiedad generalizado; evaluación psiquiátrica.", "isCorrect": false },
+      { "letter": "B", "text": "Feocromocitoma; metanefrinas fraccionadas en orina de 24 horas.", "isCorrect": true },
+      { "letter": "C", "text": "Hipertensión esencial no controlada; monitorización ambulatoria de PA.", "isCorrect": false },
+      { "letter": "D", "text": "Hipertiroidismo; TSH y T4 libre.", "isCorrect": false }
+    ]
+  }
+]

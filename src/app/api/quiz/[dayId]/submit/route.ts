@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
+import { getModuleForDay, getDayInModule, TOTAL_DAYS } from "@/lib/student-day";
 
 export async function POST(
   req: NextRequest,
@@ -11,12 +12,19 @@ export async function POST(
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
-  const dayNumber = parseInt(params.dayId);
-  const { answers, score } = await req.json();
+  const globalDay = parseInt(params.dayId);
+  if (isNaN(globalDay) || globalDay < 1 || globalDay > TOTAL_DAYS) {
+    return NextResponse.json({ error: "Día inválido" }, { status: 400 });
+  }
 
-  // Find daily content
+  const moduleInfo = getModuleForDay(globalDay);
+  const dayNumber = getDayInModule(globalDay);
+
+  const { answers, score, timeSpentSeconds } = await req.json();
+
+  // Find daily content using correct module mapping
   const dailyContent = await prisma.dailyContent.findFirst({
-    where: { dayNumber },
+    where: { dayNumber, module: { number: moduleInfo.number } },
   });
 
   if (!dailyContent) {
@@ -31,6 +39,7 @@ export async function POST(
       score,
       totalQuestions: answers.length,
       completedAt: new Date(),
+      ...(timeSpentSeconds != null ? { timeSpentSeconds } : {}),
     },
   });
 
@@ -46,8 +55,11 @@ export async function POST(
     });
   }
 
-  // Update streak if score >= 2/3
-  if (score >= 2) {
+  // Update streak: exams (15 q) need 10/15 (67%), normal quiz (3 q) needs 2/3
+  const passThreshold = dailyContent.isExamDay
+    ? Math.ceil(answers.length * 0.67)
+    : 2;
+  if (score >= passThreshold) {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 

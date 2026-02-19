@@ -34,3 +34,12 @@ body {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 3px;
 }
+
+/* ECG waveform infinite scroll animation */
+@keyframes ecgScroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.ecg-scroll {
+  animation: ecgScroll 4s linear infinite;
+}

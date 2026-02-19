@@ -2,12 +2,14 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import EcgWaveform from "@/components/EcgWaveform";
+import { type EcgRhythmType } from "@/lib/ecg-rhythms";
 
 interface ProfileData {
   name: string;
   email: string;
   pseudonym: string | null;
-  avatarUrl: string;
+  rhythm: { type: EcgRhythmType; label: string; color: string; description: string };
   university: string | null;
   enrollmentStatus: string;
   memberSince: string;
@@ -42,14 +44,25 @@ export default function ProfilePage() {
 
   useEffect(() => {
     fetch("/api/profile")
-      .then((res) => res.json())
-      .then((d) => setProfile(d))
+      .then((res) => {
+        if (res.status === 401) { window.location.href = "/login"; return null; }
+        return res.json();
+      })
+      .then((d) => { if (d) setProfile(d); })
       .catch(console.error)
       .finally(() => setLoading(false));
   }, []);
 
   const handleLogout = async () => {
-    window.location.href = "/api/auth/signout";
+    // POST to signout then redirect to login (avoid loop)
+    const res = await fetch("/api/auth/csrf");
+    const { csrfToken } = await res.json();
+    await fetch("/api/auth/signout", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: `csrfToken=${csrfToken}`,
+    });
+    window.location.href = "/login";
   };
 
   if (loading) {
@@ -80,17 +93,13 @@ export default function ProfilePage() {
 
   return (
     <div className="px-4 py-6 space-y-5 pb-24">
-      {/* Avatar & Name */}
+      {/* ECG Rhythm & Name */}
       <div className="text-center">
-        <Link href="/profile/avatar" className="inline-block relative group">
-          <div className="w-20 h-20 mx-auto bg-white/10 rounded-full flex items-center justify-center overflow-hidden p-2">
-            <img
-              src={profile.avatarUrl}
-              alt="Avatar"
-              className="w-full h-full"
-            />
+        <Link href="/profile/rhythm" className="inline-block group">
+          <div className="mx-auto bg-white/5 border border-white/10 rounded-2xl p-3 group-hover:border-white/20 transition-all">
+            <EcgWaveform rhythm={profile.rhythm.type} size="md" showLabel />
           </div>
-          <span className="absolute bottom-0 right-0 w-6 h-6 bg-white/20 rounded-full flex items-center justify-center text-xs border border-white/30 group-hover:bg-white/30">✏️</span>
+          <p className="text-[10px] text-gray-500 mt-1">Toca para ver todos los ritmos</p>
         </Link>
         <h2 className="text-xl font-bold mt-3">{profile.name}</h2>
         {profile.pseudonym && (

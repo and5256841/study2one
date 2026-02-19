@@ -43,3 +43,12 @@ next-env.d.ts
 
 # photo uploads
 /uploads
+
+# TTS content source files
+/CUADERNILLOS*/
+
+# Claude Code local config
+.claude/
+
+# Windows artifacts
+nul

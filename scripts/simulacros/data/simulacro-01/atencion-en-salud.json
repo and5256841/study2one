@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "En Colombia, el Sistema General de Seguridad Social en Salud (SGSSS) fue creado por la Ley 100 de 1993 y reformado posteriormente por las leyes 1122 de 2007, 1438 de 2011 y 1751 de 2015.\n\n(Redacción Study2One, con referencia a la normativa colombiana)",
+    "questionText": "¿Cuál fue el principal aporte de la Ley 1751 de 2015 al sistema de salud colombiano?",
+    "explanation": "La Ley 1751 de 2015 (Ley Estatutaria de Salud) elevó la salud a la categoría de derecho fundamental autónomo, lo que significa que ya no se necesita conexidad con el derecho a la vida para protegerlo mediante tutela. Además, estableció los principios de disponibilidad, aceptabilidad, accesibilidad y calidad.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Creó las EPS como administradoras del sistema de salud.", "isCorrect": false },
+      { "letter": "B", "text": "Reconoció la salud como un derecho fundamental autónomo.", "isCorrect": true },
+      { "letter": "C", "text": "Estableció el régimen contributivo y el subsidiado.", "isCorrect": false },
+      { "letter": "D", "text": "Eliminó completamente el sistema de copagos y cuotas moderadoras.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Un municipio del Amazonas colombiano tiene las siguientes características: es de difícil acceso (solo se llega por vía fluvial), su población es mayoritariamente indígena, tiene un puesto de salud con un auxiliar de enfermería y un promotor de salud, y el hospital más cercano está a 8 horas en lancha.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál modelo de atención es más apropiado para este contexto?",
+    "explanation": "La Atención Primaria en Salud (APS) con enfoque intercultural y comunitario es el modelo más apropiado para comunidades dispersas, indígenas y de difícil acceso. Prioriza la promoción, prevención y atención básica con recurso humano local (promotores, auxiliares), integra saberes ancestrales y establece redes de referencia para casos que requieran mayor complejidad.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Un hospital de segundo nivel con especialistas permanentes.", "isCorrect": false },
+      { "letter": "B", "text": "APS con enfoque intercultural, comunitario y con red de referencia.", "isCorrect": true },
+      { "letter": "C", "text": "Telemedicina exclusivamente, sin recurso humano presencial.", "isCorrect": false },
+      { "letter": "D", "text": "Trasladar a toda la población a un centro urbano con mejor infraestructura.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "La Resolución 3280 de 2018 adoptó los lineamientos técnicos y operativos de la Ruta Integral de Atención para la Promoción y Mantenimiento de la Salud (RPMS) en Colombia.\n\n(Redacción Study2One, con referencia a la Resolución 3280 de 2018)",
+    "questionText": "¿Cuál es el objetivo principal de la RPMS?",
+    "explanation": "La RPMS busca promover la salud y prevenir la enfermedad a lo largo del curso de vida (desde la gestación hasta la vejez), mediante intervenciones individuales y colectivas. No se limita a atender la enfermedad sino que enfatiza el mantenimiento de la salud. Incluye valoraciones periódicas, tamizajes, vacunación y educación en salud.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Atender exclusivamente las enfermedades crónicas de alta prevalencia.", "isCorrect": false },
+      { "letter": "B", "text": "Promover la salud y prevenir la enfermedad a lo largo del curso de vida.", "isCorrect": true },
+      { "letter": "C", "text": "Regular los precios de los medicamentos en el mercado nacional.", "isCorrect": false },
+      { "letter": "D", "text": "Crear hospitales de alta complejidad en todos los municipios.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Los determinantes sociales de la salud, según el modelo de la OMS (Comisión de Determinantes Sociales, 2008), se clasifican en determinantes estructurales e intermedios.\n\n(Redacción Study2One, basado en el marco de la OMS)",
+    "questionText": "¿Cuál de los siguientes es un determinante estructural de la salud?",
+    "explanation": "Los determinantes estructurales son aquellos que generan estratificación social: el ingreso económico, la educación, la ocupación, el género, la etnia y las políticas públicas. Los determinantes intermedios incluyen las condiciones de vida y trabajo, los comportamientos de salud y los factores psicosociales. La calidad del agua es un determinante intermedio.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La calidad del agua potable en una comunidad.", "isCorrect": false },
+      { "letter": "B", "text": "El nivel de ingreso y la posición socioeconómica.", "isCorrect": true },
+      { "letter": "C", "text": "Los hábitos de alimentación de una persona.", "isCorrect": false },
+      { "letter": "D", "text": "La disponibilidad de camas hospitalarias.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Un municipio presenta los siguientes datos epidemiológicos:\n\n• Tasa de mortalidad infantil: 32 por 1.000 nacidos vivos (promedio nacional: 12)\n• Cobertura de acueducto: 35 % (promedio nacional: 87 %)\n• Escolaridad promedio: 4 años (promedio nacional: 9 años)\n• Cobertura de vacunación en menores de 5 años: 55 % (promedio nacional: 92 %)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué relación se observa entre estos indicadores?",
+    "explanation": "Los datos muestran que un municipio con baja escolaridad, bajo acceso a agua potable y baja cobertura de vacunación tiene una mortalidad infantil casi 3 veces superior al promedio nacional. Esto ilustra cómo los determinantes sociales (educación, saneamiento, acceso a servicios) impactan directamente en los resultados de salud. No es una relación causal simple sino multifactorial.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "No hay relación entre los indicadores; la mortalidad infantil es un problema exclusivamente genético.", "isCorrect": false },
+      { "letter": "B", "text": "Los determinantes sociales (educación, saneamiento, acceso a vacunación) se asocian directamente con la mortalidad infantil.", "isCorrect": true },
+      { "letter": "C", "text": "La baja cobertura de vacunación es la única causa de la alta mortalidad infantil.", "isCorrect": false },
+      { "letter": "D", "text": "La mortalidad infantil alta se debe exclusivamente a la falta de hospitales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "Un equipo de salud pública debe implementar un programa para reducir la incidencia de enfermedad diarreica aguda (EDA) en niños menores de 5 años en una comunidad rural con deficiente saneamiento básico.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál intervención tendría el mayor impacto a nivel comunitario?",
+    "explanation": "La evidencia muestra que mejorar el acceso a agua potable y saneamiento básico (letrinización, disposición de excretas, manejo de aguas residuales) tiene el mayor impacto en la reducción de EDA a nivel comunitario. Las sales de rehidratación oral tratan la EDA pero no la previenen. Los antibióticos no previenen la diarrea. La educación en lavado de manos es importante pero insuficiente sin infraestructura de saneamiento.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Distribuir sales de rehidratación oral a todas las familias.", "isCorrect": false },
+      { "letter": "B", "text": "Mejorar el acceso a agua potable y saneamiento básico.", "isCorrect": true },
+      { "letter": "C", "text": "Prescribir antibióticos profilácticos a todos los niños.", "isCorrect": false },
+      { "letter": "D", "text": "Construir un hospital pediátrico en la comunidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "En el marco del Plan Decenal de Salud Pública (PDSP) de Colombia 2022-2031, se establecen dimensiones prioritarias de acuerdo con el perfil epidemiológico del país.\n\n(Redacción Study2One, con referencia al PDSP)",
+    "questionText": "¿Cuál de las siguientes es una dimensión prioritaria del PDSP?",
+    "explanation": "El PDSP incluye dimensiones como: vida saludable y condiciones no transmisibles, convivencia social y salud mental, seguridad alimentaria y nutricional, sexualidad y derechos sexuales y reproductivos, vida saludable y enfermedades transmisibles, salud pública en emergencias y desastres, salud ambiental, salud y ámbito laboral, entre otras.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Desarrollo de infraestructura hospitalaria exclusivamente.", "isCorrect": false },
+      { "letter": "B", "text": "Convivencia social y salud mental.", "isCorrect": true },
+      { "letter": "C", "text": "Regulación del mercado farmacéutico internacional.", "isCorrect": false },
+      { "letter": "D", "text": "Formación de médicos especialistas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "El Análisis de Situación de Salud (ASIS) es una herramienta metodológica que permite a las entidades territoriales identificar las condiciones de salud de su población y los factores que las determinan.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la utilidad principal del ASIS para la toma de decisiones en salud pública?",
+    "explanation": "El ASIS permite identificar los problemas de salud prioritarios, sus determinantes y las poblaciones más afectadas. Esta información es fundamental para la planificación, priorización y asignación de recursos en salud pública. Sin un ASIS adecuado, las intervenciones pueden no responder a las necesidades reales de la población.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Establecer los precios de los servicios de salud.", "isCorrect": false },
+      { "letter": "B", "text": "Identificar problemas prioritarios y orientar la asignación de recursos.", "isCorrect": true },
+      { "letter": "C", "text": "Evaluar el desempeño individual de los profesionales de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Calcular las ganancias financieras de las EPS.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Una EPS reporta los siguientes indicadores de gestión del riesgo en su población afiliada:\n\n| Indicador | Resultado | Meta |\n|-----------|-----------|------|\n| Cobertura de control prenatal (≥ 4 controles) | 68 % | 95 % |\n| Cobertura de vacunación PAI en < 1 año | 78 % | 95 % |\n| Detección temprana de cáncer de cuello uterino | 45 % | 80 % |\n| Control de hipertensión arterial | 52 % | 70 % |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál indicador muestra la mayor brecha respecto a la meta?",
+    "explanation": "Las brechas son: Control prenatal: 95−68 = 27 puntos porcentuales. Vacunación: 95−78 = 17. Cáncer de cuello: 80−45 = 35. Hipertensión: 70−52 = 18. La detección temprana de cáncer de cuello uterino tiene la mayor brecha (35 puntos porcentuales) y requiere acción prioritaria.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Cobertura de control prenatal.", "isCorrect": false },
+      { "letter": "B", "text": "Cobertura de vacunación.", "isCorrect": false },
+      { "letter": "C", "text": "Detección temprana de cáncer de cuello uterino.", "isCorrect": true },
+      { "letter": "D", "text": "Control de hipertensión arterial.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Los niveles de complejidad del sistema de salud colombiano organizan la atención desde el nivel primario hasta el de alta complejidad.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál de las siguientes actividades corresponde al primer nivel de atención?",
+    "explanation": "El primer nivel de atención (baja complejidad) incluye: consulta médica general, control de crecimiento y desarrollo, control prenatal, vacunación, planificación familiar, atención del parto de bajo riesgo, manejo de enfermedades comunes y actividades de promoción y prevención. Las cirugías cardiovasculares y las UCI corresponden al tercer nivel.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Cirugía cardiovascular y trasplante de órganos.", "isCorrect": false },
+      { "letter": "B", "text": "Control de crecimiento y desarrollo, vacunación y consulta médica general.", "isCorrect": true },
+      { "letter": "C", "text": "Atención en unidad de cuidados intensivos neonatal.", "isCorrect": false },
+      { "letter": "D", "text": "Quimioterapia y radioterapia oncológica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "Un estudio ecológico compara las tasas de mortalidad por enfermedad cardiovascular (ECV) en los 32 departamentos de Colombia y las relaciona con variables como: ingreso per cápita, porcentaje de población urbana, cobertura de aseguramiento en salud y prevalencia de tabaquismo.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la principal limitación de un estudio ecológico como este?",
+    "explanation": "La falacia ecológica es la principal limitación de los estudios ecológicos: se analizan datos a nivel de grupo (departamento) pero no se pueden hacer inferencias sobre individuos. Que un departamento con alta prevalencia de tabaquismo tenga alta mortalidad por ECV no demuestra que sean los fumadores quienes mueren por ECV. Para eso se necesitan estudios con datos individuales.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "No puede establecer relaciones entre variables.", "isCorrect": false },
+      { "letter": "B", "text": "Las asociaciones encontradas a nivel grupal no se pueden extrapolar a individuos (falacia ecológica).", "isCorrect": true },
+      { "letter": "C", "text": "Solo puede estudiar enfermedades infecciosas, no crónicas.", "isCorrect": false },
+      { "letter": "D", "text": "Requiere un seguimiento de al menos 10 años.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "En Colombia, el Programa Ampliado de Inmunizaciones (PAI) establece el esquema de vacunación gratuito para toda la población.\n\n(Redacción Study2One, con referencia al PAI colombiano)",
+    "questionText": "¿Cuál vacuna se aplica al recién nacido en las primeras 12 horas de vida según el PAI colombiano?",
+    "explanation": "Según el esquema del PAI, al recién nacido se le aplican: BCG (tuberculosis) y la primera dosis de hepatitis B en las primeras 12 horas de vida. La pentavalente (DPT+HB+Hib) se inicia a los 2 meses. La triple viral se aplica al año. La fiebre amarilla se aplica a los 18 meses.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Triple viral (SRP).", "isCorrect": false },
+      { "letter": "B", "text": "BCG y hepatitis B.", "isCorrect": true },
+      { "letter": "C", "text": "Pentavalente.", "isCorrect": false },
+      { "letter": "D", "text": "Fiebre amarilla.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Una comunidad rural del Cauca presenta un brote de enfermedad diarreica aguda con 45 casos en una semana, cuando el promedio histórico es de 5 casos semanales. La investigación epidemiológica de campo identifica que todos los afectados consumen agua de un mismo acueducto veredal.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál medida de control inmediata es prioritaria?",
+    "explanation": "Ante un brote de EDA asociado a una fuente de agua específica, la medida inmediata más importante es intervenir la fuente: clorar/desinfectar el agua o suspender su uso y proveer agua segura alternativa. Las demás medidas (tratamiento de enfermos, educación, notificación) son importantes pero no controlan la fuente de transmisión.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Cerrar el centro de salud para desinfección.", "isCorrect": false },
+      { "letter": "B", "text": "Desinfectar la fuente de agua y proveer agua segura a la comunidad.", "isCorrect": true },
+      { "letter": "C", "text": "Trasladar a todos los enfermos al hospital departamental.", "isCorrect": false },
+      { "letter": "D", "text": "Realizar campañas educativas sobre higiene durante 3 meses.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "El sistema de vigilancia epidemiológica en Colombia (SIVIGILA) requiere la notificación obligatoria de ciertos eventos de interés en salud pública.\n\n(Redacción Study2One, con referencia al SIVIGILA)",
+    "questionText": "¿Cuál de los siguientes eventos requiere notificación inmediata (dentro de las primeras 24 horas)?",
+    "explanation": "Los eventos de notificación inmediata (INS/SIVIGILA) incluyen: meningitis bacteriana, parálisis flácida aguda, sarampión, rubéola, difteria, cólera, rabia humana, tos ferina en menores de un año, mortalidad materna, mortalidad perinatal y eventos de importancia internacional. La hipertensión arterial y la diabetes son de notificación pero no inmediata.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Hipertensión arterial diagnosticada en un adulto.", "isCorrect": false },
+      { "letter": "B", "text": "Un caso sospechoso de sarampión.", "isCorrect": true },
+      { "letter": "C", "text": "Diabetes mellitus tipo 2 de nuevo diagnóstico.", "isCorrect": false },
+      { "letter": "D", "text": "Una fractura de cadera en un adulto mayor.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "En el marco de la Política de Atención Integral en Salud (PAIS), las Rutas Integrales de Atención en Salud (RIAS) organizan las intervenciones de forma articulada.\n\n(Redacción Study2One, con referencia a la PAIS)",
+    "questionText": "¿Cuáles son los tres tipos de RIAS definidos por la PAIS?",
+    "explanation": "La PAIS define tres tipos de RIAS: 1) Ruta de Promoción y Mantenimiento de la Salud (RPMS), 2) Rutas de Grupo de Riesgo (para poblaciones con riesgo específico), y 3) Rutas de Eventos Específicos (para condiciones clínicas concretas como materno-perinatal, cardiovascular, etc.).",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Ruta hospitalaria, ruta ambulatoria y ruta de urgencias.", "isCorrect": false },
+      { "letter": "B", "text": "Ruta de promoción y mantenimiento, rutas de grupo de riesgo y rutas de eventos específicos.", "isCorrect": true },
+      { "letter": "C", "text": "Ruta contributiva, ruta subsidiada y ruta especial.", "isCorrect": false },
+      { "letter": "D", "text": "Ruta primaria, ruta secundaria y ruta terciaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Un análisis de mortalidad en un municipio colombiano revela que las principales causas de muerte son:\n\n1. Enfermedades isquémicas del corazón\n2. Enfermedades cerebrovasculares\n3. Diabetes mellitus\n4. Enfermedad pulmonar obstructiva crónica\n5. Homicidios\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Este perfil de mortalidad refleja:",
+    "explanation": "Las 4 primeras causas son enfermedades crónicas no transmisibles (ECNT), lo cual refleja la transición epidemiológica: el cambio del predominio de enfermedades infecciosas y desnutrición al predominio de ECNT. La presencia de homicidios (causa externa) en el quinto lugar refleja también la carga de violencia, característica de la doble carga epidemiológica de países en desarrollo.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Un perfil típico de país con predominio de enfermedades infecciosas.", "isCorrect": false },
+      { "letter": "B", "text": "Una transición epidemiológica con predominio de enfermedades crónicas no transmisibles y violencia.", "isCorrect": true },
+      { "letter": "C", "text": "Un municipio con excelentes indicadores de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Un perfil exclusivo de países de altos ingresos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "La estrategia AIEPI (Atención Integrada a las Enfermedades Prevalentes de la Infancia) es una herramienta desarrollada por la OMS y UNICEF para mejorar la atención de la salud infantil.\n\n(Redacción Study2One, con referencia a AIEPI-OMS/UNICEF)",
+    "questionText": "¿Cuál es el enfoque principal de la estrategia AIEPI?",
+    "explanation": "AIEPI integra la evaluación, clasificación y tratamiento de las enfermedades más frecuentes en menores de 5 años (diarrea, neumonía, malaria, desnutrición, sarampión) en un solo proceso sistematizado. Busca que el personal de primer nivel pueda manejar de forma integral las principales causas de morbimortalidad infantil, no solo enfermedades individuales aisladas.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Diagnosticar y tratar exclusivamente neumonía en niños hospitalizados.", "isCorrect": false },
+      { "letter": "B", "text": "Evaluar, clasificar y tratar de forma integral las enfermedades más comunes en menores de 5 años.", "isCorrect": true },
+      { "letter": "C", "text": "Vacunar a todos los niños contra todas las enfermedades conocidas.", "isCorrect": false },
+      { "letter": "D", "text": "Realizar cirugías pediátricas de alta complejidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Un estudio retrospectivo en un hospital colombiano analiza los reingresos hospitalarios a 30 días en pacientes con insuficiencia cardíaca. Los resultados muestran que el 35 % de los pacientes reingresa dentro del primer mes después del alta.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál indicador de calidad de la atención refleja esta tasa de reingreso?",
+    "explanation": "La tasa de reingreso hospitalario es un indicador de RESULTADO que evalúa la efectividad de la atención. Un reingreso alto sugiere problemas en la calidad del tratamiento, la educación al paciente al alta, o la coordinación con la atención ambulatoria. No es un indicador de estructura (infraestructura/recursos) ni de proceso (cumplimiento de protocolos durante la hospitalización).",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Indicador de estructura (recursos físicos del hospital).", "isCorrect": false },
+      { "letter": "B", "text": "Indicador de resultado (efectividad de la atención y del seguimiento post-alta).", "isCorrect": true },
+      { "letter": "C", "text": "Indicador de proceso (cumplimiento de guías clínicas durante la hospitalización).", "isCorrect": false },
+      { "letter": "D", "text": "Indicador financiero (costo-efectividad del tratamiento).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "La OMS define los sistemas de salud mediante seis bloques constitutivos: prestación de servicios, personal sanitario, sistemas de información, acceso a medicamentos esenciales, financiamiento y liderazgo/gobernanza.\n\n(Redacción Study2One, basado en el marco de la OMS)",
+    "questionText": "Si un país tiene hospitales bien equipados pero carece de personal de salud capacitado, ¿qué bloque constitutivo está fallando?",
+    "explanation": "El bloque de «personal sanitario» (workforce) se refiere a la disponibilidad, distribución, competencia y productividad de los profesionales de salud. Tener infraestructura (prestación de servicios) sin personal capacitado ilustra la insuficiencia de este bloque. Los sistemas de información y el financiamiento son bloques diferentes.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Prestación de servicios.", "isCorrect": false },
+      { "letter": "B", "text": "Personal sanitario.", "isCorrect": true },
+      { "letter": "C", "text": "Sistemas de información.", "isCorrect": false },
+      { "letter": "D", "text": "Financiamiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "En un municipio colombiano, un equipo de salud pública realiza un mapeo de actores para la implementación de un programa de seguridad alimentaria. Identifican: alcaldía, hospital local, secretaría de educación, ICBF, asociación de agricultores, líderes comunitarios, iglesias y ONG internacionales.\n\n(Redacción Study2One)",
+    "questionText": "Este mapeo de actores es fundamental porque:",
+    "explanation": "La seguridad alimentaria depende de múltiples sectores: agricultura (producción), educación (hábitos), salud (vigilancia nutricional), gobierno (políticas), comunidad (participación). El mapeo de actores permite identificar quiénes pueden contribuir, evitar duplicación de esfuerzos y articular intervenciones intersectoriales. Sin este mapeo, las intervenciones pueden ser fragmentadas e ineficientes.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "La seguridad alimentaria es responsabilidad exclusiva del sector salud.", "isCorrect": false },
+      { "letter": "B", "text": "Permite articular intervenciones intersectoriales y optimizar recursos.", "isCorrect": true },
+      { "letter": "C", "text": "Es un requisito legal pero no tiene utilidad práctica.", "isCorrect": false },
+      { "letter": "D", "text": "Solo sirve para identificar fuentes de financiamiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "La tasa de incidencia y la tasa de prevalencia son dos medidas fundamentales en epidemiología descriptiva.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la diferencia fundamental entre incidencia y prevalencia?",
+    "explanation": "La incidencia mide la aparición de casos nuevos en un periodo de tiempo (velocidad de aparición de la enfermedad). La prevalencia mide la proporción de casos existentes (nuevos + antiguos) en un momento dado (carga de la enfermedad). Una enfermedad con alta incidencia pero baja letalidad tendrá alta prevalencia. Una enfermedad con alta incidencia y alta letalidad puede tener baja prevalencia.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "La incidencia mide casos nuevos; la prevalencia mide todos los casos existentes en un momento dado.", "isCorrect": true },
+      { "letter": "B", "text": "La incidencia mide la gravedad; la prevalencia mide la frecuencia.", "isCorrect": false },
+      { "letter": "C", "text": "Ambas miden lo mismo pero en diferentes poblaciones.", "isCorrect": false },
+      { "letter": "D", "text": "La incidencia solo aplica a enfermedades infecciosas; la prevalencia a crónicas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Un programa de tamizaje para cáncer de mama mediante mamografía se implementa en mujeres de 50 a 69 años en un departamento colombiano. Después de 3 años, se observa que la tasa de detección de cáncer en estadios tempranos (I y II) aumentó del 35 % al 65 %.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la principal ventaja de detectar el cáncer en estadios tempranos?",
+    "explanation": "La detección en estadios tempranos permite tratamientos menos agresivos, con mayor probabilidad de curación y mejor supervivencia. El cáncer de mama en estadio I tiene una supervivencia a 5 años superior al 95%, mientras que en estadio IV es inferior al 25%. Además, los tratamientos en estadios tempranos son generalmente menos costosos y tienen menos efectos secundarios.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Permite eliminar completamente el cáncer de la población.", "isCorrect": false },
+      { "letter": "B", "text": "Aumenta la probabilidad de tratamiento exitoso y supervivencia.", "isCorrect": true },
+      { "letter": "C", "text": "Reduce los costos de las mamografías.", "isCorrect": false },
+      { "letter": "D", "text": "Elimina la necesidad de seguimiento posterior.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "En Colombia, los EAPB (Entidades Administradoras de Planes de Beneficios) tienen la responsabilidad de gestionar el riesgo en salud de su población afiliada.\n\n(Redacción Study2One)",
+    "questionText": "¿Qué significa «gestión del riesgo en salud» en el contexto del SGSSS colombiano?",
+    "explanation": "La gestión del riesgo en salud implica un conjunto de acciones coordinadas para identificar, evaluar y mitigar los riesgos de enfermar o morir en la población afiliada. Incluye: caracterización de la población, identificación de grupos de riesgo, implementación de programas de promoción y prevención, y seguimiento de enfermedades crónicas. No es solo tramitar autorizaciones ni construir hospitales.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Tramitar autorizaciones para procedimientos médicos.", "isCorrect": false },
+      { "letter": "B", "text": "Identificar, evaluar y mitigar los riesgos de enfermar en la población mediante intervenciones de promoción, prevención y atención.", "isCorrect": true },
+      { "letter": "C", "text": "Calcular las primas de aseguramiento.", "isCorrect": false },
+      { "letter": "D", "text": "Construir hospitales en zonas de alta demanda.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Una investigación sobre el acceso a servicios de salud en una ciudad colombiana encuentra que los tiempos de espera para consulta con especialista son:\n\n• Régimen contributivo: promedio 18 días\n• Régimen subsidiado: promedio 45 días\n• Medicina prepagada: promedio 5 días\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Estos datos evidencian principalmente:",
+    "explanation": "A pesar de la unificación del plan de beneficios, existen inequidades en el acceso efectivo a los servicios. Los tiempos de espera diferentes según el tipo de aseguramiento muestran que tener derecho formal a los servicios no garantiza acceso oportuno. Esta inequidad en la oportunidad de atención es un problema de equidad en salud.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Que el sistema de salud colombiano funciona perfectamente para todos.", "isCorrect": false },
+      { "letter": "B", "text": "Inequidades en el acceso oportuno a servicios según el tipo de aseguramiento.", "isCorrect": true },
+      { "letter": "C", "text": "Que el régimen subsidiado tiene mejores servicios.", "isCorrect": false },
+      { "letter": "D", "text": "Que los especialistas prefieren atender pacientes de prepagada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "La mortalidad materna es un indicador clave del desarrollo de un país y de la calidad de su sistema de salud.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál de las siguientes intervenciones tiene el mayor impacto en la reducción de la mortalidad materna?",
+    "explanation": "La evidencia global muestra que la atención calificada del parto por profesional capacitado (partero, enfermera obstetriz o médico) con capacidad de referencia a atención obstétrica de emergencia (cesárea, transfusiones) es la intervención con mayor impacto. Los controles prenatales son importantes pero insuficientes sin atención calificada del parto y acceso a emergencias obstétricas.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Aumentar el número de controles prenatales a 12 por embarazo.", "isCorrect": false },
+      { "letter": "B", "text": "Garantizar atención calificada del parto con acceso a atención obstétrica de emergencia.", "isCorrect": true },
+      { "letter": "C", "text": "Distribuir suplementos de ácido fólico a todas las mujeres en edad fértil.", "isCorrect": false },
+      { "letter": "D", "text": "Realizar cesáreas a todas las gestantes como medida preventiva.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Un estudio de carga de enfermedad calcula los Años de Vida Ajustados por Discapacidad (AVAD o DALY) para diferentes condiciones en Colombia:\n\n| Condición | AVAD por 100.000 habitantes |\n|-----------|----------------------------|\n| Violencia interpersonal | 2.800 |\n| Cardiopatía isquémica | 2.200 |\n| Trastornos depresivos | 1.900 |\n| Diabetes mellitus | 1.500 |\n| Accidentes de tránsito | 1.300 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué información aportan los AVAD que las tasas de mortalidad solas no proporcionan?",
+    "explanation": "Los AVAD (DALY) combinan los años de vida perdidos por muerte prematura (YLL) y los años vividos con discapacidad (YLD). Esto permite capturar la carga de enfermedades que causan discapacidad pero no necesariamente muerte (como la depresión). Las tasas de mortalidad solo capturan muertes, subestimando el impacto de condiciones discapacitantes.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Solo miden la mortalidad de forma más precisa.", "isCorrect": false },
+      { "letter": "B", "text": "Integran la mortalidad prematura y la discapacidad, permitiendo medir la carga total de enfermedad.", "isCorrect": true },
+      { "letter": "C", "text": "Calculan el costo económico de cada enfermedad.", "isCorrect": false },
+      { "letter": "D", "text": "Miden la satisfacción de los pacientes con el tratamiento recibido.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "La Política de Seguridad del Paciente en Colombia busca reducir los eventos adversos en la atención en salud.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál de los siguientes es un ejemplo de evento adverso prevenible?",
+    "explanation": "Un evento adverso prevenible es aquel que pudo haberse evitado con las medidas adecuadas. Administrar un medicamento al paciente equivocado es un error de identificación que se previene con protocolos de verificación (pulsera de identificación, doble chequeo). Una reacción adversa inesperada a un medicamento nuevo NO es prevenible. La muerte por enfermedad terminal NO es un evento adverso.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Una reacción alérgica a un medicamento que el paciente nunca había tomado.", "isCorrect": false },
+      { "letter": "B", "text": "Administrar un medicamento al paciente equivocado por no verificar la identidad.", "isCorrect": true },
+      { "letter": "C", "text": "La muerte de un paciente con cáncer terminal a pesar de los cuidados paliativos.", "isCorrect": false },
+      { "letter": "D", "text": "Una complicación quirúrgica imprevisible durante un procedimiento de rutina.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "En un estudio sobre barreras de acceso a la atención en salud en población migrante venezolana en Colombia, se identifican: falta de documentación, desconocimiento del sistema de salud, barrera idiomática (dialectos), discriminación en los servicios, falta de afiliación al sistema y miedo a la deportación.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde el enfoque de determinantes, estas barreras corresponden principalmente a:",
+    "explanation": "Las barreras identificadas son de diversa naturaleza: administrativas (documentación, afiliación), culturales (idioma, discriminación), informativas (desconocimiento) y legales (estatus migratorio). Todas reflejan factores del contexto sociopolítico que condicionan el acceso — determinantes estructurales e intermedios que no dependen de la biología ni del comportamiento individual del migrante.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Determinantes biológicos y genéticos.", "isCorrect": false },
+      { "letter": "B", "text": "Determinantes estructurales e intermedios del acceso (administrativos, culturales, legales).", "isCorrect": true },
+      { "letter": "C", "text": "Determinantes exclusivamente individuales (estilo de vida).", "isCorrect": false },
+      { "letter": "D", "text": "Factores exclusivamente económicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "La estrategia de Atención Primaria en Salud (APS) se renovó en la Declaración de Astaná (2018), reafirmando los principios de Alma-Ata (1978).\n\n(Redacción Study2One, con referencia a la Declaración de Astaná 2018)",
+    "questionText": "¿Cuál de los siguientes NO es un principio fundamental de la APS renovada?",
+    "explanation": "La APS renovada reafirma: universalidad, equidad, participación comunitaria, acción intersectorial, uso de tecnología apropiada y enfoque en las personas y comunidades. La centralización de toda la atención en hospitales de tercer nivel contradice el espíritu de la APS, que busca resolver la mayoría de los problemas de salud en el primer nivel, cerca de la comunidad.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Participación comunitaria y empoderamiento.", "isCorrect": false },
+      { "letter": "B", "text": "Equidad y cobertura universal.", "isCorrect": false },
+      { "letter": "C", "text": "Centralización de toda la atención en hospitales de tercer nivel.", "isCorrect": true },
+      { "letter": "D", "text": "Acción intersectorial para abordar los determinantes de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Un indicador de salud muestra que la razón de mortalidad materna en un departamento es de 120 por 100.000 nacidos vivos, mientras que el promedio nacional es de 50 por 100.000.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Esta cifra indica que:",
+    "explanation": "Una razón de mortalidad materna de 120/100.000 NV (2,4 veces el promedio nacional) indica una situación crítica que refleja deficiencias en el acceso y calidad de la atención obstétrica: control prenatal inadecuado, falta de atención calificada del parto, insuficiente acceso a atención obstétrica de emergencia, y probablemente determinantes sociales adversos.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "El departamento tiene un sistema de salud excelente porque reporta más datos.", "isCorrect": false },
+      { "letter": "B", "text": "Hay deficiencias graves en la atención materno-perinatal que requieren intervención urgente.", "isCorrect": true },
+      { "letter": "C", "text": "La mortalidad materna no es un problema porque 120 es un número pequeño.", "isCorrect": false },
+      { "letter": "D", "text": "Solo indica que hay más nacimientos en ese departamento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "En un análisis de las causas de morbilidad en menores de 5 años en un municipio colombiano, se encuentra:\n\n1. Infección respiratoria aguda (IRA): 35 %\n2. Enfermedad diarreica aguda (EDA): 25 %\n3. Desnutrición: 15 %\n4. Enfermedades de la piel: 12 %\n5. Otras: 13 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Si usted fuera el director de salud del municipio, ¿cuál sería la intervención más costo-efectiva?",
+    "explanation": "Las tres primeras causas (IRA, EDA, desnutrición) representan el 75% de la morbilidad y tienen determinantes comunes: condiciones de vivienda, saneamiento, nutrición y acceso a servicios. La estrategia AIEPI (Atención Integrada a las Enfermedades Prevalentes de la Infancia) aborda estas condiciones de forma integrada. Complementar con mejoras en agua y saneamiento, nutrición y vacunación maximiza el impacto.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Construir un hospital pediátrico de tercer nivel.", "isCorrect": false },
+      { "letter": "B", "text": "Implementar AIEPI más mejoras en agua/saneamiento y nutrición.", "isCorrect": true },
+      { "letter": "C", "text": "Contratar un dermatólogo para atender las enfermedades de la piel.", "isCorrect": false },
+      { "letter": "D", "text": "Comprar ambulancias para trasladar niños enfermos al hospital departamental.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "La cuenta de alto costo (CAC) en Colombia es un organismo que gestiona información sobre enfermedades de alto costo como: VIH/SIDA, enfermedad renal crónica, cáncer y hemofilia.\n\n(Redacción Study2One, con referencia a la CAC)",
+    "questionText": "¿Cuál es la importancia de la cuenta de alto costo para el sistema de salud?",
+    "explanation": "La CAC permite: 1) Identificar y cuantificar los pacientes con enfermedades de alto costo; 2) Monitorear indicadores de gestión clínica; 3) Redistribuir recursos entre aseguradores según la carga de enfermedad de alto costo de su población (mecanismo de ajuste de riesgo). Esto evita que las EPS con más pacientes de alto costo se vean financieramente penalizadas.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Permite redistribuir recursos según la carga de enfermedad y monitorear la gestión clínica.", "isCorrect": true },
+      { "letter": "B", "text": "Solo sirve para negar servicios a pacientes con enfermedades costosas.", "isCorrect": false },
+      { "letter": "C", "text": "Determina qué enfermedades serán cubiertas por el sistema de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Es un organismo de control disciplinario de los médicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "La Conferencia de Ottawa de 1986 definió la promoción de la salud como el proceso de capacitar a las personas para que aumenten el control sobre su salud y la mejoren.\n\n(Redacción Study2One, con referencia a la Carta de Ottawa 1986)",
+    "questionText": "Según la Carta de Ottawa, ¿cuáles son las áreas de acción para la promoción de la salud?",
+    "explanation": "La Carta de Ottawa define 5 áreas de acción: 1) Elaborar políticas públicas saludables, 2) Crear entornos que apoyen la salud, 3) Fortalecer la acción comunitaria, 4) Desarrollar aptitudes personales, 5) Reorientar los servicios de salud. Estas áreas van más allá de la educación individual e incluyen acciones sobre el entorno y las políticas.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Solo educación individual sobre hábitos saludables.", "isCorrect": false },
+      { "letter": "B", "text": "Políticas públicas saludables, entornos favorables, acción comunitaria, aptitudes personales y reorientación de servicios.", "isCorrect": true },
+      { "letter": "C", "text": "Construcción de hospitales, compra de equipos y contratación de personal.", "isCorrect": false },
+      { "letter": "D", "text": "Vacunación masiva y control de vectores exclusivamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Un equipo de investigación en salud pública desea evaluar la efectividad de un programa de educación en diabetes en pacientes diagnosticados hace menos de un año. Seleccionan 100 pacientes que participaron en el programa y 100 que no participaron, y comparan los niveles de HbA1c a los 6 meses.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué tipo de estudio es este?",
+    "explanation": "Es un estudio de cohorte prospectivo (o estudio cuasiexperimental) donde se comparan dos grupos (expuestos vs. no expuestos a la intervención) y se mide un resultado (HbA1c) en un tiempo futuro definido. No es un ensayo clínico aleatorizado porque los participantes no fueron asignados al azar. No es transversal porque mide el resultado en el futuro. No es un estudio de casos y controles porque no parte de un resultado para buscar exposición.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Ensayo clínico aleatorizado.", "isCorrect": false },
+      { "letter": "B", "text": "Estudio de cohorte (o cuasiexperimental).", "isCorrect": true },
+      { "letter": "C", "text": "Estudio transversal.", "isCorrect": false },
+      { "letter": "D", "text": "Estudio de casos y controles.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "Una comunidad de la costa Pacífica colombiana sufre inundaciones frecuentes. Después de la última inundación, aumentaron los casos de leptospirosis, dengue e infecciones de la piel. El puesto de salud quedó parcialmente destruido.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál componente del sistema de salud se activa para responder a esta situación?",
+    "explanation": "La gestión del riesgo de desastres y la respuesta a emergencias en salud pública se activan mediante los Centros Reguladores de Urgencias y Emergencias (CRUE) y el Plan de Contingencia del sector salud. La respuesta incluye: atención de víctimas, vigilancia epidemiológica intensificada, control vectorial, provisión de agua segura y rehabilitación de la infraestructura de salud.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "El programa de enfermedades crónicas.", "isCorrect": false },
+      { "letter": "B", "text": "El plan de gestión del riesgo de desastres y emergencias en salud pública.", "isCorrect": true },
+      { "letter": "C", "text": "El programa de salud ocupacional.", "isCorrect": false },
+      { "letter": "D", "text": "El plan de incentivos para profesionales de salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "En Colombia, la habilitación de servicios de salud es un requisito obligatorio para todas las instituciones prestadoras de servicios de salud (IPS).\n\n(Redacción Study2One)",
+    "questionText": "¿Qué verifica el proceso de habilitación?",
+    "explanation": "La habilitación verifica el cumplimiento de estándares mínimos de calidad que una IPS debe tener para funcionar: talento humano idóneo, infraestructura física adecuada, dotación de equipos, medicamentos e insumos, procesos prioritarios documentados, y condiciones de bioseguridad. No evalúa la satisfacción del usuario ni la rentabilidad financiera.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "La rentabilidad financiera de la institución.", "isCorrect": false },
+      { "letter": "B", "text": "El cumplimiento de condiciones mínimas de capacidad tecnológica, científica, patrimonial y de talento humano.", "isCorrect": true },
+      { "letter": "C", "text": "La satisfacción de los usuarios con los servicios recibidos.", "isCorrect": false },
+      { "letter": "D", "text": "La cantidad de especialistas contratados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": "Un análisis comparativo entre dos municipios colombianos de tamaño similar muestra:\n\n| Indicador | Municipio A | Municipio B |\n|-----------|------------|------------|\n| Gasto en salud per cápita | $800.000 | $500.000 |\n| Cobertura de vacunación | 70 % | 92 % |\n| Tasa de mortalidad infantil | 22 | 10 |\n| Satisfacción del usuario | 55 % | 82 % |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué conclusión principal se puede derivar de esta comparación?",
+    "explanation": "El municipio B gasta menos pero obtiene mejores resultados en todos los indicadores. Esto demuestra que mayor gasto no garantiza mejores resultados. La eficiencia en la asignación de recursos, la gestión adecuada y la priorización de intervenciones de alto impacto son más determinantes que el monto absoluto del gasto.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "El municipio A tiene un sistema de salud superior porque gasta más.", "isCorrect": false },
+      { "letter": "B", "text": "Mayor gasto en salud no necesariamente se traduce en mejores indicadores; la eficiencia en la asignación es crucial.", "isCorrect": true },
+      { "letter": "C", "text": "Los datos son incorrectos porque es imposible que B gaste menos y tenga mejores resultados.", "isCorrect": false },
+      { "letter": "D", "text": "Se debe aumentar el presupuesto del municipio A para mejorar sus indicadores.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": "El modelo de salud familiar y comunitaria propone que los equipos de salud realicen visitas domiciliarias, caracterización familiar y seguimiento de familias en riesgo.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la principal ventaja del enfoque de salud familiar sobre el enfoque tradicional centrado en la enfermedad?",
+    "explanation": "El enfoque de salud familiar reconoce que la salud del individuo está condicionada por su contexto familiar y comunitario. Permite identificar determinantes del hogar (hacinamiento, violencia, inseguridad alimentaria), factores de riesgo familiares y necesidades específicas. El enfoque tradicional centrado en la enfermedad solo atiende al individuo que consulta, sin considerar su contexto.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Es más económico porque no requiere profesionales especializados.", "isCorrect": false },
+      { "letter": "B", "text": "Permite comprender la salud del individuo en su contexto familiar y comunitario, identificando determinantes del hogar.", "isCorrect": true },
+      { "letter": "C", "text": "Elimina la necesidad de atención hospitalaria.", "isCorrect": false },
+      { "letter": "D", "text": "Solo funciona en áreas urbanas con alta densidad poblacional.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "La Ley 1122 de 2007 creó la Comisión de Regulación en Salud (CRES), que posteriormente fue reemplazada. Actualmente, la regulación de los servicios de salud recae en el Ministerio de Salud y Protección Social.\n\n(Redacción Study2One, con referencia a la normativa colombiana)",
+    "questionText": "¿Cuál entidad es actualmente responsable de administrar los recursos del aseguramiento en salud (UPC) en Colombia?",
+    "explanation": "La ADRES (Administradora de los Recursos del Sistema General de Seguridad Social en Salud) fue creada por la Ley 1753 de 2015. Es la entidad encargada de administrar los recursos financieros del sistema, incluyendo el giro de la UPC (Unidad de Pago por Capitación) a las EPS, los recobros y los pagos del régimen subsidiado. Reemplazó al FOSYGA.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "El FOSYGA.", "isCorrect": false },
+      { "letter": "B", "text": "La ADRES (Administradora de los Recursos del SGSSS).", "isCorrect": true },
+      { "letter": "C", "text": "La Superintendencia Nacional de Salud.", "isCorrect": false },
+      { "letter": "D", "text": "El Instituto Nacional de Salud (INS).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": "Un programa de control de tuberculosis (TB) en un departamento reporta los siguientes indicadores:\n\n• Tasa de detección de casos: 60 % (meta OMS: > 70 %)\n• Tasa de curación: 72 % (meta OMS: > 85 %)\n• Tasa de abandono de tratamiento: 15 % (meta OMS: < 5 %)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el problema más crítico que se debe abordar prioritariamente?",
+    "explanation": "La alta tasa de abandono (15%, 3 veces la meta) es el problema más crítico porque: 1) Los pacientes que abandonan no se curan y siguen transmitiendo la enfermedad; 2) El tratamiento incompleto favorece la resistencia a los antituberculosos; 3) Afecta la tasa de curación. Las estrategias DOTS (tratamiento directamente observado) y el seguimiento activo de los pacientes que abandonan son prioritarios.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "La baja tasa de detección, porque no se están encontrando todos los casos.", "isCorrect": false },
+      { "letter": "B", "text": "La alta tasa de abandono de tratamiento, porque genera resistencia y perpetúa la transmisión.", "isCorrect": true },
+      { "letter": "C", "text": "La baja tasa de curación, porque los medicamentos podrían estar vencidos.", "isCorrect": false },
+      { "letter": "D", "text": "Todos tienen la misma prioridad y se deben abordar simultáneamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "El enfoque diferencial en salud reconoce que existen poblaciones con características particulares que requieren atención adaptada: pueblos indígenas, comunidades afrocolombianas, población LGBTIQ+, personas con discapacidad, víctimas del conflicto armado, migrantes, entre otras.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el propósito del enfoque diferencial en la atención en salud?",
+    "explanation": "El enfoque diferencial busca que los servicios de salud se adapten a las particularidades culturales, étnicas, de género, etarias y de condición de cada población, para garantizar una atención equitativa y pertinente. No es tratar a todos igual (eso sería igualdad formal), sino reconocer las diferencias para lograr equidad (igualdad material).",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Crear sistemas de salud separados para cada grupo poblacional.", "isCorrect": false },
+      { "letter": "B", "text": "Adaptar los servicios de salud a las particularidades de cada población para garantizar equidad.", "isCorrect": true },
+      { "letter": "C", "text": "Dar prioridad exclusiva a los grupos minoritarios sobre el resto de la población.", "isCorrect": false },
+      { "letter": "D", "text": "Eliminar todas las diferencias culturales para homogenizar la atención.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "En la pirámide de Kaiser Permanente (modelo de estratificación del riesgo), los pacientes con enfermedades crónicas se clasifican en tres niveles según la complejidad de su condición.\n\n(Redacción Study2One, basado en el modelo Kaiser Permanente)",
+    "questionText": "¿Cómo se organiza la atención según este modelo?",
+    "explanation": "La pirámide de Kaiser estratifica: Nivel 1 (base, mayoría): autocuidado apoyado con educación. Nivel 2 (medio): gestión de la enfermedad con equipos multidisciplinarios. Nivel 3 (cúspide, minoría compleja): gestión de casos con coordinación intensiva. Este modelo optimiza los recursos al dar atención intensiva solo a quienes la necesitan.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Todos los pacientes crónicos reciben la misma atención en el hospital.", "isCorrect": false },
+      { "letter": "B", "text": "Base: autocuidado apoyado; medio: gestión de la enfermedad; cúspide: gestión de casos complejos.", "isCorrect": true },
+      { "letter": "C", "text": "Solo los pacientes más graves reciben atención; los demás se autogestionan sin apoyo.", "isCorrect": false },
+      { "letter": "D", "text": "Los pacientes se clasifican solo por edad, sin considerar la complejidad de su enfermedad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "La transición demográfica describe el cambio en la estructura poblacional de los países: de poblaciones jóvenes con alta natalidad y alta mortalidad, a poblaciones envejecidas con baja natalidad y baja mortalidad.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la principal implicación de la transición demográfica para el sistema de salud?",
+    "explanation": "El envejecimiento poblacional aumenta la prevalencia de enfermedades crónicas (cardiovasculares, diabetes, cáncer, demencia), la multimorbilidad y la demanda de servicios de larga duración (cuidados paliativos, rehabilitación). Esto requiere reorientar el sistema de salud hacia la prevención y manejo de enfermedades crónicas, no solo agudas.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Disminuye la demanda de servicios de salud porque la gente vive más.", "isCorrect": false },
+      { "letter": "B", "text": "Aumenta la carga de enfermedades crónicas y la demanda de servicios de larga duración.", "isCorrect": true },
+      { "letter": "C", "text": "Se necesitan más servicios de maternidad y pediatría.", "isCorrect": false },
+      { "letter": "D", "text": "Reduce la necesidad de profesionales de salud especializados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": "Una EPS implementa un programa de gestión de riesgo cardiovascular que incluye: identificación de pacientes hipertensos y diabéticos, consulta médica trimestral, educación en estilos de vida saludables, y dispensación mensual de medicamentos. Después de 2 años, la tasa de hospitalización por crisis hipertensiva disminuyó un 30 %.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Este resultado demuestra que:",
+    "explanation": "La reducción del 30% en hospitalizaciones por crisis hipertensiva después del programa de gestión del riesgo demuestra que la atención ambulatoria proactiva y coordinada (seguimiento, educación, medicamentos) reduce las complicaciones y las hospitalizaciones evitables. Esto beneficia tanto a los pacientes (menos crisis) como al sistema (menos costos hospitalarios).",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Los programas de gestión del riesgo no tienen impacto en la salud de la población.", "isCorrect": false },
+      { "letter": "B", "text": "La atención ambulatoria proactiva reduce hospitalizaciones evitables por enfermedades crónicas.", "isCorrect": true },
+      { "letter": "C", "text": "Las hospitalizaciones disminuyeron porque los pacientes dejaron de consultar.", "isCorrect": false },
+      { "letter": "D", "text": "Solo los medicamentos son responsables de la reducción de hospitalizaciones.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": "La Superintendencia Nacional de Salud es el organismo de inspección, vigilancia y control del sistema de salud en Colombia.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es una función principal de la Superintendencia Nacional de Salud?",
+    "explanation": "La Superintendencia vigila que las entidades del SGSSS (EPS, IPS, entidades territoriales) cumplan con sus obligaciones legales. Tiene funciones jurisdiccionales para resolver conflictos entre usuarios y aseguradores, puede sancionar entidades que incumplan la normativa, y protege los derechos de los usuarios del sistema. No define los planes de beneficios ni fija precios de medicamentos.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Definir el plan de beneficios en salud.", "isCorrect": false },
+      { "letter": "B", "text": "Vigilar, inspeccionar y controlar el cumplimiento de las obligaciones de los actores del sistema.", "isCorrect": true },
+      { "letter": "C", "text": "Prestar directamente servicios de salud a la población.", "isCorrect": false },
+      { "letter": "D", "text": "Fijar los precios de los medicamentos en el mercado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "Un indicador frecuentemente utilizado para medir la equidad en salud es la brecha en esperanza de vida entre los quintiles de ingreso más alto y más bajo de una población.\n\n(Redacción Study2One)",
+    "questionText": "Si la esperanza de vida del quintil más rico es 78 años y la del quintil más pobre es 64 años, ¿qué indica esta brecha de 14 años?",
+    "explanation": "Una brecha de 14 años en esperanza de vida entre el quintil más rico y el más pobre indica una profunda inequidad en salud determinada por el nivel socioeconómico. Significa que las personas pobres viven en promedio 14 años menos, lo cual refleja diferencias en acceso a servicios, nutrición, condiciones de vida, exposición a riesgos y calidad de la atención.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Que las personas ricas tienen mejor genética.", "isCorrect": false },
+      { "letter": "B", "text": "Que existe una inequidad profunda en salud determinada por factores socioeconómicos.", "isCorrect": true },
+      { "letter": "C", "text": "Que las estadísticas son incorrectas.", "isCorrect": false },
+      { "letter": "D", "text": "Que la diferencia es natural e inevitable.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "Un equipo de salud pública planifica una intervención para reducir el embarazo adolescente en un municipio. Realizan un análisis de la situación y encuentran que el 40 % de las adolescentes embarazadas refiere que no usó métodos anticonceptivos porque no sabía dónde obtenerlos gratuitamente.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué tipo de barrera de acceso identifica este hallazgo?",
+    "explanation": "El desconocimiento de dónde obtener los métodos anticonceptivos gratuitos es una barrera de acceso por falta de información. No es una barrera económica (los métodos son gratuitos), ni geográfica (no mencionan distancia), ni cultural (no mencionan rechazo). Mejorar la difusión de la información sobre los servicios de planificación familiar es la intervención clave.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Barrera económica (no pueden pagar los anticonceptivos).", "isCorrect": false },
+      { "letter": "B", "text": "Barrera informativa (desconocimiento de la disponibilidad de servicios gratuitos).", "isCorrect": true },
+      { "letter": "C", "text": "Barrera geográfica (no hay servicios cercanos).", "isCorrect": false },
+      { "letter": "D", "text": "Barrera cultural (rechazo a los anticonceptivos por creencias).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": "En el contexto del Reglamento Sanitario Internacional (RSI 2005), los países tienen la obligación de notificar a la OMS ciertos eventos que puedan constituir una Emergencia de Salud Pública de Importancia Internacional (ESPII).\n\n(Redacción Study2One, con referencia al RSI 2005)",
+    "questionText": "¿Cuál de los siguientes eventos requiere notificación obligatoria a la OMS según el RSI?",
+    "explanation": "El RSI establece que ciertos eventos deben notificarse siempre a la OMS: viruela, poliomielitis por virus salvaje, influenza humana causada por un nuevo subtipo, y SARS. Además, cualquier evento de salud pública que pueda constituir una ESPII debe evaluarse mediante el instrumento de decisión del Anexo 2 del RSI. La hipertensión y la diabetes no son eventos de notificación internacional.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Un caso de hipertensión arterial diagnosticado en un adulto joven.", "isCorrect": false },
+      { "letter": "B", "text": "Un caso de poliomielitis por virus salvaje.", "isCorrect": true },
+      { "letter": "C", "text": "Un brote de gastroenteritis en un restaurante local.", "isCorrect": false },
+      { "letter": "D", "text": "Un aumento en los casos de diabetes tipo 2 en la población.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "Un hospital colombiano implementa un sistema de triaje en urgencias basado en 5 niveles de prioridad.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el propósito principal del triaje en servicios de urgencias?",
+    "explanation": "El triaje clasifica a los pacientes según la gravedad y la urgencia de su condición para determinar el orden de atención. No es para rechazar pacientes ni para diagnosticar. Su objetivo es que los pacientes con mayor riesgo vital reciban atención primero, optimizando los recursos disponibles. Un triaje nivel 1 (resucitación) se atiende inmediatamente; un nivel 5 (no urgente) puede esperar.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Rechazar a los pacientes que no tienen urgencia verdadera.", "isCorrect": false },
+      { "letter": "B", "text": "Clasificar a los pacientes según la gravedad para priorizar la atención.", "isCorrect": true },
+      { "letter": "C", "text": "Diagnosticar a los pacientes antes de que vean al médico.", "isCorrect": false },
+      { "letter": "D", "text": "Asignar a los pacientes al especialista más apropiado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": "La Resolución 2626 de 2019 adoptó la Política Integral de Atención en Salud Mental en Colombia.\n\n(Redacción Study2One, con referencia a la Resolución 2626 de 2019)",
+    "questionText": "¿Cuál es un cambio paradigmático de la política integral de salud mental respecto al modelo anterior?",
+    "explanation": "La política integral de salud mental promueve el paso del modelo asilar (institucionalización en hospitales psiquiátricos) al modelo comunitario (atención en la comunidad con equipos interdisciplinarios, centros de día, viviendas supervisadas). Busca la desinstitucionalización progresiva, la integración social del paciente y la atención basada en derechos humanos.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Construir más hospitales psiquiátricos de internación prolongada.", "isCorrect": false },
+      { "letter": "B", "text": "Transitar del modelo asilar/institucional al modelo comunitario de atención en salud mental.", "isCorrect": true },
+      { "letter": "C", "text": "Eliminar todos los medicamentos psiquiátricos y usar solo terapia.", "isCorrect": false },
+      { "letter": "D", "text": "Transferir toda la responsabilidad de la salud mental a las familias.", "isCorrect": false }
+    ]
+  }
+]

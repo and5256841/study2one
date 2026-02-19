@@ -4,86 +4,190 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Study2One is a learning management system for Colombian medical students preparing for the "Saber Pro Medicina" exam. Built with Next.js 14 (App Router), PostgreSQL/Prisma, and NextAuth for authentication.
+Study2One is a medical exam preparation platform (Saber Pro/TyT) built for Colombian university students. It follows a 125-day program (weekdays only) across 8 modules with daily audio lessons, quizzes, photo uploads, writing practice, and practice exams (simulacros). Three user roles: STUDENT, COORDINATOR, CLIENT. The coordinator panel features animated ECG waveforms as visual health indicators for student performance.
 
-## Development Commands
+**All user-facing text is in Spanish.** Use Spanish for UI strings, error messages, labels, and notifications.
+
+## Commands
 
 ```bash
-npm run dev      # Start development server (localhost:3000)
-npm run build    # Production build
-npm run lint     # ESLint check
-npx prisma generate   # Regenerate Prisma client after schema changes
-npx prisma db push    # Push schema changes to database
-npx prisma studio     # Open Prisma database GUI
+npm run dev          # Start dev server (localhost:3000)
+npm run build        # Production build
+npm run lint         # ESLint
+npx prisma generate  # Regenerate Prisma client after schema changes
+npx prisma db push   # Push schema changes without migration (use this on Render — non-interactive)
+npx prisma migrate dev --name <name>  # Create and apply migration (local dev only)
+npx prisma studio    # Browse DB via web UI
 ```
+
+Production build (as in render.yaml): `npm install && npx prisma generate && npm run build`
+
+Utility scripts in `/scripts/`: `seed-questions.mjs`, `seed-demo-data.mjs`, `generate-audio.mjs`, `upload-audios-cloudinary.mjs`, `seed-exam-days-module6.mjs`, `seed-exam-questions-module6.mjs`, `simulacros/seed-monthly-exams.mjs`.
+
+There are no tests. No Jest, Vitest, or testing library is configured.
+
+## Tech Stack
+
+- **Next.js 14.2** with App Router, React 18, TypeScript 5
+- **Prisma 5.22** ORM with PostgreSQL 16
+- **NextAuth v5 beta** (credentials provider, JWT sessions, `trustHost: true`)
+- **Tailwind CSS 3.4** for styling
+- **Zustand** for client state, **Zod** for validation
+- **Cloudinary** (audio CDN), **Resend** (email), **web-push** (notifications)
+- **jsPDF** + **qrcode.react** for certificate generation
+- Deployed on **Render.com**
 
 ## Architecture
 
-### Multi-Role System
-Three user roles with isolated dashboards using Next.js route groups:
-- **STUDENT** `(student)/` - Daily learning, quizzes, simulacros, leaderboard
-- **COORDINATOR** `(coordinator)/` - Student/enrollment management, simulacro creation, announcements
-- **CLIENT** `(client)/` - Institution-level analytics and cohort oversight
+### Route Groups (src/app/)
 
-### Authentication Flow
-- NextAuth 5 beta with credentials provider and JWT sessions
-- Students require `enrollmentStatus: APPROVED` to login (throws `PENDING_APPROVAL` error otherwise)
-- Session includes: `id`, `role`, `pseudonym`, `avatarSeed`, `avatarStyle`
-- Custom types extended in `src/types/next-auth.d.ts`
+Routes are organized by role using Next.js route groups:
+- `(auth)/` — Login, register, pending-approval pages
+- `(student)/` — Dashboard, daily content (`/day/[dayId]`), quiz, writing practice, profile, leaderboard, roadmap, notifications, monthly exams (`/examen/...`)
+- `(coordinator)/` — Dashboard (ECG waveforms), student management, cohort management, enrollment approval, exam day management, monthly exam activation, announcements
+- `(client)/` — Aggregate metrics dashboard, cohort overview
 
-### Key Directory Structure
-```
-src/
-├── app/
-│   ├── (auth)/          # Public: login, register, pending approval
-│   ├── (student)/       # Student portal pages
-│   ├── (coordinator)/   # Coordinator portal pages
-│   ├── (client)/        # Client portal pages
-│   └── api/             # API routes
-│       ├── cron/        # Scheduled tasks (streaks, alerts, reports)
-│       └── [role]/      # Role-specific endpoints
-├── components/          # Shared React components
-├── lib/
-│   ├── auth.ts          # NextAuth configuration
-│   ├── prisma.ts        # Prisma client singleton
-│   ├── email.ts         # Resend email functions
-│   └── push.ts          # Web Push utilities
-└── types/               # TypeScript type extensions
+Each group has its own `layout.tsx` with role-specific navigation (bottom nav bar).
+
+### Auth Pattern
+
+There is **no `middleware.ts`** — all auth checks are per-route. Every protected API route checks session via `auth()` from `src/lib/auth.ts`:
+```typescript
+const session = await auth();
+if (!session?.user?.role || session.user.role !== "COORDINATOR") {
+  return NextResponse.json({ error: "No autorizado" }, { status: 401 });
+}
 ```
 
-### Database Schema (Prisma)
-Core models:
-- **User** - Multi-role with enrollment workflow
-- **Cohort/CohortStudent** - Student groupings with coordinator/client assignment
-- **Module/Block/DailyContent** - 8 modules × 15 days curriculum structure
-- **DailyQuestion/QuestionOption** - Daily 3-question quizzes
-- **Simulacro*** - Timed 75-min mock exams with tab-switch detection
-- **Streak** - Current and longest streak tracking per student
-- **Certificate** - Completion certificates with verification codes
+Cron endpoints (`/api/cron/*`) use `?key=CRON_SECRET` instead of session-based auth.
 
-### External Services
-- **Resend** - Transactional emails (welcome, weekly reports, alerts)
-- **Cloudinary** - Image uploads (student photos, evidence)
-- **msedge-tts** - Text-to-speech for audio lessons
-- **web-push** - Push notifications
+NextAuth session is extended in `src/types/next-auth.d.ts` to include `id`, `role`, `pseudonym`, `avatarSeed`, `avatarStyle` on `session.user`.
 
-### Cron Jobs
-Located in `src/app/api/cron/`:
-- `check-streaks/` - Daily streak reset for inactive students
-- `inactivity-alerts/` - Notify idle students
-- `weekly-report/` - Aggregate progress emails
+### Key API Routes
 
-## Patterns
+56 endpoints total. See `README.md` for the complete API reference table.
 
-### API Routes
-- Use `auth()` from `@/lib/auth` to get session
-- Check `session.user.role` for authorization
-- Return appropriate HTTP status codes with JSON responses
+Critical routes to understand:
+- `/api/day/[dayId]` — Comprehensive day data (title, audioUrl, summary, module info, student progress)
+- `/api/audio/file/[dayId]` — Returns 302 redirect to Cloudinary URL (not file serving)
+- `/api/audio/[dailyContentId]/progress` — Audio progress tracking (**uses UUID, not global day number**)
+- `/api/quiz/[dayId]` — Returns `{ questions, isExamDay }` (always this shape, even with 0 questions)
+- `/api/quiz/[dayId]/submit` — Accepts optional `timeSpentSeconds`
+- `/api/monthly-exam/` — Full monthly exam system (list, detail, section questions, save, submit, results)
 
-### Database Access
-- Import `prisma` from `@/lib/prisma`
-- Use Prisma's `include` for relations, avoid N+1 queries
-- Schema uses `@map()` for snake_case database columns
+### Key Libraries (src/lib/)
 
-### Path Alias
-`@/*` maps to `./src/*` (configured in tsconfig.json)
+- `auth.ts` — NextAuth config with Prisma adapter, bcryptjs hashing, JWT callbacks. Secure cookies (`__Secure-authjs.session-token`) in production.
+- `prisma.ts` — Singleton Prisma client
+- `student-day.ts` — **Critical**: Calculates student's current day (1-125, weekdays only) based on cohort `startDate`. Key functions: `getStudentCurrentDay()`, `getModuleForDay()`, `getDayInModule()`, `countWeekdays()`, `getDayDate()`, `getWeekNumber()`, `getWeekStartDay()`
+- `exam-schedule.ts` — Monthly exam cohort scheduling: `getSectionSchedule()`, `getTodaysSection()`, `getMissedSections()`. Maps 8 sections across 2 weeks (5+3 weekdays).
+- `ecg-rhythms.ts` — 6 ECG waveform generators and `getStudentRhythm()` mapper (maps daysInactive + avgQuizScore → rhythm)
+- `cloudinary.ts` — Audio upload/retrieval (uses `resource_type: "video"` for audio — Cloudinary convention)
+- `exam-sounds.ts` — Web Audio API sounds for exam timer (warning at 5 min, alert at 1 min, time-up)
+- `push.ts` / `email.ts` / `message-templates.ts` — Push notifications (web-push VAPID), email (Resend), and message formatting
+
+### Data Fetching Pattern
+
+Pages use `useState` + `fetch()` directly — no SWR or TanStack Query. Dynamic route params via `useParams()`.
+
+### Module-Day Mapping (src/lib/student-day.ts)
+
+All quiz/submit/audio APIs use `getModuleForDay(globalDay)` + `getDayInModule(globalDay)` to resolve which module a global day belongs to. The program counts **weekdays only** (Monday–Friday), 5 days per week, 25 weeks = 125 days. The `MODULES_INFO` constant defines the day ranges:
+
+| Module | Name | Days | Weeks | Range |
+|--------|------|------|-------|-------|
+| 1 | Lectura Crítica | 15 | 3 | 1–15 |
+| 2 | Razonamiento Cuantitativo | 15 | 3 | 16–30 |
+| 3 | Competencias Ciudadanas | 15 | 3 | 31–45 |
+| 4 | Comunicación Escrita | 10 | 2 | 46–55 |
+| 5 | Inglés | 10 | 2 | 56–65 |
+| 6 | Fundamentación Dx y Tx | 30 | 6 | 66–95 |
+| 7 | Atención en Salud | 15 | 3 | 96–110 |
+| 8 | Promoción y Prevención | 15 | 3 | 111–125 |
+
+`getStudentCurrentDay()` counts weekdays from cohort `startDate`. `getDayDate()` converts a day number back to a calendar date, skipping weekends. DB module numbers match these numbers (1-8). **DailyContent `dayNumber` is the day within the module, not the global day.**
+
+### Database Schema (prisma/schema.prisma)
+
+Core model relationships:
+- **User** → belongs to Cohort(s) via CohortStudent join table (`enrollmentStatus`: PENDING/APPROVED/REJECTED)
+- **Cohort** → has a coordinator (User) and optional client (User)
+- **Module** → Block → DailyContent → DailyQuestion → QuestionOption (content hierarchy)
+- **Student progress**: AudioProgress, QuizAttempt/QuizAnswer, PhotoUpload, WritingSubmission, Streak
+- **Monthly Exams**: MonthlyExam → ExamSection → ExamSectionQuestion → ExamSectionOption. Tracking: MonthlyExamAttempt → ExamSectionAttempt → ExamSectionAnswer. Scheduling: CohortExamSchedule, ManualUnlock. Modes: WEEKLY / CONTINUOUS.
+- **Research tracking** (invisible to students): ExamAnswerEvent (SELECTED/CHANGED/CLEARED per click), ExamQuestionView (viewedAt, leftAt, durationSeconds per question). `totalAnswerChanges` denormalized on ExamSectionAttempt.
+- **Communication**: Announcement, EmailLog, PushSubscription, Notification
+- **Certificate**: Issued per student per cohort with unique verificationCode
+
+All table names use snake_case via `@@map()`. Field names use camelCase in Prisma, mapped to snake_case columns.
+
+## Day Page Behavior
+
+The day page (`/day/[dayId]`) fetches from `/api/day/[dayId]` and renders two distinct UIs:
+
+- **Normal days**: Progress checklist (Audio, Quiz, Evidencia) with photo upload. Day completion = all three done. Quiz is always unlocked (no audio gate). Photo guidance: mapas mentales, cuadros sinópticos, cuadernillos — not personal photos.
+- **Exam days** (`isExamDay: true`): 15-question quiz with visible timer. Used for Module 6 days 26-30.
+
+## Module-Specific Features
+
+**Module 4 (Comunicación Escrita)** — Writing practice at `/day/[dayId]/write`. Anti-paste enforcement (onPaste/onDrop/onContextMenu). Timer counts from first keystroke. Days 7-10 have 40-min goal; days 9-10 are full simulacros. Button shown only when `moduleNumber === 4`.
+
+**Module 6 (Fundamentación Dx y Tx)** — Days 1-25: cuadernillo + audio. Days 26-30: platform-only exam days (`isExamDay: true`, 15 questions, streak threshold 10/15). Coordinator manages at `/coordinator/exam-days`.
+
+## Monthly Exam System (Simulacros Mensuales)
+
+6 monthly exams replicating full Saber Pro (8 sections: LC, RC, CC, CE, Inglés, DxTx, AS, PP). Modes: `WEEKLY` (any section order, Simulacros 1-4, 6) and `CONTINUOUS` (sequential 1→8, Simulacro 5).
+
+Key features: timed sections with Web Audio API sounds, question navigator, auto-save, PC-only gate, confirm submit modal, competency-based results, coordinator manual unlock.
+
+**Data pipeline:** JSON files in `scripts/simulacros/data/simulacro-XX/` (8 files per simulacro). Seeded via `scripts/simulacros/seed-monthly-exams.mjs`. Simulacro 1 complete (311 MC + 1 essay). Simulacros 2-6 pending.
+
+**JSON gotcha:** Watch for unescaped `"` in caseText (literary dialogue). Use «» guillemets instead.
+
+## ECG Waveform System
+
+Animated ECG traces in coordinator views indicate student academic health. 6 rhythms from healthy to flatline based on `daysInactive` + `avgQuizScore`:
+
+| Rhythm | Condition | Color |
+|--------|-----------|-------|
+| Normal Sinus | Active, quiz >= 80% | green |
+| Wenckebach | 1-2d inactive or quiz 60-79% | lime |
+| Mobitz II | 3-4d inactive or quiz 40-59% | yellow |
+| AFib | 5-7d inactive or quiz 20-39% | orange |
+| VTach | 7+d inactive + quiz < 40% | red |
+| Asystole | 14+d inactive or never active | gray |
+
+Implementation: `src/lib/ecg-rhythms.ts` (waveform generators, `getStudentRhythm()`) and `src/components/EcgWaveform.tsx` (SVG polyline with CSS infinite scroll). Used in coordinator dashboard, student list, and student detail pages.
+
+## Key Flows
+
+**Enrollment:** Student registers → `PENDING` → Coordinator approves → `APPROVED` → Can log in (enforced in auth.ts authorize).
+
+**Streaks:** Increment on quiz score ≥ 2/3. Daily cron resets broken streaks. `lastActivityDate` normalized to `00:00`.
+
+**Monthly exam scheduling:** Coordinator picks start week for a cohort → 8 sections distributed over 2 weeks (5 Mon-Fri + 3 Mon-Wed). Student sees dashboard alert on scheduled day. Auto-cero if section not presented by end of scheduled day.
+
+**Monthly exam "Confirmar respuesta" flow:** Click option → preselect (blue dashed border) → click "Confirmar respuesta" → lock answer (green background). If already confirmed, button becomes "Cambiar respuesta". Each action tracked as ExamAnswerEvent for research.
+
+## Cron Jobs
+
+All cron endpoints use `?key=CRON_SECRET` for auth (no session). Configured in Render cron jobs.
+
+| Endpoint | Frequency | Purpose |
+|----------|-----------|---------|
+| `/api/cron/check-streaks` | Daily 11:59 PM | Reset broken streaks |
+| `/api/cron/check-exam-deadlines` | Daily | Auto-cero missed simulacro sections |
+| `/api/cron/inactivity-alerts` | Daily | Send inactivity alerts |
+| `/api/cron/weekly-report` | Weekly | Generate weekly reports |
+
+## Environment Variables
+
+Required (see render.yaml): `DATABASE_URL`, `NEXTAUTH_SECRET`, `NEXTAUTH_URL`, `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET`, `RESEND_API_KEY`, `NEXT_PUBLIC_VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY`, `CRON_SECRET`.
+
+## Conventions
+
+- Path alias: `@/*` → `./src/*`. Always use `@/` imports.
+- DB naming: camelCase fields in Prisma mapped to snake_case columns via `@map()`. Table names mapped via `@@map()`.
+- Data fetching: Pages use `useState` + `fetch()` directly — no SWR or TanStack Query. Dynamic route params via `useParams()`.
+- Coordinator nav: 7 items — Panel, Alumnos, Simulacros, Matrículas, Anuncios, Exámenes, Mensuales.
+- Simulacro JSON data: `scripts/simulacros/data/simulacro-XX/` (8 JSON files per simulacro). Use «» guillemets instead of `"` in caseText to avoid parse errors.

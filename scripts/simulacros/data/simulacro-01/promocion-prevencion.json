@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "La diferencia conceptual entre promoción de la salud y prevención de la enfermedad es fundamental para la planificación en salud pública.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la diferencia fundamental entre promoción de la salud y prevención de la enfermedad?",
+    "explanation": "La promoción de la salud busca mejorar las condiciones de vida y fortalecer los factores protectores para que las personas alcancen un mayor nivel de bienestar (enfoque positivo, no parte de la enfermedad). La prevención busca evitar la aparición, progresión o complicaciones de enfermedades específicas (enfoque de riesgo, parte de la enfermedad). Son complementarias pero conceptualmente diferentes.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Son conceptos idénticos que se usan de forma intercambiable.", "isCorrect": false },
+      { "letter": "B", "text": "La promoción fortalece factores protectores y bienestar general; la prevención actúa sobre riesgos y enfermedades específicas.", "isCorrect": true },
+      { "letter": "C", "text": "La promoción se dirige a enfermos y la prevención a personas sanas.", "isCorrect": false },
+      { "letter": "D", "text": "La prevención es más importante que la promoción en todos los casos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Un municipio implementa un programa que incluye: construcción de ciclovías, parques públicos con máquinas de ejercicio, huertas comunitarias, talleres de alimentación saludable y espacios libres de humo de tabaco.\n\n(Redacción Study2One)",
+    "questionText": "Este programa es un ejemplo de:",
+    "explanation": "Estas intervenciones no se dirigen a una enfermedad específica sino que buscan crear condiciones ambientales y sociales que favorezcan la salud de toda la población: actividad física, alimentación saludable, ambientes libres de contaminación. Es promoción de la salud porque actúa sobre determinantes y factores protectores, no sobre riesgos específicos.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de enfermedades cardiovasculares.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud mediante la creación de entornos saludables.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria mediante rehabilitación.", "isCorrect": false },
+      { "letter": "D", "text": "Tratamiento de enfermedades crónicas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Los niveles de prevención descritos por Leavell y Clark (1965) organizan las intervenciones preventivas en un continuo que va desde antes de la enfermedad hasta las secuelas.\n\n(Redacción Study2One, con referencia al modelo de Leavell y Clark 1965)",
+    "questionText": "¿Cuáles son los tres niveles de prevención del modelo de Leavell y Clark?",
+    "explanation": "Leavell y Clark definieron: Prevención primaria (periodo prepatogénico): evitar la aparición de la enfermedad (promoción de la salud + protección específica). Prevención secundaria (periodo patogénico temprano): diagnóstico precoz y tratamiento oportuno. Prevención terciaria (periodo patogénico avanzado): limitación del daño y rehabilitación.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención genética, prevención ambiental y prevención social.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria, prevención secundaria y prevención terciaria.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención individual, prevención comunitaria y prevención nacional.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención básica, prevención intermedia y prevención avanzada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Un programa de vacunación contra la hepatitis B se aplica a todos los recién nacidos en las primeras 12 horas de vida.\n\n(Redacción Study2One)",
+    "questionText": "¿A qué nivel de prevención corresponde esta intervención?",
+    "explanation": "La vacunación es una medida de protección específica dentro de la prevención primaria: actúa antes de que ocurra la enfermedad, protegiéndoal individuo contra un agente infeccioso específico. No es diagnóstico precoz (secundaria) ni rehabilitación (terciaria). Dentro de la prevención primaria, la vacunación se ubica en la categoría de «protección específica».",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (protección específica).", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria (diagnóstico precoz).", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (rehabilitación).", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Un programa de tamizaje citológico (Papanicolaou) para detección temprana de cáncer de cuello uterino se realiza en mujeres de 25 a 65 años.\n\n(Redacción Study2One)",
+    "questionText": "¿A qué nivel de prevención corresponde el tamizaje citológico?",
+    "explanation": "El tamizaje (screening) es una intervención de prevención secundaria: busca detectar la enfermedad en su fase preclínica o temprana, antes de que aparezcan síntomas, para iniciar tratamiento oportuno y mejorar el pronóstico. El Papanicolaou detecta células anormales antes de que se conviertan en cáncer invasor.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (diagnóstico precoz y tratamiento oportuno).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "Un programa de rehabilitación cardíaca para pacientes que sufrieron un infarto de miocardio incluye: ejercicio supervisado, educación nutricional, manejo del estrés y apoyo psicológico.\n\n(Redacción Study2One)",
+    "questionText": "¿A qué nivel de prevención corresponde este programa?",
+    "explanation": "La rehabilitación cardíaca después de un infarto es prevención terciaria: la enfermedad ya ocurrió (el infarto), y las intervenciones buscan limitar las secuelas, prevenir la recurrencia y restaurar la funcionalidad. Es el nivel más avanzado del modelo de Leavell y Clark.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (rehabilitación y limitación del daño).", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Una universidad implementa un programa integral de bienestar estudiantil que incluye: espacios de recreación, alimentación balanceada en cafeterías, asesoría psicológica preventiva, talleres de manejo del tiempo y actividades deportivas.\n\n(Redacción Study2One)",
+    "questionText": "Este programa corresponde a:",
+    "explanation": "Las intervenciones no se dirigen a una enfermedad específica sino a crear condiciones favorables para el bienestar integral de los estudiantes. Es promoción de la salud porque busca fortalecer factores protectores (actividad física, alimentación, salud mental, habilidades para la vida) en una población general sana.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de trastornos mentales.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud en el entorno universitario.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria de enfermedades estudiantiles.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria de deserción académica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "En el modelo de historia natural de la enfermedad, el periodo prepatogénico corresponde al momento antes de que la enfermedad se instale en el individuo.\n\n(Redacción Study2One)",
+    "questionText": "¿Qué elementos interactúan en el periodo prepatogénico según la tríada epidemiológica?",
+    "explanation": "La tríada epidemiológica (o ecológica) incluye: el agente (biológico, químico, físico), el huésped (persona susceptible, con factores genéticos, inmunológicos, conductuales) y el medio ambiente (físico, social, económico). La interacción de estos tres elementos determina la probabilidad de que ocurra la enfermedad.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Solo el agente patógeno y el medicamento.", "isCorrect": false },
+      { "letter": "B", "text": "Agente, huésped y medio ambiente.", "isCorrect": true },
+      { "letter": "C", "text": "Solo los genes del individuo.", "isCorrect": false },
+      { "letter": "D", "text": "El hospital, el médico y el paciente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Un programa de fluorización del agua potable se implementa en un municipio para prevenir la caries dental en toda la población.\n\n(Redacción Study2One)",
+    "questionText": "Esta intervención se clasifica como:",
+    "explanation": "La fluorización del agua es una medida de protección específica (prevención primaria) que actúa sobre toda la población de forma pasiva (no requiere decisión individual). Es una intervención de salud pública altamente costo-efectiva. Se dirige a prevenir una enfermedad específica (caries), por lo que es prevención, no promoción.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica poblacional).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "La Organización Mundial de la Salud define la salud como «un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades».\n\n(OMS, 1948)",
+    "questionText": "Esta definición es fundamental para la promoción de la salud porque:",
+    "explanation": "La definición de la OMS amplía el concepto de salud más allá de la ausencia de enfermedad, incluyendo dimensiones positivas (bienestar físico, mental y social). Esto justifica que la promoción de la salud no se limite a prevenir enfermedades sino que busque condiciones para el bienestar integral, incluyendo determinantes sociales.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Define que la salud solo depende del sistema de atención médica.", "isCorrect": false },
+      { "letter": "B", "text": "Amplía la salud más allá de la enfermedad, justificando acciones sobre el bienestar integral y los determinantes sociales.", "isCorrect": true },
+      { "letter": "C", "text": "Indica que solo se necesitan medicamentos para estar saludable.", "isCorrect": false },
+      { "letter": "D", "text": "Establece que la salud mental no es relevante para la salud pública.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "Un paciente diabético de 55 años asiste a su control trimestral. El médico le realiza un examen de fondo de ojo para detectar retinopatía diabética incipiente.\n\n(Redacción Study2One)",
+    "questionText": "El examen de fondo de ojo en este contexto es una medida de:",
+    "explanation": "En un paciente ya diagnosticado con diabetes, el examen de fondo de ojo busca detectar tempranamente una complicación (retinopatía) antes de que cause pérdida de visión irreversible. Es prevención secundaria (diagnóstico precoz de complicación) aplicada a un paciente con enfermedad crónica conocida.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (evitar la diabetes).", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (detección temprana de complicación).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria (rehabilitación visual).", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Un programa escolar enseña a niños de primaria habilidades para la vida: toma de decisiones, manejo de emociones, resolución de conflictos, pensamiento crítico y comunicación asertiva.\n\n(Redacción Study2One)",
+    "questionText": "Este programa se clasifica como:",
+    "explanation": "Las habilidades para la vida son una estrategia de promoción de la salud recomendada por la OMS. No se dirigen a una enfermedad específica sino que fortalecen competencias personales que protegen la salud integral (previenen violencia, consumo de sustancias, embarazo adolescente, problemas de salud mental). Es promoción porque actúa sobre factores protectores generales.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de violencia escolar.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud mediante el desarrollo de aptitudes personales.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria de trastornos de conducta.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria de problemas académicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "En Colombia, el programa de detección temprana de alteraciones del crecimiento y desarrollo (CyD) en menores de 10 años incluye valoraciones periódicas del peso, talla, desarrollo psicomotor y estado nutricional.\n\n(Redacción Study2One, con referencia a la Resolución 3280 de 2018)",
+    "questionText": "¿A qué nivel de prevención corresponde este programa?",
+    "explanation": "El programa de CyD busca detectar tempranamente desviaciones del crecimiento y desarrollo normal (desnutrición, obesidad, retraso del desarrollo) para intervenir antes de que se produzcan consecuencias irreversibles. Es prevención secundaria: diagnóstico precoz en una fase en que la intervención oportuna puede corregir el problema.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (detección temprana de alteraciones).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria.", "isCorrect": false },
+      { "letter": "D", "text": "No es una medida preventiva.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "La educación en salud es un componente tanto de la promoción como de la prevención, pero su enfoque difiere.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la diferencia en el enfoque de la educación en salud según se use para promoción o para prevención?",
+    "explanation": "En promoción: la educación busca empoderar a las personas para que tomen control de su salud, desarrollen hábitos saludables y participen en la transformación de su entorno (enfoque positivo, no parte de la enfermedad). En prevención: la educación se centra en informar sobre riesgos específicos y cómo evitar enfermedades concretas (enfoque de riesgo, parte de la enfermedad).",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "No hay diferencia; la educación en salud es siempre igual.", "isCorrect": false },
+      { "letter": "B", "text": "En promoción busca empoderar y fortalecer la autonomía; en prevención busca informar sobre riesgos específicos.", "isCorrect": true },
+      { "letter": "C", "text": "La educación solo funciona en prevención, no en promoción.", "isCorrect": false },
+      { "letter": "D", "text": "En promoción se usa solo en hospitales; en prevención solo en la comunidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "Un paciente con enfermedad pulmonar obstructiva crónica (EPOC) severa es incluido en un programa de rehabilitación pulmonar que incluye: fisioterapia respiratoria, ejercicio aeróbico adaptado, educación en uso de inhaladores y apoyo nutricional.\n\n(Redacción Study2One)",
+    "questionText": "Este programa corresponde a:",
+    "explanation": "El paciente ya tiene EPOC severa (la enfermedad está establecida y avanzada). La rehabilitación pulmonar busca mejorar su capacidad funcional, prevenir el deterioro adicional y mejorar la calidad de vida. Es prevención terciaria: rehabilitación y limitación del daño en una enfermedad crónica establecida.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (rehabilitación).", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "La estrategia de «Municipios Saludables» propone que los gobiernos locales integren la salud en todas las políticas públicas: urbanismo, transporte, educación, cultura y medio ambiente.\n\n(Redacción Study2One, basado en la iniciativa de la OMS)",
+    "questionText": "Esta estrategia es un ejemplo de:",
+    "explanation": "«Salud en todas las políticas» (Health in All Policies) es un enfoque de promoción de la salud que reconoce que la salud depende de decisiones tomadas en sectores ajenos al sanitario (transporte, urbanismo, educación). Buscar que todos los sectores consideren el impacto en salud de sus decisiones es promoción intersectorial.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria centrada en vacunación.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud mediante el enfoque de «salud en todas las políticas».", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria a nivel municipal.", "isCorrect": false },
+      { "letter": "D", "text": "Tratamiento de enfermedades a nivel comunitario.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Un programa de quimioprofilaxis con isoniazida se administra durante 9 meses a contactos cercanos de pacientes con tuberculosis pulmonar bacilífera.\n\n(Redacción Study2One)",
+    "questionText": "¿A qué nivel de prevención corresponde la quimioprofilaxis con isoniazida?",
+    "explanation": "La quimioprofilaxis se administra a personas expuestas que no tienen la enfermedad activa, para prevenir que la infección latente progrese a tuberculosis activa. Es prevención primaria (protección específica): actúa antes de que se desarrolle la enfermedad, protegiendo al individuo expuesto contra un agente específico.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (protección específica).", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria.", "isCorrect": false },
+      { "letter": "D", "text": "Tratamiento curativo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Un estudio evalúa dos estrategias para reducir la mortalidad por cáncer colorrectal en una población:\n\nEstrategia A: Tamizaje con sangre oculta en heces a partir de los 50 años.\nEstrategia B: Campaña educativa sobre alimentación rica en fibra y baja en carnes procesadas.\n\n(Redacción Study2One)",
+    "questionText": "¿Cómo se clasifican estas dos estrategias en términos de niveles de prevención?",
+    "explanation": "La estrategia A (tamizaje) es prevención secundaria: busca detectar el cáncer en fase temprana. La estrategia B (educación sobre alimentación) es prevención primaria: busca reducir los factores de riesgo (alimentación no saludable) antes de que aparezca la enfermedad. Ambas son válidas y complementarias.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Ambas son prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "A es prevención secundaria; B es prevención primaria.", "isCorrect": true },
+      { "letter": "C", "text": "Ambas son prevención secundaria.", "isCorrect": false },
+      { "letter": "D", "text": "A es prevención primaria; B es prevención terciaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Un programa de salud ocupacional implementa las siguientes medidas en una fábrica de pinturas: ventilación adecuada, uso obligatorio de equipos de protección personal (EPP), monitoreo periódico de niveles de plomo en sangre de los trabajadores y capacitación sobre riesgos químicos.\n\n(Redacción Study2One)",
+    "questionText": "¿Qué nivel(es) de prevención incluye este programa?",
+    "explanation": "El programa incluye: Prevención primaria: ventilación, EPP y capacitación (evitar la exposición/enfermedad). Prevención secundaria: monitoreo de plomo en sangre (detección temprana de intoxicación subclínica). Es un programa integral que combina ambos niveles. No incluye rehabilitación (terciaria).",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Solo prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (ventilación, EPP, capacitación) y secundaria (monitoreo de plomo).", "isCorrect": true },
+      { "letter": "C", "text": "Solo prevención secundaria.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria exclusivamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "La Carta de Bangkok (2005) para la Promoción de la Salud en un Mundo Globalizado complementa los principios de la Carta de Ottawa.\n\n(Redacción Study2One, con referencia a la Carta de Bangkok 2005)",
+    "questionText": "¿Qué aspecto nuevo enfatiza la Carta de Bangkok respecto a la Carta de Ottawa?",
+    "explanation": "La Carta de Bangkok (2005) actualiza la promoción de la salud en el contexto de la globalización, enfatizando: el papel del sector privado y las corporaciones multinacionales en la salud, la necesidad de regular prácticas comerciales dañinas (tabaco, alimentos ultraprocesados), las inequidades globales y la responsabilidad corporativa. Ottawa (1986) no abordaba estos temas con la misma profundidad.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "La importancia de la vacunación universal.", "isCorrect": false },
+      { "letter": "B", "text": "La influencia de la globalización y la responsabilidad del sector privado en la salud.", "isCorrect": true },
+      { "letter": "C", "text": "La necesidad de construir más hospitales.", "isCorrect": false },
+      { "letter": "D", "text": "La eliminación de todas las enfermedades infecciosas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Un paciente de 50 años sin síntomas acude a consulta de rutina. Su médico le realiza las siguientes pruebas: glucemia en ayunas, perfil lipídico, medición de presión arterial e índice de masa corporal.\n\n(Redacción Study2One)",
+    "questionText": "Estas evaluaciones en una persona asintomática corresponden a:",
+    "explanation": "Realizar pruebas diagnósticas en personas asintomáticas para detectar factores de riesgo (hiperglucemia, dislipidemia, hipertensión, obesidad) o enfermedades en fase preclínica es prevención secundaria. El objetivo es identificar y tratar tempranamente condiciones que, sin intervención, progresarían a enfermedades manifiestas.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (tamizaje de factores de riesgo y enfermedades en fase preclínica).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria.", "isCorrect": false },
+      { "letter": "D", "text": "Tratamiento de enfermedades crónicas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Un gobierno implementa un impuesto del 20 % a las bebidas azucaradas con el objetivo de reducir su consumo en la población.\n\n(Redacción Study2One)",
+    "questionText": "Esta medida se clasifica como:",
+    "explanation": "Los impuestos a productos no saludables son una intervención de prevención primaria a nivel poblacional: actúan sobre un factor de riesgo (consumo excesivo de azúcar) para prevenir enfermedades (obesidad, diabetes, caries). A diferencia de la educación individual, es una medida regulatoria que modifica el entorno económico para desincentivar el consumo.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria poblacional mediante regulación fiscal.", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria.", "isCorrect": false },
+      { "letter": "D", "text": "Solo una medida económica sin relación con la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Un programa de control vectorial para dengue incluye: fumigación periódica, eliminación de criaderos de Aedes aegypti, uso de mosquiteros tratados con insecticida y educación comunitaria sobre prevención.\n\n(Redacción Study2One)",
+    "questionText": "Estas acciones corresponden a:",
+    "explanation": "El control vectorial busca prevenir la transmisión del dengue actuando sobre el vector (mosquito) y el medio ambiente. Es prevención primaria: actúa antes de que ocurra la enfermedad, eliminando o controlando el agente transmisor. Incluye protección específica (mosquiteros) y saneamiento ambiental (eliminación de criaderos).",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (control del vector y protección de la población).", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria (diagnóstico precoz de dengue).", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (tratamiento de complicaciones del dengue).", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud exclusivamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "El modelo de Geoffrey Rose distingue entre la «estrategia de alto riesgo» y la «estrategia poblacional» en prevención.\n\n(Redacción Study2One, con referencia a Geoffrey Rose, 1985)",
+    "questionText": "¿Cuál es la diferencia entre estas dos estrategias?",
+    "explanation": "Rose planteó que la estrategia de alto riesgo identifica y trata a individuos con riesgo elevado (ej: medicar a personas con colesterol > 240), mientras que la estrategia poblacional busca reducir el riesgo promedio de toda la población (ej: reducir el consumo de grasas saturadas en todos). La poblacional tiene mayor impacto total aunque el beneficio individual sea menor.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "No hay diferencia; ambas se aplican a los mismos individuos.", "isCorrect": false },
+      { "letter": "B", "text": "La de alto riesgo identifica y trata individuos vulnerables; la poblacional busca reducir el riesgo promedio de toda la población.", "isCorrect": true },
+      { "letter": "C", "text": "La poblacional es más cara y menos efectiva que la de alto riesgo.", "isCorrect": false },
+      { "letter": "D", "text": "La de alto riesgo solo se aplica en hospitales; la poblacional solo en la comunidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Un programa de suplementación con ácido fólico a todas las mujeres en edad fértil busca prevenir defectos del tubo neural (como espina bífida) en los recién nacidos.\n\n(Redacción Study2One)",
+    "questionText": "Esta intervención se clasifica como:",
+    "explanation": "La suplementación con ácido fólico a mujeres en edad fértil (antes del embarazo) es prevención primaria: actúa antes de la concepción para prevenir una malformación congénita específica. Es una medida de protección específica dirigida a prevenir los defectos del tubo neural.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (protección específica).", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria.", "isCorrect": false },
+      { "letter": "D", "text": "Tratamiento de la espina bífida.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Un programa de salud mental comunitaria capacita a docentes de colegios para identificar signos tempranos de depresión y conducta suicida en adolescentes, y establecer rutas de activación para derivación a servicios de salud.\n\n(Redacción Study2One)",
+    "questionText": "Este programa incluye elementos de:",
+    "explanation": "Capacitar a docentes como «guardianes» (gatekeepers) para identificar signos tempranos combina: prevención primaria (sensibilización, formación de redes de apoyo) y prevención secundaria (detección temprana y derivación oportuna). La ruta de activación busca que los adolescentes en riesgo reciban atención antes de una crisis.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Solo prevención terciaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (formación de guardianes) y secundaria (detección temprana y derivación).", "isCorrect": true },
+      { "letter": "C", "text": "Solo promoción de la salud.", "isCorrect": false },
+      { "letter": "D", "text": "Solo tratamiento de adolescentes con depresión diagnosticada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "La siguiente tabla muestra las intervenciones de un programa integral de salud cardiovascular:\n\n| Intervención | Tipo |\n|-------------|------|\n| Campañas de actividad física en parques | ? |\n| Tamizaje de presión arterial en mayores de 40 años | ? |\n| Rehabilitación cardíaca post-infarto | ? |\n| Etiquetado nutricional frontal en alimentos | ? |\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la clasificación correcta de estas intervenciones?",
+    "explanation": "Campañas de actividad física: promoción de la salud (no se dirige a una enfermedad específica, crea entornos saludables). Tamizaje de PA: prevención secundaria (detección temprana en asintomáticos). Rehabilitación post-infarto: prevención terciaria (recuperación funcional). Etiquetado nutricional: prevención primaria/promoción (información para decisiones saludables).",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Todas son prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción, prevención secundaria, prevención terciaria y prevención primaria/promoción, respectivamente.", "isCorrect": true },
+      { "letter": "C", "text": "Todas son prevención terciaria porque se relacionan con el corazón.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención primaria, primaria, primaria y secundaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Un programa de salud escolar incluye la aplicación de sellantes dentales a los molares permanentes de niños de 6 a 12 años para prevenir caries.\n\n(Redacción Study2One)",
+    "questionText": "Los sellantes dentales corresponden a:",
+    "explanation": "Los sellantes dentales son una barrera física que se aplica sobre los surcos de los molares sanos para prevenir la formación de caries. Se aplican ANTES de que aparezca la enfermedad (caries). Es prevención primaria, específicamente protección específica, porque actúa sobre un riesgo concreto (caries) en una población definida.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (protección específica).", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria (tratamiento temprano de caries).", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (restauración dental).", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud oral.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Un programa de prevención del VIH/SIDA en trabajadores sexuales incluye: distribución gratuita de condones, pruebas rápidas de VIH voluntarias, tratamiento de ITS y educación en negociación del uso de condón.\n\n(Redacción Study2One)",
+    "questionText": "¿Qué niveles de prevención incluye este programa?",
+    "explanation": "Distribución de condones y educación: prevención primaria (evitar la infección). Pruebas rápidas de VIH: prevención secundaria (detección temprana). Tratamiento de ITS: prevención secundaria/tratamiento (tratar infecciones existentes reduce el riesgo de transmisión de VIH, por lo que también actúa como prevención primaria del VIH).",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Solo prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (condones, educación) y secundaria (pruebas rápidas, tratamiento de ITS).", "isCorrect": true },
+      { "letter": "C", "text": "Solo prevención terciaria.", "isCorrect": false },
+      { "letter": "D", "text": "Solo promoción de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "La lactancia materna exclusiva durante los primeros 6 meses de vida es recomendada por la OMS y UNICEF.\n\n(Redacción Study2One, con referencia a recomendaciones OMS/UNICEF)",
+    "questionText": "La promoción de la lactancia materna exclusiva es un ejemplo de:",
+    "explanation": "La lactancia materna tiene un doble papel: como promoción de la salud (nutrición óptima, vínculo madre-hijo, desarrollo integral) y como prevención primaria de múltiples enfermedades (infecciones gastrointestinales y respiratorias, alergias, obesidad infantil, cáncer de mama materno). Es una de las intervenciones más costo-efectivas en salud pública.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Solo tratamiento de la desnutrición infantil.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud y prevención primaria de múltiples enfermedades.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria.", "isCorrect": false },
+      { "letter": "D", "text": "Solo prevención secundaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Un adulto mayor de 70 años con osteoartritis severa de rodilla participa en un programa que incluye: fisioterapia, ejercicios de bajo impacto, adaptaciones en el hogar (barras de apoyo, antideslizantes) y educación sobre prevención de caídas.\n\n(Redacción Study2One)",
+    "questionText": "Este programa integra:",
+    "explanation": "Fisioterapia y ejercicios adaptados: prevención terciaria (rehabilitación funcional de la osteoartritis ya establecida). Adaptaciones en el hogar y educación sobre caídas: prevención primaria de un evento nuevo (caída/fractura). El programa combina la rehabilitación de la enfermedad existente con la prevención de nuevas complicaciones.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Solo promoción de la salud.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención terciaria (rehabilitación) y primaria (prevención de caídas).", "isCorrect": true },
+      { "letter": "C", "text": "Solo prevención secundaria.", "isCorrect": false },
+      { "letter": "D", "text": "Solo prevención primaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Un gobierno implementa la política de «entornos alimentarios saludables» en colegios públicos: prohíbe la venta de bebidas azucaradas y comida chatarra, establece menús escolares con frutas y verduras, e instala fuentes de agua potable.\n\n(Redacción Study2One)",
+    "questionText": "Esta política es principalmente:",
+    "explanation": "La creación de entornos alimentarios saludables en colegios es promoción de la salud: modifica el ambiente para que la opción saludable sea la más fácil y accesible. No se dirige a una enfermedad específica sino a crear condiciones estructurales que favorezcan la alimentación saludable de toda la comunidad escolar.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención secundaria de obesidad infantil.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud mediante la creación de entornos alimentarios saludables.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria de trastornos alimentarios.", "isCorrect": false },
+      { "letter": "D", "text": "Tratamiento de la desnutrición escolar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "El concepto de «periodo de latencia» o «periodo de incubación» es clave para entender cuándo aplicar cada nivel de prevención.\n\n(Redacción Study2One)",
+    "questionText": "¿Por qué es importante conocer el periodo de latencia de una enfermedad para la prevención secundaria?",
+    "explanation": "El periodo de latencia (o fase preclínica detectable) es el intervalo entre el inicio biológico de la enfermedad y la aparición de síntomas. La prevención secundaria (tamizaje) solo es útil si el periodo de latencia es suficientemente largo para permitir la detección temprana, y si detectar la enfermedad en esta fase mejora el pronóstico comparado con esperar a los síntomas.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "No tiene importancia; el tamizaje funciona igual en todas las enfermedades.", "isCorrect": false },
+      { "letter": "B", "text": "Permite determinar si existe una ventana de oportunidad para la detección temprana mediante tamizaje.", "isCorrect": true },
+      { "letter": "C", "text": "Solo es importante para calcular la dosis de los medicamentos.", "isCorrect": false },
+      { "letter": "D", "text": "Define cuánto tiempo debe durar el tratamiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Un programa de prevención del consumo de sustancias psicoactivas en adolescentes utiliza la estrategia de «pares educadores»: adolescentes capacitados que educan a sus compañeros sobre los riesgos del consumo.\n\n(Redacción Study2One)",
+    "questionText": "Esta estrategia combina elementos de:",
+    "explanation": "Los pares educadores: Por un lado, fortalecen aptitudes personales y redes de apoyo (promoción de la salud — área de acción de Ottawa: «desarrollar aptitudes personales»). Por otro, informan sobre riesgos específicos del consumo de SPA (prevención primaria). La estrategia es efectiva porque los adolescentes son más receptivos a mensajes de sus pares que de adultos.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Solo prevención terciaria.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud (aptitudes personales, redes de apoyo) y prevención primaria (información sobre riesgos).", "isCorrect": true },
+      { "letter": "C", "text": "Solo tratamiento de adicciones.", "isCorrect": false },
+      { "letter": "D", "text": "Solo prevención secundaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "El tratamiento directamente observado (DOTS) es la estrategia recomendada por la OMS para el control de la tuberculosis a nivel global.\n\n(Redacción Study2One, con referencia a la estrategia DOTS de la OMS)",
+    "questionText": "¿Por qué el DOTS es más efectivo que el tratamiento autoadministrado para el control de la TB?",
+    "explanation": "El tratamiento de la TB dura 6 meses mínimo. La autoadministración tiene altas tasas de abandono, lo cual genera: fracaso terapéutico, resistencia bacteriana y continuación de la transmisión. DOTS garantiza que el paciente tome cada dosis, mejorando la adherencia, las tasas de curación y reduciendo la aparición de multirresistencia.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Porque usa medicamentos más potentes.", "isCorrect": false },
+      { "letter": "B", "text": "Porque garantiza la adherencia al tratamiento, reduciendo el abandono y la resistencia bacteriana.", "isCorrect": true },
+      { "letter": "C", "text": "Porque es más económico que el tratamiento autoadministrado.", "isCorrect": false },
+      { "letter": "D", "text": "Porque solo requiere un mes de tratamiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "El siguiente diagrama resume la historia natural de la enfermedad y los niveles de prevención:\n\nPeriodo prepatogénico → Prevención primaria (promoción + protección específica)\nPeriodo patogénico temprano → Prevención secundaria (diagnóstico precoz + tratamiento oportuno)\nPeriodo patogénico avanzado → Prevención terciaria (limitación del daño + rehabilitación)\n\n(Redacción Study2One, basado en Leavell y Clark)",
+    "questionText": "Una mujer de 40 años se realiza una mamografía de rutina que detecta un carcinoma in situ. Se le realiza una tumorectomía exitosa. ¿En qué punto de la historia natural se encontraba y qué nivel de prevención se aplicó?",
+    "explanation": "El carcinoma in situ es la enfermedad en su periodo patogénico temprano (ya existe pero no ha invadido ni dado síntomas). La mamografía de tamizaje es prevención secundaria (diagnóstico precoz). La tumorectomía es el tratamiento oportuno dentro de la prevención secundaria. La intervención en esta fase tiene excelente pronóstico.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Periodo prepatogénico; prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Periodo patogénico temprano; prevención secundaria (diagnóstico precoz y tratamiento oportuno).", "isCorrect": true },
+      { "letter": "C", "text": "Periodo patogénico avanzado; prevención terciaria.", "isCorrect": false },
+      { "letter": "D", "text": "No aplica porque el carcinoma in situ no es una enfermedad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": "Un programa comunitario de prevención de lesiones por accidentes de tránsito implementa: zonas de velocidad reducida cerca de colegios, semáforos peatonales con temporizador, campañas sobre uso de cinturón y casco, y servicios de atención prehospitalaria.\n\n(Redacción Study2One)",
+    "questionText": "¿Qué niveles de prevención incluye este programa?",
+    "explanation": "Zonas de velocidad reducida, semáforos, campañas de cinturón/casco: prevención primaria (evitar que ocurran los accidentes o reducir su gravedad). Atención prehospitalaria: prevención terciaria/limitación del daño (atender oportunamente a las víctimas para reducir secuelas y mortalidad). Es un programa que combina prevención primaria y terciaria.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Solo prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (infraestructura segura, educación) y terciaria (atención prehospitalaria).", "isCorrect": true },
+      { "letter": "C", "text": "Solo prevención secundaria.", "isCorrect": false },
+      { "letter": "D", "text": "Solo prevención terciaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": "La «paradoja de la prevención» descrita por Geoffrey Rose establece que una intervención que aporta poco beneficio a cada individuo puede generar un gran beneficio a la población.\n\n(Redacción Study2One, con referencia a Geoffrey Rose)",
+    "questionText": "¿Cuál ejemplo ilustra mejor la paradoja de la prevención?",
+    "explanation": "Reducir 5 mmHg de PA en toda la población (mediante menos sal en alimentos procesados) aporta poco a cada individuo pero reduce significativamente los eventos cardiovasculares a nivel poblacional. Esto es la paradoja: lo que parece insignificante individualmente tiene gran impacto colectivo. Medicar solo hipertensos graves beneficia mucho a cada individuo pero poco a la población total.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Dar medicamentos solo a personas con presión arterial muy alta.", "isCorrect": false },
+      { "letter": "B", "text": "Reducir el contenido de sal en todos los alimentos procesados: beneficio pequeño por persona pero grande a nivel poblacional.", "isCorrect": true },
+      { "letter": "C", "text": "Vacunar exclusivamente a las personas mayores de 65 años.", "isCorrect": false },
+      { "letter": "D", "text": "Realizar cirugías cardíacas solo en pacientes con enfermedad avanzada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "Un programa de planificación familiar ofrece: consejería sobre métodos anticonceptivos, provisión gratuita de métodos (hormonales, de barrera, DIU), seguimiento periódico y educación sobre salud sexual y reproductiva.\n\n(Redacción Study2One)",
+    "questionText": "¿Cómo se clasifica la planificación familiar en el modelo de Leavell y Clark?",
+    "explanation": "La planificación familiar es prevención primaria porque actúa antes de que ocurra un embarazo no deseado (el «evento» que se busca prevenir). Específicamente, la provisión de métodos anticonceptivos es protección específica. La consejería y educación sexual también tienen componentes de promoción de la salud (empoderamiento, autonomía reproductiva).",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (protección específica) y promoción de la salud sexual.", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria de embarazos.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria de complicaciones obstétricas.", "isCorrect": false },
+      { "letter": "D", "text": "Solo tratamiento de enfermedades reproductivas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": "En la historia natural de la diabetes mellitus tipo 2:\n\n1. Periodo prepatogénico: factores de riesgo (obesidad, sedentarismo, antecedentes familiares).\n2. Fase preclínica: resistencia a la insulina, prediabetes (glucemia en ayunas 100-125 mg/dL).\n3. Fase clínica: glucemia ≥ 126 mg/dL, síntomas (poliuria, polidipsia).\n4. Fase de complicaciones: retinopatía, nefropatía, neuropatía, pie diabético.\n5. Secuelas: amputación, ceguera, diálisis.\n\n(Redacción Study2One)",
+    "questionText": "¿En qué fase se ubica la prevención secundaria de la diabetes tipo 2?",
+    "explanation": "La prevención secundaria actúa en la fase preclínica (prediabetes) y la fase clínica temprana: tamizaje de glucemia en personas de riesgo, detección de prediabetes e intervención temprana con cambios de estilo de vida o metformina. Detectar la diabetes antes de que cause síntomas permite un manejo temprano que retrasa o previene las complicaciones.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "En el periodo prepatogénico (antes de que haya resistencia a la insulina).", "isCorrect": false },
+      { "letter": "B", "text": "En la fase preclínica y clínica temprana (detección de prediabetes y diabetes en fase asintomática).", "isCorrect": true },
+      { "letter": "C", "text": "En la fase de complicaciones (tratamiento de retinopatía).", "isCorrect": false },
+      { "letter": "D", "text": "En la fase de secuelas (rehabilitación post-amputación).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "Un programa de cesación del tabaquismo para fumadores actuales incluye: consejería motivacional, terapia de reemplazo de nicotina (parches, chicles), medicamentos (bupropión, vareniclina) y seguimiento telefónico.\n\n(Redacción Study2One)",
+    "questionText": "¿A qué nivel de prevención corresponde este programa?",
+    "explanation": "En un fumador activo, el tabaquismo puede considerarse tanto un factor de riesgo como una condición patológica (adicción a la nicotina). El programa de cesación actúa como prevención primaria de las enfermedades causadas por el tabaco (cáncer, EPOC, ECV) que aún no se han desarrollado, y como tratamiento de la adicción ya establecida. Predomina la prevención primaria.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (eliminación de un factor de riesgo antes de que cause enfermedad).", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria (detección temprana de cáncer).", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (rehabilitación de enfermedades por tabaco).", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud exclusivamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "La siguiente tabla resume los criterios de Wilson y Jungner (1968) para evaluar si una enfermedad es apropiada para un programa de tamizaje:\n\n1. Problema de salud importante\n2. Historia natural bien conocida\n3. Fase latente o preclínica detectable\n4. Prueba de tamizaje aceptable\n5. Tratamiento efectivo disponible\n6. Criterios diagnósticos establecidos\n7. Relación costo-beneficio favorable\n8. Proceso de búsqueda de casos continuo\n\n(Redacción Study2One, con referencia a Wilson y Jungner 1968)",
+    "questionText": "Según estos criterios, ¿cuál condición NO sería apropiada para un programa de tamizaje?",
+    "explanation": "Una enfermedad rara de la que se desconoce la historia natural, sin tratamiento efectivo disponible y sin prueba de tamizaje validada no cumple los criterios de Wilson y Jungner. Detectar una enfermedad para la cual no hay tratamiento no beneficia al paciente y puede causar ansiedad innecesaria. El tamizaje solo se justifica cuando la detección temprana mejora el pronóstico.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Cáncer de cuello uterino (prevalente, con fase preclínica larga y tratamiento efectivo).", "isCorrect": false },
+      { "letter": "B", "text": "Hipertensión arterial (prevalente, asintomática en fases tempranas, tratamiento disponible).", "isCorrect": false },
+      { "letter": "C", "text": "Una enfermedad rara sin tratamiento conocido ni prueba de tamizaje validada.", "isCorrect": true },
+      { "letter": "D", "text": "Diabetes tipo 2 (prevalente, fase preclínica detectable, tratamiento efectivo).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "Un programa de prevención de la violencia intrafamiliar incluye: línea de atención 24 horas, refugios temporales para víctimas, intervención psicosocial, grupos de apoyo y capacitación a funcionarios de salud y policía.\n\n(Redacción Study2One)",
+    "questionText": "¿Qué niveles de prevención abarca este programa?",
+    "explanation": "Capacitación a funcionarios para detección: prevención secundaria (identificar casos tempranamente). Línea de atención y refugios: prevención secundaria/terciaria (intervención durante la crisis y protección). Intervención psicosocial y grupos de apoyo: prevención terciaria (rehabilitación y prevención de recurrencia). El programa es integral y abarca los tres niveles.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Solo prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (detección, intervención en crisis) y terciaria (rehabilitación, prevención de recurrencia).", "isCorrect": true },
+      { "letter": "C", "text": "Solo promoción de la salud.", "isCorrect": false },
+      { "letter": "D", "text": "Solo prevención terciaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": "El modelo de Dahlgren y Whitehead (1991) representa los determinantes de la salud como capas concéntricas alrededor del individuo.\n\n(Redacción Study2One, con referencia al modelo de Dahlgren y Whitehead 1991)",
+    "questionText": "¿Cuál es el orden correcto de las capas desde el centro (individuo) hacia el exterior?",
+    "explanation": "El modelo de Dahlgren y Whitehead organiza los determinantes así: centro: factores biológicos (edad, sexo, genética). Primera capa: estilos de vida individuales. Segunda capa: redes sociales y comunitarias. Tercera capa: condiciones de vida y trabajo (vivienda, educación, empleo, servicios). Capa externa: condiciones socioeconómicas, culturales y ambientales generales.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Genética → servicios de salud → gobierno → medio ambiente.", "isCorrect": false },
+      { "letter": "B", "text": "Factores biológicos → estilos de vida → redes sociales → condiciones de vida y trabajo → condiciones socioeconómicas generales.", "isCorrect": true },
+      { "letter": "C", "text": "Alimentación → ejercicio → medicamentos → cirugía.", "isCorrect": false },
+      { "letter": "D", "text": "Hospital → EPS → ministerio → OMS.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": "Un programa de prevención de la obesidad infantil en un municipio incluye: regulación de publicidad de alimentos ultraprocesados dirigida a niños, impuesto a bebidas azucaradas, ampliación de jornadas deportivas en colegios, y menús escolares saludables.\n\n(Redacción Study2One)",
+    "questionText": "¿Por qué estas intervenciones son más efectivas que solo educar individualmente a los niños sobre alimentación?",
+    "explanation": "Las intervenciones ambientales y regulatorias (publicidad, impuestos, entornos escolares) modifican el contexto en el que se toman las decisiones, haciendo más difícil la opción no saludable y más fácil la saludable. La educación individual tiene impacto limitado si el entorno promueve activamente el consumo de productos no saludables. El enfoque combinado (individual + estructural) es más efectivo.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Porque los niños no entienden la información sobre alimentación.", "isCorrect": false },
+      { "letter": "B", "text": "Porque modifican el entorno y las opciones disponibles, haciendo que la opción saludable sea la más accesible.", "isCorrect": true },
+      { "letter": "C", "text": "Porque la educación individual nunca funciona para ninguna población.", "isCorrect": false },
+      { "letter": "D", "text": "Porque los impuestos generan ingresos que se destinan a construir hospitales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "Un programa de rehabilitación basada en la comunidad (RBC) para personas con discapacidad incluye: fisioterapia domiciliaria, adaptaciones en la vivienda, integración laboral, apoyo psicosocial y participación en actividades comunitarias.\n\n(Redacción Study2One)",
+    "questionText": "Este programa corresponde principalmente a:",
+    "explanation": "La RBC es una estrategia de prevención terciaria que busca la rehabilitación integral en el entorno comunitario del paciente, no en instituciones. Combina la restauración funcional (fisioterapia) con la integración social (trabajo, comunidad) y la adaptación del entorno. Su objetivo es maximizar la funcionalidad y la participación social.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (rehabilitación integral en la comunidad).", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la salud exclusivamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "La estrategia de «Escuelas Saludables» promovida por la OMS busca que los colegios sean espacios que promuevan la salud integral de toda la comunidad educativa.\n\n(Redacción Study2One, basado en la iniciativa de la OMS)",
+    "questionText": "¿Cuál de los siguientes componentes es característico de una «Escuela Saludable»?",
+    "explanation": "Las Escuelas Saludables integran: educación en salud en el currículo, ambientes físicos seguros y saludables, servicios de salud escolar, alimentación escolar saludable, actividad física, participación de la comunidad y ambientes psicosociales positivos. Es un enfoque integral de promoción de la salud en el entorno escolar, no solo clases de educación física.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Solo aumentar las horas de educación física.", "isCorrect": false },
+      { "letter": "B", "text": "Un enfoque integral que incluye ambiente físico seguro, alimentación saludable, educación en salud y participación comunitaria.", "isCorrect": true },
+      { "letter": "C", "text": "Instalar un consultorio médico dentro del colegio.", "isCorrect": false },
+      { "letter": "D", "text": "Prohibir la asistencia de niños enfermos al colegio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": "Un programa de prevención del pie diabético en pacientes ya diagnosticados con diabetes incluye: educación en cuidado de los pies, examen neurológico periódico, calzado adecuado y referencia oportuna al podólogo.\n\n(Redacción Study2One)",
+    "questionText": "En el contexto de la historia natural de la diabetes, ¿a qué nivel de prevención corresponde este programa?",
+    "explanation": "La prevención del pie diabético en un paciente ya diagnosticado es prevención terciaria: la diabetes ya está establecida (periodo patogénico avanzado) y las intervenciones buscan prevenir una complicación específica (úlcera, infección, amputación). Es «limitación del daño» dentro de la prevención terciaria.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (limitación del daño).", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "Clasifique las siguientes intervenciones según correspondan a promoción de la salud o prevención de la enfermedad:\n\nA) Construcción de parques públicos\nB) Vacunación contra influenza\nC) Programa de tamizaje de VIH\nD) Taller de habilidades para la vida\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la clasificación correcta?",
+    "explanation": "A) Parques públicos: promoción (crea entornos que favorecen la actividad física, no se dirige a enfermedad específica). B) Vacunación: prevención primaria (protección específica contra influenza). C) Tamizaje VIH: prevención secundaria (detección temprana). D) Habilidades para la vida: promoción (fortalece aptitudes personales, no se dirige a enfermedad específica).",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "A=promoción, B=prevención primaria, C=prevención secundaria, D=promoción.", "isCorrect": true },
+      { "letter": "B", "text": "Todas son prevención primaria.", "isCorrect": false },
+      { "letter": "C", "text": "Todas son promoción de la salud.", "isCorrect": false },
+      { "letter": "D", "text": "A=prevención primaria, B=promoción, C=promoción, D=prevención terciaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": "Un sistema de salud ideal debería distribuir sus recursos de forma equilibrada entre los diferentes niveles de prevención y la atención curativa.\n\n(Redacción Study2One)",
+    "questionText": "¿Por qué los sistemas de salud que invierten más en prevención primaria y promoción tienden a tener mejores indicadores de salud poblacional?",
+    "explanation": "La prevención primaria y la promoción actúan ANTES de que ocurra la enfermedad, evitando el sufrimiento, las complicaciones y los costos del tratamiento. Cada dólar invertido en prevención ahorra múltiples dólares en atención curativa. Además, benefician a toda la población (no solo a los enfermos), generando un mayor impacto poblacional. Los sistemas centrados en la curación solo actúan después del daño.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Porque la prevención es más barata y no requiere profesionales capacitados.", "isCorrect": false },
+      { "letter": "B", "text": "Porque actuar antes de la enfermedad evita sufrimiento, complicaciones y costos, beneficiando a toda la población.", "isCorrect": true },
+      { "letter": "C", "text": "Porque la atención curativa nunca funciona y es innecesaria.", "isCorrect": false },
+      { "letter": "D", "text": "Porque la OMS obliga a los países a invertir solo en prevención.", "isCorrect": false }
+    ]
+  }
+]

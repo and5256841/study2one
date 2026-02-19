@@ -15,6 +15,7 @@ interface ModuleData {
   endDay: number;
   status: "completed" | "in_progress" | "locked";
   completedDays: number;
+  nextDay: number;
   dateRange: {
     start: string;
     end: string;
@@ -83,7 +84,7 @@ export default function RoadmapPage() {
     );
   }
 
-  const { modules, progress, currentDay, cohort } = data;
+  const { modules, progress, cohort } = data;
 
   return (
     <div className="px-4 py-6 space-y-4 pb-24">
@@ -192,10 +193,10 @@ export default function RoadmapPage() {
 
               {isCurrent && (
                 <Link
-                  href={`/day/${currentDay}`}
+                  href={`/day/${mod.nextDay}`}
                   className="block mt-3 w-full py-2 bg-gradient-to-r from-orange-600 to-orange-400 text-white text-sm font-semibold rounded-lg text-center"
                 >
-                  Continuar Dia {currentDay} →
+                  Continuar Dia {mod.nextDay} →
                 </Link>
               )}
 

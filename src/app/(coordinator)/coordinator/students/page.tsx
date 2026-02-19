@@ -1,6 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
+import EcgWaveform from "@/components/EcgWaveform";
+import { getStudentRhythmFromActivity } from "@/lib/ecg-rhythms";
 
 interface Student {
   id: string;
@@ -77,10 +80,16 @@ export default function StudentsPage() {
       <div className="space-y-2">
         {filtered.map((student) => {
           const activity = getActivityStatus(student.lastActivity);
+          const rhythm = getStudentRhythmFromActivity(
+            student.lastActivity,
+            student.streak,
+            student.avgQuizScore
+          );
           return (
-            <div
+            <Link
               key={student.id}
-              className="bg-white/5 border border-white/10 rounded-xl p-3"
+              href={`/coordinator/students/${student.id}`}
+              className="block bg-white/5 border border-white/10 rounded-xl p-3 hover:bg-white/[0.07] transition-all"
             >
               <div className="flex items-start justify-between mb-2">
                 <div className="min-w-0 flex-1">
@@ -92,13 +101,13 @@ export default function StudentsPage() {
                 </span>
               </div>
 
-              <div className="flex items-center gap-4 text-xs text-gray-400">
+              <div className="flex items-center gap-3 text-xs text-gray-400">
+                <EcgWaveform rhythm={rhythm.type} size="sm" />
                 <span>{student.daysCompleted} dias</span>
                 <span>{student.avgQuizScore}% quiz</span>
-                <span>{student.streak > 0 ? `🔥${student.streak}` : "—"}</span>
                 <span>{student.photosUploaded} fotos</span>
               </div>
-            </div>
+            </Link>
           );
         })}
 

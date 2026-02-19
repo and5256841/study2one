@@ -1,0 +1,37 @@
+[
+  {
+    "dayNumber": 26,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "PLACEHOLDER — reemplazar con pregunta real de Nefrología y Urología",
+        "explanation": "Explicación de la respuesta correcta.",
+        "competency": "Diagnóstico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Opción A", "isCorrect": true },
+          { "letter": "B", "text": "Opción B", "isCorrect": false },
+          { "letter": "C", "text": "Opción C", "isCorrect": false },
+          { "letter": "D", "text": "Opción D", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 27,
+    "questions": []
+  },
+  {
+    "dayNumber": 28,
+    "questions": []
+  },
+  {
+    "dayNumber": 29,
+    "questions": []
+  },
+  {
+    "dayNumber": 30,
+    "questions": []
+  }
+]

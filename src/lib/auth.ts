@@ -5,7 +5,6 @@ import { prisma } from "./prisma";
 
 // Force trust host in production
 const useSecureCookies = process.env.NODE_ENV === "production";
-const hostName = process.env.AUTH_URL || process.env.NEXTAUTH_URL || "http://localhost:3000";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   trustHost: true,
@@ -48,8 +47,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           name: user.fullName,
           role: user.role,
           pseudonym: user.pseudonym,
-          avatarSeed: user.avatarSeed,
-          avatarStyle: user.avatarStyle,
         };
       },
     }),
@@ -60,8 +57,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         token.role = (user as Record<string, unknown>).role as string;
         token.userId = (user as Record<string, unknown>).id as string;
         token.pseudonym = (user as Record<string, unknown>).pseudonym as string;
-        token.avatarSeed = (user as Record<string, unknown>).avatarSeed as string;
-        token.avatarStyle = (user as Record<string, unknown>).avatarStyle as string;
       }
       return token;
     },
@@ -70,8 +65,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         session.user.id = token.userId as string;
         session.user.role = token.role as "STUDENT" | "COORDINATOR" | "CLIENT";
         session.user.pseudonym = token.pseudonym as string;
-        session.user.avatarSeed = token.avatarSeed as string;
-        session.user.avatarStyle = token.avatarStyle as string;
       }
       return session;
     },
