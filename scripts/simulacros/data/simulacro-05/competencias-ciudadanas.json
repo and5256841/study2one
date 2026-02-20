@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Durante la pandemia de COVID-19, el Gobierno Nacional de Colombia declaró el estado de emergencia económica, social y ecológica (Decreto 417 de 2020), lo que le permitió emitir decretos legislativos sin pasar por el Congreso. Algunas medidas incluyeron restricciones a la movilidad, cierre de establecimientos y toques de queda. Organizaciones de la sociedad civil argumentaron que ciertas restricciones carecían de proporcionalidad y que el Congreso debía ejercer un control más activo sobre las decisiones del ejecutivo.\n\n(Redacción Study2One, con referencia al Decreto 417 de 2020)",
+    "questionText": "El mecanismo constitucional que permite al Congreso ejercer control sobre los decretos legislativos expedidos durante un estado de emergencia es:",
+    "explanation": "La Constitución Política (art. 215) establece que los decretos legislativos expedidos durante el estado de emergencia son revisados automáticamente por la Corte Constitucional y que el Congreso puede derogarlos o modificarlos. El control político del Congreso es un mecanismo democrático esencial para evitar la concentración de poder en el ejecutivo durante emergencias.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "La acción de tutela interpuesta por cualquier ciudadano ante un juez.", "isCorrect": false },
+      { "letter": "B", "text": "La revisión automática de la Corte Constitucional y la facultad del Congreso de derogar o modificar dichos decretos.", "isCorrect": true },
+      { "letter": "C", "text": "El referendo revocatorio convocado por iniciativa popular.", "isCorrect": false },
+      { "letter": "D", "text": "La declaración de inconstitucionalidad por parte del Procurador General de la Nación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "Durante una emergencia sanitaria, un gobierno restringe el derecho de reunión y la libertad de circulación. Desde la perspectiva del derecho internacional de los derechos humanos, estas restricciones son legítimas siempre que:",
+    "explanation": "El Pacto Internacional de Derechos Civiles y Políticos (art. 4) permite la suspensión de ciertos derechos en situaciones de emergencia, pero exige que las restricciones sean proporcionales a la amenaza, temporales (limitadas en el tiempo) y no discriminatorias. No se pueden suspender derechos inderogables como la vida, la prohibición de tortura o el debido proceso.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Sean aprobadas por unanimidad en el Congreso de la República.", "isCorrect": false },
+      { "letter": "B", "text": "Sean proporcionales a la amenaza, temporales y no discriminatorias.", "isCorrect": true },
+      { "letter": "C", "text": "Se apliquen exclusivamente a personas que hayan sido diagnosticadas con la enfermedad.", "isCorrect": false },
+      { "letter": "D", "text": "Cuenten con la autorización previa de la Organización Mundial de la Salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Un hospital público de tercer nivel no cuenta con rampas de acceso, los ascensores están fuera de servicio desde hace meses, la señalización no incluye sistema braille y las áreas de consulta externa carecen de intérpretes de lengua de señas colombiana. Un grupo de pacientes con discapacidad interpone una queja formal ante la Superintendencia Nacional de Salud.\n\n(Redacción Study2One)",
+    "questionText": "La normativa colombiana que fundamenta la queja de estos pacientes es principalmente:",
+    "explanation": "La Ley 1618 de 2013 establece disposiciones para garantizar el pleno ejercicio de los derechos de las personas con discapacidad, incluyendo la obligación de las instituciones de salud de eliminar barreras arquitectónicas, comunicativas y actitudinales. Colombia también ratificó la Convención sobre los Derechos de las Personas con Discapacidad (ONU, 2006), incorporada al bloque de constitucionalidad.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "La Ley 1618 de 2013, que garantiza el ejercicio de derechos de las personas con discapacidad y obliga a eliminar barreras de acceso.", "isCorrect": true },
+      { "letter": "B", "text": "La Ley 100 de 1993, que regula únicamente la afiliación al sistema de seguridad social.", "isCorrect": false },
+      { "letter": "C", "text": "El Código de Policía, que sanciona las construcciones que no cumplen normas urbanísticas.", "isCorrect": false },
+      { "letter": "D", "text": "La Ley 1010 de 2006, que regula el acoso laboral en instituciones públicas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Una clínica privada diseña un nuevo pabellón de consulta externa. El arquitecto propone incluir rampas, ascensores amplios, señalización en braille y altoparlantes de orientación. El gerente financiero argumenta que esas adecuaciones incrementan el presupuesto en un 12 % y sugiere eliminarlas para «optimizar costos», señalando que «la mayoría de los pacientes no tienen discapacidad».\n\n(Redacción Study2One)",
+    "questionText": "El argumento del gerente financiero es problemático porque:",
+    "explanation": "El diseño universal no se basa en la proporción de usuarios con discapacidad, sino en el principio de que los entornos deben ser accesibles para todas las personas, incluyendo adultos mayores, personas con movilidad reducida temporal y cuidadores con coches de bebé. Además, la Ley 1618 de 2013 y la Convención de la ONU obligan a garantizar la accesibilidad como derecho, no como privilegio optativo según criterios de costo-beneficio.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Las clínicas privadas no están obligadas a cumplir normas de accesibilidad.", "isCorrect": false },
+      { "letter": "B", "text": "El costo de las adecuaciones siempre supera el presupuesto total de cualquier obra.", "isCorrect": false },
+      { "letter": "C", "text": "La accesibilidad es un derecho, no un beneficio opcional que se suprime por razones presupuestales.", "isCorrect": true },
+      { "letter": "D", "text": "Solo los hospitales públicos deben incluir rampas y señalización en braille.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "La Ley 1616 de 2013 (Ley de Salud Mental) establece que la salud mental es un derecho fundamental, prohíbe la discriminación por razón de trastorno mental y obliga al Estado a garantizar la atención integral en salud mental con enfoque comunitario. Sin embargo, estudios recientes muestran que en Colombia persiste un fuerte estigma social hacia las personas con diagnósticos psiquiátricos, especialmente en el ámbito laboral y educativo.\n\n(Redacción Study2One, con referencia a la Ley 1616 de 2013)",
+    "questionText": "Según la Ley 1616 de 2013, la prohibición de discriminación por trastorno mental implica que:",
+    "explanation": "La Ley 1616 de 2013 (art. 6) prohíbe expresamente la discriminación de las personas por razón de su trastorno mental. Esto incluye la protección en el ámbito laboral, educativo y social. Los empleadores y las instituciones educativas no pueden negar el acceso o despedir/expulsar a alguien basándose en un diagnóstico de salud mental, a menos que exista una justificación objetiva de incapacidad funcional demostrada.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Las personas con trastornos mentales están exentas de cumplir cualquier requisito laboral.", "isCorrect": false },
+      { "letter": "B", "text": "Ninguna persona puede ser excluida del trabajo o la educación por el solo hecho de tener un diagnóstico de salud mental.", "isCorrect": true },
+      { "letter": "C", "text": "Los empleadores deben contratar un mínimo de 10 % de personas con trastornos mentales.", "isCorrect": false },
+      { "letter": "D", "text": "Los diagnósticos psiquiátricos no pueden registrarse en la historia clínica del paciente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "Un estudiante de enfermería con diagnóstico de trastorno de ansiedad generalizada solicita adaptaciones razonables para presentar sus exámenes (tiempo adicional y un espacio sin ruido). La coordinadora del programa le responde: «Si no puedes con la presión, tal vez esta carrera no es para ti». El estudiante se siente humillado y considera abandonar la carrera.\n\n(Redacción Study2One)",
+    "questionText": "La respuesta de la coordinadora constituye:",
+    "explanation": "La negativa a brindar adaptaciones razonables cuando una persona tiene un diagnóstico que lo justifica, acompañada de un comentario estigmatizante, constituye discriminación por razón de discapacidad psicosocial. La Ley 1616 de 2013 y la Ley 1618 de 2013 prohíben este tipo de actuaciones. Las instituciones educativas deben proporcionar ajustes razonables sin cuestionar la capacidad vocacional del estudiante.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Una orientación vocacional legítima basada en los estándares del programa académico.", "isCorrect": false },
+      { "letter": "B", "text": "Un acto de acoso laboral sancionado exclusivamente por la Ley 1010 de 2006.", "isCorrect": false },
+      { "letter": "C", "text": "Discriminación por razón de discapacidad psicosocial y negación de adaptaciones razonables.", "isCorrect": true },
+      { "letter": "D", "text": "Una decisión administrativa que solo puede apelar el representante estudiantil.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "En redes sociales, una persona con miles de seguidores publica que «las vacunas causan autismo» y recomienda tratamientos homeopáticos como alternativa al esquema de vacunación infantil. Un grupo de médicos responde con evidencia científica, pero el contenido desinformante ya se ha difundido masivamente. Las autoridades de salud debaten si deben solicitar la eliminación de la publicación.\n\n(Redacción Study2One)",
+    "questionText": "El dilema ético central de este caso involucra la tensión entre:",
+    "explanation": "La desinformación en salud plantea un dilema entre la libertad de expresión (derecho fundamental) y la protección de la salud pública. La censura de contenido falso puede entrar en conflicto con la libertad de expresión, pero la difusión de información que desalienta la vacunación puede causar daño poblacional (resurgimiento de enfermedades prevenibles). El equilibrio ético exige medidas proporcionales.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La libertad de expresión y la protección de la salud pública frente a la desinformación.", "isCorrect": true },
+      { "letter": "B", "text": "El derecho de autor del creador del contenido y el lucro de las plataformas digitales.", "isCorrect": false },
+      { "letter": "C", "text": "La autonomía del paciente y la obligatoriedad de la vacunación en Colombia.", "isCorrect": false },
+      { "letter": "D", "text": "La competencia entre la medicina convencional y la medicina alternativa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "Una estrategia de comunicación en salud pública que busca contrarrestar la desinformación sobre vacunas debe, como prioridad ética, asegurar que:",
+    "explanation": "La comunicación en salud debe ser veraz, basada en evidencia, culturalmente pertinente y comprensible para la población objetivo. Desacreditar personalmente a quienes difunden desinformación o censurar sin educar no aborda la raíz del problema. La estrategia más ética combina la difusión de información científica accesible con el respeto a la diversidad cultural y lingüística.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Se sancione penalmente a cualquier persona que exprese dudas sobre la vacunación.", "isCorrect": false },
+      { "letter": "B", "text": "Se restrinja el acceso a internet en zonas donde la desinformación es más prevalente.", "isCorrect": false },
+      { "letter": "C", "text": "Las farmacéuticas financien directamente las campañas informativas para garantizar su difusión.", "isCorrect": false },
+      { "letter": "D", "text": "La información sea veraz, basada en evidencia, culturalmente pertinente y comprensible para toda la población.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "El Decreto 1953 de 2014 establece un régimen especial para los territorios indígenas en Colombia, reconociendo la autonomía de los pueblos indígenas para administrar sus sistemas propios de salud. Esto incluye el uso de la medicina tradicional, la formación de agentes de salud propios y la coordinación con el Sistema General de Seguridad Social en Salud (SGSSS). Sin embargo, algunas autoridades sanitarias departamentales han intentado imponer protocolos del SGSSS sin consultar a las autoridades indígenas.\n\n(Redacción Study2One, con referencia al Decreto 1953 de 2014)",
+    "questionText": "La imposición unilateral de protocolos del SGSSS en territorios indígenas, sin consulta previa, vulnera:",
+    "explanation": "El Decreto 1953 de 2014 reconoce la autonomía de los pueblos indígenas en la administración de sus sistemas de salud. La imposición unilateral de protocolos sin consulta previa libre e informada (derecho consagrado en el Convenio 169 de la OIT y en la jurisprudencia de la Corte Constitucional) vulnera tanto la autonomía territorial como el derecho a la consulta previa.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "El derecho a la huelga de los profesionales de salud indígenas.", "isCorrect": false },
+      { "letter": "B", "text": "La autonomía territorial indígena y el derecho a la consulta previa libre e informada.", "isCorrect": true },
+      { "letter": "C", "text": "La competencia exclusiva del Ministerio de Salud para regular la medicina tradicional.", "isCorrect": false },
+      { "letter": "D", "text": "El derecho de petición de las autoridades departamentales ante el gobierno central.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Una comunidad embera-chamí del departamento de Risaralda utiliza plantas medicinales como parte de su sistema de salud ancestral. Un funcionario de la Secretaría de Salud departamental visita la comunidad y declara que la medicina tradicional «no tiene fundamento científico» y que debe ser reemplazada por la medicina occidental. El gobernador indígena solicita una mesa de diálogo intercultural.\n\n(Redacción Study2One)",
+    "questionText": "La postura del funcionario de la Secretaría de Salud refleja:",
+    "explanation": "El etnocentrismo en salud consiste en juzgar los sistemas de salud de otras culturas como inferiores o inválidos desde los parámetros exclusivos de la medicina occidental. La Constitución colombiana (art. 7) reconoce la diversidad étnica y cultural. El enfoque intercultural en salud promueve el diálogo entre sistemas, no la imposición de uno sobre otro.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Un enfoque intercultural que valora la complementariedad entre sistemas de salud.", "isCorrect": false },
+      { "letter": "B", "text": "Una aplicación correcta del principio de medicina basada en la evidencia.", "isCorrect": false },
+      { "letter": "C", "text": "Una recomendación técnica obligatoria según los protocolos del Ministerio de Salud.", "isCorrect": false },
+      { "letter": "D", "text": "Una postura etnocéntrica que desconoce la validez de los sistemas de salud indígenas.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "Una empresa farmacéutica multinacional posee la patente de un medicamento esencial para el tratamiento de la hepatitis C. El precio del tratamiento completo en Colombia supera los 80 millones de pesos, lo que lo hace inaccesible para la mayoría de los pacientes del régimen subsidiado. Organizaciones de pacientes solicitan al gobierno que declare la licencia obligatoria del medicamento para permitir la producción de genéricos más económicos.\n\n(Redacción Study2One)",
+    "questionText": "La licencia obligatoria de un medicamento patentado es un mecanismo que permite:",
+    "explanation": "La licencia obligatoria es un mecanismo contemplado en el Acuerdo sobre los ADPIC (OMC) y en la Decisión 486 de la Comunidad Andina, que permite a un gobierno autorizar la producción de un medicamento patentado sin el consentimiento del titular de la patente, cuando existe una razón de interés público (como una emergencia sanitaria o el acceso a medicamentos esenciales). No elimina la patente, pero permite la producción de genéricos.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Que el gobierno produzca o autorice la producción de genéricos de un medicamento patentado por razones de interés público.", "isCorrect": true },
+      { "letter": "B", "text": "Que los pacientes importen libremente medicamentos de cualquier país sin control sanitario.", "isCorrect": false },
+      { "letter": "C", "text": "Que la empresa farmacéutica pierda permanentemente todos sus derechos de propiedad intelectual.", "isCorrect": false },
+      { "letter": "D", "text": "Que los médicos prescriban únicamente medicamentos genéricos en todo el territorio nacional.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "Un argumento a favor de la reforma de patentes farmacéuticas que priorice el acceso a medicamentos se fundamenta en que:",
+    "explanation": "El derecho a la salud, reconocido como fundamental por la Ley 1751 de 2015 y la Constitución colombiana, prevalece sobre los intereses comerciales cuando está en juego la vida de las personas. El Comité de Derechos Económicos, Sociales y Culturales de la ONU ha señalado que los regímenes de propiedad intelectual no deben impedir el acceso a medicamentos esenciales.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Las farmacéuticas nunca invierten en investigación y solo buscan lucro.", "isCorrect": false },
+      { "letter": "B", "text": "Todos los medicamentos deberían ser gratuitos sin importar su costo de producción.", "isCorrect": false },
+      { "letter": "C", "text": "Las patentes son ilegales según el derecho internacional de los derechos humanos.", "isCorrect": false },
+      { "letter": "D", "text": "El derecho fundamental a la salud prevalece sobre los intereses comerciales cuando la vida está en riesgo.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Un hospital público implementa un algoritmo de inteligencia artificial (IA) para priorizar pacientes en la lista de espera de cirugía. El algoritmo fue entrenado con datos históricos del hospital. Tras seis meses de uso, un análisis revela que el algoritmo asigna sistemáticamente menor prioridad a pacientes afrodescendientes e indígenas, replicando patrones de discriminación presentes en los datos históricos.\n\n(Redacción Study2One)",
+    "questionText": "El sesgo identificado en el algoritmo se origina principalmente en:",
+    "explanation": "Los algoritmos de IA aprenden patrones de los datos con los que son entrenados. Si los datos históricos reflejan discriminación sistémica (por ejemplo, que ciertos grupos étnicos recibían menor atención), el algoritmo reproducirá y potencialmente amplificará esos sesgos. Esto se denomina «sesgo algorítmico por datos históricos» y es un problema ético central en la aplicación de IA en salud.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Un error de programación intencional introducido por los desarrolladores del software.", "isCorrect": false },
+      { "letter": "B", "text": "La falta de capacidad computacional del sistema informático del hospital.", "isCorrect": false },
+      { "letter": "C", "text": "Los datos históricos que reflejan patrones de discriminación preexistentes en la atención médica.", "isCorrect": true },
+      { "letter": "D", "text": "La preferencia personal de los cirujanos que configuraron el algoritmo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Continuando con el caso del algoritmo de priorización quirúrgica, el comité de ética del hospital se reúne para decidir qué hacer. Se presentan cuatro posiciones diferentes.\n\n(Redacción Study2One)",
+    "questionText": "Desde una perspectiva que integre justicia racial y ética tecnológica, la decisión más adecuada del comité sería:",
+    "explanation": "La auditoría periódica de algoritmos de IA en salud es esencial para identificar y corregir sesgos. Suspender el sistema sin evaluar alternativas podría generar otros problemas (ineficiencia, mayor arbitrariedad). La solución integral incluye auditoría, corrección de datos de entrenamiento, participación de las comunidades afectadas y supervisión humana permanente. Simplemente agregar más datos sin corregir el sesgo perpetuaría la discriminación.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Mantener el algoritmo porque la tecnología es objetiva y los resultados reflejan datos reales.", "isCorrect": false },
+      { "letter": "B", "text": "Suspender el algoritmo, realizar una auditoría de sesgos con participación de las comunidades afectadas y corregir los datos de entrenamiento.", "isCorrect": true },
+      { "letter": "C", "text": "Reemplazar el algoritmo por uno que no use ningún dato demográfico, eliminando toda variable de contexto social.", "isCorrect": false },
+      { "letter": "D", "text": "Agregar más datos al algoritmo sin modificar su estructura para que «se corrija solo» con el tiempo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "Un brote de tuberculosis multirresistente se detecta en una cárcel de alta seguridad. Las autoridades sanitarias solicitan la notificación obligatoria de todos los casos, incluyendo la identidad de los reclusos infectados, para implementar el cerco epidemiológico. Algunos reclusos se niegan a someterse al examen diagnóstico argumentando que su diagnóstico será utilizado para segregarlos dentro del penal.\n\n(Redacción Study2One)",
+    "questionText": "En este caso, la notificación obligatoria de enfermedades infecciosas se justifica éticamente porque:",
+    "explanation": "La notificación obligatoria de enfermedades de interés en salud pública se fundamenta en el principio de protección de la salud colectiva. En Colombia, el Decreto 3518 de 2006 regula el sistema de vigilancia en salud pública y establece la obligatoriedad de la notificación. Sin embargo, la información debe manejarse con confidencialidad y no puede usarse para estigmatizar o sancionar a los pacientes.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La protección de la salud colectiva prevalece sobre la privacidad individual cuando existe riesgo de propagación de una enfermedad grave.", "isCorrect": true },
+      { "letter": "B", "text": "Los reclusos pierden todos sus derechos fundamentales al ingresar al sistema penitenciario.", "isCorrect": false },
+      { "letter": "C", "text": "Las autoridades carcelarias tienen derecho ilimitado a conocer la información médica de los reclusos.", "isCorrect": false },
+      { "letter": "D", "text": "La notificación obligatoria solo aplica a enfermedades de transmisión sexual.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Un médico diagnostica VIH a un paciente que es conductor de transporte público. El paciente le pide explícitamente que no informe a nadie, incluyendo a su pareja sexual. El médico conoce la obligación de notificación epidemiológica, pero también el deber de confidencialidad médica.\n\n(Redacción Study2One)",
+    "questionText": "Desde el marco legal colombiano y la ética médica, el médico debería:",
+    "explanation": "En Colombia, el VIH es de notificación obligatoria al sistema de vigilancia epidemiológica (SIVIGILA), pero la notificación es anónima y codificada, no incluye revelación de identidad a terceros. Respecto a la pareja, la Resolución 3442 de 2006 y la jurisprudencia de la Corte Constitucional establecen que el médico debe aconsejar al paciente sobre la importancia de informar a su pareja, ofreciendo asesoría, pero no puede revelar el diagnóstico a terceros sin consentimiento, salvo orden judicial.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Informar inmediatamente a la pareja del paciente sin su consentimiento para proteger a un tercero.", "isCorrect": false },
+      { "letter": "B", "text": "No notificar a nadie y respetar absolutamente la voluntad del paciente.", "isCorrect": false },
+      { "letter": "C", "text": "Realizar la notificación epidemiológica anónima obligatoria y aconsejar al paciente sobre la importancia de informar a su pareja, ofreciendo asesoría.", "isCorrect": true },
+      { "letter": "D", "text": "Reportar el caso a la empresa de transporte para que suspendan al conductor.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Según la Organización Mundial de la Salud (OMS), el cambio climático es la mayor amenaza para la salud global del siglo XXI. En Colombia, el aumento de temperaturas ha expandido la zona endémica del dengue a municipios que antes no registraban casos, y las inundaciones recurrentes en el Pacífico colombiano han generado crisis de agua potable y brotes de enfermedades diarreicas. Las comunidades más afectadas son las que menos han contribuido a las emisiones de gases de efecto invernadero.\n\n(Redacción Study2One, basado en informes de la OMS)",
+    "questionText": "La afirmación de que «las comunidades más afectadas son las que menos han contribuido a las emisiones» plantea un problema de:",
+    "explanation": "La justicia climática reconoce que los efectos del cambio climático afectan desproporcionadamente a las poblaciones vulnerables (países del sur global, comunidades rurales, pueblos indígenas) que históricamente han contribuido menos a las emisiones. Este desequilibrio entre responsabilidad y consecuencias constituye un problema de justicia ambiental y distributiva.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Eficiencia energética en la distribución de recursos naturales.", "isCorrect": false },
+      { "letter": "B", "text": "Justicia ambiental, pues quienes menos causan el problema sufren más sus consecuencias.", "isCorrect": true },
+      { "letter": "C", "text": "Soberanía nacional sobre los recursos naturales del territorio.", "isCorrect": false },
+      { "letter": "D", "text": "Competencia comercial desleal entre países industrializados y en desarrollo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Un municipio costero del Caribe colombiano experimenta inundaciones cada vez más frecuentes debido al aumento del nivel del mar. El centro de salud del municipio ha sido inundado tres veces en dos años, destruyendo equipos médicos e interrumpiendo la atención. La alcaldía solicita recursos al gobierno nacional para reubicar el centro de salud, pero la respuesta es que «no hay presupuesto disponible».\n\n(Redacción Study2One)",
+    "questionText": "Este caso ilustra la relación entre cambio climático y salud pública desde una perspectiva sistémica porque:",
+    "explanation": "La perspectiva sistémica analiza cómo diferentes factores se interconectan. En este caso, el cambio climático (factor ambiental) afecta la infraestructura de salud (factor institucional), lo que interrumpe la atención médica (factor de servicio), impactando la salud de la población (resultado en salud). La falta de presupuesto refleja un problema de priorización política que agrava la vulnerabilidad.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Demuestra que los fenómenos ambientales impactan la infraestructura sanitaria, interrumpiendo la atención y agravando la vulnerabilidad poblacional en un ciclo que requiere respuesta intersectorial.", "isCorrect": true },
+      { "letter": "B", "text": "Prueba que el cambio climático es un problema exclusivamente ambiental sin relación con la salud.", "isCorrect": false },
+      { "letter": "C", "text": "Indica que los municipios costeros deberían invertir únicamente en infraestructura de contención marítima.", "isCorrect": false },
+      { "letter": "D", "text": "Sugiere que la atención en salud debe privatizarse para evitar depender del presupuesto público.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Una ONG publica un informe que revela que el 40 % de los adultos de un municipio rural del Amazonas colombiano no comprenden las instrucciones escritas de los medicamentos que reciben en el hospital local. El informe señala que las instrucciones están redactadas en español técnico, sin adaptaciones culturales ni lingüísticas, a pesar de que la mayoría de la población habla tikuna como lengua materna.\n\n(Redacción Study2One)",
+    "questionText": "El concepto que mejor describe la barrera identificada en este caso es:",
+    "explanation": "La alfabetización en salud (health literacy) se refiere a la capacidad de las personas para obtener, procesar y comprender información básica de salud para tomar decisiones informadas. Cuando los materiales de salud no están adaptados lingüística y culturalmente, se genera una barrera de alfabetización en salud que vulnera el derecho a la información y puede causar daños por uso inadecuado de medicamentos.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Analfabetismo general de la población, que debería resolverse con escuelas convencionales.", "isCorrect": false },
+      { "letter": "B", "text": "Negligencia exclusiva del médico prescriptor, quien debe explicar todo verbalmente.", "isCorrect": false },
+      { "letter": "C", "text": "Un problema de farmacovigilancia relacionado con la calidad del medicamento.", "isCorrect": false },
+      { "letter": "D", "text": "Falta de alfabetización en salud (health literacy), agravada por la barrera lingüística y cultural.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "Si la alfabetización en salud se reconoce como un derecho fundamental, el Estado colombiano estaría obligado a:",
+    "explanation": "Reconocer la alfabetización en salud como derecho implica la obligación estatal de producir información sanitaria accesible (lingüística, cultural y cognitivamente), garantizar la comprensión efectiva de los mensajes de salud y adaptar las estrategias de comunicación a las necesidades de cada población. Esto va más allá de la simple traducción: implica diseño participativo con las comunidades.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Exigir que todos los ciudadanos aprendan terminología médica como requisito escolar.", "isCorrect": false },
+      { "letter": "B", "text": "Prohibir el uso de lenguas indígenas en los centros de salud para estandarizar la comunicación.", "isCorrect": false },
+      { "letter": "C", "text": "Garantizar que toda información sanitaria sea accesible, comprensible y culturalmente adaptada a las diversas poblaciones del país.", "isCorrect": true },
+      { "letter": "D", "text": "Delegar toda la responsabilidad de comprensión al paciente y sus familiares.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Un grupo de estudiantes de medicina de último año realiza prácticas clínicas en un hospital universitario. Los estudiantes trabajan turnos de 12 horas, incluyendo noches y fines de semana, sin recibir remuneración ni afiliación a riesgos laborales. Un estudiante sufre un accidente con una aguja contaminada durante su turno nocturno y no recibe atención inmediata porque «no es empleado del hospital».\n\n(Redacción Study2One)",
+    "questionText": "La situación descrita vulnera los derechos de los estudiantes principalmente porque:",
+    "explanation": "Aunque los estudiantes en prácticas clínicas no tienen un contrato laboral formal, están expuestos a riesgos ocupacionales reales (biológicos, químicos, físicos). La Ley 1562 de 2012 (Sistema de Riesgos Laborales) y la Resolución 2346 de 2007 establecen que las instituciones educativas y los sitios de práctica deben garantizar la cobertura de riesgos laborales para los estudiantes en prácticas. La falta de protección es una vulneración de sus derechos.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Los estudiantes de medicina deberían cobrar un salario mínimo desde el primer semestre.", "isCorrect": false },
+      { "letter": "B", "text": "Los accidentes con agujas son responsabilidad exclusiva del estudiante que no siguió el protocolo.", "isCorrect": false },
+      { "letter": "C", "text": "Las universidades no tienen ninguna responsabilidad sobre los estudiantes fuera del campus.", "isCorrect": false },
+      { "letter": "D", "text": "Las prácticas clínicas generan riesgos ocupacionales reales y la normativa exige cobertura de riesgos laborales para estudiantes en prácticas.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "En el mismo hospital, los estudiantes de medicina organizan una reunión con la dirección académica para solicitar mejores condiciones: turnos de máximo 8 horas, afiliación a ARL, y un espacio de descanso digno. La dirección responde que «las prácticas siempre han sido así» y que «quejarse demuestra falta de vocación médica».\n\n(Redacción Study2One)",
+    "questionText": "La respuesta de la dirección académica refleja:",
+    "explanation": "La normalización de condiciones laborales precarias bajo el argumento de «vocación» o «tradición» es una forma de naturalizar la vulneración de derechos. El hecho de que una práctica sea antigua no la hace justa ni legal. Los estudiantes tienen derecho a exigir condiciones dignas sin que se cuestione su vocación. Este tipo de argumentos deslegitima las reivindicaciones laborales.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Una respuesta equilibrada que reconoce las limitaciones del sistema educativo.", "isCorrect": false },
+      { "letter": "B", "text": "La naturalización de condiciones precarias y la deslegitimación de reivindicaciones laborales mediante el argumento de la vocación.", "isCorrect": true },
+      { "letter": "C", "text": "Una postura pedagógica válida que busca preparar a los estudiantes para la realidad del sistema de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Un ejemplo de autonomía universitaria que no requiere regulación externa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Un país enfrenta una pandemia devastadora. El gobierno decreta la conscripción médica obligatoria: todos los profesionales de salud, incluyendo los recién graduados, deben reportarse en los hospitales designados bajo pena de sanción penal. Un grupo de médicos recién graduados argumenta que la obligatoriedad sin condiciones de bioseguridad adecuadas equivale a poner en riesgo sus vidas.\n\n(Redacción Study2One)",
+    "questionText": "El debate ético sobre la conscripción médica durante emergencias sanitarias enfrenta:",
+    "explanation": "La conscripción médica plantea una tensión entre el deber de servicio público (basado en el juramento hipocrático y el interés colectivo) y el derecho a la vida y la seguridad personal del profesional. Obligar a trabajar sin condiciones mínimas de bioseguridad puede constituir un trato inhumano. El equilibrio ético exige que el Estado garantice protección antes de exigir servicio.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "El deber de servicio público del profesional de salud frente a su derecho a condiciones laborales seguras que protejan su vida.", "isCorrect": true },
+      { "letter": "B", "text": "La autonomía de los hospitales privados frente a la regulación estatal del mercado laboral.", "isCorrect": false },
+      { "letter": "C", "text": "El derecho de los pacientes a elegir médico frente a la asignación obligatoria del Estado.", "isCorrect": false },
+      { "letter": "D", "text": "La competencia entre universidades para graduar más médicos durante la emergencia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "Si un gobierno decreta la conscripción médica obligatoria, ¿cuál sería el requisito ético mínimo para que la medida sea legítima?",
+    "explanation": "La legitimidad de una medida coercitiva como la conscripción médica depende de que el Estado cumpla con su parte del contrato social: garantizar equipos de protección personal, condiciones de bioseguridad, jornadas razonables y compensación justa. Imponer servicio sin protección equivale a sacrificar vidas para salvar otras, lo cual viola el principio de no instrumentalización de las personas.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Que el gobierno apruebe la medida por decreto sin consultar al sector salud.", "isCorrect": false },
+      { "letter": "B", "text": "Que se exima a los médicos mayores de 60 años de la obligación.", "isCorrect": false },
+      { "letter": "C", "text": "Que el Estado garantice condiciones de bioseguridad, protección personal y compensación justa para los profesionales convocados.", "isCorrect": true },
+      { "letter": "D", "text": "Que los médicos convocados firmen un acuerdo renunciando a cualquier reclamo posterior.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Un estudio epidemiológico en una ciudad colombiana revela que las mujeres afrodescendientes de estratos 1 y 2 tienen tres veces más probabilidad de morir por complicaciones del embarazo que las mujeres mestizas de estratos 4 y 5 de la misma ciudad. Los investigadores identifican que confluyen factores de raza, clase socioeconómica y género que interactúan para producir esta disparidad.\n\n(Redacción Study2One)",
+    "questionText": "El enfoque analítico que mejor explica cómo la combinación de raza, clase y género produce esta disparidad en salud se denomina:",
+    "explanation": "La interseccionalidad es un marco analítico que examina cómo diferentes categorías sociales (raza, clase, género, entre otras) interactúan y se refuerzan mutuamente para producir experiencias únicas de discriminación o privilegio. No se trata de sumar desventajas (raza + pobreza + género), sino de entender que la combinación crea una forma cualitativamente diferente de vulnerabilidad.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Determinismo biológico: las diferencias genéticas entre razas explican las disparidades en mortalidad materna.", "isCorrect": false },
+      { "letter": "B", "text": "Meritocracia: las mujeres de estratos altos acceden a mejor salud porque tienen mayor educación individual.", "isCorrect": false },
+      { "letter": "C", "text": "Interseccionalidad: la interacción de múltiples categorías sociales produce formas específicas de vulnerabilidad en salud.", "isCorrect": true },
+      { "letter": "D", "text": "Relativismo cultural: cada grupo étnico tiene su propia forma de entender el embarazo y sus riesgos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Una mujer trans migrante venezolana de estrato 1, que vive en una zona marginal de Bogotá, acude a un centro de salud por una infección respiratoria. En la recepción, el personal administrativo se refiere a ella con su nombre legal masculino (desconociendo su identidad de género), le pide documentos migratorios que no tiene y, al ver su apariencia, le sugiere «ir a una clínica especial». La paciente abandona el centro sin recibir atención.\n\n(Redacción Study2One)",
+    "questionText": "Este caso ilustra cómo la interseccionalidad opera en el acceso a la salud porque:",
+    "explanation": "La paciente no enfrenta discriminación solo por ser trans, solo por ser migrante, o solo por ser de estrato bajo. Es la combinación simultánea de identidad de género, estatus migratorio, clase social y condición de extranjera la que produce una barrera de acceso cualitativamente diferente a la que enfrentaría una persona con solo una de estas características. Esto es interseccionalidad en acción.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La confluencia de identidad de género, estatus migratorio y clase social crea barreras de acceso que no se explican por una sola variable.", "isCorrect": true },
+      { "letter": "B", "text": "El problema es exclusivamente de documentación migratoria y se resuelve con la regularización.", "isCorrect": false },
+      { "letter": "C", "text": "La discriminación se debe únicamente a la falta de capacitación del personal administrativo.", "isCorrect": false },
+      { "letter": "D", "text": "Las personas trans siempre deben acudir a centros de salud especializados para recibir atención adecuada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "La Ley 1733 de 2014 (Ley Consuelo Devis Saavedra) regula los servicios de cuidados paliativos en Colombia, reconociendo el derecho de todo paciente con enfermedad terminal, crónica, degenerativa e irreversible a recibir cuidados paliativos integrales. La ley también establece el derecho a desistir de tratamientos que prolonguen la vida de manera artificial.\n\n(Redacción Study2One, con referencia a la Ley 1733 de 2014)",
+    "questionText": "Según la Ley 1733 de 2014, el derecho a cuidados paliativos incluye:",
+    "explanation": "La Ley 1733 de 2014 establece que los cuidados paliativos abarcan el manejo integral del dolor, la atención psicológica, social y espiritual del paciente y su familia, y el derecho a morir con dignidad. No se limitan al control del dolor físico, sino que adoptan un enfoque holístico que incluye el bienestar emocional y la autonomía del paciente para tomar decisiones sobre su tratamiento.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "El manejo integral del dolor, la atención psicosocial y espiritual, y el derecho a tomar decisiones informadas sobre su tratamiento.", "isCorrect": true },
+      { "letter": "B", "text": "Exclusivamente el suministro de analgésicos opioides para controlar el dolor físico.", "isCorrect": false },
+      { "letter": "C", "text": "La obligación del paciente de aceptar todos los tratamientos propuestos por el equipo médico.", "isCorrect": false },
+      { "letter": "D", "text": "La eutanasia automática cuando un paciente recibe diagnóstico terminal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Una familia insiste en que al abuelo, diagnosticado con cáncer de páncreas en estadio IV y con pronóstico de semanas de vida, se le continúen aplicando ciclos de quimioterapia. El paciente, consciente y orientado, ha expresado verbalmente que desea suspender la quimioterapia y recibir solo cuidados paliativos para el dolor. El oncólogo enfrenta la presión familiar.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva del derecho al cuidado paliativo y la autonomía del paciente, el oncólogo debería:",
+    "explanation": "La Ley 1733 de 2014 y el principio de autonomía del paciente establecen que un paciente competente (consciente, orientado y capaz de tomar decisiones) tiene derecho a rechazar tratamientos y optar por cuidados paliativos. La voluntad de la familia no prevalece sobre la del paciente cuando este es competente. El médico debe respetar la decisión del paciente, documentarla y garantizar el acceso a cuidados paliativos.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Continuar la quimioterapia porque la familia tiene derecho a decidir sobre el tratamiento del paciente.", "isCorrect": false },
+      { "letter": "B", "text": "Respetar la voluntad del paciente de suspender la quimioterapia y garantizar cuidados paliativos de calidad.", "isCorrect": true },
+      { "letter": "C", "text": "Consultar al comité de ética y suspender toda atención hasta que la familia y el paciente lleguen a un acuerdo.", "isCorrect": false },
+      { "letter": "D", "text": "Aplicar un último ciclo de quimioterapia como «compromiso» entre la familia y el paciente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "El gobierno colombiano lanza un programa de telemedicina para comunidades rurales del Chocó, Guainía y Vaupés, departamentos con las mayores brechas en acceso a salud del país. Sin embargo, un diagnóstico previo muestra que el 65 % de los hogares en estas zonas no tiene acceso a internet, el 40 % no cuenta con energía eléctrica estable y la mayoría de la población mayor de 50 años no sabe usar un teléfono inteligente.\n\n(Redacción Study2One)",
+    "questionText": "El problema central de este programa de telemedicina, desde la perspectiva de equidad digital en salud, es que:",
+    "explanation": "La equidad en salud digital exige que las soluciones tecnológicas consideren las condiciones reales de acceso de la población objetivo. Implementar telemedicina donde no hay internet ni electricidad estable puede crear una «brecha digital en salud» que excluye precisamente a quienes más necesitan el servicio, ampliando la inequidad en lugar de reducirla.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Implementa tecnología sin garantizar las condiciones de acceso (conectividad, electricidad, alfabetización digital), lo que puede ampliar la brecha en lugar de cerrarla.", "isCorrect": true },
+      { "letter": "B", "text": "La telemedicina es inherentemente inferior a la atención presencial y nunca debería usarse.", "isCorrect": false },
+      { "letter": "C", "text": "Los adultos mayores son incapaces de aprender a usar tecnología y deben ser excluidos del programa.", "isCorrect": false },
+      { "letter": "D", "text": "La responsabilidad de tener internet y electricidad recae exclusivamente en los hogares.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Un hospital de una ciudad intermedia implementa un sistema de historia clínica electrónica y citas por aplicación móvil. Los pacientes jóvenes de estratos 3 y 4 se adaptan rápidamente, pero los pacientes adultos mayores de estratos 1 y 2, muchos de los cuales no tienen teléfono inteligente, no logran acceder al sistema y comienzan a perder citas.\n\n(Redacción Study2One)",
+    "questionText": "Para que la digitalización de los servicios de salud sea equitativa, la institución debería:",
+    "explanation": "La equidad en la digitalización de la salud requiere mantener canales alternativos (presencial, telefónico) para quienes no pueden acceder a la tecnología, ofrecer capacitación y acompañamiento, y diseñar interfaces accesibles. Eliminar los canales tradicionales sin garantizar la inclusión digital genera exclusión de los grupos más vulnerables.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Eliminar el sistema digital y regresar al sistema manual para que todos estén en igualdad de condiciones.", "isCorrect": false },
+      { "letter": "B", "text": "Entregar teléfonos inteligentes gratuitos a todos los pacientes del hospital.", "isCorrect": false },
+      { "letter": "C", "text": "Mantener canales alternativos (presencial y telefónico), ofrecer capacitación digital y diseñar interfaces accesibles para adultos mayores.", "isCorrect": true },
+      { "letter": "D", "text": "Exigir que los familiares jóvenes gestionen las citas de los adultos mayores.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "En una ciudad colombiana se observan las siguientes tendencias simultáneas: (1) aumento de temperaturas promedio de 2 °C en la última década; (2) expansión del rango geográfico del mosquito Aedes aegypti a barrios de mayor altitud; (3) incremento de casos de dengue en zonas que antes eran libres de la enfermedad; (4) colapso del sistema de alcantarillado por lluvias torrenciales más frecuentes; (5) aumento de enfermedades respiratorias por olas de calor; (6) migración interna de campesinos desplazados por sequías prolongadas.\n\n(Redacción Study2One)",
+    "questionText": "Un análisis sistémico de estas tendencias permite concluir que:",
+    "explanation": "El pensamiento sistémico reconoce que los fenómenos de salud pública no son aislados sino que forman parte de cadenas causales interconectadas. El cambio climático no solo causa enfermedades directas (calor, vectores) sino que desencadena efectos en cascada: migración, colapso de infraestructura, nuevos patrones epidemiológicos y sobrecarga del sistema de salud. Abordar solo un eslabón sin entender el sistema completo resulta insuficiente.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "El cambio climático genera efectos en cascada que interconectan factores ambientales, epidemiológicos, de infraestructura y sociales, requiriendo respuestas intersectoriales.", "isCorrect": true },
+      { "letter": "B", "text": "Cada uno de estos problemas tiene una causa independiente y debe abordarse por separado.", "isCorrect": false },
+      { "letter": "C", "text": "La solución es únicamente fumigar los barrios afectados por el mosquito Aedes aegypti.", "isCorrect": false },
+      { "letter": "D", "text": "Estos problemas son temporales y se resolverán naturalmente cuando el clima se estabilice.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Una gobernación implementa un programa de salud digital que incluye: teleconsultas, prescripción electrónica, historia clínica compartida en la nube y monitoreo remoto de pacientes crónicos con dispositivos wearable. Un mes después del lanzamiento, se descubre que los datos de 15 000 pacientes fueron filtrados en la dark web, incluyendo diagnósticos de VIH, trastornos psiquiátricos y consumo de sustancias.\n\n(Redacción Study2One)",
+    "questionText": "La filtración de datos sensibles de salud tiene consecuencias particularmente graves porque:",
+    "explanation": "Los datos de salud son información sensible cuya filtración puede generar discriminación laboral, estigma social, exclusión de servicios financieros (seguros) y daño psicológico irreversible. A diferencia de datos financieros que pueden restablecerse, un diagnóstico filtrado no puede «deshacerse». La Ley 1581 de 2012 (Protección de Datos Personales) clasifica los datos de salud como «datos sensibles» con el máximo nivel de protección.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "La única consecuencia es una multa económica para la gobernación por parte de la Superintendencia de Industria y Comercio.", "isCorrect": false },
+      { "letter": "B", "text": "Los diagnósticos filtrados pueden generar discriminación, estigma y daño irreversible que no se revierte cambiando una contraseña.", "isCorrect": true },
+      { "letter": "C", "text": "Los datos de salud no son considerados datos sensibles por la legislación colombiana.", "isCorrect": false },
+      { "letter": "D", "text": "La filtración solo afecta a los pacientes con VIH, no a los demás.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Un gobierno local distribuye tabletas electrónicas en escuelas rurales con una aplicación de educación en salud sexual y reproductiva. Algunas comunidades religiosas se oponen argumentando que el contenido contradice sus valores. Los adolescentes de esas comunidades tienen las tasas más altas de embarazo adolescente del departamento.\n\n(Redacción Study2One)",
+    "questionText": "Desde una perspectiva de derechos, la decisión más adecuada sería:",
+    "explanation": "Los derechos sexuales y reproductivos de los adolescentes, incluyendo el acceso a información en salud, están protegidos por la Constitución colombiana y tratados internacionales (Convención sobre los Derechos del Niño). Las creencias de la comunidad no pueden anular el derecho del adolescente a recibir información vital. Sin embargo, la implementación debe ser culturalmente sensible y promover el diálogo, no la imposición.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Retirar las tabletas de las comunidades que se oponen para respetar su libertad religiosa.", "isCorrect": false },
+      { "letter": "B", "text": "Imponer el programa sin ningún tipo de consulta con las comunidades.", "isCorrect": false },
+      { "letter": "C", "text": "Limitar el contenido de la aplicación a información sobre abstinencia sexual exclusivamente.", "isCorrect": false },
+      { "letter": "D", "text": "Garantizar el acceso a la información de salud sexual como derecho de los adolescentes, promoviendo el diálogo respetuoso con las comunidades.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Un estudio revela que en un departamento colombiano: (1) el 30 % de los municipios no tiene médico permanente; (2) el 45 % de las EPS tienen más de 60 días de mora en pagos a los hospitales públicos; (3) los hospitales con pagos atrasados reducen sus servicios, aumentando las remisiones a ciudades capitales; (4) los pacientes rurales deben recorrer más de 4 horas para llegar a la capital; (5) la tasa de mortalidad por causas evitables en zonas rurales es tres veces mayor que en la capital departamental.\n\n(Redacción Study2One)",
+    "questionText": "Este caso ilustra un problema de tipo sistémico porque:",
+    "explanation": "El pensamiento sistémico identifica cómo diferentes elementos de un sistema interactúan para producir resultados. Aquí, la falta de médicos, la mora en pagos de EPS, la reducción de servicios, las distancias geográficas y la mortalidad evitable forman una cadena causal donde cada factor refuerza al siguiente. Abordar solo uno (por ejemplo, enviar médicos) sin resolver los pagos, la infraestructura y las distancias no resolverá el problema.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "La falta de médicos, la mora financiera, la reducción de servicios y las distancias geográficas forman una cadena causal donde cada factor agrava a los demás.", "isCorrect": true },
+      { "letter": "B", "text": "El problema se resuelve únicamente enviando más médicos a los municipios rurales.", "isCorrect": false },
+      { "letter": "C", "text": "La mortalidad rural es inevitable debido a la geografía del país.", "isCorrect": false },
+      { "letter": "D", "text": "La responsabilidad recae exclusivamente en las EPS que no pagan a tiempo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "Una comunidad indígena del Vaupés solicita que su sistema de medicina tradicional sea integrado formalmente al sistema de salud departamental, de modo que los jaibaná (médicos tradicionales) puedan atender a los pacientes de la comunidad con reconocimiento oficial. Un grupo de médicos occidentales se opone argumentando que la medicina tradicional no cumple con los estándares de evidencia científica. Un tercer grupo propone un modelo de interculturalidad donde ambos sistemas coexistan con protocolos de articulación y derivación mutua.\n\n(Redacción Study2One)",
+    "questionText": "El modelo intercultural de articulación entre medicina tradicional y medicina occidental es valioso porque:",
+    "explanation": "El modelo intercultural en salud reconoce que ningún sistema de salud es universal ni completo por sí solo. La articulación entre sistemas permite que los pacientes accedan a lo mejor de ambos, respetando la cosmovisión de las comunidades indígenas y aprovechando los avances de la medicina basada en evidencia. Los protocolos de articulación y derivación garantizan que los pacientes reciban la atención más adecuada según su condición, sin jerarquizar un sistema sobre otro.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Reemplaza completamente la medicina occidental, que ha fracasado en territorios indígenas.", "isCorrect": false },
+      { "letter": "B", "text": "Reconoce la validez de ambos sistemas y establece protocolos de articulación que benefician al paciente sin imponer una visión sobre otra.", "isCorrect": true },
+      { "letter": "C", "text": "Permite que los jaibaná prescriban medicamentos farmacéuticos sin necesidad de formación adicional.", "isCorrect": false },
+      { "letter": "D", "text": "Elimina la necesidad de que el Estado invierta en infraestructura de salud en territorios indígenas.", "isCorrect": false }
+    ]
+  }
+]

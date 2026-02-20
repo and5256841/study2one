@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "La Resolución 429 de 2016 adoptó la Política de Atención Integral en Salud (PAIS) en Colombia, estableciendo un marco operativo que articula las rutas integrales de atención en salud (RIAS), el modelo integral de atención en salud (MIAS) y la gestión integral del riesgo en salud (GIRS). Un departamento con alta dispersión geográfica y comunidades indígenas enfrenta dificultades para implementar la PAIS debido a la fragmentación de sus prestadores de servicios y la ausencia de un modelo de atención adaptado al contexto territorial.\n\n(Redacción Study2One, con referencia a la Resolución 429 de 2016)",
+    "questionText": "Según la Resolución 429 de 2016, ¿cuál componente de la PAIS permite articular prestadores de diferentes niveles de complejidad en un territorio específico?",
+    "explanation": "La PAIS establece el Modelo Integral de Atención en Salud (MIAS) como el componente que organiza de manera articulada y coordinada los prestadores de servicios de salud en un territorio, conformando redes integrales de prestación de servicios de salud (RIPSS). Esto permite superar la fragmentación y garantizar atención continua e integral, especialmente en territorios con dispersión geográfica.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "La Ruta Integral de Atención para la Promoción y Mantenimiento de la Salud (RPMS).", "isCorrect": false },
+      { "letter": "B", "text": "El Modelo Integral de Atención en Salud (MIAS) mediante redes integrales de prestación.", "isCorrect": true },
+      { "letter": "C", "text": "El Plan Decenal de Salud Pública como instrumento de planificación territorial.", "isCorrect": false },
+      { "letter": "D", "text": "La habilitación individual de cada prestador de servicios de salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Una EPS con 250.000 afiliados en el departamento de Nariño ha implementado un modelo predictivo de riesgo poblacional que utiliza datos de consultas, hospitalizaciones, medicamentos dispensados y variables sociodemográficas. El modelo clasifica a los afiliados en cinco niveles de riesgo: mínimo, bajo, moderado, alto y muy alto. El 3 % de la población fue clasificada como riesgo «muy alto» y concentra el 42 % del gasto en salud.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la principal utilidad del modelo predictivo de riesgo poblacional descrito en este caso?",
+    "explanation": "Los modelos predictivos de riesgo poblacional permiten focalizar recursos y diseñar intervenciones diferenciadas según el nivel de riesgo de cada grupo poblacional. Al identificar que el 3 % de la población concentra el 42 % del gasto, la EPS puede priorizar programas de gestión de enfermedades crónicas, seguimiento domiciliario y coordinación de cuidados para ese grupo, mejorando resultados y optimizando recursos.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Reducir automáticamente la prima de aseguramiento para los afiliados de bajo riesgo.", "isCorrect": false },
+      { "letter": "B", "text": "Focalizar intervenciones y recursos en los grupos de mayor riesgo para mejorar resultados en salud.", "isCorrect": true },
+      { "letter": "C", "text": "Excluir del plan de beneficios a los afiliados clasificados como riesgo muy alto.", "isCorrect": false },
+      { "letter": "D", "text": "Reemplazar la valoración clínica presencial por algoritmos automatizados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Un programa de gestión integral de enfermedades crónicas en una IPS de Medellín atiende a 4.800 pacientes con diabetes mellitus tipo 2, hipertensión arterial y enfermedad renal crónica. El programa incluye educación grupal, ajuste farmacológico protocolizado, seguimiento telefónico mensual y visita domiciliaria trimestral. En 18 meses, la tasa de hospitalización por crisis hipertensiva se redujo en un 38 % y la hemoglobina glicosilada promedio bajó de 8,9 % a 7,2 %.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué elemento del programa contribuye de forma más directa a la continuidad del cuidado entre las consultas presenciales?",
+    "explanation": "El seguimiento telefónico mensual y la visita domiciliaria trimestral son los elementos que aseguran la continuidad del cuidado entre consultas presenciales. Permiten detectar descompensaciones tempranas, reforzar la adherencia terapéutica y resolver dudas sin esperar a la próxima cita programada. La educación grupal y el ajuste farmacológico son importantes pero ocurren en el encuentro presencial.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "La educación grupal realizada en las instalaciones de la IPS.", "isCorrect": false },
+      { "letter": "B", "text": "El seguimiento telefónico mensual y la visita domiciliaria trimestral.", "isCorrect": true },
+      { "letter": "C", "text": "La solicitud de exámenes de laboratorio semestrales.", "isCorrect": false },
+      { "letter": "D", "text": "El registro del paciente en la base de datos del programa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Colombia ha avanzado en la implementación de la salud digital mediante la Historia Clínica Electrónica Interoperable, regulada por la Ley 2015 de 2020 y la Resolución 866 de 2021. Un hospital universitario en Bogotá ha implementado un expediente clínico electrónico (ECE) que se conecta con la red de laboratorios, farmacias y centros de imágenes diagnósticas de la ciudad, permitiendo que cualquier profesional autorizado acceda al historial completo del paciente.\n\n(Redacción Study2One, con referencia a normativa colombiana)",
+    "questionText": "¿Cuál es el principal beneficio de la interoperabilidad del expediente clínico electrónico para la atención en salud?",
+    "explanation": "La interoperabilidad del ECE permite que diferentes prestadores compartan y accedan a la información clínica del paciente en tiempo real, evitando la duplicación de exámenes, previniendo interacciones medicamentosas y garantizando decisiones clínicas basadas en el historial completo. La Ley 2015 de 2020 estableció la obligatoriedad de la interoperabilidad de la historia clínica electrónica en Colombia.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Eliminar la necesidad de consentimiento informado para procedimientos.", "isCorrect": false },
+      { "letter": "B", "text": "Permitir el acceso compartido a la información clínica entre prestadores, mejorando la continuidad y seguridad del cuidado.", "isCorrect": true },
+      { "letter": "C", "text": "Reducir el número de profesionales de salud necesarios en cada institución.", "isCorrect": false },
+      { "letter": "D", "text": "Transferir la responsabilidad del diagnóstico al sistema informático.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Un estudio multicéntrico realizado en cinco países de América Latina evaluó el impacto de los determinantes comerciales de la salud sobre la morbimortalidad por enfermedades no transmisibles (ENT). Los investigadores analizaron tres industrias: tabaco, alcohol y alimentos ultraprocesados. Los hallazgos mostraron que en Colombia, entre 2010 y 2022, el consumo per cápita de bebidas azucaradas aumentó un 27 %, mientras que la prevalencia de obesidad en adultos pasó del 16 % al 23 %. Las estrategias de marketing de estas industrias se dirigieron desproporcionadamente a poblaciones de menores ingresos.\n\n(Datos ficticios — Redacción Study2One, con referencia a literatura de salud pública)",
+    "questionText": "¿Qué se entiende por «determinantes comerciales de la salud» en el contexto de este estudio?",
+    "explanation": "Los determinantes comerciales de la salud se refieren a las estrategias y prácticas de las industrias del sector privado que afectan negativamente la salud poblacional. Incluyen el marketing agresivo de productos nocivos (tabaco, alcohol, ultraprocesados), el cabildeo contra regulaciones sanitarias y la influencia en políticas públicas. No son simplemente factores económicos individuales sino prácticas corporativas sistémicas.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "El nivel de ingreso individual que determina el acceso a servicios de salud.", "isCorrect": false },
+      { "letter": "B", "text": "Las estrategias y prácticas de industrias privadas que impactan negativamente la salud de las poblaciones.", "isCorrect": true },
+      { "letter": "C", "text": "Los costos de los medicamentos en el mercado farmacéutico.", "isCorrect": false },
+      { "letter": "D", "text": "La inversión pública en infraestructura hospitalaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "La meta 3.8 de los Objetivos de Desarrollo Sostenible (ODS) establece: «Lograr la cobertura sanitaria universal, incluida la protección contra los riesgos financieros, el acceso a servicios de salud esenciales de calidad y el acceso a medicamentos y vacunas inocuos, eficaces, asequibles y de calidad para todos». Colombia reporta una cobertura de afiliación al SGSSS del 99,2 % (2024), pero el gasto de bolsillo en salud representa el 15 % del gasto total en salud.\n\n(Redacción Study2One, con referencia al ODS 3 y datos del Ministerio de Salud)",
+    "questionText": "Según los datos presentados, ¿por qué la alta cobertura de afiliación no garantiza por sí sola la cobertura universal de salud?",
+    "explanation": "La cobertura universal de salud, según el ODS 3.8, tiene tres dimensiones: cobertura poblacional (afiliación), cobertura de servicios (acceso efectivo) y protección financiera (sin gasto catastrófico). Aunque Colombia tiene alta afiliación (99,2 %), el gasto de bolsillo del 15 % indica que persisten barreras financieras que impiden la protección financiera completa. Afiliación no equivale a acceso efectivo ni a protección contra riesgo financiero.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Porque la cobertura universal requiere que todos los servicios sean gratuitos sin excepción.", "isCorrect": false },
+      { "letter": "B", "text": "Porque la afiliación no garantiza acceso efectivo a servicios ni protección financiera contra gastos catastróficos.", "isCorrect": true },
+      { "letter": "C", "text": "Porque la OMS recomienda un mínimo de cobertura del 100 % para considerar universal un sistema.", "isCorrect": false },
+      { "letter": "D", "text": "Porque el SGSSS no incluye medicamentos ni vacunas en su plan de beneficios.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Una investigación cualitativa en tres ciudades colombianas (Bogotá, Cali y Barranquilla) exploró las barreras de acceso a servicios de salud para personas de la comunidad LGBTIQ+. Los hallazgos incluyeron: discriminación por parte de personal de salud (reportada por el 47 % de participantes trans), ausencia de protocolos diferenciados para personas transgénero, falta de formación del personal en diversidad sexual y de género, y autoexclusión por experiencias previas de maltrato institucional.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál de las siguientes estrategias abordaría de manera más integral las barreras identificadas en el estudio?",
+    "explanation": "Las barreras identificadas son multidimensionales: actitudinales (discriminación), organizacionales (ausencia de protocolos) y formativas (falta de capacitación). Una estrategia integral debe abordar todas estas dimensiones simultáneamente: formación en competencias culturales para el personal, protocolos de atención diferenciada y mecanismos de denuncia. Abordar solo una dimensión dejaría intactas las demás barreras.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Crear hospitales exclusivos para la población LGBTIQ+ en cada ciudad.", "isCorrect": false },
+      { "letter": "B", "text": "Implementar formación obligatoria en diversidad sexual y de género, protocolos de atención diferenciada y mecanismos de denuncia contra discriminación.", "isCorrect": true },
+      { "letter": "C", "text": "Asignar un único profesional de salud especializado en diversidad por cada IPS.", "isCorrect": false },
+      { "letter": "D", "text": "Publicar una campaña en redes sociales sobre respeto a la diversidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "El concepto de gobernanza del sistema de salud, según la OMS, se refiere a la función de rectoría que ejerce la autoridad sanitaria para establecer, implementar y monitorizar las reglas del sistema, garantizando la rendición de cuentas y la participación ciudadana. En Colombia, el Ministerio de Salud y Protección Social ejerce la rectoría del SGSSS, mientras que las Secretarías de Salud departamentales y distritales tienen funciones de inspección, vigilancia y control en sus territorios.\n\n(Redacción Study2One, con referencia al marco de gobernanza de la OMS)",
+    "questionText": "¿Cuál es la función principal de la gobernanza en el sistema de salud colombiano?",
+    "explanation": "La gobernanza en salud se centra en la función de rectoría: establecer la dirección estratégica del sistema, definir las reglas de juego, regular a los actores y garantizar que el sistema cumpla sus objetivos. No se limita a prestar servicios (función de los prestadores) ni a asegurar (función de las EPS), sino que orienta y regula a todos los actores del sistema.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Prestar directamente los servicios de salud a la población.", "isCorrect": false },
+      { "letter": "B", "text": "Ejercer la rectoría del sistema, estableciendo reglas, regulando actores y garantizando la dirección estratégica.", "isCorrect": true },
+      { "letter": "C", "text": "Administrar los recursos financieros del régimen contributivo.", "isCorrect": false },
+      { "letter": "D", "text": "Sustituir a las EPS en la gestión del riesgo en salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "La Secretaría de Salud de un departamento del Pacífico colombiano publica anualmente un informe de rendición de cuentas en salud que incluye: ejecución presupuestal del plan territorial de salud, indicadores de resultado (mortalidad materna, mortalidad infantil, cobertura de vacunación), acciones de vigilancia en salud pública y respuesta a derechos de petición y tutelas. En 2024, la comunidad señaló que el informe no incluía la percepción ciudadana ni los resultados de la participación comunitaria en la toma de decisiones.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué componente falta en el proceso de rendición de cuentas descrito para que sea verdaderamente integral?",
+    "explanation": "La rendición de cuentas integral en salud, según los lineamientos del MSPS, debe incluir tres componentes: información (datos e indicadores), diálogo (espacios de interlocución con la comunidad) y responsabilidad (mecanismos de respuesta a la ciudadanía). El informe descrito tiene información e indicadores pero carece del componente de diálogo y participación ciudadana efectiva en la evaluación de la gestión.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "La publicación de estados financieros auditados por la Contraloría.", "isCorrect": false },
+      { "letter": "B", "text": "La inclusión de la percepción ciudadana y la participación comunitaria en la evaluación de la gestión.", "isCorrect": true },
+      { "letter": "C", "text": "La divulgación de la lista completa de empleados de la Secretaría.", "isCorrect": false },
+      { "letter": "D", "text": "La comparación con indicadores de departamentos vecinos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "El Centro Regulador de Urgencias y Emergencias (CRUE) de Bogotá coordina la referencia y contrarreferencia de pacientes con urgencias vitales en la red de prestadores del Distrito Capital. Durante un fin de semana con un evento masivo (concierto con 80.000 asistentes), el CRUE activó el protocolo de atención de eventos de afluencia masiva, estableciendo comunicación en tiempo real con 12 hospitales, 25 ambulancias y los organismos de socorro.\n\n(Redacción Study2One, con referencia al funcionamiento de los CRUE)",
+    "questionText": "¿Cuál es la función principal del CRUE en el escenario descrito?",
+    "explanation": "Los CRUE tienen como función principal la coordinación de la respuesta del sector salud ante urgencias, emergencias y desastres. En eventos de afluencia masiva, el CRUE centraliza la información sobre disponibilidad de camas, coordina el despacho de ambulancias y distribuye pacientes entre hospitales según su capacidad y nivel de complejidad. No presta atención directa ni reemplaza a los organismos de socorro.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Prestar atención médica directa a los asistentes del evento masivo.", "isCorrect": false },
+      { "letter": "B", "text": "Coordinar la respuesta del sector salud, articulando hospitales, ambulancias y organismos de socorro.", "isCorrect": true },
+      { "letter": "C", "text": "Emitir sanciones a los hospitales que no acepten pacientes referidos.", "isCorrect": false },
+      { "letter": "D", "text": "Autorizar los permisos de funcionamiento del evento masivo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "La estrategia AIEPI (Atención Integrada a las Enfermedades Prevalentes de la Infancia) incluye un componente clínico que orienta al profesional de salud en la evaluación, clasificación y tratamiento de niños menores de 5 años. En un centro de salud rural del Chocó, un médico general evalúa a un niño de 2 años con tos, fiebre de 38,5 °C y respiración rápida (52 respiraciones/minuto). El niño no presenta tiraje subcostal ni estridor.\n\n(Datos ficticios — Redacción Study2One, con referencia a AIEPI clínico)",
+    "questionText": "Según la clasificación de AIEPI clínico, ¿cómo se clasifica este caso y cuál es la conducta adecuada?",
+    "explanation": "Según AIEPI clínico, un niño de 2 años con tos y respiración rápida (≥ 50 resp/min para 12-59 meses) sin tiraje subcostal ni signos de peligro se clasifica como «neumonía» (amarillo). La conducta es tratar con antibiótico oral (amoxicilina), enseñar signos de alarma a la madre y citar a control en 2 días. Si tuviera tiraje subcostal sería «neumonía grave» (referir urgente).",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "No es neumonía (clasificación verde): solo requiere manejo sintomático en casa.", "isCorrect": false },
+      { "letter": "B", "text": "Neumonía (clasificación amarilla): tratar con antibiótico oral y control en 2 días.", "isCorrect": true },
+      { "letter": "C", "text": "Neumonía grave (clasificación roja): referir inmediatamente al hospital.", "isCorrect": false },
+      { "letter": "D", "text": "Bronquiolitis viral: no requiere antibiótico ni clasificación AIEPI.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "El Plan Nacional de Seguridad Alimentaria y Nutricional (PNSAN) de Colombia establece ejes estratégicos para garantizar que la población tenga acceso a alimentos suficientes, inocuos y nutritivos. Un municipio del Cauca presenta los siguientes indicadores:\n\n• Desnutrición crónica en menores de 5 años: 18,4 % (promedio nacional: 10,8 %)\n• Inseguridad alimentaria en hogares: 62 % (promedio nacional: 54,2 %)\n• Cobertura de programa de complementación alimentaria escolar: 45 %\n• Prevalencia de anemia en gestantes: 32 % (promedio nacional: 17,9 %)\n\n(Datos ficticios — Redacción Study2One, con referencia al PNSAN)",
+    "questionText": "¿Cuál indicador refleja con mayor precisión un problema estructural de acceso a alimentos en este municipio?",
+    "explanation": "La desnutrición crónica (baja talla para la edad) es un indicador de privación alimentaria sostenida en el tiempo. A diferencia de la desnutrición aguda (que refleja una crisis reciente), la crónica evidencia un problema estructural de acceso insuficiente a alimentos nutritivos durante períodos prolongados, generalmente asociado a pobreza, inequidad y falta de acceso a servicios básicos. El 18,4 % es casi el doble del promedio nacional.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La cobertura del programa de complementación alimentaria escolar.", "isCorrect": false },
+      { "letter": "B", "text": "La desnutrición crónica en menores de 5 años.", "isCorrect": true },
+      { "letter": "C", "text": "La prevalencia de anemia en gestantes.", "isCorrect": false },
+      { "letter": "D", "text": "El porcentaje de inseguridad alimentaria en hogares.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Un programa de salud bucal en el departamento del Atlántico se diseñó como prioridad de salud pública tras observar que el índice COP-D (dientes cariados, obturados y perdidos) en niños de 12 años era de 4,8 (promedio nacional: 1,5). El programa incluye fluorización del agua en cabeceras municipales, aplicación semestral de sellantes y barniz de flúor en escolares, y educación en técnica de cepillado. Tras 3 años, el COP-D bajó a 2,9.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué tipo de intervención representa la fluorización del agua dentro de la estrategia de salud bucal?",
+    "explanation": "La fluorización del agua es una intervención de protección específica de alcance poblacional (colectiva), ya que se aplica a toda la población que consume el agua del acueducto sin requerir acción individual. Es una de las intervenciones de salud pública más costo-efectivas para la prevención de caries dental. A diferencia de los sellantes o el barniz de flúor (protección específica individual), la fluorización del agua es una medida colectiva.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Una intervención de tratamiento curativo individual.", "isCorrect": false },
+      { "letter": "B", "text": "Una intervención de protección específica de alcance poblacional.", "isCorrect": true },
+      { "letter": "C", "text": "Una intervención de rehabilitación oral comunitaria.", "isCorrect": false },
+      { "letter": "D", "text": "Una intervención de diagnóstico precoz y tratamiento oportuno.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Un programa de salud mental comunitaria en Tumaco (Nariño), zona afectada por el conflicto armado, implementa la rehabilitación basada en comunidad (RBC) para personas con trastornos mentales. El programa forma líderes comunitarios como agentes de salud mental, establece grupos de apoyo mutuo, coordina con la red de prestadores para referencia de casos graves y promueve la integración social y productiva de las personas con discapacidad psicosocial.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el principio fundamental de la rehabilitación basada en comunidad (RBC) en salud mental?",
+    "explanation": "La RBC en salud mental se fundamenta en la integración social y la participación activa de la comunidad como recurso terapéutico. No busca institucionalizar ni medicalizar al paciente, sino potenciar los recursos comunitarios existentes (líderes, familias, organizaciones) para apoyar la recuperación y la inclusión social. Se basa en la premisa de que la comunidad es el entorno natural de rehabilitación.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Centralizar la atención en salud mental en hospitales psiquiátricos especializados.", "isCorrect": false },
+      { "letter": "B", "text": "Potenciar los recursos comunitarios para la rehabilitación e inclusión social de personas con trastornos mentales.", "isCorrect": true },
+      { "letter": "C", "text": "Limitar la atención a la prescripción de psicofármacos por parte de psiquiatras.", "isCorrect": false },
+      { "letter": "D", "text": "Aislar a las personas con trastornos mentales graves para protección de la comunidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "Un equipo de investigación evalúa la cobertura efectiva de servicios de salud en un departamento colombiano. Definen cobertura efectiva como la proporción de la población que necesita un servicio, lo recibe y obtiene el resultado esperado en salud. Los datos recopilados son:\n\n• Cobertura de control prenatal (≥ 4 controles): 78 %\n• Proporción de gestantes con control prenatal que detectaron y trataron oportunamente la preeclampsia: 52 %\n• Mortalidad materna por trastornos hipertensivos: 45 por 100.000 nacidos vivos\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la cobertura efectiva del control prenatal para la detección de preeclampsia en este departamento?",
+    "explanation": "La cobertura efectiva combina el acceso al servicio con la calidad del resultado. Si el 78 % de las gestantes tiene ≥ 4 controles y de esas solo el 52 % tuvo detección y tratamiento oportuno de preeclampsia, la cobertura efectiva es 0,78 × 0,52 = 0,4056 ≈ 40,6 %. Esto muestra que la cobertura nominal (78 %) sobreestima el impacto real del programa si no se considera la calidad de la atención recibida.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "78 %, equivalente a la cobertura de control prenatal.", "isCorrect": false },
+      { "letter": "B", "text": "Aproximadamente 40,6 %, resultado de multiplicar la cobertura de acceso por la calidad del resultado.", "isCorrect": true },
+      { "letter": "C", "text": "52 %, equivalente a la proporción que detectó preeclampsia oportunamente.", "isCorrect": false },
+      { "letter": "D", "text": "100 % menos la tasa de mortalidad materna.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "La Resolución 429 de 2016 define la Gestión Integral del Riesgo en Salud (GIRS) como una estrategia que articula las acciones individuales y colectivas para anticipar, mitigar y controlar el riesgo en salud de la población. Una EPS del Eje Cafetero implementa la GIRS para sus 180.000 afiliados, utilizando cohortes de riesgo, rutas de atención y planes de cuidado individualizados.\n\n(Redacción Study2One, con referencia a la Resolución 429 de 2016)",
+    "questionText": "Según la PAIS, ¿cuál actor del sistema es el principal responsable de la Gestión Integral del Riesgo en Salud?",
+    "explanation": "Según la Resolución 429 de 2016, la GIRS es responsabilidad principal de las Entidades Administradoras de Planes de Beneficios (EAPB/EPS), quienes deben conocer el perfil de riesgo de su población afiliada, conformar cohortes de riesgo y articular las intervenciones necesarias con los prestadores. Los prestadores ejecutan las intervenciones pero la gestión integral del riesgo recae en el asegurador.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Las IPS como prestadoras directas de los servicios de salud.", "isCorrect": false },
+      { "letter": "B", "text": "Las EPS/EAPB como entidades responsables de la gestión del riesgo de su población afiliada.", "isCorrect": true },
+      { "letter": "C", "text": "Las Secretarías de Salud departamentales como autoridades sanitarias.", "isCorrect": false },
+      { "letter": "D", "text": "Los usuarios del sistema como responsables de su autocuidado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Un hospital de segundo nivel en el Huila implementó un sistema de telemedicina para consultas de dermatología y cardiología. Durante el primer año, el sistema atendió 3.200 teleconsultas. Los datos muestran:\n\n• Tiempo promedio de espera para teleconsulta: 8 días (presencial: 45 días)\n• Satisfacción del usuario: 82 %\n• Porcentaje de teleconsultas que requirieron referencia presencial posterior: 18 %\n• Reducción de desplazamientos de pacientes rurales: 74 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál indicador es más relevante para evaluar la efectividad de la telemedicina en reducir barreras de acceso geográfico?",
+    "explanation": "La reducción del 74 % en desplazamientos de pacientes rurales es el indicador más directamente relacionado con la superación de barreras de acceso geográfico, que es el principal objetivo de la telemedicina en zonas rurales. El tiempo de espera mide oportunidad, la satisfacción mide experiencia del usuario y las referencias miden la resolutividad del servicio, pero no la barrera geográfica específicamente.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "La satisfacción del usuario con el servicio de telemedicina.", "isCorrect": false },
+      { "letter": "B", "text": "La reducción del 74 % en desplazamientos de pacientes rurales.", "isCorrect": true },
+      { "letter": "C", "text": "El tiempo promedio de espera para la teleconsulta.", "isCorrect": false },
+      { "letter": "D", "text": "El porcentaje de teleconsultas que requirieron referencia presencial.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "La industria tabacalera en Colombia enfrenta regulaciones progresivas desde la Ley 1335 de 2009 (espacios libres de humo) y la adhesión al Convenio Marco de la OMS para el Control del Tabaco. Sin embargo, un informe de vigilancia epidemiológica muestra que el 38 % de los fumadores colombianos son menores de 25 años y que las estrategias de marketing de cigarrillos electrónicos y vapeadores se dirigen principalmente a jóvenes a través de redes sociales y eventos musicales.\n\n(Redacción Study2One, con referencia a normativa antitabaco)",
+    "questionText": "Desde la perspectiva de los determinantes comerciales de la salud, ¿cuál intervención regulatoria sería más efectiva para contrarrestar el marketing de cigarrillos electrónicos dirigido a jóvenes?",
+    "explanation": "La prohibición total de publicidad, promoción y patrocinio de productos de tabaco y nicotina, incluyendo cigarrillos electrónicos, es la medida recomendada por el Convenio Marco de la OMS (artículo 13). Las restricciones parciales permiten que la industria traslade su marketing a los canales no regulados. La educación en salud por sí sola no contrarresta la presión comercial de las industrias.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Realizar campañas educativas en colegios sobre los riesgos del tabaco.", "isCorrect": false },
+      { "letter": "B", "text": "Prohibir totalmente la publicidad, promoción y patrocinio de productos de tabaco y nicotina, incluyendo plataformas digitales.", "isCorrect": true },
+      { "letter": "C", "text": "Aumentar la edad mínima de compra de cigarrillos a 21 años.", "isCorrect": false },
+      { "letter": "D", "text": "Crear impuestos específicos para cigarrillos electrónicos sin restringir su publicidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Un equipo de epidemiología de una Secretaría de Salud departamental analiza los indicadores de cobertura efectiva de vacunación en menores de 1 año. Los datos del último año muestran:\n\n• Dosis de BCG aplicadas / nacidos vivos: 95 %\n• Terceras dosis de pentavalente aplicadas / nacidos vivos: 82 %\n• Terceras dosis de pentavalente con esquema completo y oportuno (según edad recomendada): 68 %\n• Proporción de menores con tarjeta de vacunación vigente y verificada: 61 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál de los siguientes indicadores refleja mejor la cobertura efectiva de vacunación con pentavalente?",
+    "explanation": "La cobertura efectiva no solo mide si se aplicó la vacuna, sino si se aplicó de forma completa y oportuna (según la edad recomendada en el esquema del PAI). El 68 % de terceras dosis con esquema completo y oportuno refleja la cobertura efectiva porque considera tanto la completitud del esquema como la oportunidad de la aplicación. El 82 % de terceras dosis aplicadas es cobertura administrativa que no considera oportunidad.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "El 95 % de cobertura de BCG al nacer.", "isCorrect": false },
+      { "letter": "B", "text": "El 68 % de terceras dosis de pentavalente con esquema completo y oportuno.", "isCorrect": true },
+      { "letter": "C", "text": "El 82 % de terceras dosis de pentavalente aplicadas.", "isCorrect": false },
+      { "letter": "D", "text": "El 61 % de menores con tarjeta de vacunación verificada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "Una persona transgénero de 28 años acude a una IPS de Bogotá para solicitar terapia hormonal de afirmación de género. El médico general la atiende pero le indica que «no sabe cómo manejar ese tipo de casos» y la remite a psiquiatría «para evaluar si realmente necesita hormonas». La paciente refiere que es la tercera vez que le remiten a psiquiatría sin iniciar el proceso hormonal.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Qué barrera de acceso a servicios de salud se evidencia de forma más clara en este caso?",
+    "explanation": "La barrera más evidente es la falta de competencia técnica del personal de salud para atender personas transgénero (barrera organizacional). La remisión automática a psiquiatría como requisito para terapia hormonal refleja una patologización de la identidad de género y desconocimiento de los protocolos de atención. La Corte Constitucional colombiana ha establecido que no se requiere diagnóstico psiquiátrico para acceder a terapia hormonal de afirmación de género.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Barrera geográfica por ubicación de la IPS.", "isCorrect": false },
+      { "letter": "B", "text": "Barrera organizacional por falta de competencia técnica y protocolos de atención para personas transgénero.", "isCorrect": true },
+      { "letter": "C", "text": "Barrera económica por el costo del tratamiento hormonal.", "isCorrect": false },
+      { "letter": "D", "text": "Barrera administrativa por no tener afiliación al SGSSS.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "La Resolución 429 de 2016 establece que las Rutas Integrales de Atención en Salud (RIAS) son herramientas que definen las condiciones necesarias para asegurar la integralidad de la atención. Se clasifican en tres tipos: la Ruta de Promoción y Mantenimiento de la Salud, las Rutas de Grupo de Riesgo y las Rutas Específicas de Atención. Un equipo de APS en Boyacá atiende una población con alta prevalencia de enfermedad cardiovascular y pretende organizar la atención según las RIAS.\n\n(Redacción Study2One, con referencia a la Resolución 429 de 2016)",
+    "questionText": "¿Cuál tipo de ruta integral de atención aplicaría el equipo de APS para los pacientes con factores de riesgo cardiovascular identificados pero sin diagnóstico de enfermedad?",
+    "explanation": "Las Rutas de Grupo de Riesgo están diseñadas para poblaciones con factores de riesgo identificados que aún no tienen un diagnóstico confirmado de enfermedad. Para personas con factores de riesgo cardiovascular (hipertensión limítrofe, dislipidemia, sedentarismo, obesidad) sin diagnóstico de ECV, la Ruta de Grupo de Riesgo Cardiovascular permite intervenciones preventivas focalizadas. Las Rutas Específicas de Atención son para condiciones ya diagnosticadas.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "La Ruta Específica de Atención para enfermedad cardiovascular.", "isCorrect": false },
+      { "letter": "B", "text": "La Ruta de Grupo de Riesgo Cardiovascular.", "isCorrect": true },
+      { "letter": "C", "text": "La Ruta de Promoción y Mantenimiento de la Salud exclusivamente.", "isCorrect": false },
+      { "letter": "D", "text": "Ninguna ruta, porque los factores de riesgo no requieren intervención organizada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Un modelo predictivo de riesgo poblacional implementado por una EPS en el Valle del Cauca utiliza las siguientes variables para calcular un puntaje de riesgo individual: edad, sexo, diagnósticos previos (CIE-10), número de hospitalizaciones en los últimos 12 meses, número de consultas de urgencias, medicamentos dispensados y valor de los servicios consumidos. El modelo fue validado con datos de 120.000 afiliados y obtuvo un área bajo la curva ROC de 0,81.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué limitación principal tiene un modelo predictivo que solo utiliza variables clínicas y de consumo de servicios?",
+    "explanation": "Un modelo basado exclusivamente en variables clínicas y de consumo de servicios no captura los determinantes sociales que influyen significativamente en el riesgo en salud: condiciones socioeconómicas, educación, vivienda, empleo, redes de apoyo social. Estos determinantes explican hasta el 40-50 % de los resultados en salud. Sin integrar datos sociales, el modelo puede subestimar el riesgo de poblaciones vulnerables que no acceden frecuentemente a servicios.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Un AUC-ROC de 0,81 indica que el modelo no tiene capacidad predictiva.", "isCorrect": false },
+      { "letter": "B", "text": "No incorpora determinantes sociales (ingreso, educación, vivienda) que influyen significativamente en el riesgo.", "isCorrect": true },
+      { "letter": "C", "text": "La muestra de 120.000 afiliados es insuficiente para validar un modelo predictivo.", "isCorrect": false },
+      { "letter": "D", "text": "Los diagnósticos CIE-10 no son útiles para la estratificación de riesgo poblacional.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Una IPS de cuarto nivel en Bucaramanga implementa un programa de gestión integral de pacientes con enfermedad renal crónica (ERC) estadios 3-5. El programa incluye nefrólogo, nutricionista, psicología, trabajo social, educación al paciente y familia, y coordinación con centros de diálisis. En el último año, el programa logró que el 62 % de los pacientes en estadio 4 iniciaran diálisis de forma programada (con fístula arteriovenosa madura) en lugar de urgente (con catéter temporal).\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Por qué el inicio programado de diálisis con fístula arteriovenosa madura es un indicador de calidad en la gestión integral de ERC?",
+    "explanation": "El inicio programado de diálisis con fístula arteriovenosa madura indica que el paciente fue identificado, seguido y preparado oportunamente antes de requerir diálisis. La fístula necesita 6-8 semanas para madurar, lo que implica planificación anticipada. El inicio urgente con catéter temporal se asocia con mayor morbimortalidad (infecciones, hospitalizaciones) y refleja falta de seguimiento adecuado o detección tardía.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Porque la fístula arteriovenosa es más económica que el catéter temporal.", "isCorrect": false },
+      { "letter": "B", "text": "Porque refleja detección oportuna, seguimiento adecuado y preparación anticipada del paciente para diálisis.", "isCorrect": true },
+      { "letter": "C", "text": "Porque la fístula arteriovenosa elimina completamente el riesgo de complicaciones en diálisis.", "isCorrect": false },
+      { "letter": "D", "text": "Porque el inicio urgente de diálisis es siempre una falla del paciente en su autocuidado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Un estudio transversal en 8 ciudades colombianas evaluó el consumo de alimentos ultraprocesados y su relación con indicadores de salud metabólica en adultos de 20 a 59 años. Los resultados mostraron que las personas en el quintil más alto de consumo de ultraprocesados (> 45 % de las calorías diarias) tenían 2,3 veces más probabilidad de presentar síndrome metabólico comparadas con las del quintil más bajo (< 15 % de calorías de ultraprocesados), ajustando por edad, sexo, actividad física e ingreso.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde la perspectiva de los determinantes comerciales de la salud, ¿qué factor contribuye de manera más significativa al alto consumo de ultraprocesados en la población de menores ingresos?",
+    "explanation": "Los determinantes comerciales de la salud explican que el alto consumo de ultraprocesados en poblaciones de bajos ingresos se debe principalmente a las estrategias de marketing agresivo y a la mayor disponibilidad y menor precio relativo de estos productos. Las industrias alimentarias invierten masivamente en publicidad dirigida a segmentos vulnerables, ofrecen porciones pequeñas a bajo costo y tienen amplia distribución en tiendas de barrio, lo que supera la capacidad de elección individual.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La falta de educación nutricional individual de las personas.", "isCorrect": false },
+      { "letter": "B", "text": "El marketing agresivo, la amplia disponibilidad y el menor precio relativo de los ultraprocesados.", "isCorrect": true },
+      { "letter": "C", "text": "La preferencia genética por los sabores dulces y salados.", "isCorrect": false },
+      { "letter": "D", "text": "La prohibición de alimentos naturales en zonas urbanas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Colombia presenta un índice de cobertura de servicios esenciales (UHC Service Coverage Index) de 79/100 según el último reporte de la OMS. Este índice compuesto incluye trazadores de: salud reproductiva, materna, neonatal e infantil; enfermedades infecciosas; enfermedades no transmisibles; y capacidad y acceso a servicios. Sin embargo, al desagregar por regiones, Chocó obtiene 51/100 y Bogotá 91/100.\n\n(Datos ficticios — Redacción Study2One, con referencia al UHC Index de la OMS)",
+    "questionText": "¿Qué revela la desagregación regional del índice de cobertura de servicios esenciales?",
+    "explanation": "La desagregación del UHC Index muestra inequidades territoriales profundas: mientras Bogotá (91/100) se acerca a la cobertura universal, Chocó (51/100) está 40 puntos por debajo. El promedio nacional (79/100) oculta estas brechas. Esto evidencia que la cobertura universal de salud no puede evaluarse solo con promedios nacionales, sino que debe analizarse por territorios para identificar y cerrar brechas de equidad.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Que Colombia ha alcanzado la cobertura universal de salud en todas sus regiones.", "isCorrect": false },
+      { "letter": "B", "text": "Que existen profundas inequidades territoriales que el promedio nacional oculta.", "isCorrect": true },
+      { "letter": "C", "text": "Que el índice de la OMS no es aplicable al contexto colombiano.", "isCorrect": false },
+      { "letter": "D", "text": "Que Chocó necesita más hospitales de cuarto nivel para mejorar su índice.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "La gobernanza del sistema de salud colombiano involucra múltiples actores con funciones diferenciadas. La Superintendencia Nacional de Salud ejerce funciones de inspección, vigilancia y control sobre los actores del SGSSS. En 2024, la Superintendencia intervino 3 EPS por incumplimiento de indicadores de calidad y oportunidad, afectando a 2,8 millones de afiliados que debieron ser reasignados a otras aseguradoras.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué función de gobernanza ejerció la Superintendencia al intervenir las EPS incumplidoras?",
+    "explanation": "La intervención de EPS por incumplimiento de indicadores es una función de vigilancia y control, que forma parte de la regulación del sistema. La Superintendencia Nacional de Salud tiene la facultad constitucional y legal de intervenir actores que no cumplan con sus obligaciones, protegiendo los derechos de los afiliados. No es una función de prestación ni de aseguramiento, sino de regulación y control como parte de la gobernanza del sistema.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Función de prestación directa de servicios de salud.", "isCorrect": false },
+      { "letter": "B", "text": "Función de inspección, vigilancia y control como regulador del sistema.", "isCorrect": true },
+      { "letter": "C", "text": "Función de aseguramiento como administradora de planes de beneficios.", "isCorrect": false },
+      { "letter": "D", "text": "Función de financiamiento mediante la distribución de recursos del SGP.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Un CRUE departamental recibe la notificación de un accidente de tránsito múltiple en una carretera nacional con 15 heridos, 4 de ellos con trauma craneoencefálico grave. El CRUE verifica la disponibilidad de la red hospitalaria:\n\n• Hospital A (nivel 2): 3 camas UCI disponibles, sin neurocirujano\n• Hospital B (nivel 3): 1 cama UCI disponible, con neurocirujano\n• Hospital C (nivel 2): 5 camas en urgencias, sin UCI disponible\n• Hospital D (nivel 3): 0 camas UCI, con neurocirujano\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cómo debe el CRUE distribuir a los 4 pacientes con trauma craneoencefálico grave?",
+    "explanation": "El CRUE debe priorizar la distribución según la necesidad clínica y la capacidad resolutiva. Los pacientes con TCE grave requieren neurocirujano y UCI. El Hospital B (1 cama UCI + neurocirujano) recibe al paciente más crítico. Los 3 restantes deben ser estabilizados y referidos a hospitales con neurocirujano, coordinando la disponibilidad de camas con instituciones regionales o nacionales. No se pueden enviar todos al mismo hospital ni a uno sin neurocirujano.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Enviar los 4 pacientes al Hospital B porque tiene neurocirujano.", "isCorrect": false },
+      { "letter": "B", "text": "Referir al más crítico al Hospital B, estabilizar los demás y coordinar con la red regional la disponibilidad de neurocirugía y UCI.", "isCorrect": true },
+      { "letter": "C", "text": "Distribuir un paciente a cada hospital independientemente de su capacidad.", "isCorrect": false },
+      { "letter": "D", "text": "Esperar a que el Hospital D desocupe una cama UCI para enviar allá a todos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Un municipio del Meta implementa AIEPI comunitario, formando 85 agentes comunitarios en salud para la identificación de signos de peligro en niños menores de 5 años. En 6 meses, los agentes realizaron 4.200 visitas domiciliarias y refirieron 380 niños al centro de salud por signos de peligro. De los 380 referidos, 312 (82 %) fueron confirmados con enfermedad que requería tratamiento.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué indicador del programa AIEPI comunitario refleja la calidad de la formación de los agentes comunitarios?",
+    "explanation": "El valor predictivo positivo de las referencias (312/380 = 82 %) indica que los agentes comunitarios identifican correctamente los signos de peligro en la gran mayoría de los casos. Un alto porcentaje de confirmación diagnóstica en los niños referidos refleja una buena formación en el reconocimiento de signos de alarma. Si los agentes estuvieran mal formados, se esperaría un alto porcentaje de falsas alarmas (bajo VPP).",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "El número total de visitas domiciliarias realizadas (4.200).", "isCorrect": false },
+      { "letter": "B", "text": "El porcentaje de niños referidos que fueron confirmados con enfermedad (82 %).", "isCorrect": true },
+      { "letter": "C", "text": "El número de agentes comunitarios formados (85).", "isCorrect": false },
+      { "letter": "D", "text": "El número total de niños referidos al centro de salud (380).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "El PNSAN 2012-2019 definió ejes estratégicos para la seguridad alimentaria y nutricional: disponibilidad, acceso, consumo, aprovechamiento biológico y calidad e inocuidad de alimentos. Una comunidad wayúu en La Guajira enfrenta desnutrición aguda moderada en el 12 % de sus niños menores de 5 años, a pesar de que la producción agrícola regional es suficiente para abastecer el mercado local.\n\n(Datos ficticios — Redacción Study2One, con referencia al PNSAN)",
+    "questionText": "¿Cuál eje de la seguridad alimentaria está principalmente comprometido en esta comunidad?",
+    "explanation": "Si la producción agrícola regional es suficiente (disponibilidad adecuada) pero la comunidad presenta desnutrición aguda, el problema se ubica en el eje de acceso: la capacidad económica o física de la comunidad para obtener los alimentos disponibles. En comunidades wayúu de La Guajira, las barreras de acceso incluyen pobreza extrema, dispersión geográfica, falta de vías y carencia de infraestructura de distribución. La disponibilidad regional no garantiza el acceso comunitario.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La disponibilidad de alimentos en la región.", "isCorrect": false },
+      { "letter": "B", "text": "El acceso físico y económico a los alimentos disponibles.", "isCorrect": true },
+      { "letter": "C", "text": "El aprovechamiento biológico de los nutrientes consumidos.", "isCorrect": false },
+      { "letter": "D", "text": "La calidad e inocuidad de los alimentos producidos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Un programa de salud bucal escolar en Cartagena evalúa el impacto de la aplicación semestral de sellantes dentales en primeros molares permanentes de niños de 6-8 años. Después de 2 años de intervención, los resultados son:\n\n• Niños con sellantes: incidencia de caries en primeros molares = 8 %\n• Niños sin sellantes (control): incidencia de caries en primeros molares = 31 %\n• Retención de sellantes a los 2 años: 72 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la reducción relativa de riesgo de caries atribuible a la aplicación de sellantes dentales?",
+    "explanation": "La reducción relativa de riesgo (RRR) se calcula como: (incidencia en no expuestos - incidencia en expuestos) / incidencia en no expuestos = (31 % - 8 %) / 31 % = 23 / 31 = 0,742 ≈ 74 %. Esto significa que la aplicación de sellantes redujo el riesgo de caries en un 74 % en comparación con los niños que no recibieron sellantes. La retención del 72 % a 2 años es adecuada según la evidencia.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "23 %, resultado de la diferencia entre las dos incidencias.", "isCorrect": false },
+      { "letter": "B", "text": "Aproximadamente 74 %, resultado de dividir la diferencia de incidencias entre la incidencia del grupo control.", "isCorrect": true },
+      { "letter": "C", "text": "72 %, equivalente a la retención de sellantes a 2 años.", "isCorrect": false },
+      { "letter": "D", "text": "8 %, equivalente a la incidencia en el grupo con sellantes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "La Resolución 429 de 2016 establece que el MIAS tiene 10 componentes operacionales, entre ellos: la regulación de rutas integrales de atención, la gestión integral del riesgo en salud, la delimitación territorial del modelo, el recurso humano en salud y el sistema de información. Un departamento del Caribe colombiano ha implementado 6 de los 10 componentes pero reporta dificultades en la conformación de las redes integrales de prestadores (RIPSS) debido a que sus IPS públicas y privadas no comparten información clínica.\n\n(Datos ficticios — Redacción Study2One, con referencia a la Resolución 429 de 2016)",
+    "questionText": "¿Cuál componente operacional del MIAS necesita fortalecerse para resolver la dificultad descrita?",
+    "explanation": "El sistema de información interoperable es un componente operacional del MIAS que permite que los prestadores de la red compartan información clínica y administrativa. Sin interoperabilidad, las RIPSS no pueden funcionar de manera articulada: cada IPS trabaja como una isla de información. El fortalecimiento de este componente es prerequisito para la conformación efectiva de las redes integrales de prestación.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "La delimitación territorial del modelo.", "isCorrect": false },
+      { "letter": "B", "text": "El sistema de información interoperable entre prestadores.", "isCorrect": true },
+      { "letter": "C", "text": "La regulación de las rutas integrales de atención.", "isCorrect": false },
+      { "letter": "D", "text": "La formación del recurso humano en salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Un programa de gestión integral de diabetes mellitus tipo 2 en Cali compara dos cohortes de pacientes:\n\n• Cohorte A (programa de gestión integral, n=450): educación grupal, telemonitoreo de glucometría, ajuste farmacológico protocolizado, visita domiciliaria.\n• Cohorte B (atención convencional, n=480): consulta médica trimestral, prescripción de medicamentos.\n\nResultados a 12 meses:\n• Cohorte A: HbA1c promedio 7,0 %; hospitalizaciones por descompensación: 3,1 %\n• Cohorte B: HbA1c promedio 8,4 %; hospitalizaciones por descompensación: 11,8 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué componente diferenciador del programa de gestión integral explica mejor la menor tasa de hospitalizaciones?",
+    "explanation": "El telemonitoreo de glucometría permite la detección temprana de descompensaciones y el ajuste oportuno del tratamiento antes de que el paciente requiera hospitalización. Combinado con el ajuste farmacológico protocolizado, permite intervenciones proactivas. En la atención convencional, las descompensaciones solo se detectan en la consulta trimestral o cuando el paciente acude por urgencias, lo que explica la mayor tasa de hospitalizaciones.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "La mayor frecuencia de consultas médicas presenciales.", "isCorrect": false },
+      { "letter": "B", "text": "El telemonitoreo de glucometría que permite detección temprana de descompensaciones y ajuste oportuno.", "isCorrect": true },
+      { "letter": "C", "text": "El uso de medicamentos diferentes a los de la atención convencional.", "isCorrect": false },
+      { "letter": "D", "text": "La menor edad promedio de los pacientes de la cohorte A.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Un proyecto de salud digital en el departamento de Santander implementa una plataforma de expediente clínico electrónico (ECE) que conecta 42 IPS de los tres niveles de complejidad. La plataforma incluye módulos de historia clínica, prescripción electrónica, resultados de laboratorio e imágenes diagnósticas. Tras 18 meses de implementación, el 35 % de las IPS utiliza la plataforma de manera regular, el 40 % la utiliza parcialmente (solo registro, sin consultar datos de otras IPS) y el 25 % no la ha adoptado.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la principal barrera para la interoperabilidad efectiva del ECE según los datos presentados?",
+    "explanation": "Los datos muestran que la barrera principal es la baja adopción y uso parcial de la plataforma por parte de las IPS. El 40 % que la usa parcialmente (solo registro, sin consultar datos de otros) y el 25 % que no la adoptó implican que la interoperabilidad (compartir y consultar información entre prestadores) no se logra aunque la tecnología exista. La adopción efectiva por parte de los usuarios es el factor limitante más común en implementaciones de salud digital.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "La falta de capacidad tecnológica de los servidores de la plataforma.", "isCorrect": false },
+      { "letter": "B", "text": "La baja adopción y uso parcial de la plataforma por parte de las IPS.", "isCorrect": true },
+      { "letter": "C", "text": "La ausencia de normativa que regule la historia clínica electrónica en Colombia.", "isCorrect": false },
+      { "letter": "D", "text": "La negativa de los pacientes a que su información clínica sea compartida.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Un informe de la OMS sobre la industria del alcohol en América Latina muestra que el consumo per cápita de alcohol puro en Colombia es de 6,2 litros/año (2022). Las estrategias de marketing de la industria incluyen: patrocinio de eventos deportivos y culturales, publicidad en horarios de máxima audiencia televisiva, venta de bebidas alcohólicas a precios reducidos durante eventos masivos y posicionamiento de nuevos productos (bebidas «listas para tomar») dirigidos a jóvenes.\n\n(Redacción Study2One, con referencia a informes de la OMS sobre alcohol)",
+    "questionText": "Según el marco de los determinantes comerciales, ¿cuál de las «mejores opciones» (best buys) de la OMS para reducir el consumo nocivo de alcohol se aplica a este contexto?",
+    "explanation": "Las «mejores opciones» (best buys) de la OMS para reducir el consumo nocivo de alcohol incluyen: aumento de impuestos, restricción de disponibilidad (horarios, puntos de venta) y prohibición o restricción de publicidad. El aumento de impuestos sobre bebidas alcohólicas es la medida con mayor evidencia de efectividad poblacional, ya que incrementa el precio y reduce el consumo, especialmente en jóvenes y consumidores de alto riesgo.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Realizar campañas de consumo responsable financiadas por la industria del alcohol.", "isCorrect": false },
+      { "letter": "B", "text": "Aumentar los impuestos sobre bebidas alcohólicas para incrementar su precio.", "isCorrect": true },
+      { "letter": "C", "text": "Promover el consumo de vino en lugar de cerveza por sus «beneficios cardiovasculares».", "isCorrect": false },
+      { "letter": "D", "text": "Crear una etiqueta de «consumo moderado» para las bebidas con menor graduación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "Un comité de ética hospitalaria en Manizales evalúa un caso de rendición de cuentas: una IPS de tercer nivel recibió recursos del Sistema General de Participaciones (SGP) para mejorar la atención de urgencias, pero un informe de la Contraloría encontró que el 22 % de los recursos fueron utilizados en gastos administrativos no relacionados con el objeto contractual. La comunidad organizada solicita una audiencia pública de rendición de cuentas.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál mecanismo de rendición de cuentas es más apropiado para responder a la solicitud de la comunidad?",
+    "explanation": "La audiencia pública de rendición de cuentas es el mecanismo más apropiado porque permite el diálogo directo entre la institución y la comunidad, combinando información (presentación de la ejecución presupuestal), diálogo (preguntas y respuestas) y responsabilidad (compromisos de mejora). Los informes escritos y las publicaciones en página web son necesarios pero insuficientes para abordar la demanda de interlocución directa de la comunidad.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Publicar el informe de gestión en la página web de la IPS.", "isCorrect": false },
+      { "letter": "B", "text": "Realizar una audiencia pública con presentación de ejecución, espacio de preguntas y compromisos de mejora.", "isCorrect": true },
+      { "letter": "C", "text": "Enviar un comunicado de prensa a los medios locales.", "isCorrect": false },
+      { "letter": "D", "text": "Remitir el caso directamente a la Fiscalía sin informar a la comunidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "La estrategia AIEPI clínico incluye la evaluación del estado nutricional de los niños menores de 5 años mediante la clasificación antropométrica. Un médico rural evalúa a una niña de 18 meses que presenta: peso para la talla por debajo de -3 desviaciones estándar, edema bilateral en pies, cabello ralo y descolorizado, piel con lesiones descamativas y apatía marcada.\n\n(Caso ficticio — Redacción Study2One, con referencia a AIEPI clínico)",
+    "questionText": "Según AIEPI clínico, ¿cómo se clasifica este caso y cuál es la conducta inmediata?",
+    "explanation": "La niña presenta signos de desnutrición aguda severa (marasmo-kwashiorkor): peso/talla < -3 DE, edema bilateral, cambios en cabello y piel. Según AIEPI, esto se clasifica como «desnutrición grave» (clasificación roja — referir urgentemente). La conducta inmediata es estabilizar (prevenir hipoglucemia, hipotermia e infección), iniciar la primera dosis de antibiótico y referir urgentemente a un hospital con capacidad de manejo de desnutrición severa.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Desnutrición moderada (amarillo): suplementar con micronutrientes y citar a control.", "isCorrect": false },
+      { "letter": "B", "text": "Desnutrición grave (rojo): estabilizar, prevenir hipoglucemia e hipotermia, y referir urgentemente.", "isCorrect": true },
+      { "letter": "C", "text": "Riesgo de desnutrición (verde): orientar sobre alimentación complementaria.", "isCorrect": false },
+      { "letter": "D", "text": "Kwashiorkor leve: prescribir dieta hiperproteica domiciliaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": "Un estudio ecológico analiza la relación entre el gasto público per cápita en salud y la esperanza de vida al nacer en 15 departamentos colombianos. Los resultados muestran un coeficiente de correlación de Pearson de r = 0,42 (p = 0,12). Los investigadores concluyen que «el gasto público en salud tiene un efecto moderado pero no significativo sobre la esperanza de vida».\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la principal limitación de la conclusión de los investigadores?",
+    "explanation": "La principal limitación es la falacia ecológica: los datos son de nivel departamental (agregados), no individual, por lo que no se puede inferir una relación causal individual a partir de correlaciones ecológicas. Además, un p = 0,12 indica que la correlación no es estadísticamente significativa (> 0,05), pero los investigadores la interpretan como «efecto moderado». También hay posibles confusores no controlados (educación, saneamiento, empleo) que influyen tanto en el gasto como en la esperanza de vida.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "La muestra de 15 departamentos es demasiado grande para un estudio ecológico.", "isCorrect": false },
+      { "letter": "B", "text": "El diseño ecológico no permite inferir causalidad individual y la correlación no es estadísticamente significativa.", "isCorrect": true },
+      { "letter": "C", "text": "El coeficiente de Pearson no es aplicable a variables de salud pública.", "isCorrect": false },
+      { "letter": "D", "text": "La esperanza de vida no es un indicador válido de salud poblacional.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": "En una comunidad indígena del Vaupés, un programa de nutrición y seguridad alimentaria busca reducir la desnutrición crónica infantil. El equipo de salud propone implementar un huerto escolar con especies foráneas de alto rendimiento nutricional (quinua, chía, moringa) para complementar la alimentación de los niños. Los líderes comunitarios expresan su preocupación porque las especies propuestas no forman parte de su sistema alimentario tradicional.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Desde la perspectiva de los determinantes socioculturales de la salud, ¿cuál enfoque sería más apropiado para este programa?",
+    "explanation": "Los determinantes socioculturales incluyen las prácticas alimentarias tradicionales, que son parte de la identidad y la soberanía alimentaria de los pueblos indígenas. Un programa que no integre los saberes y alimentos tradicionales corre el riesgo de ser rechazado y de erosionar sistemas alimentarios culturalmente valiosos. El enfoque apropiado es combinar el rescate y fortalecimiento de especies y prácticas alimentarias tradicionales con la diversificación nutricional participativa.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Implementar solo las especies foráneas por su superior valor nutricional documentado.", "isCorrect": false },
+      { "letter": "B", "text": "Integrar el rescate de especies y prácticas alimentarias tradicionales con la diversificación nutricional participativa.", "isCorrect": true },
+      { "letter": "C", "text": "Suspender el programa hasta que la comunidad acepte las especies propuestas.", "isCorrect": false },
+      { "letter": "D", "text": "Reemplazar el huerto por suplementos nutricionales industrializados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "La Política de Salud Mental en Colombia (Ley 1616 de 2013) establece que la atención en salud mental debe ser integral, comunitaria y con enfoque de derechos. Un municipio del Tolima con 35.000 habitantes no tiene psiquiatra ni psicólogo en su red pública de servicios. El 8 % de la población adulta reporta síntomas depresivos según una encuesta comunitaria, pero solo el 2 % ha recibido atención en salud mental en el último año.\n\n(Datos ficticios — Redacción Study2One, con referencia a la Ley 1616 de 2013)",
+    "questionText": "¿Cuál estrategia de salud mental comunitaria permitiría cerrar la brecha de atención identificada?",
+    "explanation": "La integración de la salud mental en la atención primaria (modelo mhGAP de la OMS) es la estrategia más efectiva para cerrar la brecha de atención en salud mental en municipios sin especialistas. Consiste en capacitar al médico general y al equipo de APS en la detección, diagnóstico y tratamiento de trastornos mentales prioritarios (depresión, ansiedad, psicosis, epilepsia, uso de sustancias). Complementada con interconsulta por telemedicina con especialista.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Construir un hospital psiquiátrico en el municipio.", "isCorrect": false },
+      { "letter": "B", "text": "Integrar la salud mental en la atención primaria capacitando al equipo de APS con el modelo mhGAP.", "isCorrect": true },
+      { "letter": "C", "text": "Referir todos los casos a la capital departamental para atención por psiquiatría.", "isCorrect": false },
+      { "letter": "D", "text": "Distribuir psicofármacos sin prescripción médica a través de promotores de salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": "La Resolución 429 de 2016 establece que la PAIS debe implementarse de manera diferencial según las condiciones territoriales. Para ello, define la «delimitación territorial» como componente del MIAS, organizando el territorio en ámbitos: urbano, rural, rural disperso e indígena. Cada ámbito requiere adaptaciones en la conformación de equipos, la periodicidad de las intervenciones y los mecanismos de acceso.\n\n(Redacción Study2One, con referencia a la Resolución 429 de 2016)",
+    "questionText": "¿Por qué la delimitación territorial es un componente esencial del MIAS?",
+    "explanation": "La delimitación territorial reconoce que las condiciones geográficas, demográficas y culturales de cada territorio requieren adaptaciones del modelo de atención. No es posible aplicar el mismo modelo en una zona urbana densa y en una zona rural dispersa indígena: los equipos, las periodicidades, los mecanismos de acceso y las tecnologías deben adaptarse. Sin esta delimitación, el modelo sería homogéneo e inequitativo, sin responder a las necesidades específicas de cada territorio.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Porque permite asignar más recursos a las zonas urbanas que concentran más población.", "isCorrect": false },
+      { "letter": "B", "text": "Porque reconoce que cada territorio requiere adaptaciones del modelo según sus condiciones geográficas, demográficas y culturales.", "isCorrect": true },
+      { "letter": "C", "text": "Porque obliga a construir hospitales de tercer nivel en todos los municipios.", "isCorrect": false },
+      { "letter": "D", "text": "Porque establece que solo las zonas urbanas pueden tener atención especializada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "Un estudio de indicadores de cobertura efectiva en salud materna en Antioquia compara dos subregiones:\n\n• Subregión A (metropolitana): control prenatal ≥ 4 visitas: 92 %, parto institucional: 99 %, razón de mortalidad materna: 18 por 100.000 NV\n• Subregión B (Bajo Cauca): control prenatal ≥ 4 visitas: 61 %, parto institucional: 78 %, razón de mortalidad materna: 85 por 100.000 NV\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué concepto epidemiológico describe mejor la diferencia entre las dos subregiones?",
+    "explanation": "La inequidad en salud se refiere a diferencias en indicadores de salud que son evitables, injustas y socialmente determinadas. La brecha entre la subregión metropolitana (mortalidad materna 18/100.000 NV) y el Bajo Cauca (85/100.000 NV) no es una variación natural sino el resultado de desigualdades en acceso a servicios, condiciones socioeconómicas e infraestructura sanitaria. Estas diferencias son evitables con políticas adecuadas, por lo que constituyen inequidad.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Variabilidad biológica natural entre poblaciones.", "isCorrect": false },
+      { "letter": "B", "text": "Inequidad en salud: diferencias evitables, injustas y socialmente determinadas.", "isCorrect": true },
+      { "letter": "C", "text": "Diferencia estadísticamente no significativa entre subregiones.", "isCorrect": false },
+      { "letter": "D", "text": "Sesgo de selección en la recolección de datos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "Un programa piloto de salud digital en Risaralda implementa una aplicación móvil para el seguimiento de pacientes con hipertensión arterial. La aplicación permite: registro diario de tensión arterial, recordatorios de medicamentos, alertas automáticas al equipo de salud cuando los valores superan umbrales definidos y teleconsulta con el médico. En 6 meses, 1.200 pacientes la descargaron, pero solo 340 (28 %) la utilizan regularmente (≥ 3 veces por semana).\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué factor es más probable que explique la baja tasa de uso regular de la aplicación?",
+    "explanation": "La brecha entre descarga (1.200) y uso regular (340) se explica principalmente por las barreras de alfabetización digital y usabilidad, especialmente en adultos mayores con hipertensión. Otros factores incluyen la falta de retroalimentación percibida (el paciente no «ve» el beneficio de registrar datos), la complejidad de la interfaz y la ausencia de acompañamiento inicial. La tecnología por sí sola no garantiza adherencia; requiere diseño centrado en el usuario y soporte de acompañamiento.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La falta de cobertura de internet móvil en Risaralda.", "isCorrect": false },
+      { "letter": "B", "text": "Barreras de alfabetización digital, usabilidad de la interfaz y falta de acompañamiento al usuario.", "isCorrect": true },
+      { "letter": "C", "text": "La oposición del personal de salud al uso de tecnología.", "isCorrect": false },
+      { "letter": "D", "text": "La prohibición normativa de compartir datos de salud por medios electrónicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "Un municipio de Cundinamarca organiza su primer proceso de rendición de cuentas en salud siguiendo los lineamientos del Ministerio de Salud. El comité de veeduría ciudadana solicita acceso a la siguiente información: ejecución presupuestal del plan territorial de salud, indicadores de mortalidad y morbilidad, actas de los comités de participación comunitaria (COPACOS), respuesta a quejas y peticiones de los usuarios, y contratos celebrados con IPS.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál principio de la rendición de cuentas fundamenta el derecho del comité de veeduría a acceder a toda esta información?",
+    "explanation": "El principio de transparencia establece que la información sobre la gestión pública en salud debe ser accesible, oportuna y comprensible para la ciudadanía. En Colombia, la Ley 1712 de 2014 (Ley de Transparencia y Acceso a la Información Pública) refuerza este principio. La rendición de cuentas no es un acto discrecional del gobernante sino un derecho ciudadano fundamentado en la transparencia y la participación democrática.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "El principio de confidencialidad de la información del Estado.", "isCorrect": false },
+      { "letter": "B", "text": "El principio de transparencia: la información pública en salud debe ser accesible a la ciudadanía.", "isCorrect": true },
+      { "letter": "C", "text": "El principio de eficiencia administrativa que limita la información a compartir.", "isCorrect": false },
+      { "letter": "D", "text": "El principio de reserva técnica que protege los datos epidemiológicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": "Durante la temporada de lluvias, el CRUE del departamento del Magdalena activa el Plan de Contingencia ante Inundaciones. En 48 horas se reportan: 3.200 familias damnificadas, 15 heridos leves, 4 heridos graves, 2 fallecidos, 8 centros de salud afectados (2 inundados, 6 con daños parciales). Los albergues temporales albergan a 1.800 personas. El CRUE coordina la evaluación de daños, la atención de heridos y la activación de puestos de salud temporales.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál acción prioritaria debe coordinar el CRUE en los albergues temporales para prevenir brotes epidémicos?",
+    "explanation": "En albergues temporales, la prioridad para prevenir brotes epidémicos es la vigilancia epidemiológica activa con monitoreo de enfermedades trazadoras (EDA, IRA, enfermedades transmitidas por vectores, dermatosis) y la garantía de agua segura y saneamiento básico. Los brotes de enfermedad diarreica y respiratoria son las principales causas de morbimortalidad en situaciones de hacinamiento post-desastre. La atención de heridos ya está en curso pero la prevención de brotes requiere acción inmediata.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Establecer un servicio de cirugía de emergencia en cada albergue.", "isCorrect": false },
+      { "letter": "B", "text": "Implementar vigilancia epidemiológica activa, garantizar agua segura y saneamiento básico en los albergues.", "isCorrect": true },
+      { "letter": "C", "text": "Evacuar a todas las personas de los albergues hacia la capital departamental.", "isCorrect": false },
+      { "letter": "D", "text": "Realizar exámenes de laboratorio a todos los damnificados para detectar infecciones.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": "Un programa de AIEPI comunitario en Córdoba capacitó a 120 madres líderes en la identificación de signos de peligro en niños menores de 5 años. Las madres líderes visitan hogares de su vereda y evalúan: ¿el niño puede beber o mamar? ¿Vomita todo? ¿Tiene convulsiones? ¿Está letárgico o inconsciente? Una madre líder evalúa a un niño de 3 años que tiene fiebre, no puede beber y está letárgico.\n\n(Caso ficticio — Redacción Study2One, con referencia a AIEPI comunitario)",
+    "questionText": "¿Cuál es la conducta que debe seguir la madre líder según el protocolo AIEPI comunitario?",
+    "explanation": "En AIEPI comunitario, la presencia de cualquier signo de peligro general (no puede beber o mamar, vomita todo, tiene convulsiones, está letárgico o inconsciente) indica que el niño debe ser referido urgentemente al centro de salud más cercano. La madre líder no debe intentar tratar al niño en casa ni esperar a ver si mejora. Su función es identificar el signo de peligro e iniciar la referencia inmediata, previniendo demoras que aumentan la mortalidad infantil.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Administrar un antipirético y observar al niño en casa durante 24 horas.", "isCorrect": false },
+      { "letter": "B", "text": "Referir urgentemente al niño al centro de salud más cercano por presencia de signos de peligro general.", "isCorrect": true },
+      { "letter": "C", "text": "Llamar al médico del centro de salud para solicitar una prescripción telefónica.", "isCorrect": false },
+      { "letter": "D", "text": "Aplicar remedios caseros tradicionales mientras consigue transporte al hospital.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "Un departamento colombiano reporta los siguientes indicadores de salud bucal en su informe de gestión:\n\n• Índice COP-D a los 12 años: 3,2 (meta nacional: < 2,3)\n• Cobertura de primera consulta odontológica: 42 % (meta: 60 %)\n• Proporción de municipios con programa de fluorización del agua: 28 % (meta: 80 %)\n• Índice de necesidad de tratamiento periodontal en adultos: 68 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál indicador evidencia de manera más clara el fracaso de las estrategias preventivas colectivas de salud bucal en el departamento?",
+    "explanation": "La baja proporción de municipios con fluorización del agua (28 % vs meta del 80 %) evidencia el fracaso de la principal estrategia preventiva colectiva de salud bucal. La fluorización del agua es la intervención poblacional más costo-efectiva para prevenir caries. Sin esta base preventiva colectiva, las demás intervenciones (consulta odontológica individual, sellantes) son insuficientes para impactar los indicadores poblacionales, como lo demuestra el alto COP-D (3,2 vs meta < 2,3).",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "El índice COP-D a los 12 años de 3,2.", "isCorrect": false },
+      { "letter": "B", "text": "La baja proporción de municipios con programa de fluorización del agua (28 % vs meta 80 %).", "isCorrect": true },
+      { "letter": "C", "text": "La cobertura de primera consulta odontológica del 42 %.", "isCorrect": false },
+      { "letter": "D", "text": "El índice de necesidad de tratamiento periodontal del 68 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "La gobernanza participativa del sistema de salud colombiano incluye mecanismos como los Comités de Participación Comunitaria en Salud (COPACOS), las asociaciones de usuarios y las veedurías ciudadanas. Una investigación en 5 departamentos encontró que el 72 % de los COPACOS existían formalmente pero solo el 31 % se reunía con regularidad. Las principales barreras identificadas fueron: falta de conocimiento de los mecanismos de participación (58 %), ausencia de respuesta institucional a las solicitudes comunitarias (45 %) y desconfianza en la utilidad de los espacios de participación (39 %).\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué revelan estos datos sobre el estado de la participación ciudadana en salud en Colombia?",
+    "explanation": "Los datos revelan que existe una brecha entre la existencia formal de mecanismos de participación (72 % de COPACOS formalmente constituidos) y su funcionamiento efectivo (solo 31 % se reúne regularmente). Las barreras identificadas son de triple naturaleza: informativas (desconocimiento), institucionales (falta de respuesta) y motivacionales (desconfianza). Esto indica que la participación ciudadana en salud está institucionalizada en la norma pero no en la práctica.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Que los COPACOS son innecesarios y deben eliminarse de la normativa.", "isCorrect": false },
+      { "letter": "B", "text": "Que existe una brecha entre la institucionalización formal y el funcionamiento efectivo de la participación ciudadana.", "isCorrect": true },
+      { "letter": "C", "text": "Que la comunidad no tiene interés en participar en decisiones de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Que solo los profesionales de salud deben tomar decisiones sobre el sistema.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": "Un programa de rehabilitación basada en comunidad (RBC) para personas con discapacidad psicosocial en Quibdó (Chocó) reporta los siguientes resultados después de 2 años:\n\n• Personas vinculadas al programa: 85\n• Personas que retomaron alguna actividad productiva: 52 (61 %)\n• Personas que redujeron hospitalizaciones psiquiátricas: 64 (75 %)\n• Familias que participan en grupos de apoyo: 71 (84 %)\n• Personas con tratamiento farmacológico regular: 68 (80 %)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál indicador refleja de forma más directa el objetivo de inclusión social de la RBC?",
+    "explanation": "La rehabilitación basada en comunidad tiene como objetivo central la inclusión social y la participación plena de las personas con discapacidad en la vida comunitaria. El indicador de reintegración a actividades productivas (61 % retomó alguna actividad) refleja directamente este objetivo. La reducción de hospitalizaciones es un indicador clínico, la participación familiar es de apoyo social y el tratamiento farmacológico es de adherencia terapéutica, todos importantes pero no centrales al objetivo de inclusión social de la RBC.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Las personas con tratamiento farmacológico regular (80 %).", "isCorrect": false },
+      { "letter": "B", "text": "Las personas que retomaron alguna actividad productiva (61 %).", "isCorrect": true },
+      { "letter": "C", "text": "Las personas que redujeron hospitalizaciones psiquiátricas (75 %).", "isCorrect": false },
+      { "letter": "D", "text": "Las familias que participan en grupos de apoyo (84 %).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "Un análisis de determinantes comerciales de la salud en Barranquilla evaluó la densidad de puntos de venta de comida rápida y ultraprocesados en un radio de 500 metros alrededor de 120 instituciones educativas. Los resultados mostraron:\n\n• Colegios en estratos 1-2: promedio de 8,3 puntos de venta por colegio\n• Colegios en estratos 3-4: promedio de 5,1 puntos de venta por colegio\n• Colegios en estratos 5-6: promedio de 2,4 puntos de venta por colegio\n• El 73 % de los puntos de venta ofrecía combos con bebida azucarada a precios < $5.000\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué concepto de salud pública describe mejor la distribución desigual de puntos de venta de ultraprocesados según estrato socioeconómico?",
+    "explanation": "El concepto de «desierto alimentario inverso» o «pantano alimentario» (food swamp) describe zonas donde hay sobreabundancia de puntos de venta de alimentos poco saludables en comparación con opciones saludables. Los datos muestran que las zonas de menores ingresos tienen 3,5 veces más puntos de venta de ultraprocesados que las de mayores ingresos, lo que configura un entorno alimentario obesogénico desproporcionado en poblaciones vulnerables. Esto es un determinante comercial que genera inequidad en salud.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Transición epidemiológica nutricional.", "isCorrect": false },
+      { "letter": "B", "text": "Entorno alimentario obesogénico con distribución inequitativa según nivel socioeconómico (pantano alimentario).", "isCorrect": true },
+      { "letter": "C", "text": "Oferta y demanda libre del mercado alimentario.", "isCorrect": false },
+      { "letter": "D", "text": "Preferencia cultural de las poblaciones de bajos ingresos por los ultraprocesados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": "Un indicador compuesto de cobertura efectiva en salud para un municipio de Caldas integra 16 trazadores agrupados en 4 dominios:\n\n• Salud materno-infantil (4 trazadores): puntaje 72/100\n• Enfermedades infecciosas (4 trazadores): puntaje 81/100\n• Enfermedades no transmisibles (4 trazadores): puntaje 58/100\n• Capacidad del sistema (4 trazadores): puntaje 65/100\n\nEl índice compuesto general es 69/100. El municipio ocupó el puesto 45 de 66 municipios del departamento.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿En cuál dominio debe el municipio priorizar sus intervenciones para mejorar el índice de cobertura efectiva?",
+    "explanation": "El dominio de enfermedades no transmisibles (ENT) con 58/100 es el de menor puntaje y por tanto el que más impacto tendría en la mejora del índice compuesto. Las ENT (diabetes, hipertensión, cáncer, EPOC, enfermedad mental) representan la mayor carga de enfermedad en Colombia y el puntaje de 58 indica brechas significativas en detección, tratamiento y control. Priorizar este dominio tendría el mayor potencial de mejora del índice general y de reducción de morbimortalidad evitable.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Enfermedades infecciosas, porque ya tiene el mayor puntaje y es más fácil mantenerlo.", "isCorrect": false },
+      { "letter": "B", "text": "Enfermedades no transmisibles, porque es el dominio con menor puntaje y mayor potencial de mejora.", "isCorrect": true },
+      { "letter": "C", "text": "Salud materno-infantil, porque siempre debe ser la prioridad de cualquier sistema de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Capacidad del sistema, porque sin infraestructura ningún otro dominio puede mejorar.", "isCorrect": false }
+    ]
+  }
+]

@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Caso clínico: Mujer de 52 años es traída a urgencias por cefalea súbita e intensa que describe como «el peor dolor de cabeza de mi vida», acompañada de rigidez de nuca, náuseas, vómitos y fotofobia. Al examen físico se encuentra somnolienta (Glasgow 13), con signos meníngeos positivos (Kernig y Brudzinski), pupilas isocóricas reactivas y sin déficit motor focal. La presión arterial es de 180/100 mmHg y la frecuencia cardíaca de 58 lpm.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La cefalea súbita «en trueno» (thunderclap headache) descrita como el peor dolor de cabeza de la vida, acompañada de signos meníngeos (rigidez de nuca, Kernig y Brudzinski positivos), náuseas, vómitos y alteración del estado de conciencia, es la presentación clásica de la hemorragia subaracnoidea (HSA). La meningitis bacteriana cursa con fiebre alta. La migraña no produce rigidez de nuca ni deterioro neurológico. El ACV isquémico se presenta con déficit focal sin signos meníngeos prominentes.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Meningitis bacteriana aguda.", "isCorrect": false },
+      { "letter": "B", "text": "Hemorragia subaracnoidea por ruptura aneurismática.", "isCorrect": true },
+      { "letter": "C", "text": "Migraña con aura prolongada.", "isCorrect": false },
+      { "letter": "D", "text": "Accidente cerebrovascular isquémico de territorio posterior.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "¿Cuál es el estudio diagnóstico inicial más apropiado para confirmar la sospecha clínica?",
+    "explanation": "Ante sospecha de hemorragia subaracnoidea, la tomografía computarizada (TAC) simple de cráneo es el estudio inicial de elección, con sensibilidad superior al 95% en las primeras 6 horas. Si la TAC es negativa y la sospecha clínica persiste, se realiza punción lumbar buscando xantocromía. La resonancia magnética no es de primera línea en urgencias para HSA. La angiografía se reserva para localizar el aneurisma tras confirmar el diagnóstico.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Resonancia magnética cerebral con gadolinio.", "isCorrect": false },
+      { "letter": "B", "text": "Punción lumbar inmediata sin imagen previa.", "isCorrect": false },
+      { "letter": "C", "text": "Tomografía computarizada simple de cráneo.", "isCorrect": true },
+      { "letter": "D", "text": "Angiografía cerebral convencional.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "¿Cuál es la complicación más frecuente y temida en los primeros 14 días posteriores a una hemorragia subaracnoidea aneurismática, y cómo se previene?",
+    "explanation": "El vasoespasmo cerebral es la complicación más frecuente y devastadora de la HSA, con pico entre los días 4 y 14 post-sangrado. Puede causar isquemia cerebral tardía y déficit neurológico permanente. La prevención estándar es nimodipino oral 60 mg cada 4 horas durante 21 días, que ha demostrado reducir el riesgo de desenlace neurológico desfavorable. El resangrado se previene con clipaje o embolización temprana. La hidrocefalia se trata con derivación ventricular.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Hidrocefalia aguda; se previene con manitol intravenoso.", "isCorrect": false },
+      { "letter": "B", "text": "Vasoespasmo cerebral; se previene con nimodipino oral.", "isCorrect": true },
+      { "letter": "C", "text": "Resangrado aneurismático; se previene con ácido tranexámico prolongado.", "isCorrect": false },
+      { "letter": "D", "text": "Edema cerebral difuso; se previene con dexametasona.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Caso clínico: Hombre de 68 años, hipertenso, diabético tipo 2 y fumador activo, consulta por dolor torácico retroesternal opresivo de 3 horas de evolución que se irradia al brazo izquierdo, acompañado de diaforesis fría y disnea. El electrocardiograma muestra depresión del segmento ST de 2 mm en derivaciones V3-V6 y ondas T invertidas en DI y aVL. La troponina I inicial está elevada en 1,8 ng/mL (valor normal < 0,04 ng/mL).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El dolor torácico típico (opresivo, irradiado, con diaforesis) en un paciente con múltiples factores de riesgo cardiovascular, con depresión del ST e inversión de onda T (sin elevación del ST) y troponina elevada, configura un síndrome coronario agudo sin elevación del ST (SCASEST) tipo IAMSEST (infarto sin elevación del ST). La angina inestable tiene troponina normal. El IAMCEST requiere elevación del ST. El síndrome de Takotsubo es un diagnóstico de exclusión.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Angina inestable de alto riesgo.", "isCorrect": false },
+      { "letter": "B", "text": "Infarto agudo de miocardio sin elevación del ST (IAMSEST).", "isCorrect": true },
+      { "letter": "C", "text": "Infarto agudo de miocardio con elevación del ST de cara lateral.", "isCorrect": false },
+      { "letter": "D", "text": "Síndrome de Takotsubo (cardiopatía por estrés).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": null,
+    "questionText": "¿Cuál es el manejo inicial más apropiado para este paciente?",
+    "explanation": "En un IAMSEST (SCASEST con troponina positiva), el manejo inicial incluye terapia antiisquémica (nitroglicerina, betabloqueador), doble antiagregación plaquetaria (aspirina + inhibidor de P2Y12 como clopidogrel o ticagrelor), anticoagulación (heparina) y estratificación de riesgo con puntaje GRACE para definir la estrategia invasiva temprana (cateterismo dentro de 24-72 horas). No requiere fibrinólisis (esa es para IAMCEST sin acceso a ICP). No se debe dar alta ni observar sin tratamiento activo.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Fibrinólisis intravenosa inmediata con alteplasa.", "isCorrect": false },
+      { "letter": "B", "text": "Doble antiagregación, anticoagulación, terapia antiisquémica y estrategia invasiva temprana.", "isCorrect": true },
+      { "letter": "C", "text": "Observación en urgencias con seriación de troponinas y alta si mejora.", "isCorrect": false },
+      { "letter": "D", "text": "Cirugía de revascularización coronaria de emergencia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "¿Cuál es la estrategia de antiagregación plaquetaria recomendada al alta para este paciente posterior a la intervención coronaria percutánea con stent?",
+    "explanation": "Tras un IAMSEST tratado con ICP y stent, se recomienda doble antiagregación plaquetaria (DAPT) con aspirina 100 mg/día de forma indefinida más un inhibidor de P2Y12 (ticagrelor 90 mg cada 12 horas o clopidogrel 75 mg/día) durante al menos 12 meses. El ticagrelor es preferido sobre clopidogrel en SCASEST según las guías actuales. La anticoagulación con warfarina no reemplaza la antiagregación dual. La monoterapia con aspirina es insuficiente post-stent.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Aspirina 100 mg/día como monoterapia indefinida.", "isCorrect": false },
+      { "letter": "B", "text": "Aspirina 100 mg/día más ticagrelor 90 mg cada 12 horas durante al menos 12 meses.", "isCorrect": true },
+      { "letter": "C", "text": "Warfarina con INR objetivo 2-3 más aspirina durante 6 meses.", "isCorrect": false },
+      { "letter": "D", "text": "Clopidogrel 75 mg/día como monoterapia durante 3 meses.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Caso clínico: Mujer de 28 años consulta por diarrea sanguinolenta con moco de 6 semanas de evolución, acompañada de dolor abdominal tipo cólico en hemiabdomen inferior, tenesmo rectal, urgencia defecatoria y pérdida de 4 kg de peso. Refiere 8 a 10 deposiciones al día. Al examen físico se encuentra pálida, con dolor a la palpación en fosa ilíaca izquierda y tacto rectal con sangre fresca. Los laboratorios muestran hemoglobina de 10,2 g/dL, VSG de 48 mm/h y PCR de 32 mg/L.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La diarrea sanguinolenta con moco, tenesmo, urgencia, dolor en fosa ilíaca izquierda, pérdida de peso y elevación de marcadores inflamatorios en una mujer joven son característicos de la colitis ulcerativa (CU). La enfermedad de Crohn puede causar diarrea sanguinolenta pero tiende a afectar íleon terminal y produce lesiones transmurales con fístulas. La colitis infecciosa (Shigella, Salmonella) se presenta de forma más aguda. El síndrome de intestino irritable no produce sangrado ni marcadores inflamatorios elevados.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Enfermedad de Crohn con afectación colónica.", "isCorrect": false },
+      { "letter": "B", "text": "Colitis ulcerativa.", "isCorrect": true },
+      { "letter": "C", "text": "Colitis infecciosa por Shigella.", "isCorrect": false },
+      { "letter": "D", "text": "Síndrome de intestino irritable con predominio de diarrea.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "Según la clasificación de gravedad (criterios de Truelove y Witts), ¿cómo se clasifica este brote y cuál es el tratamiento de primera línea?",
+    "explanation": "Con más de 6 deposiciones sanguinolentas al día, anemia (Hb 10,2), taquicardia probable, VSG > 30 y PCR elevada, este brote se clasifica como moderado a grave según los criterios de Truelove y Witts. El tratamiento de primera línea para un brote moderado-grave de colitis ulcerativa es corticosteroides sistémicos (prednisona oral 40-60 mg/día o metilprednisolona IV en caso grave). Los aminosalicilatos (mesalazina) son para brotes leves. Los inmunomoduladores tardan semanas en actuar. La cirugía se reserva para refractariedad.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Brote leve; mesalazina oral y rectal.", "isCorrect": false },
+      { "letter": "B", "text": "Brote moderado a grave; corticosteroides sistémicos (prednisona oral o metilprednisolona IV).", "isCorrect": true },
+      { "letter": "C", "text": "Brote leve; azatioprina oral como inducción.", "isCorrect": false },
+      { "letter": "D", "text": "Brote grave; colectomía total de urgencia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "¿Cuál es el estudio diagnóstico confirmatorio más apropiado y qué hallazgo se espera encontrar?",
+    "explanation": "La colonoscopia con biopsias es el estudio confirmatorio de elección para colitis ulcerativa. Los hallazgos esperados incluyen inflamación difusa y continua de la mucosa que inicia en el recto y se extiende proximalmente, con eritema, edema, friabilidad, pérdida del patrón vascular y úlceras superficiales. Las biopsias muestran inflamación limitada a la mucosa con distorsión de criptas y abscesos crípticos. En Crohn las lesiones son parcheadas y transmurales. La cápsula endoscópica no evalúa colon adecuadamente.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "TAC de abdomen con contraste; engrosamiento mural segmentario.", "isCorrect": false },
+      { "letter": "B", "text": "Colonoscopia con biopsias; inflamación continua desde el recto con úlceras superficiales y distorsión críptica.", "isCorrect": true },
+      { "letter": "C", "text": "Cápsula endoscópica; úlceras aftoides parcheadas.", "isCorrect": false },
+      { "letter": "D", "text": "Enema de bario; estenosis y fístulas transmurales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Caso clínico: Mujer de 34 años, gestante de 35 semanas, es llevada a urgencias por dolor abdominal súbito, intenso y constante en hipogastrio, acompañado de sangrado vaginal oscuro. Refiere que el dolor comenzó hace 1 hora y no cede. Tiene antecedente de hipertensión gestacional. Al examen: útero hipertónico «en tabla», frecuencia cardíaca materna de 110 lpm, PA de 90/60 mmHg y monitoreo fetal con bradicardia sostenida (FCF 80 lpm).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El cuadro de dolor abdominal súbito e intenso, sangrado vaginal oscuro, útero hipertónico «en tabla», hipotensión materna y bradicardia fetal en una gestante con hipertensión gestacional es la presentación clásica del desprendimiento prematuro de placenta normoinserta (abruptio placentae) completo. La placenta previa se presenta con sangrado indoloro y rojo rutilante. La ruptura uterina es más frecuente en útero cicatricial. La preeclampsia con síndrome HELLP no explica el útero hipertónico ni la bradicardia fetal.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Placenta previa con sangrado activo.", "isCorrect": false },
+      { "letter": "B", "text": "Desprendimiento prematuro de placenta normoinserta (abruptio placentae).", "isCorrect": true },
+      { "letter": "C", "text": "Ruptura uterina.", "isCorrect": false },
+      { "letter": "D", "text": "Preeclampsia severa con síndrome HELLP.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta obstétrica inmediata más apropiada?",
+    "explanation": "Ante un desprendimiento placentario completo con compromiso hemodinámico materno (hipotensión, taquicardia) y sufrimiento fetal agudo (bradicardia sostenida) a las 35 semanas, la conducta es cesárea de emergencia inmediata. No se puede esperar parto vaginal con bradicardia fetal sostenida. La maduración pulmonar y la tocólisis están contraindicadas en desprendimiento con compromiso materno-fetal. La inducción del parto no es apropiada ante la emergencia hemodinámica.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Administrar corticoides para maduración pulmonar fetal y programar cesárea en 48 horas.", "isCorrect": false },
+      { "letter": "B", "text": "Cesárea de emergencia con reanimación materna simultánea.", "isCorrect": true },
+      { "letter": "C", "text": "Inducción del parto vaginal con oxitocina y monitoreo continuo.", "isCorrect": false },
+      { "letter": "D", "text": "Tocólisis con nifedipino para prolongar la gestación y observación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "¿Cuál es la complicación materna más grave asociada al desprendimiento placentario completo que debe vigilarse en el postoperatorio?",
+    "explanation": "La coagulación intravascular diseminada (CID) es la complicación materna más grave del desprendimiento placentario, especialmente en casos completos. Ocurre por liberación de tromboplastina tisular desde la placenta desprendida, provocando consumo de factores de coagulación y fibrinólisis secundaria. Se monitoriza con fibrinógeno (< 200 mg/dL indica CID), dímero D, PT/PTT y plaquetas. La atelectasia pulmonar y la infección de herida son complicaciones menores. La eclampsia es una complicación de la preeclampsia, no directamente del desprendimiento.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Atelectasia pulmonar postquirúrgica.", "isCorrect": false },
+      { "letter": "B", "text": "Coagulación intravascular diseminada (CID).", "isCorrect": true },
+      { "letter": "C", "text": "Infección de sitio operatorio.", "isCorrect": false },
+      { "letter": "D", "text": "Eclampsia puerperal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Caso clínico: Hombre de 58 años, ingeniero, consulta por debilidad progresiva en la mano derecha de 8 meses de evolución. Inicialmente notó torpeza para abotonarse la camisa, y ahora presenta atrofia de los músculos interóseos de ambas manos, fasciculaciones en brazos y muslos, y calambres nocturnos. No refiere alteraciones sensitivas ni dificultad para controlar esfínteres. Los reflejos osteotendinosos están exaltados en las cuatro extremidades con signo de Babinski bilateral.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La combinación de signos de neurona motora inferior (atrofia muscular, fasciculaciones) con signos de neurona motora superior (hiperreflexia, Babinski bilateral) en ausencia de alteraciones sensitivas y esfinterianas, con progresión insidiosa, es la presentación clásica de la esclerosis lateral amiotrófica (ELA). La miastenia gravis no produce fasciculaciones ni signos piramidales. La esclerosis múltiple cursa con síntomas sensitivos y visuales. La mielopatía cervical espondilótica produce déficit sensitivo y vesical.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Miastenia gravis.", "isCorrect": false },
+      { "letter": "B", "text": "Esclerosis lateral amiotrófica (ELA).", "isCorrect": true },
+      { "letter": "C", "text": "Esclerosis múltiple con afectación medular.", "isCorrect": false },
+      { "letter": "D", "text": "Mielopatía cervical espondilótica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "¿Cuál es el estudio electrofisiológico que apoya el diagnóstico y qué hallazgos se esperan?",
+    "explanation": "La electromiografía (EMG) con velocidades de conducción nerviosa es el estudio electrofisiológico clave. En ELA se esperan hallazgos de denervación activa (fibrilaciones y ondas positivas) y reinervación crónica (potenciales de unidad motora de gran amplitud, polifásicos y de reclutamiento reducido) en al menos 3 regiones anatómicas diferentes (criterios de El Escorial revisados). Las velocidades de conducción sensitivas son normales. La biopsia muscular no es de primera línea. La resonancia medular descarta compresión pero no confirma ELA.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Resonancia magnética de médula espinal; desmielinización parcheada.", "isCorrect": false },
+      { "letter": "B", "text": "Electromiografía; denervación activa y reinervación crónica en múltiples regiones con conducción sensitiva normal.", "isCorrect": true },
+      { "letter": "C", "text": "Biopsia muscular; infiltrado inflamatorio perivascular.", "isCorrect": false },
+      { "letter": "D", "text": "Prueba de estimulación repetitiva; decremento mayor del 10%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "¿Cuál es el único medicamento que ha demostrado prolongar la supervivencia en la ELA y cuál es su mecanismo de acción?",
+    "explanation": "El riluzol es el único fármaco aprobado que ha demostrado prolongar la supervivencia en ELA (aproximadamente 2-3 meses). Su mecanismo de acción es la inhibición de la liberación presináptica de glutamato, reduciendo la excitotoxicidad neuronal. La gabapentina es para dolor neuropático y no modifica la progresión. La prednisona no tiene beneficio en ELA. La inmunoglobulina IV es para enfermedades autoinmunes como Guillain-Barré o miastenia gravis.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Gabapentina; bloqueo de canales de calcio.", "isCorrect": false },
+      { "letter": "B", "text": "Riluzol; inhibición de la liberación de glutamato.", "isCorrect": true },
+      { "letter": "C", "text": "Prednisona; inmunosupresión.", "isCorrect": false },
+      { "letter": "D", "text": "Inmunoglobulina intravenosa; modulación inmunitaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Caso clínico: Hombre de 22 años consulta por odinofagia intensa de 4 días de evolución, progresiva, con imposibilidad para tragar líquidos en las últimas 12 horas. Presenta fiebre de 39,8 °C, voz «de papa caliente», trismo (apertura oral limitada a 2 cm) y sialorrea. Al examen se observa abombamiento del paladar blando izquierdo con desplazamiento medial de la amígdala y desviación de la úvula hacia la derecha. Hay adenopatía cervical dolorosa ipsilateral.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La odinofagia grave con trismo, voz «de papa caliente», sialorrea, abombamiento del paladar blando con desplazamiento medial de la amígdala y desviación contralateral de la úvula es la presentación clásica del absceso periamigdalino. Es la complicación supurativa más frecuente de la amigdalitis. La epiglotitis aguda se presenta con estridor y posición de trípode. La angina de Ludwig afecta el piso de la boca bilateralmente. La mononucleosis puede causar amigdalitis pero no desplazamiento unilateral.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Epiglotitis aguda del adulto.", "isCorrect": false },
+      { "letter": "B", "text": "Absceso periamigdalino izquierdo.", "isCorrect": true },
+      { "letter": "C", "text": "Angina de Ludwig.", "isCorrect": false },
+      { "letter": "D", "text": "Mononucleosis infecciosa complicada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento definitivo más apropiado?",
+    "explanation": "El tratamiento del absceso periamigdalino es drenaje (ya sea por aspiración con aguja o incisión y drenaje) más antibioticoterapia intravenosa que cubra estreptococo del grupo A y anaerobios (amoxicilina-clavulanato o ampicilina-sulbactam). Los antibióticos solos sin drenaje son insuficientes para un absceso formado. La amigdalectomía en caliente (absceso quinsy) se puede considerar pero no es el manejo inicial estándar. Los corticoides solos no resuelven la colección purulenta.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Antibioticoterapia intravenosa exclusiva sin drenaje.", "isCorrect": false },
+      { "letter": "B", "text": "Drenaje del absceso (aspiración o incisión) más antibioticoterapia intravenosa.", "isCorrect": true },
+      { "letter": "C", "text": "Amigdalectomía bilateral de emergencia.", "isCorrect": false },
+      { "letter": "D", "text": "Corticosteroides sistémicos en dosis altas y observación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Caso clínico: Hombre de 35 años, agricultor, consulta por fiebre alta de 5 días de evolución, cefalea intensa, mialgias generalizadas (especialmente en pantorrillas), inyección conjuntival bilateral sin secreción purulenta e ictericia. Refiere haber estado en contacto con aguas estancadas en zona rural inundada hace 10 días. Al examen: temperatura de 39,5 °C, ictericia escleral, hepatomegalia dolorosa, y petequias en miembros inferiores. Laboratorios: creatinina 3,2 mg/dL, bilirrubina total 8,5 mg/dL, AST 180 U/L, ALT 120 U/L, plaquetas 85 000/μL.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La fiebre, cefalea, mialgias (especialmente en pantorrillas), inyección conjuntival, ictericia, insuficiencia renal aguda, hepatitis y trombocitopenia en un agricultor con exposición a aguas estancadas es la presentación clásica de leptospirosis severa (síndrome de Weil). La hepatitis A no produce insuficiencia renal ni dolor en pantorrillas. El dengue grave puede causar ictericia pero la exposición epidemiológica y la mialgia en pantorrillas son típicas de leptospirosis. La malaria puede causar ictericia pero no dolor en pantorrillas ni inyección conjuntival prominente.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Hepatitis viral aguda tipo A.", "isCorrect": false },
+      { "letter": "B", "text": "Leptospirosis severa (síndrome de Weil).", "isCorrect": true },
+      { "letter": "C", "text": "Dengue grave con afectación hepática.", "isCorrect": false },
+      { "letter": "D", "text": "Malaria por Plasmodium falciparum.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento antibiótico de elección para la leptospirosis severa?",
+    "explanation": "En leptospirosis severa (síndrome de Weil con ictericia, insuficiencia renal y hemorragias), el tratamiento de elección es penicilina G cristalina intravenosa 1,5 millones de unidades cada 6 horas durante 7 días. Alternativas incluyen ceftriaxona IV o doxiciclina IV. La doxiciclina oral se utiliza para casos leves. La ciprofloxacina no tiene cobertura adecuada para Leptospira. El metronidazol es para anaerobios y no tiene actividad contra espiroquetas.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Ciprofloxacina 500 mg IV cada 12 horas por 10 días.", "isCorrect": false },
+      { "letter": "B", "text": "Penicilina G cristalina 1,5 millones de unidades IV cada 6 horas por 7 días.", "isCorrect": true },
+      { "letter": "C", "text": "Metronidazol 500 mg IV cada 8 horas por 14 días.", "isCorrect": false },
+      { "letter": "D", "text": "Doxiciclina 100 mg oral cada 12 horas por 5 días.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "Caso clínico: Mujer de 55 años con antecedente de lupus eritematoso sistémico y artritis reumatoide consulta por disnea progresiva de 2 semanas, ortopnea y edema de miembros inferiores. Al examen: ingurgitación yugular con ondas «x» prominentes, ruidos cardíacos velados, pulso paradójico de 18 mmHg (disminución de la presión sistólica > 10 mmHg durante la inspiración), hepatomegalia congestiva y PA de 95/70 mmHg. El electrocardiograma muestra alternancia eléctrica y bajo voltaje difuso.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La tríada de Beck (hipotensión, ruidos cardíacos velados e ingurgitación yugular), asociada a pulso paradójico > 10 mmHg, alternancia eléctrica y bajo voltaje en el ECG, en una paciente con enfermedad autoinmune (lupus/AR) es diagnóstica de taponamiento cardíaco no traumático. El derrame pericárdico crónico en enfermedades autoinmunes puede acumularse progresivamente hasta producir compromiso hemodinámico. La insuficiencia cardíaca congestiva no produce pulso paradójico ni alternancia eléctrica. La pericarditis constrictiva tiene signo de Kussmaul pero no alternancia eléctrica.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Insuficiencia cardíaca congestiva descompensada.", "isCorrect": false },
+      { "letter": "B", "text": "Taponamiento cardíaco por derrame pericárdico.", "isCorrect": true },
+      { "letter": "C", "text": "Pericarditis constrictiva crónica.", "isCorrect": false },
+      { "letter": "D", "text": "Tromboembolismo pulmonar masivo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": null,
+    "questionText": "¿Cuál es el estudio de imagen más útil para confirmar el diagnóstico y evaluar la repercusión hemodinámica?",
+    "explanation": "El ecocardiograma transtorácico es el estudio de imagen de elección para confirmar el derrame pericárdico y evaluar el compromiso hemodinámico (colapso diastólico del ventrículo derecho, colapso sistólico de la aurícula derecha, variación respiratoria de flujos transvalvulares > 25%). Permite además guiar la pericardiocentesis. La TAC de tórax puede mostrar derrame pero no evalúa hemodinámica en tiempo real. El cateterismo cardíaco es invasivo y no es de primera línea.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Radiografía de tórax PA y lateral.", "isCorrect": false },
+      { "letter": "B", "text": "Ecocardiograma transtorácico.", "isCorrect": true },
+      { "letter": "C", "text": "Tomografía computarizada de tórax con contraste.", "isCorrect": false },
+      { "letter": "D", "text": "Cateterismo cardíaco derecho.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento de emergencia para el taponamiento cardíaco con compromiso hemodinámico?",
+    "explanation": "La pericardiocentesis de emergencia guiada por ecocardiografía es el tratamiento definitivo para el taponamiento cardíaco con compromiso hemodinámico. Permite drenar el líquido pericárdico y restaurar el gasto cardíaco. Mientras se prepara, se administra solución salina IV para aumentar la precarga. Están contraindicados los diuréticos (reducen precarga y empeoran el gasto cardíaco) y los vasodilatadores. La ventana pericárdica quirúrgica es una alternativa cuando la pericardiocentesis no es factible o hay recurrencia.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Diuréticos intravenosos (furosemida) para reducir la congestión.", "isCorrect": false },
+      { "letter": "B", "text": "Pericardiocentesis de emergencia guiada por ecocardiografía.", "isCorrect": true },
+      { "letter": "C", "text": "Corticosteroides en dosis altas y antiinflamatorios no esteroideos.", "isCorrect": false },
+      { "letter": "D", "text": "Vasodilatadores intravenosos (nitroglicerina) para reducir la poscarga.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Caso clínico: Mujer de 48 años, asintomática, se realiza una tomografía computarizada de abdomen por dolor lumbar inespecífico, hallándose incidentalmente una masa suprarrenal izquierda de 2,8 cm, homogénea, con densidad de 5 UH (unidades Hounsfield) en fase sin contraste y lavado rápido del contraste mayor al 60% a los 15 minutos. No tiene antecedente de neoplasia conocida. La PA es de 125/80 mmHg. El examen físico es normal, sin estrías violáceas, hirsutismo ni obesidad central.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es la conducta diagnóstica inicial más apropiada para esta paciente?",
+    "explanation": "Ante un incidentaloma suprarrenal, se deben descartar dos cosas: funcionalidad hormonal y malignidad. El estudio hormonal inicial incluye: metanefrinas fraccionadas en orina de 24 horas o plasmáticas (descartar feocromocitoma), cortisol libre urinario de 24 horas o test de supresión con dexametasona 1 mg (descartar síndrome de Cushing subclínico), y relación aldosterona/renina si hay hipertensión (descartar hiperaldosteronismo). Las características de imagen (< 4 cm, densidad < 10 UH, lavado rápido) sugieren adenoma benigno. La biopsia suprarrenal no se debe realizar sin antes descartar feocromocitoma.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Biopsia percutánea guiada por TAC de la masa suprarrenal.", "isCorrect": false },
+      { "letter": "B", "text": "Estudio hormonal completo: metanefrinas, cortisol libre urinario y relación aldosterona/renina.", "isCorrect": true },
+      { "letter": "C", "text": "Adrenalectomía laparoscópica izquierda directa.", "isCorrect": false },
+      { "letter": "D", "text": "Observación sin estudios adicionales y control imagenológico en 1 año.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "Los estudios hormonales resultan normales. Según las características imagenológicas, ¿cuál es la conducta más apropiada?",
+    "explanation": "Una masa suprarrenal de 2,8 cm, con densidad < 10 UH en TAC sin contraste y lavado rápido > 60%, es altamente sugestiva de adenoma suprarrenal benigno rico en lípidos. Con estudios funcionales normales y características imagenológicas benignas, la conducta es seguimiento imagenológico a los 6-12 meses para evaluar crecimiento, y repetir estudio hormonal anualmente durante 4-5 años. La cirugía se indica si la masa crece > 1 cm, supera los 4 cm, o se vuelve funcional. No se requiere PET-CT ni biopsia en este escenario.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Adrenalectomía laparoscópica profiláctica.", "isCorrect": false },
+      { "letter": "B", "text": "Seguimiento imagenológico a los 6-12 meses y estudio hormonal anual durante 4-5 años.", "isCorrect": true },
+      { "letter": "C", "text": "PET-CT con 18F-FDG para descartar malignidad.", "isCorrect": false },
+      { "letter": "D", "text": "Alta definitiva sin controles adicionales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Caso clínico: Mujer de 26 años consulta a urgencias por dolor súbito en fosa ilíaca derecha de 6 horas de evolución, intenso, que inició durante ejercicio físico. Tiene náuseas y un episodio de vómito. Su última menstruación fue hace 16 días. No usa anticonceptivos. Al examen: abdomen con dolor a la palpación en fosa ilíaca derecha con defensa muscular voluntaria, sin signos de irritación peritoneal franca. Signos vitales: PA 110/70 mmHg, FC 92 lpm. Laboratorios: Hb 12,8 g/dL, leucocitos 11 200/μL, β-hCG negativa.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El dolor súbito en fosa ilíaca derecha durante ejercicio en una mujer en edad fértil con β-hCG negativa, sin signos de irritación peritoneal franca ni inestabilidad hemodinámica, orienta hacia ruptura de quiste ovárico. La β-hCG negativa descarta embarazo ectópico. La presentación abrupta durante actividad física es típica de ruptura quística. La apendicitis aguda es un diferencial importante pero la temporalidad (dolor súbito durante ejercicio) y la fase del ciclo menstrual (día 16, fase lútea) favorecen la etiología ovárica. La torsión ovárica cursa con dolor cólico más intenso.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Apendicitis aguda.", "isCorrect": false },
+      { "letter": "B", "text": "Ruptura de quiste ovárico.", "isCorrect": true },
+      { "letter": "C", "text": "Embarazo ectópico roto.", "isCorrect": false },
+      { "letter": "D", "text": "Torsión ovárica derecha.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "La ecografía pélvica muestra líquido libre en fondo de saco de Douglas y un ovario derecho con quiste colapsado de 3 cm. La paciente se mantiene hemodinámicamente estable. ¿Cuál es el manejo más apropiado?",
+    "explanation": "En una paciente hemodinámicamente estable con ruptura de quiste ovárico simple y líquido libre limitado, el manejo es conservador: analgesia (AINEs), hidratación, reposo y observación con seriación de hemoglobina y monitoreo de signos vitales. La cirugía (laparoscopia) se reserva para pacientes con inestabilidad hemodinámica, descenso progresivo de hemoglobina, dolor intratable o líquido libre abundante en aumento. No se requieren antibióticos profilácticos ni hospitalización prolongada si la paciente se estabiliza.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Laparoscopia exploratoria de urgencia con ooforectomía derecha.", "isCorrect": false },
+      { "letter": "B", "text": "Manejo conservador con analgesia, hidratación, observación y control de hemoglobina.", "isCorrect": true },
+      { "letter": "C", "text": "Antibioticoterapia empírica y programar laparotomía electiva.", "isCorrect": false },
+      { "letter": "D", "text": "Punción guiada por ecografía del líquido en fondo de saco.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Caso clínico: Mujer de 32 años consulta por aparición de equimosis espontáneas en extremidades, petequias en mucosa oral y sangrado gingival de 5 días de evolución. Refiere cefalea intensa, visión borrosa intermitente, confusión episódica y fiebre de 38,5 °C. Al examen: palidez marcada, ictericia escleral leve, petequias difusas y hepatoesplenomegalia leve. Laboratorios: Hb 7,2 g/dL, plaquetas 12 000/μL, reticulocitos 8%, LDH 1 850 U/L, haptoglobina indetectable, bilirrubina indirecta 4,1 mg/dL, creatinina 1,8 mg/dL. Frotis de sangre periférica: abundantes esquistocitos.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La pentada clásica de púrpura trombocitopénica trombótica (PTT) incluye: trombocitopenia severa, anemia hemolítica microangiopática (esquistocitos, LDH elevada, haptoglobina indetectable, bilirrubina indirecta elevada), alteraciones neurológicas (cefalea, confusión, visión borrosa), fiebre e insuficiencia renal. La presencia de esquistocitos en frotis es clave para el diagnóstico de microangiopatía trombótica. El SHU típico predomina en niños con diarrea sanguinolenta. La PTI no produce hemólisis ni esquistocitos. La CID tiene PT/PTT prolongados y fibrinógeno bajo.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Púrpura trombocitopénica inmune (PTI).", "isCorrect": false },
+      { "letter": "B", "text": "Púrpura trombocitopénica trombótica (PTT).", "isCorrect": true },
+      { "letter": "C", "text": "Síndrome hemolítico urémico típico.", "isCorrect": false },
+      { "letter": "D", "text": "Coagulación intravascular diseminada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento de emergencia para esta paciente?",
+    "explanation": "La PTT es una emergencia hematológica con mortalidad > 90% sin tratamiento. El pilar del tratamiento es la plasmaféresis (recambio plasmático terapéutico) iniciada de forma urgente, idealmente en las primeras horas. La plasmaféresis remueve los anticuerpos anti-ADAMTS13 y repone la metaloproteasa deficiente. Mientras se inicia, se puede transfundir plasma fresco congelado. Los corticosteroides (metilprednisolona) se usan como coadyuvante. Está contraindicada la transfusión de plaquetas (puede empeorar la trombosis microvascular y precipitar eventos isquémicos). La esplenectomía no es el tratamiento inicial.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Transfusión de plaquetas para llevar recuento por encima de 50 000/μL.", "isCorrect": false },
+      { "letter": "B", "text": "Plasmaféresis de emergencia y corticosteroides coadyuvantes.", "isCorrect": true },
+      { "letter": "C", "text": "Esplenectomía de urgencia.", "isCorrect": false },
+      { "letter": "D", "text": "Heparina intravenosa para prevenir trombosis microvasculares.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Caso clínico: Hombre de 24 años es traído a urgencias 4 horas después de sufrir una fractura cerrada de tibia derecha en un accidente de motocicleta, tratada con inmovilización con yeso. Consulta por dolor intenso y progresivo en la pierna derecha que no cede con los analgésicos administrados (incluyendo morfina IV). Refiere sensación de «presión» y adormecimiento en el pie. Al examen: la pierna derecha está tensa, edematizada, con dolor intenso a la extensión pasiva de los dedos del pie. Los pulsos pedios están presentes pero débiles. La sensibilidad está disminuida en el primer espacio interdigital dorsal del pie.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El dolor desproporcionado que no cede con opioides, dolor a la extensión pasiva de los dedos, edema tenso de la pierna, parestesias (hipoestesia del primer espacio interdigital — nervio peroneo profundo) y pulsos presentes pero débiles en un paciente con fractura tibial reciente e inmovilización con yeso son los hallazgos cardinales del síndrome compartimental agudo. Las 5 P (Pain/dolor, Pressure/presión, Paresthesia/parestesia, Paralysis/parálisis, Pulselessness/ausencia de pulsos) son tardías; la pérdida de pulsos es un signo muy tardío. La trombosis venosa profunda produce edema pero no dolor a la extensión pasiva. La neuropraxia por compresión no produce tensión compartimental.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Trombosis venosa profunda de miembro inferior derecho.", "isCorrect": false },
+      { "letter": "B", "text": "Síndrome compartimental agudo de la pierna derecha.", "isCorrect": true },
+      { "letter": "C", "text": "Neuropraxia del nervio peroneo por compresión del yeso.", "isCorrect": false },
+      { "letter": "D", "text": "Osteomielitis aguda postraumática.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento inmediato que debe realizarse?",
+    "explanation": "El síndrome compartimental agudo es una emergencia quirúrgica. La primera medida inmediata es retirar todo vendaje compresivo o yeso circunferencial (bivalvar el yeso) para liberar la presión externa. Si los síntomas persisten o la presión compartimental medida es ≥ 30 mmHg (o delta P < 30 mmHg respecto a la diastólica), se debe realizar fasciotomía descompresiva de urgencia de los 4 compartimentos de la pierna. El retraso > 6 horas lleva a daño isquémico irreversible. La elevación del miembro por encima del corazón está contraindicada (reduce la presión de perfusión). La anticoagulación no está indicada.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Elevar el miembro afectado por encima del nivel del corazón y aplicar hielo.", "isCorrect": false },
+      { "letter": "B", "text": "Retirar el yeso inmediatamente y, si persisten los síntomas, fasciotomía descompresiva de urgencia.", "isCorrect": true },
+      { "letter": "C", "text": "Iniciar anticoagulación con heparina y solicitar eco Doppler venoso.", "isCorrect": false },
+      { "letter": "D", "text": "Aumentar la analgesia con morfina y reevaluar en 6 horas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Caso clínico: Mujer de 38 años consulta por cefalea frontal persistente de 4 meses de evolución, galactorrea bilateral espontánea y amenorrea secundaria de 6 meses. Refiere disminución de la libido. No está embarazada (β-hCG negativa). No toma medicamentos antipsicóticos ni antidepresivos. Al examen: campos visuales con hemianopsia bitemporal. La resonancia magnética de silla turca muestra una masa selar de 18 mm con extensión supraselar y compresión del quiasma óptico. Laboratorios: prolactina sérica de 380 ng/mL (normal < 25 ng/mL), TSH normal.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La triada de amenorrea, galactorrea e hiperprolactinemia marcada (> 200 ng/mL) con una masa selar > 10 mm (macroprolactinoma) y compresión quiasmática (hemianopsia bitemporal) es diagnóstica de prolactinoma (macroadenoma). Los niveles de prolactina correlacionan con el tamaño tumoral: macroprolactinomas suelen tener prolactina > 200 ng/mL. El efecto de tallo por compresión de un adenoma no funcionante eleva la prolactina pero rara vez > 100-150 ng/mL. El craneofaringioma es más frecuente en niños y no produce hiperprolactinemia marcada. El hipotiroidismo eleva prolactina pero la TSH es normal.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Adenoma hipofisario no funcionante con efecto de tallo.", "isCorrect": false },
+      { "letter": "B", "text": "Macroprolactinoma hipofisario.", "isCorrect": true },
+      { "letter": "C", "text": "Craneofaringioma con extensión supraselar.", "isCorrect": false },
+      { "letter": "D", "text": "Hiperprolactinemia secundaria a hipotiroidismo primario.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento de primera línea para el macroprolactinoma?",
+    "explanation": "El tratamiento de primera línea para el prolactinoma, incluso macroprolactinomas con compresión quiasmática, es farmacológico con agonistas dopaminérgicos. La cabergolina es el agente de elección por su mayor eficacia, mejor tolerancia y administración bisemanal. Reduce la prolactina y el tamaño tumoral en > 80% de los casos, con mejoría del campo visual en semanas. La cirugía transesfenoidal se reserva para casos refractarios al tratamiento médico, intolerancia a los agonistas o apoplejía hipofisaria. La radioterapia es de tercera línea.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Cirugía transesfenoidal como primera opción.", "isCorrect": false },
+      { "letter": "B", "text": "Cabergolina (agonista dopaminérgico) como primera línea.", "isCorrect": true },
+      { "letter": "C", "text": "Radioterapia estereotáctica fraccionada.", "isCorrect": false },
+      { "letter": "D", "text": "Octreotida (análogo de somatostatina) subcutánea.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "Tras 6 meses de tratamiento con cabergolina, la prolactina desciende a 15 ng/mL, la RMN muestra reducción tumoral del 60% y los campos visuales se normalizan. ¿Cuál es la conducta más apropiada?",
+    "explanation": "Ante una respuesta favorable a cabergolina (normalización de prolactina, reducción tumoral significativa y resolución de síntomas compresivos), la conducta es continuar el tratamiento farmacológico con la dosis mínima eficaz, monitorizar prolactina cada 6 meses y RMN anual. La suspensión del tratamiento puede considerarse después de al menos 2 años de tratamiento con prolactina normal y reducción tumoral significativa, siempre bajo vigilancia estrecha por riesgo de recurrencia. No se indica cirugía si hay buena respuesta médica.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Suspender la cabergolina y programar cirugía transesfenoidal electiva.", "isCorrect": false },
+      { "letter": "B", "text": "Continuar cabergolina en dosis mínima eficaz con monitorización periódica de prolactina y RMN.", "isCorrect": true },
+      { "letter": "C", "text": "Suspender inmediatamente la cabergolina dado que la prolactina se normalizó.", "isCorrect": false },
+      { "letter": "D", "text": "Cambiar a bromocriptina por menor costo y mantener indefinidamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Caso clínico: Niño de 3 años es traído a urgencias por su madre porque presenta dificultad respiratoria de inicio agudo de 6 horas de evolución. Tiene fiebre de 40,2 °C, odinofagia con rechazo completo a los alimentos, sialorrea profusa y voz apagada. El niño se encuentra sentado inclinado hacia adelante con el cuello extendido (posición de trípode) y tiene estridor inspiratorio. No ha sido vacunado contra Haemophilus influenzae tipo b.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La presentación aguda de fiebre alta, odinofagia intensa con sialorrea, voz apagada (no ronca como en laringotraqueítis), estridor inspiratorio y posición de trípode en un niño no vacunado contra H. influenzae tipo b es la presentación clásica de epiglotitis aguda. La laringotraqueítis viral (crup) tiene inicio gradual, tos «perruna» y estridor, pero no sialorrea ni posición de trípode. El cuerpo extraño tiene inicio súbito sin fiebre. El absceso retrofaríngeo puede tener presentación similar pero la rigidez cervical con extensión es más típica de epiglotitis.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Laringotraqueítis viral aguda (crup).", "isCorrect": false },
+      { "letter": "B", "text": "Epiglotitis aguda.", "isCorrect": true },
+      { "letter": "C", "text": "Aspiración de cuerpo extraño.", "isCorrect": false },
+      { "letter": "D", "text": "Absceso retrofaríngeo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "¿Cuál es la prioridad en el manejo inicial de este paciente?",
+    "explanation": "La epiglotitis aguda es una emergencia de vía aérea. La prioridad absoluta es asegurar la vía aérea mediante intubación orotraqueal en un ambiente controlado (idealmente quirófano) por personal experto (anestesiólogo o otorrinolaringólogo), con equipo de traqueostomía disponible. Se debe mantener al niño tranquilo, en posición cómoda, con oxígeno humidificado, y evitar cualquier maniobra que lo agite (no inspeccionar faringe con baja lengua, no intentar venopunción antes de asegurar vía aérea). Después de asegurar la vía aérea, se inician antibióticos IV (ceftriaxona o ampicilina-sulbactam).",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Inspección faríngea directa con baja lengua para confirmar el diagnóstico.", "isCorrect": false },
+      { "letter": "B", "text": "Asegurar la vía aérea en ambiente controlado con intubación por personal experto.", "isCorrect": true },
+      { "letter": "C", "text": "Administrar adrenalina nebulizada y dexametasona IV como en crup.", "isCorrect": false },
+      { "letter": "D", "text": "Radiografía lateral de cuello y luego iniciar antibióticos orales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "Caso clínico: Hombre de 55 años, alcohólico crónico y desnutrido, es traído a urgencias por confusión aguda de 2 días de evolución. Sus familiares refieren que dejó de comer hace una semana y solo ha consumido alcohol. Al examen: desorientado en tiempo y espacio, con nistagmo horizontal bilateral, oftalmoplejía (parálisis del VI par craneal bilateral), ataxia de la marcha que le impide caminar sin apoyo, e hipotermia de 35,2 °C. Presenta signos de desnutrición severa con IMC de 16.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La tríada clásica de la encefalopatía de Wernicke es: confusión/alteración del estado mental, oftalmoplejía (paresia del VI par craneal, nistagmo) y ataxia, en un paciente alcohólico crónico desnutrido. Es causada por deficiencia de tiamina (vitamina B1). La encefalopatía hepática no produce oftalmoplejía ni ataxia cerebelosa. El delirium tremens cursa con hiperactividad simpática (taquicardia, hipertensión, diaforesis). La intoxicación aguda por alcohol no produce oftalmoplejía.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Encefalopatía hepática por cirrosis descompensada.", "isCorrect": false },
+      { "letter": "B", "text": "Encefalopatía de Wernicke.", "isCorrect": true },
+      { "letter": "C", "text": "Delirium tremens por abstinencia alcohólica.", "isCorrect": false },
+      { "letter": "D", "text": "Intoxicación alcohólica aguda.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento inmediato más apropiado y qué precaución es esencial?",
+    "explanation": "El tratamiento inmediato es tiamina (vitamina B1) intravenosa en dosis altas (200-500 mg IV cada 8 horas durante 3-5 días). La precaución esencial es administrar SIEMPRE la tiamina ANTES de cualquier solución glucosada, ya que la glucosa consume tiamina como cofactor y puede precipitar o empeorar la encefalopatía de Wernicke, progresando a síndrome de Korsakoff (amnesia anterógrada irreversible). La reposición de magnesio también es necesaria ya que es cofactor de la tiamina. Las benzodiazepinas son para delirium tremens. El ácido fólico es importante pero no es la prioridad.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Solución glucosada al 10% intravenosa para corregir la desnutrición.", "isCorrect": false },
+      { "letter": "B", "text": "Tiamina intravenosa en dosis altas ANTES de administrar glucosa.", "isCorrect": true },
+      { "letter": "C", "text": "Benzodiazepinas intravenosas (diazepam) para prevenir convulsiones.", "isCorrect": false },
+      { "letter": "D", "text": "Ácido fólico oral y complejo B intramuscular.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": "Caso clínico: Hombre de 45 años consulta por dolor lumbar bajo intenso de 3 días de evolución que se irradia a ambas piernas por la cara posterior hasta los pies. Refiere adormecimiento progresivo en la zona perineal (anestesia «en silla de montar»), dificultad para iniciar la micción en las últimas 24 horas con sensación de vejiga llena, y estreñimiento reciente de inicio nuevo. El dolor empeoró tras levantar un objeto pesado. Al examen: fuerza disminuida en dorsiflexión y flexión plantar bilateral (3/5), hiporreflexia aquílea bilateral, hipoestesia perianal y tono del esfínter anal disminuido. El globo vesical es palpable.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El dolor lumbar con ciática bilateral, anestesia «en silla de montar» (región perianal), retención urinaria (vejiga palpable), estreñimiento, debilidad bilateral de miembros inferiores, hiporreflexia aquílea bilateral y tono esfinteriano disminuido son los hallazgos cardinales del síndrome de cauda equina. Es una emergencia neuroquirúrgica causada generalmente por hernia discal masiva que comprime las raíces de la cauda equina. La hernia discal simple produce ciática unilateral. La estenosis lumbar crónica tiene presentación gradual. La mielitis transversa afecta niveles medulares más altos.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Hernia discal lumbar con radiculopatía bilateral.", "isCorrect": false },
+      { "letter": "B", "text": "Síndrome de cauda equina.", "isCorrect": true },
+      { "letter": "C", "text": "Estenosis del canal lumbar degenerativa.", "isCorrect": false },
+      { "letter": "D", "text": "Mielitis transversa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta diagnóstica y terapéutica urgente más apropiada?",
+    "explanation": "El síndrome de cauda equina es una emergencia neuroquirúrgica. Se debe solicitar resonancia magnética lumbar urgente (estudio de elección) para confirmar la compresión y su causa, seguida de descompresión quirúrgica (laminectomía/discectomía) dentro de las primeras 24-48 horas. El retraso quirúrgico más allá de 48 horas se asocia con déficit neurológico permanente (disfunción vesical, disfunción sexual, debilidad persistente). No se debe esperar con manejo conservador. Los corticosteroides no están indicados de rutina como en lesión medular traumática.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "TAC lumbar y manejo conservador con reposo, analgésicos y fisioterapia.", "isCorrect": false },
+      { "letter": "B", "text": "Resonancia magnética lumbar urgente y descompresión quirúrgica dentro de 24-48 horas.", "isCorrect": true },
+      { "letter": "C", "text": "Corticosteroides intravenosos en dosis altas (protocolo de lesión medular) y observación.", "isCorrect": false },
+      { "letter": "D", "text": "Electromiografía de miembros inferiores y referir a consulta externa de neurocirugía.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": "Caso clínico: Recién nacido de 36 horas de vida, masculino, nacido por parto vaginal a las 38 semanas, peso 3 200 g, grupo sanguíneo O Rh positivo (madre grupo A Rh negativo). Se observa ictericia que ha progresado desde la cara hasta el abdomen. El neonato está irritable, con succión débil y tono muscular levemente disminuido. Laboratorios: bilirrubina total 18,5 mg/dL (directa 0,8 mg/dL), hemoglobina 13,2 g/dL, reticulocitos 9%, Coombs directo positivo.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es la causa más probable de la ictericia y qué la diferencia de la ictericia fisiológica?",
+    "explanation": "La ictericia que aparece en las primeras 24-36 horas de vida con bilirrubina > 12 mg/dL, Coombs directo positivo, reticulocitos elevados y anemia es patológica. La causa más probable es la enfermedad hemolítica del recién nacido por incompatibilidad Rh (madre Rh negativa, neonato Rh positivo), con Coombs directo positivo que confirma anticuerpos maternos anti-D adheridos a los eritrocitos fetales. La ictericia fisiológica aparece después de las 48 horas, tiene pico al 3°-5° día, no supera 12-15 mg/dL y tiene Coombs negativo. La ictericia por lactancia aparece después de la primera semana.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Ictericia fisiológica del recién nacido.", "isCorrect": false },
+      { "letter": "B", "text": "Enfermedad hemolítica del recién nacido por incompatibilidad Rh (isoinmunización anti-D).", "isCorrect": true },
+      { "letter": "C", "text": "Ictericia por leche materna.", "isCorrect": false },
+      { "letter": "D", "text": "Atresia de vías biliares.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": null,
+    "questionText": "Con bilirrubina total de 18,5 mg/dL a las 36 horas y signos de encefalopatía bilirrubínica incipiente, ¿cuál es el tratamiento más apropiado?",
+    "explanation": "Con niveles de bilirrubina de 18,5 mg/dL a las 36 horas de vida en un neonato con enfermedad hemolítica y signos de encefalopatía bilirrubínica incipiente (irritabilidad, hipotonía, succión débil), se requiere fototerapia intensiva inmediata. Si la bilirrubina no desciende al menos 1-2 mg/dL en 4-6 horas de fototerapia intensiva o hay signos de encefalopatía progresiva, se debe realizar exanguinotransfusión. La exanguinotransfusión remueve la bilirrubina y los eritrocitos recubiertos de anticuerpos. La inmunoglobulina IV puede usarse como coadyuvante. La simple observación es inapropiada con estos niveles.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Observación y control de bilirrubina en 12 horas.", "isCorrect": false },
+      { "letter": "B", "text": "Fototerapia intensiva inmediata con preparación para exanguinotransfusión si no responde.", "isCorrect": true },
+      { "letter": "C", "text": "Fenobarbital oral para inducir la glucuronización hepática.", "isCorrect": false },
+      { "letter": "D", "text": "Suspensión de lactancia materna y fórmula por 48 horas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": null,
+    "questionText": "¿Cuál es la medida profiláctica que debió administrarse a la madre para prevenir esta complicación en futuros embarazos?",
+    "explanation": "La inmunoglobulina anti-D (RhoGAM) debe administrarse a toda madre Rh negativa no sensibilizada: de forma prenatal a las 28 semanas de gestación y postparto dentro de las primeras 72 horas tras el nacimiento de un hijo Rh positivo. También se administra después de abortos, embarazo ectópico, amniocentesis o cualquier evento con riesgo de hemorragia feto-materna. Si ya hay Coombs indirecto positivo (madre sensibilizada), la inmunoglobulina no es efectiva. La prevención es clave ya que la isoinmunización es irreversible.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Vacunación materna con antígeno D durante el tercer trimestre.", "isCorrect": false },
+      { "letter": "B", "text": "Inmunoglobulina anti-D (RhoGAM) a las 28 semanas de gestación y dentro de 72 horas postparto.", "isCorrect": true },
+      { "letter": "C", "text": "Corticosteroides prenatales para maduración pulmonar fetal.", "isCorrect": false },
+      { "letter": "D", "text": "Transfusión intrauterina profiláctica al feto.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "Caso clínico: Hombre de 19 años, jugador de fútbol, es traído a urgencias tras sufrir un trauma directo en la pierna derecha durante un partido. Presenta una fractura diafisaria de tibia derecha que fue reducida e inmovilizada con férula. Seis horas después comienza con dolor creciente en la pierna que no mejora con tramadol IV. El paciente refiere «hormigueo» en el pie derecho. Al examen la pierna está tensa y el dolor se exacerba con la dorsiflexión pasiva del tobillo. Los pulsos distales están presentes.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Se sospecha síndrome compartimental agudo. ¿Cuál es el método objetivo para confirmar el diagnóstico cuando el cuadro clínico es dudoso?",
+    "explanation": "Cuando el diagnóstico clínico de síndrome compartimental es dudoso (paciente sedado, no cooperador o politraumatizado), la medición de la presión intracompartimental con un transductor de presión (como el sistema Stryker) confirma el diagnóstico. Se considera positivo cuando la presión absoluta es ≥ 30 mmHg o cuando la diferencia entre la presión arterial diastólica y la presión compartimental (delta pressure) es < 30 mmHg. La ecografía Doppler evalúa flujo vascular pero no presión compartimental. La CK sérica se eleva en rabdomiólisis pero no es diagnóstica de síndrome compartimental.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Ecografía Doppler arterial del miembro inferior.", "isCorrect": false },
+      { "letter": "B", "text": "Medición de la presión intracompartimental con transductor de presión.", "isCorrect": true },
+      { "letter": "C", "text": "Creatina quinasa (CK) sérica seriada.", "isCorrect": false },
+      { "letter": "D", "text": "Arteriografía del miembro inferior derecho.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": null,
+    "questionText": "La presión compartimental medida es de 42 mmHg (PA diastólica 75 mmHg). Se realiza fasciotomía de los 4 compartimentos. ¿Cuál es la complicación sistémica más grave que debe monitorizarse tras la reperfusión?",
+    "explanation": "Tras la fasciotomía y reperfusión del tejido isquémico, la complicación sistémica más grave es la rabdomiólisis con lesión renal aguda por nefrotoxicidad de la mioglobina. El músculo isquémico libera mioglobina, potasio, fosfato y ácido láctico al torrente sanguíneo. La mioglobina precipita en los túbulos renales causando necrosis tubular aguda. Se debe monitorizar CK sérica, electrolitos (hiperpotasemia que puede causar arritmias), función renal y pH urinario. El tratamiento incluye hidratación agresiva con cristaloides para mantener diuresis > 200 mL/h y posiblemente alcalinización de la orina.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Tromboembolismo pulmonar por inmovilización prolongada.", "isCorrect": false },
+      { "letter": "B", "text": "Rabdomiólisis con lesión renal aguda por mioglobinuria.", "isCorrect": true },
+      { "letter": "C", "text": "Infección necrosante de tejidos blandos.", "isCorrect": false },
+      { "letter": "D", "text": "Síndrome de embolia grasa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": "Caso clínico: Mujer de 42 años consulta por aumento progresivo de las manos y los pies en los últimos 3 años, con necesidad de cambiar la talla de sus anillos y zapatos. Refiere cefalea frecuente, sudoración excesiva, dolor articular y ronquidos nocturnos. Su esposo nota que sus rasgos faciales han cambiado. Al examen: prognatismo, ensanchamiento nasal, macroglosia, manos grandes y gruesas con dedos «en salchicha», PA 145/95 mmHg. Se solicita IGF-1 sérica que resulta en 680 ng/mL (normal 80-280 ng/mL para su edad).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Se sospecha acromegalia. ¿Cuál es la prueba confirmatoria estándar?",
+    "explanation": "La prueba confirmatoria estándar para acromegalia es la prueba de supresión de hormona de crecimiento (GH) con carga oral de glucosa (75 g). En individuos normales, la GH se suprime a < 1 ng/mL (o < 0,4 ng/mL con ensayos ultrasensibles) tras la glucosa. En acromegalia, la GH no se suprime o paradójicamente aumenta. La IGF-1 elevada es el mejor estudio de tamizaje pero no es confirmatoria por sí sola. La GH basal aislada es poco útil por su secreción pulsátil. La RMN identifica el adenoma pero no confirma el diagnóstico bioquímico.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Niveles basales de GH en ayunas.", "isCorrect": false },
+      { "letter": "B", "text": "Prueba de supresión de GH con carga oral de glucosa (75 g).", "isCorrect": true },
+      { "letter": "C", "text": "Resonancia magnética de silla turca con gadolinio.", "isCorrect": false },
+      { "letter": "D", "text": "Niveles de GHRH séricos para descartar producción ectópica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": null,
+    "questionText": "La RMN muestra un macroadenoma hipofisario de 22 mm. ¿Cuál es el tratamiento de primera línea?",
+    "explanation": "A diferencia del prolactinoma (tratamiento médico primero), el tratamiento de primera línea para la acromegalia por macroadenoma hipofisario es la cirugía transesfenoidal. La resección quirúrgica ofrece curación bioquímica en 40-70% de los macroadenomas. Si no se logra curación quirúrgica (GH e IGF-1 persistentemente elevadas), se agrega tratamiento médico con análogos de somatostatina (octreotida LAR, lanreotida) como segunda línea. Los agonistas dopaminérgicos (cabergolina) tienen eficacia limitada en acromegalia. La radioterapia es de tercera línea por el efecto retardado.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Análogos de somatostatina (octreotida LAR) como tratamiento primario.", "isCorrect": false },
+      { "letter": "B", "text": "Cirugía transesfenoidal.", "isCorrect": true },
+      { "letter": "C", "text": "Cabergolina como monoterapia médica.", "isCorrect": false },
+      { "letter": "D", "text": "Radioterapia estereotáctica como primera opción.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "Caso clínico: Niña de 8 meses es traída a urgencias por sus padres porque notan que «se puso toda amarilla» desde hace 2 días. Nació a término, peso adecuado, grupo sanguíneo B Rh positivo (madre O Rh positivo). Lactancia materna exclusiva hasta los 6 meses, ahora con alimentación complementaria. Hace 5 días tuvo un cuadro febril tratado con acetaminofén. Al examen: ictericia generalizada hasta plantas y palmas, hepatomegalia leve, palidez conjuntival marcada. Laboratorios: Hb 6,8 g/dL, reticulocitos 14%, bilirrubina total 9,2 mg/dL (directa 0,5 mg/dL), LDH 890 U/L, Coombs directo negativo. Frotis: esferocitos y policromatofilia.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La anemia hemolítica (hemoglobina baja, reticulocitos elevados, LDH elevada, bilirrubina indirecta elevada) con Coombs directo negativo y esferocitos en frotis en una lactante sugiere esferocitosis hereditaria, la anemia hemolítica hereditaria más frecuente. Los esferocitos se forman por defectos en proteínas de la membrana eritrocitaria (ankirina, espectrina, banda 3). La crisis hemolítica puede desencadenarse por infecciones virales. La enfermedad hemolítica por incompatibilidad ABO tendría Coombs positivo. La deficiencia de G6PD es más frecuente en varones. La anemia ferropénica no produce hemólisis.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Enfermedad hemolítica por incompatibilidad ABO.", "isCorrect": false },
+      { "letter": "B", "text": "Esferocitosis hereditaria con crisis hemolítica.", "isCorrect": true },
+      { "letter": "C", "text": "Deficiencia de glucosa-6-fosfato deshidrogenasa (G6PD).", "isCorrect": false },
+      { "letter": "D", "text": "Anemia ferropénica severa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": null,
+    "questionText": "¿Cuál es la prueba diagnóstica confirmatoria de elección y cuál es el manejo a largo plazo?",
+    "explanation": "La prueba confirmatoria de elección para esferocitosis hereditaria es la citometría de flujo con eosina-5-maleimida (EMA binding test), que detecta la deficiencia de proteínas de membrana con alta sensibilidad y especificidad. La prueba de fragilidad osmótica clásica tiene menor sensibilidad. El manejo a largo plazo incluye suplementación con ácido fólico (por el alto recambio eritrocitario), vigilancia de crisis aplásicas (por parvovirus B19), transfusiones durante crisis severas y esplenectomía (diferida idealmente hasta los 6 años) en casos moderados a severos con requerimiento transfusional frecuente. La vacunación contra encapsulados es obligatoria pre-esplenectomía.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Electroforesis de hemoglobina; manejo con hierro oral.", "isCorrect": false },
+      { "letter": "B", "text": "Citometría de flujo con EMA; ácido fólico, vigilancia y esplenectomía diferida en casos severos.", "isCorrect": true },
+      { "letter": "C", "text": "Prueba de Coombs indirecto; corticosteroides como tratamiento crónico.", "isCorrect": false },
+      { "letter": "D", "text": "Actividad de G6PD; evitar medicamentos oxidantes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "Caso clínico: Hombre de 72 años, con antecedente de hipertensión y diabetes tipo 2, consulta por dificultad progresiva para caminar de 3 meses de evolución. Refiere incontinencia urinaria de urgencia y deterioro cognitivo notado por su familia (olvidos frecuentes, apatía, lentitud para pensar). Al examen neurológico: marcha magnética (pasos cortos, arrastrados, base amplia, como si los pies estuvieran «pegados al suelo»), funciones mentales superiores con bradipsiquia y déficit de atención, e incontinencia urinaria confirmada. No tiene papiledema. La TAC de cráneo muestra ventriculomegalia marcada desproporcionada respecto a la atrofia cortical (índice de Evans > 0,3).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable y cómo se confirma?",
+    "explanation": "La tríada de Hakim-Adams — marcha magnética (apraxia de la marcha), demencia subcortical e incontinencia urinaria — con ventriculomegalia desproporcionada respecto a la atrofia cortical (índice de Evans > 0,3) es diagnóstica de hidrocefalia de presión normal (HPN). Es una causa potencialmente reversible de demencia en ancianos. La confirmación se realiza con la prueba de punción lumbar evacuadora (tap test): se drenan 30-50 mL de LCR y se evalúa mejoría de la marcha en 24-48 horas. La enfermedad de Alzheimer produce atrofia cortical difusa. La enfermedad de Parkinson tiene temblor de reposo. La demencia vascular tiene lesiones isquémicas en imagen.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Enfermedad de Alzheimer; confirmar con PET amiloide.", "isCorrect": false },
+      { "letter": "B", "text": "Hidrocefalia de presión normal (HPN); confirmar con prueba de punción lumbar evacuadora (tap test).", "isCorrect": true },
+      { "letter": "C", "text": "Enfermedad de Parkinson; confirmar con DAT-SPECT.", "isCorrect": false },
+      { "letter": "D", "text": "Demencia vascular multiinfarto; confirmar con RMN con secuencias FLAIR.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": null,
+    "questionText": "El tap test muestra mejoría significativa de la marcha a las 24 horas. ¿Cuál es el tratamiento definitivo?",
+    "explanation": "El tratamiento definitivo de la hidrocefalia de presión normal con tap test positivo es la derivación ventriculoperitoneal (DVP). La respuesta positiva al tap test predice una buena respuesta a la derivación en > 80% de los casos. La DVP permite el drenaje continuo del exceso de LCR hacia la cavidad peritoneal. Los inhibidores de acetilcolinesterasa (donepezilo) son para Alzheimer y no tratan la HPN. La levodopa es para enfermedad de Parkinson. Las punciones lumbares repetidas son un puente temporal pero no el tratamiento definitivo.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Inhibidores de acetilcolinesterasa (donepezilo) a largo plazo.", "isCorrect": false },
+      { "letter": "B", "text": "Derivación ventriculoperitoneal (DVP).", "isCorrect": true },
+      { "letter": "C", "text": "Levodopa/carbidopa como prueba terapéutica.", "isCorrect": false },
+      { "letter": "D", "text": "Punciones lumbares evacuadoras seriadas cada 2 semanas de forma indefinida.", "isCorrect": false }
+    ]
+  }
+]

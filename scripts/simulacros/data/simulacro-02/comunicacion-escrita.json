@@ -1,0 +1,10 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": null,
+    "questionText": "En los \u00faltimos a\u00f1os, la inteligencia artificial (IA) ha avanzado significativamente en el campo de la medicina. Sistemas basados en aprendizaje profundo ya son capaces de detectar tumores en im\u00e1genes radiol\u00f3gicas con una precisi\u00f3n comparable \u2014e incluso superior en algunos estudios\u2014 a la de m\u00e9dicos especialistas. Empresas tecnol\u00f3gicas y algunos centros hospitalarios han propuesto permitir que estos sistemas emitan diagn\u00f3sticos de manera aut\u00f3noma, sin la supervisi\u00f3n obligatoria de un m\u00e9dico humano, argumentando que esto agilizar\u00eda la atenci\u00f3n, reducir\u00eda costos y ampliar\u00eda el acceso a la salud en zonas donde no hay especialistas disponibles.\n\nSin embargo, organizaciones m\u00e9dicas, bioeticistas y sectores de la sociedad civil advierten sobre los riesgos de delegar decisiones cl\u00ednicas cr\u00edticas a algoritmos que carecen de juicio \u00e9tico, que pueden reproducir sesgos presentes en sus datos de entrenamiento y que no asumen responsabilidad legal ante un error diagn\u00f3stico.\n\n\u00bfDebe permitirse que la inteligencia artificial tome decisiones diagn\u00f3sticas aut\u00f3nomas en el \u00e1mbito de la salud sin la supervisi\u00f3n obligatoria de un m\u00e9dico?\n\nEscriba un texto argumentativo en el que:\n\n\u2022 Presente claramente su posici\u00f3n frente a la pregunta planteada.\n\u2022 Sustente su tesis con al menos dos argumentos s\u00f3lidos, apoyados en razones o ejemplos.\n\u2022 Considere al menos una posible objeci\u00f3n a su postura y responda a ella.\n\u2022 Organice su texto con una introducci\u00f3n, un desarrollo argumentativo y una conclusi\u00f3n.\n\nTiempo sugerido: 40 minutos.\nExtensi\u00f3n: entre 300 y 600 palabras.",
+    "explanation": null,
+    "competency": "escritura_argumentativa",
+    "options": []
+  }
+]

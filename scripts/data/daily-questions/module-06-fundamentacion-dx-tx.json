@@ -1,0 +1,1202 @@
+[
+  {
+    "dayNumber": 1,
+    "title": "Introduccion - Anatomia del caso ICFES",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun el ICFES, el modulo de Fundamentacion en Diagnostico y Tratamiento Medico evalua dos afirmaciones. La Afirmacion 1 se refiere a identificar caracteristicas clinicas de las enfermedades, y la Afirmacion 2 a identificar conductas diagnosticas y terapeuticas apropiadas. Ambas terminan con una frase clave. Cual es esa frase?",
+        "explanation": "Las dos afirmaciones del ICFES terminan con «de comun ocurrencia en la practica de los medicos generales». Esto significa que el examen no pregunta por enfermedades raras ni manejos de subespecialista, sino por patologias frecuentes como hipertension, diabetes, dengue y apendicitis.",
+        "competency": "diagnostico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "De alta complejidad en centros hospitalarios", "isCorrect": false },
+          { "letter": "B", "text": "De comun ocurrencia en la practica de los medicos generales", "isCorrect": true },
+          { "letter": "C", "text": "Que requieren manejo por subespecialista", "isCorrect": false },
+          { "letter": "D", "text": "De reporte obligatorio al SIVIGILA", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Mujer de 45 anos con desarreglos menstruales y piel aspera desde hace 6 meses. FC 55, PA 90/60, piel reseca, tiroides ligeramente aumentada de consistencia blanda y no dolorosa. TSH: 30 mcg/mL. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Al analizar este caso con la estructura del caso ICFES, cual es el hallazgo que descarta tiroiditis aguda como diagnostico?",
+        "explanation": "La tiroiditis aguda cursa con dolor tiroideo y fiebre, y es un cuadro agudo. Esta paciente tiene un cuadro cronico de 6 meses con tiroides no dolorosa, lo cual descarta tiroiditis aguda. El dato «no dolorosa» esta puesto a proposito en el enunciado para orientar al estudiante.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "La TSH elevada", "isCorrect": false },
+          { "letter": "B", "text": "La bradicardia", "isCorrect": false },
+          { "letter": "C", "text": "La tiroides no dolorosa y el cuadro cronico de 6 meses", "isCorrect": true },
+          { "letter": "D", "text": "La hipotension arterial", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Segun la estructura del caso ICFES, cual es la diferencia entre la opcion correcta y el distractor fuerte?",
+        "explanation": "La opcion correcta encaja con todos los datos del caso sin excepciones. El distractor fuerte comparte muchos datos con el diagnostico correcto, pero tiene al menos un dato clave que no encaja. Por ejemplo, en el caso de hipotiroidismo, el mixedema (distractor fuerte) comparte casi todos los sintomas pero la paciente no esta en coma ni tiene hipotermia.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "La opcion correcta es la mas frecuente y el distractor fuerte es la mas rara", "isCorrect": false },
+          { "letter": "B", "text": "La opcion correcta encaja con todos los datos del caso; el distractor fuerte tiene al menos un dato que no encaja", "isCorrect": true },
+          { "letter": "C", "text": "La opcion correcta siempre es la primera opcion de la lista", "isCorrect": false },
+          { "letter": "D", "text": "No hay diferencia real, ambas son aceptables en el examen", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 2,
+    "title": "Tecnica de subrayado clinico",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "La tecnica de subrayado clinico identifica cinco categorias de datos clave en un caso ICFES. Cuales son?",
+        "explanation": "Las cinco categorias de la tecnica de subrayado clinico son: edad, sexo, tiempo de evolucion, signos vitales y hallazgo clave. Cada dato que se identifique en estas categorias es potencialmente decisivo para el diagnostico. Los datos que no caen en ninguna categoria probablemente son relleno.",
+        "competency": "diagnostico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Nombre, ocupacion, antecedentes, motivo de consulta y paraclínicos", "isCorrect": false },
+          { "letter": "B", "text": "Edad, sexo, tiempo de evolucion, signos vitales y hallazgo clave", "isCorrect": true },
+          { "letter": "C", "text": "Diagnostico, tratamiento, pronostico, prevencion y rehabilitacion", "isCorrect": false },
+          { "letter": "D", "text": "Anamnesis, examen fisico, laboratorios, imagenes y biopsia", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Paciente joven con somnolencia progresiva y cambio agudo del estado de conciencia. Presenta hipotension, depresion respiratoria, pupilas normales (no mioticas), piel fria e hiporreflexia. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Aplicando la tecnica de subrayado clinico, cual es el dato que descarta intoxicacion por opioides en este caso?",
+        "explanation": "Los opioides producen miosis puntiforme (pupilas diminutas). En este caso las pupilas son normales, no mioticas, lo que descarta opioides y orienta hacia un toxidrome sedativo hipnotico como barbitúricos. Este es un ejemplo clasico de como un solo dato pupilar cambia el diagnostico diferencial.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "La hipotension arterial", "isCorrect": false },
+          { "letter": "B", "text": "La somnolencia progresiva", "isCorrect": false },
+          { "letter": "C", "text": "Las pupilas normales, no mioticas", "isCorrect": true },
+          { "letter": "D", "text": "La piel fria", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Segun la tecnica de subrayado clinico, por que es importante leer el tiempo de evolucion antes de analizar los demas datos?",
+        "explanation": "El tiempo de evolucion cambia radicalmente la lista de diferenciales. Un cuadro de horas a dias (agudo) orienta a infecciones, urgencias quirúrgicas o intoxicaciones. Un cuadro de semanas a meses (cronico) orienta a enfermedades metabolicas, autoinmunes o neoplasias. Clasificar el cuadro como agudo o cronico antes de continuar ahorra tiempo y evita errores.",
+        "competency": "diagnostico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Porque el tiempo de evolucion indica la gravedad del cuadro", "isCorrect": false },
+          { "letter": "B", "text": "Porque divide el diagnostico diferencial en agudo vs. cronico, reduciendo las opciones", "isCorrect": true },
+          { "letter": "C", "text": "Porque los cuadros cronicos siempre son mas graves que los agudos", "isCorrect": false },
+          { "letter": "D", "text": "Porque el ICFES siempre pone el tiempo de evolucion como primera pista", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 3,
+    "title": "Valores normales de laboratorio",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Un caso del Saber Pro reporta TSH de 30 mcg/mL sin indicar el rango normal. Cual es el rango normal de TSH y como se interpreta este valor?",
+        "explanation": "El rango normal de TSH es 0.4 a 4.0 mU/L. Un valor de 30 esta marcadamente elevado, indicando hipotiroidismo primario. El ICFES a veces da valores sin rango de referencia, por lo cual es fundamental memorizar los rangos principales.",
+        "competency": "diagnostico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Normal 0.4-4.0; TSH de 30 esta elevada e indica hipotiroidismo", "isCorrect": true },
+          { "letter": "B", "text": "Normal 10-50; TSH de 30 esta normal", "isCorrect": false },
+          { "letter": "C", "text": "Normal 0.4-4.0; TSH de 30 esta elevada e indica hipertiroidismo", "isCorrect": false },
+          { "letter": "D", "text": "Normal 0.1-10; TSH de 30 esta moderadamente elevada", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Hombre de 69 anos con nicturia, disminucion del calibre del chorro urinario, pujo vesical y goteo posmiccional. Al tacto rectal: prostata aumentada de tamano, consistencia cauchosa. PSA: 4.1 ng/mL. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico mas probable y que hallazgo descarta cancer de prostata?",
+        "explanation": "El PSA de 4.1 esta en la zona gris (4-10 ng/mL), donde no distingue entre hiperplasia prostatica benigna y cancer. La clave es la consistencia de la prostata: cauchosa orienta a hiperplasia benigna, mientras que petrea, irregular o nodular orienta a cancer. La prostata cauchosa con sintomas obstructivos cronicos en un hombre mayor de 50 confirma hiperplasia prostatica benigna.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Cancer de prostata; el PSA elevado lo confirma", "isCorrect": false },
+          { "letter": "B", "text": "Hiperplasia prostatica benigna; la consistencia cauchosa descarta cancer", "isCorrect": true },
+          { "letter": "C", "text": "Cistitis intersticial; la disuria lo confirma", "isCorrect": false },
+          { "letter": "D", "text": "Estrechez uretral; los sintomas obstructivos lo indican", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Cuales son los criterios de glicemia para diagnosticar diabetes mellitus tipo 2?",
+        "explanation": "Los criterios son: glicemia en ayunas >= 126 mg/dL en dos determinaciones, glicemia post carga (PTOG 75g) >= 200 mg/dL, HbA1c >= 6.5%, o glicemia casual >= 200 con sintomas clasicos (poliuria, polidipsia, perdida de peso). Los valores entre 100-125 en ayunas o HbA1c 5.7-6.4% corresponden a prediabetes.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Glicemia en ayunas >= 110 mg/dL o HbA1c >= 7.0%", "isCorrect": false },
+          { "letter": "B", "text": "Glicemia en ayunas >= 126 mg/dL, o HbA1c >= 6.5%, o glicemia casual >= 200 con sintomas", "isCorrect": true },
+          { "letter": "C", "text": "Glicemia en ayunas >= 100 mg/dL en una sola determinacion", "isCorrect": false },
+          { "letter": "D", "text": "HbA1c >= 5.7% en dos determinaciones separadas", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 4,
+    "title": "Patron de las cuatro opciones de respuesta",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Paciente de 15 anos, encontrado en la madrugada con amigos. No puede caminar, esta ansioso, con risa incontrolada y sensacion de «bichos caminando sobre la piel». Pupilas midriaticas. Inyeccion conjuntival bilateral marcada. FC 90, FR 19, PA 120/75. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico mas probable y cual es el hallazgo mas caracteristico que lo confirma?",
+        "explanation": "La inyeccion conjuntival bilateral marcada (ojos rojos) es la firma clinica de la intoxicacion por cannabis. Ademas, la midriasis, euforia con risa, alucinaciones tactiles y signos vitales casi normales son compatibles. Las anfetaminas darian taquicardia marcada (>120) e hipertension; los opioides darian miosis puntiforme; el alcohol no da inyeccion conjuntival marcada ni alucinaciones tactiles.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Intoxicacion por alcohol; la ataxia y desinhibicion lo confirman", "isCorrect": false },
+          { "letter": "B", "text": "Intoxicacion por cannabis; la inyeccion conjuntival bilateral marcada es la clave", "isCorrect": true },
+          { "letter": "C", "text": "Intoxicacion por opiaceos; las pupilas alteradas lo indican", "isCorrect": false },
+          { "letter": "D", "text": "Intoxicacion por anfetaminas; la euforia y midriasis lo confirman", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "Segun el patron de las cuatro opciones del ICFES, cual es la caracteristica del «distractor de otro sistema»?",
+        "explanation": "El distractor de otro sistema suena medico y pertenece al mismo organo o sistema, pero es realmente otra enfermedad cuyos datos no cuadran con el caso. Por ejemplo, la tiroiditis aguda (dolorosa y febril) como distractor en un caso de hipotiroidismo cronico (indoloro y afebril). Parece plausible para quien lee rapido, pero el analisis detallado lo descarta.",
+        "competency": "diagnostico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Es una enfermedad completamente diferente que no tiene relacion con el caso", "isCorrect": false },
+          { "letter": "B", "text": "Pertenece al mismo organo o sistema pero los datos clinicos no corresponden", "isCorrect": true },
+          { "letter": "C", "text": "Es identica a la respuesta correcta pero menos frecuente", "isCorrect": false },
+          { "letter": "D", "text": "Es la opcion mas facil de descartar de las cuatro", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Un toxidrome anticolinergico se resume con la regla mnemotecnica «rojo como un tomate, seco como un hueso, ciego como un murcielago, loco como una cabra, caliente como un horno». Cual de los siguientes es un signo anticolinergico?",
+        "explanation": "El toxidrome anticolinergico se caracteriza por midriasis (ciego como murcielago), taquicardia, piel seca y caliente (seco como hueso, caliente como horno), retencion urinaria y alucinaciones (loco como cabra). La retencion urinaria ocurre porque la acetilcolina media la contraccion del detrusor vesical; al bloquearla, la vejiga no se contrae.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Sialorrea abundante", "isCorrect": false },
+          { "letter": "B", "text": "Miosis puntiforme", "isCorrect": false },
+          { "letter": "C", "text": "Retencion urinaria con globo vesical", "isCorrect": true },
+          { "letter": "D", "text": "Bradicardia con hipotension", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 5,
+    "title": "Preguntas de tratamiento",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Hombre de 40 anos con antecedente familiar de hipertension. PA: 140/90. Sin otros hallazgos patologicos. No tiene factores de riesgo cardiovascular adicionales. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la primera intervencion que recomienda la GPC colombiana para este paciente?",
+        "explanation": "Este paciente tiene hipertension estadio 1 sin otros factores de riesgo. La GPC colombiana recomienda como primera medida la modificacion del estilo de vida, incluyendo la dieta DASH, que puede reducir la PA sistolica entre 8-14 mmHg. La dieta Mediterranea tiene beneficios cardiovasculares pero la GPC especificamente recomienda DASH para hipertension.",
+        "competency": "tratamiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Iniciar enalapril 10 mg/dia", "isCorrect": false },
+          { "letter": "B", "text": "Dieta DASH y modificacion del estilo de vida", "isCorrect": true },
+          { "letter": "C", "text": "Dieta Mediterranea y ejercicio", "isCorrect": false },
+          { "letter": "D", "text": "Iniciar hidroclorotiazida 25 mg/dia", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Mujer de 20 anos con cefalea pulsatil unilateral recurrente desde los 14 anos, acompanada de nauseas, fotofobia y fonofobia. Incapacitante, duracion de 30 minutos. Sin fiebre ni deficit neurologico focal. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el tratamiento de primera linea para la crisis aguda segun las guias colombianas?",
+        "explanation": "La GPC colombiana recomienda ibuprofeno 400-800 mg como primera linea para la crisis aguda de migrana. El propranolol es profilaxis, no tratamiento agudo. La dexametasona no es primera linea. La metoclopramida es coadyuvante antiemetico pero no la analgesia primaria.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Propranolol 40 mg via oral", "isCorrect": false },
+          { "letter": "B", "text": "Ibuprofeno 400-800 mg via oral", "isCorrect": true },
+          { "letter": "C", "text": "Dexametasona 4 mg intramuscular", "isCorrect": false },
+          { "letter": "D", "text": "Metoclopramida 10 mg intravenosa", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Segun el cuadernillo, cuando una pregunta del Saber Pro pide el tratamiento correcto, cual es la fuente que define la respuesta?",
+        "explanation": "En el Saber Pro, la respuesta correcta de tratamiento es siempre la que establece la Guia de Practica Clinica colombiana del Ministerio de Salud. Si hay discrepancia entre una guia internacional (Harrison, UpToDate, Cochrane) y la GPC colombiana, prevalece la colombiana. Este principio aplica a todo el modulo.",
+        "competency": "tratamiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Harrison — Principios de Medicina Interna", "isCorrect": false },
+          { "letter": "B", "text": "La Guia de Practica Clinica colombiana del Ministerio de Salud", "isCorrect": true },
+          { "letter": "C", "text": "La ultima revision sistematica Cochrane disponible", "isCorrect": false },
+          { "letter": "D", "text": "UpToDate, por ser la base de datos mas actualizada", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 6,
+    "title": "Hipertension arterial",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Mujer de 55 anos con cefalea occipital matutina de 3 meses. PA: 162/98 mmHg. IMC: 32.8. ECG con criterios de hipertrofia ventricular izquierda. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Segun la clasificacion de la GPC colombiana, como se clasifica esta paciente?",
+        "explanation": "La PA de 162/98 cumple criterio de hipertension estadio 2 (>= 160/100). El ECG con hipertrofia ventricular izquierda indica dano de organo blanco. La clasificacion correcta es hipertension estadio 2 con dano de organo blanco. Recuerde que el umbral colombiano es 140/90, diferente al de la AHA 2017 (130/80).",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Hipertension estadio 1 sin dano de organo blanco", "isCorrect": false },
+          { "letter": "B", "text": "Presion arterial normal alta", "isCorrect": false },
+          { "letter": "C", "text": "Hipertension estadio 2 con dano de organo blanco", "isCorrect": true },
+          { "letter": "D", "text": "Emergencia hipertensiva", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Hombre de 62 anos con hipertension estadio 1, diabetes tipo 2 y microalbuminuria. Consulta para inicio de tratamiento farmacologico. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el farmaco de primera linea para este paciente segun la GPC colombiana?",
+        "explanation": "La combinacion de diabetes con microalbuminuria indica necesidad de nefroproteccion. Los IECA (como enalapril) reducen la presion intraglomerular y protegen el rinon. No hidroclorotiazida ni amlodipino, que no tienen el mismo efecto nefroprotector. Los betabloqueadores no son primera linea en hipertension no complicada.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Hidroclorotiazida 25 mg/dia", "isCorrect": false },
+          { "letter": "B", "text": "Metoprolol 50 mg cada 12 horas", "isCorrect": false },
+          { "letter": "C", "text": "Enalapril 10 mg/dia", "isCorrect": true },
+          { "letter": "D", "text": "Amlodipino 5 mg/dia", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Paciente hipertenso en tratamiento con enalapril desde hace 3 meses. Consulta por tos seca persistente que le impide dormir. No hay signos de infeccion respiratoria. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la conducta correcta?",
+        "explanation": "La tos seca es un efecto adverso conocido de los IECA (5-20% de los pacientes), causada por acumulacion de bradicinina. La conducta es suspender el IECA y cambiar a un ARA-II (losartan), que ofrece el mismo beneficio nefroprotector sin producir tos. No se agrega antiTusigeno ni se reduce la dosis.",
+        "competency": "tratamiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Agregar un antitusigeno y mantener el enalapril", "isCorrect": false },
+          { "letter": "B", "text": "Reducir la dosis de enalapril a la mitad", "isCorrect": false },
+          { "letter": "C", "text": "Suspender enalapril y cambiar a losartan", "isCorrect": true },
+          { "letter": "D", "text": "Suspender enalapril y cambiar a amlodipino", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 7,
+    "title": "Diabetes mellitus tipo 2",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Hombre de 50 anos, obeso, con glicemia en ayunas de 118 mg/dL, HbA1c de 6.2%. Segunda glicemia en ayunas: 122 mg/dL. Trigliceridos elevados y HDL bajo. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico correcto?",
+        "explanation": "Ambas glicemias en ayunas estan entre 100 y 125 mg/dL, lo cual corresponde a glucosa alterada en ayunas (prediabetes). La HbA1c de 6.2% tambien esta en rango de prediabetes (5.7-6.4%). No es diabetes porque ningún valor alcanza 126 mg/dL ni HbA1c de 6.5%. No es normal porque supera los 100.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Diabetes mellitus tipo 2", "isCorrect": false },
+          { "letter": "B", "text": "Glicemia normal", "isCorrect": false },
+          { "letter": "C", "text": "Prediabetes (glucosa alterada en ayunas)", "isCorrect": true },
+          { "letter": "D", "text": "Sindrome metabolico con diabetes", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Paciente de 28 anos con diabetes tipo 1, cetoacidosis diabetica: glucosa 380 mg/dL, pH 7.18, bicarbonato 10, potasio 3.0 mEq/L. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la primera medida terapeutica?",
+        "explanation": "Aunque la insulina es fundamental en la cetoacidosis diabetica, el potasio de 3.0 mEq/L (menor a 3.3) obliga a reponer potasio ANTES de administrar insulina. La insulina desplaza el potasio al espacio intracelular, lo cual bajaria aun mas el potasio y podria provocar una arritmia fatal. Esta es una pregunta clasica del ICFES.",
+        "competency": "tratamiento",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Insulina cristalina intravenosa en bolo", "isCorrect": false },
+          { "letter": "B", "text": "Bicarbonato de sodio intravenoso", "isCorrect": false },
+          { "letter": "C", "text": "Reposicion de potasio intravenoso", "isCorrect": true },
+          { "letter": "D", "text": "Solucion salina normal 0.9% a chorro", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Segun la GPC colombiana, cual es el farmaco de primera linea para diabetes mellitus tipo 2?",
+        "explanation": "La metformina es siempre el farmaco de primera linea en diabetes tipo 2 segun la GPC colombiana. Sus ventajas incluyen: no causa hipoglucemia, no aumenta peso, bajo costo y amplia disponibilidad. La contraindicacion principal es TFG < 30 mL/min. Se inicia con 500-850 mg/dia y se titula hasta 2000-2550 mg/dia.",
+        "competency": "tratamiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Glibenclamida", "isCorrect": false },
+          { "letter": "B", "text": "Insulina NPH", "isCorrect": false },
+          { "letter": "C", "text": "Metformina", "isCorrect": true },
+          { "letter": "D", "text": "Sitagliptina", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 8,
+    "title": "Tiroides, dislipidemia y sindrome metabolico",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Hombre de 35 anos con perdida de peso de 8 kg en 2 meses, taquicardia de 110 irregular, presion de pulso amplia, exoftalmos bilateral, tiroides aumentada difusamente con soplo tiroideo. TSH < 0.01, T4 libre: 4.8 ng/dL. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico mas probable?",
+        "explanation": "El exoftalmos bilateral es exclusivo de la enfermedad de Graves (no aparece en bocio multinodular toxico ni adenoma toxico). Sumado a la TSH suprimida, T4 libre muy elevada, bocio difuso con soplo tiroideo y taquicardia irregular (fibrilacion auricular), el diagnostico es enfermedad de Graves. El bocio multinodular no tiene exoftalmos; la tiroiditis subaguda seria dolorosa y febril.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Bocio multinodular toxico", "isCorrect": false },
+          { "letter": "B", "text": "Enfermedad de Graves", "isCorrect": true },
+          { "letter": "C", "text": "Tiroiditis subaguda de De Quervain", "isCorrect": false },
+          { "letter": "D", "text": "Adenoma toxico solitario", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Hombre de 60 anos con antecedente de infarto agudo de miocardio hace un ano. LDL: 145 mg/dL. Trigliceridos: 200 mg/dL. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la intervencion farmacologica prioritaria?",
+        "explanation": "En prevencion secundaria cardiovascular (antecedente de infarto), la estatina tiene prioridad absoluta para reducir LDL. La meta es LDL < 70 mg/dL en riesgo muy alto. Los fibratos para trigliceridos se manejan secundariamente. La atorvastatina de alta intensidad (40-80 mg) es la eleccion.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Gemfibrozilo para reducir trigliceridos", "isCorrect": false },
+          { "letter": "B", "text": "Ezetimibe 10 mg/dia", "isCorrect": false },
+          { "letter": "C", "text": "Atorvastatina de alta intensidad", "isCorrect": true },
+          { "letter": "D", "text": "Omega-3 en dosis altas", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Segun los criterios adaptados para Latinoamerica, cual es el punto de corte de circunferencia abdominal para sindrome metabolico en hombres?",
+        "explanation": "Los criterios de circunferencia abdominal adaptados para Latinoamerica son mas bajos que los americanos: >= 90 cm en hombres y >= 80 cm en mujeres (vs. 102 y 88 en criterios americanos). El Saber Pro usa los criterios adaptados. Se necesitan 3 o mas de 5 criterios para diagnosticar sindrome metabolico.",
+        "competency": "diagnostico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": ">= 102 cm", "isCorrect": false },
+          { "letter": "B", "text": ">= 90 cm", "isCorrect": true },
+          { "letter": "C", "text": ">= 80 cm", "isCorrect": false },
+          { "letter": "D", "text": ">= 94 cm", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 9,
+    "title": "Falla cardiaca y fibrilacion auricular",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Paciente con falla cardiaca descompensada que presenta edemas en miembros inferiores, disnea, crepitantes bilaterales, extremidades calientes y llenado capilar de 2 segundos. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Segun la clasificacion de Stevenson, cual es el perfil de este paciente y cual es el tratamiento indicado?",
+        "explanation": "Hay congestion (edemas, disnea, crepitantes) = humedo. Hay buena perfusion (extremidades calientes, llenado capilar normal) = caliente. Perfil B: humedo-caliente, el mas frecuente en urgencias. El tratamiento es descongestionar con diureticos de asa (furosemida) mas IECA. Los betabloqueadores estan contraindicados en la descompensacion aguda.",
+        "competency": "tratamiento",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Perfil A (caliente-seco): observacion y alta", "isCorrect": false },
+          { "letter": "B", "text": "Perfil B (caliente-humedo): furosemida mas IECA", "isCorrect": true },
+          { "letter": "C", "text": "Perfil C (frio-humedo): inotropicos y vasodilatadores", "isCorrect": false },
+          { "letter": "D", "text": "Perfil L (frio-seco): reposicion de volumen", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Paciente con falla cardiaca cronica con FEVI del 30%, actualmente compensado. Recibe enalapril, furosemida y espironolactona. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual farmaco falta para completar los pilares del tratamiento que reducen mortalidad?",
+        "explanation": "Los cuatro pilares del tratamiento de la falla cardiaca cronica con fraccion de eyeccion reducida son: IECA (o ARA-II), betabloqueador, antagonista de mineralocorticoides (espironolactona) e inhibidores de SGLT2. Este paciente tiene IECA, diuretico y espironolactona, pero le falta el betabloqueador (carvedilol, bisoprolol o metoprolol succinato), que se inicia a dosis baja una vez compensado.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Digoxina", "isCorrect": false },
+          { "letter": "B", "text": "Amlodipino", "isCorrect": false },
+          { "letter": "C", "text": "Carvedilol a dosis baja", "isCorrect": true },
+          { "letter": "D", "text": "Hidroclorotiazida", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Paciente femenina de 78 anos con fibrilacion auricular, hipertension arterial, diabetes tipo 2 y antecedente de ACV isquemico. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el puntaje CHA2DS2-VASc de esta paciente y cual es la conducta?",
+        "explanation": "Calculo: hipertension (1) + edad >= 75 (2) + diabetes (1) + ACV previo (2) + sexo femenino (1) = 7 puntos. Con un puntaje tan elevado, la anticoagulacion es mandatoria con warfarina o anticoagulantes orales directos (rivaroxaban, apixaban, dabigatran). No hay duda con un puntaje >= 2 en hombres o >= 3 en mujeres.",
+        "competency": "tratamiento",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "3 puntos: considerar anticoagulacion", "isCorrect": false },
+          { "letter": "B", "text": "5 puntos: anticoagular con aspirina", "isCorrect": false },
+          { "letter": "C", "text": "7 puntos: anticoagular con warfarina o anticoagulantes orales directos", "isCorrect": true },
+          { "letter": "D", "text": "2 puntos: no anticoagular", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 10,
+    "title": "EPOC y asma",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Mujer de 65 anos del area rural, cocinaba con lena durante 30 anos. Presenta tos cronica, disnea progresiva y esputo. Espirometria: VEF1/CVF 0.62 pre-broncodilatador y 0.65 post-broncodilatador. VEF1 del 55% del predicho. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico y la clasificacion de gravedad?",
+        "explanation": "La obstruccion persiste despues del broncodilatador (VEF1/CVF < 0.70 post-BD), lo que confirma EPOC (no asma, donde la obstruccion seria reversible). VEF1 del 55% esta entre 50-79%, lo que corresponde a GOLD 2 (moderada). La exposicion cronica al humo de lena es un factor de riesgo mayor para EPOC en Colombia, especialmente en mujeres campesinas.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Asma GOLD 2 moderada", "isCorrect": false },
+          { "letter": "B", "text": "EPOC GOLD 2 moderada", "isCorrect": true },
+          { "letter": "C", "text": "EPOC GOLD 3 grave", "isCorrect": false },
+          { "letter": "D", "text": "Asma con obstruccion fija", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Nino de 8 anos con crisis de sibilancias y disnea. FR 32, FC 120, saturacion 92%. Habla en frases cortas, sibilancias bilaterales, uso de musculos intercostales. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la primera medida terapeutica?",
+        "explanation": "En la crisis asmatica, el salbutamol inhalado (con espaciador o nebulizado) es siempre la primera medida. No la prednisolona primero (se da en la primera hora pero no antes del broncodilatador). No aminofilina ni adrenalina subcutanea. Se dan 2-4 inhalaciones cada 20 minutos por una hora.",
+        "competency": "tratamiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Prednisolona oral", "isCorrect": false },
+          { "letter": "B", "text": "Salbutamol inhalado con espaciador", "isCorrect": true },
+          { "letter": "C", "text": "Aminofilina intravenosa", "isCorrect": false },
+          { "letter": "D", "text": "Adrenalina subcutanea", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Paciente con EPOC en exacerbacion aguda. Presenta aumento de disnea, aumento del volumen del esputo y cambio de esputo mucoso a purulento. Saturacion 85%. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la meta de saturacion de oxigeno en este paciente y por que?",
+        "explanation": "En pacientes con EPOC, la meta de saturacion es 88-92%. No se debe dar oxigeno a alto flujo porque puede suprimir el estimulo respiratorio hipoxico y empeorar la hipercapnia. Ademas, este paciente tiene los tres criterios de Anthonisen (disnea, volumen de esputo, purulencia), lo que indica antibiotico empirico.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Mayor a 95%, con oxigeno a alto flujo", "isCorrect": false },
+          { "letter": "B", "text": "88-92%, con canula nasal a bajo flujo", "isCorrect": true },
+          { "letter": "C", "text": "Mayor a 98%, con mascara de reservorio", "isCorrect": false },
+          { "letter": "D", "text": "80-85%, sin oxigeno suplementario", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 11,
+    "title": "Toxicologia - Escopolamina y organofosforados",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Mujer de 28 anos traida a urgencias despues de que un desconocido le ofrecio una bebida en un bar. Presenta taquicardia de 118, temperatura 38.4 C, pupilas midriaticas de 7 mm, piel seca y eritematosa, mucosas secas, retencion urinaria con globo vesical, agitacion con alucinaciones visuales. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico y el tratamiento de primera linea?",
+        "explanation": "El cuadro es un toxidrome anticolinergico clasico: midriasis, taquicardia, piel seca y caliente, retencion urinaria y alucinaciones. El contexto colombiano (bebida ofrecida por desconocido) orienta a escopolamina (burundanga). El tratamiento de primera linea es fisostigmina intravenosa, que es un inhibidor de colinesterasa que cruza la barrera hematoencefalica y revierte efectos perifericos y centrales.",
+        "competency": "tratamiento",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Intoxicacion por benzodiacepinas; flumazenil IV", "isCorrect": false },
+          { "letter": "B", "text": "Intoxicacion por opioides; naloxona IV", "isCorrect": false },
+          { "letter": "C", "text": "Intoxicacion por escopolamina; fisostigmina IV", "isCorrect": true },
+          { "letter": "D", "text": "Intoxicacion por simpaticomiméticos; propranolol IV", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Agricultor de 45 anos encontrado inconsciente en su finca tras fumigar sin proteccion. Presenta miosis puntiforme, bradicardia, sialorrea excesiva, diarrea, broncorrea, fasciculaciones musculares y depresion respiratoria. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Al administrar atropina como antidoto, cual es el endpoint clinico que indica atropinizacion adecuada?",
+        "explanation": "El endpoint de la atropinizacion en intoxicacion por organofosforados es el secado de las secreciones bronquiales, NO la midriasis ni la taquicardia. La broncorrea es la causa principal de muerte (junto con la paralisis respiratoria), por lo que secar las secreciones bronquiales es la prioridad. Pueden requerirse dosis muy altas (50-100 mg/24h).",
+        "competency": "tratamiento",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Midriasis pupilar bilateral", "isCorrect": false },
+          { "letter": "B", "text": "Taquicardia mayor a 100 lpm", "isCorrect": false },
+          { "letter": "C", "text": "Secado de las secreciones bronquiales", "isCorrect": true },
+          { "letter": "D", "text": "Desaparicion de las fasciculaciones musculares", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Cual es el antidoto especifico para intoxicacion por acetaminofen?",
+        "explanation": "La N-acetilcisteina (NAC) es el antidoto especifico para la intoxicacion por acetaminofen. Actua como precursor del glutation, que es el principal mecanismo de detoxificacion hepatica del metabolito toxico del acetaminofen (NAPQI). Se administra idealmente dentro de las primeras 8 horas post-ingesta.",
+        "competency": "tratamiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Flumazenil", "isCorrect": false },
+          { "letter": "B", "text": "Naloxona", "isCorrect": false },
+          { "letter": "C", "text": "N-acetilcisteina", "isCorrect": true },
+          { "letter": "D", "text": "Vitamina K", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 12,
+    "title": "Enfermedades infecciosas - Dengue, malaria, VIH, tuberculosis",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Nina de 8 anos residente en Neiva con fiebre de 3 dias, dolor abdominal difuso, higado palpable 3 cm por debajo del reborde costal, petequias, leucocitos 3200 y plaquetas 85000. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la clasificacion correcta de dengue en esta paciente?",
+        "explanation": "Esta paciente tiene signos de alarma: dolor abdominal intenso y hepatomegalia (higado palpable 3 cm). Estos son predictores de progresion a dengue grave. La clasificacion correcta es dengue con signos de alarma, que requiere hospitalizacion inmediata con cristaloides IV. El dengue sin signos de alarma es manejo ambulatorio; el dengue grave requiere UCI.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Dengue sin signos de alarma", "isCorrect": false },
+          { "letter": "B", "text": "Dengue con signos de alarma", "isCorrect": true },
+          { "letter": "C", "text": "Dengue grave", "isCorrect": false },
+          { "letter": "D", "text": "Sindrome febril inespecifico", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Paciente procedente de Quibdo (Choco) con fiebre intermitente de 5 dias. Se realiza gota gruesa que reporta Plasmodium vivax, sin signos de gravedad. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el tratamiento correcto segun las guias colombianas?",
+        "explanation": "Para P. vivax sin signos de gravedad: cloroquina por 3 dias mas primaquina por 14 dias. La primaquina elimina los hipnozoitos hepaticos y previene recaidas, que son caracteristicas de P. vivax. Para P. falciparum se usa artemisinina combinada (artemeter + lumefantrina). Si hay gravedad: artesunato IV.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Artemeter + lumefantrina por 3 dias", "isCorrect": false },
+          { "letter": "B", "text": "Cloroquina por 3 dias + primaquina por 14 dias", "isCorrect": true },
+          { "letter": "C", "text": "Artesunato intravenoso por 7 dias", "isCorrect": false },
+          { "letter": "D", "text": "Quinina oral por 7 dias + doxiciclina por 7 dias", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Segun la GPC colombiana, cual es el esquema de tratamiento de tuberculosis pulmonar y cual es la duracion total?",
+        "explanation": "El esquema DOTS tiene dos fases: primera fase intensiva de 2 meses con rifampicina, isoniazida, pirazinamida y etambutol (4 farmacos); segunda fase de mantenimiento de 4 meses con rifampicina e isoniazida (2 farmacos). Duracion total: 6 meses. La tuberculosis es de notificacion obligatoria al SIVIGILA dentro de las 24 horas.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Isoniazida sola por 9 meses", "isCorrect": false },
+          { "letter": "B", "text": "Rifampicina + isoniazida por 4 meses", "isCorrect": false },
+          { "letter": "C", "text": "2 meses con RHZE + 4 meses con RH, total 6 meses", "isCorrect": true },
+          { "letter": "D", "text": "3 meses con RHZE + 3 meses con RH, total 6 meses", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 13,
+    "title": "Urgencias abdominales",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Hombre de 22 anos con dolor periumbilical de 18 horas que migro a fosa iliaca derecha. Presenta anorexia, una emesis, fiebre de 37.8 C. McBurney positivo, Blumberg positivo. Leucocitos: 14500 con 85% neutrofilos. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Calcule el puntaje de Alvarado y determine la conducta.",
+        "explanation": "Migracion del dolor (1) + anorexia (1) + nauseas/vomito (1) + dolor en FID (2) + rebote/Blumberg (1) + fiebre (1) + leucocitosis >10000 (2) + desviacion a izquierda (1) = 10 puntos. Con >= 7 puntos, la probabilidad de apendicitis es alta y la conducta es cirugia. La escala de Alvarado (MANTRELS) es la herramienta diagnostica clave.",
+        "competency": "diagnostico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "5 puntos: observar y solicitar imagenes", "isCorrect": false },
+          { "letter": "B", "text": "7 puntos: alta probabilidad, cirugia", "isCorrect": false },
+          { "letter": "C", "text": "10 puntos: alta probabilidad, cirugia", "isCorrect": true },
+          { "letter": "D", "text": "3 puntos: baja probabilidad, alta con analgesicos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Mujer de 48 anos, obesa, multipara. Dolor en hipocondrio derecho de 24 horas, fiebre de 38.2 C. Signo de Murphy positivo. Ecografia: vesicula distendida con pared engrosada > 3 mm, calculo enclavado y liquido perivesicular. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el manejo quirurgico indicado segun la GPC?",
+        "explanation": "La colecistitis aguda confirmada por ecografia con signo de Murphy positivo tiene indicacion de colecistectomia laparoscopica temprana dentro de las primeras 72 horas. La GPC recomienda la colecistectomia temprana sobre la diferida. El manejo complementario incluye ayuno, liquidos IV, analgesia y antibiotico empirico.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Manejo medico conservador y cirugia electiva en 6 semanas", "isCorrect": false },
+          { "letter": "B", "text": "CPRE urgente para extraer el calculo", "isCorrect": false },
+          { "letter": "C", "text": "Colecistectomia laparoscopica temprana dentro de las primeras 72 horas", "isCorrect": true },
+          { "letter": "D", "text": "Drenaje percutaneo de la vesicula y antibioticos por 14 dias", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Hombre de 52 anos, alcoholico cronico, con dolor epigastrico intenso transfixiante que se irradia en banda hacia la espalda. Lipasa serica: 1250 U/L. FC: 110, PA: 95/60 mmHg. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la primera medida terapeutica?",
+        "explanation": "En pancreatitis aguda, la reanimacion hidrica agresiva con cristaloides (preferiblemente Lactato de Ringer, 200-250 mL/h en las primeras 24 horas) es la intervencion con mayor impacto pronostico. No colecistectomia urgente porque la causa es alcoholica. No antibioticos como primera medida. No CPRE porque no hay coledocolitiasis documentada.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Antibioticos intravenosos empiricos", "isCorrect": false },
+          { "letter": "B", "text": "Colecistectomia de urgencia", "isCorrect": false },
+          { "letter": "C", "text": "Reanimacion hidrica agresiva con cristaloides", "isCorrect": true },
+          { "letter": "D", "text": "CPRE urgente", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 14,
+    "title": "Urgencias neurologicas - ACV, cefaleas, meningitis",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Hombre de 68 anos con debilidad subita en brazo y pierna derechos con dificultad para hablar, inicio hace 45 minutos. PA: 195/110 mmHg. TAC simple de craneo: normal. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la conducta correcta?",
+        "explanation": "TAC normal descarta hemorragia. Con sintomas de menos de 4.5 horas, el paciente es candidato a trombolisis con alteplasa. La conducta es remitir urgente a un centro con capacidad de trombolisis. No se baja la presion agresivamente (se permite presion permisiva hasta 220/120 si no se tromboliza; si se va a trombolizar, meta < 185/110). No se inicia aspirina ni se observa.",
+        "competency": "tratamiento",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Iniciar aspirina 300 mg y observar 24 horas", "isCorrect": false },
+          { "letter": "B", "text": "Administrar labetalol para bajar PA a 140/90", "isCorrect": false },
+          { "letter": "C", "text": "Remitir urgente a centro con capacidad de trombolisis sin bajar PA agresivamente", "isCorrect": true },
+          { "letter": "D", "text": "Solicitar resonancia magnetica antes de decidir conducta", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "Cual de las siguientes es una bandera roja de cefalea que indica estudio urgente?",
+        "explanation": "La cefalea de inicio subito y maxima intensidad en segundos (cefalea en trueno) es una bandera roja que sugiere hemorragia subaracnoidea y requiere estudio urgente con neuroimagen y/o puncion lumbar. Otras banderas rojas: primer episodio despues de los 50 anos, deficit neurologico focal, fiebre con rigidez nucal, y cefalea que despierta al paciente.",
+        "competency": "diagnostico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Cefalea pulsatil que mejora con ibuprofeno", "isCorrect": false },
+          { "letter": "B", "text": "Cefalea bilateral que empeora con el estres", "isCorrect": false },
+          { "letter": "C", "text": "Cefalea de inicio subito y maxima intensidad en segundos (cefalea en trueno)", "isCorrect": true },
+          { "letter": "D", "text": "Cefalea recurrente desde la adolescencia con fotofobia", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Universitario de 22 anos con fiebre de 39.5 C, cefalea intensa, rigidez nucal, Kernig positivo y petequias en tronco y extremidades. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la primera medida?",
+        "explanation": "En meningitis con alta sospecha clinica y petequias (que orientan a meningococo), el antibiotico se administra inmediatamente sin esperar resultados del LCR. La dexametasona IV se da 15-20 minutos antes del antibiotico (ceftriaxona 2g IV c/12h) porque reduce mortalidad y secuelas en meningitis neumococica. No se espera TAC ni puncion lumbar para iniciar tratamiento.",
+        "competency": "tratamiento",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Solicitar TAC de craneo antes de cualquier intervencion", "isCorrect": false },
+          { "letter": "B", "text": "Realizar puncion lumbar y esperar resultado del cultivo", "isCorrect": false },
+          { "letter": "C", "text": "Dexametasona IV seguida de ceftriaxona IV de inmediato", "isCorrect": true },
+          { "letter": "D", "text": "Vancomicina IV sola y esperar cultivos", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 15,
+    "title": "Trauma, shock y quemaduras",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Politraumatizado recibe 2 litros de cristaloides. La presion arterial sube momentaneamente pero luego vuelve a caer. Taquicardia persistente, piel fria y palida. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Como se clasifica la respuesta de este paciente y cual es la conducta?",
+        "explanation": "Es un respondedor transitorio: la presion sube inicialmente pero vuelve a caer. Esto indica sangrado activo con perdida del 20-40% de la volemia. Necesita hemoderivados (transfusion) y preparar cirugia para control del sangrado. Un respondedor rapido solo necesita cristaloides; un no respondedor necesita transfusion masiva y cirugia urgente inmediata.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Respondedor rapido: continuar con cristaloides", "isCorrect": false },
+          { "letter": "B", "text": "Respondedor transitorio: hemoderivados y preparar cirugia", "isCorrect": true },
+          { "letter": "C", "text": "No respondedor: solo vasopresores", "isCorrect": false },
+          { "letter": "D", "text": "Estable: observar 6 horas y dar alta", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Hombre de 40 anos, 70 kg, con quemaduras de segundo grado en cara y cuello (9%), ambos miembros superiores (18%) y cara anterior del tronco (18%). Total: 45% de superficie corporal. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Segun la formula de Parkland, cual es el volumen de cristaloides para las primeras 24 horas?",
+        "explanation": "Formula de Parkland: 4 mL x peso (kg) x % SCQ = 4 x 70 x 45 = 12600 mL en 24 horas. El 50% se administra en las primeras 8 horas DESDE LA QUEMADURA (no desde el ingreso), y el otro 50% en las siguientes 16 horas. Se usa Lactato de Ringer. El endpoint es gasto urinario de 0.5-1 mL/kg/h.",
+        "competency": "tratamiento",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "6300 mL", "isCorrect": false },
+          { "letter": "B", "text": "8400 mL", "isCorrect": false },
+          { "letter": "C", "text": "12600 mL", "isCorrect": true },
+          { "letter": "D", "text": "15000 mL", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Mujer de 25 anos con picadura de abeja. PA: 70/40, FC: 140, edema facial y lingual masivo, sibilancias difusas, ronchas generalizadas, confusion. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la primera medida terapeutica?",
+        "explanation": "Es un shock anafilactico. La primera linea es siempre adrenalina intramuscular 0.3-0.5 mg. No hidrocortisona como primera medida (tarda horas en actuar). No cristaloides solos (el problema es vasodilatacion). No difenhidramina (no revierte broncoespasmo ni hipotension). La adrenalina es el unico farmaco que revierte todos los componentes de la anafilaxia.",
+        "competency": "tratamiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Hidrocortisona 200 mg IV", "isCorrect": false },
+          { "letter": "B", "text": "Difenhidramina 50 mg IV", "isCorrect": false },
+          { "letter": "C", "text": "Adrenalina 0.3-0.5 mg intramuscular", "isCorrect": true },
+          { "letter": "D", "text": "Solucion salina 0.9% en bolo de 1 litro", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 16,
+    "title": "Control prenatal - Materno infantil",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun la GPC colombiana, cual es la frecuencia recomendada de controles prenatales en un embarazo de bajo riesgo?",
+        "explanation": "La frecuencia es: mensual hasta la semana 28, quincenal entre semanas 28-36, y semanal desde la semana 36 hasta el parto. Se recomienda un minimo de 7 controles, idealmente 10 segun la Ruta Integral de Atencion en Salud Materno Perinatal. El primer control debe realizarse antes de la semana 10.",
+        "competency": "tratamiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Mensual durante todo el embarazo", "isCorrect": false },
+          { "letter": "B", "text": "Mensual hasta sem 28, quincenal sem 28-36, semanal desde sem 36", "isCorrect": true },
+          { "letter": "C", "text": "Quincenal durante todo el embarazo", "isCorrect": false },
+          { "letter": "D", "text": "Trimestral con ecografia en cada control", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Gestante de 12 semanas en su primer control prenatal. No tiene factores de riesgo. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la suplementacion obligatoria que debe recibir?",
+        "explanation": "Toda gestante debe recibir: acido folico 400 mcg/dia (idealmente desde 3 meses antes de la concepcion y durante el primer trimestre) para prevencion de defectos del tubo neural, hierro elemental 60 mg/dia desde la semana 12 hasta 3 meses posparto, y calcio 1200 mg/dia desde la semana 12 (reduce riesgo de preeclampsia).",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Solo acido folico y hierro", "isCorrect": false },
+          { "letter": "B", "text": "Acido folico, hierro y calcio", "isCorrect": true },
+          { "letter": "C", "text": "Solo hierro y vitamina D", "isCorrect": false },
+          { "letter": "D", "text": "Acido folico, hierro, calcio y vitamina B12", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Cual de los siguientes es un signo de alarma obstetrico que amerita consulta inmediata?",
+        "explanation": "Los signos de alarma obstetricos que ameritan consulta inmediata incluyen: sangrado vaginal, cefalea intensa que no cede con analgesicos, vision borrosa o fosfenos, edema subito de cara y manos (sugieren preeclampsia), disminucion de movimientos fetales, salida de liquido por vagina (ruptura de membranas), y dolor abdominal intenso.",
+        "competency": "diagnostico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Nauseas matutinas leves en el primer trimestre", "isCorrect": false },
+          { "letter": "B", "text": "Edema leve en tobillos al final del dia", "isCorrect": false },
+          { "letter": "C", "text": "Cefalea intensa que no cede con analgesicos y vision borrosa", "isCorrect": true },
+          { "letter": "D", "text": "Aumento de frecuencia urinaria en el tercer trimestre", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 17,
+    "title": "Trastornos hipertensivos del embarazo y diabetes gestacional",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Gestante de 32 semanas con PA 165/112 mmHg, cefalea intensa, fosfenos, plaquetas 85000, AST 180, creatinina 1.3. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico y el manejo inmediato?",
+        "explanation": "PA >= 160/110 + sintomas cerebrales (cefalea, fosfenos) + plaquetas < 100000 + transaminasas elevadas + creatinina > 1.1 = preeclampsia con criterios de severidad (probablemente sindrome HELLP). El manejo inmediato incluye: 1) sulfato de magnesio (carga 4-6g IV), 2) antihipertensivo (labetalol IV o nifedipino), 3) betametasona para maduracion pulmonar (24-34 sem), 4) evaluar terminacion del embarazo.",
+        "competency": "tratamiento",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Hipertension gestacional; observar y repetir labs en 1 semana", "isCorrect": false },
+          { "letter": "B", "text": "Preeclampsia sin severidad; manejo ambulatorio con antihipertensivo oral", "isCorrect": false },
+          { "letter": "C", "text": "Preeclampsia con criterios de severidad; sulfato de magnesio, antihipertensivo y evaluar terminacion", "isCorrect": true },
+          { "letter": "D", "text": "Eclampsia; fenitoina y cesarea de emergencia", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Gestante de 26 semanas. Prueba de tolerancia oral a la glucosa con 75 g: ayunas 95 mg/dL, 1 hora 185 mg/dL, 2 horas 140 mg/dL. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Tiene esta paciente diabetes gestacional segun los criterios IADPSG?",
+        "explanation": "Criterios IADPSG (adoptados por la GPC colombiana): ayunas >= 92, 1 hora >= 180, 2 horas >= 153. Basta con UN valor alterado para el diagnostico. Esta paciente tiene el valor de 1 hora en 185 (>= 180) y el ayunas en 95 (>= 92), por lo que tiene 2 valores alterados. Si, tiene diabetes gestacional. El tratamiento inicial es dieta + ejercicio.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "No, porque la glicemia en ayunas es menor a 100", "isCorrect": false },
+          { "letter": "B", "text": "No, porque solo un valor esta alterado", "isCorrect": false },
+          { "letter": "C", "text": "Si, porque tiene valores alterados en ayunas y a la hora (basta uno)", "isCorrect": true },
+          { "letter": "D", "text": "No se puede diagnosticar con una sola prueba", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Gestante de 34 semanas con sangrado vaginal rojo rutilante, abundante, indoloro, sin contracciones. Utero relajado, feto con tono cardiaco normal. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico mas probable y que procedimiento esta contraindicado?",
+        "explanation": "Sangrado indoloro + abundante + rojo rutilante + utero relajado = placenta previa. El tacto vaginal esta absolutamente CONTRAINDICADO porque puede provocar hemorragia masiva. El diagnostico se confirma con ecografia. El desprendimiento prematuro seria sangrado doloroso con utero hipertonico (utero en tabla). Esta diferenciacion es una pregunta clasica del ICFES.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Desprendimiento de placenta; contraindicada la amniotomia", "isCorrect": false },
+          { "letter": "B", "text": "Placenta previa; contraindicado el tacto vaginal", "isCorrect": true },
+          { "letter": "C", "text": "Ruptura uterina; contraindicada la ecografia", "isCorrect": false },
+          { "letter": "D", "text": "Vasa previa; contraindicado el monitor fetal", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 18,
+    "title": "Ginecologia - Flujo vaginal, anticoncepcion y tamizaje de cervix",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Mujer de 30 anos con flujo vaginal blanco, grumoso, prurito vulvar intenso, eritema vulvar. pH vaginal: 4.2. En el examen con KOH se observan pseudohifas. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico y el tratamiento de primera linea?",
+        "explanation": "Flujo blanco grumoso (como leche cortada) + prurito vulvar intenso (sintoma cardinal) + pH vaginal normal (< 4.5) + pseudohifas en KOH = candidiasis vulvovaginal. Tratamiento: fluconazol 150 mg VO dosis unica o clotrimazol ovulos vaginales por 7 noches. La vaginosis bacteriana tendria flujo grisaceo con olor a pescado y pH > 4.5.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Vaginosis bacteriana; metronidazol 500 mg c/12h x 7 dias", "isCorrect": false },
+          { "letter": "B", "text": "Candidiasis vulvovaginal; fluconazol 150 mg VO dosis unica", "isCorrect": true },
+          { "letter": "C", "text": "Tricomoniasis; metronidazol 2g VO dosis unica", "isCorrect": false },
+          { "letter": "D", "text": "Cervicitis por Chlamydia; azitromicina 1g VO dosis unica", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Mujer de 38 anos, fumadora de 20 cigarrillos por dia, que sufre migrana con aura. Consulta por anticoncepcion. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual metodo anticonceptivo esta contraindicado (categoria 4 de la OMS)?",
+        "explanation": "Los anticonceptivos hormonales combinados (pildora, parche, anillo) estan contraindicados (categoria 4) con migrana con aura a cualquier edad y con tabaquismo > 15 cigarrillos/dia en > 35 anos. Esta paciente tiene AMBAS contraindicaciones. Los metodos solo de progestina (implante, inyeccion trimestral) o el DIU de cobre son alternativas seguras.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "DIU de cobre", "isCorrect": false },
+          { "letter": "B", "text": "Implante subdermico de progestina", "isCorrect": false },
+          { "letter": "C", "text": "Anticonceptivos hormonales combinados (pildora, parche o anillo)", "isCorrect": true },
+          { "letter": "D", "text": "Inyeccion trimestral de medroxiprogesterona", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Segun el esquema colombiano de tamizaje de cancer de cervix, cual es la estrategia para mujeres de 30 a 65 anos?",
+        "explanation": "En mujeres de 30-65 anos: prueba de ADN del VPH como tamizaje primario. Si es negativa, repetir en 5 anos. Si es positiva, hacer citologia de triage. En menores de 30 anos se usa citologia (esquema 1-1-3). Esto segun la Resolucion 3280 de 2018.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Citologia cada ano", "isCorrect": false },
+          { "letter": "B", "text": "Prueba de ADN del VPH; si negativa, repetir en 5 anos", "isCorrect": true },
+          { "letter": "C", "text": "Colposcopia cada 3 anos", "isCorrect": false },
+          { "letter": "D", "text": "Biopsia endometrial cada 5 anos", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 19,
+    "title": "Neonatologia - APGAR, reanimacion, ictericia y sepsis",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Recien nacido a termino, FC 80, respiracion irregular y debil, alguna flexion de extremidades, mueca al estimulo, acrocianosis. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el puntaje de APGAR y cual es la conducta inmediata?",
+        "explanation": "FC 80 (<100) = 1, respiracion irregular/debil = 1, alguna flexion = 1, mueca = 1, acrocianosis = 1. Total APGAR = 5. Con FC < 100 a los 30 segundos, se debe iniciar ventilacion con presion positiva (VPP), que es la intervencion mas importante en reanimacion neonatal. La VPP es mas importante que la intubacion o la adrenalina.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "APGAR 7; observacion y estimulacion", "isCorrect": false },
+          { "letter": "B", "text": "APGAR 5; iniciar ventilacion con presion positiva", "isCorrect": true },
+          { "letter": "C", "text": "APGAR 3; intubacion endotraqueal inmediata", "isCorrect": false },
+          { "letter": "D", "text": "APGAR 5; adrenalina endotraqueal", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Recien nacido de 18 horas de vida con ictericia clinica progresiva. Bilirrubina total: 12 mg/dL. Madre O positivo, bebe A positivo. Coombs directo positivo. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Que tipo de ictericia es y cual es la causa mas probable?",
+        "explanation": "Ictericia en las primeras 24 horas de vida es SIEMPRE patologica (la fisiologica aparece despues de las 24h). La causa mas frecuente de ictericia patologica precoz es la isoinmunizacion por incompatibilidad ABO (madre O, bebe A o B con Coombs directo positivo). El tratamiento es fototerapia; la exanguinotransfusion se reserva para casos severos refractarios.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Ictericia fisiologica; observacion", "isCorrect": false },
+          { "letter": "B", "text": "Ictericia patologica por incompatibilidad ABO; fototerapia", "isCorrect": true },
+          { "letter": "C", "text": "Atresia biliar; cirugia urgente", "isCorrect": false },
+          { "letter": "D", "text": "Ictericia por leche materna; suspender lactancia", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Neonato de 48 horas de vida con letargia, mala succion, temperatura de 35.5 C, taquicardia y distension abdominal. Madre con ruptura prematura de membranas de 22 horas y sin profilaxis antibiotica. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico mas probable y el tratamiento empirico?",
+        "explanation": "Neonato de 48 horas (< 72h) con signos inespecificos (letargia, mala succion, hipotermia, taquicardia) y factor de riesgo (RPM > 18h sin profilaxis) = sepsis neonatal temprana. El tratamiento empirico es ampicilina + gentamicina. Ampicilina cubre Streptococcus del grupo B y Listeria; gentamicina cubre gramnegativos como E. coli.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Sepsis neonatal tardia; vancomicina + cefotaxima", "isCorrect": false },
+          { "letter": "B", "text": "Enterocolitis necrotizante; metronidazol + ayuno", "isCorrect": false },
+          { "letter": "C", "text": "Sepsis neonatal temprana; ampicilina + gentamicina", "isCorrect": true },
+          { "letter": "D", "text": "Meningitis neonatal; ceftriaxona sola", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 20,
+    "title": "Pediatria - EDA, IRA y enfermedades exantematicas",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Nino de 2 anos con diarrea liquida de 3 dias, esta irritable, ojos hundidos, bebe avidamente con sed, pliegue cutaneo vuelve lentamente. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el grado de deshidratacion y que plan de manejo se aplica?",
+        "explanation": "Irritable + ojos hundidos + bebe avidamente + pliegue cutaneo lento = ALGUN GRADO DE DESHIDRATACION. Se aplica Plan B: rehidratacion oral supervisada en el servicio de salud con 75 mL/kg de SRO en 4 horas. Se reevalua frecuentemente. Si mejora pasa a Plan A; si empeora pasa a Plan C. Nunca dar antidiarreicos ni antiemeticos en menores de 5 anos.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Sin deshidratacion; Plan A ambulatorio", "isCorrect": false },
+          { "letter": "B", "text": "Algun grado de deshidratacion; Plan B con SRO 75 mL/kg en 4 horas supervisado", "isCorrect": true },
+          { "letter": "C", "text": "Deshidratacion grave; Plan C con liquidos intravenosos", "isCorrect": false },
+          { "letter": "D", "text": "Algun grado de deshidratacion; loperamida y SRO ambulatorio", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Nino de 18 meses con tos perruna, estridor inspiratorio, disfonia y empeoramiento nocturno de los sintomas. Temperatura 37.8 C. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico mas probable y el tratamiento de primera linea?",
+        "explanation": "Tos perruna (metalica) + estridor inspiratorio + disfonia + empeoramiento nocturno en edad tipica (6 meses a 3 anos) = croup (laringotraqueobronquitis), causado usualmente por virus parainfluenza. Tratamiento: dexametasona 0.6 mg/kg dosis unica (oral o IM) en todos los casos. Si es moderado a severo, agregar nebulizacion con adrenalina. La radiografia mostraria el signo de la aguja.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Bronquiolitis; salbutamol nebulizado", "isCorrect": false },
+          { "letter": "B", "text": "Croup; dexametasona 0.6 mg/kg dosis unica", "isCorrect": true },
+          { "letter": "C", "text": "Epiglotitis; intubacion de emergencia", "isCorrect": false },
+          { "letter": "D", "text": "Neumonia; amoxicilina oral", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Lactante de 10 meses con fiebre alta de 4 dias. Al quinto dia la fiebre cede abruptamente y aparece exantema rosado difuso en tronco. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico mas probable?",
+        "explanation": "Fiebre alta de 3-5 dias que cede abruptamente y al caer la fiebre aparece exantema rosado difuso = exantema subito (roseola), causado por herpesvirus humano 6. Es tipica en lactantes de 6 meses a 2 anos. La secuencia «fiebre alta seguida de exantema al ceder la fiebre» es la clave diagnostica. La varicela tiene vesiculas en diferentes estadios; el sarampion tiene manchas de Koplik.",
+        "competency": "diagnostico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Sarampion", "isCorrect": false },
+          { "letter": "B", "text": "Rubeola", "isCorrect": false },
+          { "letter": "C", "text": "Exantema subito (roseola)", "isCorrect": true },
+          { "letter": "D", "text": "Varicela", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 21,
+    "title": "Examen diario - Nefrologia y urologia",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Hombre de 72 anos, hospitalizado por neumonia, con creatinina basal de 1.0 que sube a 1.8 en 48 horas. BUN: 42, relacion BUN/creatinina: 23. Gasto urinario disminuido. Recibio gentamicina y fue tratado con AINE por dolor. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el tipo de lesion renal aguda mas probable y que medicamentos la agravaron?",
+        "explanation": "La creatinina subio >= 0.3 en 48h, cumpliendo criterios KDIGO de LRA. La relacion BUN/creatinina > 20 sugiere componente prerrenal (deshidratacion por la neumonia), pero la exposicion a gentamicina (nefrotoxica) y AINE (reducen perfusion renal, especialmente en pacientes deshidratados) agravaron el dano. Los AINE e IECA en pacientes deshidratados son causa frecuente de LRA prerrenal o renal.",
+        "competency": "diagnostico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "LRA postrenal por obstruccion prostatica", "isCorrect": false },
+          { "letter": "B", "text": "LRA prerrenal agravada por AINE y gentamicina", "isCorrect": true },
+          { "letter": "C", "text": "Enfermedad renal cronica estadio 3", "isCorrect": false },
+          { "letter": "D", "text": "Glomerulonefritis aguda por la neumonia", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Paciente con potasio de 6.8 mEq/L. ECG muestra ondas T picudas. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la primera medida terapeutica?",
+        "explanation": "La hiperkalemia > 6.5 con cambios en ECG (ondas T picudas) es una emergencia. La PRIMERA medida es gluconato de calcio IV para estabilizar la membrana cardiaca (protege al corazon de arritmias). El gluconato de calcio NO baja el potasio; para eso se usa insulina + dextrosa (redistribuye K+ al intracelular) y luego resinas de intercambio o dialisis para eliminarlo.",
+        "competency": "tratamiento",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Insulina + dextrosa para bajar el potasio", "isCorrect": false },
+          { "letter": "B", "text": "Resinas de intercambio (kayexalate) via oral", "isCorrect": false },
+          { "letter": "C", "text": "Gluconato de calcio IV para estabilizar la membrana cardiaca", "isCorrect": true },
+          { "letter": "D", "text": "Dialisis de urgencia", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Mujer de 24 anos con disuria, polaquiuria y urgencia urinaria de 2 dias. No tiene fiebre ni dolor lumbar. Parcial de orina con leucocituria y bacteriuria. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico y el tratamiento de primera linea?",
+        "explanation": "Disuria + polaquiuria + urgencia sin fiebre ni dolor lumbar = cistitis no complicada. E. coli causa el 75-90% de los casos. Tratamiento de primera linea: nitrofurantoina 100 mg c/12h por 5 dias o fosfomicina 3g dosis unica. NO fluoroquinolonas como primera linea para cistitis no complicada (se reservan para pielonefritis o resistencia documentada).",
+        "competency": "tratamiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Cistitis no complicada; ciprofloxacino 500 mg c/12h x 3 dias", "isCorrect": false },
+          { "letter": "B", "text": "Pielonefritis; ceftriaxona IV", "isCorrect": false },
+          { "letter": "C", "text": "Cistitis no complicada; nitrofurantoina 100 mg c/12h x 5 dias", "isCorrect": true },
+          { "letter": "D", "text": "Uretritis; azitromicina 1g dosis unica", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 22,
+    "title": "Examen diario - Gastroenterologia",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Hombre de 38 anos con pirosis y regurgitacion de 3 meses. Sin disfagia, sin perdida de peso, sin anemia. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Necesita este paciente endoscopia para diagnosticar enfermedad por reflujo?",
+        "explanation": "No. El diagnostico de ERGE es clinico cuando hay pirosis y regurgitacion en un paciente menor de 45 anos sin signos de alarma. La endoscopia se indica con: disfagia, perdida de peso, anemia, vomito persistente o sintomas refractarios a IBP. El tratamiento es omeprazol 20 mg/dia por 4-8 semanas.",
+        "competency": "diagnostico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Si, todo paciente con reflujo necesita endoscopia", "isCorrect": false },
+          { "letter": "B", "text": "No, el diagnostico es clinico sin signos de alarma en < 45 anos", "isCorrect": true },
+          { "letter": "C", "text": "Si, para descartar Barrett y cancer", "isCorrect": false },
+          { "letter": "D", "text": "No, pero necesita pHmetria de 24 horas", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Paciente con ulcera gastrica. Se solicita prueba de aliento con urea C-13 para H. pylori. El paciente viene tomando omeprazol hace 3 semanas. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es la conducta correcta respecto a la prueba diagnostica?",
+        "explanation": "Los IBP (omeprazol) deben suspenderse al menos 2 semanas antes de la prueba de aliento o el antigeno en heces, porque dan FALSOS NEGATIVOS. Si el paciente viene tomando omeprazol, la prueba sera poco confiable. Se debe suspender el IBP por 2 semanas y luego repetir la prueba. La serologia IgG no sirve para diagnostico de infeccion activa.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Realizar la prueba normalmente; el omeprazol no interfiere", "isCorrect": false },
+          { "letter": "B", "text": "Suspender omeprazol por 2 semanas antes de la prueba", "isCorrect": true },
+          { "letter": "C", "text": "Solicitar serologia IgG en lugar de la prueba de aliento", "isCorrect": false },
+          { "letter": "D", "text": "Aumentar la dosis de omeprazol y hacer la prueba simultaneamente", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Paciente con cirrosis hepatica. Paracentesis muestra liquido ascitico con 380 neutrofilos/mm3. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico y el tratamiento?",
+        "explanation": "Liquido ascitico con > 250 neutrofilos/mm3 en paciente con cirrosis = peritonitis bacteriana espontanea (PBE). El tratamiento es ceftriaxona IV. No se requiere cirugia. La PBE es una de las complicaciones de la cirrosis junto con ascitis, varices esofagicas y encefalopatia hepatica.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Ascitis simple; espironolactona y restriccion de sodio", "isCorrect": false },
+          { "letter": "B", "text": "Peritonitis bacteriana espontanea; ceftriaxona IV", "isCorrect": true },
+          { "letter": "C", "text": "Peritonitis secundaria; cirugia exploradora urgente", "isCorrect": false },
+          { "letter": "D", "text": "Carcinomatosis peritoneal; quimioterapia", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 23,
+    "title": "Examen diario - Hematologia, reumatologia y dermatologia",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Mujer de 35 anos con fatiga, palidez y menstruaciones abundantes. Hemoglobina: 9.5 g/dL, VCM: 68 fL, ferritina: 8 ng/mL, saturacion de transferrina: 12%. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el tipo de anemia y el tratamiento?",
+        "explanation": "VCM 68 (< 80) = anemia microcitica. Ferritina 8 (< 15) confirma ferropenia. La causa mas frecuente de ferropenia en mujeres en edad fertil es la menstruacion abundante. Tratamiento: sulfato ferroso 300 mg VO tres veces al dia con vitamina C para mejorar absorcion, por 3-6 meses hasta normalizar la ferritina (no solo la hemoglobina).",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Anemia megaloblastica; vitamina B12 intramuscular", "isCorrect": false },
+          { "letter": "B", "text": "Anemia ferropenica; sulfato ferroso con vitamina C por 3-6 meses", "isCorrect": true },
+          { "letter": "C", "text": "Talasemia menor; no requiere tratamiento", "isCorrect": false },
+          { "letter": "D", "text": "Anemia de enfermedad cronica; eritropoyetina", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Hombre de 55 anos con artritis monoarticular aguda intensamente dolorosa en primer dedo del pie derecho, inicio subito en la noche. El dedo esta eritematoso, caliente y tumefacto. Acido urico serico: 9.2 mg/dL. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico y el tratamiento de la crisis aguda?",
+        "explanation": "Artritis monoarticular aguda + primer dedo del pie (podagra) + acido urico elevado = gota. Tratamiento de la crisis aguda: AINE (indometacina o naproxeno) o colchicina. NUNCA dar alopurinol durante la crisis aguda porque puede empeorarla (el alopurinol es para prevencion cronica, no para el ataque). El diagnostico definitivo requiere cristales de urato monosodico en liquido sinovial.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Gota; alopurinol 300 mg/dia de inmediato", "isCorrect": false },
+          { "letter": "B", "text": "Artritis septica; antibioticos IV urgente", "isCorrect": false },
+          { "letter": "C", "text": "Gota; AINE o colchicina (no alopurinol en crisis)", "isCorrect": true },
+          { "letter": "D", "text": "Artritis reumatoide; metotrexato", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Paciente de 62 anos con un lunar en la espalda que ha cambiado de tamano y color en los ultimos 6 meses. Es asimetrico, bordes irregulares, color heterogeneo (negro y marron), diametro 8 mm. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Segun los criterios ABCDE, cual es la conducta?",
+        "explanation": "Los criterios ABCDE del melanoma son: Asimetria, Bordes irregulares, Color heterogeneo, Diametro > 6 mm y Evolucion (cambio). Este paciente cumple los 5 criterios (asimetrico, bordes irregulares, color heterogeneo, 8 mm, cambio en 6 meses). La conducta es biopsia excisional (no incisional) y remision a dermatologia. Cualquier lesion con 2 o mas criterios requiere estudio.",
+        "competency": "diagnostico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Observacion y control en 6 meses", "isCorrect": false },
+          { "letter": "B", "text": "Crioterapia en consultorio", "isCorrect": false },
+          { "letter": "C", "text": "Biopsia excisional y remision a dermatologia", "isCorrect": true },
+          { "letter": "D", "text": "Aplicar protector solar y controlar en 1 ano", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 24,
+    "title": "Examen diario - Salud mental",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Mujer de 42 anos con animo depresivo persistente, anhedonia, insomnio, fatiga, dificultad para concentrarse, sentimiento de inutilidad y perdida de 5 kg en 3 semanas. Los sintomas llevan 4 semanas y han afectado su desempeno laboral. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico y el tratamiento de primera linea segun la GPC colombiana?",
+        "explanation": "Animo depresivo + anhedonia (al menos 1 cardinal) + 5 sintomas adicionales por >= 2 semanas con deterioro funcional = trastorno depresivo mayor. Tratamiento de primera linea: ISRS (fluoxetina 20 mg/dia o sertralina 50 mg/dia). El inicio de efecto toma 2-4 semanas. Duracion minima: 6-9 meses despues de la remision del primer episodio.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Depresion mayor; benzodiacepinas como primera linea", "isCorrect": false },
+          { "letter": "B", "text": "Trastorno de ansiedad; buspirona", "isCorrect": false },
+          { "letter": "C", "text": "Depresion mayor; fluoxetina o sertralina (ISRS)", "isCorrect": true },
+          { "letter": "D", "text": "Depresion mayor; amitriptilina como primera linea", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Anciano de 78 anos, previamente lucido, hospitalizado por fractura de cadera. Al tercer dia postoperatorio presenta confusion aguda, fluctuante, con periodos de agitacion y somnolencia alternos. No reconoce a sus familiares. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico mas probable y cual es la diferencia clave con demencia?",
+        "explanation": "Confusion aguda + fluctuante + inicio en horas a dias en un paciente previamente lucido = DELIRIUM. La clave que lo diferencia de la demencia: el delirium es agudo, fluctuante, con atencion alterada y generalmente reversible al tratar la causa. La demencia es insidiosa, progresiva, con atencion conservada hasta etapas avanzadas e irreversible. Buscar causa: infeccion, medicamentos, dolor, retencion urinaria.",
+        "competency": "diagnostico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Demencia de Alzheimer de inicio subito", "isCorrect": false },
+          { "letter": "B", "text": "Delirium; agudo, fluctuante y reversible vs. demencia cronica y progresiva", "isCorrect": true },
+          { "letter": "C", "text": "Esquizofrenia de inicio tardio", "isCorrect": false },
+          { "letter": "D", "text": "Depresion mayor con sintomas psicoticos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Segun la GPC colombiana, cuando debe el medico general remitir un paciente depresivo a psiquiatria?",
+        "explanation": "Indicaciones de remision a psiquiatria: ideacion suicida activa con plan, sintomas psicoticos (alucinaciones o delirios), sospecha de bipolaridad (episodios de mania o hipomania previos), y no respuesta a dos ISRS a dosis adecuadas por tiempo suficiente (6-8 semanas cada uno). Preguntar directamente sobre ideacion suicida NO aumenta el riesgo.",
+        "competency": "tratamiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Todo paciente con depresion debe ser manejado por psiquiatria", "isCorrect": false },
+          { "letter": "B", "text": "Solo si el paciente solicita la remision", "isCorrect": false },
+          { "letter": "C", "text": "Con ideacion suicida activa, sintomas psicoticos, sospecha de bipolaridad o falla a 2 ISRS", "isCorrect": true },
+          { "letter": "D", "text": "Solo si hay antecedente familiar de trastorno mental", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 25,
+    "title": "Examen diario - Temas ambulatorios y cierre del modulo",
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Paciente de 50 anos con ojo rojo, dolor ocular severo, cefalea, nauseas, vision muy disminuida con halos alrededor de las luces, pupila midriatica fija que no reacciona a la luz. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el diagnostico y la conducta inmediata?",
+        "explanation": "Dolor ocular severo + vision muy disminuida + pupila midriatica fija + halos = glaucoma agudo de angulo cerrado, una emergencia oftalmologica. La conducta inmediata es iniciar timolol topico y acetazolamida oral o IV, y referir urgente a oftalmologia. Si la vision es normal, la pupila es normal y no hay dolor intenso, probablemente es conjuntivitis.",
+        "competency": "tratamiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Conjuntivitis bacteriana; tobramicina colirio", "isCorrect": false },
+          { "letter": "B", "text": "Uveitis anterior; esteroides topicos", "isCorrect": false },
+          { "letter": "C", "text": "Glaucoma agudo de angulo cerrado; timolol + acetazolamida y referir urgente", "isCorrect": true },
+          { "letter": "D", "text": "Queratitis herpetica; aciclovir topico", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Nina de 5 anos con fiebre de 38.5 C, otalgia derecha intensa, membrana timpanica abombada y eritematosa. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el tratamiento de primera linea segun la GPC colombiana?",
+        "explanation": "Otitis media aguda (otalgia + fiebre + membrana timpanica abombada y eritematosa). Tratamiento de primera linea en ninos: amoxicilina 80-90 mg/kg/dia. En ninos > 2 anos con otitis unilateral sin signos de severidad se puede observar sin antibiotico por 48-72h con seguimiento. En < 2 anos o bilaterales o severas, antibiotico desde el inicio.",
+        "competency": "tratamiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Ciprofloxacino gotas oticas", "isCorrect": false },
+          { "letter": "B", "text": "Amoxicilina 80-90 mg/kg/dia", "isCorrect": true },
+          { "letter": "C", "text": "Azitromicina 10 mg/kg/dia por 3 dias", "isCorrect": false },
+          { "letter": "D", "text": "Ibuprofeno y observacion por 2 semanas", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Paciente de 45 anos con dolor lumbar mecanico de 2 semanas, sin deficit neurologico, sin fiebre, sin perdida de peso, sin antecedente de cancer. (Caso ficticio — Redaccion Study2One)",
+        "questionText": "Cual es el manejo correcto?",
+        "explanation": "Lumbalgia mecanica sin banderas rojas (edad 20-50, sin deficit neurologico, sin fiebre, sin perdida de peso, sin cancer, sin retencion urinaria). Mas del 90% se resuelve en 4-6 semanas. Manejo: AINE por ciclo corto y actividad segun tolerancia. NO reposo prolongado en cama (empeora pronostico). NO neuroimagen antes de 6 semanas sin banderas rojas.",
+        "competency": "tratamiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Resonancia magnetica de columna urgente", "isCorrect": false },
+          { "letter": "B", "text": "Reposo absoluto en cama por 2 semanas", "isCorrect": false },
+          { "letter": "C", "text": "AINE por ciclo corto y actividad segun tolerancia", "isCorrect": true },
+          { "letter": "D", "text": "Referir a neurocirugia de inmediato", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

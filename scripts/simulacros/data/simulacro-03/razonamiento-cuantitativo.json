@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Un comite de vigilancia epidemiologica recopilo las tasas de infeccion del sitio quirurgico (ISQ) por cada 100 cirugias en cinco hospitales durante el primer semestre de 2024:\n\n| Hospital | Cirugias realizadas | ISQ reportadas | Tasa ISQ (%) |\n|----------|--------------------:|---------------:|-------------:|\n| Hospital A | 1.200 | 36 | 3,0 |\n| Hospital B | 800 | 32 | 4,0 |\n| Hospital C | 1.500 | 30 | 2,0 |\n| Hospital D | 600 | 30 | 5,0 |\n| Hospital E | 900 | 27 | 3,0 |\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "Si se calcula la tasa global de ISQ unificando los datos de los cinco hospitales, ¿cual es el resultado?",
+    "explanation": "Total de ISQ = 36 + 32 + 30 + 30 + 27 = 155. Total de cirugias = 1.200 + 800 + 1.500 + 600 + 900 = 5.000. Tasa global = (155 / 5.000) x 100 = 3,1 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "2,8 %", "isCorrect": false },
+      { "letter": "B", "text": "3,1 %", "isCorrect": true },
+      { "letter": "C", "text": "3,4 %", "isCorrect": false },
+      { "letter": "D", "text": "3,8 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "Si se promediaran directamente las cinco tasas de ISQ (3,0; 4,0; 2,0; 5,0; 3,0) sin ponderar por el volumen de cirugias, ¿que valor se obtendria y por que difiere del resultado global?",
+    "explanation": "Promedio simple de las tasas: (3,0 + 4,0 + 2,0 + 5,0 + 3,0) / 5 = 17,0 / 5 = 3,4 %. Este valor (3,4 %) es mayor que la tasa ponderada (3,1 %) porque el promedio simple otorga el mismo peso a hospitales con pocos procedimientos (como el D con 600) que a los de mayor volumen (como el C con 1.500 y tasa baja de 2,0 %). La tasa global pondera por volumen, por lo que los hospitales con mas cirugias influyen proporcionalmente mas.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "3,4 %; difiere porque el promedio simple le da igual peso a todos los hospitales sin importar el volumen de cirugias.", "isCorrect": true },
+      { "letter": "B", "text": "3,1 %; no difiere porque ambos metodos producen el mismo resultado.", "isCorrect": false },
+      { "letter": "C", "text": "3,4 %; difiere porque la tasa global excluye al hospital con menor volumen.", "isCorrect": false },
+      { "letter": "D", "text": "2,8 %; difiere porque el promedio simple descarta los valores extremos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "El comite establecio una meta de reducir la tasa de ISQ al 2,5 % en cada hospital. Si el Hospital B mantiene su volumen de 800 cirugias semestrales, ¿cual es el numero maximo de ISQ que puede presentar para cumplir la meta?",
+    "explanation": "Meta: tasa <= 2,5 %. Maximo de ISQ = 800 x 0,025 = 20. Si presenta 20 infecciones: (20/800) x 100 = 2,5 %, justo en la meta. Con 21 ya la superaria.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "16", "isCorrect": false },
+      { "letter": "B", "text": "18", "isCorrect": false },
+      { "letter": "C", "text": "20", "isCorrect": true },
+      { "letter": "D", "text": "24", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "El Instituto Nacional de Salud publico la incidencia de tuberculosis (TB) por cada 100.000 habitantes en seis departamentos colombianos entre 2018 y 2024:\n\n| Departamento | 2018 | 2020 | 2022 | 2024 |\n|-------------|-----:|-----:|-----:|-----:|\n| Choco | 58 | 62 | 65 | 70 |\n| Quindio | 40 | 38 | 35 | 32 |\n| Amazonas | 72 | 68 | 60 | 55 |\n| Valle | 34 | 33 | 31 | 30 |\n| Guainia | 50 | 54 | 58 | 63 |\n| Antioquia | 28 | 26 | 24 | 22 |\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "¿Cuantos departamentos muestran una tendencia sostenida de aumento en la incidencia de TB durante todo el periodo?",
+    "explanation": "Revisando cada departamento: Choco: 58 → 62 → 65 → 70 (aumenta siempre). Quindio: 40 → 38 → 35 → 32 (disminuye). Amazonas: 72 → 68 → 60 → 55 (disminuye). Valle: 34 → 33 → 31 → 30 (disminuye). Guainia: 50 → 54 → 58 → 63 (aumenta siempre). Antioquia: 28 → 26 → 24 → 22 (disminuye). Hay 2 departamentos con tendencia sostenida de aumento: Choco y Guainia.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "1", "isCorrect": false },
+      { "letter": "B", "text": "2", "isCorrect": true },
+      { "letter": "C", "text": "3", "isCorrect": false },
+      { "letter": "D", "text": "4", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": null,
+    "questionText": "¿Cual departamento presento la mayor reduccion porcentual de incidencia de TB entre 2018 y 2024?",
+    "explanation": "Reduccion porcentual = ((valor inicial - valor final) / valor inicial) x 100. Quindio: ((40 - 32) / 40) x 100 = 20,0 %. Amazonas: ((72 - 55) / 72) x 100 = 23,6 %. Valle: ((34 - 30) / 34) x 100 = 11,8 %. Antioquia: ((28 - 22) / 28) x 100 = 21,4 %. Amazonas tiene la mayor reduccion porcentual con 23,6 %.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "Quindio, con 20,0 %.", "isCorrect": false },
+      { "letter": "B", "text": "Amazonas, con 23,6 %.", "isCorrect": true },
+      { "letter": "C", "text": "Antioquia, con 21,4 %.", "isCorrect": false },
+      { "letter": "D", "text": "Valle, con 11,8 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "Un epidemiologo afirma: «Como Antioquia tiene la incidencia mas baja de TB en 2024, es el departamento que mejor controla la enfermedad». ¿Cual es la evaluacion mas adecuada de este argumento?",
+    "explanation": "Antioquia paso de 28 a 22 (reduccion de 21,4 %), pero ya partia de una incidencia baja. Para evaluar el «mejor control» se debe considerar la reduccion relativa, los recursos invertidos, la cobertura del tratamiento DOTS, las condiciones socioeconomicas y la capacidad diagnostica. Una incidencia baja puede deberse a factores historicos, no necesariamente a un mejor control actual. Amazonas, por ejemplo, logro una reduccion porcentual mayor (23,6 %) partiendo de una incidencia mucho mas alta.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta: el departamento con menor incidencia es necesariamente el que mejor controla la TB.", "isCorrect": false },
+      { "letter": "B", "text": "Es parcialmente valida: la incidencia baja es positiva, pero evaluar el control requiere analizar la reduccion relativa y otros factores contextuales.", "isCorrect": true },
+      { "letter": "C", "text": "Es incorrecta porque Antioquia no redujo su incidencia en el periodo.", "isCorrect": false },
+      { "letter": "D", "text": "Es incorrecta porque solo se puede evaluar el control con datos de mortalidad, no de incidencia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Un estudio de salud publica evaluo la desnutricion cronica (retraso en talla) y la desnutricion aguda (bajo peso para la talla) en ninos menores de 5 anos segun estrato socioeconomico en una ciudad capital:\n\n| Estrato | Ninos evaluados | Desnutricion cronica (%) | Desnutricion aguda (%) |\n|--------:|----------------:|-------------------------:|-----------------------:|\n| 1 | 3.200 | 18,5 | 6,2 |\n| 2 | 4.800 | 12,0 | 4,1 |\n| 3 | 5.500 | 7,5 | 2,3 |\n| 4 | 2.400 | 3,8 | 1,0 |\n| 5-6 | 1.100 | 1,5 | 0,4 |\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "¿Cuantos ninos del estrato 1 presentan desnutricion cronica?",
+    "explanation": "Ninos evaluados en estrato 1 = 3.200. Prevalencia de desnutricion cronica = 18,5 %. Cantidad = 3.200 x 0,185 = 592 ninos.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "492", "isCorrect": false },
+      { "letter": "B", "text": "560", "isCorrect": false },
+      { "letter": "C", "text": "592", "isCorrect": true },
+      { "letter": "D", "text": "640", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "¿Cual es la razon de prevalencias de desnutricion cronica entre el estrato 1 y el estrato 4?",
+    "explanation": "Razon de prevalencias = Prevalencia estrato 1 / Prevalencia estrato 4 = 18,5 / 3,8 = 4,87 ≈ 4,9. Esto significa que la desnutricion cronica es casi 5 veces mas frecuente en el estrato 1 respecto al estrato 4.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "2,4", "isCorrect": false },
+      { "letter": "B", "text": "3,2", "isCorrect": false },
+      { "letter": "C", "text": "4,9", "isCorrect": true },
+      { "letter": "D", "text": "6,2", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "Observando la tabla, un nutricionista concluye que «el gradiente social de la desnutricion cronica es mas pronunciado que el de la desnutricion aguda». ¿Es valida esta afirmacion?",
+    "explanation": "Para evaluar el gradiente, comparemos la razon entre el estrato mas bajo y el mas alto. Desnutricion cronica: 18,5 / 1,5 = 12,3 veces. Desnutricion aguda: 6,2 / 0,4 = 15,5 veces. Contrario a lo que afirma el nutricionista, el gradiente de la desnutricion aguda (15,5) es mas pronunciado que el de la cronica (12,3). La afirmacion es incorrecta.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Si, porque las cifras absolutas de desnutricion cronica son mayores en todos los estratos.", "isCorrect": false },
+      { "letter": "B", "text": "Si, porque la diferencia en puntos porcentuales es mayor en desnutricion cronica.", "isCorrect": false },
+      { "letter": "C", "text": "No, porque al comparar las razones entre estratos extremos, el gradiente de la desnutricion aguda (15,5) supera al de la cronica (12,3).", "isCorrect": true },
+      { "letter": "D", "text": "No se puede evaluar porque los tamanos de muestra son diferentes entre estratos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "La Secretaria de Salud comparo las tasas de cesarea en hospitales publicos y privados de una region durante 2024:\n\n| Tipo de hospital | Partos totales | Cesareas | Tasa de cesarea (%) |\n|-----------------|---------------:|---------:|--------------------:|\n| Publico (8 hospitales) | 12.000 | 3.600 | 30,0 |\n| Privado (5 clinicas) | 4.500 | 2.700 | 60,0 |\n| Total regional | 16.500 | 6.300 | 38,2 |\n\nLa OMS recomienda una tasa de cesarea entre 10 % y 15 %.\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "¿Cuantas cesareas «en exceso» se realizaron en el sector privado, tomando como referencia el limite superior de la OMS (15 %)?",
+    "explanation": "Cesareas esperadas con tasa del 15 % en el sector privado: 4.500 x 0,15 = 675. Cesareas reales = 2.700. Exceso = 2.700 - 675 = 2.025.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "1.350", "isCorrect": false },
+      { "letter": "B", "text": "1.800", "isCorrect": false },
+      { "letter": "C", "text": "2.025", "isCorrect": true },
+      { "letter": "D", "text": "2.700", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "¿Cual es la razon de tasas de cesarea del sector privado respecto al publico?",
+    "explanation": "Razon de tasas = Tasa privado / Tasa publico = 60,0 / 30,0 = 2,0. La tasa de cesarea en el sector privado es exactamente el doble que en el publico.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "1,5", "isCorrect": false },
+      { "letter": "B", "text": "2,0", "isCorrect": true },
+      { "letter": "C", "text": "2,5", "isCorrect": false },
+      { "letter": "D", "text": "3,0", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "El Instituto Nacional de Donacion y Trasplantes publico los siguientes datos sobre lista de espera para trasplante renal en Colombia:\n\n| Ano | Pacientes en lista | Trasplantes realizados | Donantes fallecidos | Donantes vivos |\n|----:|--------------------|------------------------:|--------------------:|---------------:|\n| 2020 | 3.200 | 580 | 320 | 260 |\n| 2021 | 3.450 | 620 | 350 | 270 |\n| 2022 | 3.700 | 700 | 400 | 300 |\n| 2023 | 3.900 | 680 | 380 | 300 |\n| 2024 | 4.100 | 750 | 430 | 320 |\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "¿Cual fue la tasa de cobertura de trasplantes (trasplantes realizados / pacientes en lista) en 2024?",
+    "explanation": "Tasa de cobertura = (750 / 4.100) x 100 = 18,3 %. Solo se cubrio aproximadamente 1 de cada 5 pacientes en lista de espera.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "15,7 %", "isCorrect": false },
+      { "letter": "B", "text": "18,3 %", "isCorrect": true },
+      { "letter": "C", "text": "20,5 %", "isCorrect": false },
+      { "letter": "D", "text": "22,0 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "Si la lista de espera crece al mismo ritmo promedio anual observado entre 2020 y 2024, ¿cuantos pacientes habria en lista en 2026?",
+    "explanation": "Crecimiento total en 4 anos: 4.100 - 3.200 = 900. Crecimiento promedio anual: 900 / 4 = 225 pacientes por ano. Proyeccion 2026 = 4.100 + 225 x 2 = 4.100 + 450 = 4.550.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "4.325", "isCorrect": false },
+      { "letter": "B", "text": "4.550", "isCorrect": true },
+      { "letter": "C", "text": "4.700", "isCorrect": false },
+      { "letter": "D", "text": "4.900", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "Un funcionario afirma: «El programa de donacion ha sido exitoso porque los trasplantes aumentaron de 580 a 750 entre 2020 y 2024». ¿Cual es la evaluacion mas adecuada?",
+    "explanation": "Los trasplantes aumentaron un (750 - 580) / 580 x 100 = 29,3 %. Sin embargo, la lista de espera crecio de 3.200 a 4.100, un aumento del 28,1 %. La brecha absoluta aumento: en 2020, 2.620 pacientes quedaron sin trasplante; en 2024, 3.350. El aumento en trasplantes no logro reducir la brecha, por lo que la afirmacion de exito es incompleta sin considerar el crecimiento de la demanda.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta porque el numero de trasplantes aumento un 29,3 % en el periodo.", "isCorrect": false },
+      { "letter": "B", "text": "Es incompleta: aunque los trasplantes crecieron, la brecha absoluta entre demanda y oferta aumento de 2.620 a 3.350 pacientes.", "isCorrect": true },
+      { "letter": "C", "text": "Es incorrecta porque en 2023 hubo menos trasplantes que en 2022.", "isCorrect": false },
+      { "letter": "D", "text": "Es correcta porque la proporcion de donantes vivos tambien crecio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "Un ensayo clinico evaluo la adherencia al tratamiento antihipertensivo en 600 pacientes, clasificados por metodo de seguimiento:\n\n| Metodo de seguimiento | Pacientes | Adherentes (>= 80 % de tomas) | No adherentes |\n|----------------------|----------:|-------------------------------:|--------------:|\n| Control habitual | 200 | 96 | 104 |\n| Llamada telefonica semanal | 200 | 130 | 70 |\n| App movil con recordatorio | 200 | 148 | 52 |\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "¿Cual es la diferencia absoluta en la proporcion de adherencia entre el grupo con app movil y el control habitual?",
+    "explanation": "Adherencia control habitual: 96/200 = 48,0 %. Adherencia app movil: 148/200 = 74,0 %. Diferencia absoluta: 74,0 - 48,0 = 26,0 puntos porcentuales.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "17,0 puntos porcentuales", "isCorrect": false },
+      { "letter": "B", "text": "22,0 puntos porcentuales", "isCorrect": false },
+      { "letter": "C", "text": "26,0 puntos porcentuales", "isCorrect": true },
+      { "letter": "D", "text": "30,0 puntos porcentuales", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": null,
+    "questionText": "¿Cual es el NNT (numero necesario a tratar) para lograr un paciente adherente adicional usando la app movil en comparacion con el control habitual?",
+    "explanation": "El NNT se calcula como 1 / RAR, donde RAR es la reduccion absoluta del riesgo (en este caso, la diferencia absoluta en la proporcion del desenlace favorable). RAR = 0,74 - 0,48 = 0,26. NNT = 1 / 0,26 = 3,85 ≈ 4. Se necesita intervenir a 4 pacientes con la app para lograr un adherente adicional respecto al control.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "2", "isCorrect": false },
+      { "letter": "B", "text": "4", "isCorrect": true },
+      { "letter": "C", "text": "6", "isCorrect": false },
+      { "letter": "D", "text": "8", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "Si se selecciona un paciente al azar del total del estudio y resulta ser adherente, ¿cual es la probabilidad de que pertenezca al grupo de llamada telefonica?",
+    "explanation": "Total de adherentes = 96 + 130 + 148 = 374. Adherentes del grupo de llamada telefonica = 130. Probabilidad = 130 / 374 = 0,3476 ≈ 34,8 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "21,7 %", "isCorrect": false },
+      { "letter": "B", "text": "34,8 %", "isCorrect": true },
+      { "letter": "C", "text": "39,6 %", "isCorrect": false },
+      { "letter": "D", "text": "65,0 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "El siguiente cuadro muestra el porcentaje de ocupacion de camas hospitalarias por servicio en un hospital de tercer nivel durante un mes tipico:\n\n| Servicio | Camas disponibles | Porcentaje de ocupacion (%) | Estancia promedio (dias) |\n|----------|------------------:|----------------------------:|-------------------------:|\n| Medicina interna | 120 | 92 | 6,5 |\n| Cirugia general | 80 | 78 | 4,2 |\n| Pediatria | 60 | 65 | 3,8 |\n| UCI adultos | 30 | 95 | 8,1 |\n| Gineco-obstetricia | 50 | 85 | 2,5 |\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "¿Cuantas camas estan ocupadas en promedio en el servicio de medicina interna?",
+    "explanation": "Camas disponibles = 120. Porcentaje de ocupacion = 92 %. Camas ocupadas = 120 x 0,92 = 110,4 ≈ 110 camas.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "96", "isCorrect": false },
+      { "letter": "B", "text": "104", "isCorrect": false },
+      { "letter": "C", "text": "110", "isCorrect": true },
+      { "letter": "D", "text": "115", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": null,
+    "questionText": "El hospital necesita liberar camas en UCI. Si logra reducir la estancia promedio de UCI de 8,1 a 6,0 dias manteniendo el mismo numero de pacientes atendidos al mes, ¿en que porcentaje aproximado disminuiria la ocupacion?",
+    "explanation": "La ocupacion es proporcional a la estancia promedio cuando el flujo de pacientes es constante. Reduccion proporcional de la estancia: (8,1 - 6,0) / 8,1 = 2,1 / 8,1 = 0,259 = 25,9 %. La ocupacion actual es 95 %. Nueva ocupacion estimada: 95 x (6,0 / 8,1) = 95 x 0,741 = 70,4 %. La reduccion seria de aproximadamente 95 - 70,4 = 24,6 puntos porcentuales, o un 25,9 % relativo.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "Aproximadamente 15 %", "isCorrect": false },
+      { "letter": "B", "text": "Aproximadamente 26 %", "isCorrect": true },
+      { "letter": "C", "text": "Aproximadamente 35 %", "isCorrect": false },
+      { "letter": "D", "text": "Aproximadamente 42 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "Un administrador hospitalario afirma que «pediatria es el servicio mas eficiente porque tiene la menor ocupacion». ¿Cual evaluacion es mas adecuada?",
+    "explanation": "Una ocupacion baja (65 %) en pediatria puede indicar subutilizacion de recursos, no eficiencia. La eficiencia hospitalaria se mide con indicadores como el giro-cama, el intervalo de sustitucion, la relacion entre egresos y costo operativo, entre otros. Ademas, pediatria tiene la segunda menor estancia promedio (3,8 dias), lo cual podria reflejar eficiencia clinica, pero la baja ocupacion tambien podria indicar exceso de oferta o baja demanda. La afirmacion confunde baja ocupacion con eficiencia.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta: menor ocupacion implica mejor gestion de recursos.", "isCorrect": false },
+      { "letter": "B", "text": "Es incorrecta: baja ocupacion puede indicar subutilizacion, no eficiencia; se requieren indicadores como giro-cama e intervalo de sustitucion.", "isCorrect": true },
+      { "letter": "C", "text": "Es correcta porque pediatria tiene la menor estancia promedio.", "isCorrect": false },
+      { "letter": "D", "text": "Es incorrecta porque la UCI es mas eficiente al tener mayor ocupacion.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Un programa de salud materna evaluo la cobertura de control prenatal por trimestre de inicio en una region con 8.000 gestantes durante 2024:\n\n| Trimestre de inicio del control | Gestantes | Porcentaje |\n|--------------------------------|----------:|-----------:|\n| Primer trimestre (antes de semana 13) | 4.800 | 60,0 |\n| Segundo trimestre (semanas 13-27) | 2.200 | 27,5 |\n| Tercer trimestre (semana 28 o despues) | 600 | 7,5 |\n| Sin control prenatal | 400 | 5,0 |\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "¿Cual es la razon entre gestantes que iniciaron control en el primer trimestre y las que no tuvieron ningun control?",
+    "explanation": "Razon = 4.800 / 400 = 12. Por cada gestante sin control prenatal, hay 12 que iniciaron en el primer trimestre.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "8 a 1", "isCorrect": false },
+      { "letter": "B", "text": "10 a 1", "isCorrect": false },
+      { "letter": "C", "text": "12 a 1", "isCorrect": true },
+      { "letter": "D", "text": "15 a 1", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "La meta del programa es que al menos el 75 % de las gestantes inicien control en el primer trimestre. ¿Cuantas gestantes adicionales necesitarian iniciar control temprano para alcanzar esta meta, asumiendo que el total de 8.000 se mantiene?",
+    "explanation": "Meta: 75 % de 8.000 = 6.000 gestantes en primer trimestre. Actualmente: 4.800. Adicionales necesarias: 6.000 - 4.800 = 1.200.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "800", "isCorrect": false },
+      { "letter": "B", "text": "1.000", "isCorrect": false },
+      { "letter": "C", "text": "1.200", "isCorrect": true },
+      { "letter": "D", "text": "1.500", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Un estudio del DANE comparo la esperanza de vida al nacer (en anos) en cinco departamentos colombianos para hombres y mujeres en 2024:\n\n| Departamento | Hombres | Mujeres | Diferencia (M - H) |\n|-------------|--------:|--------:|--------------------:|\n| Bogota D.C. | 74,8 | 80,2 | 5,4 |\n| Narino | 70,5 | 77,1 | 6,6 |\n| Choco | 66,3 | 73,8 | 7,5 |\n| Santander | 73,2 | 79,0 | 5,8 |\n| San Andres | 72,0 | 78,5 | 6,5 |\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "¿Cual es el promedio de esperanza de vida de los hombres en los cinco departamentos?",
+    "explanation": "Promedio = (74,8 + 70,5 + 66,3 + 73,2 + 72,0) / 5 = 356,8 / 5 = 71,36 ≈ 71,4 anos.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "69,8 anos", "isCorrect": false },
+      { "letter": "B", "text": "71,4 anos", "isCorrect": true },
+      { "letter": "C", "text": "73,0 anos", "isCorrect": false },
+      { "letter": "D", "text": "74,2 anos", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "Si la esperanza de vida de los hombres en Choco aumentara 1,2 anos cada quinquenio y la de Bogota aumentara 0,5 anos por quinquenio, ¿en cuantos quinquenios la diferencia entre Bogota y Choco se reduciria a la mitad?",
+    "explanation": "Diferencia actual = 74,8 - 66,3 = 8,5 anos. Mitad = 4,25 anos. Cada quinquenio la diferencia se reduce en 1,2 - 0,5 = 0,7 anos. Numero de quinquenios = 4,25 / 0,7 = 6,07 ≈ 6 quinquenios (30 anos). Tras 6 quinquenios: reduccion = 6 x 0,7 = 4,2 anos; diferencia = 8,5 - 4,2 = 4,3, muy cerca de 4,25.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "4 quinquenios (20 anos)", "isCorrect": false },
+      { "letter": "B", "text": "6 quinquenios (30 anos)", "isCorrect": true },
+      { "letter": "C", "text": "8 quinquenios (40 anos)", "isCorrect": false },
+      { "letter": "D", "text": "10 quinquenios (50 anos)", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "Un analista senala que «Choco tiene la mayor brecha de genero en esperanza de vida porque es el departamento mas pobre». ¿Cual evaluacion es mas adecuada?",
+    "explanation": "Es cierto que Choco muestra la mayor diferencia entre mujeres y hombres (7,5 anos) y tiene indicadores socioeconomicos desfavorables. Sin embargo, la brecha de genero en esperanza de vida es multifactorial: influyen la violencia (que afecta mas a hombres jovenes), el acceso diferencial a servicios de salud, los riesgos laborales, el consumo de alcohol y sustancias, y los patrones culturales. Atribuirla unicamente a la pobreza es una simplificacion.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta: la pobreza explica completamente la brecha de genero en esperanza de vida.", "isCorrect": false },
+      { "letter": "B", "text": "Es incorrecta porque la brecha de genero es igual en todos los departamentos.", "isCorrect": false },
+      { "letter": "C", "text": "Es parcialmente valida: Choco tiene la mayor brecha, pero esta depende de multiples factores (violencia, acceso a salud, riesgos laborales), no solo de la pobreza.", "isCorrect": true },
+      { "letter": "D", "text": "Es incorrecta porque Narino tiene mayor brecha que Choco.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Un observatorio de VIH/SIDA registro los nuevos diagnosticos anuales y la tasa de incidencia (por 100.000 habitantes) en un departamento:\n\n| Ano | Nuevos diagnosticos | Poblacion estimada | Tasa de incidencia |\n|----:|--------------------:|-------------------:|-------------------:|\n| 2019 | 420 | 2.800.000 | 15,0 |\n| 2020 | 350 | 2.820.000 | 12,4 |\n| 2021 | 380 | 2.850.000 | 13,3 |\n| 2022 | 450 | 2.880.000 | 15,6 |\n| 2023 | 490 | 2.900.000 | 16,9 |\n| 2024 | 520 | 2.930.000 | 17,7 |\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "¿Cual fue la variacion porcentual de la tasa de incidencia entre 2020 y 2024?",
+    "explanation": "Variacion porcentual = ((17,7 - 12,4) / 12,4) x 100 = (5,3 / 12,4) x 100 = 42,7 %.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "18,0 %", "isCorrect": false },
+      { "letter": "B", "text": "30,5 %", "isCorrect": false },
+      { "letter": "C", "text": "42,7 %", "isCorrect": true },
+      { "letter": "D", "text": "48,6 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": null,
+    "questionText": "La disminucion de la tasa en 2020 (de 15,0 a 12,4) coincidio con la pandemia de COVID-19. ¿Cual interpretacion es mas razonable?",
+    "explanation": "Durante la pandemia, muchos servicios de salud se restringieron y las personas evitaron consultar. Esto pudo reducir el numero de pruebas de VIH realizadas y, por tanto, el numero de diagnosticos nuevos. La reduccion en la tasa probablemente refleja subdiagnostico, no una disminucion real de la transmision. Los anos posteriores (2021-2024) muestran un rebote y un aumento sostenido que respalda esta interpretacion.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La pandemia redujo la transmision del VIH porque las personas tuvieron menos contacto social.", "isCorrect": false },
+      { "letter": "B", "text": "La disminucion refleja probablemente un subdiagnostico por reduccion de pruebas y acceso a servicios durante la pandemia.", "isCorrect": true },
+      { "letter": "C", "text": "La tasa bajo porque la poblacion aumento y el denominador es mayor.", "isCorrect": false },
+      { "letter": "D", "text": "No se puede interpretar porque los datos de 2020 no son confiables.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Un hospital aplico una encuesta de satisfaccion a 500 pacientes egresados, calificando cuatro dimensiones en una escala de 1 a 5:\n\n| Dimension | Media | Desviacion estandar | Mediana |\n|-----------|------:|--------------------:|--------:|\n| Atencion medica | 4,2 | 0,8 | 4,0 |\n| Atencion de enfermeria | 4,5 | 0,6 | 5,0 |\n| Infraestructura | 3,1 | 1,2 | 3,0 |\n| Tramites administrativos | 2,8 | 1,4 | 3,0 |\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "¿Cual dimension muestra mayor homogeneidad en las respuestas de los pacientes?",
+    "explanation": "La homogeneidad se mide con la desviacion estandar: a menor desviacion, mayor homogeneidad. Atencion de enfermeria tiene la menor desviacion estandar (0,6), lo que indica que las respuestas fueron mas uniformes. Los coeficientes de variacion confirman: enfermeria = 0,6/4,5 = 13,3 %; medica = 0,8/4,2 = 19,0 %; infraestructura = 1,2/3,1 = 38,7 %; tramites = 1,4/2,8 = 50,0 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Atencion medica", "isCorrect": false },
+      { "letter": "B", "text": "Atencion de enfermeria", "isCorrect": true },
+      { "letter": "C", "text": "Infraestructura", "isCorrect": false },
+      { "letter": "D", "text": "Tramites administrativos", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "En la dimension de atencion de enfermeria, la media es 4,5 y la mediana es 5,0. ¿Que indica esta diferencia sobre la forma de la distribucion?",
+    "explanation": "Cuando la mediana (5,0) es mayor que la media (4,5), la distribucion esta sesgada a la izquierda (asimetria negativa). Esto significa que la mayoria de los pacientes calificaron con valores altos (4 o 5), pero algunos valores bajos «jalan» la media hacia abajo. La cola de la distribucion se extiende hacia los valores menores.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La distribucion es simetrica porque ambos valores son altos.", "isCorrect": false },
+      { "letter": "B", "text": "La distribucion tiene sesgo positivo (cola hacia la derecha).", "isCorrect": false },
+      { "letter": "C", "text": "La distribucion tiene sesgo negativo (cola hacia la izquierda): la mayoria califico alto, pero algunos valores bajos reducen la media.", "isCorrect": true },
+      { "letter": "D", "text": "No se puede determinar la forma de la distribucion con solo la media y la mediana.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "El CRUE (Centro Regulador de Urgencias y Emergencias) registro los tiempos de respuesta de ambulancias (en minutos) por zona durante el primer semestre de 2024:\n\n| Zona | Despachos atendidos | Tiempo medio (min) | Percentil 25 | Percentil 75 |\n|------|--------------------:|-------------------:|--------------:|-------------:|\n| Urbana norte | 3.400 | 12 | 8 | 16 |\n| Urbana sur | 2.800 | 15 | 10 | 21 |\n| Urbana centro | 4.200 | 10 | 7 | 14 |\n| Rural norte | 800 | 28 | 18 | 38 |\n| Rural sur | 600 | 35 | 22 | 45 |\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "¿Cual zona presenta el mayor rango intercuartilico (RIQ) en los tiempos de respuesta?",
+    "explanation": "RIQ = Percentil 75 - Percentil 25. Urbana norte: 16 - 8 = 8. Urbana sur: 21 - 10 = 11. Urbana centro: 14 - 7 = 7. Rural norte: 38 - 18 = 20. Rural sur: 45 - 22 = 23. Rural sur tiene el mayor RIQ con 23 minutos, indicando la mayor variabilidad.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Urbana sur, con RIQ de 11 minutos.", "isCorrect": false },
+      { "letter": "B", "text": "Rural norte, con RIQ de 20 minutos.", "isCorrect": false },
+      { "letter": "C", "text": "Rural sur, con RIQ de 23 minutos.", "isCorrect": true },
+      { "letter": "D", "text": "Urbana centro, con RIQ de 7 minutos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": null,
+    "questionText": "La norma nacional establece que el tiempo de respuesta de ambulancias en zona urbana no debe superar los 15 minutos en el 75 % de los casos. ¿Cuales zonas urbanas cumplen esta norma?",
+    "explanation": "El percentil 75 indica el tiempo maximo para el 75 % de los despachos. Para cumplir, el percentil 75 debe ser <= 15 minutos. Urbana norte: P75 = 16 (NO cumple). Urbana sur: P75 = 21 (NO cumple). Urbana centro: P75 = 14 (SI cumple). Solo la zona urbana centro cumple la norma.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Urbana norte y urbana centro.", "isCorrect": false },
+      { "letter": "B", "text": "Solo urbana centro.", "isCorrect": true },
+      { "letter": "C", "text": "Las tres zonas urbanas cumplen la norma.", "isCorrect": false },
+      { "letter": "D", "text": "Ninguna zona urbana cumple la norma.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "Si el CRUE necesita que la zona urbana norte cumpla la norma (P75 <= 15 min), y logra reducir todos los tiempos de esa zona en un 10 %, ¿se alcanzaria la meta?",
+    "explanation": "El percentil 75 actual de urbana norte es 16 minutos. Una reduccion del 10 %: 16 x 0,90 = 14,4 minutos. Como 14,4 < 15, se cumpliria la norma. El nuevo P25 seria 8 x 0,90 = 7,2 y la media seria 12 x 0,90 = 10,8 minutos.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "No, porque el nuevo P75 seria 14,4 minutos, que aun supera el limite.", "isCorrect": false },
+      { "letter": "B", "text": "Si, porque el nuevo P75 seria 14,4 minutos, que es menor que 15.", "isCorrect": true },
+      { "letter": "C", "text": "No, porque se requiere una reduccion de al menos el 15 %.", "isCorrect": false },
+      { "letter": "D", "text": "Si, pero solo si tambien se reducen los tiempos en las demas zonas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "Un concejal argumenta que «las zonas rurales no necesitan ambulancias rapidas porque la demanda es baja (solo 800 y 600 despachos)». ¿Cual es la evaluacion mas adecuada?",
+    "explanation": "La baja frecuencia de despachos no reduce la urgencia clinica de cada caso. En zonas rurales, los tiempos prolongados (media de 28-35 minutos) pueden significar mayor mortalidad en emergencias como infartos, ACV o trauma, donde cada minuto cuenta. Ademas, la baja demanda puede deberse a que la poblacion no llama por falta de confianza en la respuesta, no porque no necesite el servicio. El argumento confunde volumen de demanda con necesidad clinica.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta porque los recursos deben priorizarse donde hay mayor volumen de despachos.", "isCorrect": false },
+      { "letter": "B", "text": "Es incorrecta: la urgencia clinica de cada caso no depende del volumen total; ademas, la baja demanda puede reflejar barreras de acceso, no menor necesidad.", "isCorrect": true },
+      { "letter": "C", "text": "Es correcta porque las zonas urbanas concentran a la mayoria de la poblacion.", "isCorrect": false },
+      { "letter": "D", "text": "Es irrelevante porque las ambulancias rurales dependen de la gobernacion, no del municipio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Un programa de prevencion de VIH entrego 24.000 pruebas rapidas durante una campana en una ciudad. Los resultados fueron:\n\n| Resultado de la prueba | Frecuencia |\n|-----------------------|-----------:|\n| Verdadero positivo | 180 |\n| Falso positivo | 120 |\n| Falso negativo | 20 |\n| Verdadero negativo | 23.680 |\n\n(Datos ficticios — Redaccion Study2One)",
+    "questionText": "¿Cual es la sensibilidad de la prueba rapida utilizada?",
+    "explanation": "La sensibilidad es la capacidad de la prueba de identificar correctamente a los positivos reales. Sensibilidad = VP / (VP + FN) = 180 / (180 + 20) = 180 / 200 = 0,90 = 90 %.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "60,0 %", "isCorrect": false },
+      { "letter": "B", "text": "75,0 %", "isCorrect": false },
+      { "letter": "C", "text": "90,0 %", "isCorrect": true },
+      { "letter": "D", "text": "99,5 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "¿Cual es el valor predictivo positivo (VPP) de la prueba en esta poblacion?",
+    "explanation": "El VPP es la probabilidad de que una persona con resultado positivo realmente tenga la enfermedad. VPP = VP / (VP + FP) = 180 / (180 + 120) = 180 / 300 = 0,60 = 60,0 %. Esto significa que de cada 10 resultados positivos, solo 6 corresponden a personas realmente infectadas.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "60,0 %", "isCorrect": true },
+      { "letter": "B", "text": "75,0 %", "isCorrect": false },
+      { "letter": "C", "text": "90,0 %", "isCorrect": false },
+      { "letter": "D", "text": "99,2 %", "isCorrect": false }
+    ]
+  }
+]

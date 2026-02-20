@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Caso clínico: Hombre de 67 años con antecedente de hipertensión arterial mal controlada consulta por dolor torácico severo de inicio súbito, de tipo desgarrante, localizado en región interescapular, que se irradia hacia la espalda y el abdomen. Signos vitales: FC 105 lpm, PA en brazo derecho 180/110 mmHg, PA en brazo izquierdo 145/90 mmHg. Al examen físico se palpa pulso radial derecho más débil que el izquierdo. No hay soplo de insuficiencia aórtica. La radiografía de tórax muestra ensanchamiento mediastínico.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El dolor torácico desgarrante de inicio súbito irradiado a la espalda, la diferencia de presión arterial entre ambos brazos (> 20 mmHg), la asimetría de pulsos y el ensanchamiento mediastínico en la radiografía conforman el cuadro clásico de disección aórtica. La ausencia de soplo de insuficiencia aórtica y la localización del dolor en región interescapular sugieren una disección tipo B (aorta descendente, distal a la subclavia izquierda). El infarto agudo de miocardio presenta dolor opresivo, no desgarrante. La pericarditis produce dolor que mejora al inclinarse hacia adelante. El neumotórax a tensión cursa con desviación traqueal y ausencia de murmullo vesicular.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Infarto agudo de miocardio de pared posterior", "isCorrect": false },
+      { "letter": "B", "text": "Disección aórtica tipo B", "isCorrect": true },
+      { "letter": "C", "text": "Pericarditis aguda constrictiva", "isCorrect": false },
+      { "letter": "D", "text": "Neumotórax a tensión izquierdo", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "¿Cuál es el estudio de imagen de elección para confirmar el diagnóstico y clasificar la disección?",
+    "explanation": "La angiotomografía (angio-TAC) de tórax y abdomen con contraste es el estudio de elección para confirmar la disección aórtica y clasificarla. Tiene sensibilidad y especificidad superiores al 95 %, permite identificar la localización del flap intimal, la extensión, el compromiso de ramas y complicaciones. La ecocardiografía transtorácica es limitada para la aorta descendente. La radiografía de tórax solo muestra signos indirectos. La arteriografía convencional ha sido desplazada por la angio-TAC.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Ecocardiograma transtorácico", "isCorrect": false },
+      { "letter": "B", "text": "Radiografía de tórax en dos proyecciones", "isCorrect": false },
+      { "letter": "C", "text": "Angiotomografía de tórax y abdomen con contraste", "isCorrect": true },
+      { "letter": "D", "text": "Arteriografía convencional por cateterismo", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "¿Cuál es el manejo inicial más apropiado para este paciente?",
+    "explanation": "En la disección aórtica tipo B no complicada, el manejo es médico: control agresivo de la presión arterial y de la frecuencia cardíaca con betabloqueadores intravenosos (labetalol o esmolol) como primera línea, con el objetivo de PA sistólica < 120 mmHg y FC < 60 lpm para reducir el estrés sobre la pared aórtica. Si la PA no se controla, se puede agregar nitroprusiato. La cirugía de emergencia se reserva para la disección tipo A o tipo B complicada (malperfusión, rotura). Los trombolíticos están absolutamente contraindicados.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Cirugía de reemplazo aórtico de emergencia", "isCorrect": false },
+      { "letter": "B", "text": "Control de presión arterial con betabloqueadores intravenosos y monitorización en UCI", "isCorrect": true },
+      { "letter": "C", "text": "Trombólisis sistémica con alteplasa y anticoagulación con heparina", "isCorrect": false },
+      { "letter": "D", "text": "Analgesia con AINEs y control ambulatorio en 48 horas", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Caso clínico: Mujer de 28 años, sin antecedentes relevantes, es traída a urgencias por su compañera de apartamento quien la encontró somnolienta y con vómitos. Refiere que la paciente ingirió aproximadamente 30 tabletas de acetaminofén de 500 mg (15 g en total) hace 18 horas tras una discusión sentimental. Al examen: somnolienta pero responde a estímulos verbales, ictericia leve, dolor a la palpación en hipocondrio derecho. Laboratorios: AST 4 800 U/L, ALT 5 200 U/L, INR 3,8, bilirrubina total 4,5 mg/dL, creatinina 1,9 mg/dL, pH arterial 7,28, lactato 6,2 mmol/L.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La ingesta de una dosis masiva de acetaminofén (15 g, muy por encima del umbral tóxico de 150 mg/kg), junto con transaminasas marcadamente elevadas (AST > 1 000), coagulopatía (INR 3,8), ictericia, acidosis metabólica y lesión renal, configuran el cuadro de falla hepática aguda (hepatitis tóxica fulminante) por sobredosis de acetaminofén. La hepatitis viral aguda rara vez alcanza transaminasas tan altas con coagulopatía tan severa en un contexto de ingesta reciente conocida. La colangitis aguda presenta la tríada de Charcot (fiebre, ictericia, dolor). La esteatosis hepática no produce este cuadro agudo.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Hepatitis viral aguda tipo A", "isCorrect": false },
+      { "letter": "B", "text": "Falla hepática aguda por sobredosis de acetaminofén", "isCorrect": true },
+      { "letter": "C", "text": "Colangitis aguda ascendente", "isCorrect": false },
+      { "letter": "D", "text": "Esteatosis hepática aguda del embarazo", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": null,
+    "questionText": "¿Cuál es el antídoto específico que debe administrarse de inmediato en esta paciente?",
+    "explanation": "La N-acetilcisteína (NAC) es el antídoto específico para la intoxicación por acetaminofén. Actúa como precursor del glutatión, que neutraliza el metabolito tóxico NAPQI. Aunque es más efectiva dentro de las primeras 8-10 horas, se debe administrar incluso después de ese período si hay evidencia de hepatotoxicidad, como en este caso. El flumazenilo es antídoto para benzodiacepinas. La naloxona se usa en intoxicación por opioides. La penicilamina es quelante usado en enfermedad de Wilson.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Flumazenilo intravenoso", "isCorrect": false },
+      { "letter": "B", "text": "N-acetilcisteína (NAC) intravenosa", "isCorrect": true },
+      { "letter": "C", "text": "Naloxona intravenosa", "isCorrect": false },
+      { "letter": "D", "text": "Penicilamina oral", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "Según los criterios del King's College para intoxicación por acetaminofén, ¿cuál de los siguientes hallazgos en esta paciente indica la necesidad de evaluación para trasplante hepático?",
+    "explanation": "Los criterios del King's College para hepatotoxicidad por acetaminofén indican la necesidad de trasplante hepático si el pH arterial es < 7,30 (acidosis metabólica) después de la reanimación, o si se cumplen los tres criterios: INR > 6,5, creatinina > 3,4 mg/dL y encefalopatía grado III-IV. Esta paciente tiene pH de 7,28, lo que cumple el criterio más importante de mal pronóstico. La elevación de transaminasas per se no es criterio. La ictericia leve es hallazgo esperado. La creatinina elevada es preocupante pero no alcanza el umbral del criterio combinado.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Transaminasas superiores a 3 000 U/L", "isCorrect": false },
+      { "letter": "B", "text": "pH arterial inferior a 7,30", "isCorrect": true },
+      { "letter": "C", "text": "Ictericia leve con bilirrubina total de 4,5 mg/dL", "isCorrect": false },
+      { "letter": "D", "text": "Somnolencia con respuesta a estímulos verbales", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Caso clínico: Mujer de 31 años consulta por pérdida de visión en el ojo derecho de 5 días de evolución, que describe como «un velo oscuro» que le dificulta ver por ese lado. Refiere dolor retroocular que empeora con los movimientos oculares. Además, menciona que hace 8 meses presentó un episodio de debilidad y hormigueo en ambas piernas que duró 3 semanas y se resolvió espontáneamente sin consultar. Al examen oftalmológico: agudeza visual 20/200 en ojo derecho, defecto pupilar aferente relativo (pupila de Marcus Gunn), fondo de ojo con papila edematosa. Examen neurológico: hiperreflexia en miembros inferiores.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La neuritis óptica (pérdida visual unilateral, dolor retroocular con movimientos oculares, defecto pupilar aferente relativo) en una mujer joven, sumada al antecedente de un episodio previo de mielopatía (debilidad y parestesias en piernas que se resolvió), configura una diseminación en tiempo y espacio que es altamente sugestiva de esclerosis múltiple. El neuromielitis óptica (Devic) es un diagnóstico diferencial pero es menos frecuente. La neuropatía óptica isquémica anterior es típica de pacientes mayores de 50 años con factores de riesgo cardiovascular. El tumor de nervio óptico tendría una evolución más insidiosa.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Neuropatía óptica isquémica anterior", "isCorrect": false },
+      { "letter": "B", "text": "Esclerosis múltiple con neuritis óptica como manifestación inicial", "isCorrect": true },
+      { "letter": "C", "text": "Tumor del nervio óptico (glioma)", "isCorrect": false },
+      { "letter": "D", "text": "Glaucoma agudo de ángulo cerrado", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "¿Cuál es el estudio más apropiado para confirmar el diagnóstico y evaluar la carga de la enfermedad?",
+    "explanation": "La resonancia magnética (RM) cerebral y de médula espinal con gadolinio es el estudio de elección para el diagnóstico de esclerosis múltiple. Permite visualizar las lesiones desmielinizantes (placas) en sustancia blanca periventricular, yuxtacortical, infratentorial y medular, y demostrar diseminación en espacio. Las lesiones que realzan con gadolinio indican actividad inflamatoria reciente. La TAC de cráneo tiene muy baja sensibilidad para lesiones desmielinizantes. Los potenciales evocados visuales son complementarios pero no suficientes. El electroencefalograma no aporta al diagnóstico.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Tomografía computarizada de cráneo simple", "isCorrect": false },
+      { "letter": "B", "text": "Resonancia magnética cerebral y medular con gadolinio", "isCorrect": true },
+      { "letter": "C", "text": "Potenciales evocados visuales", "isCorrect": false },
+      { "letter": "D", "text": "Electroencefalograma", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento más apropiado para el brote agudo de neuritis óptica en esta paciente?",
+    "explanation": "El tratamiento del brote agudo de esclerosis múltiple (incluyendo neuritis óptica) consiste en metilprednisolona intravenosa a dosis altas (1 g/día por 3-5 días), seguida de descenso gradual con prednisona oral. Los pulsos de corticoides IV aceleran la recuperación del brote, aunque no modifican el pronóstico visual a largo plazo. El interferón beta es un tratamiento modificador de la enfermedad a largo plazo, no para brotes agudos. Los antibióticos no tienen indicación. Los AINEs no son suficientes para un brote desmielinizante.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Interferón beta-1a subcutáneo", "isCorrect": false },
+      { "letter": "B", "text": "Metilprednisolona intravenosa en pulsos (1 g/día por 3-5 días)", "isCorrect": true },
+      { "letter": "C", "text": "Antibioticoterapia con ceftriaxona intravenosa", "isCorrect": false },
+      { "letter": "D", "text": "Ibuprofeno oral y parche ocular con control en 2 semanas", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Caso clínico: Mujer de 9 semanas de gestación, primigesta de 24 años, consulta por vómitos persistentes de 2 semanas de evolución (más de 10 episodios al día), incapacidad para tolerar alimentos sólidos o líquidos, pérdida de 4 kg de peso. Signos vitales: FC 112 lpm, PA 90/55 mmHg, mucosas secas, signo del pliegue positivo. Laboratorios: cetonas en orina +++, sodio 129 mEq/L, potasio 2,8 mEq/L, cloro 88 mEq/L, TSH 0,1 mUI/L (baja), T4 libre 2,8 ng/dL (elevada).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Los vómitos incoercibles en el primer trimestre con deshidratación severa (taquicardia, hipotensión, mucosas secas, pliegue positivo), pérdida de peso > 5 %, cetonuria y alteraciones electrolíticas (hiponatremia, hipokalemia, hipocloremia) configuran el diagnóstico de hiperemesis gravídica. La TSH baja con T4L elevada es un hallazgo esperado en la hiperemesis gravídica (tirotoxicosis gestacional transitoria por la homología estructural entre hCG y TSH), no debe confundirse con hipertiroidismo primario. La gastroenteritis aguda no produce pérdida de peso de 4 kg ni cetonuria persistente. La mola hidatiforme es un diagnóstico diferencial pero requiere confirmación ecográfica.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Gastroenteritis aguda viral", "isCorrect": false },
+      { "letter": "B", "text": "Hiperemesis gravídica", "isCorrect": true },
+      { "letter": "C", "text": "Hipertiroidismo primario (enfermedad de Graves)", "isCorrect": false },
+      { "letter": "D", "text": "Cetoacidosis diabética", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "¿Cuál es el manejo inicial más apropiado para esta paciente?",
+    "explanation": "El manejo de la hiperemesis gravídica severa incluye hospitalización para reposición de líquidos intravenosos (solución salina con dextrosa y suplemento de potasio), corrección de electrolitos, tiamina IV (para prevenir encefalopatía de Wernicke antes de administrar dextrosa) y antieméticos (ondansetrón, metoclopramida o doxilamina/piridoxina). La alimentación oral se reintroduce gradualmente. Los antitiroideos no están indicados porque la tirotoxicosis es transitoria y mediada por hCG. La interrupción del embarazo no está indicada salvo en casos refractarios extremos.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Metimazol oral para controlar el hipertiroidismo y antieméticos", "isCorrect": false },
+      { "letter": "B", "text": "Rehidratación intravenosa, tiamina, corrección electrolítica y antieméticos", "isCorrect": true },
+      { "letter": "C", "text": "Dieta líquida fraccionada ambulatoria con metoclopramida oral", "isCorrect": false },
+      { "letter": "D", "text": "Interrupción terapéutica del embarazo por riesgo materno", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "¿Por qué es fundamental administrar tiamina intravenosa antes de iniciar la infusión de dextrosa en esta paciente?",
+    "explanation": "En pacientes con vómitos prolongados y desnutrición (como en la hiperemesis gravídica), las reservas de tiamina (vitamina B1) se agotan. Si se administra glucosa (dextrosa) sin reponer tiamina previamente, se puede precipitar una encefalopatía de Wernicke, una emergencia neurológica caracterizada por confusión, ataxia y oftalmoparesia. Por ello, la tiamina debe administrarse siempre antes de la dextrosa en pacientes con riesgo de déficit. La prevención de cetoacidosis se logra con la dextrosa misma. La hiponatremia se corrige con solución salina, no con tiamina. La nefrotoxicidad no se relaciona con esta medida.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Para prevenir la cetoacidosis por ayuno prolongado", "isCorrect": false },
+      { "letter": "B", "text": "Para prevenir la encefalopatía de Wernicke por déficit de tiamina", "isCorrect": true },
+      { "letter": "C", "text": "Para corregir la hiponatremia dilucional asociada", "isCorrect": false },
+      { "letter": "D", "text": "Para evitar la nefrotoxicidad de los cristaloides en el embarazo", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Caso clínico: Mujer de 35 años consulta por debilidad progresiva en las últimas 6 semanas. Inicialmente notó dificultad para mantener los párpados abiertos al final del día y visión doble al leer. Ahora refiere fatiga al masticar durante las comidas y voz nasal al hablar por períodos prolongados. Los síntomas empeoran al final del día y mejoran con el reposo. Al examen: ptosis palpebral bilateral que se acentúa con la mirada sostenida hacia arriba durante 60 segundos (prueba de fatiga positiva). Fuerza muscular proximal 4/5 en miembros superiores. No hay alteraciones sensitivas.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La debilidad muscular fluctuante que empeora con el uso repetido y mejora con el reposo, con compromiso de músculos oculares (ptosis, diplopía), bulbares (debilidad masticatoria, voz nasal) y proximales, sin alteraciones sensitivas, es la presentación clásica de miastenia gravis. La prueba de fatiga positiva (ptosis que se acentúa con la mirada sostenida) es un signo clínico muy sugestivo. La distrofia muscular no tiene fluctuación diurna ni compromiso ocular predominante. La esclerosis lateral amiotrófica presenta signos de neurona motora superior e inferior sin componente ocular. El síndrome de Lambert-Eaton mejora con el uso repetido (lo opuesto).",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Distrofia muscular oculofaríngea", "isCorrect": false },
+      { "letter": "B", "text": "Miastenia gravis", "isCorrect": true },
+      { "letter": "C", "text": "Esclerosis lateral amiotrófica", "isCorrect": false },
+      { "letter": "D", "text": "Síndrome miasténico de Lambert-Eaton", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "¿Cuál estudio de laboratorio confirma con mayor especificidad el diagnóstico?",
+    "explanation": "Los anticuerpos contra el receptor de acetilcolina (AChR) son positivos en aproximadamente el 85 % de los pacientes con miastenia gravis generalizada y son altamente específicos para la enfermedad. En pacientes seronegativos para AChR, se deben buscar anticuerpos anti-MuSK. La electromiografía de fibra única es la prueba electrofisiológica más sensible pero menos específica. La CK sérica suele ser normal en miastenia gravis. La velocidad de conducción nerviosa evalúa neuropatías, no trastornos de la unión neuromuscular.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Creatinfosfoquinasa (CK) sérica", "isCorrect": false },
+      { "letter": "B", "text": "Anticuerpos contra el receptor de acetilcolina (anti-AChR)", "isCorrect": true },
+      { "letter": "C", "text": "Velocidad de conducción nerviosa motora", "isCorrect": false },
+      { "letter": "D", "text": "Biopsia muscular con tinción de hematoxilina-eosina", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento farmacológico de primera línea para el control sintomático de esta paciente?",
+    "explanation": "La piridostigmina (inhibidor de la acetilcolinesterasa) es el tratamiento de primera línea para el control sintomático de la miastenia gravis. Aumenta la disponibilidad de acetilcolina en la unión neuromuscular al inhibir su degradación. Para el tratamiento inmunomodulador a largo plazo se utilizan corticoides y azatioprina, pero el control sintomático inicial se logra con piridostigmina. El edrofonio (Tensilon) es diagnóstico, no terapéutico. La levodopa se usa en enfermedad de Parkinson. El baclofeno es relajante muscular, contraindicado en esta patología.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Edrofonio (Tensilon) oral", "isCorrect": false },
+      { "letter": "B", "text": "Piridostigmina oral", "isCorrect": true },
+      { "letter": "C", "text": "Levodopa/carbidopa oral", "isCorrect": false },
+      { "letter": "D", "text": "Baclofeno oral", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Caso clínico: Mujer de 45 años con antecedente de colelitiasis conocida (no operada) consulta por dolor abdominal severo en epigastrio y mesogastrio de 8 horas de evolución, de inicio tras ingesta de comida copiosa rica en grasas. El dolor se irradia en banda hacia la espalda. Presenta vómitos biliosos y fiebre de 38,4 °C. Signos vitales: FC 108 lpm, PA 110/70 mmHg. Al examen: abdomen distendido, dolor severo en epigastrio y en hipocondrio derecho con defensa muscular, signo de Murphy positivo. Laboratorios: amilasa 1 850 U/L, lipasa 2 100 U/L, bilirrubina total 3,2 mg/dL, bilirrubina directa 2,6 mg/dL, fosfatasa alcalina 380 U/L, ALT 220 U/L, leucocitos 18 500/mm³.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La combinación de dolor epigástrico irradiado a espalda con elevación marcada de amilasa y lipasa (> 3 veces lo normal) confirma pancreatitis aguda. La colelitiasis conocida, el signo de Murphy positivo, la hiperbilirrubinemia directa y la elevación de fosfatasa alcalina y ALT sugieren una etiología biliar (cálculo impactado en el conducto biliar común). A diferencia de la pancreatitis alcohólica, la pancreatitis biliar (por cálculos) se acompaña de patrón obstructivo en las pruebas hepáticas. La colecistitis aguda sola no eleva amilasa/lipasa a esos niveles. La colangitis ascendente presenta la tríada de Charcot pero no siempre con amilasa tan elevada.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Colecistitis aguda litiásica sin complicaciones", "isCorrect": false },
+      { "letter": "B", "text": "Pancreatitis aguda de etiología biliar (litiásica)", "isCorrect": true },
+      { "letter": "C", "text": "Colangitis ascendente aguda", "isCorrect": false },
+      { "letter": "D", "text": "Úlcera péptica perforada", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "¿Cuál es el momento óptimo para realizar la colecistectomía en esta paciente?",
+    "explanation": "En la pancreatitis aguda biliar leve (sin necrosis ni falla orgánica), la colecistectomía laparoscópica debe realizarse durante la misma hospitalización, idealmente una vez resuelto el cuadro agudo (primeras 72 horas o antes del alta). Esto previene recurrencias (hasta 30-50 % de recurrencia si se difiere). La cirugía de emergencia durante el episodio agudo no está indicada salvo que haya colangitis o cálculo impactado. Diferir 6 semanas conlleva alto riesgo de recurrencia. El manejo conservador sin colecistectomía no es aceptable porque la causa persiste.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Cirugía de emergencia dentro de las primeras 6 horas de ingreso", "isCorrect": false },
+      { "letter": "B", "text": "Durante la misma hospitalización, una vez resuelto el cuadro agudo", "isCorrect": true },
+      { "letter": "C", "text": "Diferir la cirugía 6 semanas después del egreso", "isCorrect": false },
+      { "letter": "D", "text": "Manejo médico conservador indefinido sin cirugía", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Caso clínico: Niño de 3 años es traído a urgencias por su madre por fiebre alta de 6 días de evolución (hasta 40,2 °C) que no cede con antipiréticos. Hace 4 días desarrolló inyección conjuntival bilateral no purulenta, labios rojos agrietados y lengua «en fresa». Desde hace 2 días presenta un exantema polimorfo en tronco y extremidades y edema indurado en manos y pies. Al examen: adenopatía cervical izquierda de 2 cm, irritable, taquicárdico (FC 140 lpm). No hay signos meníngeos.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Fiebre de 5 o más días de duración más al menos 4 de los 5 criterios clínicos clásicos configuran el diagnóstico de enfermedad de Kawasaki: 1) inyección conjuntival bilateral no exudativa, 2) cambios en mucosa oral (labios agrietados, lengua en fresa), 3) exantema polimorfo, 4) cambios en extremidades (edema indurado) y 5) adenopatía cervical ≥ 1,5 cm. Este niño cumple los 5 criterios. La escarlatina presenta exantema áspero «en papel de lija» con líneas de Pastia. El sarampión tiene manchas de Koplik y exantema cefalocaudal. El síndrome de Stevens-Johnson se asocia a fármacos y presenta lesiones en diana.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Escarlatina estreptocócica", "isCorrect": false },
+      { "letter": "B", "text": "Enfermedad de Kawasaki", "isCorrect": true },
+      { "letter": "C", "text": "Sarampión", "isCorrect": false },
+      { "letter": "D", "text": "Síndrome de Stevens-Johnson", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento que debe iniciarse de inmediato para prevenir la complicación más temida de esta enfermedad?",
+    "explanation": "La complicación más temida de la enfermedad de Kawasaki son los aneurismas coronarios, que se presentan en hasta el 25 % de los casos no tratados. El tratamiento de primera línea es inmunoglobulina intravenosa (IGIV) a dosis de 2 g/kg en infusión única, administrada idealmente antes del día 10 de la enfermedad, más aspirina a dosis altas (antiinflamatoria). Este régimen reduce la incidencia de aneurismas coronarios a menos del 5 %. Los corticoides solos no son primera línea. Los antibióticos no tienen indicación (no es infección bacteriana). Los AINEs solos no previenen la complicación coronaria.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Prednisona oral a dosis alta durante 2 semanas", "isCorrect": false },
+      { "letter": "B", "text": "Inmunoglobulina intravenosa (2 g/kg) más aspirina a dosis antiinflamatoria", "isCorrect": true },
+      { "letter": "C", "text": "Amoxicilina oral por 10 días más ibuprofeno", "isCorrect": false },
+      { "letter": "D", "text": "Ibuprofeno oral y observación con ecocardiograma en 4 semanas", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "¿Cuál es el estudio esencial que debe realizarse en este paciente para evaluar la complicación cardiovascular asociada?",
+    "explanation": "El ecocardiograma transtorácico es el estudio esencial en la enfermedad de Kawasaki para evaluar la presencia de aneurismas coronarios y otros hallazgos (derrame pericárdico, disfunción ventricular, insuficiencia mitral). Debe realizarse al diagnóstico, a las 2 semanas y a las 6-8 semanas. El cateterismo cardíaco se reserva para casos con aneurismas gigantes. El electrocardiograma es complementario pero no evalúa la anatomía coronaria. La troponina puede estar elevada pero no sustituye la evaluación anatómica.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Cateterismo cardíaco con coronariografía", "isCorrect": false },
+      { "letter": "B", "text": "Ecocardiograma transtorácico", "isCorrect": true },
+      { "letter": "C", "text": "Electrocardiograma de 12 derivaciones", "isCorrect": false },
+      { "letter": "D", "text": "Troponina I sérica seriada", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Caso clínico: Hombre de 32 años con diagnóstico reciente de VIH (CD4+ 85 células/µL, carga viral 350 000 copias/mL) y sin tratamiento antirretroviral consulta por disnea progresiva de 3 semanas de evolución, tos seca y fiebre baja (37,8 °C). Al examen: FR 28 rpm, SatO₂ 88 % al aire ambiente, auscultación pulmonar con escasos crépitos bilaterales difusos. La radiografía de tórax muestra infiltrados intersticiales bilaterales difusos en «vidrio esmerilado». Laboratorios: LDH 580 U/L (elevada).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "En un paciente con VIH y CD4 < 200 células/µL que presenta disnea progresiva de semanas, tos seca, hipoxemia, infiltrados bilaterales en vidrio esmerilado y LDH elevada, el diagnóstico más probable es neumonía por Pneumocystis jirovecii (PCP). La LDH elevada tiene alta sensibilidad para PCP en contexto de VIH. La tuberculosis pulmonar tiene una presentación más variable y es menos probable con ese patrón radiológico. La neumonía bacteriana típica tiene un inicio más agudo con consolidación lobar. El sarcoma de Kaposi pulmonar produce nódulos, no vidrio esmerilado difuso.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Tuberculosis pulmonar", "isCorrect": false },
+      { "letter": "B", "text": "Neumonía por Pneumocystis jirovecii", "isCorrect": true },
+      { "letter": "C", "text": "Neumonía bacteriana por Streptococcus pneumoniae", "isCorrect": false },
+      { "letter": "D", "text": "Sarcoma de Kaposi pulmonar", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento de elección para esta infección oportunista?",
+    "explanation": "El tratamiento de primera línea para la neumonía por Pneumocystis jirovecii es trimetoprim-sulfametoxazol (TMP-SMX) intravenoso u oral por 21 días. Además, dado que la PaO₂ es probablemente < 70 mmHg (saturación 88 %), se debe agregar prednisona oral (o metilprednisolona IV) como terapia adyuvante para reducir la inflamación y mejorar el pronóstico. La anfotericina B se usa para criptococosis e histoplasmosis. La azitromicina se usa para MAC. El fluconazol se usa para candidiasis, no para Pneumocystis.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Anfotericina B liposomal intravenosa", "isCorrect": false },
+      { "letter": "B", "text": "Trimetoprim-sulfametoxazol por 21 días más corticoides adyuvantes", "isCorrect": true },
+      { "letter": "C", "text": "Azitromicina oral más etambutol por 6 meses", "isCorrect": false },
+      { "letter": "D", "text": "Fluconazol intravenoso por 14 días", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "¿A partir de qué recuento de CD4+ está indicada la profilaxis primaria contra Pneumocystis jirovecii en pacientes con VIH?",
+    "explanation": "La profilaxis primaria contra Pneumocystis jirovecii con TMP-SMX está indicada en pacientes con VIH cuando el recuento de CD4+ es < 200 células/µL. También se recomienda en pacientes con candidiasis orofaríngea o fiebre inexplicada > 2 semanas, independientemente del recuento de CD4. Se puede suspender cuando los CD4 se mantienen > 200 durante al menos 3 meses con terapia antirretroviral. El umbral de 350 es para inicio de tratamiento antirretroviral en algunas guías antiguas. Los umbrales de 100 y 50 aplican para otras profilaxis (toxoplasma y MAC respectivamente).",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "CD4+ < 350 células/µL", "isCorrect": false },
+      { "letter": "B", "text": "CD4+ < 200 células/µL", "isCorrect": true },
+      { "letter": "C", "text": "CD4+ < 100 células/µL", "isCorrect": false },
+      { "letter": "D", "text": "CD4+ < 50 células/µL", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Caso clínico: Mujer de 52 años con antecedente de enfermedad de Graves diagnosticada hace 3 años, en tratamiento irregular con metimazol (lo suspendió hace 2 meses por su cuenta), es traída a urgencias por su esposo por agitación severa, confusión, fiebre de 40,5 °C, diaforesis profusa, náuseas y diarrea. Signos vitales: FC 168 lpm (fibrilación auricular), PA 160/70 mmHg, FR 28 rpm. Al examen: exoftalmos bilateral, bocio difuso, piel caliente y húmeda, temblor fino generalizado, hiperreflexia. Laboratorios: TSH < 0,01 mUI/L, T4 libre 8,5 ng/dL (normal: 0,8-1,8), T3 libre 22 pg/mL (normal: 2,3-4,2).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La presentación de fiebre alta, taquicardia extrema con fibrilación auricular, alteración del estado mental (agitación, confusión), diaforesis, diarrea y elevación extrema de hormonas tiroideas en una paciente con enfermedad de Graves no tratada, configura una tormenta tiroidea (crisis tirotóxica). La escala de Burch-Wartofsky se utiliza para el diagnóstico: fiebre > 40 °C, FC > 140 con FA, alteración del SNC y síntomas GI suman un puntaje altamente sugestivo. La tirotoxicosis compensada no presenta fiebre ni compromiso neurológico. La sepsis puede coexistir pero no explica los niveles hormonales. El feocromocitoma no produce exoftalmos ni bocio.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Tirotoxicosis compensada por enfermedad de Graves", "isCorrect": false },
+      { "letter": "B", "text": "Tormenta tiroidea (crisis tirotóxica)", "isCorrect": true },
+      { "letter": "C", "text": "Sepsis de origen desconocido", "isCorrect": false },
+      { "letter": "D", "text": "Feocromocitoma con crisis hipertensiva", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "¿Cuál es la secuencia terapéutica correcta para el manejo de esta emergencia endocrinológica?",
+    "explanation": "El manejo de la tormenta tiroidea requiere una secuencia específica: 1) Betabloqueador (propranolol IV) para controlar la FC y los síntomas adrenérgicos. 2) Antitiroideos en dosis altas (propiltiouracilo preferido sobre metimazol porque también bloquea la conversión periférica de T4 a T3). 3) Solución de yodo (Lugol o yoduro de potasio) administrada AL MENOS 1 hora después del antitiroideo (para no proporcionar sustrato para nueva síntesis). 4) Corticoides (dexametasona o hidrocortisona) que bloquean la conversión periférica de T4 a T3 y tratan la posible insuficiencia suprarrenal relativa. 5) Medidas de soporte (enfriamiento activo, líquidos IV).",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Yodo primero, luego antitiroideos y betabloqueador al egreso", "isCorrect": false },
+      { "letter": "B", "text": "Betabloqueador, luego antitiroideo en dosis altas, yodo 1 hora después y corticoides", "isCorrect": true },
+      { "letter": "C", "text": "Tiroidectomía de emergencia con anestesia general", "isCorrect": false },
+      { "letter": "D", "text": "Yodo radioactivo inmediato con betabloqueador y observación", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "¿Por qué se prefiere propiltiouracilo (PTU) sobre metimazol en el manejo agudo de la tormenta tiroidea?",
+    "explanation": "En la tormenta tiroidea, el propiltiouracilo (PTU) se prefiere sobre el metimazol porque, además de inhibir la síntesis de hormonas tiroideas (efecto compartido con metimazol), el PTU bloquea la conversión periférica de T4 a T3 por inhibición de la desyodasa tipo 1. Este efecto adicional es crucial en la tormenta tiroidea donde se necesita reducir rápidamente los niveles de T3 (la hormona biológicamente más activa). El metimazol tiene mejor perfil de seguridad a largo plazo pero carece de este efecto sobre la conversión periférica. Ninguno tiene efecto sobre la liberación de hormona preformada (eso lo hace el yodo).",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Porque tiene menor riesgo de agranulocitosis", "isCorrect": false },
+      { "letter": "B", "text": "Porque además de inhibir la síntesis, bloquea la conversión periférica de T4 a T3", "isCorrect": true },
+      { "letter": "C", "text": "Porque inhibe la liberación de hormona tiroidea preformada", "isCorrect": false },
+      { "letter": "D", "text": "Porque se puede administrar por vía intravenosa", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Caso clínico: Adolescente de 15 años es traído a urgencias por dolor testicular izquierdo de inicio súbito hace 4 horas, que se presentó mientras jugaba fútbol. El dolor es severo (8/10), se irradia a la región inguinal izquierda y se acompaña de náuseas y un episodio de vómito. Al examen: testículo izquierdo elevado y horizontalizado (signo de Brunzel), aumento de volumen escrotal izquierdo, dolor exquisito a la palpación, reflejo cremastérico ausente del lado izquierdo. Signo de Prehn negativo (el dolor no mejora al elevar el testículo).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El dolor testicular agudo de inicio súbito en un adolescente, con testículo horizontalizado y elevado (signo de Brunzel), ausencia de reflejo cremastérico, y signo de Prehn negativo (no mejora con la elevación), es la presentación clásica de torsión testicular. Es una emergencia urológica que requiere intervención en las primeras 6 horas para preservar la viabilidad del testículo. La epididimitis es más frecuente en adultos sexualmente activos y presenta reflejo cremastérico conservado y signo de Prehn positivo. La hernia inguinal encarcelada presenta masa inguinal irreductible. La orquitis urliana tiene antecedente de parotiditis.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Epididimitis aguda", "isCorrect": false },
+      { "letter": "B", "text": "Torsión testicular", "isCorrect": true },
+      { "letter": "C", "text": "Hernia inguinal encarcelada", "isCorrect": false },
+      { "letter": "D", "text": "Orquitis viral (parotiditis)", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta más apropiada a seguir con este paciente?",
+    "explanation": "La torsión testicular es una emergencia quirúrgica. La exploración escrotal quirúrgica con detorsión y orquidopexia bilateral (fijación de ambos testículos) debe realizarse de inmediato, sin esperar confirmación imagenológica si el cuadro clínico es altamente sugestivo. El tiempo es crítico: la tasa de salvamento testicular es > 90 % si la cirugía se realiza en las primeras 6 horas, pero disminuye drásticamente después de 12 horas. La ecografía Doppler puede usarse si el diagnóstico es dudoso, pero no debe retrasar la cirugía cuando la sospecha clínica es alta. Los antibióticos no son el tratamiento. La observación es inaceptable.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Ecografía Doppler testicular urgente antes de cualquier intervención", "isCorrect": false },
+      { "letter": "B", "text": "Exploración escrotal quirúrgica inmediata con detorsión y orquidopexia bilateral", "isCorrect": true },
+      { "letter": "C", "text": "Antibioticoterapia con ciprofloxacina y antiinflamatorios con control en 48 horas", "isCorrect": false },
+      { "letter": "D", "text": "Analgesia con opioides y observación hospitalaria por 24 horas", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "Si la cirugía se realiza después de 24 horas del inicio de los síntomas y se encuentra un testículo necrótico, ¿cuál es la conducta quirúrgica indicada?",
+    "explanation": "Si durante la exploración quirúrgica se encuentra un testículo necrótico (no viable después de la detorsión y observación por unos minutos), se debe realizar orquiectomía (extirpación del testículo no viable) y orquidopexia contralateral (fijación del testículo sano al escroto para prevenir torsión futura). La fijación del testículo necrótico conlleva riesgo de infección y formación de anticuerpos antiespermatozoides que pueden afectar la fertilidad del testículo contralateral. La prótesis testicular puede ofrecerse posteriormente por razones estéticas.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Detorsión y fijación del testículo necrótico sin orquiectomía", "isCorrect": false },
+      { "letter": "B", "text": "Orquiectomía del testículo necrótico y orquidopexia contralateral", "isCorrect": true },
+      { "letter": "C", "text": "Cierre escrotal sin intervención y programación para cirugía electiva", "isCorrect": false },
+      { "letter": "D", "text": "Orquiectomía bilateral profiláctica", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Caso clínico: Niña de 2 años es traída a urgencias por diarrea sanguinolenta de 5 días de evolución, precedida por un cuadro de gastroenteritis con diarrea acuosa y fiebre. La madre refiere que desde hace 2 días la niña orina menos y presenta palidez progresiva y petequias. Al examen: palidez marcada, petequias en tronco y extremidades, edema palpebral, hepatomegalia leve. Signos vitales: FC 150 lpm, PA 110/75 mmHg (percentil > 95 para su edad). Laboratorios: hemoglobina 6,2 g/dL, plaquetas 35 000/mm³, creatinina 3,8 mg/dL (elevada para su edad), LDH 1 200 U/L, reticulocitos 8 %, frotis de sangre periférica con esquistocitos.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La tríada clásica de anemia hemolítica microangiopática (hemoglobina baja, LDH elevada, esquistocitos en frotis), trombocitopenia y lesión renal aguda (creatinina elevada, oliguria), precedida por un cuadro de diarrea sanguinolenta en un niño menor de 5 años, configura el síndrome hemolítico urémico (SHU) típico, generalmente asociado a Escherichia coli productora de toxina Shiga (O157:H7). La púrpura trombocitopénica trombótica (PTT) es más frecuente en adultos y predomina el compromiso neurológico. La coagulación intravascular diseminada presenta alteración de tiempos de coagulación. La anemia aplásica no produce esquistocitos.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Púrpura trombocitopénica trombótica", "isCorrect": false },
+      { "letter": "B", "text": "Síndrome hemolítico urémico típico", "isCorrect": true },
+      { "letter": "C", "text": "Coagulación intravascular diseminada", "isCorrect": false },
+      { "letter": "D", "text": "Anemia aplásica severa", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": null,
+    "questionText": "¿Cuál es el manejo más apropiado para esta paciente?",
+    "explanation": "El manejo del SHU típico (post-diarrea) es fundamentalmente de soporte: control estricto de líquidos y electrolitos, manejo de la hipertensión arterial, transfusión de glóbulos rojos si hay anemia severa sintomática (Hb < 7 g/dL), y diálisis si hay indicaciones (hiperkalemia refractaria, sobrecarga hídrica, uremia severa). Los antibióticos están contraindicados en la fase aguda porque pueden aumentar la liberación de toxina Shiga y empeorar el pronóstico. La plasmaféresis se reserva para el SHU atípico (no mediado por Shiga). Las plaquetas no deben transfundirse salvo sangrado activo amenazante, ya que pueden empeorar la microangiopatía.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Antibioticoterapia con ciprofloxacina y transfusión de plaquetas", "isCorrect": false },
+      { "letter": "B", "text": "Soporte con control hidroelectrolítico, transfusión de glóbulos rojos y diálisis si es necesario", "isCorrect": true },
+      { "letter": "C", "text": "Plasmaféresis urgente con plasma fresco congelado", "isCorrect": false },
+      { "letter": "D", "text": "Corticoides intravenosos en pulsos y esplenectomía", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Caso clínico: Hombre de 55 años con antecedente de obesidad y consumo regular de cerveza consulta por dolor intenso en la primera articulación metatarsofalángica del pie derecho (dedo gordo) de inicio abrupto a las 3 de la madrugada. El dolor es tan severo que no tolera el contacto de la sábana. Refiere que la noche anterior cenó mariscos y consumió abundante cerveza. Al examen: articulación metatarsofalángica derecha con eritema intenso, calor, edema y dolor exquisito a la palpación. Temperatura 38,0 °C. No hay compromiso de otras articulaciones.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El cuadro clínico de artritis aguda monoarticular de inicio súbito nocturno, con compromiso de la primera articulación metatarsofalángica (podagra), eritema, calor y dolor exquisito, precedido por ingesta de mariscos y alcohol, en un hombre obeso de edad media, es el cuadro clásico de gota aguda (artritis gotosa). La artritis séptica es un diagnóstico diferencial importante pero la presentación clínica clásica con factor desencadenante dietético y localización típica favorece la gota. La celulitis no compromete la articulación. La artritis reactiva suele ser posterior a infección genitourinaria o gastrointestinal.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Artritis séptica de la primera metatarsofalángica", "isCorrect": false },
+      { "letter": "B", "text": "Artritis gotosa aguda (podagra)", "isCorrect": true },
+      { "letter": "C", "text": "Celulitis del primer dedo del pie", "isCorrect": false },
+      { "letter": "D", "text": "Artritis reactiva (síndrome de Reiter)", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "¿Cuál estudio confirma definitivamente el diagnóstico de artritis gotosa?",
+    "explanation": "El estándar de oro para el diagnóstico de gota es la artrocentesis (aspiración de líquido sinovial) con identificación de cristales de urato monosódico con birrefringencia negativa bajo microscopio de luz polarizada. Los cristales tienen forma de aguja y aparecen amarillos cuando son paralelos al eje del compensador. El ácido úrico sérico puede estar normal durante el ataque agudo y no confirma el diagnóstico. La radiografía en la primera crisis es generalmente normal. Los reactantes de fase aguda son inespecíficos.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Ácido úrico sérico elevado", "isCorrect": false },
+      { "letter": "B", "text": "Cristales de urato monosódico con birrefringencia negativa en líquido sinovial", "isCorrect": true },
+      { "letter": "C", "text": "Radiografía del pie con erosiones periarticulares", "isCorrect": false },
+      { "letter": "D", "text": "Proteína C reactiva y velocidad de sedimentación elevadas", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento más apropiado para la crisis aguda de gota en este paciente?",
+    "explanation": "El tratamiento de la crisis aguda de gota incluye antiinflamatorios: AINEs (indometacina, naproxeno), colchicina en dosis bajas, o corticoides (prednisona oral o inyección intraarticular). La colchicina es más efectiva si se inicia en las primeras 12-36 horas. Es fundamental NO iniciar ni modificar la dosis de alopurinol durante el ataque agudo, ya que los cambios en los niveles de ácido úrico pueden prolongar o empeorar la crisis. El alopurinol se inicia como profilaxis después de la resolución del cuadro agudo. Los antibióticos no están indicados. Los opioides solos no tratan la inflamación.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Alopurinol en dosis altas para reducir el ácido úrico de inmediato", "isCorrect": false },
+      { "letter": "B", "text": "Colchicina o AINEs (como indometacina) para controlar la inflamación aguda", "isCorrect": true },
+      { "letter": "C", "text": "Antibioticoterapia empírica con cefalexina oral", "isCorrect": false },
+      { "letter": "D", "text": "Tramadol oral y reposo absoluto por 2 semanas", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "Caso clínico: Mujer de 34 años, multípara (G3P2A0), de 35 semanas de gestación, consulta por dolor abdominal súbito severo en el fondo uterino, asociado a sangrado vaginal oscuro de moderada cantidad. Refiere que el dolor es constante e intenso. Tiene antecedente de hipertensión gestacional y consumo de tabaco durante el embarazo. Signos vitales: FC 120 lpm, PA 90/60 mmHg, FR 24 rpm. Al examen: útero hipertónico «en tabla», doloroso a la palpación, altura uterina mayor de lo esperado para la edad gestacional. El monitoreo fetal muestra bradicardia fetal sostenida (90 lpm).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El dolor abdominal súbito con sangrado vaginal oscuro, útero hipertónico («en tabla»), inestabilidad hemodinámica materna y bradicardia fetal, en una paciente con factores de riesgo (hipertensión gestacional, tabaquismo), configuran el cuadro clásico de desprendimiento prematuro de placenta normoinserta (abruptio placentae). La placenta previa produce sangrado rojo rutilante e indoloro con útero relajado. La rotura uterina es más frecuente en pacientes con cicatriz uterina previa. El trabajo de parto pretérmino produce contracciones rítmicas, no hipertonía constante.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Placenta previa sangrante", "isCorrect": false },
+      { "letter": "B", "text": "Desprendimiento prematuro de placenta normoinserta (abruptio placentae)", "isCorrect": true },
+      { "letter": "C", "text": "Rotura uterina", "isCorrect": false },
+      { "letter": "D", "text": "Trabajo de parto pretérmino con sangrado de mostración", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta obstétrica inmediata más apropiada?",
+    "explanation": "Ante un desprendimiento placentario severo con compromiso fetal (bradicardia sostenida) y compromiso hemodinámico materno, se debe realizar cesárea de emergencia inmediata independientemente de la edad gestacional. La reanimación materna (líquidos IV, hemoderivados) debe iniciarse simultáneamente pero no debe retrasar la cirugía. La amniotomía y la conducción con oxitocina son medidas para un desprendimiento leve con feto estable. La tocolisis está absolutamente contraindicada. La observación no es una opción ante un feto con bradicardia sostenida.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Amniotomía y conducción con oxitocina para parto vaginal", "isCorrect": false },
+      { "letter": "B", "text": "Cesárea de emergencia con reanimación hemodinámica simultánea", "isCorrect": true },
+      { "letter": "C", "text": "Tocolisis con nifedipino para detener las contracciones y maduración pulmonar", "isCorrect": false },
+      { "letter": "D", "text": "Observación hospitalaria con monitoreo fetal continuo por 24 horas", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": "Caso clínico: Hombre de 72 años con diabetes mellitus tipo 2 de larga evolución, en tratamiento con metformina e insulina glargina, es traído a urgencias por su cuidadora porque ha presentado poliuria, polidipsia y deterioro progresivo del estado de conciencia durante los últimos 5 días. No ha presentado vómitos ni dolor abdominal. Signos vitales: FC 110 lpm, PA 85/50 mmHg, FR 18 rpm, T 37,2 °C. Al examen: deshidratación severa (mucosas secas, ojos hundidos, turgencia cutánea disminuida), somnoliento, responde solo a estímulos dolorosos. Laboratorios: glucemia 890 mg/dL, osmolaridad sérica calculada 348 mOsm/kg, sodio 152 mEq/L, pH arterial 7,32, bicarbonato 20 mEq/L, cetonas en orina negativas.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La hiperglucemia extrema (> 600 mg/dL), hiperosmolaridad marcada (> 320 mOsm/kg), deshidratación severa, alteración del estado de conciencia, con pH > 7,30 (sin acidosis significativa) y cetonas negativas, en un paciente anciano con diabetes tipo 2, configura el estado hiperosmolar hiperglucémico (EHH). La cetoacidosis diabética (CAD) se caracteriza por pH < 7,30, cetonas positivas y bicarbonato < 18, hallazgos ausentes en este caso. La hiponatremia severa cursa con sodio bajo, no alto. La intoxicación por metformina produce acidosis láctica con glucemia normal o baja.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Cetoacidosis diabética", "isCorrect": false },
+      { "letter": "B", "text": "Estado hiperosmolar hiperglucémico", "isCorrect": true },
+      { "letter": "C", "text": "Hiponatremia severa con encefalopatía", "isCorrect": false },
+      { "letter": "D", "text": "Acidosis láctica por metformina", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": null,
+    "questionText": "¿Cuál es la medida terapéutica inicial más importante en el manejo de este paciente?",
+    "explanation": "En el estado hiperosmolar hiperglucémico, la prioridad es la reposición agresiva de volumen intravenoso con solución salina al 0,9 % (1-1,5 L en la primera hora). La deshidratación en el EHH es más severa que en la CAD (déficit de hasta 9-12 L) y la corrección del déficit hídrico es la intervención que más impacta en la mortalidad. La insulina es importante pero se inicia después de la reposición de volumen inicial y de verificar que el potasio sea > 3,3 mEq/L. El bicarbonato no está indicado porque no hay acidosis significativa. La restricción hídrica empeoraría el cuadro.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Insulina cristalina en bolo intravenoso de alta dosis", "isCorrect": false },
+      { "letter": "B", "text": "Reposición agresiva de volumen con solución salina al 0,9 %", "isCorrect": true },
+      { "letter": "C", "text": "Bicarbonato de sodio intravenoso para corregir la acidosis", "isCorrect": false },
+      { "letter": "D", "text": "Restricción hídrica y furosemida para manejar la hipernatremia", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "Caso clínico: Hombre de 40 años con epilepsia conocida (en tratamiento irregular con ácido valproico) es traído a urgencias por los paramédicos después de presentar una crisis tónico-clónica generalizada de 15 minutos de duración que no ha cedido. A su llegada, continúa con actividad convulsiva. Se le han administrado ya 2 dosis de diazepam intravenoso (10 mg cada una) sin respuesta. Signos vitales: FC 135 lpm, PA 160/100 mmHg, FR 8 rpm, SatO₂ 82 %, T 39,0 °C.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico clínico de este paciente?",
+    "explanation": "Una crisis convulsiva continua de más de 5 minutos de duración, o dos o más crisis sin recuperación de la conciencia entre ellas, define el estatus epiléptico. En este caso, la crisis lleva 15 minutos y no ha respondido a 2 dosis de benzodiacepinas, lo que lo clasifica como estatus epiléptico refractario a primera línea. El estatus epiléptico es una emergencia neurológica con mortalidad del 20-30 % si no se trata oportunamente. Una crisis febril simple dura < 15 minutos y ocurre en niños de 6 meses a 5 años. El síncope convulsivo no tiene actividad tónico-clónica sostenida. La crisis de ausencia no es tónico-clónica.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Crisis febril compleja", "isCorrect": false },
+      { "letter": "B", "text": "Estatus epiléptico", "isCorrect": true },
+      { "letter": "C", "text": "Síncope convulsivo prolongado", "isCorrect": false },
+      { "letter": "D", "text": "Crisis de ausencia atípica", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": null,
+    "questionText": "Dado que el paciente no respondió a las benzodiacepinas, ¿cuál es el siguiente paso farmacológico más apropiado?",
+    "explanation": "Según los protocolos de manejo del estatus epiléptico, si las benzodiacepinas (primera línea) fallan, el siguiente paso es un antiepiléptico de segunda línea intravenoso. Las opciones incluyen fenitoína IV (o fosfenitoína), ácido valproico IV o levetiracetam IV. La fenitoína/fosfenitoína es la más utilizada tradicionalmente (20 mg/kg IV a velocidad no mayor de 50 mg/min). Si la segunda línea también falla, se considera anestésicos en infusión continua (propofol, midazolam o tiopental) con intubación y ventilación mecánica en UCI. No se debe repetir indefinidamente las benzodiacepinas. El fenobarbital oral no es adecuado para un paciente en crisis activa.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Repetir una tercera dosis de diazepam intravenoso", "isCorrect": false },
+      { "letter": "B", "text": "Fenitoína (o fosfenitoína) intravenosa a dosis de carga (20 mg/kg)", "isCorrect": true },
+      { "letter": "C", "text": "Fenobarbital oral por sonda nasogástrica", "isCorrect": false },
+      { "letter": "D", "text": "Carbamazepina oral de liberación prolongada", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": null,
+    "questionText": "¿Cuál es la complicación sistémica más grave que puede desarrollarse si el estatus epiléptico no se controla oportunamente?",
+    "explanation": "El estatus epiléptico prolongado produce múltiples complicaciones sistémicas: rabdomiólisis con insuficiencia renal aguda, hipertermia, acidosis láctica, aspiración pulmonar, edema cerebral y daño neuronal irreversible. Sin embargo, la complicación más grave es el daño neuronal irreversible (excitotoxicidad por glutamato), que comienza después de 30 minutos de actividad convulsiva continua y conduce a déficits neurológicos permanentes, epilepsia refractaria o muerte. La fractura vertebral es una complicación musculoesquelética. La trombosis venosa es una complicación por inmovilidad. La hipoglucemia puede ocurrir pero es corregible.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Fractura de cuerpo vertebral por contractura muscular", "isCorrect": false },
+      { "letter": "B", "text": "Daño neuronal irreversible por excitotoxicidad", "isCorrect": true },
+      { "letter": "C", "text": "Trombosis venosa profunda bilateral", "isCorrect": false },
+      { "letter": "D", "text": "Hipoglucemia severa refractaria", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "Caso clínico: Mujer de 58 años consulta por disnea progresiva de 2 semanas, ortopnea y edema de miembros inferiores. Refiere que hace 3 días notó distensión abdominal y disminución del gasto urinario. Signos vitales: FC 115 lpm (ruidos cardíacos velados), PA 82/60 mmHg, FR 26 rpm, pulso paradójico de 18 mmHg. Al examen: ingurgitación yugular marcada que no disminuye con la inspiración (signo de Kussmaul), ruidos cardíacos distantes, hepatomegalia dolorosa, edema de miembros inferiores. No se auscultan estertores pulmonares. El electrocardiograma muestra alternancia eléctrica y voltaje bajo difuso.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La tríada de Beck (hipotensión arterial, ingurgitación yugular y ruidos cardíacos velados/distantes), junto con el pulso paradójico > 10 mmHg, el signo de Kussmaul y la alternancia eléctrica con bajo voltaje en el electrocardiograma, configuran el cuadro clásico de taponamiento cardíaco (derrame pericárdico con compromiso hemodinámico). La ausencia de estertores pulmonares diferencia esta condición de la insuficiencia cardíaca congestiva, donde los campos pulmonares estarían comprometidos. El neumotórax a tensión produce desviación traqueal y ausencia de murmullo vesicular. La pericarditis constrictiva tiene una presentación más crónica.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Insuficiencia cardíaca congestiva descompensada", "isCorrect": false },
+      { "letter": "B", "text": "Taponamiento cardíaco", "isCorrect": true },
+      { "letter": "C", "text": "Neumotórax a tensión bilateral", "isCorrect": false },
+      { "letter": "D", "text": "Pericarditis constrictiva crónica", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": null,
+    "questionText": "¿Cuál es el estudio de imagen más útil para confirmar el diagnóstico y guiar la intervención?",
+    "explanation": "El ecocardiograma transtorácico es el estudio de elección para confirmar el derrame pericárdico y el taponamiento cardíaco. Permite visualizar el derrame, evaluar el colapso de cavidades derechas (aurícula derecha en sístole, ventrículo derecho en diástole), la variación respiratoria del flujo transmitral y guiar la pericardiocentesis. La radiografía de tórax puede mostrar silueta cardíaca «en garrafa» pero no confirma el compromiso hemodinámico. La TAC de tórax puede detectar el derrame pero no evalúa la hemodinámica en tiempo real. El cateterismo cardíaco es invasivo y no es la primera opción diagnóstica.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Radiografía de tórax posteroanterior", "isCorrect": false },
+      { "letter": "B", "text": "Ecocardiograma transtorácico", "isCorrect": true },
+      { "letter": "C", "text": "Tomografía computarizada de tórax con contraste", "isCorrect": false },
+      { "letter": "D", "text": "Cateterismo cardíaco derecho", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento definitivo más apropiado para esta paciente?",
+    "explanation": "El taponamiento cardíaco es una emergencia que requiere drenaje inmediato del derrame pericárdico mediante pericardiocentesis (punción pericárdica guiada por ecografía), preferiblemente por abordaje subxifoidea. Esta intervención es tanto diagnóstica (análisis del líquido) como terapéutica (alivio de la compresión cardíaca). Mientras se prepara la pericardiocentesis, se pueden administrar líquidos intravenosos para aumentar la precarga y mejorar temporalmente el gasto cardíaco. Los diuréticos están contraindicados porque reducen la precarga y empeoran el cuadro. Los betabloqueadores reducen la frecuencia cardíaca compensatoria. Los vasopresores solos no resuelven la causa.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Diuréticos intravenosos de asa para reducir la congestión", "isCorrect": false },
+      { "letter": "B", "text": "Pericardiocentesis urgente guiada por ecografía", "isCorrect": true },
+      { "letter": "C", "text": "Betabloqueador intravenoso para controlar la taquicardia", "isCorrect": false },
+      { "letter": "D", "text": "Noradrenalina en infusión continua como tratamiento definitivo", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": "Caso clínico: Niño de 10 meses es traído a urgencias por episodios de llanto inconsolable, intermitente, que se presentan cada 15-20 minutos. Entre los episodios, el niño luce pálido y decaído. Hace 2 horas presentó un episodio de vómito bilioso. La madre refiere que las deposiciones recientes son de aspecto «gelatina de grosella» (moco con sangre). Al examen: abdomen distendido, se palpa una masa alargada en cuadrante superior derecho (signo de la «salchicha»). Fosa ilíaca derecha vacía a la palpación (signo de Dance).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La tríada clásica de dolor abdominal cólico intermitente (llanto inconsolable paroxístico), heces en «jalea de grosella» (mezcla de moco y sangre) y masa palpable abdominal tipo «salchicha», en un lactante de 6-18 meses, es patognomónica de intususcepción (invaginación intestinal). El signo de Dance (fosa ilíaca derecha vacía) se produce porque el ciego se ha invaginado proximalmente. La estenosis pilórica se presenta en las primeras semanas con vómito en proyectil no bilioso y oliva pilórica. La apendicitis es rara en menores de 1 año. El vólvulo intestinal produce vómito bilioso pero sin heces en jalea de grosella ni masa palpable.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Estenosis hipertrófica del píloro", "isCorrect": false },
+      { "letter": "B", "text": "Intususcepción (invaginación intestinal)", "isCorrect": true },
+      { "letter": "C", "text": "Apendicitis aguda perforada", "isCorrect": false },
+      { "letter": "D", "text": "Vólvulo intestinal por malrotación", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento de primera línea para este paciente si no hay signos de peritonitis ni perforación?",
+    "explanation": "En la intususcepción pediátrica sin signos de peritonitis, perforación ni inestabilidad hemodinámica, el tratamiento de primera línea es la reducción no quirúrgica mediante enema (neumático con aire o hidrostático con solución salina) guiado por fluoroscopía o ecografía. Este procedimiento tiene una tasa de éxito del 80-95 % en casos no complicados. La cirugía (laparotomía con reducción manual o resección intestinal) se reserva para: fallo de la reducción por enema, signos de peritonitis, perforación, o recurrencias múltiples. Los antibióticos y la observación sola no son apropiados como manejo definitivo.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Laparotomía exploratoria inmediata con resección intestinal", "isCorrect": false },
+      { "letter": "B", "text": "Reducción con enema neumático o hidrostático guiado por imagen", "isCorrect": true },
+      { "letter": "C", "text": "Antibioticoterapia empírica y observación hospitalaria por 48 horas", "isCorrect": false },
+      { "letter": "D", "text": "Procinéticos orales y dieta astringente con control ambulatorio", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": null,
+    "questionText": "¿Cuál es la localización anatómica más frecuente de la intususcepción en pediatría?",
+    "explanation": "La localización más frecuente de la intususcepción pediátrica es la ileocólica (ileocecal), donde el íleon terminal se invagina dentro del ciego y el colon ascendente. Esta localización representa aproximadamente el 80-90 % de los casos en la población pediátrica. La intususcepción ileoileal (intestino delgado-intestino delgado) es más frecuente en adultos o en postoperatorio. La colocólica y la yeyunoyeyunal son mucho menos frecuentes. La válvula ileocecal actúa como punto de tracción que facilita la invaginación.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Yeyunoyeyunal", "isCorrect": false },
+      { "letter": "B", "text": "Ileocólica (ileocecal)", "isCorrect": true },
+      { "letter": "C", "text": "Colocólica", "isCorrect": false },
+      { "letter": "D", "text": "Ileoileal", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": "Caso clínico: Mujer de 25 años, primigesta de 12 semanas, consulta por sangrado vaginal rojo rutilante abundante desde hace 6 horas y dolor tipo cólico suprapúbico. Al examen: útero aumentado de tamaño mayor de lo esperado para 12 semanas (equivalente a 16 semanas), cuello uterino dilatado 2 cm con salida de tejido vesicular «en racimo de uvas». Signos vitales: FC 108 lpm, PA 150/100 mmHg. Laboratorios: β-hCG sérica 285 000 mUI/mL (marcadamente elevada para 12 semanas), hemoglobina 9,8 g/dL. La ecografía transvaginal muestra imagen intrauterina heterogénea «en tormenta de nieve» sin embrión visible, quistes tecaluteínicos bilaterales.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Si bien la mola hidatiforme fue usada en simulacros anteriores, un caso clínico diferente presenta hallazgos adicionales. ¿Cuál hallazgo clínico en esta paciente se explica por la estimulación cruzada de la β-hCG extremadamente elevada sobre el receptor de TSH?",
+    "explanation": "La β-hCG tiene homología estructural con la TSH y, cuando alcanza niveles extremadamente elevados (como en la mola hidatiforme), puede estimular el receptor de TSH en la tiroides, causando hipertiroidismo gestacional (tirotoxicosis molar). Esto se manifiesta con taquicardia, temblor, intolerancia al calor y niveles de T4 elevados con TSH suprimida. La hipertensión arterial antes de las 20 semanas (como en este caso: 150/100 mmHg) también es un hallazgo asociado a la mola hidatiforme, pero se debe a mecanismos diferentes. Los quistes tecaluteínicos se deben a la hiperestimulación ovárica por la β-hCG. La anemia se debe al sangrado.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Los quistes tecaluteínicos bilaterales", "isCorrect": false },
+      { "letter": "B", "text": "La posible tirotoxicosis por estimulación cruzada del receptor de TSH", "isCorrect": true },
+      { "letter": "C", "text": "La hipertensión arterial antes de las 20 semanas", "isCorrect": false },
+      { "letter": "D", "text": "La anemia con hemoglobina de 9,8 g/dL", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento definitivo para la mola hidatiforme completa y qué seguimiento es obligatorio posterior al procedimiento?",
+    "explanation": "El tratamiento de la mola hidatiforme completa es la evacuación uterina mediante aspiración al vacío (AMEU) o legrado por aspiración, independientemente del tamaño uterino. El seguimiento posterior es obligatorio: se deben realizar determinaciones seriadas de β-hCG sérica semanalmente hasta obtener 3 valores consecutivos normales, luego mensuales por 6-12 meses, para detectar oportunamente la enfermedad trofoblástica gestacional persistente (mola invasora o coriocarcinoma). Durante el seguimiento se debe utilizar anticoncepción hormonal para evitar embarazo, que interferiría con la monitorización de β-hCG. La histerectomía se reserva para pacientes sin deseo de paridad futura o con enfermedad invasora.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Histerectomía total abdominal inmediata en todos los casos", "isCorrect": false },
+      { "letter": "B", "text": "Evacuación uterina por aspiración y seguimiento seriado de β-hCG durante 6-12 meses", "isCorrect": true },
+      { "letter": "C", "text": "Quimioterapia con metotrexato previa a la evacuación uterina", "isCorrect": false },
+      { "letter": "D", "text": "Manejo expectante con ecografía mensual sin intervención", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": "Caso clínico: Hombre de 68 años con antecedente de hipertensión arterial, diabetes tipo 2 y enfermedad renal crónica estadio 3 (TFG 42 mL/min) consulta por debilidad muscular generalizada de 2 días de evolución. Toma enalapril 20 mg/día y espironolactona 50 mg/día. Recientemente le indicaron ibuprofeno 600 mg cada 8 horas por una gonalgia. Signos vitales: FC 48 lpm, PA 100/60 mmHg. El electrocardiograma muestra ondas T picudas, prolongación del intervalo PR, ensanchamiento del QRS. Laboratorios: potasio sérico 7,8 mEq/L, creatinina 3,2 mg/dL, BUN 58 mg/dL.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es la primera medida terapéutica más urgente que debe administrarse en este paciente?",
+    "explanation": "Ante una hiperkalemia severa (K+ > 7 mEq/L) con cambios electrocardiográficos (ondas T picudas, QRS ensanchado, PR prolongado), la primera medida es la administración de gluconato de calcio al 10 % intravenoso. El calcio no reduce el nivel de potasio sérico, sino que estabiliza la membrana del cardiomiocito y protege contra arritmias letales (fibrilación ventricular, asistolia). Su efecto es inmediato (1-3 minutos) pero transitorio (30-60 minutos), por lo que simultáneamente se deben iniciar medidas para reducir el potasio: insulina + dextrosa (desplazamiento intracelular), bicarbonato si hay acidosis, beta-2 agonistas nebulizados, y resinas de intercambio catiónico o diálisis. El kayexalate tarda horas en actuar. La furosemida no es primera línea en ERC.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Insulina cristalina con dextrosa intravenosa", "isCorrect": false },
+      { "letter": "B", "text": "Gluconato de calcio al 10 % intravenoso", "isCorrect": true },
+      { "letter": "C", "text": "Sulfonato de poliestireno sódico (Kayexalate) oral", "isCorrect": false },
+      { "letter": "D", "text": "Furosemida intravenosa en bolo", "isCorrect": false }
+    ]
+  }
+]

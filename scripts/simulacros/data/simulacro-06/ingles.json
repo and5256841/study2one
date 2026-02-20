@@ -1,0 +1,717 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "PART 1: Photographs (Questions 1-5)\nLevel: A1\n\nLook at the description of the photograph and choose the sentence that best describes it.\n\nPhotograph description: A dimly lit hospital room with soft lighting. An elderly man lies in bed, connected to an IV drip. His wife holds his hand while two adult children stand nearby. A nurse adjusts the pillow behind the patient. There are flowers and family photos on the bedside table.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows a palliative care room where a family is gathered around an elderly patient. Option A correctly identifies the family visiting a sick elderly man in a hospital room. Option B incorrectly states the patient is a child. Option C says the room is empty. Option D describes an operating room, which does not match the setting.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A family is visiting an elderly man in a hospital room.", "isCorrect": true },
+      { "letter": "B", "text": "A doctor is examining a sick child in a clinic.", "isCorrect": false },
+      { "letter": "C", "text": "An empty hospital room with medical equipment.", "isCorrect": false },
+      { "letter": "D", "text": "Surgeons are preparing a patient for an operation.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Photograph description: A large medical scanning room. A patient lies on a narrow white table that slides into a big, round MRI machine. A technician in a white coat stands behind a glass window in the control room, looking at computer screens.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph clearly shows an MRI scanning room with a patient entering the machine and a technician observing from the control area. Option C accurately captures this. Option A describes a dentist. Option B says the patient is standing up. Option D describes an X-ray, not an MRI.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A dentist is cleaning a patient's teeth.", "isCorrect": false },
+      { "letter": "B", "text": "A patient is standing next to a hospital bed.", "isCorrect": false },
+      { "letter": "C", "text": "A patient is lying on a table inside an MRI scanning room.", "isCorrect": true },
+      { "letter": "D", "text": "A nurse is taking an X-ray of a patient's arm.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Photograph description: A hospital pharmacy with tall shelves along the walls, filled with hundreds of organized medicine bottles and boxes. Two pharmacists in white coats stand behind a long counter. One is typing on a computer while the other is placing labeled bottles into a plastic tray.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows a hospital pharmacy with two pharmacists working behind a counter surrounded by medicine shelves. Option B correctly describes the scene. Option A says it is a library. Option C describes a single pharmacist in a supermarket. Option D places the scene in a laboratory.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "Two people are reading books in a library.", "isCorrect": false },
+      { "letter": "B", "text": "Two pharmacists are working behind a counter in a hospital pharmacy.", "isCorrect": true },
+      { "letter": "C", "text": "A pharmacist is selling vitamins in a supermarket.", "isCorrect": false },
+      { "letter": "D", "text": "Scientists are doing experiments in a laboratory.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Photograph description: A large lecture hall filled with people wearing white coats and lanyards. A speaker stands at a podium on a stage, with a large screen behind showing a medical diagram of the human heart. Some audience members are taking notes on laptops.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows a medical conference lecture hall with a speaker presenting a heart diagram to an audience of healthcare professionals. Option D accurately describes this. Option A describes a cooking class. Option B says students are taking an exam. Option C describes a small meeting.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A chef is teaching a cooking class in a kitchen.", "isCorrect": false },
+      { "letter": "B", "text": "Students are taking a written exam in a classroom.", "isCorrect": false },
+      { "letter": "C", "text": "Three doctors are having a meeting in a small office.", "isCorrect": false },
+      { "letter": "D", "text": "A speaker is giving a medical presentation to an audience in a lecture hall.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Photograph description: A simple waiting area in a small rural clinic. Wooden benches line the walls. Several patients — a mother with a baby, an elderly farmer in a hat, and a young woman — sit waiting. A single ceiling fan spins overhead. A handwritten sign on the wall reads «Consultorio».\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows patients waiting in a small rural clinic. Option A correctly describes people sitting in a waiting area at a rural clinic. Option B describes an emergency room. Option C says it is a city hospital. Option D describes a school.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "Patients are waiting on benches in a small rural clinic.", "isCorrect": true },
+      { "letter": "B", "text": "Doctors are treating patients in an emergency room.", "isCorrect": false },
+      { "letter": "C", "text": "People are waiting in line at a large city hospital.", "isCorrect": false },
+      { "letter": "D", "text": "Children are playing in a school playground.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "PART 2: Conversations (Questions 6-15)\nLevel: A2\n\nRead the conversation and answer the question.\n\nDiabetes Educator: Good morning, Mr. Herrera. I'm the diabetes educator here at the clinic. How are you managing your blood sugar levels?\nPatient: To be honest, not very well. I forget to check my blood sugar some days, and I'm not sure what I should eat.\nDiabetes Educator: That's quite common at the beginning. Let's start with a simple meal plan and I'll show you how to use the glucose monitor correctly.\nPatient: That would be very helpful. My wife wants to learn too.\nDiabetes Educator: Absolutely, she can join our next family session on Thursday.\n\n(Original content — Study2One)",
+    "questionText": "What is the patient's main problem?",
+    "explanation": "The patient says he forgets to check his blood sugar and is unsure about what to eat. These are management difficulties related to his diabetes. Option B captures this. Option A says he cannot afford medication. Option C says he refuses to take insulin. Option D says he is allergic to his medication.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "He cannot afford his diabetes medication.", "isCorrect": false },
+      { "letter": "B", "text": "He has difficulty managing his blood sugar and diet.", "isCorrect": true },
+      { "letter": "C", "text": "He refuses to take insulin injections.", "isCorrect": false },
+      { "letter": "D", "text": "He is allergic to his medication.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": null,
+    "questionText": "What does the diabetes educator invite the patient's wife to do?",
+    "explanation": "The educator says: «Absolutely, she can join our next family session on Thursday.» This means the wife is invited to attend a family education session. Option C matches this. Option A says a cooking class. Option B says a doctor's appointment. Option D says a support group meeting.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Attend a cooking class at the hospital.", "isCorrect": false },
+      { "letter": "B", "text": "Come to the patient's next doctor's appointment.", "isCorrect": false },
+      { "letter": "C", "text": "Join a family education session on Thursday.", "isCorrect": true },
+      { "letter": "D", "text": "Visit a diabetes support group on the weekend.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Hospital Chaplain: Good afternoon. I'm Chaplain Rivera. The nurses mentioned you might like someone to talk to.\nPatient: Yes, thank you for coming. I'm feeling scared about the surgery tomorrow.\nChaplain: That's completely understandable. Would you like to talk about what's worrying you?\nPatient: I just keep thinking about my children. What if something goes wrong?\nChaplain: Your feelings are valid. Many patients feel this way before surgery. Would it help if I stayed for a while and we talked through your concerns?\nPatient: I'd like that very much.\n\n(Original content — Study2One)",
+    "questionText": "Why is the patient feeling scared?",
+    "explanation": "The patient says: «I'm feeling scared about the surgery tomorrow» and «I just keep thinking about my children. What if something goes wrong?» The patient fears something bad could happen during surgery, especially worrying about their children. Option A captures this.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "The patient is worried about the surgery and what could happen to their children.", "isCorrect": true },
+      { "letter": "B", "text": "The patient does not trust the hospital doctors.", "isCorrect": false },
+      { "letter": "C", "text": "The patient wants to leave the hospital immediately.", "isCorrect": false },
+      { "letter": "D", "text": "The patient received bad news about their test results.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "What is the chaplain's role in this conversation?",
+    "explanation": "The chaplain introduces himself, asks if the patient wants to talk, validates the patient's feelings, and offers to stay and listen. This is emotional and spiritual support. Option D captures this. Option A says medical advice. Option B says scheduling surgery. Option C says delivering test results.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "To give the patient medical advice about the surgery.", "isCorrect": false },
+      { "letter": "B", "text": "To schedule the patient's surgery for the next day.", "isCorrect": false },
+      { "letter": "C", "text": "To deliver the patient's test results.", "isCorrect": false },
+      { "letter": "D", "text": "To provide emotional and spiritual support to the patient.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Doctor: Mrs. Gómez, I want to talk to you about organ donation. As you know, your husband suffered severe brain damage and unfortunately, there is no possibility of recovery.\nWife: I understand. This is very difficult.\nDoctor: I know it is, and I'm very sorry. Your husband had expressed his wish to be an organ donor on his ID card. We wanted to discuss this with you and your family.\nWife: He did mention it to me once. He said he wanted to help others.\nDoctor: There is no pressure at all. We can give you time to discuss it with your family.\nWife: Thank you, doctor. I think he would want us to say yes.\n\n(Original content — Study2One)",
+    "questionText": "What decision does the wife indicate she is likely to make?",
+    "explanation": "The wife says: «I think he would want us to say yes.» This means she is inclined to consent to organ donation, respecting her husband's wishes. Option B captures this. Option A says she will refuse. Option C says she wants more time. Option D says she asks for a second opinion.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "She will refuse the organ donation.", "isCorrect": false },
+      { "letter": "B", "text": "She will likely agree to the organ donation.", "isCorrect": true },
+      { "letter": "C", "text": "She wants to wait several weeks before deciding.", "isCorrect": false },
+      { "letter": "D", "text": "She asks for a second medical opinion about her husband's condition.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "Why does the doctor mention the husband's ID card?",
+    "explanation": "The doctor says: «Your husband had expressed his wish to be an organ donor on his ID card.» The ID card is mentioned because it documents the husband's personal wish to donate organs. Option C matches this. Option A says insurance information. Option B says to confirm identity. Option D says to check medical history.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "To check the husband's health insurance information.", "isCorrect": false },
+      { "letter": "B", "text": "To confirm the husband's identity.", "isCorrect": false },
+      { "letter": "C", "text": "Because the husband had registered as an organ donor on his ID card.", "isCorrect": true },
+      { "letter": "D", "text": "To review the husband's medical history.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Audiologist: Hello, Mrs. Peña. I'm Dr. Salazar, the audiologist. You've been referred to us because of hearing difficulties, is that right?\nPatient: Yes, I've been having trouble hearing conversations, especially when there's background noise.\nAudiologist: That's very common. I'm going to perform a hearing test today. You'll wear headphones and press a button every time you hear a beep.\nPatient: Will it hurt?\nAudiologist: Not at all. It's completely painless and takes about 20 minutes.\n\n(Original content — Study2One)",
+    "questionText": "What must the patient do during the hearing test?",
+    "explanation": "The audiologist explains: «You'll wear headphones and press a button every time you hear a beep.» Option A describes this correctly. Option B says repeat words. Option C says read letters from a chart. Option D says raise her hand.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Wear headphones and press a button when she hears a beep.", "isCorrect": true },
+      { "letter": "B", "text": "Repeat words spoken by the audiologist.", "isCorrect": false },
+      { "letter": "C", "text": "Read letters from a chart on the wall.", "isCorrect": false },
+      { "letter": "D", "text": "Raise her hand every time she sees a light.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "What is the patient's main complaint?",
+    "explanation": "The patient says: «I've been having trouble hearing conversations, especially when there's background noise.» This is difficulty hearing in noisy environments. Option D matches. Option A says headaches. Option B says ringing in her ears. Option C says dizziness.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "She has frequent headaches.", "isCorrect": false },
+      { "letter": "B", "text": "She hears a constant ringing in her ears.", "isCorrect": false },
+      { "letter": "C", "text": "She feels dizzy when she stands up.", "isCorrect": false },
+      { "letter": "D", "text": "She has difficulty hearing conversations when there is background noise.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Triage Nurse: Hello, can you tell me what happened?\nPatient: I was cutting vegetables and the knife slipped. My hand is bleeding a lot.\nTriage Nurse: Let me take a look. How long ago did this happen?\nPatient: About 15 minutes ago. I wrapped it in a towel but the bleeding won't stop.\nTriage Nurse: I can see it's a deep cut. I'll clean it and apply pressure. You'll need to see a doctor for stitches. Are you allergic to any medications?\nPatient: No, I'm not allergic to anything.\n\n(Original content — Study2One)",
+    "questionText": "What does the triage nurse say the patient will need?",
+    "explanation": "The nurse says: «You'll need to see a doctor for stitches.» This means the cut requires stitches from a doctor. Option B captures this. Option A says only a bandage. Option C says surgery. Option D says an X-ray.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Only a bandage and some rest.", "isCorrect": false },
+      { "letter": "B", "text": "Stitches from a doctor.", "isCorrect": true },
+      { "letter": "C", "text": "Surgery on the hand.", "isCorrect": false },
+      { "letter": "D", "text": "An X-ray of the hand.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "Why does the nurse ask about medication allergies?",
+    "explanation": "Before any medical treatment, healthcare workers need to know if a patient has allergies to avoid adverse reactions. The nurse asks because the patient will receive treatment (cleaning, stitches, possibly anesthesia or antibiotics). Option C captures this reasoning. Option A says for a hospital survey. Option B says to prescribe vitamins. Option D says out of curiosity.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "To complete a hospital survey.", "isCorrect": false },
+      { "letter": "B", "text": "To prescribe vitamins for the patient.", "isCorrect": false },
+      { "letter": "C", "text": "To make sure the treatment will be safe and avoid allergic reactions.", "isCorrect": true },
+      { "letter": "D", "text": "Because the nurse is personally curious.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "PART 3: Short texts (Questions 16-30)\nLevel: B1\n\nRead the following text and answer the questions.\n\nText 1: WHO Breastfeeding Guidelines Update\n\nThe World Health Organization recently updated its breastfeeding guidelines, reaffirming that exclusive breastfeeding for the first six months of life provides the ideal nutrition for infants. The updated guidelines emphasize that breastfeeding should begin within one hour of birth and continue alongside appropriate complementary foods up to two years of age or beyond.\n\nThe report highlights that breastfeeding reduces the risk of childhood infections, diarrhea, and pneumonia — the leading causes of death in children under five in low-income countries. It also benefits mothers by lowering the risk of breast and ovarian cancer, type 2 diabetes, and postpartum depression.\n\nDespite these benefits, global breastfeeding rates remain below target. Only 44% of infants worldwide are exclusively breastfed during the first six months. Barriers include lack of workplace support, aggressive marketing of formula milk, and insufficient training of healthcare workers in breastfeeding counseling.\n\n(Original content — Study2One)",
+    "questionText": "According to the WHO guidelines, how long should exclusive breastfeeding last?",
+    "explanation": "The text states: «exclusive breastfeeding for the first six months of life provides the ideal nutrition for infants.» Option B matches this directly. Option A says three months. Option C says one year. Option D says two years (which is the continued breastfeeding period, not exclusive).",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "For the first three months.", "isCorrect": false },
+      { "letter": "B", "text": "For the first six months.", "isCorrect": true },
+      { "letter": "C", "text": "For the first year.", "isCorrect": false },
+      { "letter": "D", "text": "For the first two years.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "Which of the following is NOT mentioned as a benefit of breastfeeding for mothers?",
+    "explanation": "The text lists benefits for mothers: lower risk of breast and ovarian cancer, type 2 diabetes, and postpartum depression. Weight loss is NOT mentioned. Option A is the correct answer as it is not listed.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Faster weight loss after pregnancy.", "isCorrect": true },
+      { "letter": "B", "text": "Lower risk of breast cancer.", "isCorrect": false },
+      { "letter": "C", "text": "Reduced risk of postpartum depression.", "isCorrect": false },
+      { "letter": "D", "text": "Lower risk of type 2 diabetes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "What percentage of infants worldwide are exclusively breastfed for the first six months?",
+    "explanation": "The text states: «Only 44% of infants worldwide are exclusively breastfed during the first six months.» Option C matches this figure. Options A, B, and D provide incorrect percentages.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "24%", "isCorrect": false },
+      { "letter": "B", "text": "34%", "isCorrect": false },
+      { "letter": "C", "text": "44%", "isCorrect": true },
+      { "letter": "D", "text": "64%", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Text 2: Hospital Cybersecurity Incident\n\nSt. Margaret's Regional Hospital confirmed yesterday that a ransomware attack disrupted its electronic health record system for approximately 36 hours last week. During the incident, staff reverted to paper-based documentation and postponed non-emergency procedures.\n\nThe hospital's IT team, working alongside federal cybersecurity experts, contained the breach and restored all systems without paying the ransom. Hospital administrators stated that no patient data was stolen or compromised, although an internal investigation is ongoing.\n\nThe incident has reignited calls for increased cybersecurity investment in the healthcare sector. A recent industry report found that hospitals are among the most targeted institutions for cyberattacks, largely because of the critical nature of their data and the urgency of their operations, which makes them more likely to pay ransoms.\n\n(Original content — Study2One)",
+    "questionText": "How long was the electronic health record system disrupted?",
+    "explanation": "The text states: «a ransomware attack disrupted its electronic health record system for approximately 36 hours.» Option B matches this. Option A says 12 hours. Option C says 48 hours. Option D says one week.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "About 12 hours.", "isCorrect": false },
+      { "letter": "B", "text": "About 36 hours.", "isCorrect": true },
+      { "letter": "C", "text": "About 48 hours.", "isCorrect": false },
+      { "letter": "D", "text": "About one week.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "What did the hospital staff do during the system outage?",
+    "explanation": "The text states: «staff reverted to paper-based documentation and postponed non-emergency procedures.» Option A describes these actions. Option B says they closed the hospital. Option C says they transferred all patients. Option D says they continued using computers normally.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "They used paper records and delayed non-urgent procedures.", "isCorrect": true },
+      { "letter": "B", "text": "They closed the hospital completely.", "isCorrect": false },
+      { "letter": "C", "text": "They transferred all patients to other hospitals.", "isCorrect": false },
+      { "letter": "D", "text": "They continued using computers as normal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": null,
+    "questionText": "Why are hospitals particularly vulnerable to cyberattacks according to the text?",
+    "explanation": "The text states: «hospitals are among the most targeted institutions for cyberattacks, largely because of the critical nature of their data and the urgency of their operations, which makes them more likely to pay ransoms.» Option D captures both reasons. Option A says because they have old computers. Option B says they have no IT staff. Option C says they store financial data.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Because they use old and outdated computer systems.", "isCorrect": false },
+      { "letter": "B", "text": "Because they do not have IT departments.", "isCorrect": false },
+      { "letter": "C", "text": "Because they store large amounts of financial data.", "isCorrect": false },
+      { "letter": "D", "text": "Because their data is critical and the urgency of their work makes them likely to pay ransoms.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Text 3: New Rapid HIV Test\n\nHealth authorities have approved a new rapid HIV test that can deliver results in just 15 minutes using a single drop of blood from a finger prick. Unlike previous rapid tests, this new version can detect both HIV-1 and HIV-2 antibodies as well as the p24 antigen, which allows it to identify infections as early as two weeks after exposure.\n\nThe test has shown 99.8% sensitivity and 99.5% specificity in clinical trials involving over 12,000 participants across eight countries. Health officials believe the test could significantly increase early detection rates, especially in rural and resource-limited settings where laboratory equipment is scarce.\n\nA positive rapid test result still requires confirmation through standard laboratory testing. However, the ability to provide a preliminary result in minutes rather than days could help reduce the number of patients who are lost to follow-up before receiving their results.\n\n(Original content — Study2One)",
+    "questionText": "What is a key advantage of the new rapid HIV test over previous versions?",
+    "explanation": "The text states: «Unlike previous rapid tests, this new version can detect both HIV-1 and HIV-2 antibodies as well as the p24 antigen, which allows it to identify infections as early as two weeks after exposure.» Option C captures this early detection capability. Option A says it is free. Option B says no blood sample is needed. Option D says it replaces laboratory testing.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "It is completely free for all patients.", "isCorrect": false },
+      { "letter": "B", "text": "It does not require any blood sample.", "isCorrect": false },
+      { "letter": "C", "text": "It can detect infections as early as two weeks after exposure.", "isCorrect": true },
+      { "letter": "D", "text": "It eliminates the need for any laboratory confirmation.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "What does the text say about a positive rapid test result?",
+    "explanation": "The text states: «A positive rapid test result still requires confirmation through standard laboratory testing.» Option B matches this. Option A says it is 100% definitive. Option C says the patient must be hospitalized. Option D says the test must be repeated five times.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "It is considered 100% definitive and final.", "isCorrect": false },
+      { "letter": "B", "text": "It must be confirmed by standard laboratory testing.", "isCorrect": true },
+      { "letter": "C", "text": "The patient must be immediately hospitalized.", "isCorrect": false },
+      { "letter": "D", "text": "The test must be repeated at least five times.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "The phrase «lost to follow-up» in the last paragraph most likely means:",
+    "explanation": "In the context, «patients who are lost to follow-up before receiving their results» refers to patients who do not return to the clinic to get their test results, meaning they stop participating in the medical process. Option A captures this meaning. Option B says physically lost in the hospital. Option C says they lost their medical records. Option D says they forgot their appointment date.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Patients who do not return to receive their results or continue treatment.", "isCorrect": true },
+      { "letter": "B", "text": "Patients who get physically lost inside the hospital.", "isCorrect": false },
+      { "letter": "C", "text": "Patients whose medical records are accidentally deleted.", "isCorrect": false },
+      { "letter": "D", "text": "Patients who forget the date of their appointment.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Text 4: Community Defibrillator Program\n\nThe city of Greenfield has launched an initiative to install automated external defibrillators (AEDs) in all public buildings, parks, and sports facilities. The program, funded by a combination of city budget and private donations, aims to place 200 devices across the municipality within the next 12 months.\n\nSudden cardiac arrest kills thousands of people each year, and survival rates drop by approximately 10% for every minute without defibrillation. When a bystander uses an AED before emergency services arrive, survival rates can exceed 70%, compared to less than 10% when no AED is available.\n\nThe initiative also includes free CPR and AED training sessions for the public, offered every Saturday at community centers. Over 500 residents have already signed up for the training. The AED devices are designed to be user-friendly, with voice instructions that guide untrained users step by step through the process.\n\n(Original content — Study2One)",
+    "questionText": "How many AED devices does the program plan to install?",
+    "explanation": "The text states: «aims to place 200 devices across the municipality within the next 12 months.» Option C matches this number. Options A, B, and D provide incorrect figures.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "50 devices.", "isCorrect": false },
+      { "letter": "B", "text": "100 devices.", "isCorrect": false },
+      { "letter": "C", "text": "200 devices.", "isCorrect": true },
+      { "letter": "D", "text": "500 devices.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "According to the text, what is the survival rate when a bystander uses an AED before emergency services arrive?",
+    "explanation": "The text states: «When a bystander uses an AED before emergency services arrive, survival rates can exceed 70%.» Option D matches. Option A says 10%. Option B says 30%. Option C says 50%.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Less than 10%.", "isCorrect": false },
+      { "letter": "B", "text": "About 30%.", "isCorrect": false },
+      { "letter": "C", "text": "About 50%.", "isCorrect": false },
+      { "letter": "D", "text": "More than 70%.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": null,
+    "questionText": "What feature makes the AED devices accessible to untrained people?",
+    "explanation": "The text states: «The AED devices are designed to be user-friendly, with voice instructions that guide untrained users step by step through the process.» Option B describes this feature. Option A says a built-in phone. Option C says a screen showing a video. Option D says they require no electricity.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "A built-in phone that connects directly to a doctor.", "isCorrect": false },
+      { "letter": "B", "text": "Voice instructions that guide the user step by step.", "isCorrect": true },
+      { "letter": "C", "text": "A screen that shows a training video.", "isCorrect": false },
+      { "letter": "D", "text": "They do not require any electricity to operate.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Text 5: Medical Student Mental Health Survey\n\nA nationwide survey of 4,500 medical students revealed alarming rates of mental health difficulties. The study found that 38% of respondents reported symptoms of burnout, 29% screened positive for depression, and 21% reported anxiety levels that interfered with their academic performance.\n\nThe most commonly cited stressors were academic workload (78%), financial pressure (52%), clinical placement demands (49%), and sleep deprivation (45%). Female students and students from minority backgrounds reported significantly higher levels of distress than their peers.\n\nDespite these findings, only 15% of affected students had sought professional help. The main barriers to seeking support were fear of stigma (63%), concern that it could affect their academic record (41%), and lack of time (38%). The researchers recommend that medical schools implement mandatory wellness programs and anonymous counseling services.\n\n(Original content — Study2One)",
+    "questionText": "What percentage of medical students reported symptoms of burnout?",
+    "explanation": "The text states: «38% of respondents reported symptoms of burnout.» Option B matches. Options A, C, and D provide percentages for other conditions mentioned in the text.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "21%", "isCorrect": false },
+      { "letter": "B", "text": "38%", "isCorrect": true },
+      { "letter": "C", "text": "29%", "isCorrect": false },
+      { "letter": "D", "text": "52%", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "What was the most commonly cited stressor among medical students?",
+    "explanation": "The text lists stressors in order: academic workload (78%), financial pressure (52%), clinical placement demands (49%), and sleep deprivation (45%). Academic workload at 78% is the highest. Option A matches.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Academic workload.", "isCorrect": true },
+      { "letter": "B", "text": "Financial pressure.", "isCorrect": false },
+      { "letter": "C", "text": "Sleep deprivation.", "isCorrect": false },
+      { "letter": "D", "text": "Clinical placement demands.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": null,
+    "questionText": "Why did most affected students NOT seek professional help?",
+    "explanation": "The text states the main barriers: «fear of stigma (63%), concern that it could affect their academic record (41%), and lack of time (38%).» Fear of stigma at 63% was the most common barrier. Option C captures this. Option A says cost. Option B says they did not know where to go. Option D says they felt their problems were not serious.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "The cost of professional mental health services was too high.", "isCorrect": false },
+      { "letter": "B", "text": "They did not know where to find counseling services.", "isCorrect": false },
+      { "letter": "C", "text": "They feared the stigma associated with seeking mental health support.", "isCorrect": true },
+      { "letter": "D", "text": "They felt their problems were not serious enough.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "PART 4: Academic texts (Questions 31-55)\nLevel: B1-B2\n\nRead the following text and answer the questions.\n\nText 1: Social Prescribing in Primary Care\n\nSocial prescribing is an innovative approach in which healthcare professionals refer patients to non-clinical community services and activities to improve their health and well-being. Rather than — or in addition to — prescribing medication, a general practitioner might refer a patient to a gardening group, an art class, a walking club, or a volunteer organization.\n\nThe concept has gained considerable traction in the United Kingdom, where the National Health Service (NHS) formally incorporated social prescribing into its Long Term Plan in 2019. Link workers — also known as social prescribing coordinators — serve as intermediaries between patients and community resources. They conduct holistic assessments of patients' needs and connect them with appropriate local services.\n\nResearch suggests that social prescribing can be particularly effective for patients with chronic loneliness, mild to moderate depression, social isolation, and long-term physical conditions with psychosocial components. A 2023 meta-analysis of 27 studies found that patients who participated in social prescribing programs reported significant improvements in well-being, social connectedness, and self-reported health, along with modest reductions in GP consultations and emergency department visits.\n\nCritics, however, raise valid concerns. The evidence base, while growing, is still limited by small sample sizes, short follow-up periods, and a lack of randomized controlled trials. There are also questions about equity: patients in deprived areas may have fewer community resources available, potentially widening existing health inequalities rather than narrowing them. Furthermore, sustainable funding for link workers and community organizations remains a challenge.\n\nProponents argue that social prescribing addresses the social determinants of health — the conditions in which people are born, grow, live, work, and age — which are responsible for up to 80% of health outcomes according to some estimates. By tackling root causes such as isolation, poverty, and lack of purpose, social prescribing may offer benefits that purely biomedical interventions cannot.\n\n(Original content — Study2One)",
+    "questionText": "What is social prescribing?",
+    "explanation": "The text defines social prescribing in the first sentence: «an innovative approach in which healthcare professionals refer patients to non-clinical community services and activities to improve their health and well-being.» Option A captures this definition. Option B describes traditional prescriptions. Option C describes social media use. Option D describes hospital social workers.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Referring patients to community activities and services instead of, or alongside, medication.", "isCorrect": true },
+      { "letter": "B", "text": "Prescribing social media breaks to reduce patient anxiety.", "isCorrect": false },
+      { "letter": "C", "text": "Using social media platforms to deliver medical consultations.", "isCorrect": false },
+      { "letter": "D", "text": "Hiring social workers to replace general practitioners in clinics.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "What is the role of a «link worker» in social prescribing?",
+    "explanation": "The text states: «Link workers — also known as social prescribing coordinators — serve as intermediaries between patients and community resources. They conduct holistic assessments of patients' needs and connect them with appropriate local services.» Option B describes this intermediary role. Option A says they prescribe medication. Option C says they run community classes. Option D says they provide therapy.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "To prescribe medication on behalf of the doctor.", "isCorrect": false },
+      { "letter": "B", "text": "To assess patients' needs and connect them with community services.", "isCorrect": true },
+      { "letter": "C", "text": "To run art classes and gardening groups directly.", "isCorrect": false },
+      { "letter": "D", "text": "To provide psychological therapy to patients.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "According to the 2023 meta-analysis, social prescribing led to improvements in all of the following EXCEPT:",
+    "explanation": "The text states that patients reported improvements in «well-being, social connectedness, and self-reported health, along with modest reductions in GP consultations and emergency department visits.» Cure rates for chronic diseases are NOT mentioned. Option D is the correct answer.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Well-being and social connectedness.", "isCorrect": false },
+      { "letter": "B", "text": "Self-reported health.", "isCorrect": false },
+      { "letter": "C", "text": "Reductions in GP consultations.", "isCorrect": false },
+      { "letter": "D", "text": "Cure rates for chronic diseases.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "What concern do critics raise about equity in social prescribing?",
+    "explanation": "The text states: «patients in deprived areas may have fewer community resources available, potentially widening existing health inequalities rather than narrowing them.» Option C captures this concern. Option A says wealthy patients are excluded. Option B says link workers are biased. Option D says only urban areas benefit.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Wealthy patients are excluded from social prescribing programs.", "isCorrect": false },
+      { "letter": "B", "text": "Link workers tend to be biased toward younger patients.", "isCorrect": false },
+      { "letter": "C", "text": "Patients in poorer areas may have fewer community resources, worsening health inequalities.", "isCorrect": true },
+      { "letter": "D", "text": "Only patients in urban areas can access social prescribing.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "The phrase «gained considerable traction» in paragraph 2 most likely means:",
+    "explanation": "«Gained considerable traction» means something has become increasingly popular or accepted. In context, social prescribing has become widely adopted in the UK. Option B captures this. Option A says faced strong opposition. Option C says remained unknown. Option D says been scientifically proven.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Has faced strong opposition from the medical community.", "isCorrect": false },
+      { "letter": "B", "text": "Has become increasingly popular and widely accepted.", "isCorrect": true },
+      { "letter": "C", "text": "Has remained largely unknown to the general public.", "isCorrect": false },
+      { "letter": "D", "text": "Has been scientifically proven beyond any doubt.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "Text 2: Gene Therapy Breakthroughs\n\nGene therapy — the introduction, alteration, or replacement of genetic material within a person's cells to treat or prevent disease — has moved from theoretical promise to clinical reality. After decades of setbacks, including a patient death in a 1999 trial that temporarily halted the field, recent years have seen a series of landmark approvals that signal a new era in medicine.\n\nIn 2017, the FDA approved Luxturna, a gene therapy for a rare inherited form of blindness caused by mutations in the RPE65 gene. By delivering a functional copy of the gene directly into the retinal cells, Luxturna has restored meaningful vision in patients who were previously going blind. In 2022, Zolgensma, a single-dose gene therapy for spinal muscular atrophy (SMA) in children under two, demonstrated that replacing the missing SMN1 gene could dramatically alter the disease trajectory, allowing children who would otherwise lose the ability to sit, walk, or breathe independently to reach normal motor milestones.\n\nThe emergence of CRISPR-Cas9 gene editing technology has further expanded possibilities. Unlike traditional gene therapy, which adds a functional gene without removing the faulty one, CRISPR can precisely edit specific DNA sequences. In 2023, the UK became the first country to approve Casgevy, a CRISPR-based treatment for sickle cell disease and transfusion-dependent beta-thalassemia. The therapy works by editing patients' own stem cells to produce fetal hemoglobin, which compensates for the defective adult hemoglobin.\n\nDespite these advances, significant challenges remain. The cost of gene therapies is staggering — Zolgensma carries a price tag of approximately $2.1 million per dose, making it one of the most expensive medicines ever developed. Questions about long-term durability of therapeutic effects, potential off-target genetic modifications with CRISPR, and equitable global access persist. Additionally, while gene therapies for monogenic diseases (those caused by a single gene defect) have shown clear success, extending the approach to complex multifactorial conditions like heart disease or diabetes remains a formidable scientific challenge.\n\n(Original content — Study2One)",
+    "questionText": "What event in 1999 temporarily halted gene therapy research?",
+    "explanation": "The text states: «a patient death in a 1999 trial that temporarily halted the field.» Option A captures this. Option B says a laboratory explosion. Option C says a government ban on genetic research. Option D says the discovery of a major flaw in DNA theory.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "A patient died during a gene therapy trial.", "isCorrect": true },
+      { "letter": "B", "text": "A laboratory explosion destroyed critical research data.", "isCorrect": false },
+      { "letter": "C", "text": "The government banned all genetic research.", "isCorrect": false },
+      { "letter": "D", "text": "Scientists discovered a major flaw in DNA theory.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": null,
+    "questionText": "How does CRISPR-Cas9 differ from traditional gene therapy?",
+    "explanation": "The text states: «Unlike traditional gene therapy, which adds a functional gene without removing the faulty one, CRISPR can precisely edit specific DNA sequences.» Option C captures this key difference. Option A says CRISPR is cheaper. Option B says CRISPR only works on children. Option D says CRISPR uses viruses while traditional therapy does not.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "CRISPR is significantly cheaper than traditional gene therapy.", "isCorrect": false },
+      { "letter": "B", "text": "CRISPR can only be used in children under two years old.", "isCorrect": false },
+      { "letter": "C", "text": "CRISPR can precisely edit specific DNA sequences, while traditional therapy adds a gene without removing the faulty one.", "isCorrect": true },
+      { "letter": "D", "text": "CRISPR uses viral vectors while traditional therapy does not.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": null,
+    "questionText": "What is the approximate cost of a single dose of Zolgensma?",
+    "explanation": "The text states: «Zolgensma carries a price tag of approximately $2.1 million per dose.» Option D matches. Options A, B, and C provide incorrect amounts.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "$21,000", "isCorrect": false },
+      { "letter": "B", "text": "$210,000", "isCorrect": false },
+      { "letter": "C", "text": "$1.2 million", "isCorrect": false },
+      { "letter": "D", "text": "$2.1 million", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": null,
+    "questionText": "According to the text, why is it difficult to apply gene therapy to conditions like heart disease or diabetes?",
+    "explanation": "The text states: «while gene therapies for monogenic diseases (those caused by a single gene defect) have shown clear success, extending the approach to complex multifactorial conditions like heart disease or diabetes remains a formidable scientific challenge.» These conditions involve multiple genes and factors, not just one. Option B captures this.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Because gene therapy has been banned for those conditions.", "isCorrect": false },
+      { "letter": "B", "text": "Because these are complex conditions caused by multiple genes and factors, not a single gene.", "isCorrect": true },
+      { "letter": "C", "text": "Because patients with these conditions are too old for gene therapy.", "isCorrect": false },
+      { "letter": "D", "text": "Because CRISPR technology cannot modify genes related to the heart.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": null,
+    "questionText": "The word «formidable» in the last paragraph is closest in meaning to:",
+    "explanation": "«Formidable» means extremely difficult, challenging, and demanding great effort to overcome. In context, it describes the scientific challenge of treating multifactorial diseases. Option C captures this. Option A says easy. Option B says minor. Option D says unnecessary.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Easy to accomplish.", "isCorrect": false },
+      { "letter": "B", "text": "Minor and insignificant.", "isCorrect": false },
+      { "letter": "C", "text": "Very difficult and challenging.", "isCorrect": true },
+      { "letter": "D", "text": "Unnecessary and avoidable.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "Text 3: Health Effects of Social Isolation\n\nSocial isolation and loneliness have emerged as significant public health concerns, with effects on morbidity and mortality comparable to well-established risk factors such as smoking, obesity, and physical inactivity. A comprehensive meta-analysis published in 2024 examined data from 148 prospective studies involving over 308,000 participants and concluded that individuals with strong social relationships had a 50% greater likelihood of survival over the study period compared to those who were socially isolated.\n\nThe biological mechanisms linking social isolation to poor health are increasingly well understood. Chronic loneliness activates the hypothalamic-pituitary-adrenal (HPA) axis, leading to sustained elevation of cortisol levels. This chronic stress response promotes systemic inflammation, impairs immune function, disrupts sleep architecture, and accelerates cellular aging as measured by telomere shortening. Neuroimaging studies have also revealed that chronic social isolation is associated with reduced gray matter volume in brain regions critical for social cognition and emotional regulation.\n\nCertain populations are disproportionately affected. Older adults living alone — particularly those who have lost a spouse — face the highest risk, but the problem is not confined to the elderly. A 2024 survey found that 22% of adults aged 18-25 in high-income countries reported feeling «always or often lonely,» a rate higher than any other age group. The COVID-19 pandemic exacerbated isolation across all demographics, and longitudinal data suggest that the mental health consequences of pandemic-era isolation will persist for years.\n\nPublic health responses have included the appointment of «loneliness ministers» in Japan and the United Kingdom, community-based befriending programs, and the integration of social connectedness assessments into routine medical checkups. However, experts caution that systemic solutions — affordable housing, accessible public transportation, urban design that fosters community interaction, and policies that protect against overwork — are needed to address the structural causes of isolation in modern societies.\n\n(Original content — Study2One)",
+    "questionText": "According to the meta-analysis, how does social isolation compare to smoking as a health risk?",
+    "explanation": "The text states: «effects on morbidity and mortality comparable to well-established risk factors such as smoking, obesity, and physical inactivity.» It also notes that socially connected individuals had a 50% greater likelihood of survival. Option A captures the comparable risk level. Option B says isolation is less dangerous. Option C says smoking is ten times worse. Option D says they have no connection.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Social isolation has effects on health and death rates comparable to smoking.", "isCorrect": true },
+      { "letter": "B", "text": "Social isolation is much less dangerous than smoking.", "isCorrect": false },
+      { "letter": "C", "text": "Smoking is ten times more harmful than social isolation.", "isCorrect": false },
+      { "letter": "D", "text": "There is no proven connection between social isolation and physical health.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": null,
+    "questionText": "Which biological effect of chronic loneliness is NOT mentioned in the text?",
+    "explanation": "The text mentions: sustained cortisol elevation, systemic inflammation, impaired immune function, disrupted sleep architecture, accelerated cellular aging (telomere shortening), and reduced gray matter volume. Increased blood clotting is NOT mentioned. Option D is correct.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Impaired immune function.", "isCorrect": false },
+      { "letter": "B", "text": "Disrupted sleep patterns.", "isCorrect": false },
+      { "letter": "C", "text": "Sustained elevation of cortisol levels.", "isCorrect": false },
+      { "letter": "D", "text": "Increased blood clotting.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": null,
+    "questionText": "Which age group reported the highest rates of feeling «always or often lonely»?",
+    "explanation": "The text states: «22% of adults aged 18-25 in high-income countries reported feeling always or often lonely, a rate higher than any other age group.» Option B matches. Option A says 65+. Option C says 35-45. Option D says children under 12.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Adults over 65 years old.", "isCorrect": false },
+      { "letter": "B", "text": "Young adults aged 18 to 25.", "isCorrect": true },
+      { "letter": "C", "text": "Middle-aged adults between 35 and 45.", "isCorrect": false },
+      { "letter": "D", "text": "Children under 12 years old.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": null,
+    "questionText": "The term «telomere shortening» in paragraph 2 relates to:",
+    "explanation": "The text states: «accelerates cellular aging as measured by telomere shortening.» This places telomere shortening as a measure of cellular aging. Option C captures this. Option A says bone loss. Option B says memory decline. Option D says weight gain.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "A process of bone loss in elderly patients.", "isCorrect": false },
+      { "letter": "B", "text": "A decline in short-term memory capacity.", "isCorrect": false },
+      { "letter": "C", "text": "A marker of accelerated cellular aging.", "isCorrect": true },
+      { "letter": "D", "text": "An increase in body weight due to hormonal changes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": null,
+    "questionText": "What type of solutions do experts say are needed beyond community programs?",
+    "explanation": "The text states: «systemic solutions — affordable housing, accessible public transportation, urban design that fosters community interaction, and policies that protect against overwork — are needed to address the structural causes of isolation.» Option D captures this. Option A says more hospitals. Option B says mandatory social events. Option C says banning social media.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Building more hospitals and clinics.", "isCorrect": false },
+      { "letter": "B", "text": "Mandatory social events organized by the government.", "isCorrect": false },
+      { "letter": "C", "text": "Banning social media to force face-to-face interaction.", "isCorrect": false },
+      { "letter": "D", "text": "Systemic changes like affordable housing, better transportation, and urban design that encourages community.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "Text 4: Refugee Health Services Integration\n\nThe integration of refugee populations into host country healthcare systems presents multifaceted challenges that extend far beyond language barriers. Refugees frequently arrive with complex health profiles shaped by the conditions of their displacement: untreated chronic diseases, the physical consequences of violence and torture, malnutrition, incomplete vaccination histories, and a high prevalence of post-traumatic stress disorder (PTSD) and depression.\n\nTraditional models of healthcare delivery often fail to meet these needs effectively. Appointment-based systems assume a level of administrative literacy and stability that many refugees lack. Cultural differences in health beliefs — such as unfamiliarity with preventive care concepts, distrust of institutional medicine stemming from experiences in conflict zones, or gender-specific norms about who may provide care — can create barriers even when services are physically accessible.\n\nSeveral countries have developed innovative integration models. Germany's «health booklet» system provides refugees with a standardized document that records vaccinations, screenings, and medical history, facilitating continuity of care as individuals move between facilities. Australia's Refugee Health Assessment Program offers a comprehensive initial health screening within the first month of arrival, covering physical health, mental health, dental health, and nutritional status. In Canada, Community Health Centers employ intercultural health mediators — professionals who share the cultural and linguistic background of refugee communities — to bridge the gap between patients and providers.\n\nResearch consistently shows that early, culturally appropriate health interventions for refugees not only improve individual outcomes but are also cost-effective for healthcare systems. Untreated conditions worsen over time, leading to more expensive emergency care and hospitalization. A UK study estimated that every pound invested in early refugee health screening saved £2.80 in downstream healthcare costs within three years.\n\n(Original content — Study2One)",
+    "questionText": "According to the text, which of the following is NOT mentioned as a common health issue among refugees?",
+    "explanation": "The text lists: untreated chronic diseases, physical consequences of violence and torture, malnutrition, incomplete vaccination histories, PTSD, and depression. Genetic disorders are NOT mentioned. Option B is correct.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Post-traumatic stress disorder.", "isCorrect": false },
+      { "letter": "B", "text": "Inherited genetic disorders.", "isCorrect": true },
+      { "letter": "C", "text": "Malnutrition.", "isCorrect": false },
+      { "letter": "D", "text": "Untreated chronic diseases.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": null,
+    "questionText": "Why do traditional appointment-based healthcare systems often fail refugees?",
+    "explanation": "The text states: «Appointment-based systems assume a level of administrative literacy and stability that many refugees lack.» Option A captures this. Option B says refugees prefer emergency rooms. Option C says appointments are too expensive. Option D says refugees refuse all medical care.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "They require administrative skills and stability that many refugees do not have.", "isCorrect": true },
+      { "letter": "B", "text": "Refugees prefer to go to emergency rooms instead.", "isCorrect": false },
+      { "letter": "C", "text": "Appointments are too expensive for refugees.", "isCorrect": false },
+      { "letter": "D", "text": "Refugees refuse all forms of Western medical care.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": null,
+    "questionText": "What is the purpose of «intercultural health mediators» in Canada's model?",
+    "explanation": "The text states: «professionals who share the cultural and linguistic background of refugee communities — to bridge the gap between patients and providers.» Option C captures this bridging role. Option A says they replace doctors. Option B says they provide legal advice. Option D says they translate documents only.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "To replace doctors in refugee health clinics.", "isCorrect": false },
+      { "letter": "B", "text": "To provide legal advice about immigration status.", "isCorrect": false },
+      { "letter": "C", "text": "To connect refugee patients with healthcare providers by sharing their cultural and linguistic background.", "isCorrect": true },
+      { "letter": "D", "text": "To translate official medical documents from one language to another.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": null,
+    "questionText": "According to the UK study mentioned in the text, investing in early refugee health screening:",
+    "explanation": "The text states: «every pound invested in early refugee health screening saved £2.80 in downstream healthcare costs within three years.» Option B captures this cost-saving result. Option A says it increased costs. Option C says it had no measurable effect. Option D says it doubled hospital admissions.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Increased overall healthcare costs by 28%.", "isCorrect": false },
+      { "letter": "B", "text": "Saved £2.80 for every pound invested within three years.", "isCorrect": true },
+      { "letter": "C", "text": "Had no measurable effect on healthcare costs.", "isCorrect": false },
+      { "letter": "D", "text": "Doubled the number of hospital admissions for refugees.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": null,
+    "questionText": "The word «multifaceted» in the first sentence most likely means:",
+    "explanation": "«Multifaceted» means having many different aspects or sides. In context, it describes challenges that are complex and varied, going beyond just language barriers. Option D captures this. Option A says simple. Option B says temporary. Option C says financial only.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Simple and straightforward.", "isCorrect": false },
+      { "letter": "B", "text": "Temporary and short-lived.", "isCorrect": false },
+      { "letter": "C", "text": "Primarily financial in nature.", "isCorrect": false },
+      { "letter": "D", "text": "Having many different aspects and dimensions.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 51,
+    "caseText": "Text 5: Planetary Health and Sustainable Healthcare\n\nThe concept of planetary health recognizes that human health is fundamentally dependent on the health of natural systems — the atmosphere, oceans, biodiversity, and land that sustain life on Earth. Healthcare, paradoxically, contributes significantly to the environmental degradation that ultimately harms human health. If the global healthcare sector were a country, it would be the fifth-largest emitter of greenhouse gases on the planet, responsible for approximately 4.4% of global net emissions.\n\nThe sources of healthcare's environmental footprint are diverse. The pharmaceutical industry is a major contributor, with manufacturing processes that consume vast quantities of water and energy and produce toxic waste. Single-use medical devices and packaging generate enormous volumes of plastic waste, much of which is incinerated, releasing harmful pollutants. Hospital buildings are energy-intensive, operating 24 hours a day with heating, cooling, lighting, and ventilation systems. Anesthetic gases such as desflurane have a global warming potential thousands of times greater than carbon dioxide.\n\nSeveral health systems have begun to respond. The NHS in England committed to becoming the world's first net-zero national health service by 2040 for direct emissions and 2045 for its full supply chain. Practical measures include transitioning to lower-impact anesthetic agents, implementing circular economy principles for medical equipment (reprocessing single-use devices where safe, redesigning packaging), electrifying vehicle fleets, and sourcing renewable energy.\n\nThe movement toward sustainable healthcare also encompasses clinical practice itself. The concept of «green prescribing» encourages clinicians to consider the environmental impact of their treatment choices when equally effective alternatives exist. For instance, metered-dose inhalers — widely used for asthma — contain potent greenhouse gases as propellants, while dry-powder inhalers do not. A single metered-dose inhaler has a carbon footprint equivalent to a 290-kilometer car journey.\n\nCritics of the sustainable healthcare movement worry that environmental considerations could compromise patient care. Advocates counter that planetary health and patient health are not in conflict: a healthcare system that degrades the environmental conditions necessary for human life is ultimately self-defeating. The challenge lies in making sustainable choices the default rather than the exception, without adding burden to already overstretched healthcare workers.\n\n(Original content — Study2One)",
+    "questionText": "According to the text, approximately what percentage of global greenhouse gas emissions does the healthcare sector produce?",
+    "explanation": "The text states: «responsible for approximately 4.4% of global net emissions.» Option C matches. Options A, B, and D provide incorrect percentages.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "About 1.2%.", "isCorrect": false },
+      { "letter": "B", "text": "About 2.8%.", "isCorrect": false },
+      { "letter": "C", "text": "About 4.4%.", "isCorrect": true },
+      { "letter": "D", "text": "About 8.8%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 52,
+    "caseText": null,
+    "questionText": "Which of the following is given as an example of «green prescribing»?",
+    "explanation": "The text states: «metered-dose inhalers contain potent greenhouse gases as propellants, while dry-powder inhalers do not.» Choosing dry-powder inhalers over metered-dose inhalers when equally effective is the example of green prescribing. Option B captures this. Option A says prescribing herbal medicine. Option C says reducing the number of prescriptions. Option D says using only generic medications.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Prescribing herbal medicine instead of pharmaceutical drugs.", "isCorrect": false },
+      { "letter": "B", "text": "Choosing dry-powder inhalers instead of metered-dose inhalers for asthma patients.", "isCorrect": true },
+      { "letter": "C", "text": "Reducing the total number of prescriptions a doctor writes per day.", "isCorrect": false },
+      { "letter": "D", "text": "Using only generic medications to reduce pharmaceutical manufacturing.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 53,
+    "caseText": null,
+    "questionText": "By what year has the NHS in England committed to achieving net-zero for its full supply chain?",
+    "explanation": "The text states: «net-zero national health service by 2040 for direct emissions and 2045 for its full supply chain.» The full supply chain target is 2045. Option C matches. Option A says 2030. Option B says 2040 (direct emissions only). Option D says 2050.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "2030.", "isCorrect": false },
+      { "letter": "B", "text": "2040.", "isCorrect": false },
+      { "letter": "C", "text": "2045.", "isCorrect": true },
+      { "letter": "D", "text": "2050.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 54,
+    "caseText": null,
+    "questionText": "How do advocates respond to the criticism that environmental concerns could compromise patient care?",
+    "explanation": "The text states: «Advocates counter that planetary health and patient health are not in conflict: a healthcare system that degrades the environmental conditions necessary for human life is ultimately self-defeating.» Option A captures this argument. Option B says they agree. Option C says they suggest reducing the number of patients. Option D says they propose separate budgets.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "They argue that a healthcare system that damages the environment ultimately harms patients, so both goals are aligned.", "isCorrect": true },
+      { "letter": "B", "text": "They agree that the environment should come second to patient care.", "isCorrect": false },
+      { "letter": "C", "text": "They suggest reducing the number of patients treated to save resources.", "isCorrect": false },
+      { "letter": "D", "text": "They propose that environmental programs should have separate budgets from healthcare.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 55,
+    "caseText": null,
+    "questionText": "The word «paradoxically» in the first paragraph suggests that:",
+    "explanation": "«Paradoxically» indicates a contradiction or something unexpected. The text says healthcare «contributes significantly to the environmental degradation that ultimately harms human health.» This is paradoxical because healthcare's purpose is to protect health, yet it contributes to damaging it. Option C captures this contradiction. Option A says it is obvious. Option B says it is unproven. Option D says it is irrelevant.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "The connection between healthcare and environmental damage is obvious and expected.", "isCorrect": false },
+      { "letter": "B", "text": "The claim about healthcare and pollution is unproven and controversial.", "isCorrect": false },
+      { "letter": "C", "text": "It is contradictory that healthcare, which aims to protect health, contributes to environmental damage that harms health.", "isCorrect": true },
+      { "letter": "D", "text": "The environmental impact of healthcare is too small to be relevant.", "isCorrect": false }
+    ]
+  }
+]

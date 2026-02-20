@@ -31,7 +31,9 @@ export async function GET() {
   const ranked = students
     .map((s) => {
       const completedDays = s.audioProgress.length;
-      const quizzesPassed = s.quizAttempts.filter((q) => q.score >= 2).length;
+      const quizzesPassed = s.quizAttempts.filter(
+        (q) => q.score >= Math.ceil(q.totalQuestions * 0.67)
+      ).length;
       const score = completedDays * 10 + quizzesPassed * 5 + (s.streak?.currentStreak || 0) * 3;
 
       // ECG rhythm based on quiz performance + activity

@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "En una clínica privada de Bogotá, un enfermero descubre que el director médico ha estado facturando procedimientos que nunca se realizaron a pacientes del régimen subsidiado, cobrando a la ADRES. El enfermero documenta las irregularidades y presenta una denuncia ante la Superintendencia Nacional de Salud y la Fiscalía General de la Nación.\n\n(Redacción Study2One, con referencia a la Ley 1474 de 2011 — Estatuto Anticorrupción)",
+    "questionText": "Según la Ley 1474 de 2011, ¿qué protección le corresponde al enfermero que denuncia estas irregularidades?",
+    "explanation": "La Ley 1474 de 2011 (Estatuto Anticorrupción) establece mecanismos de protección para los denunciantes de actos de corrupción, incluyendo reserva de identidad y medidas contra represalias laborales. El denunciante no asume responsabilidad por denunciar de buena fe, y las entidades receptoras deben garantizar su protección.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "No tiene protección especial porque no es funcionario público.", "isCorrect": false },
+      { "letter": "B", "text": "Debe asumir la responsabilidad penal si la denuncia no prospera.", "isCorrect": false },
+      { "letter": "C", "text": "Tiene derecho a reserva de identidad y protección contra represalias laborales.", "isCorrect": true },
+      { "letter": "D", "text": "Solo puede denunciar si obtiene autorización previa del comité de ética de la clínica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "Un profesional de salud que denuncia irregularidades en su institución es despedido al día siguiente sin justa causa. Desde la perspectiva del derecho laboral y la protección al denunciante, ¿qué mecanismo jurídico puede utilizar?",
+    "explanation": "La acción de tutela procede para proteger derechos fundamentales vulnerados, como el debido proceso y la estabilidad laboral reforzada del denunciante. La Corte Constitucional ha reconocido que el despido retaliatorio por denuncia de corrupción vulnera garantías constitucionales (arts. 25 y 29 C.P.).",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Interponer una acción de tutela por vulneración al debido proceso y estabilidad laboral reforzada.", "isCorrect": true },
+      { "letter": "B", "text": "Presentar una acción popular ante el tribunal contencioso-administrativo.", "isCorrect": false },
+      { "letter": "C", "text": "Solicitar indemnización directamente a la Superintendencia de Salud.", "isCorrect": false },
+      { "letter": "D", "text": "Esperar el resultado de la investigación penal para luego demandar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Durante la pandemia de COVID-19, un hospital de segundo nivel en Cúcuta tiene 5 ventiladores mecánicos disponibles y 12 pacientes en falla respiratoria grave que los necesitan. El comité de ética hospitalaria debe establecer criterios para asignar los ventiladores.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál de los siguientes criterios es éticamente más justificable para la asignación de un recurso escaso como los ventiladores?",
+    "explanation": "En situaciones de triaje con recursos escasos, los principios bioéticos priorizan la probabilidad de supervivencia con tratamiento (criterio de utilidad médica), buscando maximizar el número de vidas salvadas. Criterios como edad cronológica aislada, estrato socioeconómico o antigüedad de afiliación son discriminatorios y violan el principio de justicia.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Priorizar a los pacientes más jóvenes independientemente de su pronóstico clínico.", "isCorrect": false },
+      { "letter": "B", "text": "Asignar según la probabilidad de supervivencia con tratamiento, evaluada clínicamente.", "isCorrect": true },
+      { "letter": "C", "text": "Dar prioridad a los pacientes del régimen contributivo sobre los del subsidiado.", "isCorrect": false },
+      { "letter": "D", "text": "Asignar por orden de llegada, sin considerar criterios clínicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "El mismo hospital de Cúcuta decide que, ante la escasez de ventiladores, los profesionales de salud contagiados tendrán prioridad absoluta sobre cualquier otro paciente, argumentando que su recuperación permite salvar más vidas a largo plazo.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la principal objeción ética contra la priorización absoluta de profesionales de salud en el triaje de recursos escasos?",
+    "explanation": "Aunque existe un argumento utilitarista instrumental (recuperar trabajadores de salud para atender más pacientes), la priorización «absoluta» de un grupo laboral viola el principio de igualdad ante la ley (art. 13 C.P.). La bioética recomienda que el estatus laboral sea un criterio de desempate, no un criterio absoluto que desplace toda consideración clínica.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Los profesionales de salud no se enferman con la misma gravedad que otros pacientes.", "isCorrect": false },
+      { "letter": "B", "text": "Viola el principio de igualdad al privilegiar un grupo laboral por encima de criterios clínicos.", "isCorrect": true },
+      { "letter": "C", "text": "El argumento utilitarista nunca es válido en contextos de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Solo los comités de bioética nacionales pueden tomar estas decisiones.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Una universidad colombiana realiza un ensayo clínico con un nuevo fármaco para tratar la hipertensión arterial. Los participantes son estudiantes de bajos recursos que reciben una compensación económica por participar. El consentimiento informado está redactado en lenguaje técnico y tiene 15 páginas.\n\n(Redacción Study2One, con referencia a la Resolución 8430 de 1993)",
+    "questionText": "Según la Resolución 8430 de 1993, ¿cuál aspecto del consentimiento informado presenta la mayor deficiencia ética?",
+    "explanation": "La Resolución 8430 de 1993 (art. 15-16) exige que el consentimiento informado sea comprensible para el participante. Un documento de 15 páginas en lenguaje técnico no garantiza la comprensión real, vulnerando la autonomía del participante. La compensación económica a personas de bajos recursos también plantea riesgos de coerción, pero la deficiencia más directa es la incomprensibilidad del consentimiento.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La extensión del documento, que debería tener máximo 3 páginas por ley.", "isCorrect": false },
+      { "letter": "B", "text": "El lenguaje técnico que impide la comprensión real y la toma de decisión autónoma del participante.", "isCorrect": true },
+      { "letter": "C", "text": "El hecho de que se realice en una universidad y no en un hospital.", "isCorrect": false },
+      { "letter": "D", "text": "La participación de estudiantes, quienes nunca pueden ser sujetos de investigación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "Un laboratorio farmacéutico internacional propone a un hospital público de Bucaramanga un ensayo clínico fase III para un medicamento oncológico. El protocolo indica que el grupo control recibirá placebo, aunque ya existe un tratamiento estándar disponible para esa patología en Colombia.\n\n(Redacción Study2One, con referencia a la Declaración de Helsinki)",
+    "questionText": "¿Por qué el uso de placebo en el grupo control es éticamente cuestionable en este caso?",
+    "explanation": "La Declaración de Helsinki (art. 33) establece que el uso de placebo solo es aceptable cuando no existe un tratamiento probado. Cuando ya hay un tratamiento estándar disponible, el grupo control debe recibir la mejor intervención existente. Negar un tratamiento conocido para comparar con placebo expone a los participantes a daños evitables, violando el principio de no maleficencia.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Porque el placebo nunca es aceptable en ensayos clínicos, independientemente de las circunstancias.", "isCorrect": false },
+      { "letter": "B", "text": "Porque existe un tratamiento estándar y negar acceso a él expone al grupo control a daño evitable.", "isCorrect": true },
+      { "letter": "C", "text": "Porque los pacientes oncológicos no pueden participar en investigaciones.", "isCorrect": false },
+      { "letter": "D", "text": "Porque el laboratorio es internacional y debe seguir las normas de su país de origen.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Una paciente diagnosticada con cáncer de mama en un hospital de Medellín solicita una segunda opinión médica en otra institución. Su EPS le niega la solicitud argumentando que ya tiene un especialista asignado y que una segunda opinión generaría costos innecesarios.\n\n(Redacción Study2One, con referencia a la Ley 1751 de 2015)",
+    "questionText": "Según la Ley 1751 de 2015 (Ley Estatutaria de Salud), ¿tiene la paciente derecho a una segunda opinión médica?",
+    "explanation": "La Ley 1751 de 2015 (art. 10, literal g) reconoce expresamente el derecho de los pacientes a solicitar y recibir una segunda opinión médica. Este derecho forma parte de la autonomía del paciente y contribuye a una toma de decisiones informada. La EPS no puede negarlo argumentando costos.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "No, la segunda opinión solo procede cuando el paciente tiene un diagnóstico terminal.", "isCorrect": false },
+      { "letter": "B", "text": "Sí, pero únicamente si el paciente asume la totalidad del costo de la consulta.", "isCorrect": false },
+      { "letter": "C", "text": "Sí, la Ley 1751 reconoce el derecho a una segunda opinión como parte de la autonomía del paciente.", "isCorrect": true },
+      { "letter": "D", "text": "No, la segunda opinión solo es obligatoria en procedimientos quirúrgicos de alto riesgo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Colombia se ha convertido en un destino de turismo en salud, especialmente para cirugías estéticas y procedimientos odontológicos. Pacientes extranjeros viajan desde Estados Unidos y Europa para realizarse procedimientos a menor costo. Un hospital en Cartagena destina el 40 % de sus quirófanos a pacientes internacionales, reduciendo la disponibilidad para la población local.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva del derecho a la salud como derecho fundamental en Colombia, ¿cuál es la principal preocupación con esta situación?",
+    "explanation": "Si bien el turismo en salud genera ingresos económicos, la reducción de capacidad instalada para la población local puede vulnerar el derecho fundamental a la salud de los colombianos (art. 49 C.P. y Ley 1751 de 2015). El principio de disponibilidad exige que existan suficientes recursos para atender las necesidades de la población.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Los pacientes extranjeros no deberían poder acceder al sistema de salud colombiano.", "isCorrect": false },
+      { "letter": "B", "text": "La reducción de capacidad para la población local puede vulnerar su derecho a la disponibilidad de servicios de salud.", "isCorrect": true },
+      { "letter": "C", "text": "El turismo en salud es ilegal en Colombia porque la salud es un servicio público.", "isCorrect": false },
+      { "letter": "D", "text": "Los hospitales públicos nunca deberían atender pacientes extranjeros.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "La Ley 1448 de 2011 (Ley de Víctimas y Restitución de Tierras) establece medidas de atención, asistencia y reparación integral a las víctimas del conflicto armado interno en Colombia. Entre estas medidas se incluye la atención en salud con enfoque diferencial.\n\n(Redacción Study2One, con referencia a la Ley 1448 de 2011)",
+    "questionText": "El «enfoque diferencial» en la atención en salud a víctimas del conflicto armado significa que:",
+    "explanation": "El enfoque diferencial, según la Ley 1448 de 2011 (art. 13), reconoce que existen poblaciones con características particulares (etnia, género, edad, discapacidad, orientación sexual) que requieren atención adaptada a sus necesidades específicas. No se trata de uniformar sino de reconocer diferencias para garantizar equidad real.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Todas las víctimas reciben exactamente el mismo tipo de atención sin distinción.", "isCorrect": false },
+      { "letter": "B", "text": "Solo las víctimas de desplazamiento tienen derecho a atención en salud.", "isCorrect": false },
+      { "letter": "C", "text": "La atención se adapta a las características y necesidades particulares de cada grupo poblacional.", "isCorrect": true },
+      { "letter": "D", "text": "Las víctimas solo pueden ser atendidas en centros especializados del gobierno, no en EPS.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "En la región del Catatumbo (Norte de Santander), miles de familias desplazadas por el conflicto armado viven en asentamientos informales sin acceso a agua potable, saneamiento básico ni servicios de salud. Muchos niños presentan desnutrición crónica y enfermedades respiratorias recurrentes. Las entidades territoriales argumentan que no tienen presupuesto suficiente para atender esta población.\n\n(Redacción Study2One, con referencia a la Ley 1448 de 2011 y la Sentencia T-025 de 2004)",
+    "questionText": "Según la Sentencia T-025 de 2004 de la Corte Constitucional, ¿qué declaró la Corte respecto a la situación de la población desplazada?",
+    "explanation": "La Sentencia T-025 de 2004 declaró un «estado de cosas inconstitucional» por la vulneración masiva y sistemática de derechos de la población desplazada. Esto implica que el Estado tiene obligaciones reforzadas y no puede excusarse en limitaciones presupuestales para dejar de atender a esta población. Ordenó a múltiples entidades adoptar medidas concretas.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Que la atención a desplazados es responsabilidad exclusiva de organismos internacionales.", "isCorrect": false },
+      { "letter": "B", "text": "Un estado de cosas inconstitucional por la vulneración masiva de derechos de la población desplazada.", "isCorrect": true },
+      { "letter": "C", "text": "Que los desplazados deben retornar a sus lugares de origen para recibir atención.", "isCorrect": false },
+      { "letter": "D", "text": "Que las entidades territoriales pueden priorizar otros gastos si el presupuesto es insuficiente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "Una comunidad afrocolombiana del municipio de Tumaco denuncia que una empresa minera está vertiendo mercurio en el río del cual obtienen agua para consumo y riego. Varios niños de la comunidad presentan síntomas neurológicos compatibles con intoxicación por metales pesados. La empresa argumenta que cumple con los estándares ambientales vigentes.\n\n(Redacción Study2One)",
+    "questionText": "Desde el concepto de justicia ambiental, ¿qué principio se vulnera cuando las comunidades más afectadas por la contaminación son históricamente las más vulnerables?",
+    "explanation": "La justicia ambiental señala que los impactos ambientales negativos (contaminación, exposición a tóxicos) recaen desproporcionadamente sobre comunidades vulnerables: minorías étnicas, poblaciones de bajos ingresos. Esto constituye una forma de discriminación ambiental que profundiza desigualdades preexistentes en salud y bienestar.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "El principio de competitividad económica regional.", "isCorrect": false },
+      { "letter": "B", "text": "El principio de distribución equitativa de cargas ambientales, que prohíbe la discriminación ambiental.", "isCorrect": true },
+      { "letter": "C", "text": "El principio de soberanía empresarial sobre los recursos naturales.", "isCorrect": false },
+      { "letter": "D", "text": "El principio de responsabilidad individual de cada habitante sobre su salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "En Colombia, ¿cuál mecanismo constitucional protege los derechos colectivos relacionados con el medio ambiente sano cuando una comunidad es afectada por contaminación industrial?",
+    "explanation": "La acción popular (art. 88 C.P., desarrollada por la Ley 472 de 1998) es el mecanismo para proteger derechos e intereses colectivos, como el medio ambiente sano (art. 79 C.P.), la salubridad pública y el equilibrio ecológico. Se diferencia de la tutela, que protege derechos individuales fundamentales.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "La acción de tutela, porque la salud es un derecho fundamental.", "isCorrect": false },
+      { "letter": "B", "text": "La acción popular, que protege derechos colectivos como el medio ambiente sano.", "isCorrect": true },
+      { "letter": "C", "text": "El derecho de petición ante la empresa contaminante.", "isCorrect": false },
+      { "letter": "D", "text": "La acción de cumplimiento ante el Ministerio de Ambiente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Los médicos residentes de un hospital universitario en Cali anuncian un cese de actividades (huelga) para protestar por jornadas laborales de más de 66 horas semanales, salarios impagos durante meses y condiciones inseguras de trabajo. El hospital atiende a una población de referencia de 300.000 personas y es el único centro de trauma de la región.\n\n(Redacción Study2One)",
+    "questionText": "Desde una perspectiva que considere tanto los derechos laborales como el derecho a la salud, ¿cuál sería la posición más equilibrada?",
+    "explanation": "El derecho a la huelga es constitucional (art. 56 C.P.), pero en servicios esenciales como la salud debe garantizarse un servicio mínimo que preserve la vida de los pacientes. La posición equilibrada reconoce ambos derechos sin anular ninguno: los trabajadores pueden protestar manteniendo la atención de urgencias vitales.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Los médicos no tienen derecho a huelga porque la salud es un servicio esencial.", "isCorrect": false },
+      { "letter": "B", "text": "Los médicos pueden ejercer la huelga garantizando un servicio mínimo de atención vital.", "isCorrect": true },
+      { "letter": "C", "text": "La huelga es totalmente legítima sin necesidad de mantener ningún servicio.", "isCorrect": false },
+      { "letter": "D", "text": "El hospital debe contratar reemplazos temporales y despedir a los huelguistas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Durante la huelga de los médicos residentes, un paciente con infarto agudo de miocardio llega a urgencias. Los residentes en huelga se niegan a atenderlo argumentando que están ejerciendo su derecho constitucional al cese de actividades.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál argumento ético y jurídico prevalece en esta situación de emergencia?",
+    "explanation": "Aunque el derecho a la huelga tiene rango constitucional, ante una emergencia vital prevalece el derecho a la vida (art. 11 C.P.) y la obligación ética del profesional de salud de prestar atención de urgencias. La Ley 1751 de 2015 (art. 14) prohíbe negar la atención de urgencias por cualquier motivo. La objeción laboral no aplica ante riesgo inminente de muerte.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El derecho a la huelga, porque es un derecho fundamental irrenunciable.", "isCorrect": false },
+      { "letter": "B", "text": "El derecho del paciente a la atención de urgencias, porque la vida prevalece sobre el cese de actividades.", "isCorrect": true },
+      { "letter": "C", "text": "Ninguno prevalece; ambos derechos son igualmente importantes y se anulan mutuamente.", "isCorrect": false },
+      { "letter": "D", "text": "El derecho del hospital a decidir qué pacientes atender durante la huelga.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "Un laboratorio farmacéutico lanza una campaña de marketing dirigida a médicos generales, ofreciendo viajes y bonificaciones económicas a quienes prescriban su nuevo antihipertensivo. El medicamento es más costoso que las alternativas genéricas disponibles y no ha demostrado superioridad clínica en estudios independientes.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál principio de la ética médica se ve comprometido cuando un médico acepta incentivos de un laboratorio para prescribir un medicamento específico?",
+    "explanation": "La independencia profesional del médico exige que las decisiones de prescripción se basen exclusivamente en la evidencia científica y el mejor interés del paciente. Aceptar incentivos económicos genera un conflicto de interés que compromete la objetividad clínica y puede llevar a prescripciones innecesarias o más costosas sin beneficio adicional para el paciente.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El principio de confidencialidad, porque el laboratorio conoce los datos de los pacientes.", "isCorrect": false },
+      { "letter": "B", "text": "El principio de independencia profesional y la obligación de prescribir según la evidencia.", "isCorrect": true },
+      { "letter": "C", "text": "El principio de solidaridad, porque el médico no comparte los beneficios con colegas.", "isCorrect": false },
+      { "letter": "D", "text": "El principio de eficiencia administrativa del sistema de salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Un visitador médico de un laboratorio ofrece a una médica rural financiarle la asistencia a un congreso internacional a cambio de que prescriba exclusivamente los productos de su laboratorio durante un año. La médica trabaja en un municipio donde los medicamentos genéricos son la única opción accesible para la mayoría de los pacientes.\n\n(Redacción Study2One)",
+    "questionText": "Si la médica acepta la oferta y prescribe exclusivamente medicamentos de marca de ese laboratorio, ¿qué consecuencia sistémica tendría para los pacientes del municipio?",
+    "explanation": "En un municipio rural donde los pacientes dependen de medicamentos genéricos por su menor costo, la prescripción exclusiva de medicamentos de marca más costosos reduciría la accesibilidad económica al tratamiento. Muchos pacientes podrían no adquirir los medicamentos prescritos, generando abandono terapéutico e inequidad en el acceso a la salud.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Mejoraría la calidad de la atención porque los medicamentos de marca son siempre superiores.", "isCorrect": false },
+      { "letter": "B", "text": "No tendría ningún impacto porque los pacientes pueden elegir comprar genéricos por su cuenta.", "isCorrect": false },
+      { "letter": "C", "text": "Reduciría la accesibilidad económica al tratamiento y aumentaría el abandono terapéutico.", "isCorrect": true },
+      { "letter": "D", "text": "Obligaría al municipio a ampliar su presupuesto de salud para cubrir los medicamentos de marca.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Una madre solicita a un hospital pediátrico de Barranquilla acceso a un tratamiento experimental con terapia génica para su hijo de 8 años diagnosticado con distrofia muscular de Duchenne. El tratamiento no está aprobado por el INVIMA, pero ha mostrado resultados prometedores en ensayos clínicos fase II en Estados Unidos.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva del «derecho a intentar» (right to try), ¿cuál es el principal argumento a favor de permitir el acceso al tratamiento experimental?",
+    "explanation": "El argumento central del «derecho a intentar» es que, cuando se han agotado las opciones terapéuticas convencionales y existe una enfermedad grave o terminal, el paciente (o su representante legal) tiene derecho a acceder a tratamientos experimentales como expresión de su autonomía. La Corte Constitucional colombiana ha ordenado en casos específicos el acceso a medicamentos no incluidos en el plan cuando la vida está en riesgo.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Los tratamientos experimentales son siempre más efectivos que los convencionales.", "isCorrect": false },
+      { "letter": "B", "text": "Ante una enfermedad sin tratamiento convencional efectivo, la autonomía del paciente justifica el acceso a opciones experimentales.", "isCorrect": true },
+      { "letter": "C", "text": "El INVIMA no tiene autoridad para regular tratamientos de origen internacional.", "isCorrect": false },
+      { "letter": "D", "text": "Los hospitales pediátricos están exentos de las regulaciones del INVIMA.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "¿Cuál es el principal riesgo ético asociado al acceso a tratamientos experimentales fuera del contexto de un ensayo clínico regulado?",
+    "explanation": "Los ensayos clínicos regulados incluyen protocolos de seguridad, comités de ética, consentimiento informado riguroso y monitoreo de eventos adversos. Fuera de este marco, el paciente queda expuesto a riesgos no monitoreados adecuadamente, sin las garantías de seguridad que ofrece la investigación regulada, y con información incompleta sobre efectos secundarios.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El paciente podría curarse y eso afectaría las ganancias de la industria farmacéutica.", "isCorrect": false },
+      { "letter": "B", "text": "El paciente se expone a riesgos no monitoreados y sin las garantías de seguridad de la investigación regulada.", "isCorrect": true },
+      { "letter": "C", "text": "Los médicos que administran tratamientos experimentales pierden su licencia automáticamente.", "isCorrect": false },
+      { "letter": "D", "text": "El sistema de salud tendría que cubrir todos los tratamientos experimentales que existan.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Un paciente de 78 años con demencia avanzada es ingresado a la UCI con neumonía severa. No tiene documento de voluntad anticipada. Su hijo mayor insiste en que se apliquen todas las medidas invasivas posibles, mientras su hija argumenta que su padre expresó verbalmente en múltiples ocasiones que no deseaba «ser conectado a máquinas». El comité de ética del hospital debe resolver el conflicto.\n\n(Redacción Study2One, con referencia a la Ley 1733 de 2014)",
+    "questionText": "Según la Ley 1733 de 2014 (Ley Consuelo Devis Saavedra) sobre cuidados paliativos y decisiones al final de la vida, ¿qué criterio debería guiar la decisión del comité de ética?",
+    "explanation": "La Ley 1733 de 2014 reconoce el derecho a una muerte digna y la importancia de las voluntades anticipadas. Cuando no existe documento formal, el comité de ética debe intentar reconstruir la voluntad del paciente considerando testimonios familiares, el mejor interés del paciente y el principio de proporcionalidad terapéutica. La decisión no recae en un solo familiar.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La decisión corresponde exclusivamente al hijo mayor por ser el primogénito.", "isCorrect": false },
+      { "letter": "B", "text": "Siempre se deben aplicar todas las medidas invasivas posibles para preservar la vida.", "isCorrect": false },
+      { "letter": "C", "text": "Se debe reconstruir la voluntad del paciente considerando testimonios y el principio de proporcionalidad terapéutica.", "isCorrect": true },
+      { "letter": "D", "text": "Sin documento de voluntad anticipada, la decisión corresponde únicamente al médico tratante.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "Una familia evangélica lleva a su hija de 4 años con apendicitis aguda al servicio de urgencias. Los padres se niegan a autorizar la cirugía argumentando que su fe les indica que Dios sanará a la niña. El cirujano considera que sin intervención quirúrgica la niña podría desarrollar peritonitis y morir.\n\n(Redacción Study2One)",
+    "questionText": "Ante la negativa de los padres a autorizar la cirugía de su hija menor de edad, ¿cuál es la conducta jurídica y éticamente correcta del equipo médico?",
+    "explanation": "Cuando se trata de un menor de edad cuya vida está en riesgo inminente, los derechos del niño prevalecen sobre las creencias religiosas de los padres (art. 44 C.P.: los derechos de los niños prevalecen sobre los de los demás). El médico puede solicitar autorización judicial de emergencia o, ante riesgo vital inminente, proceder con el tratamiento necesario para preservar la vida del menor.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Respetar la decisión de los padres porque la libertad religiosa es un derecho fundamental.", "isCorrect": false },
+      { "letter": "B", "text": "Solicitar autorización judicial o proceder con la cirugía, porque los derechos del menor prevalecen.", "isCorrect": true },
+      { "letter": "C", "text": "Esperar a que la niña empeore para justificar la intervención como emergencia.", "isCorrect": false },
+      { "letter": "D", "text": "Dar de alta a la paciente y registrar la negativa de los padres en la historia clínica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Un adulto de 45 años, testigo de Jehová, es ingresado consciente al hospital con hemorragia gastrointestinal severa. Presenta un documento de voluntad anticipada donde rechaza transfusiones sanguíneas bajo cualquier circunstancia. El médico tratante le explica que sin la transfusión podría morir. El paciente, plenamente consciente, ratifica su decisión.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la diferencia ética fundamental entre este caso y el de la niña de 4 años del caso anterior?",
+    "explanation": "La diferencia fundamental es la autonomía: un adulto competente tiene derecho a rechazar tratamientos, incluso vitales, como expresión de su autonomía (art. 16 C.P., libertad de conciencia). Un menor de edad no tiene capacidad legal para tomar decisiones médicas, y sus padres no pueden ejercer esa autonomía de forma que ponga en riesgo la vida del menor (art. 44 C.P., prevalencia de derechos del niño).",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "No hay diferencia; en ambos casos la vida prevalece sobre las creencias religiosas.", "isCorrect": false },
+      { "letter": "B", "text": "El adulto competente puede rechazar tratamientos autónomamente; los padres no pueden rechazar tratamientos vitales para un menor.", "isCorrect": true },
+      { "letter": "C", "text": "La diferencia es solo religiosa: los testigos de Jehová tienen protección especial que los evangélicos no tienen.", "isCorrect": false },
+      { "letter": "D", "text": "En ambos casos el médico debe realizar el procedimiento sin importar la voluntad del paciente o los padres.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Un médico de un municipio rural del Putumayo ofrece consultas de telemedicina a pacientes ubicados en veredas alejadas sin acceso a transporte. Un paciente con dolor torácico agudo se comunica por videollamada. El médico sospecha un síndrome coronario agudo pero no puede realizar un electrocardiograma ni tomar muestras de laboratorio de manera remota.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la principal limitación ética y clínica de la telemedicina en situaciones de emergencia como esta?",
+    "explanation": "La telemedicina tiene limitaciones inherentes en emergencias que requieren intervención física directa: no permite examen físico completo, pruebas diagnósticas ni procedimientos terapéuticos. Esto genera un riesgo de diagnóstico incompleto y demora en el tratamiento. El consentimiento informado en telemedicina debe incluir la advertencia de estas limitaciones.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La telemedicina es ilegal en Colombia para situaciones de emergencia.", "isCorrect": false },
+      { "letter": "B", "text": "La imposibilidad de realizar examen físico y pruebas diagnósticas limita la capacidad de diagnóstico y tratamiento oportuno.", "isCorrect": true },
+      { "letter": "C", "text": "El médico no tiene responsabilidad legal sobre lo que ocurra al paciente en telemedicina.", "isCorrect": false },
+      { "letter": "D", "text": "La videollamada garantiza la misma calidad de atención que la consulta presencial.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Una plataforma de telemedicina con sede en Bogotá ofrece consultas con médicos colombianos a pacientes residentes en Venezuela, quienes pagan directamente por el servicio. Los médicos prescriben medicamentos colombianos que los pacientes adquieren a través de intermediarios transfronterizos.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el principal problema jurisdiccional de esta práctica de telemedicina transfronteriza?",
+    "explanation": "La práctica médica está regulada por la legislación del país donde se presta el servicio y donde reside el paciente. Cuando un médico colombiano atiende a un paciente en Venezuela, surgen conflictos sobre qué normativa aplica, quién responde por eventos adversos, y si las prescripciones colombianas tienen validez legal en Venezuela. La Resolución 2654 de 2019 regula la telemedicina en Colombia pero no contempla la atención transfronteriza.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Los médicos colombianos no pueden ejercer telemedicina bajo ninguna circunstancia.", "isCorrect": false },
+      { "letter": "B", "text": "La incertidumbre sobre la legislación aplicable, la responsabilidad médico-legal y la validez de prescripciones entre jurisdicciones.", "isCorrect": true },
+      { "letter": "C", "text": "Venezuela debe adoptar la regulación colombiana en telemedicina por proximidad geográfica.", "isCorrect": false },
+      { "letter": "D", "text": "No existe ningún problema si el paciente paga directamente por el servicio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Una auditoría de la Contraloría General de la República revela que en un departamento colombiano, el 35 % de los recursos destinados a salud fueron desviados a contratos ficticios durante los últimos 3 años. Como consecuencia, dos hospitales públicos cerraron sus puertas y la mortalidad infantil del departamento aumentó un 40 %.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "La relación entre la corrupción en el sector salud y el aumento de la mortalidad infantil ilustra que:",
+    "explanation": "La corrupción en el sector salud no es solo un problema administrativo o financiero: tiene consecuencias directas y medibles en la salud y la vida de las personas. La desviación de recursos públicos reduce la disponibilidad de servicios, medicamentos e infraestructura, afectando desproporcionadamente a las poblaciones más vulnerables (niños, ancianos, población rural).",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "La mortalidad infantil depende exclusivamente de factores genéticos y no de la inversión en salud.", "isCorrect": false },
+      { "letter": "B", "text": "La corrupción en salud tiene consecuencias directas sobre la morbimortalidad de la población.", "isCorrect": true },
+      { "letter": "C", "text": "La Contraloría es responsable de la mortalidad infantil por no actuar antes.", "isCorrect": false },
+      { "letter": "D", "text": "Los hospitales públicos cierran por falta de pacientes, no por falta de recursos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "¿Cuál de las siguientes situaciones constituye un acto de corrupción en el sector salud según la legislación colombiana?",
+    "explanation": "El cobro de «copagos» informales no autorizados (es decir, solicitar pagos adicionales ilegales al paciente) constituye peculado por apropiación o concusión, según corresponda. La Ley 1474 de 2011 tipifica como delito el cobro indebido de dinero a usuarios de servicios públicos. Solicitar exámenes necesarios y contratar especialistas son actos legítimos de la gestión hospitalaria.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Un hospital público que solicita exámenes de laboratorio a todos los pacientes de urgencias.", "isCorrect": false },
+      { "letter": "B", "text": "Un funcionario que cobra «copagos» informales no autorizados a pacientes del régimen subsidiado.", "isCorrect": true },
+      { "letter": "C", "text": "Un hospital que contrata médicos especialistas para mejorar la atención.", "isCorrect": false },
+      { "letter": "D", "text": "Una EPS que implementa programas de promoción y prevención en comunidades rurales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "En un debate académico, un estudiante argumenta: «La salud debe ser tratada como un bien de mercado, regulado por la oferta y la demanda, porque eso garantiza eficiencia y calidad. El Estado debe limitarse a subsidiar a los más pobres.» Otro estudiante responde: «La salud es un bien público y un derecho fundamental. Dejarla al mercado genera exclusión de quienes no pueden pagar, perpetuando las desigualdades.»\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la principal diferencia entre considerar la salud como un bien de mercado y como un bien público?",
+    "explanation": "Un bien de mercado se distribuye según la capacidad de pago (quien paga más, accede a mejor servicio). Un bien público/derecho fundamental implica que el acceso no depende de la capacidad económica sino de la necesidad. La Constitución colombiana (art. 49) y la Ley 1751 de 2015 consagran la salud como derecho fundamental, lo que implica universalidad en el acceso.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "No hay diferencia real; ambos enfoques buscan garantizar el acceso universal.", "isCorrect": false },
+      { "letter": "B", "text": "Como bien de mercado el acceso depende de la capacidad de pago; como bien público el acceso se basa en la necesidad.", "isCorrect": true },
+      { "letter": "C", "text": "La salud como bien público implica que solo el Estado puede prestar servicios de salud.", "isCorrect": false },
+      { "letter": "D", "text": "La salud como bien de mercado garantiza mayor calidad porque hay competencia entre proveedores.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Colombia tiene un sistema mixto de salud donde coexisten prestadores públicos y privados. Sin embargo, un informe ficticio señala que el 80 % de los especialistas médicos se concentra en las cinco principales ciudades, mientras que el 48 % de la población rural debe recorrer más de 4 horas para acceder a atención especializada.\n\n(Datos ficticios basados en tendencias reales — Redacción Study2One)",
+    "questionText": "Esta concentración de especialistas en grandes ciudades ilustra una falla del sistema de salud en el componente de:",
+    "explanation": "La accesibilidad geográfica es uno de los cuatro componentes de la accesibilidad según la OMS y la Ley 1751 de 2015. La concentración de recursos humanos en salud en grandes centros urbanos deja desatendidas las zonas rurales y dispersas, creando barreras geográficas que impiden el acceso efectivo a servicios de salud.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Calidad, porque los especialistas en ciudades grandes son menos competentes.", "isCorrect": false },
+      { "letter": "B", "text": "Aceptabilidad, porque la población rural rechaza la atención especializada.", "isCorrect": false },
+      { "letter": "C", "text": "Accesibilidad geográfica, porque la distancia impide el acceso efectivo a la atención.", "isCorrect": true },
+      { "letter": "D", "text": "Disponibilidad, porque no existen suficientes especialistas en todo el país.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Una comunidad indígena emberá del departamento de Risaralda solicita que la atención en salud en su resguardo incluya la participación de sus médicos tradicionales (jaibanás) junto con los profesionales del sistema occidental. La EPS asignada al resguardo responde que solo puede financiar atención con profesionales titulados del sistema convencional.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva del enfoque intercultural en salud, ¿cuál posición respeta mejor los derechos de la comunidad emberá?",
+    "explanation": "La Constitución colombiana reconoce la diversidad étnica y cultural (art. 7) y la autonomía de los pueblos indígenas (art. 246). La Ley 691 de 2001 regula la participación de los pueblos indígenas en el SGSSS e incluye la articulación con la medicina tradicional. Un enfoque intercultural no reemplaza un sistema por otro, sino que busca la articulación respetuosa entre ambos.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La EPS tiene razón porque solo la medicina occidental tiene evidencia científica.", "isCorrect": false },
+      { "letter": "B", "text": "La comunidad debe rechazar la medicina occidental y usar exclusivamente sus prácticas tradicionales.", "isCorrect": false },
+      { "letter": "C", "text": "Se debe articular la medicina tradicional con la occidental, respetando la autonomía cultural de la comunidad.", "isCorrect": true },
+      { "letter": "D", "text": "La medicina tradicional solo puede practicarse fuera de las instalaciones del sistema de salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Un grupo de familias venezolanas migrantes llega a Cúcuta sin documentos de identidad colombianos. Varios niños presentan fiebre alta y deshidratación severa. Acuden al hospital público, donde un funcionario administrativo les niega la atención argumentando que no están afiliados al SGSSS y no tienen documentos válidos.\n\n(Redacción Study2One, con referencia al Decreto 866 de 2017 y la Ley 1751 de 2015)",
+    "questionText": "Según la legislación colombiana, ¿es legal negar la atención de urgencias a migrantes sin documentos?",
+    "explanation": "La Ley 1751 de 2015 (art. 10) y la Sentencia T-210 de 2018 de la Corte Constitucional establecen que la atención de urgencias es un derecho universal que no puede condicionarse a la afiliación al sistema ni a la presentación de documentos. El Decreto 866 de 2017 reguló la atención en salud de migrantes irregulares, garantizando al menos la atención de urgencias.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Sí, porque solo los ciudadanos colombianos y residentes legales tienen derecho a la atención en salud.", "isCorrect": false },
+      { "letter": "B", "text": "No, la atención de urgencias es un derecho universal que no puede condicionarse a documentos ni afiliación.", "isCorrect": true },
+      { "letter": "C", "text": "Solo pueden recibir atención si el consulado de Venezuela garantiza el pago.", "isCorrect": false },
+      { "letter": "D", "text": "Deben ser atendidos únicamente por organizaciones humanitarias, no por el sistema público.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Una empresa cementera opera una planta a 500 metros de un barrio popular en Cartagena. Los residentes reportan altas tasas de enfermedades respiratorias, especialmente en niños y ancianos. Un estudio epidemiológico encuentra una correlación significativa entre la proximidad a la planta y la prevalencia de asma y enfermedad pulmonar obstructiva crónica (EPOC). La empresa presenta sus propios estudios que no encuentran relación causal.\n\n(Redacción Study2One)",
+    "questionText": "Cuando existen estudios contradictorios sobre el impacto ambiental en la salud, ¿cuál principio del derecho ambiental debe aplicarse para proteger a la comunidad?",
+    "explanation": "El principio de precaución (Ley 99 de 1993, art. 1, numeral 6) establece que cuando exista peligro de daño grave e irreversible, la falta de certeza científica absoluta no debe utilizarse como razón para postergar la adopción de medidas de protección. En salud ambiental, esto significa actuar preventivamente ante indicios de riesgo, sin esperar certeza absoluta.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El principio de libre empresa, que protege la operación industrial.", "isCorrect": false },
+      { "letter": "B", "text": "El principio de precaución, que exige medidas de protección ante indicios razonables de riesgo.", "isCorrect": true },
+      { "letter": "C", "text": "El principio de confianza legítima, que protege a la empresa que ya tenía licencia.", "isCorrect": false },
+      { "letter": "D", "text": "El principio de buena fe, que obliga a creer en los estudios presentados por la empresa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Un paciente de 60 años con insuficiencia renal crónica terminal necesita diálisis tres veces por semana. Vive en una vereda del departamento de Nariño a 6 horas de la unidad renal más cercana. El traslado constante pone en riesgo su vida por las condiciones de las vías. Su EPS le ofrece telemedicina como alternativa, pero la diálisis requiere atención presencial.\n\n(Redacción Study2One)",
+    "questionText": "Este caso ilustra la interacción entre múltiples barreras de acceso a la salud. ¿Cuáles barreras se identifican simultáneamente?",
+    "explanation": "El caso combina barreras geográficas (distancia de 6 horas, condiciones de vías), tecnológicas (la telemedicina no sustituye la diálisis presencial) y de disponibilidad (no existe unidad renal cercana). Esta intersección de barreras es característica de las inequidades en salud en zonas rurales dispersas de Colombia, donde un solo tipo de solución es insuficiente.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Solo barrera geográfica, que se resuelve con mejor infraestructura vial.", "isCorrect": false },
+      { "letter": "B", "text": "Solo barrera tecnológica, que se resuelve mejorando la conectividad de internet.", "isCorrect": false },
+      { "letter": "C", "text": "Barreras geográficas, tecnológicas y de disponibilidad de servicios que interactúan y se refuerzan mutuamente.", "isCorrect": true },
+      { "letter": "D", "text": "Solo barrera económica, porque el paciente no puede pagar el transporte.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "En un municipio costero del Pacífico colombiano, una empresa de palma aceitera ha contaminado las fuentes hídricas con agroquímicos. La comunidad afrocolombiana local depende de estos ríos para consumo humano, pesca y actividades productivas. La tasa de enfermedades gastrointestinales se ha triplicado en los últimos 5 años. La Defensoría del Pueblo emite una alerta temprana, pero las autoridades locales no toman medidas porque la empresa es el principal empleador de la zona.\n\n(Redacción Study2One)",
+    "questionText": "Este caso ilustra un conflicto entre el desarrollo económico y la protección de la salud. ¿Qué perspectivas entran en tensión?",
+    "explanation": "El caso presenta una tensión genuina entre múltiples perspectivas legítimas: la salud pública y los derechos ambientales de la comunidad, el desarrollo económico y el empleo que genera la empresa, la autonomía territorial de las autoridades locales y las obligaciones constitucionales del Estado. El pensamiento multiperspectivista reconoce esta complejidad sin reducirla a una sola dimensión.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Solo hay una perspectiva válida: cerrar la empresa inmediatamente.", "isCorrect": false },
+      { "letter": "B", "text": "El desarrollo económico, la salud pública, los derechos ambientales y la autonomía territorial de las autoridades.", "isCorrect": true },
+      { "letter": "C", "text": "Solo el conflicto entre la empresa y la Defensoría del Pueblo.", "isCorrect": false },
+      { "letter": "D", "text": "No hay conflicto real porque la empresa cumple con generar empleo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Una investigación periodística revela que el gerente de un hospital público de categoría especial en una capital departamental tiene contratos simultáneos con tres empresas proveedoras de insumos médicos que pertenecen a sus familiares. Los precios de los insumos adquiridos son un 60 % superiores al promedio del mercado.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el impacto sistémico de este tipo de corrupción sobre el acceso a servicios de salud?",
+    "explanation": "El sobrecosto del 60 % en insumos significa que el hospital destina una porción desproporcionada de su presupuesto a compras infladas, reduciendo los recursos disponibles para contratación de personal, medicamentos, infraestructura y programas de salud pública. Este efecto cascada afecta la calidad y disponibilidad de servicios para toda la población atendida por el hospital.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "No tiene impacto porque los insumos igualmente llegan al hospital.", "isCorrect": false },
+      { "letter": "B", "text": "Los sobrecostos reducen los recursos disponibles para personal, medicamentos e infraestructura, afectando la atención.", "isCorrect": true },
+      { "letter": "C", "text": "Solo afecta al presupuesto administrativo, no a la atención clínica.", "isCorrect": false },
+      { "letter": "D", "text": "El impacto es exclusivamente legal y no afecta la prestación del servicio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Una mujer de 35 años, perteneciente a una comunidad indígena nasa del Cauca, es atendida en un hospital de Popayán tras un parto complicado. El equipo médico recomienda una histerectomía (extirpación del útero) por una hemorragia postparto grave. La paciente solicita que primero se realice un ritual de armonización con su médico tradicional (thê'wala) antes de tomar la decisión. La médica tratante considera que cada hora de retraso aumenta el riesgo vital.\n\n(Redacción Study2One)",
+    "questionText": "¿Cómo debería abordarse esta situación considerando tanto la urgencia médica como el respeto cultural?",
+    "explanation": "El enfoque intercultural no significa elegir entre cultura y medicina occidental. En una urgencia vital, el equipo médico debe explicar claramente la gravedad y el tiempo disponible, al mismo tiempo que busca formas de respetar la cosmovisión de la paciente (por ejemplo, permitir un breve ritual mientras se prepara el quirófano). La comunicación empática y culturalmente sensible es clave para lograr el consentimiento informado.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Proceder inmediatamente con la cirugía sin consultar a la paciente, porque la vida prevalece siempre.", "isCorrect": false },
+      { "letter": "B", "text": "Explicar la urgencia de manera culturalmente sensible y buscar formas de integrar la solicitud espiritual sin comprometer la vida.", "isCorrect": true },
+      { "letter": "C", "text": "Esperar el tiempo que la paciente solicite, independientemente del riesgo vital.", "isCorrect": false },
+      { "letter": "D", "text": "Solicitar al thê'wala que autorice el procedimiento en lugar de la paciente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "Un abogado presenta ante un juzgado una demanda colectiva en nombre de 200 familias de un barrio de Barrancabermeja. Las familias viven cerca de una refinería de petróleo y presentan tasas de cáncer tres veces superiores al promedio nacional. El abogado solicita al juez que ordene un estudio epidemiológico independiente, la reubicación de las familias y una indemnización por daños a la salud. La refinería argumenta que cumple con las normas ambientales vigentes y que no está probada la relación causal.\n\n(Redacción Study2One)",
+    "questionText": "Considerando los diferentes actores involucrados —familias, empresa, Estado, sistema judicial—, ¿cuál enfoque resolutivo integra mejor las múltiples perspectivas del conflicto?",
+    "explanation": "Un enfoque que integra múltiples perspectivas reconoce: (1) el derecho de las familias a un ambiente sano y a la salud, (2) la necesidad de evidencia científica independiente para establecer causalidad, (3) la responsabilidad del Estado en regulación y control ambiental, y (4) el debido proceso de la empresa. Ordenar un estudio independiente, establecer medidas cautelares y evaluar las responsabilidades de todos los actores es el enfoque más completo.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Cerrar inmediatamente la refinería y reubicar a las familias sin necesidad de más estudios.", "isCorrect": false },
+      { "letter": "B", "text": "Desestimar la demanda porque la empresa cumple con las normas ambientales vigentes.", "isCorrect": false },
+      { "letter": "C", "text": "Ordenar un estudio independiente, establecer medidas cautelares de protección y evaluar responsabilidades de todos los actores.", "isCorrect": true },
+      { "letter": "D", "text": "Remitir el caso exclusivamente a la autoridad ambiental y cerrar el proceso judicial.", "isCorrect": false }
+    ]
+  }
+]

@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Caso clínico: Mujer de 52 años consulta por debilidad muscular proximal progresiva de 3 meses de evolución, asociada a erupción violácea en párpados superiores (eritema heliotropo) y pápulas eritematosas sobre articulaciones metacarpofalángicas (pápulas de Gottron). Refiere disfagia ocasional. Los laboratorios muestran CK sérica de 4 500 U/L (normal < 200), LDH elevada y aldolasa elevada. ANA positivo 1:320.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El eritema heliotropo en párpados, las pápulas de Gottron en nudillos, la debilidad muscular proximal con elevación marcada de CK y disfagia conforman el cuadro clásico de dermatomiositis. La polimiositis carece de manifestaciones cutáneas. El lupus eritematoso sistémico puede elevar CK pero no produce pápulas de Gottron. La miastenia gravis no eleva enzimas musculares.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Polimiositis", "isCorrect": false },
+      { "letter": "B", "text": "Dermatomiositis", "isCorrect": true },
+      { "letter": "C", "text": "Lupus eritematoso sistémico", "isCorrect": false },
+      { "letter": "D", "text": "Miastenia gravis", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "Considerando la edad de la paciente y el diagnóstico, ¿cuál es la conducta adicional más importante en este momento?",
+    "explanation": "La dermatomiositis en adultos mayores de 40 años tiene una fuerte asociación con neoplasias ocultas (ovario, pulmón, mama, tracto gastrointestinal). Es mandatorio realizar un tamizaje oncológico exhaustivo que incluya TAC de tórax, abdomen y pelvis, mamografía y marcadores tumorales. El tratamiento farmacológico es necesario pero no debe omitirse la búsqueda de malignidad subyacente.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Iniciar corticoide y citar a control en 3 meses sin estudios adicionales.", "isCorrect": false },
+      { "letter": "B", "text": "Realizar tamizaje oncológico exhaustivo por la asociación con neoplasias ocultas.", "isCorrect": true },
+      { "letter": "C", "text": "Solicitar únicamente una electromiografía para confirmar el diagnóstico.", "isCorrect": false },
+      { "letter": "D", "text": "Remitir a dermatología exclusivamente para manejo de las lesiones cutáneas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento de primera línea para la debilidad muscular de esta paciente?",
+    "explanation": "El tratamiento de primera línea de la dermatomiositis es la terapia con corticosteroides sistémicos (prednisona 1 mg/kg/día), que se mantiene hasta lograr mejoría clínica y normalización de las enzimas musculares, seguida de un descenso gradual. En casos refractarios se añaden inmunosupresores ahorradores de corticoides como metotrexato o azatioprina. Los AINE no son suficientes para controlar la inflamación muscular y la ciclofosfamida se reserva para enfermedad pulmonar intersticial asociada.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Antiinflamatorios no esteroideos (AINE) a dosis altas.", "isCorrect": false },
+      { "letter": "B", "text": "Inmunoglobulina intravenosa como monoterapia.", "isCorrect": false },
+      { "letter": "C", "text": "Corticosteroides sistémicos (prednisona 1 mg/kg/día) con descenso gradual.", "isCorrect": true },
+      { "letter": "D", "text": "Ciclofosfamida intravenosa en pulsos mensuales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Caso clínico: Hombre de 68 años con antecedente de coledocolitiasis resuelta hace 2 años consulta a urgencias por dolor en hipocondrio derecho de 6 horas de evolución, fiebre de 39,2 °C con escalofríos e ictericia. Al examen: taquicárdico (FC 110 lpm), PA 100/60 mmHg, dolor a la palpación en hipocondrio derecho con signo de Murphy positivo. Laboratorios: bilirrubina total 6,8 mg/dL (directa 5,2), FA 450 U/L, GGT 380 U/L, leucocitos 18 000/mm³ con neutrofilia.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La tríada de Charcot (dolor en hipocondrio derecho, fiebre con escalofríos e ictericia) con patrón de colestasis (bilirrubina directa elevada, FA y GGT altas) y leucocitosis con neutrofilia en un paciente con antecedente de coledocolitiasis configuran el diagnóstico de colangitis aguda. La colecistitis aguda no produce ictericia ni colestasis marcada. La hepatitis viral cursa con transaminasas predominantemente elevadas. El absceso hepático puede producir fiebre pero no ictericia obstructiva típica.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Colecistitis aguda.", "isCorrect": false },
+      { "letter": "B", "text": "Colangitis aguda (tríada de Charcot).", "isCorrect": true },
+      { "letter": "C", "text": "Hepatitis viral aguda.", "isCorrect": false },
+      { "letter": "D", "text": "Absceso hepático amebiano.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": null,
+    "questionText": "Si el paciente evoluciona con hipotensión refractaria a líquidos (PA 70/40 mmHg) y confusión mental, ¿cómo se clasifica su cuadro?",
+    "explanation": "La péntada de Reynolds añade a la tríada de Charcot (dolor, fiebre, ictericia) la hipotensión arterial y la alteración del estado mental. Esto indica una colangitis aguda supurativa (grado III o severa) con shock séptico, que tiene mortalidad elevada y requiere descompresión biliar urgente. La colangitis grado I es leve sin disfunción orgánica, y la peritonitis biliar implicaría perforación de vía biliar.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Colangitis aguda grado I (leve) con deshidratación.", "isCorrect": false },
+      { "letter": "B", "text": "Péntada de Reynolds: colangitis aguda supurativa (grado III) con shock séptico.", "isCorrect": true },
+      { "letter": "C", "text": "Peritonitis biliar secundaria.", "isCorrect": false },
+      { "letter": "D", "text": "Pancreatitis aguda biliar severa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "¿Cuál es la intervención terapéutica prioritaria para este paciente?",
+    "explanation": "En la colangitis aguda severa (grado III), además del soporte hemodinámico y antibióticos de amplio espectro, la prioridad es la descompresión biliar urgente mediante colangiopancreatografía retrógrada endoscópica (CPRE) con esfinterotomía y extracción de cálculos. La CPRE es el estándar de oro para el drenaje biliar en colangitis. La cirugía abierta tiene mayor morbimortalidad y se reserva cuando la CPRE no es posible.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Antibióticos intravenosos y observación hospitalaria sin intervención biliar.", "isCorrect": false },
+      { "letter": "B", "text": "Descompresión biliar urgente mediante CPRE, antibióticos IV y soporte hemodinámico.", "isCorrect": true },
+      { "letter": "C", "text": "Colecistectomía laparoscópica de urgencia.", "isCorrect": false },
+      { "letter": "D", "text": "Drenaje percutáneo transhepático como primera opción.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Caso clínico: Hombre de 34 años, agricultor del departamento de Nariño, consulta por una lesión cutánea en antebrazo izquierdo de 6 semanas de evolución. Inició como una pápula eritematosa que progresó a una úlcera indolora de bordes elevados e indurados, fondo limpio granulomatoso, de aproximadamente 3 cm de diámetro. No hay fiebre ni linfadenopatía regional. Niega trauma previo en la zona.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Una úlcera cutánea crónica, indolora, con bordes elevados e indurados y fondo granulomatoso, en un agricultor de zona endémica del suroccidente colombiano (Nariño), es altamente sugestiva de leishmaniasis cutánea. El esporotricosis generalmente sigue un trayecto linfático. El carcinoma basocelular es más frecuente en personas mayores con fotoexposición crónica. La úlcera tropical suele ser dolorosa.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Esporotricosis cutánea.", "isCorrect": false },
+      { "letter": "B", "text": "Leishmaniasis cutánea.", "isCorrect": true },
+      { "letter": "C", "text": "Carcinoma basocelular ulcerado.", "isCorrect": false },
+      { "letter": "D", "text": "Úlcera tropical (pioderma).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "¿Cuál es el estudio diagnóstico de primera línea para confirmar la sospecha clínica?",
+    "explanation": "El frotis directo de la lesión (raspado del borde activo de la úlcera) con tinción de Giemsa para búsqueda de amastigotes de Leishmania es el método diagnóstico de primera línea por su accesibilidad y rapidez. La biopsia con cultivo en medio NNN tiene mayor sensibilidad pero demora semanas. La PCR es altamente sensible pero no siempre está disponible en primer nivel. La intradermorreacción de Montenegro indica contacto previo pero no diferencia infección activa.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Intradermorreacción de Montenegro.", "isCorrect": false },
+      { "letter": "B", "text": "Frotis directo del borde de la úlcera con tinción de Giemsa.", "isCorrect": true },
+      { "letter": "C", "text": "Biopsia excisional con estudio histopatológico únicamente.", "isCorrect": false },
+      { "letter": "D", "text": "Hemocultivos seriados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento de primera línea recomendado para esta forma clínica en Colombia?",
+    "explanation": "En Colombia, según las guías del Ministerio de Salud, el tratamiento de primera línea para la leishmaniasis cutánea son los antimoniales pentavalentes (antimoniato de meglumina — Glucantime) por vía intramuscular o intralesional. La miltefosina oral es una alternativa. La anfotericina B se reserva para formas mucosas o casos refractarios. El fluconazol no tiene actividad leishmanicida adecuada.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Fluconazol oral por 6 semanas.", "isCorrect": false },
+      { "letter": "B", "text": "Antimoniales pentavalentes (antimoniato de meglumina) por vía parenteral.", "isCorrect": true },
+      { "letter": "C", "text": "Anfotericina B liposomal intravenosa.", "isCorrect": false },
+      { "letter": "D", "text": "Criocirugía con nitrógeno líquido exclusivamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Caso clínico: Hombre de 22 años, sin antecedentes, es traído a urgencias tras una herida por arma cortopunzante en hemitórax izquierdo. Presenta disnea severa, cianosis, ingurgitación yugular bilateral y desviación traqueal hacia la derecha. FC 130 lpm, PA 70/50 mmHg, FR 36 rpm, SaO₂ 78%. A la auscultación: murmullo vesicular abolido en hemitórax izquierdo con hiperresonancia a la percusión.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La tríada de disnea, desviación traqueal contralateral e ingurgitación yugular, junto con ausencia de murmullo vesicular e hiperresonancia ipsilateral al trauma, en un paciente con inestabilidad hemodinámica, corresponde a un neumotórax a tensión. El hemotórax masivo produce matidez a la percusión, no hiperresonancia. El taponamiento cardíaco muestra ruidos cardíacos velados sin alteración del murmullo vesicular. El neumotórax simple no causa inestabilidad hemodinámica ni desviación traqueal.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Hemotórax masivo izquierdo.", "isCorrect": false },
+      { "letter": "B", "text": "Neumotórax a tensión izquierdo.", "isCorrect": true },
+      { "letter": "C", "text": "Taponamiento cardíaco traumático.", "isCorrect": false },
+      { "letter": "D", "text": "Neumotórax simple izquierdo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta terapéutica inmediata más apropiada?",
+    "explanation": "El neumotórax a tensión es una emergencia que pone en riesgo la vida. El manejo inmediato es la descompresión con aguja (toracostomía con aguja) en el segundo espacio intercostal, línea medioclavicular, seguida de la colocación de un tubo de toracostomía (sello de agua). Este es un diagnóstico clínico que no requiere confirmación radiológica antes de actuar. La intubación sin descompresión empeoraría la tensión intrapleural.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Solicitar radiografía de tórax portátil para confirmar el diagnóstico antes de actuar.", "isCorrect": false },
+      { "letter": "B", "text": "Descompresión con aguja en segundo espacio intercostal izquierdo seguida de tubo de toracostomía.", "isCorrect": true },
+      { "letter": "C", "text": "Intubación orotraqueal e inicio de ventilación mecánica como primera medida.", "isCorrect": false },
+      { "letter": "D", "text": "Toracotomía de emergencia en sala de cirugía.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Caso clínico: Mujer de 38 años consulta por episodios paroxísticos de cefalea intensa, palpitaciones, sudoración profusa y palidez facial que duran 15-30 minutos y se resuelven espontáneamente. Estos episodios ocurren 2-3 veces por semana desde hace 4 meses. PA en consultorio: 210/120 mmHg durante un episodio. Entre episodios, PA 145/95 mmHg. FC 120 lpm. Resto del examen sin hallazgos relevantes.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La tríada clásica de cefalea paroxística, sudoración y palpitaciones, asociada a crisis hipertensivas severas episódicas, es patognomónica del feocromocitoma. La hipertensión esencial no produce crisis paroxísticas con la tríada descrita. El hiperaldosteronismo primario produce hipertensión sostenida con hipopotasemia. El trastorno de pánico no eleva la presión arterial a 210/120 mmHg de forma consistente.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Crisis hipertensiva por hipertensión arterial esencial no controlada.", "isCorrect": false },
+      { "letter": "B", "text": "Feocromocitoma.", "isCorrect": true },
+      { "letter": "C", "text": "Hiperaldosteronismo primario (síndrome de Conn).", "isCorrect": false },
+      { "letter": "D", "text": "Trastorno de pánico con manifestaciones cardiovasculares.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "¿Cuál es el estudio bioquímico de elección para confirmar la sospecha diagnóstica?",
+    "explanation": "Las metanefrinas fraccionadas en plasma (o en orina de 24 horas) son el estudio bioquímico con mayor sensibilidad (96-100%) para el diagnóstico de feocromocitoma. El ácido vanililmandélico urinario tiene menor sensibilidad y especificidad. Las catecolaminas plasmáticas tienen alta variabilidad y sensibilidad inferior. La TAC se realiza después de la confirmación bioquímica para localizar el tumor.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Catecolaminas plasmáticas en reposo.", "isCorrect": false },
+      { "letter": "B", "text": "Metanefrinas fraccionadas en plasma o en orina de 24 horas.", "isCorrect": true },
+      { "letter": "C", "text": "Ácido vanililmandélico en orina de 24 horas.", "isCorrect": false },
+      { "letter": "D", "text": "TAC de abdomen contrastada como estudio inicial.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "Una vez confirmado el diagnóstico y localizado el tumor, ¿cuál es el manejo preoperatorio esencial antes de la cirugía?",
+    "explanation": "Antes de la resección quirúrgica del feocromocitoma, es imprescindible el bloqueo alfa-adrenérgico (fenoxibenzamina o doxazosina) durante al menos 10-14 días para evitar crisis hipertensivas intraoperatorias por liberación masiva de catecolaminas. El betabloqueador solo se añade después del bloqueo alfa (nunca antes, pues causaría crisis hipertensiva paradójica). Los IECA no son el tratamiento preoperatorio estándar.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Betabloqueador como monoterapia antihipertensiva preoperatoria.", "isCorrect": false },
+      { "letter": "B", "text": "Bloqueo alfa-adrenérgico (fenoxibenzamina o doxazosina) durante 10-14 días previos a la cirugía.", "isCorrect": true },
+      { "letter": "C", "text": "Inhibidores de la enzima convertidora de angiotensina (IECA) a dosis altas.", "isCorrect": false },
+      { "letter": "D", "text": "Cirugía inmediata sin preparación farmacológica para evitar retrasos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "Caso clínico: Hombre de 74 años, fumador crónico, con antecedente de enfermedad arterial periférica, consulta a urgencias por dolor abdominal difuso de inicio súbito, de 2 horas de evolución, asociado a lipotimia. Al examen: PA 80/50 mmHg, FC 125 lpm, palidez generalizada, abdomen distendido con masa pulsátil palpable en mesogastrio. Hb 8,2 g/dL (previa 13 g/dL hace 3 meses).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Dolor abdominal súbito con masa pulsátil abdominal, hipotensión, taquicardia y caída aguda de hemoglobina en un hombre mayor con factores de riesgo aterosclerótico (fumador, enfermedad arterial periférica) conforman el cuadro clásico de aneurisma de aorta abdominal roto. La disección aórtica tipo B produce dolor dorsal desgarrante sin masa pulsátil. La hemorragia digestiva baja no presenta masa pulsátil. La pancreatitis aguda no produce masa pulsátil ni caída aguda de hemoglobina.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Disección aórtica tipo B.", "isCorrect": false },
+      { "letter": "B", "text": "Ruptura de aneurisma de aorta abdominal.", "isCorrect": true },
+      { "letter": "C", "text": "Hemorragia digestiva baja masiva.", "isCorrect": false },
+      { "letter": "D", "text": "Pancreatitis aguda necrotizante.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta terapéutica más apropiada para este paciente?",
+    "explanation": "La ruptura de aneurisma de aorta abdominal es una emergencia quirúrgica con alta mortalidad. El paciente requiere cirugía de reparación aórtica de emergencia (abierta o endovascular según disponibilidad) con reanimación con hemoderivados. Realizar TAC de abdomen está indicado solo si el paciente se encuentra hemodinámicamente estable (hipotensión permisiva). En un paciente inestable, el traslado directo a cirugía es mandatorio.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Reanimación con cristaloides y observación en UCI con controles de hemoglobina seriados.", "isCorrect": false },
+      { "letter": "B", "text": "Reparación quirúrgica aórtica de emergencia con reanimación hemostática simultánea.", "isCorrect": true },
+      { "letter": "C", "text": "Arteriografía diagnóstica previa a cualquier intervención.", "isCorrect": false },
+      { "letter": "D", "text": "Estabilización hemodinámica y programar cirugía electiva en las próximas 48 horas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Caso clínico: Niño de 7 años, sin antecedentes conocidos, es traído a urgencias por sangrado espontáneo de encías y una hemartrosis de rodilla derecha que se desarrolló después de una caída menor durante el recreo. La madre refiere que un tío materno «sangraba mucho» y murió por complicaciones hemorrágicas. Al examen: rodilla derecha edematizada, caliente y dolorosa a la movilización. Se observan equimosis en miembros inferiores. Laboratorios: TP normal, TPT prolongado (65 s; referencia 25-35 s), plaquetas 280 000/mm³, fibrinógeno normal.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La hemartrosis espontánea con sangrado de encías, equimosis, TPT prolongado con TP normal y plaquetas normales, en un niño varón con antecedente familiar de sangrado por línea materna (herencia ligada al X), configuran el cuadro clásico de hemofilia A (deficiencia de factor VIII). La enfermedad de von Willebrand raramente produce hemartrosis severas. La hemofilia B (déficit de factor IX) es mucho menos frecuente. La púrpura trombocitopénica muestra plaquetas bajas.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Enfermedad de von Willebrand tipo 1.", "isCorrect": false },
+      { "letter": "B", "text": "Hemofilia A (deficiencia de factor VIII).", "isCorrect": true },
+      { "letter": "C", "text": "Púrpura trombocitopénica inmune (PTI).", "isCorrect": false },
+      { "letter": "D", "text": "Coagulación intravascular diseminada (CID).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento inmediato más apropiado para el episodio hemorrágico articular de este paciente?",
+    "explanation": "El tratamiento del episodio agudo de hemartrosis en hemofilia A consiste en la reposición del factor VIII (concentrado de factor VIII recombinante o derivado plasmático) lo más pronto posible para elevar el nivel por encima del 50%. Además se indica inmovilización, crioterapia y analgesia (evitando AINE y aspirina). La desmopresina es útil solo en hemofilia A leve. La transfusión de plaquetas no está indicada con recuento plaquetario normal. Los corticoides no son el tratamiento de la hemartrosis hemofílica.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Transfusión de plaquetas y plasma fresco congelado.", "isCorrect": false },
+      { "letter": "B", "text": "Reposición de factor VIII, inmovilización, crioterapia y analgesia sin AINE.", "isCorrect": true },
+      { "letter": "C", "text": "Desmopresina (DDAVP) intravenosa como primera línea en todo caso.", "isCorrect": false },
+      { "letter": "D", "text": "Artrocentesis evacuadora inmediata y corticoides intraarticulares.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Caso clínico: Mujer de 56 años consulta a urgencias por dolor ocular intenso en ojo derecho de inicio súbito hace 3 horas, asociado a visión borrosa, halos alrededor de las luces, cefalea hemicraneal derecha y un episodio de vómito. Refiere que los síntomas iniciaron en un cine con sala oscura. Al examen: ojo derecho con inyección conjuntival, córnea con edema (opaca), pupila en midriasis media fija, cámara anterior estrecha. Presión intraocular (PIO) de 58 mmHg (normal < 21 mmHg).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Dolor ocular agudo unilateral, visión borrosa con halos, inyección conjuntival, edema corneal, pupila en midriasis media fija, cámara anterior estrecha y PIO marcadamente elevada (58 mmHg) desencadenados por un ambiente oscuro (midriasis fisiológica) son patognomónicos del glaucoma agudo de ángulo cerrado. El glaucoma de ángulo abierto es crónico e indoloro. La uveítis anterior produce miosis, no midriasis. La conjuntivitis no eleva la PIO.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Glaucoma crónico de ángulo abierto descompensado.", "isCorrect": false },
+      { "letter": "B", "text": "Glaucoma agudo de ángulo cerrado.", "isCorrect": true },
+      { "letter": "C", "text": "Uveítis anterior aguda (iritis).", "isCorrect": false },
+      { "letter": "D", "text": "Conjuntivitis viral hiperaguda.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "¿Cuál es el manejo inicial más apropiado para esta paciente?",
+    "explanation": "El glaucoma agudo de ángulo cerrado es una emergencia oftalmológica. El tratamiento inicial busca reducir la PIO urgentemente mediante agentes tópicos (timolol, pilocarpina, apraclonidina), inhibidores de la anhidrasa carbónica orales o IV (acetazolamida) y agentes hiperosmóticos (manitol IV) si es necesario. El tratamiento definitivo es la iridotomía periférica con láser (YAG) una vez controlada la presión. La atropina está contraindicada porque produce midriasis y empeora el cierre angular.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Atropina tópica para dilatar la pupila y aliviar el espasmo ciliar.", "isCorrect": false },
+      { "letter": "B", "text": "Reducción urgente de PIO con timolol, pilocarpina, acetazolamida; luego iridotomía con láser.", "isCorrect": true },
+      { "letter": "C", "text": "Antibiótico tópico y antiinflamatorio, cita de control en 48 horas.", "isCorrect": false },
+      { "letter": "D", "text": "Trabeculectomía quirúrgica de emergencia como primera intervención.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Caso clínico: Mujer de 29 años, en tratamiento con alopurinol desde hace 10 días por hiperuricemia, consulta a urgencias por fiebre de 39,5 °C, odinofagia intensa y lesiones cutáneas dolorosas que iniciaron hace 48 horas. Al examen: eritema difuso con lesiones en diana atípicas (targets) que confluyen en tronco, cara y extremidades, con desprendimiento epidérmico en láminas al roce (signo de Nikolsky positivo) que compromete aproximadamente el 35% de la superficie corporal. Se observan erosiones en mucosa oral, conjuntival y genital.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Desprendimiento epidérmico extenso (35% de superficie corporal), signo de Nikolsky positivo, compromiso de múltiples mucosas (oral, conjuntival, genital), lesiones en diana atípicas, fiebre y antecedente de inicio reciente de alopurinol (fármaco altamente asociado) corresponden a necrólisis epidérmica tóxica (NET / síndrome de Stevens-Johnson en espectro severo). El síndrome de piel escaldada estafilocócica afecta niños y no compromete mucosas. El pénfigo vulgar no se asocia a fármacos típicamente. Una quemadura extensa tiene otro contexto clínico. Con >30% de desprendimiento se clasifica como NET.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Síndrome de piel escaldada estafilocócica.", "isCorrect": false },
+      { "letter": "B", "text": "Necrólisis epidérmica tóxica (NET).", "isCorrect": true },
+      { "letter": "C", "text": "Pénfigo vulgar.", "isCorrect": false },
+      { "letter": "D", "text": "Eritema multiforme mayor.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta terapéutica más apropiada para esta paciente?",
+    "explanation": "El manejo de la NET incluye: suspensión inmediata del fármaco causal (alopurinol), traslado a unidad de quemados o UCI, soporte hidroelectrolítico y nutricional intensivo, cuidado meticuloso de la piel y mucosas (similar a gran quemado), prevención de infecciones y manejo del dolor. Los corticoides sistémicos son controversiales y pueden aumentar la mortalidad. La inmunoglobulina IV se usa en algunos centros pero la evidencia es limitada. El desbridamiento quirúrgico agresivo está contraindicado.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Corticoides sistémicos a dosis altas y continuar alopurinol con vigilancia.", "isCorrect": false },
+      { "letter": "B", "text": "Suspender alopurinol, traslado a unidad de quemados, soporte intensivo y cuidado de piel/mucosas.", "isCorrect": true },
+      { "letter": "C", "text": "Desbridamiento quirúrgico extenso de toda la piel afectada.", "isCorrect": false },
+      { "letter": "D", "text": "Antihistamínicos sistémicos y emolientes con manejo ambulatorio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Caso clínico: Mujer de 58 años consulta por debilidad, fatiga crónica, poliuria, polidipsia, estreñimiento y dolor óseo difuso de 4 meses de evolución. Refiere haber tenido un cálculo renal de calcio hace 1 año. Laboratorios: calcio sérico 12,8 mg/dL (normal 8,5-10,5), fósforo 2,1 mg/dL (normal 2,5-4,5), PTH intacta 185 pg/mL (normal 10-65), fosfatasa alcalina 180 U/L, creatinina 1,4 mg/dL. Densitometría ósea con T-score −2,8 en columna lumbar.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Hipercalcemia con hipofosfatemia y PTH inapropiadamente elevada (debería estar suprimida ante hipercalcemia) es el patrón bioquímico clásico del hiperparatiroidismo primario. Las manifestaciones clínicas (nefrolitiasis cálcica, osteoporosis, fatiga, estreñimiento, poliuria) corresponden al cuadro clásico resumido como «stones, bones, moans, groans». La hipercalcemia maligna cursa con PTH suprimida y PTHrP elevada. La sarcoidosis produce hipercalcemia con PTH baja. La insuficiencia renal crónica produce hiperparatiroidismo secundario con calcio bajo o normal.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Hipercalcemia humoral maligna (PTHrP).", "isCorrect": false },
+      { "letter": "B", "text": "Hiperparatiroidismo primario.", "isCorrect": true },
+      { "letter": "C", "text": "Sarcoidosis con hipercalcemia.", "isCorrect": false },
+      { "letter": "D", "text": "Hiperparatiroidismo secundario a insuficiencia renal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento definitivo indicado para esta paciente?",
+    "explanation": "La paratiroidectomía es el tratamiento curativo del hiperparatiroidismo primario y está indicada en esta paciente que presenta múltiples criterios quirúrgicos: calcio >1 mg/dL sobre el límite, osteoporosis (T-score < −2,5), nefrolitiasis, edad <65 años y compromiso renal (creatinina elevada). Los cinacalcéticos (cinacalcet) se reservan para pacientes no candidatos a cirugía. Los bifosfonatos tratan la osteoporosis pero no corrigen la causa. La restricción de calcio dietético no resuelve el hiperparatiroidismo.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Cinacalcet oral como tratamiento definitivo.", "isCorrect": false },
+      { "letter": "B", "text": "Paratiroidectomía.", "isCorrect": true },
+      { "letter": "C", "text": "Bifosfonatos intravenosos y restricción de calcio dietético.", "isCorrect": false },
+      { "letter": "D", "text": "Observación con controles semestrales de calcio y densitometría anual.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Caso clínico: Niño de 2 años es traído a urgencias por sus padres a las 3:00 a. m. por tos «perruna» (tos laringotraqueal) de inicio súbito, estridor inspiratorio y disfonía. Los síntomas iniciaron después de 2 días de rinorrea y fiebre baja (38 °C). Al examen: alerta, con estridor inspiratorio audible en reposo, tirajes supraesternales y subcostales leves, SaO₂ 94%, FC 130 lpm. No hay babeo ni posición en trípode.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Tos perruna, estridor inspiratorio, disfonía y dificultad respiratoria de inicio nocturno precedidos por un cuadro catarral en un niño de 2 años son la presentación clásica del crup (laringotraqueítis aguda viral). La epiglotitis produce babeo, posición en trípode, fiebre alta y aspecto tóxico. El cuerpo extraño tiene inicio súbito sin pródromos catarrales. La traqueítis bacteriana cursa con fiebre alta y aspecto más tóxico.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Epiglotitis aguda.", "isCorrect": false },
+      { "letter": "B", "text": "Crup (laringotraqueítis aguda viral).", "isCorrect": true },
+      { "letter": "C", "text": "Aspiración de cuerpo extraño.", "isCorrect": false },
+      { "letter": "D", "text": "Traqueítis bacteriana.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "Considerando la severidad del cuadro (estridor en reposo con tirajes), ¿cuál es el tratamiento más apropiado?",
+    "explanation": "En crup moderado (estridor en reposo, tirajes), el tratamiento incluye dexametasona oral en dosis única (0,6 mg/kg) como piedra angular y nebulización con adrenalina racémica (o L-adrenalina) para alivio inmediato de la obstrucción. La dexametasona reduce la inflamación laríngea en 2-4 horas y su efecto dura 24-72 horas. Los antibióticos no están indicados ya que la etiología es viral. La intubación se reserva para crup severo que no responde al tratamiento médico.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Antibiótico intravenoso (ampicilina-sulbactam) y oxígeno suplementario.", "isCorrect": false },
+      { "letter": "B", "text": "Dexametasona oral (dosis única) y nebulización con adrenalina.", "isCorrect": true },
+      { "letter": "C", "text": "Salbutamol nebulizado y corticoide inhalado.", "isCorrect": false },
+      { "letter": "D", "text": "Intubación orotraqueal electiva inmediata.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Caso clínico: Hombre de 72 años con antecedente de fibrilación auricular (sin anticoagulación), hipertensión y diabetes tipo 2 consulta a urgencias por dolor abdominal cólico en flanco izquierdo de 8 horas de evolución asociado a hematoquecia (sangre roja rutilante mezclada con las deposiciones) y urgencia defecatoria. No presenta fiebre. Al examen: abdomen blando con dolor a la palpación en fosa ilíaca izquierda sin signos peritoneales. Laboratorios: leucocitos 14 000/mm³, lactato 1,8 mmol/L (normal < 2), hemoglobina 12,5 g/dL.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Dolor abdominal en flanco/fosa ilíaca izquierda con hematoquecia en un paciente mayor con factores de riesgo aterosclerótico y fibrilación auricular (fuente embolígena) es altamente sugestivo de colitis isquémica. El colon sigmoide y el ángulo esplénico son las áreas más vulnerables (zonas «watershed»). La diverticulitis produce dolor pero raramente hematoquecia profusa. El cáncer colorrectal tiene presentación más crónica. La colitis por Clostridioides produce diarrea acuosa, no hematoquecia típica.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Diverticulitis aguda complicada.", "isCorrect": false },
+      { "letter": "B", "text": "Colitis isquémica.", "isCorrect": true },
+      { "letter": "C", "text": "Cáncer colorrectal sangrante.", "isCorrect": false },
+      { "letter": "D", "text": "Colitis por Clostridioides difficile.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "¿Cuál es el estudio diagnóstico de elección para confirmar la sospecha clínica?",
+    "explanation": "La colonoscopia (o sigmoidoscopia flexible) es el estudio de elección para confirmar la colitis isquémica, ya que permite visualizar directamente la mucosa afectada (edema, fragilidad, petequias, úlceras segmentarias) y tomar biopsias. La TAC de abdomen puede mostrar engrosamiento de la pared colónica pero es menos específica. La arteriografía se reserva para la isquemia mesentérica aguda (arteria mesentérica superior). El enema de bario está contraindicado en fase aguda.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Arteriografía mesentérica de urgencia.", "isCorrect": false },
+      { "letter": "B", "text": "Colonoscopia o sigmoidoscopia flexible con biopsia.", "isCorrect": true },
+      { "letter": "C", "text": "Enema de bario con doble contraste.", "isCorrect": false },
+      { "letter": "D", "text": "Resonancia magnética de abdomen.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "Si la colonoscopia confirma colitis isquémica no gangrenosa, ¿cuál es el tratamiento más apropiado?",
+    "explanation": "La colitis isquémica no gangrenosa (la forma más frecuente) se maneja con tratamiento de soporte: reposo intestinal, hidratación intravenosa, antibióticos de amplio espectro (para prevenir translocación bacteriana) y monitorización clínica estrecha. La mayoría de los casos se resuelven en 48-72 horas. La cirugía (colectomía segmentaria) se reserva para gangrena, perforación o deterioro clínico. La anticoagulación sistémica no es el tratamiento de la colitis isquémica establecida.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Colectomía segmentaria de urgencia.", "isCorrect": false },
+      { "letter": "B", "text": "Reposo intestinal, hidratación IV, antibióticos y monitorización clínica.", "isCorrect": true },
+      { "letter": "C", "text": "Anticoagulación sistémica con heparina no fraccionada.", "isCorrect": false },
+      { "letter": "D", "text": "Trombolisis arterial dirigida por catéter.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Caso clínico: Mujer de 31 años, primigestante de 35 semanas, consulta a urgencias por dolor en epigastrio e hipocondrio derecho de inicio súbito, asociado a náuseas, vómito y malestar general de 12 horas de evolución. Antecedente de preeclampsia diagnosticada hace 1 semana, en manejo con alfametildopa. Al examen: PA 170/110 mmHg, FC 105 lpm, ictericia leve. Laboratorios: hemoglobina 9,8 g/dL (previa 12,5), plaquetas 62 000/mm³, AST 520 U/L, ALT 480 U/L, LDH 1 200 U/L, bilirrubina total 3,2 mg/dL, frotis de sangre periférica con esquistocitos.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Hemólisis (anemia + esquistocitos + LDH elevada), elevación de enzimas hepáticas (AST/ALT > 70 U/L) y trombocitopenia (plaquetas < 100 000) en una gestante con preeclampsia severa conforman el síndrome HELLP (Hemolysis, Elevated Liver enzymes, Low Platelets). La preeclampsia severa aislada no incluye hemólisis ni trombocitopenia. La púrpura trombocitopénica trombótica (PTT) no se asocia típicamente a preeclampsia ni a hepatopatía. El hígado graso agudo del embarazo produce más hipoglucemia e hipofibrinogenemia.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Preeclampsia severa sin complicaciones adicionales.", "isCorrect": false },
+      { "letter": "B", "text": "Síndrome HELLP.", "isCorrect": true },
+      { "letter": "C", "text": "Púrpura trombocitopénica trombótica (PTT).", "isCorrect": false },
+      { "letter": "D", "text": "Hígado graso agudo del embarazo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta terapéutica más apropiada?",
+    "explanation": "El tratamiento definitivo del síndrome HELLP es la terminación del embarazo. En una gestante de 35 semanas con HELLP, se debe estabilizar con sulfato de magnesio (prevención de eclampsia), antihipertensivos IV (labetalol o hidralazina), transfusión de plaquetas si es necesario, y proceder a la terminación del embarazo (cesárea de urgencia dada la severidad). Los corticoides para maduración pulmonar fetal tienen beneficio limitado a 35 semanas y no deben retrasar el parto. El manejo expectante está contraindicado en HELLP.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Manejo expectante con monitorización intensiva hasta las 37 semanas.", "isCorrect": false },
+      { "letter": "B", "text": "Estabilización (sulfato de magnesio, antihipertensivos, soporte) y terminación del embarazo.", "isCorrect": true },
+      { "letter": "C", "text": "Plasmaféresis urgente como en la PTT.", "isCorrect": false },
+      { "letter": "D", "text": "Betametasona para maduración pulmonar y posponer el parto 48 horas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Caso clínico: Hombre de 42 años con antecedente de dislipidemia severa no tratada (triglicéridos previos de 1 800 mg/dL) y consumo crónico de alcohol consulta a urgencias por dolor epigástrico intenso de inicio súbito hace 8 horas, tipo barra, irradiado a espalda, que empeora con la ingesta de alimentos y mejora al inclinarse hacia adelante. Presenta vómitos persistentes. Al examen: febrícula (37,8 °C), taquicardia (110 lpm), abdomen con dolor severo a la palpación en epigastrio con defensa muscular, sin ruidos peristálticos. Laboratorios: amilasa 1 850 U/L (normal < 100), lipasa 3 200 U/L (normal < 60), triglicéridos 2 500 mg/dL, calcio 7,8 mg/dL.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable y su etiología más relevante?",
+    "explanation": "Dolor epigástrico en barra irradiado a espalda, vómitos, amilasa y lipasa marcadamente elevadas configuran una pancreatitis aguda. Con triglicéridos >1 000 mg/dL (actualmente 2 500), la hipertrigliceridemia es la etiología más probable y la tercera causa más frecuente de pancreatitis aguda (después de litiasis biliar y alcohol). Aunque el paciente también consume alcohol, los triglicéridos extremadamente elevados son el factor causal principal. La hipercalcemia leve actual (7,8) es consecuencia de la pancreatitis, no la causa.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Pancreatitis aguda de etiología alcohólica.", "isCorrect": false },
+      { "letter": "B", "text": "Pancreatitis aguda por hipertrigliceridemia.", "isCorrect": true },
+      { "letter": "C", "text": "Pancreatitis aguda biliar.", "isCorrect": false },
+      { "letter": "D", "text": "Úlcera péptica perforada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "Además del manejo convencional de la pancreatitis aguda, ¿cuál es la medida terapéutica específica más importante para esta etiología?",
+    "explanation": "En la pancreatitis aguda por hipertrigliceridemia, además del soporte estándar (hidratación IV agresiva, analgesia, reposo intestinal), es fundamental reducir los triglicéridos rápidamente. La infusión de insulina intravenosa es el tratamiento de primera línea para reducir los niveles de triglicéridos (activa la lipoproteínlipasa). La plasmaféresis/aféresis se considera en casos refractarios o triglicéridos >5 000 mg/dL. Los fibratos orales son para el manejo crónico, no para la fase aguda. La CPRE no tiene indicación en pancreatitis no biliar.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "CPRE con esfinterotomía de urgencia.", "isCorrect": false },
+      { "letter": "B", "text": "Infusión de insulina intravenosa para reducción rápida de triglicéridos.", "isCorrect": true },
+      { "letter": "C", "text": "Fenofibrato oral a dosis altas como tratamiento agudo.", "isCorrect": false },
+      { "letter": "D", "text": "Colecistectomía de urgencia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Caso clínico: Hombre de 55 años, fumador de 40 paquetes-año, con diagnóstico reciente de carcinoma de pulmón de células pequeñas (estadio limitado en mediastino), consulta por edema facial y de cuello progresivo de 2 semanas, más marcado por las mañanas. Además refiere disnea leve, tos y sensación de presión en la cabeza al agacharse. Al examen: plétora facial, edema en esclavina (cara, cuello, miembros superiores), ingurgitación yugular bilateral no pulsátil y circulación colateral venosa visible en tórax anterior.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Edema en esclavina (cara, cuello y miembros superiores), plétora facial, ingurgitación yugular no pulsátil, circulación colateral venosa torácica y disnea en un paciente con carcinoma pulmonar de células pequeñas mediastínico configuran el síndrome de vena cava superior (SVCS). Este tumor es la causa maligna más frecuente de SVCS. El taponamiento cardíaco produce ingurgitación yugular pulsátil y no edema en esclavina. La trombosis venosa profunda de miembro superior es unilateral. La insuficiencia cardíaca derecha produce edema de miembros inferiores predominantemente.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Taponamiento cardíaco por derrame pericárdico maligno.", "isCorrect": false },
+      { "letter": "B", "text": "Síndrome de vena cava superior.", "isCorrect": true },
+      { "letter": "C", "text": "Trombosis venosa profunda bilateral de miembros superiores.", "isCorrect": false },
+      { "letter": "D", "text": "Insuficiencia cardíaca derecha descompensada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento más apropiado para este paciente?",
+    "explanation": "En el SVCS causado por carcinoma de pulmón de células pequeñas, el tratamiento de elección es la quimioterapia sistémica (con o sin radioterapia), ya que este tipo tumoral es altamente quimiosensible y radiosensible. La respuesta suele ser rápida (48-72 horas). La colocación de stent endovascular es una medida temporal para alivio sintomático urgente mientras se inicia el tratamiento oncológico. La cirugía de bypass no es factible. Los diuréticos son ineficaces para el edema por obstrucción mecánica venosa.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Diuréticos de asa a dosis altas y restricción de líquidos.", "isCorrect": false },
+      { "letter": "B", "text": "Quimioterapia sistémica (con o sin radioterapia) por la alta quimiosensibilidad tumoral.", "isCorrect": true },
+      { "letter": "C", "text": "Cirugía de bypass de vena cava superior.", "isCorrect": false },
+      { "letter": "D", "text": "Trombólisis sistémica con alteplasa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "Caso clínico: Hombre de 25 años, militar en entrenamiento, es traído a urgencias tras un ejercicio extenuante en clima cálido (temperatura ambiental 38 °C). Presenta mialgias generalizadas severas, debilidad muscular, orina color «té oscuro» (coluria) y oliguria. Refiere haber tenido calambres durante el ejercicio. Al examen: taquicárdico (FC 115 lpm), PA 100/65 mmHg, edema muscular en miembros inferiores bilateral, dolor intenso a la palpación de gemelos y cuádriceps. Laboratorios: CK 85 000 U/L (normal < 200), creatinina 3,8 mg/dL (basal desconocida), potasio 6,2 mEq/L, fósforo 7,5 mg/dL, calcio 6,8 mg/dL, uroanálisis con hemoglobina (+++) sin eritrocitos en sedimento, mioglobina en orina positiva.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Mialgias severas, orina oscura (mioglobinuria), CK >5 veces el límite normal (85 000 U/L), lesión renal aguda (creatinina 3,8), hiperpotasemia, hiperfosfatemia, hipocalcemia y hemoglobina positiva en orina sin eritrocitos (la tira reactiva no diferencia hemoglobina de mioglobina) tras ejercicio extenuante en clima cálido configuran el diagnóstico de rabdomiólisis. El golpe de calor produce hipertermia >40 °C. La glomerulonefritis muestra eritrocitos en sedimento. La deshidratación simple no eleva CK ni produce mioglobinuria.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Golpe de calor por esfuerzo.", "isCorrect": false },
+      { "letter": "B", "text": "Rabdomiólisis.", "isCorrect": true },
+      { "letter": "C", "text": "Glomerulonefritis aguda postinfecciosa.", "isCorrect": false },
+      { "letter": "D", "text": "Deshidratación severa con lesión renal prerrenal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": null,
+    "questionText": "¿Cuál es la complicación más inmediata y potencialmente mortal que debe tratarse de forma prioritaria?",
+    "explanation": "La hiperpotasemia (6,2 mEq/L) es la complicación más inmediatamente peligrosa de la rabdomiólisis porque puede causar arritmias cardíacas letales (fibrilación ventricular, asistolia). Se debe realizar un electrocardiograma urgente y, si hay cambios (ondas T picudas, QRS ancho), administrar gluconato de calcio IV como cardioprotector. La lesión renal aguda es grave pero no inmediatamente mortal. La hipocalcemia raramente causa arritmias a estos niveles. La hiperfosfatemia se corrige secundariamente.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Hipocalcemia con riesgo de tetania.", "isCorrect": false },
+      { "letter": "B", "text": "Hiperpotasemia con riesgo de arritmia cardíaca letal.", "isCorrect": true },
+      { "letter": "C", "text": "Hiperfosfatemia con calcificaciones metastásicas.", "isCorrect": false },
+      { "letter": "D", "text": "Acidosis metabólica por acumulación de ácido láctico.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": null,
+    "questionText": "¿Cuál es la piedra angular del tratamiento para prevenir la lesión renal aguda en este paciente?",
+    "explanation": "La hidratación intravenosa agresiva con solución salina isotónica (objetivo de diuresis >200-300 mL/h) es la medida más importante para prevenir y tratar la lesión renal aguda por mioglobinuria en la rabdomiólisis. La expansión de volumen aumenta el flujo tubular renal y diluye la mioglobina, previniendo la precipitación intratubular. La alcalinización de la orina con bicarbonato es controvertida. Los diuréticos de asa pueden empeorar la lesión renal en pacientes hipovolémicos. La hemodiálisis se reserva para hiperpotasemia refractaria o sobrecarga hídrica.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Hemodiálisis urgente como primera medida.", "isCorrect": false },
+      { "letter": "B", "text": "Hidratación intravenosa agresiva con solución salina isotónica.", "isCorrect": true },
+      { "letter": "C", "text": "Diuréticos de asa (furosemida) a dosis altas para forzar diuresis.", "isCorrect": false },
+      { "letter": "D", "text": "Restricción hídrica y manejo conservador.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "Caso clínico: Recién nacido a término de 3 días de vida, producto de parto vaginal prolongado con ruptura prematura de membranas de 22 horas, es traído a urgencias por rechazo al alimento, somnolencia excesiva y temperatura de 38,3 °C axilar. La madre de 19 años no tuvo controles prenatales. Al examen: recién nacido letárgico, hipotónico, con llenado capilar de 5 segundos, taquipneico (FR 72 rpm), FC 185 lpm, quejido espiratorio intermitente. Piel con tinte grisáceo. Laboratorios: leucocitos 3 200/mm³ (neutropenia), PCR 85 mg/L, plaquetas 78 000/mm³, glucosa 38 mg/dL.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Recién nacido de 3 días con factores de riesgo (RPM prolongada >18 horas, falta de control prenatal), letargia, inestabilidad térmica (fiebre), llenado capilar prolongado, taquipnea, quejido, neutropenia, PCR elevada, trombocitopenia e hipoglucemia configuran el cuadro de sepsis neonatal temprana (inicio <72 horas de vida). Los agentes más frecuentes son Streptococcus agalactiae (grupo B) y E. coli. La ictericia fisiológica no produce estos hallazgos. La asfixia perinatal se presenta al nacer. La cardiopatía congénita no produce neutropenia ni elevación de PCR.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Ictericia fisiológica del recién nacido con deshidratación.", "isCorrect": false },
+      { "letter": "B", "text": "Sepsis neonatal temprana.", "isCorrect": true },
+      { "letter": "C", "text": "Encefalopatía hipóxico-isquémica neonatal.", "isCorrect": false },
+      { "letter": "D", "text": "Cardiopatía congénita con insuficiencia cardíaca.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": null,
+    "questionText": "¿Cuál es el esquema antibiótico empírico de primera línea para este recién nacido?",
+    "explanation": "El tratamiento empírico estándar de la sepsis neonatal temprana es ampicilina (cobertura contra Streptococcus agalactiae, Listeria monocytogenes y enterococos) más gentamicina (cobertura contra bacilos gramnegativos como E. coli, efecto sinérgico con ampicilina). Las cefalosporinas de tercera generación se reservan como segunda línea o si hay sospecha de meningitis. La vancomicina-meropenem se usa en sepsis nosocomial (tardía). El metronidazol no tiene indicación en sepsis neonatal temprana.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Vancomicina más meropenem.", "isCorrect": false },
+      { "letter": "B", "text": "Ampicilina más gentamicina.", "isCorrect": true },
+      { "letter": "C", "text": "Ceftriaxona más metronidazol.", "isCorrect": false },
+      { "letter": "D", "text": "Oxacilina más amikacina.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": null,
+    "questionText": "Además de los antibióticos, ¿qué medidas de soporte son prioritarias en este neonato?",
+    "explanation": "La sepsis neonatal requiere un manejo integral que incluye corrección de la hipoglucemia (bolo de dextrosa al 10% seguido de infusión continua), soporte hemodinámico con bolos de solución salina (10-20 mL/kg), oxígeno suplementario o soporte ventilatorio según necesidad, monitorización continua y corrección de las alteraciones hematológicas (transfusión de plaquetas si < 50 000 o sangrado activo). La restricción hídrica está contraindicada en shock séptico neonatal.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Restricción hídrica y observación en alojamiento conjunto.", "isCorrect": false },
+      { "letter": "B", "text": "Corrección de hipoglucemia, reanimación con líquidos IV, soporte respiratorio y monitorización en UCI neonatal.", "isCorrect": true },
+      { "letter": "C", "text": "Fototerapia intensiva por el tinte grisáceo de la piel.", "isCorrect": false },
+      { "letter": "D", "text": "Alimentación enteral forzada para corregir la hipoglucemia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "Caso clínico: Mujer de 45 años, previamente sana, consulta por dolor en hipocondrio derecho de 12 horas de evolución, fiebre de 38,5 °C, náuseas y un episodio de vómito. Niega ictericia. Al examen: signo de Murphy positivo, sin irritación peritoneal difusa. Laboratorios: leucocitos 15 000/mm³, PCR 45 mg/L, bilirrubinas normales, FA y transaminasas normales. Ecografía hepatobiliar: vesícula distendida, con pared engrosada (5 mm), cálculo enclavado en infundíbulo vesicular, líquido perivesicular y signo de Murphy ecográfico positivo. No hay dilatación de la vía biliar.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Dolor en hipocondrio derecho, fiebre, signo de Murphy positivo con ecografía que muestra cálculo enclavado en infundíbulo, pared vesicular engrosada (>3 mm), líquido perivesicular y Murphy ecográfico positivo, sin dilatación de vía biliar ni colestasis, configuran una colecistitis aguda litiásica. Los criterios de Tokio (signos locales de inflamación + signos sistémicos + hallazgos ecográficos) están cumplidos. La colangitis produciría ictericia y colestasis. El cólico biliar simple no produce fiebre ni engrosamiento de pared.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Cólico biliar simple.", "isCorrect": false },
+      { "letter": "B", "text": "Colecistitis aguda litiásica.", "isCorrect": true },
+      { "letter": "C", "text": "Colangitis aguda.", "isCorrect": false },
+      { "letter": "D", "text": "Pancreatitis aguda biliar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento definitivo indicado y cuál es el momento óptimo para realizarlo?",
+    "explanation": "El tratamiento definitivo de la colecistitis aguda litiásica es la colecistectomía laparoscópica temprana, idealmente dentro de las primeras 72 horas del inicio de los síntomas (y preferiblemente <24 horas según evidencia reciente). La cirugía temprana reduce la estancia hospitalaria, los costos y las complicaciones comparada con el manejo diferido. Los antibióticos solos no son tratamiento definitivo. La colecistostomía percutánea se reserva para pacientes con alto riesgo quirúrgico.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Antibióticos intravenosos por 7-10 días y colecistectomía electiva en 6-8 semanas.", "isCorrect": false },
+      { "letter": "B", "text": "Colecistectomía laparoscópica temprana (idealmente dentro de las primeras 72 horas).", "isCorrect": true },
+      { "letter": "C", "text": "Colecistostomía percutánea como tratamiento definitivo.", "isCorrect": false },
+      { "letter": "D", "text": "Ácido ursodesoxicólico para disolución del cálculo y manejo expectante.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": "Caso clínico: Hombre de 60 años, fumador de 30 paquetes-año, con EPOC conocida, consulta a urgencias por disnea progresiva de 3 semanas, edema facial matutino, voz ronca y cefalea al agacharse. Niega dolor torácico o hemoptisis. Al examen: plétora facial, edema de cara y cuello más marcado del lado derecho, red venosa colateral visible en tórax anterior, SaO₂ 92%. TAC de tórax contrastada: masa mediastínica de 6 cm que comprime la vena cava superior con trombosis parcial intraluminal.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Ante la presencia de trombosis parcial de la VCS asociada a compresión tumoral, ¿cuál es la medida más inmediata para aliviar los síntomas obstructivos?",
+    "explanation": "En el SVCS con trombosis intraluminal y síntomas significativos, la colocación de un stent endovascular en la VCS proporciona alivio sintomático rápido (horas) y es la medida más inmediata y efectiva. Permite restaurar el flujo venoso mientras se realiza la biopsia y se planifica el tratamiento oncológico definitivo. La elevación de la cabecera y los corticoides son medidas coadyuvantes menores. La anticoagulación sola no resuelve la compresión extrínseca. La cirugía de bypass es técnicamente difícil y raramente indicada.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Elevación de la cabecera a 45° y corticoides sistémicos como tratamiento único.", "isCorrect": false },
+      { "letter": "B", "text": "Colocación de stent endovascular en la vena cava superior.", "isCorrect": true },
+      { "letter": "C", "text": "Anticoagulación sistémica con warfarina como única intervención.", "isCorrect": false },
+      { "letter": "D", "text": "Toracotomía exploradora para resección tumoral directa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": "Caso clínico: Niño de 18 meses, previamente sano con esquema de vacunación completo para la edad, es traído a urgencias a las 2:00 a. m. por despertar súbito con tos «de foca», estridor inspiratorio y dificultad respiratoria. La madre refiere que 24 horas antes inició con rinorrea clara y estornudos. No hay fiebre al momento de la consulta. Al examen: afebril, alerta, irritable al examinarlo, con estridor inspiratorio que se hace audible al llorar, leve retracción supraesternal, SaO₂ 96%, murmullo vesicular conservado bilateralmente.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Dado que el estridor es audible solo con el llanto y las retracciones son leves (crup leve), ¿cuál es el manejo más apropiado?",
+    "explanation": "El crup leve (estridor solo con agitación, retracciones leves, sin dificultad respiratoria en reposo) se maneja con una dosis única de dexametasona oral (0,15-0,6 mg/kg) y observación. La nebulización con adrenalina no es necesaria en crup leve (se reserva para crup moderado-severo con estridor en reposo). Los antibióticos no están indicados en una etiología viral. La hospitalización no es necesaria si el paciente mejora tras la dexametasona y puede ser observado en casa.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Nebulización con adrenalina y hospitalización para observación de 24 horas.", "isCorrect": false },
+      { "letter": "B", "text": "Dexametasona oral en dosis única y observación domiciliaria con signos de alarma.", "isCorrect": true },
+      { "letter": "C", "text": "Amoxicilina oral por 7 días para prevenir sobreinfección bacteriana.", "isCorrect": false },
+      { "letter": "D", "text": "Salbutamol nebulizado y budesonida inhalada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "Caso clínico: Mujer de 28 años, G2P1, con embarazo de 33 semanas y diagnóstico reciente de preeclampsia, consulta a urgencias por cefalea frontal intensa, fosfenos, dolor en epigastrio y edema generalizado. PA 185/115 mmHg, FC 95 lpm. Reflejos osteotendinosos exaltados (+++) con clonus aquíleo. Proteinuria 3+. Laboratorios: plaquetas 145 000/mm³, transaminasas normales, creatinina 0,9 mg/dL, LDH 250 U/L.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Además del tratamiento antihipertensivo, ¿cuál es la medida más importante para prevenir la progresión a eclampsia?",
+    "explanation": "La preeclampsia severa con síntomas neurológicos (cefalea intensa, fosfenos) y reflejos exaltados con clonus tiene alto riesgo de progresar a eclampsia (convulsiones). El sulfato de magnesio IV es el fármaco de elección para la profilaxis y tratamiento de las convulsiones eclámpticas (régimen de Zuspan: 4-6 g IV en bolo, luego 1-2 g/hora en infusión). Las benzodiazepinas y la fenitoína son menos efectivas que el sulfato de magnesio para este propósito. Los corticoides no previenen las convulsiones.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Fenitoína intravenosa en dosis de carga.", "isCorrect": false },
+      { "letter": "B", "text": "Sulfato de magnesio intravenoso (régimen de Zuspan).", "isCorrect": true },
+      { "letter": "C", "text": "Diazepam intravenoso en infusión continua.", "isCorrect": false },
+      { "letter": "D", "text": "Dexametasona intravenosa a dosis altas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "Caso clínico: Hombre de 48 años, obeso (IMC 34), con antecedente de cálculos renales y gota, consulta por debilidad muscular, calambres frecuentes y poliuria de 2 meses de evolución. Tiene hipertensión arterial de difícil control a pesar de tres antihipertensivos. Laboratorios: potasio 2,8 mEq/L (normal 3,5-5,0), sodio 146 mEq/L, bicarbonato 30 mEq/L, renina plasmática suprimida, aldosterona sérica elevada (35 ng/dL). TAC de abdomen: nódulo suprarrenal izquierdo de 1,8 cm.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Hipertensión resistente con hipopotasemia, alcalosis metabólica, relación aldosterona/renina elevada (aldosterona alta con renina suprimida) y adenoma suprarrenal configuran el cuadro clásico de hiperaldosteronismo primario (síndrome de Conn) por adenoma productor de aldosterona. El feocromocitoma produce catecolaminas, no aldosterona. El síndrome de Cushing produce hipercortisolismo. La estenosis de arteria renal produce hiperaldosteronismo secundario con renina elevada.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Feocromocitoma.", "isCorrect": false },
+      { "letter": "B", "text": "Hiperaldosteronismo primario (síndrome de Conn).", "isCorrect": true },
+      { "letter": "C", "text": "Síndrome de Cushing.", "isCorrect": false },
+      { "letter": "D", "text": "Hipertensión renovascular por estenosis de arteria renal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento definitivo indicado para este paciente con adenoma suprarrenal unilateral productor de aldosterona?",
+    "explanation": "La adrenalectomía laparoscópica unilateral es el tratamiento de elección para el hiperaldosteronismo primario causado por un adenoma suprarrenal unilateral (síndrome de Conn). La cirugía es curativa en la mayoría de los casos. La espironolactona es el tratamiento médico para pacientes no candidatos a cirugía o con hiperplasia suprarrenal bilateral. Los IECA no son el tratamiento específico del aldosteronismo primario. La embolización arterial no tiene papel en este contexto.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Espironolactona a dosis altas de por vida.", "isCorrect": false },
+      { "letter": "B", "text": "Adrenalectomía laparoscópica unilateral izquierda.", "isCorrect": true },
+      { "letter": "C", "text": "Inhibidores de la enzima convertidora de angiotensina (IECA) como tratamiento definitivo.", "isCorrect": false },
+      { "letter": "D", "text": "Embolización arterial selectiva de la glándula suprarrenal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "Caso clínico: Recién nacido pretérmino de 32 semanas de edad gestacional, peso 1 600 g, producto de cesárea de urgencia por desprendimiento de placenta, presenta a las 6 horas de vida dificultad respiratoria progresiva con quejido espiratorio, aleteo nasal y retracciones intercostales y subcostales marcadas. SaO₂ 82% con oxígeno por cánula nasal a 2 L/min, FR 72 rpm. La radiografía de tórax muestra opacidad difusa bilateral con broncograma aéreo y disminución del volumen pulmonar («vidrio esmerilado»).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Recién nacido pretérmino (32 semanas) con dificultad respiratoria progresiva en las primeras horas de vida, quejido, retracciones, hipoxemia y radiografía con patrón de vidrio esmerilado bilateral con broncograma aéreo es clásico del síndrome de dificultad respiratoria neonatal (enfermedad de membrana hialina) por déficit de surfactante. La taquipnea transitoria del recién nacido tiene mejor pronóstico y radiografía con líquido en cisuras. La neumonía neonatal no muestra patrón tan difuso. La hernia diafragmática produce asimetría torácica.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Taquipnea transitoria del recién nacido.", "isCorrect": false },
+      { "letter": "B", "text": "Síndrome de dificultad respiratoria neonatal (enfermedad de membrana hialina).", "isCorrect": true },
+      { "letter": "C", "text": "Neumonía neonatal por aspiración de meconio.", "isCorrect": false },
+      { "letter": "D", "text": "Hernia diafragmática congénita.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento específico de primera línea para esta condición?",
+    "explanation": "El tratamiento específico del síndrome de dificultad respiratoria neonatal es la administración de surfactante exógeno intratraqueal, que sustituye el surfactante deficiente y mejora la compliance pulmonar, el intercambio gaseoso y reduce la mortalidad. Se administra lo más tempranamente posible (técnica INSURE: intubación, surfactante, extubación a CPAP, o técnica LISA: menos invasiva). El CPAP nasal es el soporte ventilatorio de primera línea pero no reemplaza al surfactante. Los corticoides postnatales no son primera línea. Los antibióticos se inician empíricamente pero no son el tratamiento específico.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Antibióticos de amplio espectro (ampicilina + gentamicina) como tratamiento específico.", "isCorrect": false },
+      { "letter": "B", "text": "Surfactante exógeno intratraqueal.", "isCorrect": true },
+      { "letter": "C", "text": "Corticoides sistémicos postnatales (dexametasona IV).", "isCorrect": false },
+      { "letter": "D", "text": "Oxígeno al 100% por casco cefálico como tratamiento definitivo.", "isCorrect": false }
+    ]
+  }
+]

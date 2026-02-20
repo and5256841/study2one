@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Lea el siguiente texto.\n\n«En 1854, Florence Nightingale llego al hospital militar britanico de Scutari, en Estambul, con un grupo de 38 enfermeras voluntarias. Lo que encontro alli no fue un hospital sino un matadero administrativo. Los soldados heridos en la guerra de Crimea morian no por las balas enemigas, sino por las condiciones del propio hospital: hacinamiento extremo, alcantarillas obstruidas, ropa de cama infestada de piojos y una tasa de mortalidad que superaba el 42%. Los medicos militares, lejos de recibirla con gratitud, la consideraron una intrusa.\n\nNightingale no se limito a limpiar heridas. Implemento protocolos de higiene, reorganizo el suministro de alimentos, establecio sistemas de ventilacion y, sobre todo, registro meticulosamente cada muerte y su causa. Sus diagramas estadisticos — los celebres «diagramas de rosa» — demostraron con precision matematica que la mayoria de las muertes eran prevenibles y se debian a enfermedades infecciosas causadas por las condiciones sanitarias, no a las heridas de combate. En seis meses, la mortalidad descendio al 2%.\n\nLo verdaderamente revolucionario de Nightingale no fue su compasion — que la tenia en abundancia — sino su metodo. Fue una de las primeras personas en utilizar la estadistica como herramienta de reforma social. Demostro que el cuidado no es intuicion ni caridad: es una disciplina que se fundamenta en datos, se organiza con rigor y se evalua con evidencia. La enfermeria moderna no nacio de la ternura; nacio de la ciencia.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, la tasa de mortalidad en el hospital de Scutari cuando llego Nightingale era de:",
+    "explanation": "El texto afirma explicitamente que la tasa de mortalidad «superaba el 42%». Es informacion literal directa del primer parrafo. La opcion C (42%) es correcta. Las demas cifras no aparecen en el texto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "28%.", "isCorrect": false },
+      { "letter": "B", "text": "35%.", "isCorrect": false },
+      { "letter": "C", "text": "Mas del 42%.", "isCorrect": true },
+      { "letter": "D", "text": "50%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "La expresion «un matadero administrativo» se utiliza en el texto para:",
+    "explanation": "El autor no se refiere a un matadero literal sino a un lugar donde la gente moria por fallas de gestion, no por causas inevitables. La metafora combina la muerte masiva (matadero) con su origen burocratico (administrativo), sugiriendo que el hospital mataba por negligencia institucional. La opcion B identifica esta funcion. La opcion A toma la expresion literalmente. La opcion C introduce una critica militar ausente. La opcion D confunde la metafora con una descripcion arquitectonica.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Describir literalmente las instalaciones donde se sacrificaban animales para alimentar a los soldados.", "isCorrect": false },
+      { "letter": "B", "text": "Ilustrar que las muertes eran causadas por fallas de gestion institucional, no por causas inevitables.", "isCorrect": true },
+      { "letter": "C", "text": "Criticar la estrategia militar britanica durante la guerra de Crimea.", "isCorrect": false },
+      { "letter": "D", "text": "Senalar que el edificio del hospital habia sido anteriormente un matadero reconvertido.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "La frase «los medicos militares la consideraron una intrusa» permite inferir que:",
+    "explanation": "Si los medicos la rechazaron, se infiere que el ambito hospitalario militar era un espacio controlado por hombres que no aceptaban la intervencion de una mujer en roles de autoridad clinica. La resistencia no se debia a incompetencia de Nightingale sino a prejuicios de genero y jerarquia profesional. La opcion A captura esta inferencia. La opcion B atribuye la reaccion a protocolos formales. La opcion C inventa un conflicto nacionalista. La opcion D sugiere que los medicos tenian razon.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Existia una resistencia institucional a la participacion femenina en el ambito medico-militar.", "isCorrect": true },
+      { "letter": "B", "text": "Nightingale carecia de las credenciales formales exigidas por el ejercito britanico.", "isCorrect": false },
+      { "letter": "C", "text": "Los medicos britanicos preferian recibir enfermeras de nacionalidad turca.", "isCorrect": false },
+      { "letter": "D", "text": "Las enfermeras voluntarias habian causado problemas en hospitales anteriores.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": null,
+    "questionText": "La frase final — «la enfermeria moderna no nacio de la ternura; nacio de la ciencia» — cumple la funcion retorica de:",
+    "explanation": "El autor cierra con una antitesis que desafia el estereotipo de la enfermeria como profesion basada en la compasion emocional. Al oponer ternura y ciencia, redefine la disciplina como una practica fundamentada en evidencia y metodo. La opcion C describe esta funcion. La opcion A reduce la frase a informacion historica. La opcion B interpreta la frase como critica a la compasion, cuando el autor ya reconocio que Nightingale la tenia. La opcion D introduce una comparacion con la medicina que el texto no plantea.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Resumir cronologicamente la historia de la enfermeria desde la antiguedad hasta el presente.", "isCorrect": false },
+      { "letter": "B", "text": "Argumentar que la compasion es un obstaculo para el ejercicio profesional de la enfermeria.", "isCorrect": false },
+      { "letter": "C", "text": "Desafiar el estereotipo de la enfermeria como profesion emocional y reivindicar su fundamento cientifico.", "isCorrect": true },
+      { "letter": "D", "text": "Comparar la enfermeria con la medicina para demostrar que ambas disciplinas tienen el mismo origen.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Lea el siguiente texto.\n\n«CRISPR-Cas9 es, probablemente, la herramienta biotecnologica mas poderosa — y mas inquietante — que la humanidad ha desarrollado desde la energia nuclear. Esta tecnologia de edicion genetica permite cortar, eliminar o reemplazar secuencias especificas de ADN con una precision sin precedentes y a un costo accesible. En teoria, podria erradicar enfermedades hereditarias como la anemia falciforme, la fibrosis quistica o la enfermedad de Huntington. En la practica, ya ha sido utilizada para modificar embriones humanos.\n\nEn noviembre de 2018, el biofisico chino He Jiankui anuncio que habia editado geneticamente dos embriones humanos — las gemelas Lulu y Nana — para hacerlos resistentes al VIH. La comunidad cientifica internacional reacciono con condena casi unanime. No porque la resistencia al VIH sea indeseable, sino porque el procedimiento se realizo sin supervision etica adecuada, con consentimiento informado cuestionable y sin certeza sobre los efectos a largo plazo de las modificaciones introducidas. He Jiankui fue sentenciado a tres anos de prision.\n\nEl caso plantea una pregunta que la ciencia por si sola no puede responder: ¿donde trazar la linea entre curar una enfermedad y disenar un ser humano? Editar un gen para eliminar una enfermedad letal parece eticamente justificable. Pero, ¿que ocurre cuando la misma tecnologia se utiliza para seleccionar el color de ojos, aumentar la estatura o potenciar la inteligencia? La diferencia entre terapia y mejoramiento no es tecnica; es filosofica. Y las sociedades que no debatan esta distincion antes de que la tecnologia la haga irrelevante estaran legislando demasiado tarde.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, la comunidad cientifica condeno el experimento de He Jiankui principalmente porque:",
+    "explanation": "El texto indica explicitamente que la condena no fue por el objetivo (resistencia al VIH) sino porque «el procedimiento se realizo sin supervision etica adecuada, con consentimiento informado cuestionable y sin certeza sobre los efectos a largo plazo». La opcion D recoge estas razones. La opcion A invierte la causa de la condena. La opcion B introduce la prohibicion de CRISPR, que el texto no menciona. La opcion C habla de motivaciones economicas, ausentes del texto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Consideraba que hacer embriones resistentes al VIH era un objetivo medico innecesario.", "isCorrect": false },
+      { "letter": "B", "text": "La edicion genetica con CRISPR estaba prohibida en todos los paises del mundo.", "isCorrect": false },
+      { "letter": "C", "text": "El experimento fue financiado por empresas farmaceuticas con intereses comerciales.", "isCorrect": false },
+      { "letter": "D", "text": "El procedimiento carecio de supervision etica, consentimiento adecuado y certeza sobre efectos a largo plazo.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "La comparacion inicial entre CRISPR y la energia nuclear sugiere que el autor considera que ambas tecnologias comparten:",
+    "explanation": "Al comparar CRISPR con la energia nuclear — que puede generar electricidad o destruir ciudades — el autor establece una analogia de dualidad: ambas son herramientas de poder extraordinario cuyo impacto depende del uso que se les de. La opcion B captura esta analogia. La opcion A reduce la comparacion a lo cronologico. La opcion C habla de aplicaciones militares, que el texto no menciona para CRISPR. La opcion D introduce regulacion internacional, ajena al proposito de la comparacion.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "El mismo periodo historico de descubrimiento y desarrollo cientifico.", "isCorrect": false },
+      { "letter": "B", "text": "Un potencial transformador enorme que puede derivar tanto en beneficio como en peligro segun su uso.", "isCorrect": true },
+      { "letter": "C", "text": "Su aplicacion principal en el ambito militar antes de ser adaptadas para fines civiles.", "isCorrect": false },
+      { "letter": "D", "text": "La necesidad de regulacion por parte de un organismo internacional unico.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": null,
+    "questionText": "La afirmacion «la diferencia entre terapia y mejoramiento no es tecnica; es filosofica» implica que:",
+    "explanation": "El autor senala que CRISPR puede usarse tanto para curar como para mejorar, y que la tecnologia no distingue entre ambos usos. La distincion depende de valores, no de capacidades tecnicas. La opcion A identifica esta implicacion. La opcion B confunde los terminos. La opcion C reduce la cuestion a lo legal. La opcion D introduce ineficacia, que el texto no plantea.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La tecnologia permite ambos usos indistintamente y son los valores humanos los que deben establecer los limites.", "isCorrect": true },
+      { "letter": "B", "text": "Los tratamientos terapeuticos son mas complejos tecnicamente que las intervenciones de mejoramiento.", "isCorrect": false },
+      { "letter": "C", "text": "La legislacion internacional ya ha definido claramente la frontera entre curar y mejorar.", "isCorrect": false },
+      { "letter": "D", "text": "La edicion genetica es ineficaz como terapia y solo funciona como herramienta de mejoramiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "Un lector critico podria senalar que el argumento del texto presenta la siguiente limitacion:",
+    "explanation": "El texto presenta el debate como si existieran dos categorias claramente separables — terapia y mejoramiento — pero muchas intervenciones medicas se situan en un espectro continuo. Por ejemplo, mejorar la memoria en un paciente con deterioro cognitivo leve es terapia o mejoramiento? El texto simplifica una distincion que en la practica es mucho mas borrosa. La opcion C identifica esta debilidad. La opcion A es erronea porque el texto si menciona el caso concreto de He Jiankui. La opcion B critica algo que no es objetivo del texto. La opcion D introduce un tema de acceso economico que el texto no aborda.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "No presenta ningun caso concreto de edicion genetica para ilustrar sus afirmaciones.", "isCorrect": false },
+      { "letter": "B", "text": "No explica los mecanismos moleculares de CRISPR-Cas9, impidiendo la comprension del lector.", "isCorrect": false },
+      { "letter": "C", "text": "Asume que la distincion entre terapia y mejoramiento es nitida, cuando en la practica muchas intervenciones se situan en un espectro continuo.", "isCorrect": true },
+      { "letter": "D", "text": "Ignora que el acceso a la edicion genetica estara determinado por la capacidad economica, generando nuevas desigualdades.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Lea el siguiente texto.\n\n«La medicina en zonas de conflicto armado opera bajo una logica que invierte los principios fundamentales de la practica clinica convencional. En un hospital urbano, el medico busca el mejor resultado posible para cada paciente individual. En un campo de batalla o en un campamento de refugiados, el medico debe decidir a quien atiende primero, a quien puede esperar y — lo mas desgarrador — a quien no puede salvar con los recursos disponibles. Este proceso, conocido como triaje, no es simplemente una herramienta de clasificacion: es una decision etica que se toma bajo presion extrema y con informacion incompleta.\n\nMedicos Sin Fronteras (MSF) ha documentado que en los conflictos contemporaneos los ataques contra infraestructura medica se han convertido en una tactica deliberada de guerra. En Siria, entre 2011 y 2020, se registraron mas de 600 ataques contra hospitales y clinicas. En Yemen, los bombardeos destruyeron el 50% de la infraestructura sanitaria del pais. Atacar un hospital no es un efecto colateral: es una estrategia para desmoralizar a la poblacion y eliminar su capacidad de recuperacion.\n\nLos profesionales de salud que trabajan en estas condiciones enfrentan un dilema que la formacion academica rara vez aborda: como ejercer la medicina cuando el acto mismo de curar te convierte en un objetivo militar. La neutralidad medica — el principio de que hospitales, ambulancias y personal sanitario no deben ser atacados — esta consagrada en los Convenios de Ginebra desde 1949. Sin embargo, en los conflictos del siglo XXI, este principio se viola con una frecuencia que sugiere que no se trata de excepciones sino de una nueva normalidad.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, ¿cuantos ataques contra hospitales se registraron en Siria entre 2011 y 2020?",
+    "explanation": "El texto lo indica explicitamente: «en Siria, entre 2011 y 2020, se registraron mas de 600 ataques contra hospitales y clinicas». Es una pregunta de recuperacion de informacion literal. La opcion B (mas de 600) es correcta.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Mas de 300.", "isCorrect": false },
+      { "letter": "B", "text": "Mas de 600.", "isCorrect": true },
+      { "letter": "C", "text": "Mas de 900.", "isCorrect": false },
+      { "letter": "D", "text": "Mas de 1200.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": null,
+    "questionText": "La afirmacion «atacar un hospital no es un efecto colateral: es una estrategia» tiene como proposito argumentativo:",
+    "explanation": "El autor rechaza la interpretacion de que los ataques a hospitales sean consecuencias accidentales de la guerra. Al calificarlos como estrategia, los presenta como actos deliberados e intencionales. Esto agrava la dimension etica del problema. La opcion C identifica esta funcion. La opcion A invierte el sentido. La opcion B introduce la OMS, ausente del argumento. La opcion D habla de respuesta humanitaria, un tema diferente.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Minimizar la gravedad de los ataques al enmarcarlos como consecuencias inevitables de la guerra.", "isCorrect": false },
+      { "letter": "B", "text": "Responsabilizar a la OMS por no haber protegido la infraestructura sanitaria en zonas de conflicto.", "isCorrect": false },
+      { "letter": "C", "text": "Enfatizar que la destruccion de hospitales es un acto deliberado e intencional, no accidental.", "isCorrect": true },
+      { "letter": "D", "text": "Comparar la eficacia de la respuesta humanitaria en Siria y Yemen.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "La expresion «una nueva normalidad» en el cierre del texto funciona como un recurso retorico que:",
+    "explanation": "El autor usa «nueva normalidad» para denunciar que la violacion de la neutralidad medica ha dejado de ser excepcional y se ha vuelto sistematica. El termino, con su connotacion de aceptacion tacita, contiene una denuncia implicita: lo que deberia escandalizar se ha naturalizado. La opcion D describe esta funcion. La opcion A toma la expresion como descripcion neutra. La opcion B introduce reformas legales. La opcion C confunde el termino con aceptacion por parte del autor.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Describe de manera neutra y objetiva las transformaciones del derecho internacional humanitario.", "isCorrect": false },
+      { "letter": "B", "text": "Propone una reforma de los Convenios de Ginebra para adaptarlos a los conflictos contemporaneos.", "isCorrect": false },
+      { "letter": "C", "text": "Indica que el autor acepta la violacion de la neutralidad medica como un hecho irreversible.", "isCorrect": false },
+      { "letter": "D", "text": "Denuncia que la violacion sistematica de un principio humanitario se ha naturalizado sin generar consecuencias.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "El texto establece una oposicion entre la medicina convencional y la medicina en zonas de conflicto. Esta oposicion se fundamenta en que:",
+    "explanation": "El primer parrafo contrasta directamente ambos contextos: en la medicina convencional, el objetivo es el mejor resultado para cada paciente; en el conflicto, el medico debe elegir entre pacientes con recursos limitados. La diferencia central es la prioridad (individuo vs. colectivo con recursos escasos). La opcion A identifica esta oposicion. La opcion B habla de tecnologia, que no es el foco. La opcion C invierte la relacion. La opcion D introduce formacion academica como diferencia, que no es el eje de la oposicion.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "La primera busca el mejor resultado individual, mientras la segunda exige decisiones de priorizacion con recursos limitados.", "isCorrect": true },
+      { "letter": "B", "text": "La primera utiliza tecnologia avanzada y la segunda depende exclusivamente de metodos artesanales.", "isCorrect": false },
+      { "letter": "C", "text": "La primera se rige por la etica medica y la segunda la abandona por necesidad.", "isCorrect": false },
+      { "letter": "D", "text": "La primera requiere formacion universitaria formal y la segunda se basa en experiencia de campo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Lea el siguiente texto.\n\n«El cuerpo humano alberga aproximadamente 38 billones de microorganismos — bacterias, virus, hongos y arqueas — que en conjunto constituyen el microbioma. Esta cifra supera ligeramente el numero total de celulas humanas, lo que ha llevado a algunos investigadores a plantear una pregunta provocadora: ¿somos mas microbios que humanos?\n\nDurante la mayor parte de la historia de la medicina, los microorganismos fueron considerados exclusivamente como agentes patogenos: enemigos que habia que eliminar. La era de los antibioticos reforzo esta vision belica. Sin embargo, la investigacion de las ultimas dos decadas ha revelado que la inmensa mayoria de los microbios que habitan en nuestro cuerpo no son daninos; muchos son esenciales. El microbioma intestinal, por ejemplo, participa en la digestion de fibras que nuestras enzimas no pueden procesar, sintetiza vitaminas como la K y la B12, entrena al sistema inmunologico para distinguir entre amenazas reales y falsas alarmas, y produce neurotransmisores como la serotonina — de hecho, el 90% de la serotonina del cuerpo se produce en el intestino, no en el cerebro.\n\nLo mas inquietante es la relacion emergente entre disbiosis — el desequilibrio del microbioma — y enfermedades que tradicionalmente no se asociaban con el intestino: depresion, ansiedad, autismo, obesidad, diabetes tipo 2 e incluso enfermedades neurodegenerativas como el Alzheimer. El llamado «eje intestino-cerebro» sugiere que la comunicacion bidireccional entre el microbioma intestinal y el sistema nervioso central podria ser un factor determinante en la salud mental. Si esto se confirma, el paradigma psiquiatrico dominante — centrado en la quimica cerebral — necesitara una revision profunda.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, ¿que porcentaje de la serotonina del cuerpo se produce en el intestino?",
+    "explanation": "El texto lo indica explicitamente: «el 90% de la serotonina del cuerpo se produce en el intestino, no en el cerebro». Es informacion literal directa. La opcion C (90%) es correcta.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "50%.", "isCorrect": false },
+      { "letter": "B", "text": "75%.", "isCorrect": false },
+      { "letter": "C", "text": "90%.", "isCorrect": true },
+      { "letter": "D", "text": "95%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "La pregunta «¿somos mas microbios que humanos?» cumple en el texto la funcion de:",
+    "explanation": "La pregunta se plantea tras el dato de que los microorganismos superan en numero a las celulas humanas. Su funcion no es ofrecer una respuesta literal sino provocar una reflexion sobre la identidad biologica del ser humano y su relacion con los microbios. La opcion B identifica esta funcion. La opcion A la toma como pregunta cientifica literal. La opcion C introduce un debate sobre taxonomia. La opcion D confunde provocacion intelectual con humor.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Plantear una hipotesis cientifica que el texto se propone demostrar con evidencia experimental.", "isCorrect": false },
+      { "letter": "B", "text": "Provocar una reflexion sobre la identidad biologica humana a partir del dato sobre la proporcion de microorganismos.", "isCorrect": true },
+      { "letter": "C", "text": "Cuestionar la clasificacion taxonomica del ser humano como especie independiente.", "isCorrect": false },
+      { "letter": "D", "text": "Introducir un tono humoristico que aligere la complejidad cientifica del tema.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "El texto senala que «la era de los antibioticos reforzo esta vision belica» de los microorganismos. Esta afirmacion implica que:",
+    "explanation": "El autor describe un paradigma que veia a todos los microbios como enemigos. Los antibioticos, al ser armas contra bacterias, reforzaron la idea de que la relacion con los microorganismos es de guerra. La opcion A captura esta implicacion. La opcion B exagera al decir que los antibioticos eliminan todos los microbios de forma permanente. La opcion C invierte la logica temporal. La opcion D habla de efectos secundarios, un tema diferente.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "El enfoque terapeutico de combatir bacterias consolido la percepcion de que todos los microorganismos son daninos.", "isCorrect": true },
+      { "letter": "B", "text": "Los antibioticos eliminaron permanentemente todos los microorganismos beneficos del cuerpo humano.", "isCorrect": false },
+      { "letter": "C", "text": "La resistencia antimicrobiana surgio como consecuencia directa de la investigacion sobre el microbioma.", "isCorrect": false },
+      { "letter": "D", "text": "Los efectos secundarios de los antibioticos fueron ignorados por la comunidad medica durante decadas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": null,
+    "questionText": "Un lector critico podria observar que el argumento del tercer parrafo presenta la siguiente debilidad:",
+    "explanation": "El tercer parrafo enumera multiples enfermedades (depresion, autismo, Alzheimer, etc.) vinculadas a la disbiosis, pero la correlacion entre microbioma alterado y estas enfermedades no demuestra causalidad. Podria ser que las enfermedades alteren el microbioma y no al reves. El texto usa un lenguaje cauteloso («sugiere», «si esto se confirma») pero la lista de enfermedades puede dar al lector una impresion de certeza mayor a la que la evidencia respalda. La opcion B identifica esta limitacion.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "No cita las fuentes especificas de los estudios sobre el eje intestino-cerebro.", "isCorrect": false },
+      { "letter": "B", "text": "Presenta correlaciones entre disbiosis y enfermedades como si fueran relaciones causales establecidas.", "isCorrect": true },
+      { "letter": "C", "text": "Ignora que la serotonina intestinal y la serotonina cerebral cumplen funciones identicas.", "isCorrect": false },
+      { "letter": "D", "text": "Omite la posibilidad de que los probioticos puedan restaurar el equilibrio del microbioma.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Lea el siguiente texto.\n\n«En 1847, Ignaz Semmelweis, un joven obstetra hungaro que trabajaba en el Hospital General de Viena, observo un patron alarmante: la tasa de mortalidad por fiebre puerperal en la Primera Division del hospital — donde los partos eran atendidos por medicos y estudiantes de medicina — era cinco veces mayor que en la Segunda Division, atendida por parteras. La unica diferencia significativa entre ambas divisiones era que los medicos pasaban directamente de la sala de autopsias a la sala de partos, sin lavarse las manos.\n\nSemmelweis impuso el lavado de manos obligatorio con una solucion de cal clorada antes de atender cada parto. La mortalidad cayo del 18% al 1% en cuestion de meses. La evidencia era abrumadora. Sin embargo, la comunidad medica rechazo sus hallazgos. Los colegas de Semmelweis se sintieron ofendidos por la implicacion de que sus propias manos — las manos de un caballero — pudieran transmitir enfermedades. Semmelweis fue despedido, ridiculizado y finalmente internado en un manicomio, donde murio a los 47 anos, posiblemente golpeado por los guardias.\n\nPasarian casi dos decadas antes de que Louis Pasteur y Robert Koch establecieran la teoria del germen, validando lo que Semmelweis habia demostrado empiricamente. La historia de Semmelweis es una leccion sobre un fenomeno que la epistemologia moderna denomina «reflejo de Semmelweis»: la tendencia de la comunidad cientifica a rechazar evidencia nueva cuando contradice las creencias establecidas.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, la tasa de mortalidad por fiebre puerperal en la Primera Division antes de la intervencion de Semmelweis era de:",
+    "explanation": "El texto indica que «la mortalidad cayo del 18% al 1%». El dato del 18% corresponde a la tasa antes de la intervencion. Es informacion literal directa. La opcion C es correcta.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "5%.", "isCorrect": false },
+      { "letter": "B", "text": "10%.", "isCorrect": false },
+      { "letter": "C", "text": "18%.", "isCorrect": true },
+      { "letter": "D", "text": "25%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "La expresion «las manos de un caballero» revela que el rechazo a Semmelweis se basaba en:",
+    "explanation": "El texto indica que los medicos se ofendieron por la implicacion de que sus manos pudieran ser vehiculos de enfermedad. La referencia a «caballero» senala que la resistencia no era cientifica sino social: los medicos se consideraban personas de clase alta cuya higiene personal no podia cuestionarse. La opcion A identifica esta base. La opcion B habla de evidencia insuficiente. La opcion C introduce la gestion hospitalaria. La opcion D menciona rivalidades nacionales.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Prejuicios de clase social que impedian aceptar que un medico pudiera ser vector de enfermedad.", "isCorrect": true },
+      { "letter": "B", "text": "La falta de evidencia estadistica que respaldara la hipotesis de Semmelweis.", "isCorrect": false },
+      { "letter": "C", "text": "Conflictos administrativos entre Semmelweis y la direccion del hospital.", "isCorrect": false },
+      { "letter": "D", "text": "La rivalidad entre la escuela medica hungara y la escuela medica vienesa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": null,
+    "questionText": "El concepto de «reflejo de Semmelweis» descrito en el texto puede aplicarse a situaciones contemporaneas en las que:",
+    "explanation": "El texto define el reflejo de Semmelweis como la tendencia a rechazar evidencia nueva que contradice creencias establecidas. Una aplicacion contemporanea seria cualquier caso donde la comunidad cientifica resiste hallazgos que desafian el paradigma vigente. La opcion D describe esta situacion. La opcion A habla de divulgacion, no de rechazo. La opcion B introduce financiacion, un tema diferente. La opcion C invierte la logica del concepto.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Los medios de comunicacion simplifican hallazgos cientificos complejos para el publico general.", "isCorrect": false },
+      { "letter": "B", "text": "Los investigadores abandonan lineas de estudio por falta de financiacion institucional.", "isCorrect": false },
+      { "letter": "C", "text": "Los pacientes se resisten a seguir tratamientos medicos por desconfianza hacia la medicina.", "isCorrect": false },
+      { "letter": "D", "text": "La comunidad cientifica descarta investigaciones validas porque sus conclusiones desafian el paradigma dominante.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "La estructura argumentativa del texto puede describirse como:",
+    "explanation": "El texto presenta primero la observacion y la solucion de Semmelweis (evidencia empirica), luego el rechazo y la tragedia personal (reaccion de la comunidad), y finalmente la validacion posterior y la leccion epistemologica (concepto de reflejo de Semmelweis). La opcion C describe esta progresion. La opcion A invierte el orden. La opcion B introduce una estructura de debate que el texto no utiliza. La opcion D habla de cronologia pura, cuando el texto tiene una funcion argumentativa clara.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Teoria cientifica, seguida de experimento controlado y conclusion estadistica.", "isCorrect": false },
+      { "letter": "B", "text": "Presentacion de dos posturas opuestas, analisis de sus meritos y sintesis final.", "isCorrect": false },
+      { "letter": "C", "text": "Evidencia empirica, rechazo institucional y validacion posterior que da origen a un concepto epistemologico.", "isCorrect": true },
+      { "letter": "D", "text": "Descripcion cronologica de eventos historicos sin interpretacion ni valoracion del autor.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Lea el siguiente fragmento.\n\n«Nel mezzo del cammin di nostra vita\nmi ritrovai per una selva oscura,\nché la diritta via era smarrita.\n\nA mitad del camino de nuestra vida\nme encontre en una selva oscura,\npues la senda recta se habia extraviado.\n\nAh, cuanto decir lo que era es cosa dura,\nesta selva salvaje, aspera y fuerte\nque en el pensamiento renueva el temor.\n\nTan amarga es, que poco mas es la muerte;\nmas para tratar del bien que alli encontre,\ndire de las otras cosas que alli he visto.\n\nYo no se bien repetir como entre en ella,\ntan lleno de sueno estaba en aquel punto\nen que abandone la via verdadera.»\n\n(Dante Alighieri, Divina Comedia, Canto I del «Infierno», c. 1308-1320, traduccion al espanol de obra de dominio publico)",
+    "questionText": "La expresion «a mitad del camino de nuestra vida» hace referencia, en el contexto del poema, a:",
+    "explanation": "Dante escribio la Divina Comedia situando el inicio del viaje a los 35 anos, la mitad de la esperanza de vida biblica de 70 anos. El «camino de nuestra vida» es una metafora del transcurso de la existencia humana, y la mitad indica un momento de crisis en la madurez. La opcion B identifica esta referencia. La opcion A la toma como indicacion geografica. La opcion C introduce el concepto de jubilacion. La opcion D habla de la mitad de un viaje fisico.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Un lugar geografico especifico situado a medio camino entre dos ciudades italianas.", "isCorrect": false },
+      { "letter": "B", "text": "Un momento de crisis existencial que ocurre en la madurez de la vida humana.", "isCorrect": true },
+      { "letter": "C", "text": "El momento en que el poeta se retiro de la vida publica para dedicarse a la escritura.", "isCorrect": false },
+      { "letter": "D", "text": "La mitad exacta de un viaje de peregrinacion religiosa hacia Jerusalen.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "La «selva oscura» funciona en el poema como simbolo de:",
+    "explanation": "En la tradicion alegorica medieval, la selva oscura representa la confusion espiritual y moral. Dante la describe como «salvaje, aspera y fuerte» y dice que «la senda recta se habia extraviado», indicando que ha perdido el rumbo moral. La opcion C identifica este simbolismo. La opcion A la interpreta literalmente. La opcion B introduce un significado politico que, aunque presente en la obra completa, no se deriva del fragmento citado. La opcion D habla de la muerte, pero el texto dice que la selva es casi tan amarga como la muerte, no que la represente.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Un bosque real en las afueras de Florencia donde Dante sufrio un asalto.", "isCorrect": false },
+      { "letter": "B", "text": "El exilio politico al que fue condenado el poeta por sus enemigos.", "isCorrect": false },
+      { "letter": "C", "text": "El estado de confusion espiritual, moral y existencial en que se encuentra el poeta.", "isCorrect": true },
+      { "letter": "D", "text": "La muerte fisica que el poeta anticipa y teme.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "La afirmacion «tan amarga es, que poco mas es la muerte» establece una comparacion que tiene como efecto:",
+    "explanation": "Al decir que la experiencia de la selva oscura es casi tan terrible como la muerte, Dante eleva al maximo la gravedad de su crisis. La comparacion con la muerte — el limite del sufrimiento humano — funciona como hiperbole para transmitir la intensidad de la angustia. La opcion A describe este efecto. La opcion B introduce una preferencia por la muerte que el texto no expresa. La opcion C confunde la comparacion con una reflexion filosofica sobre la mortalidad. La opcion D habla de humor, incompatible con el tono del fragmento.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Intensificar la gravedad de la crisis al situarla en el limite del sufrimiento humano.", "isCorrect": true },
+      { "letter": "B", "text": "Sugerir que el poeta prefiere la muerte a continuar perdido en la selva.", "isCorrect": false },
+      { "letter": "C", "text": "Introducir una reflexion filosofica sobre la naturaleza de la mortalidad.", "isCorrect": false },
+      { "letter": "D", "text": "Crear un efecto de ironia al contrastar el miedo con una expresion humoristica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "La confesion del poeta — «yo no se bien repetir como entre en ella» — sugiere que el extravío moral que describe:",
+    "explanation": "Al decir que no sabe como entro en la selva y que estaba «lleno de sueno», Dante sugiere que la perdida del rumbo moral no fue un acto consciente sino un proceso gradual e inadvertido. La opcion D identifica esta sugerencia. La opcion A introduce amnesia literal. La opcion B habla de un evento traumatico especifico. La opcion C atribuye la experiencia a una vision sobrenatural.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Fue causado por una enfermedad que le provoco amnesia permanente.", "isCorrect": false },
+      { "letter": "B", "text": "Ocurrio como consecuencia de un evento traumatico puntual que el poeta reprime.", "isCorrect": false },
+      { "letter": "C", "text": "Es producto de una vision mistica enviada por Dios como prueba espiritual.", "isCorrect": false },
+      { "letter": "D", "text": "Fue un proceso gradual e inadvertido, no una decision consciente.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Lea el siguiente fragmento.\n\n«Ivan Ilich vio que se moria, y la desesperacion no le abandonaba. En el fondo de su alma sabia que se moria, pero no solo no se acostumbraba a ello, sino que sencillamente no lo comprendia, no podia comprenderlo de ningun modo.\n\nEl silogismo que habia aprendido en la logica de Kiesewetter: «Cayo es un hombre, los hombres son mortales, luego Cayo es mortal», le habia parecido siempre correcto aplicado a Cayo, pero no a si mismo. Que Cayo — el hombre abstracto — fuese mortal era perfectamente justo; pero el no era Cayo ni era un hombre abstracto: habia sido siempre un ser completamente distinto de todos los demas. El habia sido el pequeno Vania, con mama, con papa, con Mitia y con un juguete, con un cochero, con una ninera, luego con Katenka, con todas las alegrias, las tristezas, los entusiasmos de la infancia, de la adolescencia, de la juventud. ¿Acaso Cayo conocia aquel olor de la pelota de cuero rayada que tanto le gustaba a Vania?»\n\n(Leon Tolstoi, La muerte de Ivan Ilich, 1886, traduccion al espanol de obra de dominio publico)",
+    "questionText": "El silogismo sobre Cayo — «Cayo es un hombre, los hombres son mortales, luego Cayo es mortal» — se introduce en el texto para:",
+    "explanation": "Tolstoi presenta el silogismo como una verdad logica que Ivan Ilich acepta en abstracto pero no puede aplicar a si mismo. La funcion del silogismo es mostrar la distancia entre comprender la mortalidad como concepto universal y aceptarla como experiencia personal. La opcion B identifica esta funcion. La opcion A lo toma como elemento decorativo. La opcion C habla de formacion academica. La opcion D introduce una critica a la logica que el texto no plantea.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Demostrar la erudicion intelectual de Ivan Ilich como profesional exitoso.", "isCorrect": false },
+      { "letter": "B", "text": "Ilustrar la distancia entre comprender la mortalidad como concepto abstracto y aceptarla como experiencia propia.", "isCorrect": true },
+      { "letter": "C", "text": "Criticar la formacion academica que privilegia la logica formal sobre la experiencia vital.", "isCorrect": false },
+      { "letter": "D", "text": "Mostrar que la logica clasica es incapaz de explicar fenomenos biologicos complejos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "La enumeracion de recuerdos personales — «el pequeno Vania, con mama, con papa, con Mitia y con un juguete» — cumple la funcion narrativa de:",
+    "explanation": "Ivan Ilich opone al hombre abstracto del silogismo (Cayo) la singularidad irrepetible de su propia vida. La enumeracion de recuerdos sensoriales y afectivos construye una identidad tan particular que la mortalidad generica no parece aplicable. La opcion C identifica esta funcion. La opcion A introduce nostalgia como proposito. La opcion B habla de contexto historico. La opcion D lo reduce a resumen biografico.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Evocar la nostalgia del personaje por una infancia feliz que contrasta con su sufrimiento actual.", "isCorrect": false },
+      { "letter": "B", "text": "Situar al personaje en un contexto historico y social especifico de la Rusia del siglo XIX.", "isCorrect": false },
+      { "letter": "C", "text": "Construir la singularidad irrepetible del individuo frente a la universalidad abstracta de la muerte.", "isCorrect": true },
+      { "letter": "D", "text": "Resumir la biografia completa del personaje para que el lector comprenda su trayectoria vital.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": null,
+    "questionText": "La pregunta final — «¿acaso Cayo conocia aquel olor de la pelota de cuero rayada que tanto le gustaba a Vania?» — puede interpretarse como:",
+    "explanation": "Ivan Ilich recurre a un recuerdo sensorial intimo (el olor de una pelota de cuero) para argumentar que su experiencia vital es unica e irreductible a la categoria abstracta de «hombre mortal». Si Cayo no conocio ese olor, entonces Ivan no es Cayo, y por tanto la mortalidad de Cayo no deberia aplicarsele. La opcion A captura esta interpretacion. La opcion B habla de filosofia abstracta. La opcion C introduce la infancia como refugio. La opcion D es una lectura literal de la pregunta.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Un argumento emocional que el personaje opone a la logica formal para negar su propia mortalidad.", "isCorrect": true },
+      { "letter": "B", "text": "Una reflexion filosofica sobre la incapacidad del lenguaje para capturar la experiencia sensorial.", "isCorrect": false },
+      { "letter": "C", "text": "Una demostracion de que la infancia es el unico periodo de felicidad autentica en la vida humana.", "isCorrect": false },
+      { "letter": "D", "text": "Una pregunta dirigida al lector para que recuerde sus propios juguetes de infancia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "El fragmento de Tolstoi aborda un tema que tiene relevancia directa para la practica medica contemporanea porque:",
+    "explanation": "El fragmento muestra la brecha entre conocer la muerte como concepto clinico y vivirla como experiencia personal. Para un profesional de la salud, comprender que el paciente no experimenta su enfermedad como un caso estadistico sino como una crisis existencial irrepetible es fundamental para la atencion humanizada. La opcion D establece esta conexion. La opcion A introduce eutanasia. La opcion B habla de diagnostico. La opcion C se centra en psicologia clinica.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Presenta argumentos a favor de la eutanasia como alternativa al sufrimiento prolongado.", "isCorrect": false },
+      { "letter": "B", "text": "Demuestra la importancia de comunicar diagnosticos terminales de manera gradual y empatica.", "isCorrect": false },
+      { "letter": "C", "text": "Ilustra las etapas del duelo descritas por la psicologia clinica contemporanea.", "isCorrect": false },
+      { "letter": "D", "text": "Evidencia la distancia entre la comprension clinica de la muerte y la experiencia subjetiva del paciente que la enfrenta.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Lea el siguiente texto.\n\n«El primer organo artificial implantado con exito en un ser humano fue un rinon, en 1943, cuando Willem Kolff construyo un dializador rudimentario con tripas de salchicha, latas de jugo de naranja y un motor de lavadora. Aquel artefacto improvisado en un hospital ocupado por los nazis en los Paises Bajos mantuvo con vida a una paciente con insuficiencia renal aguda. Ochenta anos despues, la dialisis salva la vida de mas de tres millones de personas en el mundo, pero el principio fundamental sigue siendo el mismo: una maquina que hace lo que un organo ya no puede.\n\nSin embargo, la brecha entre la demanda de organos y la oferta de donantes es una crisis sanitaria silenciosa. Solo en Estados Unidos, mas de 100 000 personas esperan un trasplante, y cada dia mueren 17 de ellas sin recibirlo. En Colombia, la situacion es proporcionalmente similar. Las estrategias para cerrar esta brecha han seguido dos caminos divergentes: por un lado, los xenotrasplantes — trasplantar organos de animales, particularmente cerdos geneticamente modificados, a humanos —; por otro, la bioingenieria de tejidos, que busca fabricar organos funcionales a partir de celulas del propio paciente utilizando andamios tridimensionales impresos con bioimpresoras 3D.\n\nAmbas estrategias enfrentan obstaculos formidables. Los xenotrasplantes deben superar la barrera del rechazo inmunologico interespecie y las incognitas sobre la transmision de retrovirus porcinos. La bioingenieria debe resolver el problema de la vascularizacion: un organo sin red de vasos sanguineos funcionales es una escultura, no un organo. Pero quiza el obstaculo mas dificil no sea tecnico sino cultural: convencer a una sociedad de que un corazon fabricado en un laboratorio o extraido de un cerdo puede sustituir al organo que, durante siglos, hemos considerado la sede del alma.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, ¿cuantas personas esperan un trasplante solo en Estados Unidos?",
+    "explanation": "El texto lo indica explicitamente: «mas de 100 000 personas esperan un trasplante». Es informacion literal directa. La opcion B es correcta.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Mas de 50 000.", "isCorrect": false },
+      { "letter": "B", "text": "Mas de 100 000.", "isCorrect": true },
+      { "letter": "C", "text": "Mas de 200 000.", "isCorrect": false },
+      { "letter": "D", "text": "Mas de 500 000.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": null,
+    "questionText": "La descripcion del primer dializador — construido con «tripas de salchicha, latas de jugo de naranja y un motor de lavadora» — cumple la funcion de:",
+    "explanation": "El autor detalla los materiales improvisados del primer dializador para crear un contraste con la sofisticacion tecnologica actual. El efecto es doble: asombro ante el ingenio de Kolff y apreciacion de lo lejos que ha llegado la tecnologia. La opcion C identifica esta funcion. La opcion A trivializa la invencion. La opcion B la presenta como critica. La opcion D la reduce a contexto historico.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Generar un efecto humoristico que contraste con la seriedad del tema medico.", "isCorrect": false },
+      { "letter": "B", "text": "Criticar las condiciones precarias en que se realizaban los experimentos medicos durante la guerra.", "isCorrect": false },
+      { "letter": "C", "text": "Resaltar el ingenio del inventor y el contraste entre los origenes rudimentarios de la dialisis y su sofisticacion actual.", "isCorrect": true },
+      { "letter": "D", "text": "Documentar con precision historica los materiales disponibles en los hospitales holandeses durante la ocupacion nazi.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": null,
+    "questionText": "La metafora «un organo sin red de vasos sanguineos funcionales es una escultura, no un organo» expresa la idea de que:",
+    "explanation": "El autor utiliza la comparacion con una escultura para senalar que un organo sin vascularizacion tiene forma pero no funcion: es una pieza anatomica inerte. La vascularizacion es lo que convierte una estructura en un organo vivo y funcional. La opcion A identifica esta idea. La opcion B interpreta la metafora como critica estetica. La opcion C introduce una comparacion con organos naturales. La opcion D habla del aspecto visual.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La vascularizacion es el requisito indispensable para que un organo artificial sea funcional y no meramente estructural.", "isCorrect": true },
+      { "letter": "B", "text": "Los organos fabricados con bioimpresoras 3D tienen una apariencia estetica superior a los organos naturales.", "isCorrect": false },
+      { "letter": "C", "text": "Los organos de donantes fallecidos pierden su funcionalidad una vez extraidos del cuerpo.", "isCorrect": false },
+      { "letter": "D", "text": "La bioingenieria prioriza la apariencia visual de los organos sobre su funcionalidad biologica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "El cierre del texto — que menciona al corazon como «la sede del alma» — introduce una dimension del debate que es:",
+    "explanation": "Al mencionar la creencia cultural de que el corazon es la sede del alma, el autor senala que la resistencia a los organos artificiales no es solo cientifica o medica, sino que involucra significados culturales, simbolicos y espirituales profundamente arraigados. La opcion B identifica esta dimension. La opcion A la reduce a religion. La opcion C habla de estetica. La opcion D la presenta como argumento cientifico.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Religiosa, pues solo las instituciones eclesiasticas pueden autorizar el reemplazo de organos vitales.", "isCorrect": false },
+      { "letter": "B", "text": "Cultural y simbolica, pues la aceptacion de organos artificiales requiere superar significados ancestrales asociados al cuerpo.", "isCorrect": true },
+      { "letter": "C", "text": "Estetica, pues los organos artificiales alteran la apariencia fisica del paciente de manera irreversible.", "isCorrect": false },
+      { "letter": "D", "text": "Cientifica, pues aun no se ha demostrado que un organo artificial pueda replicar todas las funciones del organo natural.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "Un lector critico podria cuestionar el texto senalando que:",
+    "explanation": "El texto presenta los xenotrasplantes y la bioingenieria como las dos estrategias principales para resolver la escasez de organos, pero omite estrategias existentes como la mejora de los sistemas de donacion cadaverica, la donacion en vida, los incentivos legales (como la presuncion de consentimiento) y la prevencion de las enfermedades que generan la necesidad de trasplante. Esta omision limita el panorama presentado. La opcion C identifica esta debilidad.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "No menciona los costos economicos de la dialisis como barrera de acceso en paises en desarrollo.", "isCorrect": false },
+      { "letter": "B", "text": "Exagera la cifra de personas en lista de espera para generar un efecto dramatico.", "isCorrect": false },
+      { "letter": "C", "text": "Omite estrategias ya existentes para aumentar la donacion de organos, como cambios legislativos y mejoras en los sistemas de donacion cadaverica.", "isCorrect": true },
+      { "letter": "D", "text": "No explica los mecanismos inmunologicos del rechazo, impidiendo que el lector comprenda los obstaculos tecnicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "La mencion de que Kolff construyo su dializador en «un hospital ocupado por los nazis» aporta al texto:",
+    "explanation": "El contexto de la ocupacion nazi no es un detalle accesorio: subraya que la innovacion medica ocurrio en condiciones de adversidad extrema, lo que magnifica el merito del inventor y refuerza la narrativa de ingenio frente a la escasez. La opcion D identifica esta funcion. La opcion A politiza la mencion. La opcion B la toma como critica a la medicina nazi. La opcion C habla de financiacion militar.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Un argumento politico contra los regimenes totalitarios y su relacion con la ciencia.", "isCorrect": false },
+      { "letter": "B", "text": "Una denuncia de los experimentos medicos realizados por el regimen nazi durante la Segunda Guerra Mundial.", "isCorrect": false },
+      { "letter": "C", "text": "Evidencia de que la investigacion medica requiere financiacion militar para producir avances significativos.", "isCorrect": false },
+      { "letter": "D", "text": "Un elemento contextual que magnifica el merito de la innovacion al situarla en condiciones de adversidad extrema.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "La afirmacion del texto de que «el principio fundamental sigue siendo el mismo: una maquina que hace lo que un organo ya no puede» permite concluir que, para el autor:",
+    "explanation": "Al senalar que ochenta anos de avance tecnologico no han cambiado el principio basico de la dialisis, el autor sugiere que la innovacion medica puede sofisticar las herramientas pero no siempre transforma la logica subyacente. Esto implica que el progreso tecnologico en medicina es a menudo incremental, no revolucionario. La opcion A captura esta conclusion. La opcion B contradice el texto. La opcion C habla de obsolescencia. La opcion D introduce un juicio de valor que el texto no hace.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "El progreso tecnologico en medicina suele perfeccionar una idea original mas que transformar sus fundamentos.", "isCorrect": true },
+      { "letter": "B", "text": "La dialisis actual es identica a la de 1943 y no ha experimentado ningun avance significativo.", "isCorrect": false },
+      { "letter": "C", "text": "Las tecnologias medicas antiguas deben ser descartadas cuando surgen alternativas mas modernas.", "isCorrect": false },
+      { "letter": "D", "text": "La medicina ha fracasado en desarrollar un sustituto real para el rinon humano.", "isCorrect": false }
+    ]
+  }
+]

@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "La Ley 1438 de 2011, conocida como la reforma al Sistema General de Seguridad Social en Salud (SGSSS), introdujo cambios significativos orientados al fortalecimiento de la atención primaria en salud y la reorganización de las redes integradas de servicios. Entre sus disposiciones se estableció que la APS sería la estrategia de coordinación intersectorial para mejorar la salud de la población.\n\n(Redacción Study2One)",
+    "questionText": "Según la Ley 1438 de 2011, ¿cuál fue uno de los principales cambios introducidos al SGSSS?",
+    "explanation": "La Ley 1438 de 2011 fortaleció la Atención Primaria en Salud (APS) como estrategia de coordinación intersectorial del sistema, buscando que los servicios se organizaran en redes integradas y que la puerta de entrada al sistema fuera la atención primaria. No creó el régimen subsidiado (Ley 100/1993) ni eliminó las EPS.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Eliminó las EPS del sistema de salud colombiano.", "isCorrect": false },
+      { "letter": "B", "text": "Fortaleció la APS como estrategia de coordinación intersectorial del sistema.", "isCorrect": true },
+      { "letter": "C", "text": "Creó el régimen subsidiado para la población vulnerable.", "isCorrect": false },
+      { "letter": "D", "text": "Descentralizó completamente la salud a las juntas de acción comunal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Un hospital de segundo nivel en el departamento de Boyacá atiende a una población de 120 000 habitantes. Durante una visita de verificación, los auditores encontraron que el servicio de urgencias no cumplía con los estándares de recurso humano establecidos por la normativa de habilitación vigente: solo contaba con un médico general para cubrir las 24 horas, sin personal de enfermería permanente en el área de triage.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué consecuencia normativa tiene el incumplimiento de los estándares de habilitación en este hospital?",
+    "explanation": "La habilitación es el conjunto de condiciones mínimas obligatorias que toda IPS debe cumplir para operar. Si una IPS no cumple con los estándares de habilitación (talento humano, infraestructura, dotación, medicamentos, procesos prioritarios, historia clínica), la Secretaría de Salud puede suspender o revocar el registro de habilitación del servicio, impidiendo su funcionamiento hasta que se subsanen las deficiencias.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "No tiene consecuencia porque la habilitación es voluntaria.", "isCorrect": false },
+      { "letter": "B", "text": "La Secretaría de Salud puede suspender o revocar el registro de habilitación del servicio.", "isCorrect": true },
+      { "letter": "C", "text": "Solo genera una anotación en el historial sin afectar la operación.", "isCorrect": false },
+      { "letter": "D", "text": "El hospital pierde automáticamente la acreditación en salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "La Política de Atención Integral en Salud (PAIS), adoptada mediante la Resolución 429 de 2016, estableció un marco estratégico para la organización del sistema de salud colombiano centrado en el ciudadano. La PAIS se operacionaliza a través del Modelo Integral de Atención en Salud (MIAS), que organiza las condiciones necesarias para garantizar la integralidad y continuidad de la atención.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el componente operativo de la PAIS que organiza las condiciones para garantizar la integralidad en la atención?",
+    "explanation": "La PAIS se estructura en dos grandes componentes: la política misma (marco estratégico) y el MIAS (Modelo Integral de Atención en Salud), que es el componente operativo. El MIAS tiene 10 componentes, entre ellos: regulación de rutas integrales de atención (RIAS), gestión integral del riesgo en salud, delimitación territorial del aseguramiento, redes integrales de prestadores de servicios, y el sistema de información.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "El Plan de Beneficios en Salud (PBS).", "isCorrect": false },
+      { "letter": "B", "text": "El Sistema Obligatorio de Garantía de Calidad.", "isCorrect": false },
+      { "letter": "C", "text": "El Modelo Integral de Atención en Salud (MIAS).", "isCorrect": true },
+      { "letter": "D", "text": "El Plan Decenal de Salud Pública.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "En un municipio de categoría 5 del departamento de Nariño, el equipo de salud territorial debe elaborar el Plan Territorial de Salud (PTS) para el período 2024-2027. El Análisis de Situación de Salud (ASIS) local muestra que las principales causas de mortalidad son las enfermedades cardiovasculares (35 %), seguidas por las neoplasias (18 %) y las causas externas (15 %). La población total es de 28 000 habitantes, con un 62 % de cobertura en el régimen subsidiado.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál debe ser la fuente principal para definir las prioridades del Plan Territorial de Salud en este municipio?",
+    "explanation": "El Plan Territorial de Salud debe fundamentarse en el ASIS local, que proporciona el diagnóstico de la situación de salud del territorio con datos epidemiológicos, demográficos y de determinantes sociales. El ASIS permite identificar las prioridades reales del municipio y orientar las intervenciones. El PDSP es el marco nacional de referencia, pero las prioridades locales se definen con base en la evidencia local.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Las directrices del Plan Decenal de Salud Pública sin considerar datos locales.", "isCorrect": false },
+      { "letter": "B", "text": "El Análisis de Situación de Salud (ASIS) del municipio con sus datos epidemiológicos locales.", "isCorrect": true },
+      { "letter": "C", "text": "Las solicitudes verbales de los líderes políticos del municipio.", "isCorrect": false },
+      { "letter": "D", "text": "El presupuesto disponible, priorizando intervenciones de menor costo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "La Resolución 3280 de 2018 definió las Rutas Integrales de Atención en Salud (RIAS), que incluyen la Ruta de Promoción y Mantenimiento de la Salud, las Rutas de Grupo de Riesgo y las Rutas Específicas de Atención. La ruta materno-perinatal es una de las rutas específicas que establece intervenciones desde la preconcepción hasta el posparto y la atención del recién nacido.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el objetivo principal de la ruta específica materno-perinatal según la Resolución 3280?",
+    "explanation": "La ruta materno-perinatal busca garantizar la atención integral y continua desde la preconcepción, pasando por el control prenatal, el parto, el puerperio y la atención del recién nacido, con el fin de reducir la morbimortalidad materna y perinatal. Se fundamenta en intervenciones basadas en la evidencia, con enfoque de curso de vida y de derechos.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Atender únicamente las complicaciones obstétricas en el tercer trimestre.", "isCorrect": false },
+      { "letter": "B", "text": "Garantizar la atención integral desde la preconcepción hasta el posparto para reducir la morbimortalidad materna y perinatal.", "isCorrect": true },
+      { "letter": "C", "text": "Realizar tamizaje de cáncer de cuello uterino en mujeres gestantes.", "isCorrect": false },
+      { "letter": "D", "text": "Promover exclusivamente la lactancia artificial en el recién nacido.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "Un departamento colombiano presenta los siguientes datos de carga de enfermedad medidos en Años de Vida Saludable Perdidos (AVISA o DALY):\n\n• Enfermedades cardiovasculares: 18 200 AVISA\n• Trastornos mentales y del comportamiento: 15 800 AVISA\n• Lesiones por causas externas (violencia, accidentes): 14 300 AVISA\n• Enfermedades respiratorias crónicas: 9 400 AVISA\n• Diabetes mellitus: 7 600 AVISA\n\nPoblación total del departamento: 850 000 habitantes.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué mide el indicador AVISA (DALY) y por qué es más completo que la tasa de mortalidad?",
+    "explanation": "Los AVISA (Años de Vida Saludable Perdidos), equivalente al DALY (Disability-Adjusted Life Year), combinan los años de vida perdidos por muerte prematura (AVP o YLL) y los años vividos con discapacidad (AVD o YLD). Esto los hace más completos que la mortalidad sola porque capturan tanto la muerte prematura como la carga de enfermedad en personas vivas con condiciones crónicas o discapacitantes, como los trastornos mentales que generan alta discapacidad pero baja mortalidad.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Mide solo los años perdidos por muerte prematura, igual que la tasa de mortalidad.", "isCorrect": false },
+      { "letter": "B", "text": "Combina años perdidos por muerte prematura y años vividos con discapacidad, capturando la carga total de enfermedad.", "isCorrect": true },
+      { "letter": "C", "text": "Mide exclusivamente el costo económico de las enfermedades.", "isCorrect": false },
+      { "letter": "D", "text": "Cuenta el número de hospitalizaciones por cada enfermedad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "El Plan de Beneficios en Salud (PBS) en Colombia define el conjunto de tecnologías en salud (procedimientos, medicamentos, dispositivos) a las que tienen derecho los afiliados al SGSSS. Desde la Ley Estatutaria 1751 de 2015, se estableció que el PBS se complementa con un mecanismo de exclusiones explícitas en lugar de un listado cerrado de inclusiones.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál fue el cambio conceptual introducido por la Ley 1751 de 2015 respecto a la cobertura de tecnologías en salud?",
+    "explanation": "Antes de la Ley 1751, existía un plan de beneficios con un listado explícito de tecnologías incluidas (POS). La Ley Estatutaria cambió la lógica: en lugar de definir qué se incluye, se define qué se excluye. Las exclusiones son: lo cosmético, lo experimental sin evidencia, lo que no tenga registro sanitario y lo que deba ser prestado en el exterior teniendo alternativa local. Todo lo demás está cubierto.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Eliminó todo tipo de cobertura, dejando la salud al libre mercado.", "isCorrect": false },
+      { "letter": "B", "text": "Mantuvo exactamente el mismo listado cerrado del antiguo POS.", "isCorrect": false },
+      { "letter": "C", "text": "Pasó de un listado cerrado de inclusiones a un mecanismo de exclusiones explícitas, ampliando la cobertura.", "isCorrect": true },
+      { "letter": "D", "text": "Limitó la cobertura exclusivamente a servicios de urgencias.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Una IPS de mediana complejidad en Santander decide iniciar el proceso de acreditación en salud ante el ICONTEC, organismo designado por el Ministerio de Salud. El director médico argumenta que la acreditación es un requisito obligatorio para poder funcionar. La jefe de calidad le aclara que existe una diferencia importante entre habilitación y acreditación.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la diferencia fundamental entre habilitación y acreditación en el sistema de calidad en salud colombiano?",
+    "explanation": "La habilitación es obligatoria y verifica el cumplimiento de condiciones mínimas para operar (es un requisito para funcionar). La acreditación es voluntaria y reconoce niveles superiores de calidad, más allá del mínimo exigido. Ambas forman parte del Sistema Obligatorio de Garantía de Calidad (SOGC), junto con la auditoría para el mejoramiento y el sistema de información para la calidad.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Ambas son obligatorias y verifican las mismas condiciones.", "isCorrect": false },
+      { "letter": "B", "text": "La habilitación es obligatoria y verifica condiciones mínimas; la acreditación es voluntaria y reconoce niveles superiores de calidad.", "isCorrect": true },
+      { "letter": "C", "text": "La acreditación es obligatoria y la habilitación es voluntaria.", "isCorrect": false },
+      { "letter": "D", "text": "La habilitación solo aplica a IPS públicas y la acreditación solo a IPS privadas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "En una reunión del Comité de Participación Comunitaria en Salud (COPACO) del municipio de Florencia, Caquetá, los representantes de los usuarios expresan preocupación porque el hospital local no atiende consultas los fines de semana. Un líder comunitario propone que el COPACO exija formalmente al alcalde la apertura de consulta externa los sábados.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la función principal de los COPACOS en el sistema de salud colombiano?",
+    "explanation": "Los Comités de Participación Comunitaria en Salud (COPACOS) son espacios de participación social establecidos por ley (Decreto 1757 de 1994) que permiten a la comunidad ejercer veeduría, concertar planes y programas de salud, y canalizar las necesidades e inquietudes de los usuarios. No tienen función administrativa directa sobre las IPS, pero sí pueden hacer seguimiento y proponer mejoras al sistema local de salud.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Administrar directamente los hospitales y centros de salud del municipio.", "isCorrect": false },
+      { "letter": "B", "text": "Ejercer veeduría ciudadana, concertar planes de salud y canalizar las necesidades de la comunidad.", "isCorrect": true },
+      { "letter": "C", "text": "Prescribir medicamentos y tratamientos a la población.", "isCorrect": false },
+      { "letter": "D", "text": "Recaudar los aportes al régimen contributivo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "El departamento de Chocó registra una tasa de mortalidad materna de 185 por 100 000 nacidos vivos, mientras que el promedio nacional es de 52 por 100 000 nacidos vivos. El ASIS departamental identifica que el 73 % de las muertes maternas ocurrieron en mujeres afrodescendientes de zonas rurales dispersas, con bajo acceso a control prenatal (solo 2,1 controles promedio frente al estándar de 7).\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde la perspectiva de determinantes sociales, ¿cuál es el factor estructural que más explica esta brecha en mortalidad materna?",
+    "explanation": "La intersección de determinantes estructurales (etnia, ruralidad, pobreza, barreras geográficas de acceso) genera inequidades en salud que se reflejan en resultados como la mortalidad materna. El bajo acceso a control prenatal es una consecuencia de estas barreras estructurales, no la causa primaria. Las diferencias biológicas no explican esta magnitud de brecha; son las condiciones sociales y de acceso las que determinan el desenlace.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Diferencias biológicas inherentes a la población afrodescendiente.", "isCorrect": false },
+      { "letter": "B", "text": "La intersección de barreras geográficas, étnicas y socioeconómicas que limitan el acceso a servicios de salud.", "isCorrect": true },
+      { "letter": "C", "text": "La falta de voluntad individual de las gestantes para asistir al control prenatal.", "isCorrect": false },
+      { "letter": "D", "text": "El exceso de hospitales de alta complejidad en la zona.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "El Registro Individual de Prestación de Servicios de Salud (RIPS) es el sistema de información que recoge datos de todas las atenciones realizadas por las IPS en Colombia. Un epidemiólogo del INS analiza los RIPS del último año y encuentra inconsistencias: un 18 % de registros tienen diagnósticos codificados como «no especificado» y un 12 % presentan campos incompletos de identificación del paciente.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la principal consecuencia de la mala calidad en los datos del RIPS para la salud pública?",
+    "explanation": "Los RIPS son la fuente principal de información sobre morbilidad atendida en Colombia. Cuando los datos tienen alta proporción de diagnósticos inespecíficos y campos incompletos, se compromete la capacidad de realizar análisis epidemiológicos confiables, lo que afecta la planificación en salud, la asignación de recursos y la identificación de prioridades. No es solo un problema administrativo; tiene impacto directo en las decisiones de salud pública.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "No tiene consecuencia porque los RIPS son solo para facturación.", "isCorrect": false },
+      { "letter": "B", "text": "Compromete la capacidad de realizar análisis epidemiológicos confiables y de planificar intervenciones en salud pública.", "isCorrect": true },
+      { "letter": "C", "text": "Solo afecta la imagen del hospital pero no la salud pública.", "isCorrect": false },
+      { "letter": "D", "text": "Mejora la calidad del análisis porque los datos inespecíficos permiten mayor flexibilidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "La Ley 1164 de 2007 reguló el talento humano en salud en Colombia, estableciendo disposiciones sobre formación, ejercicio y vigilancia de las profesiones y ocupaciones del área de la salud. Un estudiante de último semestre de medicina pregunta cuáles son los requisitos para ejercer legalmente la profesión después de graduarse.\n\n(Redacción Study2One)",
+    "questionText": "Según la Ley 1164 de 2007, ¿cuál es el requisito fundamental para el ejercicio de las profesiones de salud en Colombia?",
+    "explanation": "La Ley 1164 de 2007 establece que todo profesional de salud debe inscribirse en el Registro Único Nacional del Talento Humano en Salud (ReTHUS) para ejercer legalmente. Este registro verifica la formación académica, la expedición del título y la tarjeta profesional cuando aplique. Sin el registro en el ReTHUS, el ejercicio profesional se considera ilegal.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Solo se requiere el título universitario, sin ningún registro adicional.", "isCorrect": false },
+      { "letter": "B", "text": "La inscripción en el Registro Único Nacional del Talento Humano en Salud (ReTHUS).", "isCorrect": true },
+      { "letter": "C", "text": "La afiliación voluntaria a una sociedad científica.", "isCorrect": false },
+      { "letter": "D", "text": "Únicamente la presentación del examen Saber Pro.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Una comunidad indígena Wayúu en La Guajira tiene su propio sistema de salud tradicional basado en la figura del outsu (médico tradicional), el uso de plantas medicinales y rituales de sanación. El hospital local ha intentado implementar programas de vacunación infantil sin consultar previamente a las autoridades tradicionales, generando rechazo comunitario.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde el enfoque de salud intercultural, ¿cuál es la estrategia más adecuada para implementar programas de salud pública en esta comunidad?",
+    "explanation": "El enfoque intercultural en salud reconoce la existencia de sistemas médicos diversos y promueve el diálogo entre la medicina occidental y los saberes tradicionales. La OMS y la normativa colombiana (Ley 691 de 2001, SISPI) establecen que las intervenciones en comunidades indígenas deben realizarse con consulta previa, respeto a la autonomía cultural y articulación con las autoridades y prácticas tradicionales, no imponiendo ni sustituyendo sus sistemas.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Imponer las intervenciones biomédicas sin consulta, priorizando la cobertura.", "isCorrect": false },
+      { "letter": "B", "text": "Eliminar las prácticas de medicina tradicional por considerarlas ineficaces.", "isCorrect": false },
+      { "letter": "C", "text": "Concertar con las autoridades tradicionales, articulando los saberes ancestrales con las intervenciones biomédicas.", "isCorrect": true },
+      { "letter": "D", "text": "Delegar completamente la vacunación al outsu sin supervisión técnica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Un grupo de investigadores colombianos analiza la mortalidad evitable en el país utilizando la lista 6/67 de causas de mortalidad. Esta clasificación permite agrupar las defunciones según si son evitables por prevención primaria, detección y tratamiento oportuno, o por otras intervenciones del sistema de salud. Los datos del departamento de Arauca muestran que el 68 % de las defunciones en menores de 5 años se clasifican como evitables por acciones de salud pública.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué permite identificar el análisis de mortalidad evitable mediante la lista 6/67?",
+    "explanation": "La lista 6/67 agrupa las causas de muerte en 6 grandes grupos y 67 subgrupos, clasificándolos según su evitabilidad: por vacunación o prevención, por diagnóstico y tratamiento oportuno, por saneamiento ambiental, y causas no evitables con la tecnología actual. Esto permite evaluar la efectividad del sistema de salud: si un alto porcentaje de muertes son evitables, significa que hay fallas en las intervenciones de salud pública o en el acceso a servicios.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Solo el número total de muertes, sin diferenciar las causas.", "isCorrect": false },
+      { "letter": "B", "text": "Las defunciones que pudieron haberse prevenido con intervenciones oportunas del sistema de salud, evaluando su efectividad.", "isCorrect": true },
+      { "letter": "C", "text": "Exclusivamente las muertes por enfermedades transmisibles.", "isCorrect": false },
+      { "letter": "D", "text": "El costo de los tratamientos que no se proporcionaron.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "En Colombia, la auditoría para el mejoramiento de la calidad en salud (PAMEC) es uno de los cuatro componentes del Sistema Obligatorio de Garantía de Calidad (SOGC). Una clínica privada en Medellín implementa su programa de auditoría interna y detecta que la tasa de infección del sitio quirúrgico es del 8,5 %, muy por encima del estándar aceptado del 2-3 %.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál debe ser la respuesta de la clínica ante este hallazgo de auditoría?",
+    "explanation": "El Programa de Auditoría para el Mejoramiento de la Calidad (PAMEC) se basa en el ciclo de mejoramiento continuo. Ante un hallazgo de desviación significativa respecto a los estándares, la IPS debe: identificar las causas raíz (análisis causal), diseñar e implementar un plan de mejoramiento con acciones correctivas y preventivas, establecer indicadores de seguimiento y evaluar periódicamente los resultados. No basta con sancionar ni con ignorar el hallazgo.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Ignorar el hallazgo porque es un dato interno sin repercusiones externas.", "isCorrect": false },
+      { "letter": "B", "text": "Realizar un análisis causal e implementar un plan de mejoramiento con acciones correctivas, preventivas e indicadores de seguimiento.", "isCorrect": true },
+      { "letter": "C", "text": "Despedir inmediatamente a todo el personal de cirugía.", "isCorrect": false },
+      { "letter": "D", "text": "Suspender todas las cirugías indefinidamente sin plan de acción.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "La ruta específica de atención cardiovascular, definida en el marco de la Resolución 3280, establece intervenciones para la detección temprana y el manejo integral de las enfermedades cardiovasculares, incluyendo hipertensión arterial, enfermedad coronaria e insuficiencia cardíaca. Un centro de salud del Huila registra una población de 4 500 pacientes hipertensos, de los cuales solo el 38 % tiene la presión arterial controlada (<140/90 mmHg).\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Según la ruta cardiovascular, ¿cuál es la intervención prioritaria para mejorar el control de la hipertensión en esta población?",
+    "explanation": "La ruta cardiovascular enfatiza la gestión integral del riesgo, que incluye la adherencia al tratamiento farmacológico, el seguimiento periódico, la educación en hábitos de vida saludable y la identificación de barreras de acceso. Un control del 38 % indica fallas en el seguimiento y la adherencia, no necesariamente en la prescripción inicial. La estrategia debe ser integral y continua, no solo farmacológica.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Aumentar solo la dosis de los antihipertensivos sin otras intervenciones.", "isCorrect": false },
+      { "letter": "B", "text": "Fortalecer la gestión integral del riesgo: adherencia terapéutica, seguimiento periódico, educación y eliminación de barreras de acceso.", "isCorrect": true },
+      { "letter": "C", "text": "Remitir a todos los pacientes hipertensos a un centro de cuarto nivel.", "isCorrect": false },
+      { "letter": "D", "text": "Suspender los medicamentos y recomendar solo tratamiento con medicina alternativa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "El Registro Único de Afiliados (RUAF) es un sistema de información que consolida los datos de afiliación al SGSSS, registros civiles (nacimientos y defunciones) y novedades de los afiliados. Un investigador del Observatorio Nacional de Salud intenta cruzar los datos del RUAF con los RIPS para estimar la cobertura efectiva de servicios de salud en el departamento de Sucre.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la utilidad del cruce de información entre el RUAF y los RIPS para la salud pública?",
+    "explanation": "El cruce entre RUAF (que registra quiénes están afiliados) y RIPS (que registra quiénes recibieron atención) permite calcular la cobertura efectiva: no solo quiénes tienen derecho a los servicios, sino quiénes realmente los utilizan. Esta diferencia entre afiliación y uso efectivo es clave para identificar barreras de acceso y poblaciones desatendidas.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Solo sirve para verificar la facturación de las IPS.", "isCorrect": false },
+      { "letter": "B", "text": "Permite estimar la cobertura efectiva, identificando la brecha entre afiliación y uso real de servicios de salud.", "isCorrect": true },
+      { "letter": "C", "text": "Únicamente permite contar el número de nacimientos en el departamento.", "isCorrect": false },
+      { "letter": "D", "text": "No tiene utilidad porque los dos sistemas manejan datos incompatibles.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Un equipo de Evaluación de Tecnologías en Salud (ETS o HTA, por sus siglas en inglés) del Instituto de Evaluación Tecnológica en Salud (IETS) evalúa la inclusión de un nuevo medicamento biológico para artritis reumatoide en el PBS. El medicamento tiene eficacia demostrada en ensayos clínicos, pero su costo es 12 veces mayor que el tratamiento estándar actual. El IETS debe emitir una recomendación basada en evidencia.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el criterio principal que utiliza la ETS para recomendar la inclusión de una tecnología en el PBS?",
+    "explanation": "La Evaluación de Tecnologías en Salud (ETS/HTA) utiliza un enfoque multidimensional que incluye eficacia, seguridad, costo-efectividad, impacto presupuestal y aspectos éticos y sociales. No basta con que un medicamento sea eficaz; debe demostrarse que su beneficio adicional justifica el costo incremental (análisis de costo-efectividad). El IETS fue creado para informar las decisiones de cobertura con evidencia robusta.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Solo el costo del medicamento, sin considerar su eficacia.", "isCorrect": false },
+      { "letter": "B", "text": "Solo la opinión de los especialistas prescriptores.", "isCorrect": false },
+      { "letter": "C", "text": "Un análisis multidimensional de eficacia, seguridad, costo-efectividad e impacto presupuestal.", "isCorrect": true },
+      { "letter": "D", "text": "La demanda del laboratorio farmacéutico fabricante.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "En el municipio de Tumaco, Nariño, la Secretaría de Salud analiza los determinantes intermedios de salud de la población. Los datos muestran:\n\n• 42 % de viviendas con hacinamiento (>3 personas/habitación)\n• 55 % sin acceso a alcantarillado\n• 31 % de inseguridad alimentaria moderada a severa\n• Tasa de desempleo: 28 % (nacional: 11 %)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Por qué estos determinantes intermedios son relevantes para el perfil epidemiológico del municipio?",
+    "explanation": "Los determinantes intermedios (condiciones de vivienda, saneamiento, seguridad alimentaria, empleo) son los mecanismos a través de los cuales los determinantes estructurales (pobreza, inequidad) se traducen en resultados de salud. El hacinamiento facilita la transmisión de enfermedades respiratorias, la falta de alcantarillado aumenta las enfermedades diarreicas, la inseguridad alimentaria genera desnutrición, y el desempleo se asocia con problemas de salud mental y barreras de acceso a servicios.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "No son relevantes porque la salud depende solo de factores genéticos individuales.", "isCorrect": false },
+      { "letter": "B", "text": "Son los mecanismos mediante los cuales la pobreza y la inequidad se traducen en enfermedades específicas y barreras de acceso.", "isCorrect": true },
+      { "letter": "C", "text": "Solo afectan la economía del municipio, sin relación con la salud.", "isCorrect": false },
+      { "letter": "D", "text": "Son relevantes únicamente para la planificación urbana, no para la salud pública.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "Las Guías de Práctica Clínica (GPC) basadas en la evidencia son herramientas de gestión clínica que orientan las decisiones de los profesionales de salud. En Colombia, el Ministerio de Salud ha adoptado un conjunto de GPC desarrolladas mediante metodología GRADE (Grading of Recommendations Assessment, Development and Evaluation). Un médico rural se pregunta si está obligado a seguir las recomendaciones de las GPC en todos los casos.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el alcance normativo de las Guías de Práctica Clínica en Colombia?",
+    "explanation": "Las GPC son recomendaciones basadas en la mejor evidencia disponible, pero no son de cumplimiento obligatorio en cada caso individual. El profesional de salud tiene autonomía médica para apartarse de una GPC cuando las condiciones clínicas del paciente lo justifiquen, siempre que documente la razón en la historia clínica. Las GPC son referentes de buena práctica, no protocolos rígidos, pero la desviación injustificada puede tener implicaciones en auditoría de calidad.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Son de cumplimiento obligatorio en todos los casos sin excepción.", "isCorrect": false },
+      { "letter": "B", "text": "No tienen ningún valor y los médicos pueden ignorarlas completamente.", "isCorrect": false },
+      { "letter": "C", "text": "Son referentes de buena práctica; el profesional puede apartarse justificadamente documentando la razón.", "isCorrect": true },
+      { "letter": "D", "text": "Solo aplican a hospitales universitarios, no a centros de primer nivel.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "La Asociación de Usuarios de una EPS en Barranquilla presenta una queja formal ante la Superintendencia Nacional de Salud porque la entidad ha negado sistemáticamente autorizaciones para consultas con especialistas, con tiempos de espera superiores a 90 días para cardiología y 120 días para oncología. La asociación argumenta que esto vulnera el derecho a la salud.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el mecanismo de participación social que ejercen las asociaciones de usuarios en el SGSSS?",
+    "explanation": "Las asociaciones de usuarios son organizaciones de participación social reconocidas por la Ley 100 de 1993 y el Decreto 1757 de 1994. Su función principal es representar los intereses de los afiliados, ejercer veeduría sobre la calidad y oportunidad de los servicios, canalizar quejas y propuestas, y participar en los espacios de concertación del sistema. Pueden elevar quejas ante la Supersalud y participar en juntas directivas de hospitales públicos.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Solo pueden presentar quejas individuales, no colectivas.", "isCorrect": false },
+      { "letter": "B", "text": "Representan los intereses de los afiliados, ejercen veeduría sobre calidad y oportunidad, y canalizan quejas ante las autoridades competentes.", "isCorrect": true },
+      { "letter": "C", "text": "Tienen la facultad de sancionar directamente a las EPS.", "isCorrect": false },
+      { "letter": "D", "text": "Solo pueden opinar en encuestas de satisfacción, sin incidencia formal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Un estudio de carga de enfermedad en el departamento del Valle del Cauca compara los AVISA por grandes grupos de causas entre 2010 y 2023:\n\n• Enfermedades transmisibles: de 12 400 a 6 800 AVISA (reducción del 45 %)\n• Enfermedades no transmisibles: de 34 200 a 48 700 AVISA (aumento del 42 %)\n• Lesiones por causas externas: de 18 900 a 14 100 AVISA (reducción del 25 %)\n• Condiciones materno-perinatales: de 5 600 a 3 200 AVISA (reducción del 43 %)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué fenómeno epidemiológico refleja la distribución de AVISA descrita en estos datos?",
+    "explanation": "Los datos muestran la transición epidemiológica: reducción progresiva de la carga por enfermedades transmisibles y condiciones materno-perinatales, con un aumento significativo de las enfermedades no transmisibles (cardiovasculares, cáncer, diabetes, enfermedades mentales). Este patrón se asocia con el envejecimiento poblacional, cambios en estilos de vida y mejoras en saneamiento y vacunación. La transición exige reorientar los servicios hacia la cronicidad y la prevención de factores de riesgo.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Un aumento generalizado de las enfermedades infecciosas.", "isCorrect": false },
+      { "letter": "B", "text": "La transición epidemiológica, con reducción de enfermedades transmisibles y aumento de enfermedades no transmisibles.", "isCorrect": true },
+      { "letter": "C", "text": "Una mejora uniforme en todos los indicadores de salud sin cambio de perfil.", "isCorrect": false },
+      { "letter": "D", "text": "Un aumento exclusivo de las causas externas de mortalidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "La Ley 1438 de 2011, en su artículo 12, estableció que la Atención Primaria en Salud (APS) constituye la estrategia de coordinación intersectorial que permite la atención integral e integrada. La ley definió que la APS incluye tres componentes: servicios de salud, acción intersectorial y participación social en salud.\n\n(Redacción Study2One)",
+    "questionText": "Según la Ley 1438 de 2011, ¿cuáles son los tres componentes de la APS en Colombia?",
+    "explanation": "La Ley 1438 de 2011 definió la APS con tres componentes integrados: (1) los servicios de salud (prestación de servicios con enfoque de familia y comunidad), (2) la acción intersectorial (articulación con otros sectores como educación, vivienda, agua y saneamiento) y (3) la participación social, comunitaria e institucional (empoderamiento de la comunidad en las decisiones de salud). Este enfoque tripartito diferencia la APS colombiana de un modelo exclusivamente asistencial.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Hospitalización, urgencias y consulta externa.", "isCorrect": false },
+      { "letter": "B", "text": "Servicios de salud, acción intersectorial y participación social.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención, diagnóstico y rehabilitación.", "isCorrect": false },
+      { "letter": "D", "text": "Régimen contributivo, subsidiado y vinculado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "En un resguardo indígena Embera Chamí del departamento de Risaralda, la tasa de mortalidad infantil es de 45 por 1 000 nacidos vivos, mientras el promedio departamental es de 10 por 1 000. El Sistema Indígena de Salud Propio e Intercultural (SISPI) busca articular la medicina tradicional con el sistema de salud occidental, pero los prestadores locales reportan dificultades para implementar los programas de promoción y prevención.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el principal desafío para implementar programas de salud intercultural en este resguardo?",
+    "explanation": "El principal desafío radica en la falta de profesionales con competencias interculturales y el desconocimiento de las cosmovisiones y prácticas de salud propias de los pueblos indígenas. La implementación requiere recurso humano formado en interculturalidad, participación activa de las autoridades y sabedores tradicionales, y adecuación de los programas a las realidades culturales y geográficas del resguardo. No basta con trasladar programas urbanos al territorio indígena.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La resistencia de los pueblos indígenas a cualquier tipo de atención en salud.", "isCorrect": false },
+      { "letter": "B", "text": "La falta de profesionales con competencias interculturales y la inadecuación de los programas a las realidades culturales del resguardo.", "isCorrect": true },
+      { "letter": "C", "text": "La prohibición legal de prestar servicios de salud en resguardos indígenas.", "isCorrect": false },
+      { "letter": "D", "text": "El exceso de recurso humano especializado en la zona.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "El Plan Decenal de Salud Pública (PDSP) 2022-2031 de Colombia establece la planificación territorial en salud como un proceso que debe articular el nivel nacional con los niveles departamental, distrital y municipal. Cada entidad territorial debe formular su Plan Territorial de Salud (PTS) alineado con el PDSP, pero adaptado a las necesidades locales identificadas en el ASIS.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la relación entre el PDSP y los Planes Territoriales de Salud?",
+    "explanation": "El PDSP es el marco nacional de política pública en salud que define las dimensiones prioritarias y las metas nacionales. Los PTS deben alinearse con este marco nacional, pero adaptarse a las realidades locales identificadas mediante el ASIS territorial. No son una simple copia del PDSP sino una contextualización que responde a las necesidades específicas de cada territorio, manteniendo coherencia con las prioridades nacionales.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Los PTS son copias exactas del PDSP sin ninguna adaptación local.", "isCorrect": false },
+      { "letter": "B", "text": "No existe ninguna relación; cada territorio planifica de forma completamente independiente.", "isCorrect": false },
+      { "letter": "C", "text": "Los PTS se alinean con el marco nacional del PDSP pero se adaptan a las necesidades locales según el ASIS territorial.", "isCorrect": true },
+      { "letter": "D", "text": "El PDSP anula los planes territoriales y los reemplaza por completo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Un hospital público de tercer nivel en Bogotá inicia su proceso de acreditación ante el ICONTEC. El equipo de calidad identifica que deben demostrar mejoramiento continuo en varias dimensiones: seguridad del paciente, humanización, gestión de la tecnología, gestión del ambiente físico y enfoque de riesgo. El hospital ya cuenta con habilitación vigente.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la diferencia en el enfoque evaluativo entre habilitación y acreditación?",
+    "explanation": "La habilitación evalúa el cumplimiento de condiciones mínimas (sí/no cumple), es una verificación de estándares básicos. La acreditación, en cambio, evalúa niveles progresivos de calidad superior: no solo si se cumplen requisitos mínimos sino si existen procesos de mejoramiento continuo, resultados medibles, cultura de seguridad y humanización. La acreditación es un proceso gradual que reconoce la excelencia, no solo la suficiencia.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Ambas evalúan exactamente los mismos estándares con el mismo enfoque.", "isCorrect": false },
+      { "letter": "B", "text": "La habilitación verifica condiciones mínimas (cumple/no cumple); la acreditación evalúa niveles progresivos de mejoramiento continuo y excelencia.", "isCorrect": true },
+      { "letter": "C", "text": "La habilitación evalúa calidad superior y la acreditación verifica los mínimos.", "isCorrect": false },
+      { "letter": "D", "text": "La acreditación solo evalúa la infraestructura física del hospital.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "El municipio de Quibdó, Chocó, presenta los siguientes indicadores comparados con el promedio nacional:\n\n• Esperanza de vida al nacer: 67 años (nacional: 77 años)\n• Tasa de analfabetismo: 18 % (nacional: 5 %)\n• NBI (Necesidades Básicas Insatisfechas): 79 % (nacional: 28 %)\n• Cobertura de acueducto: 23 % (nacional: 87 %)\n• Razón de mortalidad materna: 215 por 100 000 NV (nacional: 52)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué concepto epidemiológico describe mejor la diferencia entre los indicadores de Quibdó y los promedios nacionales?",
+    "explanation": "La inequidad en salud se refiere a las diferencias injustas y evitables en los resultados de salud entre grupos poblacionales, determinadas por factores sociales, económicos y políticos. A diferencia de la desigualdad (que es una diferencia estadística), la inequidad implica un juicio de injusticia: estas brechas son producto de condiciones sociales modificables, no de diferencias naturales. Quibdó muestra una clara inequidad territorial asociada a pobreza multidimensional.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Variabilidad natural sin implicaciones de justicia social.", "isCorrect": false },
+      { "letter": "B", "text": "Inequidad en salud: diferencias injustas y evitables determinadas por factores sociales, económicos y políticos.", "isCorrect": true },
+      { "letter": "C", "text": "Diferencias genéticas inherentes a la población del Chocó.", "isCorrect": false },
+      { "letter": "D", "text": "Error en la recolección de datos del municipio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "La Ley 1164 de 2007 estableció el Observatorio de Talento Humano en Salud como una herramienta para la planificación del recurso humano. Un análisis del Observatorio revela que Colombia tiene una densidad de 23 médicos por 10 000 habitantes a nivel nacional, pero la distribución es muy desigual: Bogotá tiene 42 médicos por 10 000, mientras que Vaupés tiene 5 por 10 000.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la implicación de esta distribución desigual del talento humano para la atención en salud?",
+    "explanation": "La distribución desigual del talento humano en salud genera barreras de acceso geográfico que se suman a las barreras socioeconómicas. Las zonas con baja densidad de profesionales tienen mayor proporción de mortalidad evitable, menor oportunidad en la atención y mayor dependencia de remisiones a centros urbanos. Esta inequidad distributiva es un determinante estructural del sistema que requiere políticas activas de incentivos, servicio social obligatorio y formación de personal comunitario.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "No tiene implicación porque la telemedicina resuelve todas las brechas.", "isCorrect": false },
+      { "letter": "B", "text": "Genera barreras de acceso geográfico que aumentan la mortalidad evitable y la inequidad en salud en zonas desatendidas.", "isCorrect": true },
+      { "letter": "C", "text": "Es una ventaja porque concentrar médicos en ciudades mejora la calidad.", "isCorrect": false },
+      { "letter": "D", "text": "Solo afecta la comodidad de los pacientes, no los resultados de salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Un equipo de gestión clínica de una red de IPS en Cali implementa un sistema de indicadores de calidad basado en las GPC adoptadas por el Ministerio de Salud. Definen los siguientes indicadores para diabetes mellitus tipo 2:\n\n• Proporción de pacientes con HbA1c < 7 %: 45 % (meta: 60 %)\n• Proporción con examen de fondo de ojo anual: 28 % (meta: 80 %)\n• Proporción con control de pie diabético anual: 35 % (meta: 75 %)\n• Proporción con perfil lipídico anual: 62 % (meta: 85 %)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué proceso de gestión clínica permite utilizar estos indicadores para mejorar la atención?",
+    "explanation": "La gestión clínica basada en indicadores permite medir la brecha entre la práctica real y las recomendaciones de las GPC, identificar oportunidades de mejora y diseñar intervenciones específicas. Los indicadores de proceso (examen de fondo de ojo, pie diabético, perfil lipídico) y de resultado (HbA1c) permiten evaluar tanto el cumplimiento de las guías como los desenlaces clínicos. Este ciclo de medición-análisis-mejora es el fundamento de la gestión clínica.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Solo sirven para sancionar a los médicos con peores indicadores.", "isCorrect": false },
+      { "letter": "B", "text": "La gestión clínica basada en indicadores: medir brechas, analizar causas e implementar acciones de mejora alineadas con las GPC.", "isCorrect": true },
+      { "letter": "C", "text": "Los indicadores son irrelevantes porque cada médico decide según su criterio.", "isCorrect": false },
+      { "letter": "D", "text": "Solo sirven para la facturación de servicios a las EPS.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Colombia ha avanzado en la implementación del sistema de información RIPS (Registro Individual de Prestación de Servicios de Salud), pero persisten desafíos de interoperabilidad. Un hospital en el Meta reporta los RIPS a su EPS, pero estos datos no se integran fácilmente con los del SIVIGILA ni con los de las estadísticas vitales (DANE), generando fragmentación de la información.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el principal desafío que plantea la fragmentación de los sistemas de información en salud en Colombia?",
+    "explanation": "La fragmentación de los sistemas de información (RIPS, SIVIGILA, estadísticas vitales, RUAF, SISPRO) dificulta la construcción de un panorama integral de la situación de salud. Sin interoperabilidad, los tomadores de decisiones no pueden cruzar datos de morbilidad atendida (RIPS) con eventos de notificación obligatoria (SIVIGILA) ni con datos demográficos (DANE), lo que limita el análisis epidemiológico completo y la respuesta oportuna a problemas de salud pública.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "No existe ningún desafío porque cada sistema funciona perfectamente de forma aislada.", "isCorrect": false },
+      { "letter": "B", "text": "Impide construir un panorama integral de la situación de salud, limitando el análisis epidemiológico y la toma de decisiones oportunas.", "isCorrect": true },
+      { "letter": "C", "text": "Solo afecta la estética de los reportes, no su contenido.", "isCorrect": false },
+      { "letter": "D", "text": "Favorece la protección de datos personales al mantenerlos separados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "La Ley 1438 de 2011 fortaleció las redes integradas de servicios de salud (RISS) como mecanismo para garantizar la continuidad y la integralidad de la atención. En el departamento del Cauca, una red de servicios incluye 12 puestos de salud de primer nivel, 3 hospitales de segundo nivel y 1 hospital de tercer nivel. Sin embargo, los pacientes reportan fragmentación en la atención: deben repetir exámenes al ser remitidos y no existe un sistema de referencia y contrarreferencia funcional.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el elemento clave que falta en esta red de servicios para garantizar la integralidad?",
+    "explanation": "Las redes integradas de servicios de salud requieren un sistema funcional de referencia y contrarreferencia que garantice la continuidad del cuidado. Esto incluye: historia clínica compartida o interoperable, protocolos de remisión estandarizados, comunicación efectiva entre niveles y seguimiento del paciente a lo largo de todo el proceso de atención. Sin estos elementos, tener múltiples niveles de complejidad no garantiza integralidad.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Más hospitales de cuarto nivel en la red.", "isCorrect": false },
+      { "letter": "B", "text": "Un sistema funcional de referencia y contrarreferencia con historia clínica compartida y comunicación entre niveles.", "isCorrect": true },
+      { "letter": "C", "text": "Eliminar los puestos de salud de primer nivel.", "isCorrect": false },
+      { "letter": "D", "text": "Que todos los pacientes acudan directamente al hospital de tercer nivel.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Una ETS (Evaluación de Tecnologías en Salud) realizada por el IETS evaluó el uso de pruebas rápidas de detección de VIH en entornos comunitarios fuera de los servicios de salud tradicionales. La evidencia mostró que las pruebas rápidas en comunidades vulnerables (población trans, trabajadores sexuales, usuarios de drogas inyectables) aumentan la detección temprana en un 35 % comparado con la oferta solo en IPS.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué tipo de análisis dentro de la ETS justifica la implementación de pruebas rápidas en entornos comunitarios?",
+    "explanation": "Dentro de la ETS, el análisis de efectividad en condiciones reales (no solo de eficacia en ensayos clínicos) es fundamental. Además, el análisis de equidad y accesibilidad evalúa si la tecnología reduce barreras de acceso para poblaciones vulnerables. En este caso, llevar las pruebas rápidas a la comunidad supera las barreras geográficas, de estigma y de horario que impiden que estas poblaciones acudan a las IPS convencionales.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Solo el análisis de costo, sin considerar el acceso de poblaciones vulnerables.", "isCorrect": false },
+      { "letter": "B", "text": "El análisis de efectividad en condiciones reales combinado con el análisis de equidad y accesibilidad para poblaciones vulnerables.", "isCorrect": true },
+      { "letter": "C", "text": "Únicamente la opinión de los expertos en laboratorio clínico.", "isCorrect": false },
+      { "letter": "D", "text": "El análisis de la marca comercial de la prueba rápida.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "En el municipio de Buenaventura, Valle del Cauca, un estudio de mortalidad evitable analiza las defunciones de menores de 5 años en el último año:\n\n• Total de defunciones: 48\n• Evitables por vacunación o prevención: 14 (29 %)\n• Evitables por diagnóstico y tratamiento oportuno: 18 (38 %)\n• Evitables por saneamiento ambiental: 11 (23 %)\n• No evitables con la tecnología actual: 5 (10 %)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué conclusión se obtiene del análisis de mortalidad evitable en este municipio?",
+    "explanation": "El 90 % de las defunciones de menores de 5 años son evitables (43 de 48), lo que indica fallas sistémicas graves en el acceso y la calidad de los servicios de salud. La mayor proporción es evitable por diagnóstico y tratamiento oportuno (38 %), sugiriendo barreras de acceso a servicios curativos. El 29 % evitable por vacunación señala fallas en los programas de promoción y prevención. El 23 % evitable por saneamiento refleja deficiencias en determinantes ambientales.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "La mayoría de las muertes son inevitables y no requieren intervención.", "isCorrect": false },
+      { "letter": "B", "text": "El 90 % de las defunciones son evitables, evidenciando fallas sistémicas en prevención, acceso a servicios y saneamiento ambiental.", "isCorrect": true },
+      { "letter": "C", "text": "El problema principal es exclusivamente la falta de vacunación.", "isCorrect": false },
+      { "letter": "D", "text": "Los datos son irrelevantes porque las muertes infantiles son siempre aleatorias.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "El Sistema de Información para la Protección Social (SISPRO) integra datos de múltiples fuentes del sector salud y protección social en Colombia. Un equipo del Ministerio de Salud utiliza el SISPRO para generar el cubo de indicadores que alimenta los informes de gestión departamentales y permite el seguimiento de metas del PDSP.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la función principal del SISPRO en el sistema de salud colombiano?",
+    "explanation": "El SISPRO es la plataforma que integra y consolida datos de múltiples fuentes (RIPS, RUAF, SIVIGILA, estadísticas vitales, BDUA, entre otros) para generar información útil para la toma de decisiones en salud y protección social. Permite el análisis cruzado de datos, la generación de indicadores y el monitoreo de políticas públicas. No es solo un repositorio sino una herramienta analítica para la gestión en salud.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Solo almacena datos de facturación de las EPS.", "isCorrect": false },
+      { "letter": "B", "text": "Integra datos de múltiples fuentes para generar información útil para la toma de decisiones en salud y el monitoreo de políticas públicas.", "isCorrect": true },
+      { "letter": "C", "text": "Es un sistema exclusivo para la vigilancia de enfermedades transmisibles.", "isCorrect": false },
+      { "letter": "D", "text": "Solo funciona para el nivel nacional, sin utilidad para los territorios.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "Un pueblo indígena Nasa del norte del Cauca ha desarrollado un programa de salud intercultural que integra a las parteras tradicionales (the'walas) con el sistema de salud occidental. Las parteras realizan el acompañamiento cultural durante el embarazo y parto, mientras que un equipo biomédico garantiza la atención de complicaciones. El programa ha reducido la mortalidad materna en un 60 % en cinco años.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué principio de la salud intercultural ilustra este programa?",
+    "explanation": "La complementariedad entre sistemas médicos es un principio fundamental de la salud intercultural: reconoce que la medicina occidental y la medicina tradicional pueden articularse de manera respetuosa y efectiva, cada una aportando desde sus fortalezas. Las parteras aportan confianza cultural, acompañamiento continuo y conocimiento del contexto; el equipo biomédico aporta capacidad resolutiva ante complicaciones. Ninguno sustituye al otro; se complementan.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "La superioridad de la medicina occidental sobre las prácticas tradicionales.", "isCorrect": false },
+      { "letter": "B", "text": "La complementariedad entre sistemas médicos: articulación respetuosa de saberes tradicionales y biomédicos.", "isCorrect": true },
+      { "letter": "C", "text": "La eliminación completa de la atención biomédica en territorios indígenas.", "isCorrect": false },
+      { "letter": "D", "text": "La obligatoriedad de atender todos los partos exclusivamente en hospitales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "El Plan de Beneficios en Salud (PBS) colombiano incluye los medicamentos esenciales definidos por un comité técnico. Una paciente con lupus eritematoso sistémico solicita un medicamento biológico que no está incluido en el PBS. Su médico tratante considera que es necesario porque los tratamientos estándar no han sido efectivos. La EPS niega la autorización argumentando que no está en el PBS.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Según la normativa vigente, ¿cuál es el mecanismo para acceder a tecnologías no incluidas en el PBS cuando existe justificación clínica?",
+    "explanation": "La Ley 1751 de 2015 y sus reglamentaciones establecieron el mecanismo MIPRES (Mi Prescripción) para que los médicos puedan prescribir tecnologías no incluidas en el PBS cuando existe justificación clínica (falla terapéutica con las alternativas del PBS). El MIPRES reemplazó los antiguos Comités Técnico-Científicos y permite un trámite más ágil. La prescripción debe estar soportada en evidencia clínica y la EPS debe autorizar el suministro.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "No existe ningún mecanismo; si no está en el PBS, no se puede acceder.", "isCorrect": false },
+      { "letter": "B", "text": "El mecanismo MIPRES, mediante prescripción médica justificada por falla terapéutica con las alternativas del PBS.", "isCorrect": true },
+      { "letter": "C", "text": "Solo mediante tutela judicial, sin ninguna otra vía administrativa.", "isCorrect": false },
+      { "letter": "D", "text": "Comprando directamente el medicamento en farmacia sin autorización.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": "Un grupo de epidemiólogos del Observatorio Nacional de Salud calcula la tasa de mortalidad evitable por causas tratables y prevenibles en cinco departamentos para el período 2018-2023:\n\n• Departamento A: tasa evitable por causas tratables = 120 por 100 000\n• Departamento B: tasa evitable por causas tratables = 65 por 100 000\n• Departamento C: tasa evitable por causas prevenibles = 95 por 100 000\n• Departamento D: tasa evitable por causas prevenibles = 45 por 100 000\n• Departamento E: ambas tasas altas (tratables = 110, prevenibles = 88)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué indica una tasa alta de mortalidad evitable por causas tratables en el departamento A?",
+    "explanation": "La mortalidad evitable se clasifica en dos componentes: por causas prevenibles (que se pueden evitar con promoción y prevención, como vacunación y estilos de vida) y por causas tratables (que se pueden evitar con diagnóstico y tratamiento oportuno y de calidad). Una tasa alta de mortalidad por causas tratables indica deficiencias en el acceso y la calidad de los servicios de atención médica, no necesariamente en la prevención.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Que la población tiene excelente acceso a servicios de salud.", "isCorrect": false },
+      { "letter": "B", "text": "Que existen deficiencias en el acceso y la calidad de los servicios de atención médica (diagnóstico y tratamiento oportunos).", "isCorrect": true },
+      { "letter": "C", "text": "Que los programas de prevención del departamento están fallando.", "isCorrect": false },
+      { "letter": "D", "text": "Que todas las muertes son por causas no evitables.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": "En la ciudad de Cartagena, un barrio periférico presenta alta incidencia de dengue durante la temporada de lluvias. El equipo de salud pública del distrito realiza un análisis de determinantes y encuentra: viviendas con techos de plástico y lámina que acumulan agua, ausencia de recolección regular de basuras, tanques de agua sin tapa, y bajo nivel educativo de la población (promedio 5 años de escolaridad).\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cómo se relacionan los determinantes intermedios identificados con la incidencia de dengue?",
+    "explanation": "Los determinantes intermedios (condiciones de vivienda, saneamiento, manejo de residuos) crean el ambiente propicio para la reproducción del vector Aedes aegypti. Los techos que acumulan agua, la falta de recolección de basuras y los tanques sin tapa generan criaderos del mosquito. El bajo nivel educativo limita la adopción de prácticas preventivas. La intervención debe abordar tanto los criaderos (acción ambiental) como la educación comunitaria, reconociendo que estas condiciones son expresión de determinantes estructurales (pobreza, exclusión).",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "No hay relación entre las condiciones de vivienda y el dengue.", "isCorrect": false },
+      { "letter": "B", "text": "Las condiciones de vivienda y saneamiento generan criaderos del vector, y el bajo nivel educativo limita las prácticas preventivas.", "isCorrect": true },
+      { "letter": "C", "text": "El dengue depende exclusivamente de factores climáticos, no de determinantes sociales.", "isCorrect": false },
+      { "letter": "D", "text": "La solución es fumigar sin abordar las condiciones de vida.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "La Resolución 429 de 2016 (PAIS) estableció que la gestión integral del riesgo en salud es una de las estrategias centrales del modelo. Esta gestión implica identificar, evaluar y mitigar los riesgos de salud de la población, tanto individuales como colectivos, articulando las acciones de los aseguradores (EPS) con las de los prestadores (IPS) y las autoridades sanitarias.\n\n(Redacción Study2One)",
+    "questionText": "¿En qué consiste la gestión integral del riesgo en salud dentro de la PAIS?",
+    "explanation": "La gestión integral del riesgo en salud busca anticiparse a los eventos de enfermedad mediante la identificación de grupos de riesgo, la estratificación poblacional, las intervenciones preventivas oportunas y la coordinación entre aseguradores, prestadores y entes territoriales. No se limita a atender la enfermedad cuando aparece sino a gestionar proactivamente los factores de riesgo para modificar la historia natural de la enfermedad antes de que genere complicaciones y costos mayores.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Solo atender las enfermedades cuando el paciente consulta al servicio de urgencias.", "isCorrect": false },
+      { "letter": "B", "text": "Identificar grupos de riesgo, estratificar la población e implementar intervenciones preventivas de forma anticipada y coordinada.", "isCorrect": true },
+      { "letter": "C", "text": "Transferir todos los riesgos al paciente para que se haga responsable de su salud.", "isCorrect": false },
+      { "letter": "D", "text": "Comprar pólizas de seguros privados para toda la población.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": "Un municipio del Tolima con 45 000 habitantes tiene una sola IPS pública de primer nivel. El alcalde propone crear un segundo punto de atención en una vereda distante 3 horas por vía terrestre, donde habitan 5 000 personas que actualmente deben desplazarse al casco urbano para cualquier consulta médica. La Secretaría de Salud departamental debe verificar si el nuevo punto cumple con los estándares de habilitación.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué estándares de habilitación debe verificar la Secretaría de Salud para autorizar el funcionamiento del nuevo punto de atención?",
+    "explanation": "Los estándares de habilitación aplican a todo prestador de servicios de salud, independientemente de su ubicación o tamaño. Los 7 estándares que debe verificar son: talento humano (cantidad y perfiles), infraestructura (condiciones físicas), dotación (equipos), medicamentos y dispositivos médicos, procesos prioritarios (protocolos), historia clínica (sistema de registro) e interdependencia de servicios (relación con otros servicios necesarios). No se puede flexibilizar por tratarse de una zona rural.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Ninguno, porque las zonas rurales están exentas de habilitación.", "isCorrect": false },
+      { "letter": "B", "text": "Los 7 estándares: talento humano, infraestructura, dotación, medicamentos, procesos prioritarios, historia clínica e interdependencia.", "isCorrect": true },
+      { "letter": "C", "text": "Solo el estándar de infraestructura, sin importar el recurso humano.", "isCorrect": false },
+      { "letter": "D", "text": "Solo necesita la autorización del alcalde, sin verificación técnica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "El departamento de Cesar presenta los siguientes datos de cobertura del programa ampliado de inmunización (PAI) en menores de 1 año para el último año:\n\n• BCG: 92 %\n• Pentavalente (3 dosis): 78 %\n• Triple viral (1 dosis): 82 %\n• Polio (3 dosis): 76 %\n• Rotavirus (2 dosis): 71 %\n\nLa meta del Ministerio de Salud es alcanzar coberturas útiles del 95 % para todos los biológicos.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la implicación epidemiológica de que ningún biológico alcance la cobertura útil del 95 %?",
+    "explanation": "La cobertura útil del 95 % es el umbral necesario para mantener la inmunidad de rebaño (herd immunity) y prevenir brotes de enfermedades inmunoprevenibles. Cuando las coberturas están por debajo de este umbral, se acumulan susceptibles (niños no vacunados) que eventualmente pueden generar brotes epidémicos. La caída progresiva en coberturas (BCG 92 % pero rotavirus solo 71 %) sugiere además problemas de adherencia al esquema completo y posibles barreras de acceso.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "No tiene implicación porque coberturas del 70-90 % son suficientes.", "isCorrect": false },
+      { "letter": "B", "text": "Se pierde la inmunidad de rebaño, acumulando susceptibles que pueden generar brotes epidémicos de enfermedades prevenibles.", "isCorrect": true },
+      { "letter": "C", "text": "Solo afecta al departamento si las coberturas nacionales son altas.", "isCorrect": false },
+      { "letter": "D", "text": "La meta del 95 % es arbitraria y no tiene sustento epidemiológico.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "En una comunidad Emberá Katío del Urabá antioqueño, los líderes espirituales (jaibanás) ejercen la medicina tradicional mediante plantas, cantos y rituales de sanación. El Sistema Indígena de Salud Propio e Intercultural (SISPI) busca que estos saberes sean reconocidos e integrados al sistema de salud. Sin embargo, algunos funcionarios de la Secretaría de Salud argumentan que estas prácticas no tienen validez científica y deberían ser prohibidas.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la posición de la normativa colombiana respecto a las prácticas de medicina tradicional indígena?",
+    "explanation": "La Constitución de 1991 (artículos 7, 246, 330), la Ley 691 de 2001 y el SISPI reconocen y protegen los sistemas de salud propios de los pueblos indígenas. La normativa establece que la medicina tradicional indígena es un sistema de salud legítimo que debe ser respetado y articulado con el SGSSS, no prohibido ni sustituido. Los profesionales de salud deben trabajar en complementariedad con los sabedores tradicionales, respetando la autonomía cultural de los pueblos.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La normativa prohíbe toda práctica de medicina tradicional.", "isCorrect": false },
+      { "letter": "B", "text": "La Constitución y las leyes reconocen y protegen los sistemas de salud propios de los pueblos indígenas, promoviendo su articulación con el SGSSS.", "isCorrect": true },
+      { "letter": "C", "text": "Solo permite la medicina tradicional si es aprobada por ensayos clínicos.", "isCorrect": false },
+      { "letter": "D", "text": "La medicina tradicional solo se tolera en zonas urbanas, no en resguardos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "La Ley 1164 de 2007 estableció que el servicio social obligatorio es un requisito para los profesionales de la salud recién graduados. Un médico recién graduado es asignado a un municipio de categoría 6 en el departamento de Guainía, donde será el único médico para una población de 8 000 habitantes dispersa en zona rural. El médico manifiesta preocupación por la falta de apoyo y supervisión.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la justificación normativa y de salud pública del servicio social obligatorio?",
+    "explanation": "El servicio social obligatorio tiene una doble justificación: normativa (es requisito legal para obtener la tarjeta profesional según la Ley 1164 de 2007) y de salud pública (busca garantizar la presencia de profesionales en zonas desatendidas donde la oferta de talento humano es insuficiente). Es una estrategia para reducir la inequidad en la distribución del recurso humano en salud, aunque requiere condiciones de apoyo, supervisión y seguridad para los profesionales asignados.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Es solo un trámite administrativo sin propósito de salud pública.", "isCorrect": false },
+      { "letter": "B", "text": "Busca garantizar la presencia de profesionales en zonas desatendidas para reducir la inequidad en la distribución del talento humano.", "isCorrect": true },
+      { "letter": "C", "text": "Es un castigo para los médicos con las notas más bajas.", "isCorrect": false },
+      { "letter": "D", "text": "Solo aplica a médicos, no a otros profesionales de salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": "Un estudio transversal en el departamento de Córdoba analiza la relación entre el nivel educativo materno y la desnutrición crónica (baja talla para la edad) en menores de 5 años:\n\n• Madres sin educación formal: prevalencia de desnutrición crónica = 28 %\n• Madres con primaria completa: prevalencia = 18 %\n• Madres con secundaria completa: prevalencia = 9 %\n• Madres con educación superior: prevalencia = 3 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué concepto de determinantes sociales explica el gradiente observado entre educación materna y desnutrición infantil?",
+    "explanation": "El gradiente social en salud describe cómo los resultados de salud mejoran progresivamente a medida que mejora la posición socioeconómica. No es una relación de «todo o nada» (pobre vs. rico) sino un gradiente continuo: cada nivel adicional de educación materna se asocia con menor desnutrición infantil. La educación materna actúa como determinante estructural que influye en prácticas de alimentación, acceso a servicios, ingresos y capacidad de autocuidado.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Es una coincidencia estadística sin significado epidemiológico.", "isCorrect": false },
+      { "letter": "B", "text": "El gradiente social en salud: cada nivel adicional de ventaja socioeconómica se asocia con mejores resultados de salud de forma progresiva.", "isCorrect": true },
+      { "letter": "C", "text": "Solo demuestra que las madres sin educación no quieren alimentar bien a sus hijos.", "isCorrect": false },
+      { "letter": "D", "text": "La desnutrición depende exclusivamente de la genética, no de la educación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": "El Ministerio de Salud de Colombia publica anualmente el informe de Análisis de Situación de Salud (ASIS) con enfoque de determinantes sociales. El ASIS 2023 incluye el análisis de mortalidad por grandes causas según la lista 6/67, los AVISA por subgrupos, los indicadores demográficos, las coberturas de servicios y los determinantes sociales por departamento.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la utilidad del ASIS con enfoque de determinantes sociales para la planificación en salud?",
+    "explanation": "El ASIS con enfoque de determinantes sociales permite no solo describir qué enfermedades afectan a la población (perfil de morbimortalidad) sino también explicar por qué se enferman y mueren de manera diferencial según su posición social, territorio, etnia y género. Esta comprensión causal es fundamental para diseñar intervenciones que aborden las causas raíz de las inequidades, no solo los síntomas. Permite priorizar territorios, poblaciones y determinantes para la acción en salud pública.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Solo sirve como documento académico sin aplicación práctica.", "isCorrect": false },
+      { "letter": "B", "text": "Permite identificar no solo qué enferma a la población sino por qué, orientando intervenciones hacia las causas raíz de las inequidades.", "isCorrect": true },
+      { "letter": "C", "text": "Únicamente describe los indicadores hospitalarios sin contexto social.", "isCorrect": false },
+      { "letter": "D", "text": "Es un requisito burocrático que no influye en la planificación real.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "En el departamento de La Guajira, una organización indígena Wayúu presenta una propuesta al gobierno departamental para implementar un modelo de salud intercultural que incluya: (1) formación de agentes comunitarios indígenas, (2) articulación del outsu con los centros de salud, (3) adecuación cultural de los servicios obstétricos y (4) un sistema de información que registre tanto las atenciones biomédicas como las tradicionales.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál componente de esta propuesta representa el mayor desafío para los sistemas de información en salud convencionales?",
+    "explanation": "Registrar las atenciones de medicina tradicional en los sistemas de información convencionales (RIPS, historias clínicas electrónicas) es un desafío fundamental porque estos sistemas están diseñados bajo la lógica biomédica (CIE-10, CUPS). Las prácticas tradicionales (rituales de sanación, uso de plantas medicinales, consejería espiritual) no se codifican en estas clasificaciones. Crear un sistema que integre ambos registros requiere nuevas categorías y respeto por la cosmovisión indígena, sin reducirla a categorías biomédicas.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La formación de agentes comunitarios, porque ya existe un modelo establecido.", "isCorrect": false },
+      { "letter": "B", "text": "El registro de atenciones tradicionales en sistemas de información diseñados bajo lógica biomédica.", "isCorrect": true },
+      { "letter": "C", "text": "La adecuación cultural de servicios obstétricos, porque no requiere cambios.", "isCorrect": false },
+      { "letter": "D", "text": "La articulación con centros de salud, porque los outsu ya están integrados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "Una IPS de alta complejidad en Bucaramanga implementa un programa de seguridad del paciente como parte de su estrategia de auditoría para el mejoramiento de la calidad. El comité de seguridad revisa los eventos adversos del último trimestre:\n\n• Caídas intrahospitalarias: 12 eventos\n• Errores de medicación: 8 eventos\n• Infecciones asociadas a la atención en salud (IAAS): 15 eventos\n• Úlceras por presión: 6 eventos\n• Eventos centinela (muerte inesperada): 2 eventos\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál debe ser el enfoque del programa de seguridad del paciente ante estos eventos adversos?",
+    "explanation": "El enfoque moderno de seguridad del paciente se basa en la cultura justa (just culture) y el aprendizaje organizacional: los eventos adversos deben analizarse de forma sistémica (no punitiva) para identificar las fallas en los procesos, los sistemas y el diseño organizacional que permitieron que ocurrieran. Se buscan las causas raíz (análisis causal) y se implementan barreras de seguridad (listas de chequeo, doble verificación, protocolos estandarizados) para prevenir la recurrencia.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Sancionar individualmente a cada profesional involucrado en un evento adverso.", "isCorrect": false },
+      { "letter": "B", "text": "Analizar sistémicamente las causas raíz de cada evento e implementar barreras de seguridad para prevenir recurrencias.", "isCorrect": true },
+      { "letter": "C", "text": "Ocultar los eventos adversos para proteger la reputación del hospital.", "isCorrect": false },
+      { "letter": "D", "text": "Reducir el número de pacientes atendidos para evitar eventos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": "El municipio de Ipiales, Nariño, se encuentra en la frontera con Ecuador. La Secretaría de Salud municipal recibe reportes de población migrante venezolana que acude a servicios de urgencias sin afiliación al SGSSS. Los datos del último semestre muestran: 1 200 atenciones de urgencias a migrantes irregulares, de las cuales el 35 % son atenciones de gestantes y menores de 5 años.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la obligación normativa del sistema de salud colombiano respecto a la atención de migrantes irregulares?",
+    "explanation": "La normativa colombiana (Ley 1751 de 2015, Decreto 866 de 2017, Resolución 3015 de 2017) establece que la atención de urgencias es un derecho de toda persona en territorio colombiano, independientemente de su estatus migratorio o de afiliación. Adicionalmente, los menores de edad y las gestantes migrantes tienen derecho a atención integral (no solo urgencias). Los costos se financian con recursos de oferta o del Fondo de Solidaridad y Garantía (FOSYGA/ADRES).",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "No tiene ninguna obligación con migrantes irregulares.", "isCorrect": false },
+      { "letter": "B", "text": "Debe garantizar atención de urgencias a toda persona; gestantes y menores de edad migrantes tienen derecho a atención integral.", "isCorrect": true },
+      { "letter": "C", "text": "Solo debe atender a migrantes si presentan enfermedades transmisibles.", "isCorrect": false },
+      { "letter": "D", "text": "Debe deportar a los migrantes antes de atenderlos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "Un departamento colombiano realiza un ejercicio de priorización en salud pública utilizando la metodología de carga de enfermedad. Los resultados muestran que los trastornos depresivos ocupan el tercer lugar en AVISA totales (después de enfermedades cardiovasculares y neoplasias), pero ocupan el primer lugar en Años Vividos con Discapacidad (AVD/YLD). Sin embargo, los trastornos depresivos no aparecen entre las 10 primeras causas de mortalidad.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué explica que los trastornos depresivos tengan alta carga de enfermedad (AVISA) pero baja mortalidad?",
+    "explanation": "Los AVISA tienen dos componentes: años de vida perdidos por muerte prematura (AVP/YLL) y años vividos con discapacidad (AVD/YLD). Los trastornos depresivos generan alta carga de enfermedad predominantemente a través de la discapacidad (AVD), no de la mortalidad directa. Afectan la funcionalidad, productividad y calidad de vida durante décadas. Si se priorizara solo por mortalidad, los trastornos mentales serían invisibles, lo que demuestra la importancia de usar AVISA como indicador compuesto.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Los datos están mal calculados; si tienen alta carga, deben tener alta mortalidad.", "isCorrect": false },
+      { "letter": "B", "text": "Los trastornos depresivos generan su carga principalmente por discapacidad crónica (AVD), no por mortalidad directa.", "isCorrect": true },
+      { "letter": "C", "text": "Los trastornos depresivos no generan ningún tipo de discapacidad.", "isCorrect": false },
+      { "letter": "D", "text": "La depresión solo afecta a personas mayores de 65 años.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": "La Superintendencia Nacional de Salud realizó una auditoría a una red de IPS en el departamento de Antioquia y encontró los siguientes hallazgos: (1) el 40 % de las historias clínicas no tenían consentimiento informado documentado, (2) los tiempos de espera para cirugía programada superaban los 90 días en el 60 % de los casos, (3) no existía un comité institucional de ética hospitalaria funcional y (4) las quejas de los usuarios no se sistematizaban ni se les daba respuesta en los tiempos normativos.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál componente del Sistema Obligatorio de Garantía de Calidad (SOGC) está más comprometido según estos hallazgos?",
+    "explanation": "Los cuatro componentes del SOGC son: habilitación, auditoría para el mejoramiento de la calidad (PAMEC), acreditación y sistema de información para la calidad. Los hallazgos descritos (falta de consentimiento informado, tiempos de espera excesivos, ausencia de comité de ética, quejas sin sistematizar) reflejan fallas en la auditoría para el mejoramiento de la calidad, que es el componente encargado del autocontrol, la autorregulación y el mejoramiento continuo de los procesos de atención. Si el PAMEC funcionara, estos problemas habrían sido detectados y corregidos internamente.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "El sistema de información para la calidad, porque no se reportan datos al DANE.", "isCorrect": false },
+      { "letter": "B", "text": "La acreditación, porque el hospital perdió su certificación internacional.", "isCorrect": false },
+      { "letter": "C", "text": "La auditoría para el mejoramiento de la calidad (PAMEC), que debió detectar y corregir estas fallas internamente.", "isCorrect": true },
+      { "letter": "D", "text": "Ningún componente, porque estos hallazgos son normales en cualquier hospital.", "isCorrect": false }
+    ]
+  }
+]

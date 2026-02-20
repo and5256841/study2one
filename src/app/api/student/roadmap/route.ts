@@ -45,18 +45,22 @@ export async function GET() {
     },
   });
 
-  const passedQuizzes = await prisma.quizAttempt.findMany({
-    where: {
-      studentId,
-      score: { gte: 2 }, // Mínimo 2 de 3 correctas
-    },
+  // Get all quiz attempts to determine pass/fail dynamically based on isExamDay
+  const allQuizAttemptsForRoadmap = await prisma.quizAttempt.findMany({
+    where: { studentId },
     include: {
       dailyContent: {
-        include: {
-          module: true,
-        },
+        include: { module: true },
       },
     },
+  });
+
+  // Filter passed quizzes: exam days need 67% (ceil), normal quizzes need 2/3
+  const passedQuizzes = allQuizAttemptsForRoadmap.filter((q) => {
+    const threshold = q.dailyContent.isExamDay
+      ? Math.ceil(q.totalQuestions * 0.67)
+      : 2;
+    return q.score >= threshold;
   });
 
   // Calcular días completamente terminados (audio + quiz)

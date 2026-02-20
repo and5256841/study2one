@@ -1,0 +1,717 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "PART 1: Photographs (Questions 1-5)\nLevel: A1\n\nLook at the description of the photograph and choose the sentence that best describes it.\n\nPhotograph description: A speech therapy room with soft lighting. A speech therapist is sitting across a small table from a young boy, about six years old. The therapist is holding up a card with a picture of an animal on it, and the boy is trying to pronounce the word. A mirror on the wall shows the boy's face.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The description shows a speech therapist working with a child using picture cards in a therapy room with a mirror. Option A correctly identifies the setting and the main activity. Option B says the boy is reading a book. Option C describes a doctor, not a therapist. Option D says the boy is playing alone.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A speech therapist is helping a boy practice pronunciation using a picture card.", "isCorrect": true },
+      { "letter": "B", "text": "A teacher is reading a storybook to a child in a library.", "isCorrect": false },
+      { "letter": "C", "text": "A doctor is examining a boy's throat in a clinic.", "isCorrect": false },
+      { "letter": "D", "text": "A boy is playing with toys by himself in a classroom.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Photograph description: A hospital pharmacy with an automated dispensing cabinet. A pharmacist in a white coat is scanning a barcode on a medication package. The large machine behind her has rows of small compartments, each with a blinking green light. A computer screen on the counter shows a patient's medication list.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The scene shows a pharmacist using automated dispensing technology in a hospital pharmacy. Option C accurately identifies the pharmacist, the scanning action, and the automated machine. Option A describes a grocery store. Option B says the pharmacist is mixing liquids. Option D describes a nurse.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A woman is scanning products at a grocery store checkout.", "isCorrect": false },
+      { "letter": "B", "text": "A pharmacist is mixing liquids in a laboratory.", "isCorrect": false },
+      { "letter": "C", "text": "A pharmacist is scanning a medication near an automated dispensing machine.", "isCorrect": true },
+      { "letter": "D", "text": "A nurse is giving medication to a patient in a hospital bed.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Photograph description: A pediatric ward decorated with colorful murals of cartoon animals on the walls. A nurse wearing bright blue scrubs with printed stars is reading a storybook to two children sitting in their hospital beds. Balloons and stuffed animals are on the bedside tables.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows a cheerful pediatric ward where a nurse reads to child patients. Option B accurately describes the scene. Option A says a doctor is examining a child. Option C places the scene in a school. Option D says the children are eating.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A doctor is examining a child's ears in a white examination room.", "isCorrect": false },
+      { "letter": "B", "text": "A nurse is reading a storybook to children in a colorful hospital ward.", "isCorrect": true },
+      { "letter": "C", "text": "A teacher is decorating a classroom with her students.", "isCorrect": false },
+      { "letter": "D", "text": "Two children are eating lunch in a hospital cafeteria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Photograph description: A mobile health clinic — a large white van with a red cross painted on the side — is parked on a dirt road in a rural area. A health worker in a vest is taking the blood pressure of an elderly woman sitting on a plastic chair outside the van. Several people are waiting in a line behind her. Green hills are visible in the background.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The description shows a mobile health clinic providing care in a rural setting. Option D accurately describes the van, the health worker, and the rural location. Option A says it is an ambulance at a hospital. Option B describes an indoor clinic. Option C says the people are waiting for a bus.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "An ambulance is parked in front of a hospital emergency entrance.", "isCorrect": false },
+      { "letter": "B", "text": "A doctor is seeing patients inside a modern city clinic.", "isCorrect": false },
+      { "letter": "C", "text": "People are waiting for a bus on a rural road.", "isCorrect": false },
+      { "letter": "D", "text": "A health worker is checking an elderly woman's blood pressure outside a mobile clinic in a rural area.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Photograph description: A garden at an elderly care home on a sunny day. Several elderly residents are sitting on wooden benches among flower beds. One resident in a wheelchair is being helped by a caregiver to water the plants with a small watering can. A cat is sleeping on the path.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows an elderly care home garden with residents enjoying outdoor activities. Option A correctly describes the main action — a caregiver assisting a resident with gardening. Option B says they are in a hospital. Option C says the elderly people are exercising. Option D describes an empty garden.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A caregiver is helping an elderly resident water plants in a care home garden.", "isCorrect": true },
+      { "letter": "B", "text": "Elderly patients are waiting in a hospital lobby.", "isCorrect": false },
+      { "letter": "C", "text": "A group of elderly people are doing exercises in a park.", "isCorrect": false },
+      { "letter": "D", "text": "A gardener is working alone in an empty garden.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "PART 2: Short conversations (Questions 6-15)\nLevel: A2\n\nRead the short conversation and answer the question.\n\nNutritionist: Good morning, Mrs. Salazar. I've reviewed your blood test results. Your cholesterol levels are a bit high.\nPatient: Oh, I was afraid of that. What should I change?\nNutritionist: I'd recommend reducing saturated fats — that means less fried food, less red meat, and less butter. Try to eat more fish, vegetables, and whole grains.\nPatient: What about eggs? I eat eggs every morning.\nNutritionist: One egg a day is fine, but try boiling or poaching them instead of frying.\n\n(Original content — Study2One)",
+    "questionText": "What does the nutritionist recommend Mrs. Salazar eat more of?",
+    "explanation": "The nutritionist says: «Try to eat more fish, vegetables, and whole grains.» Option B matches this recommendation. Option A lists foods to reduce. Option C mentions eggs, which are allowed but not recommended to increase. Option D lists items not mentioned.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Fried food, red meat, and butter.", "isCorrect": false },
+      { "letter": "B", "text": "Fish, vegetables, and whole grains.", "isCorrect": true },
+      { "letter": "C", "text": "Eggs, cheese, and milk.", "isCorrect": false },
+      { "letter": "D", "text": "Bread, rice, and pasta.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": null,
+    "questionText": "According to the conversation, what is wrong with the patient's current diet?",
+    "explanation": "The nutritionist says the patient's cholesterol levels are «a bit high» and recommends reducing saturated fats such as fried food, red meat, and butter. This implies the patient has been eating too many foods high in saturated fat. Option C captures this.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "She is not eating enough calories.", "isCorrect": false },
+      { "letter": "B", "text": "She is eating too much sugar.", "isCorrect": false },
+      { "letter": "C", "text": "She is eating too many foods high in saturated fat.", "isCorrect": true },
+      { "letter": "D", "text": "She is allergic to several common foods.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Nurse: Mr. Duarte, you're being discharged today after your knee surgery. Here are your post-surgery instructions.\nPatient: Great. What do I need to do at home?\nNurse: Keep the wound clean and dry for the first 48 hours. After that, you can take short showers, but don't soak the wound in water. No baths or swimming for two weeks.\nPatient: And what about the pain?\nNurse: Take the prescribed painkillers every six hours. If the pain gets worse or you see redness around the wound, come back to the emergency room immediately.\n\n(Original content — Study2One)",
+    "questionText": "How long should the patient keep the wound dry?",
+    "explanation": "The nurse says: «Keep the wound clean and dry for the first 48 hours.» Option A matches this instruction. Option B says 24 hours. Option C says one week. Option D says two weeks (which applies to baths and swimming, not keeping the wound dry).",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "For the first 48 hours.", "isCorrect": true },
+      { "letter": "B", "text": "For the first 24 hours.", "isCorrect": false },
+      { "letter": "C", "text": "For one week.", "isCorrect": false },
+      { "letter": "D", "text": "For two weeks.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "When should the patient return to the emergency room?",
+    "explanation": "The nurse says: «If the pain gets worse or you see redness around the wound, come back to the emergency room immediately.» Option D matches these warning signs. Option A says after 48 hours. Option B says when the medication runs out. Option C says for a routine check-up.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "After 48 hours, for a routine check-up.", "isCorrect": false },
+      { "letter": "B", "text": "When the pain medication runs out.", "isCorrect": false },
+      { "letter": "C", "text": "Two weeks after surgery for a follow-up visit.", "isCorrect": false },
+      { "letter": "D", "text": "If the pain increases or there is redness around the wound.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Patient: Hello, I need to file a claim for my recent hospital visit. I was admitted for three days.\nInsurance agent: Of course. Do you have your policy number and the hospital bill?\nPatient: Yes, here they are. My policy number is HK-2847.\nInsurance agent: Thank you. I see your plan covers 80% of hospitalization costs. You'll need to pay the remaining 20% out of pocket.\nPatient: How long will it take to process the claim?\nInsurance agent: Usually seven to ten business days. We'll send you a confirmation email once it's approved.\n\n(Original content — Study2One)",
+    "questionText": "What percentage of the hospital costs does the patient's insurance cover?",
+    "explanation": "The agent says: «your plan covers 80% of hospitalization costs.» Option B is correct. Option A says 20%, which is the patient's share. Option C says 50%. Option D says 100%.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "20%", "isCorrect": false },
+      { "letter": "B", "text": "80%", "isCorrect": true },
+      { "letter": "C", "text": "50%", "isCorrect": false },
+      { "letter": "D", "text": "100%", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "How will the patient know the claim has been approved?",
+    "explanation": "The agent says: «We'll send you a confirmation email once it's approved.» Option C matches this. Option A says by phone call. Option B says by regular mail. Option D says the patient must visit the office.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "The insurance company will call the patient.", "isCorrect": false },
+      { "letter": "B", "text": "A letter will arrive in the mail within a week.", "isCorrect": false },
+      { "letter": "C", "text": "The company will send an email confirmation.", "isCorrect": true },
+      { "letter": "D", "text": "The patient must visit the insurance office to check.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Doctor: Good morning, Mrs. Herrera. Let's take a look at your baby today with the ultrasound.\nPatient: I'm so excited! Is the baby growing well?\nDoctor: Let me check... Yes, the baby is developing normally. The heartbeat is strong — 145 beats per minute, which is perfectly healthy.\nPatient: Can you tell if it's a boy or a girl?\nDoctor: At 20 weeks, we can usually see. Would you like to know?\nPatient: Yes, please!\nDoctor: It looks like you're having a girl. Congratulations!\n\n(Original content — Study2One)",
+    "questionText": "How far along is the patient's pregnancy?",
+    "explanation": "The doctor says: «At 20 weeks, we can usually see.» This indicates the patient is at 20 weeks of pregnancy. Option B is correct. Option A says 12 weeks. Option C says 30 weeks. Option D says 36 weeks.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "12 weeks.", "isCorrect": false },
+      { "letter": "B", "text": "20 weeks.", "isCorrect": true },
+      { "letter": "C", "text": "30 weeks.", "isCorrect": false },
+      { "letter": "D", "text": "36 weeks.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "What does the doctor say about the baby's heartbeat?",
+    "explanation": "The doctor says: «The heartbeat is strong — 145 beats per minute, which is perfectly healthy.» Option A matches this. Option B says the heartbeat is too fast. Option C says it is weak. Option D says the doctor could not detect it.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "It is strong and healthy at 145 beats per minute.", "isCorrect": true },
+      { "letter": "B", "text": "It is too fast and needs monitoring.", "isCorrect": false },
+      { "letter": "C", "text": "It is weak and the doctor is concerned.", "isCorrect": false },
+      { "letter": "D", "text": "The doctor was unable to detect it clearly.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Health worker: Good morning. Welcome to the COVID testing site. Are you experiencing any symptoms?\nVisitor: Yes, I've had a cough and a sore throat for two days.\nHealth worker: I see. We'll do a rapid antigen test first. Results come back in 15 minutes.\nVisitor: And if it's positive?\nHealth worker: If it's positive, we'll also do a PCR test to confirm. You should isolate at home for five days and monitor your symptoms. If you develop difficulty breathing, go to the emergency room.\n\n(Original content — Study2One)",
+    "questionText": "What type of test will the visitor receive first?",
+    "explanation": "The health worker says: «We'll do a rapid antigen test first.» Option C is correct. Option A says a PCR test, which would only happen if the antigen test is positive. Option B says a blood test. Option D says a chest X-ray.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "A PCR test.", "isCorrect": false },
+      { "letter": "B", "text": "A blood test.", "isCorrect": false },
+      { "letter": "C", "text": "A rapid antigen test.", "isCorrect": true },
+      { "letter": "D", "text": "A chest X-ray.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "What should the visitor do if the test is positive?",
+    "explanation": "The health worker says: «You should isolate at home for five days and monitor your symptoms. If you develop difficulty breathing, go to the emergency room.» Option B captures the main instruction. Option A says go to work normally. Option C says take antibiotics. Option D says come back the next day.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Go to work as usual but wear a mask.", "isCorrect": false },
+      { "letter": "B", "text": "Isolate at home for five days and watch for worsening symptoms.", "isCorrect": true },
+      { "letter": "C", "text": "Start taking antibiotics immediately.", "isCorrect": false },
+      { "letter": "D", "text": "Return to the testing site the next day for another test.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "PART 3: Short texts (Questions 16-30)\nLevel: B1\n\nRead the following text and answer the questions.\n\nText 1: Hospital Green Energy Initiative\n\nSt. Margaret's Hospital has announced a major green energy initiative that aims to reduce the hospital's carbon footprint by 60% over the next five years. The plan includes installing 2,000 solar panels on the hospital roof, replacing all lighting with LED systems, and upgrading heating and cooling equipment to energy-efficient models.\n\n«This is not just about saving money,» said hospital director Dr. Caroline Webb. «Hospitals are significant contributors to carbon emissions, and we have a responsibility to lead by example. A healthier environment means healthier patients.»\n\nThe hospital estimates the upgrades will cost $4.5 million but will save approximately $800,000 per year in energy costs. The solar panels alone are expected to generate 30% of the hospital's electricity needs. Several staff members have also volunteered to form a «Green Committee» to promote recycling, reduce single-use plastics, and encourage sustainable commuting among employees.\n\n(Original content — Study2One)",
+    "questionText": "What is the main goal of St. Margaret's Hospital's green energy initiative?",
+    "explanation": "The text states the initiative «aims to reduce the hospital's carbon footprint by 60% over the next five years.» Option B captures this goal. Option A says to build a new hospital. Option C says to hire more staff. Option D says to increase patient capacity.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "To build a completely new, modern hospital.", "isCorrect": false },
+      { "letter": "B", "text": "To reduce the hospital's carbon emissions by 60% in five years.", "isCorrect": true },
+      { "letter": "C", "text": "To hire environmental scientists to work at the hospital.", "isCorrect": false },
+      { "letter": "D", "text": "To increase the number of patients the hospital can treat.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "How much does the hospital expect to save per year in energy costs?",
+    "explanation": "The text states: «will save approximately $800,000 per year in energy costs.» Option C is correct. Option A says $4.5 million, which is the total cost of the upgrades. Option B says $2,000. Option D says $60,000.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "$4.5 million.", "isCorrect": false },
+      { "letter": "B", "text": "$2,000.", "isCorrect": false },
+      { "letter": "C", "text": "Approximately $800,000.", "isCorrect": true },
+      { "letter": "D", "text": "Approximately $60,000.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "What is the role of the «Green Committee» mentioned in the text?",
+    "explanation": "The text says staff volunteered to form a Green Committee to «promote recycling, reduce single-use plastics, and encourage sustainable commuting among employees.» Option A matches these activities. Option B says they manage solar panels. Option C says they treat patients. Option D says they raise money.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "To promote recycling, reduce plastics, and encourage sustainable commuting.", "isCorrect": true },
+      { "letter": "B", "text": "To manage the installation and maintenance of solar panels.", "isCorrect": false },
+      { "letter": "C", "text": "To treat patients who have environment-related illnesses.", "isCorrect": false },
+      { "letter": "D", "text": "To raise funds for the hospital's renovation project.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Text 2: New Diabetes Medication Approved\n\nThe National Health Agency has approved a new once-weekly injectable medication called Glytara for the treatment of type 2 diabetes in adults. In clinical trials involving over 8,000 patients across 12 countries, Glytara reduced average blood sugar levels (HbA1c) by 1.8 percentage points — significantly more than existing treatments, which typically achieve a reduction of 0.8 to 1.2 points.\n\nIn addition to its blood sugar benefits, patients taking Glytara experienced an average weight loss of 5.4 kilograms over 52 weeks, and a 26% reduction in the risk of major cardiovascular events such as heart attacks and strokes.\n\n«This represents a major step forward for patients who struggle to control their blood sugar with current therapies,» said lead researcher Dr. Amara Okafor. The medication will be available by prescription starting next month, though the estimated cost of $350 per month has raised concerns about accessibility for lower-income patients.\n\n(Original content — Study2One)",
+    "questionText": "By how much did Glytara reduce average blood sugar levels in clinical trials?",
+    "explanation": "The text states: «Glytara reduced average blood sugar levels (HbA1c) by 1.8 percentage points.» Option D is correct. Option A says 0.8 points, which is the lower end of existing treatments. Option B says 5.4, which is the weight loss figure. Option C says 26%, which is the cardiovascular risk reduction.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "By 0.8 percentage points.", "isCorrect": false },
+      { "letter": "B", "text": "By 5.4 percentage points.", "isCorrect": false },
+      { "letter": "C", "text": "By 26 percentage points.", "isCorrect": false },
+      { "letter": "D", "text": "By 1.8 percentage points.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "What concern has been raised about the new medication?",
+    "explanation": "The text states: «the estimated cost of $350 per month has raised concerns about accessibility for lower-income patients.» Option B captures this concern. Option A says side effects. Option C says it only works for type 1 diabetes. Option D says it requires daily injections (it is once-weekly).",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "It has serious side effects that were discovered after the trials.", "isCorrect": false },
+      { "letter": "B", "text": "Its high cost may make it unaffordable for lower-income patients.", "isCorrect": true },
+      { "letter": "C", "text": "It only works for patients with type 1 diabetes.", "isCorrect": false },
+      { "letter": "D", "text": "It requires daily injections, which patients find difficult.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": null,
+    "questionText": "Which of the following is an additional benefit of Glytara beyond blood sugar control?",
+    "explanation": "The text mentions two additional benefits: «average weight loss of 5.4 kilograms over 52 weeks» and «a 26% reduction in the risk of major cardiovascular events.» Option C mentions the cardiovascular benefit. Option A says improved sleep. Option B says stronger bones. Option D says better eyesight.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Improved sleep quality.", "isCorrect": false },
+      { "letter": "B", "text": "Stronger bones and joints.", "isCorrect": false },
+      { "letter": "C", "text": "A reduced risk of heart attacks and strokes.", "isCorrect": true },
+      { "letter": "D", "text": "Better eyesight and hearing.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Text 3: Medical Drone Delivery Program\n\nA pilot program in eastern Rwanda has demonstrated that drones can deliver blood products and essential medications to remote health clinics in under 30 minutes — a journey that would take over four hours by road. The program, operated by a company called Zipline, has completed more than 75,000 deliveries since its launch in 2016.\n\nThe drones fly autonomously at altitudes of approximately 100 meters and can carry up to 1.8 kilograms of medical supplies. When they arrive at a clinic, they drop the package by parachute without needing to land, then return to their base. Each drone makes an average of 12 deliveries per day.\n\n«Before the drones, we sometimes had to turn patients away because we didn't have the right blood type,» said clinic manager Nurse Josephine Uwimana. «Now we can request blood and have it within 30 minutes. It has saved many lives, especially for mothers with complications during childbirth.»\n\nThe Rwandan government has expanded the program to cover 75% of the country, and similar programs are now being tested in Ghana, Nigeria, India, and the United States.\n\n(Original content — Study2One)",
+    "questionText": "How long does it take for a drone to deliver supplies to a remote clinic?",
+    "explanation": "The text states drones can deliver «in under 30 minutes — a journey that would take over four hours by road.» Option A is correct. Option B says four hours. Option C says 12 minutes. Option D says one hour.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Less than 30 minutes.", "isCorrect": true },
+      { "letter": "B", "text": "About four hours.", "isCorrect": false },
+      { "letter": "C", "text": "Approximately 12 minutes.", "isCorrect": false },
+      { "letter": "D", "text": "About one hour.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "How do the drones deliver packages to the clinics?",
+    "explanation": "The text says: «they drop the package by parachute without needing to land.» Option B is correct. Option A says they land on the roof. Option C says a person catches the package. Option D says they lower it with a cable.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "They land on the clinic roof and a nurse collects the package.", "isCorrect": false },
+      { "letter": "B", "text": "They drop the package by parachute without landing.", "isCorrect": true },
+      { "letter": "C", "text": "A person on the ground catches the package in mid-air.", "isCorrect": false },
+      { "letter": "D", "text": "They lower the package with a cable and then fly away.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "According to Nurse Uwimana, how have the drones changed her clinic's situation?",
+    "explanation": "Nurse Uwimana says: «Before the drones, we sometimes had to turn patients away because we didn't have the right blood type. Now we can request blood and have it within 30 minutes.» Option D captures this change. Option A says drones replaced nurses. Option B says patients travel by drone. Option C says the clinic closed.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "The drones have replaced the need for nurses at the clinic.", "isCorrect": false },
+      { "letter": "B", "text": "Patients can now travel to the hospital by drone.", "isCorrect": false },
+      { "letter": "C", "text": "The clinic no longer needs to store any medication.", "isCorrect": false },
+      { "letter": "D", "text": "The clinic can now get blood quickly instead of turning patients away.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Text 4: Patient Safety Reporting System\n\nMercy General Hospital has introduced a new anonymous digital reporting system that allows any staff member — from surgeons to cleaning personnel — to report safety concerns, near-miss incidents, and medication errors without fear of punishment. The system, called SafeVoice, can be accessed through a mobile app or the hospital intranet.\n\nIn the first six months, SafeVoice received 847 reports. Of these, 312 were medication-related incidents, 215 involved equipment malfunctions, 186 concerned communication failures between departments, and 134 reported unsafe physical conditions such as wet floors or broken handrails.\n\n«The most important number is not the total reports — it's the 847 problems we now know about that we didn't know about before,» said patient safety officer Dr. Thomas Liu. «A blame-free culture encourages honesty, and honesty is the foundation of patient safety.»\n\nSince implementing SafeVoice, Mercy General has seen a 34% reduction in preventable medication errors and a 22% decrease in patient falls.\n\n(Original content — Study2One)",
+    "questionText": "What is unique about the SafeVoice system?",
+    "explanation": "The text states it «allows any staff member to report safety concerns, near-miss incidents, and medication errors without fear of punishment» and it is «anonymous.» Option C captures the key feature of anonymous, blame-free reporting. Option A says it tracks patient satisfaction. Option B says only doctors can use it. Option D says it replaces medical records.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "It tracks patient satisfaction scores in real time.", "isCorrect": false },
+      { "letter": "B", "text": "Only senior doctors are allowed to submit reports.", "isCorrect": false },
+      { "letter": "C", "text": "Any staff member can anonymously report safety concerns without punishment.", "isCorrect": true },
+      { "letter": "D", "text": "It replaces the hospital's electronic medical records system.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "What was the most common type of report submitted through SafeVoice?",
+    "explanation": "The text breaks down the 847 reports: 312 medication-related, 215 equipment malfunctions, 186 communication failures, and 134 unsafe physical conditions. Medication-related incidents (312) are the highest number. Option A is correct.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Medication-related incidents.", "isCorrect": true },
+      { "letter": "B", "text": "Equipment malfunctions.", "isCorrect": false },
+      { "letter": "C", "text": "Communication failures between departments.", "isCorrect": false },
+      { "letter": "D", "text": "Unsafe physical conditions like wet floors.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": null,
+    "questionText": "What does Dr. Liu mean when he says «A blame-free culture encourages honesty»?",
+    "explanation": "Dr. Liu argues that when staff are not punished for reporting errors, they are more likely to speak up. This honesty allows the hospital to identify and fix problems. Option B captures this reasoning. Option A says mistakes should be ignored. Option C says punishment improves performance. Option D says honesty is not important.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Staff should ignore mistakes to maintain a positive atmosphere.", "isCorrect": false },
+      { "letter": "B", "text": "When staff are not afraid of punishment, they are more willing to report problems.", "isCorrect": true },
+      { "letter": "C", "text": "Punishing staff for errors is the best way to improve safety.", "isCorrect": false },
+      { "letter": "D", "text": "Honesty is not as important as following hospital procedures.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Text 5: Nursing Shortage Crisis\n\nThe International Council of Nurses has warned that the world could face a shortage of up to 13 million nurses by 2030, calling it a «global health emergency.» The shortage is driven by an aging nursing workforce, high rates of burnout, and insufficient enrollment in nursing education programs.\n\nIn many countries, nurses are leaving the profession in record numbers. A survey of 27,000 nurses across 10 countries found that 40% reported feeling «emotionally exhausted,» and one in four said they planned to leave nursing within the next two years. The COVID-19 pandemic worsened these trends, as nurses worked extreme hours under intense psychological pressure.\n\nThe consequences for patients are serious. Research shows that when nurse-to-patient ratios increase (meaning each nurse cares for more patients), rates of hospital infections, medication errors, and patient deaths also increase. A study published in The Lancet found that each additional patient per nurse was associated with a 7% increase in patient mortality.\n\nExperts recommend higher wages, better working conditions, expanded scholarship programs for nursing students, and greater investment in mental health support for healthcare workers.\n\n(Original content — Study2One)",
+    "questionText": "How many nurses could the world be short of by 2030?",
+    "explanation": "The text states: «the world could face a shortage of up to 13 million nurses by 2030.» Option D is correct. Option A says 27,000, which is the number of nurses surveyed. Option B says 40%, a burnout figure. Option C says 7 million.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "27,000.", "isCorrect": false },
+      { "letter": "B", "text": "4 million.", "isCorrect": false },
+      { "letter": "C", "text": "7 million.", "isCorrect": false },
+      { "letter": "D", "text": "Up to 13 million.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "According to the survey, what proportion of nurses plan to leave the profession within two years?",
+    "explanation": "The text says: «one in four said they planned to leave nursing within the next two years.» One in four equals 25%. Option B is correct. Option A says 40%, which is the proportion who feel emotionally exhausted. Option C says 7%. Option D says more than half.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "40%.", "isCorrect": false },
+      { "letter": "B", "text": "One in four (25%).", "isCorrect": true },
+      { "letter": "C", "text": "7%.", "isCorrect": false },
+      { "letter": "D", "text": "More than half.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": null,
+    "questionText": "According to the study published in The Lancet, what happens when a nurse is assigned one additional patient?",
+    "explanation": "The text states: «each additional patient per nurse was associated with a 7% increase in patient mortality.» Option C is correct. Option A says costs decrease. Option B says nurse satisfaction improves. Option D says infection rates decrease.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Hospital operating costs decrease by 7%.", "isCorrect": false },
+      { "letter": "B", "text": "Nurse job satisfaction improves slightly.", "isCorrect": false },
+      { "letter": "C", "text": "Patient mortality increases by 7%.", "isCorrect": true },
+      { "letter": "D", "text": "Infection rates decrease because nurses work more efficiently.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "PART 4: Academic texts (Questions 31-55)\nLevel: B1-B2\n\nRead the following text and answer the questions.\n\nText 1: Precision Medicine and Genomics\n\nFor most of medical history, treatments have followed a «one-size-fits-all» approach: the same medication at the same dose is prescribed to every patient with a given condition, regardless of individual differences. Precision medicine — sometimes called personalized medicine — challenges this model by using a patient's genetic profile, lifestyle, and environment to tailor treatments to the individual.\n\nAt the heart of precision medicine lies genomics, the study of an individual's complete set of DNA, including all genes. The Human Genome Project, completed in 2003 at a cost of $2.7 billion, produced the first full map of human DNA. Since then, the cost of sequencing a human genome has plummeted from millions of dollars to approximately $600, making genetic testing increasingly accessible.\n\nOne of the most successful applications of precision medicine is in oncology. By analyzing the genetic mutations present in a patient's tumor, oncologists can select therapies that specifically target those mutations. For example, patients with a particular mutation in the BRCA1 gene may respond well to a class of drugs called PARP inhibitors, while the same drugs would be ineffective for patients without that mutation.\n\nPharmacogenomics — the study of how genes affect a person's response to drugs — is another growing field. Research has shown that genetic variations can influence how quickly a patient metabolizes certain medications. A dose that is effective for one person may be toxic for another or entirely ineffective for a third, depending on their genetic makeup. Some hospitals now offer pharmacogenomic testing before prescribing medications such as blood thinners, antidepressants, and chemotherapy agents.\n\nDespite its promise, precision medicine faces significant barriers. Genetic databases are disproportionately composed of data from people of European descent, meaning that treatments derived from this data may be less effective for other ethnic groups. Additionally, the cost of genetic testing and targeted therapies remains prohibitive for many patients in low- and middle-income countries. Ethical questions about genetic data privacy, the potential for genetic discrimination by employers or insurers, and the psychological impact of learning about one's genetic predispositions also remain unresolved.\n\n(Original content — Study2One)",
+    "questionText": "What is the main idea of «precision medicine» as described in the text?",
+    "explanation": "The text defines precision medicine as using «a patient's genetic profile, lifestyle, and environment to tailor treatments to the individual,» challenging the one-size-fits-all approach. Option B captures this core idea. Option A says using the same treatment for everyone. Option C says treating only genetic diseases. Option D says replacing doctors with technology.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Using the same proven treatment for all patients with the same disease.", "isCorrect": false },
+      { "letter": "B", "text": "Tailoring medical treatments to each patient based on their genetics, lifestyle, and environment.", "isCorrect": true },
+      { "letter": "C", "text": "Treating only diseases that are caused by genetic mutations.", "isCorrect": false },
+      { "letter": "D", "text": "Replacing doctors with computer algorithms that prescribe medication.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "According to the text, what has happened to the cost of genome sequencing since the Human Genome Project?",
+    "explanation": "The text states the first genome cost $2.7 billion and «the cost of sequencing a human genome has plummeted from millions of dollars to approximately $600.» Option A captures this dramatic decrease. Option B says the cost increased. Option C says it remained the same. Option D says it is now free.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "It has dropped dramatically from billions to about $600.", "isCorrect": true },
+      { "letter": "B", "text": "It has increased due to higher demand.", "isCorrect": false },
+      { "letter": "C", "text": "It has remained approximately the same since 2003.", "isCorrect": false },
+      { "letter": "D", "text": "Genome sequencing is now completely free for all patients.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "The word «plummeted» in paragraph 2 is closest in meaning to:",
+    "explanation": "«Plummeted» means fell sharply and rapidly. In context, the cost went from millions to $600 — a dramatic drop. Option C captures this meaning. Option A means increased slowly. Option B means stayed stable. Option D means changed unpredictably.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "increased slowly", "isCorrect": false },
+      { "letter": "B", "text": "remained stable", "isCorrect": false },
+      { "letter": "C", "text": "decreased rapidly and dramatically", "isCorrect": true },
+      { "letter": "D", "text": "fluctuated unpredictably", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "How does precision medicine help in cancer treatment, according to the text?",
+    "explanation": "The text says oncologists can «select therapies that specifically target those mutations» found in a patient's tumor. The BRCA1/PARP inhibitor example illustrates this. Option D matches this explanation. Option A says all cancer patients get the same drug. Option B says it prevents cancer. Option C says it eliminates the need for chemotherapy.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "All cancer patients receive the same effective medication.", "isCorrect": false },
+      { "letter": "B", "text": "Genetic testing can prevent cancer from developing.", "isCorrect": false },
+      { "letter": "C", "text": "It eliminates the need for chemotherapy entirely.", "isCorrect": false },
+      { "letter": "D", "text": "Doctors can choose drugs that target the specific mutations in a patient's tumor.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "What is «pharmacogenomics»?",
+    "explanation": "The text defines it as «the study of how genes affect a person's response to drugs.» Option B matches this definition. Option A describes genomics in general. Option C describes pharmacology. Option D describes genetics more broadly.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "The study of the complete human DNA sequence.", "isCorrect": false },
+      { "letter": "B", "text": "The study of how a person's genes affect their response to medications.", "isCorrect": true },
+      { "letter": "C", "text": "The development of new drugs in pharmaceutical laboratories.", "isCorrect": false },
+      { "letter": "D", "text": "The study of inherited diseases passed from parents to children.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": null,
+    "questionText": "What problem does the text identify regarding genetic databases?",
+    "explanation": "The text states: «Genetic databases are disproportionately composed of data from people of European descent, meaning that treatments derived from this data may be less effective for other ethnic groups.» Option A captures this lack of diversity. Option B says databases are too small. Option C says they are publicly accessible. Option D says they contain too many errors.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "They over-represent people of European descent, which may reduce treatment effectiveness for other groups.", "isCorrect": true },
+      { "letter": "B", "text": "They are too small to provide useful information for any group.", "isCorrect": false },
+      { "letter": "C", "text": "They are publicly accessible and violate patient privacy.", "isCorrect": false },
+      { "letter": "D", "text": "They contain too many sequencing errors to be reliable.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": "Text 2: Mental Health Stigma Reduction\n\nMental health stigma — the negative attitudes, stereotypes, and discrimination directed toward people with mental health conditions — remains one of the greatest barriers to treatment worldwide. The World Health Organization estimates that in low- and middle-income countries, more than 75% of people with mental health disorders receive no treatment at all. Even in high-income nations, the treatment gap is approximately 35-50%.\n\nStigma operates at multiple levels. At the individual level, people may internalize negative beliefs about mental illness and feel shame or worthlessness, a phenomenon known as «self-stigma.» At the social level, family members, friends, and coworkers may distance themselves from or make hurtful comments about people with mental health conditions. At the structural level, discriminatory laws and policies may restrict the rights of people with mental health diagnoses — for example, limiting their ability to vote, hold certain jobs, or obtain insurance.\n\nResearch into stigma reduction has identified several effective strategies. Contact-based education, in which people with lived experience of mental illness share their stories directly with the public, has consistently shown the strongest effects in reducing prejudice. Media campaigns that portray mental health conditions accurately — avoiding sensationalism and stereotypes of violence or incompetence — also contribute to changing public attitudes.\n\nIn the healthcare setting, anti-stigma training for medical professionals is critical. Studies have found that healthcare workers themselves sometimes hold stigmatizing attitudes toward patients with mental health conditions, which can lead to dismissive treatment, misdiagnosis, and lower quality of care. Training programs that combine factual education with personal contact have been shown to improve clinicians' attitudes and behaviors.\n\nExperts emphasize that stigma reduction must go beyond awareness campaigns. It requires systemic changes: integrating mental health into primary care, enacting anti-discrimination legislation, funding community-based mental health services, and ensuring that mental health is given the same priority as physical health in national health budgets.\n\n(Original content — Study2One)",
+    "questionText": "According to the text, what percentage of people with mental health disorders in low- and middle-income countries receive no treatment?",
+    "explanation": "The text states: «more than 75% of people with mental health disorders receive no treatment at all.» Option C is correct. Option A says 35%, which relates to the treatment gap in high-income countries. Option B says 50%. Option D says 90%.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "About 35%.", "isCorrect": false },
+      { "letter": "B", "text": "About 50%.", "isCorrect": false },
+      { "letter": "C", "text": "More than 75%.", "isCorrect": true },
+      { "letter": "D", "text": "More than 90%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": null,
+    "questionText": "What is «self-stigma» as defined in the text?",
+    "explanation": "The text defines self-stigma as when «people may internalize negative beliefs about mental illness and feel shame or worthlessness.» Option B matches this definition. Option A describes social stigma. Option C describes structural stigma. Option D describes public stigma.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "When society discriminates against people with mental health conditions.", "isCorrect": false },
+      { "letter": "B", "text": "When individuals internalize negative beliefs about their own mental illness and feel shame.", "isCorrect": true },
+      { "letter": "C", "text": "When laws prevent people with mental illness from working.", "isCorrect": false },
+      { "letter": "D", "text": "When media portray mental illness in a negative way.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": null,
+    "questionText": "Which strategy has shown the strongest results in reducing mental health prejudice?",
+    "explanation": "The text states: «Contact-based education, in which people with lived experience of mental illness share their stories directly with the public, has consistently shown the strongest effects in reducing prejudice.» Option A matches this. Option B says medication. Option C says social media campaigns. Option D says restricting information.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Contact-based education where people with mental illness share their personal experiences.", "isCorrect": true },
+      { "letter": "B", "text": "Prescribing better medication to all patients.", "isCorrect": false },
+      { "letter": "C", "text": "Social media campaigns using celebrity endorsements.", "isCorrect": false },
+      { "letter": "D", "text": "Restricting public information about mental health diagnoses.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": null,
+    "questionText": "Why is anti-stigma training for healthcare workers particularly important?",
+    "explanation": "The text says: «healthcare workers themselves sometimes hold stigmatizing attitudes toward patients with mental health conditions, which can lead to dismissive treatment, misdiagnosis, and lower quality of care.» Option D captures this. Option A says workers never interact with mental health patients. Option B says it reduces costs. Option C says it replaces therapy.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Healthcare workers rarely interact with mental health patients.", "isCorrect": false },
+      { "letter": "B", "text": "Training programs reduce hospital operating costs.", "isCorrect": false },
+      { "letter": "C", "text": "It replaces the need for professional therapy.", "isCorrect": false },
+      { "letter": "D", "text": "Some healthcare workers hold stigmatizing attitudes that can harm patient care.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": null,
+    "questionText": "The word «dismissive» in paragraph 4 is closest in meaning to:",
+    "explanation": "«Dismissive» means showing a lack of interest or respect, treating something as unworthy of serious attention. In context, healthcare workers may not take mental health patients' concerns seriously. Option C captures this meaning. Option A means very thorough. Option B means extremely expensive. Option D means highly effective.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "thorough and careful", "isCorrect": false },
+      { "letter": "B", "text": "extremely expensive", "isCorrect": false },
+      { "letter": "C", "text": "showing a lack of interest or seriousness", "isCorrect": true },
+      { "letter": "D", "text": "highly effective and efficient", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "Text 3: Maternal Mortality in Developing Countries\n\nEvery day, approximately 800 women die from preventable causes related to pregnancy and childbirth. The vast majority of these deaths — over 94% — occur in low- and middle-income countries. Sub-Saharan Africa alone accounts for roughly 70% of all maternal deaths worldwide, followed by Southern Asia.\n\nThe leading causes of maternal mortality include severe bleeding (hemorrhage), infections, high blood pressure disorders (pre-eclampsia and eclampsia), complications from delivery, and unsafe abortions. Most of these deaths could be prevented with access to skilled birth attendants, emergency obstetric care, and basic prenatal services. However, in many regions, healthcare facilities are scarce, understaffed, or located too far away for women to reach in time.\n\nSocioeconomic factors play a critical role. Women in rural areas are three times more likely to die during childbirth than women in urban centers. Poverty, lack of education, early marriage, and gender inequality all contribute to higher maternal mortality rates. In some communities, cultural practices discourage women from seeking medical help during pregnancy, and decision-making about healthcare often lies with husbands or in-laws rather than with the women themselves.\n\nInternational efforts have made some progress. Between 2000 and 2020, the global maternal mortality ratio declined by approximately 34%. Countries such as Rwanda, Cambodia, and Ethiopia have achieved dramatic reductions by investing in community health workers, training midwives, and building maternity waiting homes near hospitals. Yet progress remains uneven, and the United Nations' Sustainable Development Goal of reducing the global maternal mortality ratio to below 70 per 100,000 live births by 2030 remains far from being achieved.\n\nExperts argue that lasting change requires addressing the root causes: investing in girls' education, empowering women to make their own healthcare decisions, strengthening rural health infrastructure, and ensuring that every woman has access to a skilled health professional during pregnancy and delivery.\n\n(Original content — Study2One)",
+    "questionText": "According to the text, how many women die each day from pregnancy-related causes?",
+    "explanation": "The text states: «Every day, approximately 800 women die from preventable causes related to pregnancy and childbirth.» Option B is correct. Option A says 94. Option C says 2,000. Option D says 70.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Approximately 94.", "isCorrect": false },
+      { "letter": "B", "text": "Approximately 800.", "isCorrect": true },
+      { "letter": "C", "text": "Approximately 2,000.", "isCorrect": false },
+      { "letter": "D", "text": "Approximately 70.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": null,
+    "questionText": "Which region accounts for the highest proportion of maternal deaths?",
+    "explanation": "The text states: «Sub-Saharan Africa alone accounts for roughly 70% of all maternal deaths worldwide.» Option A is correct. Option B says Southern Asia, which has the second-highest rate. Option C says North America. Option D says Europe.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Sub-Saharan Africa.", "isCorrect": true },
+      { "letter": "B", "text": "Southern Asia.", "isCorrect": false },
+      { "letter": "C", "text": "North America.", "isCorrect": false },
+      { "letter": "D", "text": "Western Europe.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": null,
+    "questionText": "According to the text, women in rural areas are how much more likely to die during childbirth compared to women in urban areas?",
+    "explanation": "The text states: «Women in rural areas are three times more likely to die during childbirth than women in urban centers.» Option C is correct. Option A says twice. Option B says five times. Option D says ten times.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Twice as likely.", "isCorrect": false },
+      { "letter": "B", "text": "Five times as likely.", "isCorrect": false },
+      { "letter": "C", "text": "Three times as likely.", "isCorrect": true },
+      { "letter": "D", "text": "Ten times as likely.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": null,
+    "questionText": "The text mentions that in some communities, healthcare decisions for pregnant women are often made by:",
+    "explanation": "The text states: «decision-making about healthcare often lies with husbands or in-laws rather than with the women themselves.» Option B is correct. Option A says government officials. Option C says the women themselves. Option D says community health workers.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Government health officials.", "isCorrect": false },
+      { "letter": "B", "text": "Husbands or in-laws.", "isCorrect": true },
+      { "letter": "C", "text": "The women themselves.", "isCorrect": false },
+      { "letter": "D", "text": "Community health workers.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": null,
+    "questionText": "By how much did the global maternal mortality ratio decline between 2000 and 2020?",
+    "explanation": "The text states: «the global maternal mortality ratio declined by approximately 34%.» Option D is correct. Option A says 70%. Option B says 94%. Option C says 50%.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "By approximately 70%.", "isCorrect": false },
+      { "letter": "B", "text": "By approximately 94%.", "isCorrect": false },
+      { "letter": "C", "text": "By approximately 50%.", "isCorrect": false },
+      { "letter": "D", "text": "By approximately 34%.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "Text 4: Electronic Health Records Interoperability\n\nElectronic health records (EHRs) have transformed healthcare documentation by replacing paper-based charts with digital systems that store patient information — including medical history, diagnoses, medications, lab results, and imaging reports — in a structured, searchable format. However, one of the most persistent challenges in healthcare informatics is interoperability: the ability of different EHR systems to exchange and use each other's data.\n\nIn most countries, hospitals and clinics use EHR systems from different vendors, each with its own data formats, coding standards, and software architecture. When a patient moves from one healthcare provider to another — for example, from a primary care clinic to a specialist or from one hospital to another — their records often cannot be transferred electronically. Instead, patients may need to carry printed summaries, repeat laboratory tests, or rely on their own memory to communicate their medical history.\n\nThis fragmentation has real consequences. Studies estimate that poor health information exchange contributes to 18% of medical errors in hospitals and costs the U.S. healthcare system alone approximately $30 billion annually in duplicated tests, delayed diagnoses, and administrative overhead. In emergency situations, the inability to quickly access a patient's allergy history, current medications, or previous diagnoses can be life-threatening.\n\nSeveral international standards have been developed to address this problem. HL7 FHIR (Fast Healthcare Interoperability Resources) is currently the most widely adopted framework, providing a standardized way for different systems to share patient data through application programming interfaces (APIs). Governments in the United States, the European Union, and Australia have introduced regulations requiring EHR vendors to support FHIR-based data exchange.\n\nNevertheless, achieving true interoperability requires more than technical standards. Some EHR vendors resist open data exchange because keeping patient data within their systems creates «vendor lock-in» — making it difficult and expensive for healthcare organizations to switch to a competitor's product. Patient consent and data governance are also complex: who owns the data, who can access it, and how is it protected when shared across institutional and national boundaries?\n\n(Original content — Study2One)",
+    "questionText": "What is «interoperability» in the context of electronic health records?",
+    "explanation": "The text defines interoperability as «the ability of different EHR systems to exchange and use each other's data.» Option C matches this. Option A says storing records digitally. Option B says training staff. Option D says protecting records from hackers.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "The ability to store patient records in a digital format.", "isCorrect": false },
+      { "letter": "B", "text": "The process of training staff to use electronic systems.", "isCorrect": false },
+      { "letter": "C", "text": "The ability of different health record systems to share and use each other's data.", "isCorrect": true },
+      { "letter": "D", "text": "The process of protecting electronic records from hackers.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": null,
+    "questionText": "According to the text, what percentage of medical errors in hospitals is related to poor health information exchange?",
+    "explanation": "The text states: «poor health information exchange contributes to 18% of medical errors in hospitals.» Option B is correct. Option A says 30%, which refers to billion dollars in cost. Option C says 7%. Option D says 50%.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "30%.", "isCorrect": false },
+      { "letter": "B", "text": "18%.", "isCorrect": true },
+      { "letter": "C", "text": "7%.", "isCorrect": false },
+      { "letter": "D", "text": "50%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": null,
+    "questionText": "What is HL7 FHIR, according to the text?",
+    "explanation": "The text describes HL7 FHIR as «the most widely adopted framework, providing a standardized way for different systems to share patient data through application programming interfaces (APIs).» Option A matches this. Option B says it is an EHR vendor. Option C says it is a type of medical record. Option D says it is a government agency.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "A standardized framework that allows different health record systems to share data through APIs.", "isCorrect": true },
+      { "letter": "B", "text": "A major electronic health records vendor used by most hospitals.", "isCorrect": false },
+      { "letter": "C", "text": "A new type of medical record that replaces paper charts.", "isCorrect": false },
+      { "letter": "D", "text": "A government agency that regulates health data privacy.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": null,
+    "questionText": "What does the term «vendor lock-in» mean in this context?",
+    "explanation": "The text explains: «keeping patient data within their systems creates vendor lock-in — making it difficult and expensive for healthcare organizations to switch to a competitor's product.» Option D captures this meaning. Option A says vendors lock patient files. Option B says vendors are locked out. Option C says patients cannot access records.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Vendors physically lock patient files in secure cabinets.", "isCorrect": false },
+      { "letter": "B", "text": "Vendors are locked out of government healthcare contracts.", "isCorrect": false },
+      { "letter": "C", "text": "Patients are locked out of their own medical records.", "isCorrect": false },
+      { "letter": "D", "text": "Healthcare organizations find it hard to switch systems because their data is trapped with one vendor.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 51,
+    "caseText": "Text 5: Pandemic Preparedness Frameworks\n\nThe COVID-19 pandemic exposed critical weaknesses in the world's ability to detect, respond to, and recover from large-scale infectious disease outbreaks. Despite decades of warnings from epidemiologists and the existence of international health regulations, most countries were inadequately prepared. Hospitals were overwhelmed, supply chains for personal protective equipment collapsed, and public health communication was often contradictory and confusing.\n\nIn response, the World Health Organization and several national governments have proposed comprehensive pandemic preparedness frameworks designed to prevent the failures of 2020 from recurring. These frameworks generally emphasize five pillars: surveillance and early warning systems, resilient health infrastructure, medical countermeasure development, coordinated governance, and equitable access to vaccines and treatments.\n\nSurveillance is considered the first line of defense. Advanced genomic sequencing technologies can now identify novel pathogens within days of their emergence, compared to the weeks or months required in previous decades. Wastewater surveillance — monitoring sewage for traces of viruses — has emerged as a powerful tool for detecting community spread before clinical cases appear. However, these technologies are concentrated in high-income countries, leaving much of the world with limited early detection capacity.\n\nMedical countermeasure platforms represent another key innovation. The mRNA vaccine technology used against COVID-19 demonstrated that vaccines could be designed within days of a virus's genetic sequence being published and manufactured at scale within months. Preparedness frameworks call for maintaining «warm» manufacturing bases — facilities that can rapidly pivot to producing vaccines and therapeutics when a new threat emerges — and for pre-negotiated agreements with pharmaceutical companies to ensure rapid and equitable distribution.\n\nPerhaps the most contentious aspect of pandemic preparedness is governance. The proposed WHO Pandemic Treaty, currently under negotiation, seeks to establish binding commitments for pathogen sharing, technology transfer, and equitable access to medical countermeasures. Critics argue that it could infringe on national sovereignty, while supporters maintain that a coordinated global response is the only way to prevent a repeat of the inequitable vaccine distribution seen during COVID-19, when high-income countries secured the majority of vaccine doses while many low-income countries waited months or years for access.\n\n(Original content — Study2One)",
+    "questionText": "According to the text, what was a major failure exposed by the COVID-19 pandemic?",
+    "explanation": "The text lists failures: «Hospitals were overwhelmed, supply chains for personal protective equipment collapsed, and public health communication was often contradictory and confusing.» Option A captures the overall point that most countries were inadequately prepared. Option B says it showed the world was well-prepared. Option C says only low-income countries were affected. Option D says vaccines were developed too slowly.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Most countries were inadequately prepared despite prior warnings.", "isCorrect": true },
+      { "letter": "B", "text": "The world's pandemic response systems worked as intended.", "isCorrect": false },
+      { "letter": "C", "text": "Only low-income countries experienced difficulties during the pandemic.", "isCorrect": false },
+      { "letter": "D", "text": "Vaccines were developed too slowly to have any impact.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 52,
+    "caseText": null,
+    "questionText": "What is «wastewater surveillance» and why is it useful?",
+    "explanation": "The text explains: «Wastewater surveillance — monitoring sewage for traces of viruses — has emerged as a powerful tool for detecting community spread before clinical cases appear.» Option B matches this. Option A says it cleans water. Option C says it monitors hospital waste disposal. Option D says it tracks pharmaceutical pollution.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "A system for cleaning hospital wastewater to prevent infections.", "isCorrect": false },
+      { "letter": "B", "text": "Monitoring sewage for virus traces to detect outbreaks before patients show symptoms.", "isCorrect": true },
+      { "letter": "C", "text": "A program to monitor hospitals' disposal of medical waste.", "isCorrect": false },
+      { "letter": "D", "text": "A system for tracking pharmaceutical pollution in rivers and lakes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 53,
+    "caseText": null,
+    "questionText": "What does the text mean by «warm» manufacturing bases?",
+    "explanation": "The text defines these as «facilities that can rapidly pivot to producing vaccines and therapeutics when a new threat emerges.» They are kept in a state of readiness (not fully active but not shut down). Option C captures this. Option A says fully operational factories. Option B says factories in tropical climates. Option D says factories producing vaccines continuously.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Factories that are currently operating at full capacity.", "isCorrect": false },
+      { "letter": "B", "text": "Manufacturing facilities located in tropical climates.", "isCorrect": false },
+      { "letter": "C", "text": "Facilities kept in a state of readiness so they can quickly start producing vaccines when needed.", "isCorrect": true },
+      { "letter": "D", "text": "Factories that produce vaccines continuously regardless of demand.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 54,
+    "caseText": null,
+    "questionText": "What is the main criticism of the proposed WHO Pandemic Treaty?",
+    "explanation": "The text states: «Critics argue that it could infringe on national sovereignty.» This means critics believe the treaty could limit countries' ability to make their own decisions. Option A captures this. Option B says it is too expensive. Option C says it only benefits pharmaceutical companies. Option D says it does not address vaccine distribution.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "It could limit countries' ability to make independent decisions about their own health policies.", "isCorrect": true },
+      { "letter": "B", "text": "It would be too expensive for any country to implement.", "isCorrect": false },
+      { "letter": "C", "text": "It only benefits large pharmaceutical companies.", "isCorrect": false },
+      { "letter": "D", "text": "It does not include any provisions for vaccine distribution.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 55,
+    "caseText": null,
+    "questionText": "What can be inferred about the author's position on global pandemic preparedness?",
+    "explanation": "The author describes both the need for coordinated global frameworks and the challenges (sovereignty concerns, inequity). The overall tone advocates for preparedness while acknowledging complexity. The mention of inequitable vaccine distribution and the five-pillar framework suggests the author believes coordinated international cooperation is necessary but must address equity. Option D captures this balanced, pro-cooperation stance.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Each country should handle pandemics entirely on its own.", "isCorrect": false },
+      { "letter": "B", "text": "The COVID-19 response was handled effectively and does not need improvement.", "isCorrect": false },
+      { "letter": "C", "text": "Pandemic preparedness is only important for low-income countries.", "isCorrect": false },
+      { "letter": "D", "text": "International cooperation is essential for pandemic preparedness, but it must be equitable and respect national concerns.", "isCorrect": true }
+    ]
+  }
+]

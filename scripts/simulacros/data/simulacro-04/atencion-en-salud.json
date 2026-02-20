@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "La Ley 1122 de 2007 introdujo modificaciones importantes al Sistema General de Seguridad Social en Salud (SGSSS) creado por la Ley 100 de 1993. Entre los cambios más significativos estuvo la creación de la Comisión de Regulación en Salud (CRES), encargada de definir el Plan Obligatorio de Salud (POS) y la Unidad de Pago por Capitación (UPC). Además, fortaleció las funciones de inspección, vigilancia y control de la Superintendencia Nacional de Salud.\n\n(Redacción Study2One, con referencia a la Ley 1122 de 2007)",
+    "questionText": "¿Cuál fue una de las principales funciones asignadas a la Comisión de Regulación en Salud (CRES) por la Ley 1122 de 2007?",
+    "explanation": "La CRES fue creada por la Ley 1122 de 2007 para asumir las funciones de regulación del sistema que antes tenía el Consejo Nacional de Seguridad Social en Salud. Entre sus funciones estaban definir y actualizar el POS, establecer el valor de la UPC y definir los criterios para la operación del aseguramiento. Posteriormente fue liquidada y sus funciones pasaron al Ministerio de Salud.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Administrar directamente las IPS públicas de todo el país.", "isCorrect": false },
+      { "letter": "B", "text": "Definir y actualizar el Plan Obligatorio de Salud y el valor de la UPC.", "isCorrect": true },
+      { "letter": "C", "text": "Afiliar de forma masiva a la población del régimen subsidiado.", "isCorrect": false },
+      { "letter": "D", "text": "Reemplazar a las Secretarías Departamentales de Salud en sus funciones.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Un hospital de segundo nivel en un municipio del Meta solicita la habilitación de un nuevo servicio de ginecobstetricia. La Secretaría Departamental de Salud realiza una visita de verificación y encuentra que, aunque el recurso humano cumple los requisitos, la infraestructura no dispone de un área de trabajo de parto diferenciada del área de posparto inmediato, y los equipos de reanimación neonatal no tienen registro INVIMA vigente.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Según la Resolución 2003 de 2014, ¿qué decisión debe tomar la autoridad sanitaria?",
+    "explanation": "La Resolución 2003 de 2014 establece los estándares mínimos de habilitación para los prestadores de servicios de salud. Si un prestador no cumple con las condiciones de infraestructura, dotación, recurso humano u otros estándares exigidos, la autoridad sanitaria debe negar la habilitación hasta que se subsanen los incumplimientos. No se habilita «con condiciones» ni se dan plazos automáticos para servicios que no cumplen desde el inicio.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Habilitar el servicio con la condición de corregir las fallas en un plazo de 6 meses.", "isCorrect": false },
+      { "letter": "B", "text": "Habilitar el servicio porque el recurso humano sí cumple los estándares.", "isCorrect": false },
+      { "letter": "C", "text": "Negar la habilitación hasta que se cumplan todos los estándares exigidos.", "isCorrect": true },
+      { "letter": "D", "text": "Trasladar el caso al Ministerio de Salud para que autorice una excepción.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "El Sistema Obligatorio de Garantía de Calidad en Salud (SOGCS) en Colombia tiene cuatro componentes: el Sistema Único de Habilitación, la Auditoría para el Mejoramiento de la Calidad, el Sistema Único de Acreditación y el Sistema de Información para la Calidad. Un hospital universitario ha decidido postularse voluntariamente al proceso que otorga un reconocimiento público por cumplir estándares superiores a los mínimos obligatorios.\n\n(Redacción Study2One, con referencia al Decreto 1011 de 2006 y la Resolución 2003 de 2014)",
+    "questionText": "¿A cuál componente del SOGCS corresponde el proceso al que se postula el hospital?",
+    "explanation": "El Sistema Único de Acreditación es el componente voluntario del SOGCS que reconoce públicamente a los prestadores que demuestran cumplir estándares superiores a los de habilitación. La habilitación es obligatoria (estándares mínimos); la acreditación es voluntaria (estándares superiores). La auditoría para el mejoramiento de la calidad es un proceso interno continuo, y el sistema de información para la calidad recopila datos de indicadores.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Sistema Único de Habilitación.", "isCorrect": false },
+      { "letter": "B", "text": "Auditoría para el Mejoramiento de la Calidad.", "isCorrect": false },
+      { "letter": "C", "text": "Sistema Único de Acreditación.", "isCorrect": true },
+      { "letter": "D", "text": "Sistema de Información para la Calidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "La Cuenta de Alto Costo (CAC) es un organismo técnico no gubernamental del SGSSS colombiano. Recopila datos de las EPS sobre enfermedades de alto costo como VIH/SIDA, enfermedad renal crónica, cáncer, hemofilia y artritis reumatoide. En un análisis reciente, la CAC identificó que una EPS tenía una tasa de detección tardía de enfermedad renal crónica significativamente mayor al promedio nacional.\n\n(Redacción Study2One, con referencia a la Resolución 2463 de 2014)",
+    "questionText": "¿Cuál es el propósito principal de la Cuenta de Alto Costo al identificar este tipo de hallazgos?",
+    "explanation": "La CAC tiene como propósito principal promover la gestión del riesgo de las enfermedades de alto costo. Al identificar desviaciones en indicadores como la detección tardía, busca que las EPS mejoren sus programas de tamización temprana, captación activa y seguimiento. No es un ente sancionador (eso lo hace la Supersalud), sino un mecanismo técnico de monitoreo que genera información para mejorar la gestión clínica y financiera.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Sancionar económicamente a la EPS por mal desempeño clínico.", "isCorrect": false },
+      { "letter": "B", "text": "Promover la gestión del riesgo y la detección temprana de enfermedades de alto costo.", "isCorrect": true },
+      { "letter": "C", "text": "Retirar la licencia de funcionamiento de la EPS incumplidora.", "isCorrect": false },
+      { "letter": "D", "text": "Asumir directamente la atención de los pacientes renales de esa EPS.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "La Superintendencia Nacional de Salud (Supersalud) ejerce funciones de inspección, vigilancia y control (IVC) sobre los actores del SGSSS. En una auditoría a una EPS del régimen contributivo, la Supersalud encontró que la entidad negaba sistemáticamente autorizaciones para quimioterapia a pacientes oncológicos, generando demoras superiores a 30 días en el inicio del tratamiento.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál mecanismo de IVC puede activar la Supersalud ante esta situación?",
+    "explanation": "La Supersalud puede imponer medidas cautelares, multas, y en casos graves, puede ordenar la toma de posesión de la EPS para administrarla directamente o liquidarla. Ante barreras de acceso sistemáticas que pongan en riesgo la vida de los afiliados, la medida de toma de posesión es la más drástica pero legalmente prevista. Las medidas preventivas incluyen requerimientos, planes de mejora y sanciones pecuniarias.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Solicitar al Congreso una nueva ley que regule las autorizaciones.", "isCorrect": false },
+      { "letter": "B", "text": "Imponer sanciones, requerir planes de mejora o incluso ordenar la toma de posesión de la EPS.", "isCorrect": true },
+      { "letter": "C", "text": "Trasladar todos los afiliados a otra EPS sin ningún procedimiento previo.", "isCorrect": false },
+      { "letter": "D", "text": "Remitir el caso a la Fiscalía exclusivamente, sin tomar medida administrativa alguna.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "El Registro Individual de Prestación de Servicios de Salud (RIPS) es el conjunto de datos mínimos que las IPS deben reportar sobre cada atención prestada. Incluye información de consultas, procedimientos, urgencias, hospitalización y medicamentos. Un hospital reporta sus RIPS del último trimestre, pero el área de facturación omite sistemáticamente el diagnóstico principal codificado en CIE-10 en los registros de consulta externa.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es la principal consecuencia de esta omisión en los RIPS?",
+    "explanation": "Los RIPS son la fuente primaria para la construcción de perfiles epidemiológicos, la vigilancia en salud pública y la toma de decisiones en política sanitaria. Si el diagnóstico principal se omite, se pierde la capacidad de conocer la morbilidad atendida, lo que afecta la planificación de servicios, la asignación de recursos y la vigilancia epidemiológica. Además, puede generar glosas en el proceso de facturación entre la IPS y la EPS.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Se compromete la construcción de perfiles epidemiológicos y la vigilancia en salud pública.", "isCorrect": true },
+      { "letter": "B", "text": "Solo afecta el balance financiero de la IPS, sin impacto en salud pública.", "isCorrect": false },
+      { "letter": "C", "text": "Únicamente genera problemas legales con los pacientes atendidos.", "isCorrect": false },
+      { "letter": "D", "text": "No tiene ninguna consecuencia relevante porque los RIPS son opcionales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Un estudio compara los resultados en salud de dos poblaciones colombianas con el mismo perfil epidemiológico pero diferente nivel de urbanización:\n\n• Población urbana (Bucaramanga): mortalidad por infarto agudo de miocardio 35 por 100.000, tiempo promedio puerta-aguja 45 minutos, cobertura de unidades coronarias 90 %.\n• Población rural dispersa (sur de Bolívar): mortalidad por infarto agudo de miocardio 85 por 100.000, tiempo promedio puerta-aguja 6 horas, cobertura de unidades coronarias 5 %.\n\nAmbas poblaciones tienen prevalencia similar de hipertensión arterial y dislipidemia.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Qué determinante intermedio explica la diferencia en mortalidad entre estas dos poblaciones?",
+    "explanation": "Los determinantes intermedios incluyen las condiciones materiales de vida, entre ellas el acceso geográfico a servicios de salud. La disponibilidad de unidades coronarias y la capacidad de acceder oportunamente a tratamiento de reperfusión (tiempo puerta-aguja) son factores que median entre los determinantes estructurales (ruralidad, inversión) y los resultados en salud. La diferencia no se debe a la enfermedad (prevalencia similar de factores de riesgo) sino al acceso a la atención oportuna, condicionado por la ubicación geográfica.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "El acceso geográfico a servicios de salud especializados y la oportunidad de la atención.", "isCorrect": true },
+      { "letter": "B", "text": "Diferencias genéticas entre la población urbana y rural.", "isCorrect": false },
+      { "letter": "C", "text": "Mayor consumo de tabaco en la población rural.", "isCorrect": false },
+      { "letter": "D", "text": "Mejor alimentación en la población urbana.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Un estudio de la OIM y el Ministerio de Salud analiza el perfil de salud de la población migrante venezolana en Colombia. Los hallazgos muestran que: el 65 % no tiene afiliación al SGSSS, el 48 % reporta haber interrumpido tratamientos crónicos (VIH, hipertensión, diabetes) al migrar, la cobertura de vacunación infantil es del 35 % (vs. 92 % en niños colombianos), y las gestantes migrantes tienen 3 veces más complicaciones obstétricas que las colombianas, asociadas a falta de control prenatal.\n\n(Redacción Study2One, basado en informes de la OIM)",
+    "questionText": "¿Cómo actúa la condición migratoria como determinante social de la salud en esta población?",
+    "explanation": "La migración forzada es un determinante social que genera vulnerabilidad en salud a través de múltiples vías: pérdida del aseguramiento y acceso a servicios, interrupción de tratamientos crónicos, barreras administrativas y de idioma, precariedad laboral y habitacional, y estigmatización. Estos factores se acumulan y generan peores resultados en salud comparados con la población receptora. La condición migratoria irregular amplifica todas estas barreras porque limita el acceso a empleo formal y afiliación al sistema de salud.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Genera vulnerabilidad acumulada por pérdida de aseguramiento, interrupción de tratamientos y barreras de acceso.", "isCorrect": true },
+      { "letter": "B", "text": "No afecta la salud porque los migrantes son generalmente personas jóvenes y sanas.", "isCorrect": false },
+      { "letter": "C", "text": "Solo afecta la salud mental, no la salud física.", "isCorrect": false },
+      { "letter": "D", "text": "La condición migratoria no es un determinante social de la salud según la OMS.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "El Observatorio Nacional de Salud (ONS), adscrito al Instituto Nacional de Salud, publica un informe sobre mortalidad materna en Colombia durante los últimos 10 años. El informe revela que la razón de mortalidad materna se ha estancado en 50-55 muertes por 100.000 nacidos vivos, con las tasas más altas en departamentos como Chocó, La Guajira y Vichada. Las principales causas son trastornos hipertensivos, hemorragia obstétrica y sepsis.\n\n(Redacción Study2One, basado en reportes del ONS)",
+    "questionText": "¿Cuál es la función principal de los observatorios de salud pública al producir este tipo de informes?",
+    "explanation": "Los observatorios de salud pública tienen como función principal monitorear y analizar la situación de salud de la población para generar evidencia que oriente la toma de decisiones en política sanitaria. No formulan políticas directamente ni ejecutan intervenciones, pero su información es esencial para priorizar problemas, asignar recursos y evaluar el impacto de las intervenciones existentes.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Ejecutar directamente las intervenciones de salud materna en los departamentos priorizados.", "isCorrect": false },
+      { "letter": "B", "text": "Generar evidencia y análisis que orienten las decisiones de política sanitaria.", "isCorrect": true },
+      { "letter": "C", "text": "Sancionar a los departamentos con peores indicadores de mortalidad materna.", "isCorrect": false },
+      { "letter": "D", "text": "Remplazar al DANE en la producción de estadísticas vitales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Un epidemiólogo departamental analiza la mortalidad evitable utilizando la lista 6/67 de causas de muerte. En su departamento, las «enfermedades del sistema circulatorio» representan el 35 % de las muertes en personas de 30-70 años. Al desagregar, encuentra que el 60 % de estas muertes corresponden a causas «evitables por prevención» (hipertensión arterial, enfermedad isquémica del corazón) y el 25 % a causas «evitables por atención oportuna» (accidente cerebrovascular, infarto agudo con acceso tardío).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Qué implica que la mayoría de estas muertes se clasifiquen como «evitables por prevención»?",
+    "explanation": "La lista 6/67 de mortalidad evitable clasifica las causas de muerte según su evitabilidad: por prevención (intervenciones de salud pública como control de factores de riesgo), por diagnóstico y tratamiento oportuno, o por saneamiento ambiental. Que la mayoría sea «evitable por prevención» significa que se requieren políticas de salud pública más efectivas: control de hipertensión, promoción de actividad física, alimentación saludable y cesación de tabaquismo.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Que se necesitan más unidades de cuidados intensivos para estos pacientes.", "isCorrect": false },
+      { "letter": "B", "text": "Que se requieren estrategias de salud pública más efectivas para el control de factores de riesgo cardiovascular.", "isCorrect": true },
+      { "letter": "C", "text": "Que estas muertes son inevitables porque corresponden a enfermedades degenerativas.", "isCorrect": false },
+      { "letter": "D", "text": "Que la clasificación 6/67 ya no es útil para analizar la mortalidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "Un hospital de tercer nivel genera diariamente residuos cortopunzantes (agujas, bisturís), residuos anatomopatológicos (tejidos de cirugía), residuos químicos (formaldehído del laboratorio de patología) y residuos biosanitarios (gasas con sangre, guantes contaminados). La auditoría del Plan de Gestión Integral de Residuos Hospitalarios (PGIRH) encontró que el personal de servicios generales mezcla residuos cortopunzantes con residuos biosanitarios en la misma bolsa roja.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Por qué es incorrecto mezclar residuos cortopunzantes con residuos biosanitarios según el PGIRH?",
+    "explanation": "Los residuos cortopunzantes deben disponerse en recipientes rígidos (guardianes) resistentes a perforación, no en bolsas plásticas. Mezclarlos con biosanitarios en bolsas rojas aumenta el riesgo de accidentes por pinchazos para el personal de aseo y de gestión de residuos, incrementando la posibilidad de exposición a agentes biológicos (VIH, hepatitis B y C). La segregación en la fuente es el principio fundamental del PGIRH.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Porque los cortopunzantes requieren guardianes rígidos y resistentes a perforación, no bolsas flexibles.", "isCorrect": true },
+      { "letter": "B", "text": "Porque los residuos biosanitarios se deben disponer en bolsas verdes, no rojas.", "isCorrect": false },
+      { "letter": "C", "text": "Porque los cortopunzantes son residuos reciclables que van a la bolsa gris.", "isCorrect": false },
+      { "letter": "D", "text": "No es incorrecto; la normativa permite mezclar todos los residuos peligrosos en una sola bolsa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "La Política Farmacéutica Nacional (documento CONPES 155 de 2012) estableció estrategias para mejorar el acceso, la calidad y el uso racional de medicamentos en Colombia. Entre las problemáticas identificadas estaban: altos precios de medicamentos, uso irracional de antibióticos, debilidades en la cadena de suministro y baja capacidad de producción nacional de medicamentos esenciales.\n\n(Redacción Study2One, con referencia al CONPES 155 de 2012)",
+    "questionText": "¿Cuál de las siguientes estrategias es coherente con la Política Farmacéutica Nacional para mejorar el uso racional de medicamentos?",
+    "explanation": "El uso racional de medicamentos implica que el paciente reciba el medicamento adecuado, en la dosis correcta, durante el tiempo necesario y al menor costo. La restricción de la venta de antibióticos sin fórmula médica (Resolución 1478 de 2006 y normas posteriores) es una medida directa para reducir la automedicación y la resistencia antimicrobiana. La eliminación de medicamentos genéricos o la importación sin registro sanitario serían contraproducentes.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Eliminar los medicamentos genéricos del mercado para garantizar mayor calidad.", "isCorrect": false },
+      { "letter": "B", "text": "Restringir la venta de antibióticos sin fórmula médica y promover programas de uso racional.", "isCorrect": true },
+      { "letter": "C", "text": "Permitir la importación libre de medicamentos sin registro sanitario del INVIMA.", "isCorrect": false },
+      { "letter": "D", "text": "Prohibir toda publicidad de medicamentos, incluida la dirigida a profesionales de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Un grupo de investigadores de una universidad colombiana planea un ensayo clínico fase III para evaluar un nuevo tratamiento contra la leishmaniasis cutánea en población rural de Santander. El protocolo contempla asignar aleatoriamente a los participantes a recibir el nuevo tratamiento o el tratamiento estándar (antimoniato de meglumina). Los investigadores presentan el protocolo al Comité de Ética en Investigación (CEI) de la institución.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es la función principal del Comité de Ética en Investigación al evaluar este protocolo?",
+    "explanation": "Los CEI tienen como función principal proteger los derechos, la dignidad y el bienestar de los participantes en investigaciones con seres humanos. Evalúan que el consentimiento informado sea adecuado, que la relación riesgo-beneficio sea favorable, que la selección de participantes sea equitativa y que se respeten los principios de autonomía, beneficencia, no maleficencia y justicia (Resolución 8430 de 1993). No ejecutan la investigación ni definen su presupuesto.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Definir el presupuesto y las fuentes de financiación del estudio.", "isCorrect": false },
+      { "letter": "B", "text": "Proteger los derechos, dignidad y bienestar de los participantes en la investigación.", "isCorrect": true },
+      { "letter": "C", "text": "Ejecutar directamente las intervenciones clínicas del ensayo.", "isCorrect": false },
+      { "letter": "D", "text": "Publicar los resultados del estudio en revistas indexadas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Una región del Pacífico colombiano tiene: un hospital de segundo nivel en la capital departamental, tres centros de salud de primer nivel en cabeceras municipales y ocho puestos de salud rurales. Actualmente cada institución opera de manera aislada: no hay sistema de referencia y contrarreferencia funcional, no comparten historias clínicas y los pacientes deben repetir exámenes en cada nivel. Se propone conformar una Red Integrada de Servicios de Salud (RISS).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el atributo esencial de una RISS que resolvería la fragmentación descrita?",
+    "explanation": "Las RISS buscan superar la fragmentación de los servicios mediante la integración asistencial: una red coordinada de prestadores de diferentes niveles que comparten información clínica, tienen un sistema de referencia y contrarreferencia funcional, y garantizan la continuidad de la atención. El atributo esencial es la coordinación asistencial entre niveles, lo que evita duplicación de exámenes, reduce demoras y mejora los desenlaces clínicos.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Que cada institución sea completamente autónoma en su gestión y atención.", "isCorrect": false },
+      { "letter": "B", "text": "La coordinación asistencial entre niveles con referencia, contrarreferencia e información clínica compartida.", "isCorrect": true },
+      { "letter": "C", "text": "Que todos los pacientes sean atendidos exclusivamente en el hospital de segundo nivel.", "isCorrect": false },
+      { "letter": "D", "text": "Que se eliminen los puestos de salud rurales para concentrar recursos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "La Ley 1419 de 2010 estableció los lineamientos para el desarrollo de la telesalud en Colombia. Un hospital rural del Caquetá implementa un programa de teleradiología: un técnico de rayos X toma las imágenes, las transmite digitalmente a un radiólogo en Bogotá, quien emite el informe en menos de 2 horas. Antes del programa, los pacientes debían viajar 8 horas para obtener una lectura radiológica especializada.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Según la Ley 1419 de 2010, ¿a cuál categoría de telesalud corresponde este servicio?",
+    "explanation": "La Ley 1419 de 2010 y sus normas reglamentarias distinguen entre telemedicina (prestación de servicios clínicos a distancia usando TIC) y teleeducación (formación y capacitación en salud a distancia). La teleradiología es una modalidad de telemedicina porque involucra un acto médico (interpretación diagnóstica de imágenes) prestado a distancia. La teleeducación no involucra atención directa a pacientes.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Teleeducación, porque el radiólogo enseña al técnico a interpretar las imágenes.", "isCorrect": false },
+      { "letter": "B", "text": "Telemedicina, porque involucra un acto médico diagnóstico prestado a distancia.", "isCorrect": true },
+      { "letter": "C", "text": "Teleorientación, porque solo brinda consejos generales al paciente.", "isCorrect": false },
+      { "letter": "D", "text": "No corresponde a ninguna categoría de telesalud porque no hay consulta en tiempo real.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "La Ley 1122 de 2007, en su artículo 33, fortaleció las funciones jurisdiccionales de la Superintendencia Nacional de Salud, permitiéndole resolver controversias entre los usuarios y las entidades del sistema. Un afiliado al régimen contributivo presenta una queja ante la Supersalud porque su EPS le negó una cirugía de reemplazo de cadera que fue ordenada por su ortopedista, argumentando que el procedimiento requiere «junta médica» previa, requisito que no está contemplado en la normativa.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Qué función jurisdiccional puede ejercer la Supersalud en este caso?",
+    "explanation": "La Ley 1122 de 2007 otorgó a la Supersalud funciones jurisdiccionales para resolver conflictos entre usuarios y entidades del SGSSS relacionados con la cobertura del plan de beneficios, el reconocimiento de prestaciones económicas y la libre elección de EPS e IPS. Puede ordenar directamente a la EPS la autorización del procedimiento, funcionando de manera similar a un juez en estos casos específicos.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Ordenar directamente a la EPS que autorice la cirugía si se determina que la negación es injustificada.", "isCorrect": true },
+      { "letter": "B", "text": "Solo puede recomendar al afiliado que interponga una acción de tutela.", "isCorrect": false },
+      { "letter": "C", "text": "Declararse incompetente porque las cirugías son competencia exclusiva de las IPS.", "isCorrect": false },
+      { "letter": "D", "text": "Modificar el plan de beneficios para incluir el requisito de junta médica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "La Resolución 2003 de 2014 define las condiciones que deben cumplir los prestadores de servicios de salud para habilitar y mantener su funcionamiento. Un laboratorio clínico de primer nivel en un municipio de Boyacá ha presentado su autoevaluación de habilitación. En la visita de verificación, se encuentra que los profesionales que procesan y analizan las muestras cumplen los requisitos de formación, pero el laboratorio no cuenta con un programa documentado de mantenimiento preventivo para sus equipos de análisis.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál estándar de habilitación incumple el laboratorio?",
+    "explanation": "La Resolución 2003 de 2014 establece estándares de habilitación agrupados en: talento humano, infraestructura, dotación, medicamentos y dispositivos médicos, procesos prioritarios y seguimiento a riesgos. El programa de mantenimiento preventivo de equipos corresponde al estándar de dotación, que exige no solo disponer de los equipos necesarios sino mantenerlos en condiciones óptimas de funcionamiento mediante un programa de mantenimiento documentado.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Talento humano, por insuficiencia de personal calificado.", "isCorrect": false },
+      { "letter": "B", "text": "Dotación, al carecer de programa de mantenimiento preventivo de equipos.", "isCorrect": true },
+      { "letter": "C", "text": "Infraestructura, por deficiencias en las instalaciones físicas.", "isCorrect": false },
+      { "letter": "D", "text": "Procesos prioritarios, por no tener protocolos de atención clínica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Una Secretaría Departamental de Salud recibe los RIPS trimestrales de todas las IPS de su jurisdicción. Al consolidar los datos, el equipo de epidemiología identifica un incremento del 300 % en consultas por dengue en los últimos tres meses, concentrado en cuatro municipios de la zona ribereña. Sin embargo, el SIVIGILA solo ha reportado un incremento del 40 % en casos confirmados de dengue en esos mismos municipios y período.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cómo se explica la discrepancia entre los datos de RIPS y SIVIGILA?",
+    "explanation": "Los RIPS registran todas las atenciones (casos sospechosos y confirmados, consultas repetidas del mismo paciente), mientras que el SIVIGILA registra casos que cumplen definición operativa de caso y son notificados. La discrepancia puede deberse a: sobrediagnóstico clínico (registro de sospechosos como dengue en RIPS), subnotificación al SIVIGILA, consultas repetidas del mismo paciente, o diferencias en la temporalidad del reporte. Ambos sistemas son complementarios pero miden cosas diferentes.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Los RIPS incluyen todos los diagnósticos presuntivos y consultas repetidas, mientras que SIVIGILA solo registra casos que cumplen la definición operativa.", "isCorrect": true },
+      { "letter": "B", "text": "El SIVIGILA siempre es más preciso que los RIPS, por lo que los datos de RIPS son erróneos.", "isCorrect": false },
+      { "letter": "C", "text": "Los RIPS no registran enfermedades transmisibles, así que los datos son inventados.", "isCorrect": false },
+      { "letter": "D", "text": "Ambos sistemas deberían dar exactamente los mismos números porque miden lo mismo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "El Sistema Obligatorio de Garantía de Calidad (SOGCS) incluye el componente de Auditoría para el Mejoramiento de la Calidad de la Atención de Salud. En un hospital de segundo nivel, el comité de auditoría médica identifica que el porcentaje de cesáreas supera el 50 %, muy por encima de la recomendación de la OMS (10-15 %). Se realiza un análisis de causas y se encuentra que muchas cesáreas se programan por «conveniencia» sin justificación clínica documentada.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Dentro del ciclo de auditoría para el mejoramiento de la calidad, ¿cuál es el paso que debe seguir después del análisis de causas?",
+    "explanation": "El ciclo de auditoría para el mejoramiento de la calidad (PAMEC) sigue la lógica PHVA: planear, hacer, verificar y actuar. Después de identificar el problema (tasa alta de cesáreas) y analizar sus causas, el siguiente paso es diseñar e implementar un plan de mejoramiento con acciones correctivas específicas: por ejemplo, protocolizar las indicaciones de cesárea, revisar adherencia y monitorear resultados. Solo después se verifica si las acciones tuvieron efecto.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Cerrar el caso porque ya se identificó el problema.", "isCorrect": false },
+      { "letter": "B", "text": "Diseñar e implementar un plan de mejoramiento con acciones correctivas y metas medibles.", "isCorrect": true },
+      { "letter": "C", "text": "Sancionar económicamente a todos los ginecólogos del hospital.", "isCorrect": false },
+      { "letter": "D", "text": "Reportar directamente a los medios de comunicación para presionar el cambio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "La Cuenta de Alto Costo (CAC) publica su informe anual sobre enfermedad renal crónica en Colombia. Los datos muestran que la prevalencia de ERC en estadios 4 y 5 ha aumentado un 15 % en los últimos 5 años. El 68 % de los nuevos ingresos a diálisis provienen de ERC diagnosticada en estadios avanzados (detección tardía). Las EPS con mejores indicadores de detección temprana tienen programas de tamización activa en población hipertensa y diabética.\n\n(Redacción Study2One, basado en informes de la CAC)",
+    "questionText": "¿Qué indicador de gestión del riesgo permite a la CAC evaluar la efectividad de los programas de tamización de las EPS?",
+    "explanation": "La proporción de nuevos pacientes que ingresan a terapia de reemplazo renal (diálisis) con diagnóstico tardío (detección en estadios 4-5) es un indicador inverso de la efectividad de los programas de tamización temprana. Una EPS con alta proporción de detección tardía tiene programas deficientes de búsqueda activa y seguimiento de pacientes con factores de riesgo (hipertensión, diabetes). La CAC utiliza este indicador como uno de los principales para evaluar y comparar la gestión de las EPS.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "El número total de afiliados de la EPS.", "isCorrect": false },
+      { "letter": "B", "text": "La proporción de pacientes nuevos en diálisis con diagnóstico tardío de ERC.", "isCorrect": true },
+      { "letter": "C", "text": "El costo total de las diálisis pagadas por la EPS.", "isCorrect": false },
+      { "letter": "D", "text": "El número de nefrólogos contratados por la red de la EPS.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Un municipio de Arauca, ubicado en zona de frontera con Venezuela, establece un comité intersectorial de salud fronteriza. En las reuniones participan la Secretaría de Salud, Migración Colombia, el hospital local, una ONG de cooperación internacional y representantes de la comunidad migrante. Se identifica un brote de sarampión que afecta tanto a niños colombianos como venezolanos que viven en asentamientos informales sin acceso a vacunación.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es la estrategia más adecuada para el control de este brote desde la perspectiva de salud fronteriza?",
+    "explanation": "En salud pública, especialmente en zonas fronterizas, el control de brotes de enfermedades inmunoprevenibles requiere vacunación universal independientemente de la nacionalidad o el estatus migratorio. La no vacunación de un grupo poblacional mantiene la circulación del virus y pone en riesgo a toda la comunidad, incluida la población local. El Reglamento Sanitario Internacional y la normativa colombiana respaldan la vacunación sin barreras en situaciones de brote.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Vacunar solo a los niños colombianos y deportar a las familias venezolanas.", "isCorrect": false },
+      { "letter": "B", "text": "Vacunación masiva de todos los niños susceptibles independientemente de su nacionalidad o estatus migratorio.", "isCorrect": true },
+      { "letter": "C", "text": "Cerrar la frontera completamente hasta que el brote cese en Venezuela.", "isCorrect": false },
+      { "letter": "D", "text": "Tratar solo los casos sintomáticos sin realizar vacunación de bloqueo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Un observatorio regional de salud pública del Valle del Cauca elabora un boletín epidemiológico sobre violencia de género. Los datos provienen de múltiples fuentes: SIVIGILA (violencia interpersonal y sexual), Medicina Legal (lesiones personales y homicidios), Policía Nacional (denuncias), y encuestas poblacionales del DANE. El análisis muestra que las cifras de Medicina Legal son un 40 % menores que las del SIVIGILA para violencia sexual, y las denuncias policiales son un 70 % menores que ambas fuentes.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cómo debe interpretar el observatorio estas discrepancias entre fuentes de información?",
+    "explanation": "Las discrepancias entre fuentes son frecuentes en fenómenos como la violencia de género debido al subregistro diferencial: no todas las víctimas que son atendidas en salud (SIVIGILA) acuden a Medicina Legal o denuncian ante la Policía. El observatorio debe triangular fuentes, reconocer que cada sistema captura una fracción del problema, y que el dato de mayor magnitud suele estar más cerca de la realidad (aunque también tiene subregistro). Esto no invalida ninguna fuente; todas son complementarias.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Reconocer que cada fuente captura una fracción del fenómeno y que las diferencias reflejan subregistro diferencial.", "isCorrect": true },
+      { "letter": "B", "text": "Descartar todas las fuentes porque son inconsistentes entre sí.", "isCorrect": false },
+      { "letter": "C", "text": "Usar únicamente la fuente con menor número porque es la más «conservadora» y precisa.", "isCorrect": false },
+      { "letter": "D", "text": "Sumar todas las fuentes para obtener el «total real» de casos de violencia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "La lista 6/67 de causas de mortalidad evitable se utiliza en Colombia para clasificar las muertes según su potencial de evitabilidad. Un Análisis de Situación de Salud (ASIS) departamental muestra que las muertes por infección respiratoria aguda (IRA) en menores de 5 años representan el 8 % de la mortalidad en este grupo etario. Estas muertes se clasifican como «evitables por diagnóstico y tratamiento oportuno».\n\n(Redacción Study2One, basado en metodología ASIS del Ministerio de Salud)",
+    "questionText": "¿Qué tipo de intervención prioriza esta clasificación para reducir la mortalidad por IRA en menores de 5 años?",
+    "explanation": "Las muertes clasificadas como «evitables por diagnóstico y tratamiento oportuno» señalan que la falla está en el acceso y la calidad de la atención clínica: consulta oportuna, diagnóstico correcto, tratamiento adecuado y seguimiento. Para IRA en menores de 5 años, esto incluye la estrategia AIEPI (Atención Integrada a las Enfermedades Prevalentes de la Infancia), capacitación del personal de salud en signos de alarma y fortalecimiento de la red de servicios.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Campañas masivas de vacunación contra influenza exclusivamente.", "isCorrect": false },
+      { "letter": "B", "text": "Mejorar el acceso a la atención clínica oportuna, el diagnóstico correcto y el tratamiento adecuado.", "isCorrect": true },
+      { "letter": "C", "text": "Construcción de plantas de tratamiento de agua potable.", "isCorrect": false },
+      { "letter": "D", "text": "Programas de transferencias monetarias condicionadas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Un hospital genera los siguientes tipos de residuos en su servicio de quimioterapia oncológica: frascos vacíos de medicamentos citotóxicos, equipos de venoclisis contaminados con quimioterapéuticos, material absorbente impregnado con agentes antineoplásicos y excretas de pacientes en tratamiento con ciclofosfamida. El PGIRH del hospital clasifica estos residuos como «peligrosos químicos-citotóxicos».\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es la razón principal para clasificar estos residuos como citotóxicos y no simplemente como biosanitarios?",
+    "explanation": "Los residuos citotóxicos contienen sustancias con potencial carcinogénico, mutagénico o teratogénico. Su manejo requiere precauciones especiales que van más allá de los residuos biosanitarios comunes: doble bolsa, contenedores especiales, incineración a temperaturas superiores (mínimo 1.200 °C) y no pueden disponerse en relleno sanitario. La clasificación diferenciada protege al personal de salud, de gestión de residuos y al medio ambiente.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Porque los citotóxicos tienen potencial carcinogénico, mutagénico o teratogénico y requieren manejo especializado.", "isCorrect": true },
+      { "letter": "B", "text": "Porque los residuos biosanitarios no existen en la clasificación colombiana.", "isCorrect": false },
+      { "letter": "C", "text": "Porque todos los residuos de quimioterapia son reciclables.", "isCorrect": false },
+      { "letter": "D", "text": "La clasificación no importa porque todos los residuos hospitalarios se manejan igual.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "En Colombia, la evaluación de tecnologías en salud (HTA) es realizada por el Instituto de Evaluación Tecnológica en Salud (IETS). Una nueva prueba diagnóstica molecular para tuberculosis (GeneXpert) permite obtener resultados en 2 horas con una sensibilidad del 98 % y especificidad del 99 %, comparado con el cultivo convencional que tarda 6-8 semanas. El IETS evalúa su incorporación al plan de beneficios para uso en el primer nivel de atención.\n\n(Redacción Study2One, con referencia al papel del IETS)",
+    "questionText": "¿Qué criterios debe considerar el IETS en esta evaluación, además de la eficacia diagnóstica?",
+    "explanation": "La evaluación HTA es multidimensional: además de la eficacia y seguridad (desempeño diagnóstico en este caso), debe considerar el costo-efectividad (costo por caso diagnosticado comparado con el método estándar), el impacto presupuestal (costo de equipar el primer nivel), la equidad (acceso en zonas rurales y dispersas), los aspectos organizacionales (capacitación, mantenimiento de equipos) y las consideraciones éticas. No basta con que la prueba sea mejor; debe ser sostenible y accesible.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Solo la opinión de los fabricantes del equipo.", "isCorrect": false },
+      { "letter": "B", "text": "Costo-efectividad, impacto presupuestal, equidad en el acceso y aspectos organizacionales.", "isCorrect": true },
+      { "letter": "C", "text": "Exclusivamente el precio de compra del equipo, sin considerar otros factores.", "isCorrect": false },
+      { "letter": "D", "text": "Solo la velocidad del resultado, sin importar los costos para el sistema.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Un programa de telemedicina en el departamento de Guainía conecta 12 puestos de salud rurales con el hospital departamental en Inírida. Los promotores de salud utilizan tablets con cámaras para realizar teleconsultas con médicos generales y, en casos seleccionados, con especialistas. Sin embargo, el 60 % de las teleconsultas falla por problemas de conectividad (señal satelital intermitente) y el personal de los puestos de salud no ha recibido capacitación formal en el uso de la plataforma.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuáles son las principales barreras para la implementación efectiva de la telemedicina en este contexto?",
+    "explanation": "La telemedicina requiere tres pilares para funcionar: infraestructura tecnológica (conectividad confiable), recurso humano capacitado (tanto el personal local como los especialistas remotos) y un marco organizacional (protocolos, consentimiento informado, integración con el sistema de información). En zonas dispersas, la conectividad y la capacitación son las barreras más frecuentes. La Ley 1419 de 2010 reconoce que la telesalud necesita inversión en infraestructura tecnológica.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Conectividad insuficiente y falta de capacitación del recurso humano local.", "isCorrect": true },
+      { "letter": "B", "text": "Exceso de médicos especialistas disponibles para teleconsulta.", "isCorrect": false },
+      { "letter": "C", "text": "La normativa colombiana prohíbe la telemedicina en zonas rurales.", "isCorrect": false },
+      { "letter": "D", "text": "Los pacientes prefieren no ser atendidos en ninguna modalidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Un estudio ecológico en Colombia analiza la relación entre el nivel educativo de las mujeres y la mortalidad materna por departamento. Los resultados muestran:\n\n• Departamentos con escolaridad femenina promedio > 10 años: razón de mortalidad materna 25 por 100.000 NV.\n• Departamentos con escolaridad femenina promedio 5-10 años: razón de mortalidad materna 60 por 100.000 NV.\n• Departamentos con escolaridad femenina promedio < 5 años: razón de mortalidad materna 120 por 100.000 NV.\n\nLa relación se mantiene después de ajustar por cobertura de aseguramiento y disponibilidad de camas obstétricas.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Por qué la educación femenina se considera un determinante estructural de la mortalidad materna?",
+    "explanation": "La educación es un determinante estructural porque genera estratificación social: las mujeres con mayor educación tienen mayor autonomía para tomar decisiones sobre su salud reproductiva, mejor acceso a empleo formal y aseguramiento, mayor capacidad para reconocer signos de alarma obstétricos y buscar atención oportuna. La relación se mantiene incluso después de ajustar por cobertura de servicios, lo que indica que la educación actúa por múltiples vías (empoderamiento, ingresos, conocimientos) más allá del acceso directo a servicios.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Porque genera estratificación social que condiciona el empoderamiento, los ingresos y la capacidad de buscar atención oportuna.", "isCorrect": true },
+      { "letter": "B", "text": "Porque las mujeres con mayor educación tienen genes que las protegen de complicaciones obstétricas.", "isCorrect": false },
+      { "letter": "C", "text": "Porque la educación solo influye en la mortalidad materna a través del acceso a servicios de salud.", "isCorrect": false },
+      { "letter": "D", "text": "La educación femenina es un determinante intermedio, no estructural.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "La Supersalud realiza una visita de inspección a una EPS y encuentra los siguientes hallazgos: (1) la EPS tiene una cartera vencida con las IPS superior a 180 días por $45.000 millones; (2) el indicador de negación de servicios incluidos en el plan de beneficios es del 22 % (la meta regulatoria es menor al 5 %); (3) el número de tutelas por negación de servicios aumentó un 150 % en el último año; y (4) la EPS no ha presentado los estados financieros del último trimestre.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál medida de IVC es más proporcional a la gravedad de estos hallazgos combinados?",
+    "explanation": "La combinación de hallazgos indica problemas graves y sistémicos: crisis financiera (cartera vencida, no reporte financiero), barreras de acceso masivas (negaciones, tutelas) y falta de transparencia. Ante esta situación, la Supersalud puede ordenar medidas especiales de vigilancia, intervención para administrar o incluso toma de posesión. Un simple plan de mejora sería insuficiente dado el volumen y gravedad de los hallazgos. La revocatoria del certificado de habilitación de las IPS no aplica porque el problema es de la EPS.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Enviar una carta de recomendaciones no vinculantes a la junta directiva de la EPS.", "isCorrect": false },
+      { "letter": "B", "text": "Ordenar medidas especiales de vigilancia o intervención de la EPS para proteger a los afiliados.", "isCorrect": true },
+      { "letter": "C", "text": "Revocar la habilitación de todas las IPS contratadas por la EPS.", "isCorrect": false },
+      { "letter": "D", "text": "Esperar el informe financiero faltante sin tomar ninguna acción.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "El Sistema de Información para la Calidad, como componente del SOGCS, recoge indicadores de calidad de las IPS y EPS que son de acceso público. Un usuario en Medellín desea elegir una IPS para realizarse una cirugía de rodilla y consulta los indicadores publicados. Encuentra que la IPS A tiene una tasa de infección de sitio operatorio del 1,2 % y la IPS B del 4,8 %, ambas para cirugía ortopédica.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el propósito del Sistema de Información para la Calidad al publicar estos indicadores?",
+    "explanation": "El Sistema de Información para la Calidad busca empoderar a los usuarios para que tomen decisiones informadas sobre dónde recibir atención (libre elección), y al mismo tiempo generar incentivos para que las IPS mejoren continuamente sus indicadores. La publicación de datos comparativos crea transparencia y competencia por calidad, no por precio. No es un mecanismo sancionatorio sino informativo.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Facilitar la libre elección informada de los usuarios y estimular la mejora continua en las IPS.", "isCorrect": true },
+      { "letter": "B", "text": "Sancionar automáticamente a la IPS con peores indicadores.", "isCorrect": false },
+      { "letter": "C", "text": "Cerrar las IPS que tengan tasas superiores al promedio nacional.", "isCorrect": false },
+      { "letter": "D", "text": "Establecer los precios de los procedimientos quirúrgicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Un estudio del Observatorio Nacional de Salud compara la mortalidad evitable entre departamentos colombianos. Los resultados muestran que en Chocó, el 72 % de las muertes en menores de 5 años corresponden a causas «evitables por medidas de saneamiento ambiental» (enfermedad diarreica aguda, parasitosis intestinal), mientras que en Bogotá esta proporción es solo del 12 %. En Chocó, la cobertura de acueducto es del 28 % y la de alcantarillado del 15 %; en Bogotá, ambas superan el 95 %.\n\n(Redacción Study2One, basado en datos del ONS y DANE)",
+    "questionText": "¿Qué conclusión se puede derivar de esta comparación para la política de salud pública?",
+    "explanation": "La mortalidad evitable por saneamiento ambiental está directamente vinculada a la cobertura de agua potable y alcantarillado. La enorme brecha entre Chocó y Bogotá demuestra que las desigualdades en infraestructura de saneamiento básico se traducen en desigualdades en mortalidad infantil. La intervención más costo-efectiva no es construir más hospitales, sino invertir en agua potable, alcantarillado y disposición de residuos sólidos. Esto es un determinante estructural de la salud.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La inversión en infraestructura de saneamiento básico en Chocó reduciría significativamente la mortalidad infantil evitable.", "isCorrect": true },
+      { "letter": "B", "text": "Chocó necesita más hospitales de alta complejidad para reducir la mortalidad infantil.", "isCorrect": false },
+      { "letter": "C", "text": "La diferencia se debe exclusivamente a factores genéticos de la población.", "isCorrect": false },
+      { "letter": "D", "text": "Bogotá tiene menor mortalidad porque su población infantil es más pequeña.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Un municipio del Cauca implementa un programa de gestión integral de residuos hospitalarios que incluye los ocho puestos de salud rurales de su jurisdicción. Actualmente, los residuos peligrosos de estos puestos se almacenan por más de 30 días en condiciones inadecuadas (sin refrigeración, en un cuarto sin ventilación) antes de ser recolectados por el gestor externo autorizado. La empresa de gestión ambiental solo realiza rutas de recolección mensuales.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el principal riesgo asociado al almacenamiento prolongado de residuos peligrosos en estas condiciones?",
+    "explanation": "El almacenamiento prolongado de residuos infecciosos sin las condiciones adecuadas (temperatura controlada, ventilación, contención de derrames) genera riesgo de proliferación de microorganismos patógenos, malos olores, atracción de vectores (moscas, roedores) y posible contaminación del suelo y agua. La normativa exige que el almacenamiento central no supere los 7 días en condiciones adecuadas. En zonas rurales dispersas, se requieren alternativas como tratamiento in situ o rutas más frecuentes.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Proliferación de patógenos, atracción de vectores y riesgo de contaminación ambiental.", "isCorrect": true },
+      { "letter": "B", "text": "No hay ningún riesgo porque los residuos están dentro de una edificación.", "isCorrect": false },
+      { "letter": "C", "text": "El único riesgo es estético, por los malos olores.", "isCorrect": false },
+      { "letter": "D", "text": "Los residuos peligrosos se descomponen naturalmente sin generar riesgo después de 15 días.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Un análisis del Ministerio de Salud sobre la situación laboral y su relación con la salud en Colombia muestra los siguientes datos:\n\n• Trabajadores formales (con contrato y seguridad social): incidencia de enfermedad laboral reportada 8 por 1.000, cobertura de exámenes médicos ocupacionales 85 %.\n• Trabajadores informales (sin contrato ni seguridad social): incidencia de enfermedad laboral reportada 0,5 por 1.000, cobertura de exámenes médicos ocupacionales 3 %.\n\nParadójicamente, los trabajadores informales están expuestos a mayores riesgos laborales (químicos, ergonómicos, de seguridad) pero reportan menos enfermedad laboral.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cómo explican los determinantes sociales la paradoja de menor reporte de enfermedad laboral en trabajadores informales?",
+    "explanation": "La informalidad laboral es un determinante estructural que genera invisibilidad epidemiológica: al no estar afiliados al sistema de riesgos laborales, los trabajadores informales no acceden a vigilancia epidemiológica ocupacional, sus enfermedades no se diagnostican como laborales y no se reportan. La baja incidencia reportada no refleja menor riesgo sino mayor subregistro. Además, el miedo a perder el empleo informal disuade de consultar. Esto ilustra cómo la posición en el mercado laboral determina no solo la exposición a riesgos sino la capacidad de hacerlos visibles.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La informalidad genera invisibilidad epidemiológica: sin vigilancia ni diagnóstico, la enfermedad laboral no se detecta ni se reporta.", "isCorrect": true },
+      { "letter": "B", "text": "Los trabajadores informales son más resistentes a las enfermedades laborales.", "isCorrect": false },
+      { "letter": "C", "text": "Los trabajadores formales exageran sus síntomas para obtener incapacidades.", "isCorrect": false },
+      { "letter": "D", "text": "La informalidad laboral no tiene relación con los determinantes sociales de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Una comunidad indígena wayúu en La Guajira tiene una tasa de mortalidad infantil de 45 por 1.000 nacidos vivos (promedio nacional: 12). Las principales causas son desnutrición, enfermedad diarreica aguda y neumonía. La comunidad tiene acceso limitado a agua potable (dependen de jagüeyes y agua lluvia), la escolaridad promedio de las madres es de 2 años, y el centro de salud más cercano está a 4 horas en vehículo por caminos sin pavimentar.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál determinante social estructural contribuye de manera más directa a la brecha de mortalidad infantil entre esta comunidad y el promedio nacional?",
+    "explanation": "La marginación histórica de los pueblos indígenas en Colombia genera un gradiente de estratificación social que se expresa en exclusión territorial, bajas coberturas de servicios básicos y limitado acceso a salud y educación. La etnia y la posición socioeconómica son determinantes estructurales (generan estratificación) que condicionan los determinantes intermedios (acceso a agua, saneamiento, nutrición, servicios de salud). La exclusión territorial por etnia y pobreza es la raíz de la brecha observada.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La exclusión territorial asociada a la etnia y la posición socioeconómica marginada.", "isCorrect": true },
+      { "letter": "B", "text": "El clima desértico de La Guajira, que es un factor exclusivamente natural.", "isCorrect": false },
+      { "letter": "C", "text": "Las prácticas culturales wayúu, que son las únicas responsables de la desnutrición.", "isCorrect": false },
+      { "letter": "D", "text": "La falta de hospitales de tercer nivel en la comunidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Una IPS en Cartagena reporta sus RIPS del semestre y la auditoría de calidad de la EPS contratante detecta que el 35 % de los registros de consulta externa tienen el diagnóstico codificado como «Z00.0 — Examen general e investigación de personas sin quejas ni diagnóstico reportado». Al cruzar con las historias clínicas, se encuentra que muchas consultas realmente correspondían a hipertensión arterial, diabetes tipo 2 y otros diagnósticos específicos que no fueron codificados correctamente.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el impacto de esta codificación incorrecta en los RIPS?",
+    "explanation": "La codificación incorrecta en RIPS genera un subregistro artificial de enfermedades crónicas, lo que distorsiona el perfil epidemiológico. Si la hipertensión y la diabetes no se registran correctamente, la EPS no puede calcular adecuadamente su prevalencia ni planificar programas de gestión del riesgo. Además, la entidad territorial no puede identificar las necesidades reales de salud de la población. Este problema es frecuente y se debe a falta de capacitación en codificación CIE-10 y a presiones de tiempo en la consulta.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Genera subregistro de enfermedades crónicas y distorsiona el perfil epidemiológico para la toma de decisiones.", "isCorrect": true },
+      { "letter": "B", "text": "No tiene ningún impacto porque los RIPS son solo un trámite administrativo.", "isCorrect": false },
+      { "letter": "C", "text": "Beneficia a la EPS porque reduce la prevalencia aparente de enfermedades costosas.", "isCorrect": false },
+      { "letter": "D", "text": "Solo afecta a los pacientes que no fueron diagnosticados correctamente en la consulta.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "La Ley 1419 de 2010 creó el Comité Asesor de Telesalud, adscrito al Ministerio de Salud, para formular recomendaciones sobre el desarrollo de la telesalud en Colombia. Un departamento implementa un programa de telepatología que permite a los hospitales de primer nivel enviar imágenes digitalizadas de biopsias a un patólogo en la capital departamental. El programa ha reducido en un 80 % el tiempo de diagnóstico histopatológico, pero algunos médicos tratantes no confían en los resultados porque «no se vio la lámina directamente al microscopio».\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál factor humano está limitando la adopción de la telepatología en este caso?",
+    "explanation": "La resistencia al cambio tecnológico por parte del personal de salud es una barrera frecuente en la implementación de telemedicina. La desconfianza en los resultados de telepatología refleja una falta de formación sobre las capacidades de la digitalización de imágenes y los estándares de calidad de la telepatología. La evidencia científica muestra concordancia superior al 95 % entre el diagnóstico en telepatología y el diagnóstico convencional. La estrategia es formación y socialización de la evidencia, no imponer la tecnología sin acompañamiento.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "La resistencia al cambio tecnológico y la falta de formación sobre la validez de la telepatología.", "isCorrect": true },
+      { "letter": "B", "text": "La telepatología no tiene evidencia científica que respalde su precisión diagnóstica.", "isCorrect": false },
+      { "letter": "C", "text": "Los pacientes rechazan que sus muestras sean fotografiadas digitalmente.", "isCorrect": false },
+      { "letter": "D", "text": "La Ley 1419 prohíbe el uso de telemedicina para diagnóstico histopatológico.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "Un estudio analiza los determinantes sociales de la mortalidad por cáncer de cuello uterino en Colombia. Los departamentos con mayor mortalidad (Arauca, Caquetá, Meta) tienen en común: baja cobertura de citología (tamización), altas tasas de ruralidad, menor escolaridad femenina y mayor proporción de población en régimen subsidiado. Los departamentos con menor mortalidad (Bogotá, Santander, Quindío) tienen alta cobertura de tamización, mayor urbanización y mayor escolaridad.\n\n(Redacción Study2One, basado en datos del Instituto Nacional de Cancerología)",
+    "questionText": "¿Cómo actúan los determinantes sociales en la mortalidad por cáncer de cuello uterino según este análisis?",
+    "explanation": "Los determinantes sociales (educación, ruralidad, tipo de aseguramiento) generan desigualdades en el acceso a la tamización (citología, prueba de VPH), lo que determina el estadio al diagnóstico. En departamentos con baja escolaridad y alta ruralidad, las mujeres tienen menos acceso a tamización, son diagnosticadas en estadios avanzados y tienen mayor mortalidad. El cáncer de cuello uterino es casi completamente prevenible con tamización y tratamiento de lesiones preinvasivas, lo que hace que la mortalidad sea un indicador de desigualdad social.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Generan desigualdades en el acceso a tamización que determinan el estadio al diagnóstico y la mortalidad.", "isCorrect": true },
+      { "letter": "B", "text": "No tienen relación porque el cáncer es una enfermedad exclusivamente genética.", "isCorrect": false },
+      { "letter": "C", "text": "Solo influyen a través del hábito de fumar, que es más frecuente en zonas rurales.", "isCorrect": false },
+      { "letter": "D", "text": "La mayor mortalidad se debe a que en esos departamentos hay más mujeres.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": "La Resolución 2003 de 2014 exige que las IPS cuenten con un programa de seguridad del paciente como parte de los procesos prioritarios para la habilitación. Un hospital implementa un sistema de reporte voluntario de eventos adversos y en el primer trimestre recibe 45 reportes: 20 caídas de pacientes, 12 errores de medicación, 8 infecciones asociadas a la atención en salud y 5 fallas en la identificación del paciente.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cómo debe interpretar el hospital el aumento en el número de reportes de eventos adversos?",
+    "explanation": "En seguridad del paciente, un aumento en los reportes no necesariamente indica que la atención empeoró. Generalmente refleja una mejora en la cultura de reporte: el personal se siente seguro para reportar sin temor a represalias (cultura no punitiva). Los hospitales con cero reportes tienen peor cultura de seguridad, no menor frecuencia de eventos. Los reportes permiten identificar patrones, implementar barreras de seguridad y reducir los eventos futuros.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Como una señal positiva de mejora en la cultura de reporte y seguridad del paciente.", "isCorrect": true },
+      { "letter": "B", "text": "Como evidencia de que la atención del hospital ha empeorado dramáticamente.", "isCorrect": false },
+      { "letter": "C", "text": "Como motivo para sancionar al personal que reporta eventos adversos.", "isCorrect": false },
+      { "letter": "D", "text": "Como un indicador irrelevante porque los eventos adversos son inevitables.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": "Una investigación en tres ciudades colombianas analiza la relación entre condiciones de vivienda y enfermedad respiratoria en niños menores de 5 años:\n\n• Ciudad A (viviendas con ventilación adecuada, sin hacinamiento, cocina con gas natural): prevalencia de IRA 8 %.\n• Ciudad B (viviendas con hacinamiento moderado, cocina con gas propano en espacio semi-cerrado): prevalencia de IRA 18 %.\n• Ciudad C (viviendas con hacinamiento crítico, cocina con leña en espacio cerrado, piso de tierra): prevalencia de IRA 35 %.\n\nLas tres ciudades tienen cobertura de vacunación contra influenza superior al 85 % en este grupo etario.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Qué tipo de determinante social explica las diferencias en prevalencia de IRA entre las tres ciudades?",
+    "explanation": "Las condiciones de vivienda (ventilación, hacinamiento, tipo de combustible para cocinar, material del piso) son determinantes intermedios materiales que afectan directamente la salud respiratoria. El uso de leña en espacios cerrados genera contaminación intradomiciliaria (material particulado PM2.5), el hacinamiento facilita la transmisión de patógenos respiratorios, y los pisos de tierra aumentan la exposición a alérgenos y patógenos. Estos determinantes intermedios están condicionados por determinantes estructurales como el ingreso y la posición socioeconómica.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Determinantes intermedios materiales: condiciones de vivienda, hacinamiento y contaminación intradomiciliaria.", "isCorrect": true },
+      { "letter": "B", "text": "Determinantes biológicos exclusivamente, ya que los niños de cada ciudad tienen diferente susceptibilidad genética.", "isCorrect": false },
+      { "letter": "C", "text": "Diferencias en la cobertura de vacunación entre las tres ciudades.", "isCorrect": false },
+      { "letter": "D", "text": "Factores conductuales individuales de los padres, sin relación con las condiciones materiales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "El Observatorio de Seguridad Alimentaria y Nutricional (OSAN) publica un informe que muestra la siguiente situación en un departamento colombiano:\n\n• Desnutrición crónica en menores de 5 años: 18 % (promedio nacional: 10,8 %)\n• Inseguridad alimentaria en hogares: 62 % (promedio nacional: 54 %)\n• Porcentaje de hogares con ingresos < 1 SMMLV: 75 %\n• Cobertura de programas de complementación alimentaria: 30 % de la población objetivo\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Qué función cumple el observatorio al producir y difundir este tipo de información?",
+    "explanation": "Los observatorios de seguridad alimentaria y nutricional cumplen la función de monitorear indicadores, generar alertas tempranas y proporcionar evidencia para la toma de decisiones intersectoriales. La desnutrición crónica es resultado de determinantes sociales (pobreza, inseguridad alimentaria) y requiere intervenciones de múltiples sectores (agricultura, educación, salud, protección social). El observatorio articula la información para que los tomadores de decisiones prioricen intervenciones basadas en evidencia.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Monitorear indicadores y generar evidencia para orientar políticas intersectoriales.", "isCorrect": true },
+      { "letter": "B", "text": "Distribuir alimentos directamente a los hogares en inseguridad alimentaria.", "isCorrect": false },
+      { "letter": "C", "text": "Sancionar a los departamentos con peores indicadores de nutrición.", "isCorrect": false },
+      { "letter": "D", "text": "Reemplazar al ICBF en la ejecución de programas de alimentación escolar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": "Un análisis de mortalidad evitable en un departamento colombiano utilizando la lista 6/67 muestra que las muertes por «causas mal definidas» (códigos R00-R99 del CIE-10) representan el 15 % del total de defunciones. En Bogotá, esta proporción es solo del 3 %. El departamento tiene baja cobertura de médicos para certificar defunciones en zonas rurales y muchos certificados de defunción son firmados por enfermeras o inspectores de policía sin diagnóstico clínico.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cómo afecta el alto porcentaje de «causas mal definidas» al análisis de mortalidad evitable?",
+    "explanation": "Un alto porcentaje de causas mal definidas genera un subregistro de la mortalidad evitable porque oculta las verdaderas causas de muerte. Si una muerte por neumonía o enfermedad diarreica se registra como «causa mal definida», no se contabiliza como evitable, lo que subestima el problema y puede llevar a una asignación inadecuada de recursos. La calidad de los certificados de defunción es un indicador de la capacidad del sistema de información de mortalidad.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Subestima la mortalidad evitable al ocultar las verdaderas causas de muerte bajo códigos inespecíficos.", "isCorrect": true },
+      { "letter": "B", "text": "No afecta el análisis porque las causas mal definidas se distribuyen proporcionalmente.", "isCorrect": false },
+      { "letter": "C", "text": "Sobreestima la mortalidad evitable porque los códigos R se clasifican siempre como evitables.", "isCorrect": false },
+      { "letter": "D", "text": "Mejora la calidad del análisis porque reduce el número de muertes a clasificar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "Un ensayo clínico en un hospital universitario de Bogotá evalúa un nuevo antibiótico para infecciones urinarias complicadas en adultos mayores. El protocolo fue aprobado por el CEI, pero durante el desarrollo del estudio, un investigador detecta que 3 de los 50 participantes han desarrollado un efecto adverso serio no previsto (insuficiencia hepática aguda). El investigador principal debe decidir cómo proceder.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Según los principios éticos de investigación en salud, ¿cuál es la acción más apropiada?",
+    "explanation": "Cuando se detectan eventos adversos serios no previstos, el principio de no maleficencia exige una respuesta inmediata. El investigador debe: (1) notificar al CEI y al INVIMA de forma inmediata, (2) suspender temporalmente el reclutamiento de nuevos participantes hasta que se evalúe la causalidad, (3) garantizar la atención médica de los afectados y (4) evaluar si es seguro continuar el estudio con modificaciones o si debe suspenderse definitivamente. Continuar sin notificar viola la Resolución 8430 de 1993 y los principios de Helsinki.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Continuar el estudio sin cambios porque 3 de 50 es una proporción baja.", "isCorrect": false },
+      { "letter": "B", "text": "Notificar inmediatamente al CEI y al INVIMA, y suspender el reclutamiento hasta evaluar la causalidad.", "isCorrect": true },
+      { "letter": "C", "text": "Ocultar los eventos adversos para no perjudicar la reputación del hospital.", "isCorrect": false },
+      { "letter": "D", "text": "Esperar a que finalice el estudio para incluir los eventos adversos en el informe final.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "Una RISS en Antioquia ha implementado un sistema de historia clínica electrónica interoperable entre sus 15 IPS (3 hospitales y 12 centros de salud). Un paciente diabético que vive en un municipio rural consulta en su centro de salud local, donde le ajustan la medicación. Dos semanas después acude al hospital de referencia para una valoración por nefrología. El nefrólogo puede acceder al registro de la consulta previa, los resultados de laboratorio y la medicación actual sin que el paciente tenga que repetir información.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Qué atributo de las RISS se evidencia en este caso?",
+    "explanation": "La interoperabilidad de la información clínica es un atributo esencial de las RISS que permite la continuidad de la atención. Cuando los diferentes niveles de atención comparten información en tiempo real, se evita la duplicación de exámenes, se reduce el riesgo de errores por medicación y se mejora la eficiencia del sistema. Este caso ilustra cómo la historia clínica electrónica compartida facilita la coordinación entre el primer y segundo nivel de atención.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "La continuidad de la atención mediante la interoperabilidad de la información clínica.", "isCorrect": true },
+      { "letter": "B", "text": "La autonomía total de cada IPS para manejar su propia información.", "isCorrect": false },
+      { "letter": "C", "text": "La centralización de toda la atención en el hospital de referencia.", "isCorrect": false },
+      { "letter": "D", "text": "La eliminación de los centros de salud rurales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "Un informe del DANE y el Ministerio de Salud muestra que en Colombia la esperanza de vida al nacer varía significativamente según el departamento:\n\n• Bogotá: 78,5 años\n• Antioquia: 76,2 años\n• Chocó: 68,3 años\n• Vaupés: 65,7 años\n\nAdemás, los departamentos con menor esperanza de vida tienen en común: mayor proporción de población rural dispersa, menor cobertura de servicios de salud, menor inversión per cápita en salud y mayor proporción de población indígena o afrodescendiente.\n\n(Redacción Study2One, basado en datos del DANE)",
+    "questionText": "¿Qué concepto de los determinantes sociales de la salud explica mejor estas diferencias en esperanza de vida?",
+    "explanation": "El gradiente social en salud describe cómo los resultados de salud empeoran progresivamente a medida que se desciende en la escala socioeconómica. No es solo una diferencia entre «ricos» y «pobres», sino un gradiente continuo. En Colombia, este gradiente tiene además una dimensión étnico-territorial: los departamentos con mayor población indígena y afrodescendiente, mayor ruralidad y menor inversión son los que tienen peores indicadores, reflejando desigualdades estructurales históricas.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "El gradiente social en salud, que muestra cómo los resultados empeoran con mayor desventaja socioeconómica.", "isCorrect": true },
+      { "letter": "B", "text": "La transición epidemiológica, que solo afecta a las grandes ciudades.", "isCorrect": false },
+      { "letter": "C", "text": "Las diferencias climáticas entre los departamentos.", "isCorrect": false },
+      { "letter": "D", "text": "La preferencia personal de los habitantes por no acceder a servicios de salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": "Una EPS reporta a la Cuenta de Alto Costo los siguientes indicadores de su programa de VIH:\n\n• Total de personas viviendo con VIH: 3.200\n• Porcentaje en tratamiento antirretroviral (TAR): 85 %\n• Porcentaje con carga viral indetectable (entre los que están en TAR): 78 %\n• Porcentaje con diagnóstico tardío (CD4 < 200 al momento del diagnóstico): 42 %\n• Mortalidad por causas asociadas a VIH: 3,5 %\n\nLa meta de ONUSIDA «95-95-95» establece que para 2025, el 95 % de las personas con VIH deben conocer su diagnóstico, el 95 % de los diagnosticados deben recibir TAR, y el 95 % de los que reciben TAR deben alcanzar carga viral indetectable.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el indicador más preocupante en este programa de VIH?",
+    "explanation": "El 42 % de diagnóstico tardío (CD4 < 200) indica que una proporción significativa de personas llegan al diagnóstico cuando ya tienen inmunosupresión severa, lo que implica fallas en la detección temprana y búsqueda activa de casos. Esto aumenta la mortalidad, las infecciones oportunistas y los costos de tratamiento. La meta del 95 % en TAR y carga viral indetectable son importantes, pero sin detección temprana, los pacientes llegan en peores condiciones clínicas al tratamiento.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "El porcentaje de diagnóstico tardío (42 %), que indica fallas graves en la detección temprana.", "isCorrect": true },
+      { "letter": "B", "text": "El porcentaje en tratamiento antirretroviral (85 %), que es aceptable.", "isCorrect": false },
+      { "letter": "C", "text": "La mortalidad del 3,5 %, que está dentro de rangos esperados.", "isCorrect": false },
+      { "letter": "D", "text": "El total de personas viviendo con VIH (3.200), porque es un número alto.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": "Un hospital universitario genera un Plan de Gestión Integral de Residuos Hospitalarios (PGIRH) que incluye: (1) diagnóstico ambiental y sanitario, (2) programa de formación del personal, (3) segregación en la fuente con código de colores, (4) recolección y transporte interno, (5) almacenamiento central, (6) tratamiento y disposición final con gestor autorizado, y (7) indicadores de gestión. La auditoría anual revela que el indicador «tasa de accidentes por manipulación de residuos peligrosos» ha aumentado un 200 % en el servicio de urgencias.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál componente del PGIRH requiere intervención prioritaria en el servicio de urgencias?",
+    "explanation": "El aumento significativo en accidentes por manipulación de residuos peligrosos en un servicio específico sugiere fallas en la formación del personal (componente 2) y posiblemente en la segregación en la fuente (componente 3). En urgencias, la alta rotación de personal, la presión asistencial y los turnos nocturnos pueden generar prácticas inseguras como el reencapuchado de agujas o la disposición incorrecta de cortopunzantes. La intervención prioritaria es reforzar la capacitación y supervisar las prácticas de segregación.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "El programa de formación del personal y la supervisión de las prácticas de segregación en la fuente.", "isCorrect": true },
+      { "letter": "B", "text": "El diagnóstico ambiental, que debe rehacerse completamente.", "isCorrect": false },
+      { "letter": "C", "text": "Cambiar el gestor autorizado de disposición final.", "isCorrect": false },
+      { "letter": "D", "text": "Eliminar los indicadores de gestión para que no se evidencien los accidentes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "La Política Farmacéutica Nacional identifica que en Colombia existe un alto gasto de bolsillo en medicamentos: el 40 % del gasto farmacéutico total es asumido directamente por los hogares. Este gasto afecta desproporcionadamente a los hogares más pobres, que destinan hasta el 15 % de sus ingresos a la compra de medicamentos. Las principales razones incluyen: medicamentos no incluidos en el plan de beneficios, barreras de acceso a la dispensación y automedicación.\n\n(Redacción Study2One, basado en el CONPES 155 de 2012)",
+    "questionText": "¿Cómo actúa el gasto de bolsillo en medicamentos como determinante social de la salud?",
+    "explanation": "El gasto de bolsillo en salud, y particularmente en medicamentos, es un determinante intermedio que puede generar empobrecimiento (gasto catastrófico) o abandono del tratamiento cuando el hogar no puede asumir el costo. Afecta desproporcionadamente a los más pobres, profundizando la inequidad. Las personas que abandonan tratamientos crónicos (hipertensión, diabetes) por costo terminan con complicaciones más graves y costosas. La política farmacéutica busca reducir este gasto mediante mejor cobertura del plan de beneficios y regulación de precios.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Genera inequidad al empobrecer hogares vulnerables y provocar abandono de tratamientos por incapacidad de pago.", "isCorrect": true },
+      { "letter": "B", "text": "No es un determinante de salud porque comprar medicamentos es una decisión personal.", "isCorrect": false },
+      { "letter": "C", "text": "Beneficia a los hogares porque les permite acceder a medicamentos de marca de mejor calidad.", "isCorrect": false },
+      { "letter": "D", "text": "Solo afecta a las personas del régimen contributivo, no al subsidiado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "Un programa de teledermatología en Putumayo permite a los médicos rurales enviar fotografías de lesiones cutáneas a un dermatólogo en Pasto para diagnóstico y recomendaciones de tratamiento. La modalidad es «store-and-forward» (asincrónica): las imágenes se envían y el especialista responde en las siguientes 24 horas. El programa ha atendido 500 consultas en un año, resolviendo el 85 % sin necesidad de remisión presencial al especialista.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es la principal ventaja de la modalidad asincrónica («store-and-forward») en este contexto?",
+    "explanation": "La modalidad asincrónica no requiere conexión simultánea entre el médico remitente y el especialista, lo que es ideal para zonas con conectividad intermitente o limitada. El médico rural puede tomar las fotografías cuando tiene señal, enviarlas, y recibir la respuesta cuando el especialista las revise. En la modalidad sincrónica (videoconsulta en tiempo real), ambas partes necesitan conexión estable al mismo tiempo, lo cual es difícil en zonas dispersas de departamentos como Putumayo.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "No requiere conexión simultánea, adaptándose a zonas con conectividad intermitente.", "isCorrect": true },
+      { "letter": "B", "text": "Es más precisa que la consulta presencial con el dermatólogo.", "isCorrect": false },
+      { "letter": "C", "text": "Elimina completamente la necesidad de dermatólogos en el sistema.", "isCorrect": false },
+      { "letter": "D", "text": "Permite realizar procedimientos quirúrgicos a distancia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": "Una entidad territorial analiza sus indicadores RIPS del último año y encuentra los siguientes datos sobre atención de enfermedades crónicas no transmisibles:\n\n• Consultas por hipertensión arterial: 45.000\n• Consultas por diabetes mellitus tipo 2: 22.000\n• Consultas de control por programa de riesgo cardiovascular: 8.000\n• Hospitalizaciones por crisis hipertensiva: 3.200\n• Hospitalizaciones por cetoacidosis diabética: 800\n\nLa relación entre consultas de control (8.000) y las consultas totales por estas patologías (67.000) muestra que solo el 12 % de las consultas corresponden a seguimiento programado.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Qué problema del modelo de atención revelan estos datos de RIPS?",
+    "explanation": "La baja proporción de consultas de control programado (12 %) frente a consultas por demanda espontánea y hospitalizaciones por complicaciones agudas indica un modelo de atención reactivo, centrado en la enfermedad aguda y no en la gestión proactiva del riesgo. Un sistema centrado en la prevención secundaria tendría una proporción mucho mayor de consultas programadas de seguimiento y menor tasa de hospitalizaciones evitables. Esto refleja fallas en los programas de gestión del riesgo cardiovascular y metabólico.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Un modelo de atención reactivo con baja adherencia al seguimiento programado de enfermedades crónicas.", "isCorrect": true },
+      { "letter": "B", "text": "Que la hipertensión y la diabetes son poco frecuentes en el territorio.", "isCorrect": false },
+      { "letter": "C", "text": "Que las hospitalizaciones son necesarias porque las enfermedades crónicas no tienen tratamiento ambulatorio.", "isCorrect": false },
+      { "letter": "D", "text": "Que los RIPS no son útiles para analizar enfermedades crónicas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "Un análisis de equidad en salud compara dos barrios de una misma ciudad colombiana:\n\n• Barrio A (estrato 6): esperanza de vida 79 años, tasa de mortalidad infantil 5 por 1.000 NV, cobertura de régimen contributivo 95 %, acceso a parques y zonas verdes 15 m²/habitante.\n• Barrio B (estrato 1): esperanza de vida 68 años, tasa de mortalidad infantil 22 por 1.000 NV, cobertura de régimen subsidiado 80 % (20 % sin aseguramiento), acceso a parques y zonas verdes 1,5 m²/habitante.\n\nLa diferencia en esperanza de vida entre ambos barrios es de 11 años.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Qué concepto de equidad en salud describe mejor esta situación?",
+    "explanation": "Las desigualdades injustas y evitables en salud se denominan inequidades. La diferencia de 11 años en esperanza de vida entre dos barrios de una misma ciudad no es atribuible a factores biológicos sino a determinantes sociales (ingreso, aseguramiento, entorno físico). Según la OMS, las inequidades en salud son diferencias sistemáticas, evitables e injustas en los resultados de salud entre grupos sociales. No se trata de desigualdad «natural» sino de injusticia social que se refleja en salud.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Inequidad en salud: diferencias injustas y evitables determinadas por la posición socioeconómica.", "isCorrect": true },
+      { "letter": "B", "text": "Diversidad biológica natural entre las poblaciones de ambos barrios.", "isCorrect": false },
+      { "letter": "C", "text": "Transición demográfica avanzada en el barrio A.", "isCorrect": false },
+      { "letter": "D", "text": "Diferencias en preferencias personales de salud entre estratos socioeconómicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": "El Ministerio de Salud publica los resultados de un estudio ecológico que correlaciona la inversión per cápita en atención primaria en salud (APS) con indicadores de salud a nivel departamental. Los resultados muestran que los departamentos con mayor inversión en APS tienen:\n\n• 30 % menos hospitalizaciones por condiciones sensibles a la atención ambulatoria\n• 25 % menor mortalidad infantil\n• 40 % mayor cobertura de programas de promoción y prevención\n• 20 % menor gasto total en salud per cápita\n\nLos departamentos con menor inversión en APS concentran su gasto en atención hospitalaria de alta complejidad.\n\n(Redacción Study2One, basado en evidencia internacional sobre APS)",
+    "questionText": "¿Qué relación entre la inversión en APS y los resultados en salud se evidencia en estos datos?",
+    "explanation": "La evidencia internacional (Starfield, Macinko) y estos datos muestran que la inversión en APS se asocia con mejores resultados en salud a menor costo total. La APS actúa como puerta de entrada, resuelve la mayoría de los problemas de salud en el primer nivel, coordina la atención y enfatiza la prevención. Los departamentos que invierten más en APS y menos en hospitalización de alta complejidad logran mejor salud poblacional con mayor eficiencia. Esto no significa que la alta complejidad sea innecesaria, sino que la APS fuerte reduce la demanda de servicios costosos.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Mayor inversión en APS se asocia con mejores resultados en salud y mayor eficiencia del gasto total.", "isCorrect": true },
+      { "letter": "B", "text": "La inversión en APS no tiene relación con los indicadores de salud poblacional.", "isCorrect": false },
+      { "letter": "C", "text": "Solo la inversión en hospitales de alta complejidad mejora los indicadores de salud.", "isCorrect": false },
+      { "letter": "D", "text": "La menor mortalidad infantil se explica exclusivamente por factores genéticos de esos departamentos.", "isCorrect": false }
+    ]
+  }
+]

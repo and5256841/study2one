@@ -1,0 +1,472 @@
+[
+  {
+    "dayNumber": 1,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "En el módulo de Comunicación Escrita del Saber Pro, el estudiante debe producir un texto argumentativo en un tiempo máximo de:",
+        "explanation": "El Saber Pro asigna 40 minutos para escribir el texto argumentativo de máximo dos páginas. La distribución recomendada es 10 minutos de planificación y 30 minutos de escritura y revisión.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "30 minutos", "isCorrect": false },
+          { "letter": "B", "text": "40 minutos", "isCorrect": true },
+          { "letter": "C", "text": "50 minutos", "isCorrect": false },
+          { "letter": "D", "text": "60 minutos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "¿Cuál es la diferencia fundamental entre opinar y argumentar según los criterios del ICFES?",
+        "explanation": "Argumentar implica presentar premisas (razones) que justifican una conclusión (posición). Opinar es simplemente expresar una posición sin explicar por qué. Un argumento tiene la estructura premisas + conclusión; sin premisas, solo hay opinión.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Opinar usa datos estadísticos mientras que argumentar usa experiencias personales", "isCorrect": false },
+          { "letter": "B", "text": "Argumentar incluye premisas que justifican la conclusión, mientras que opinar solo expresa una posición sin razones", "isCorrect": true },
+          { "letter": "C", "text": "Opinar requiere más extensión que argumentar", "isCorrect": false },
+          { "letter": "D", "text": "Argumentar exige usar lenguaje técnico mientras que opinar usa lenguaje coloquial", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "El ICFES evalúa el texto argumentativo del Saber Pro mediante tres criterios con igual peso. ¿Cuáles son?",
+        "explanation": "Los tres criterios de evaluación del ICFES son: forma de expresión (ortografía y gramática), planteamiento definido o pertinencia (posición clara y sostenida que responde la pregunta) y organización del texto (estructura lógica y cohesión). Los tres tienen el mismo peso en la calificación.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Creatividad, extensión y vocabulario técnico", "isCorrect": false },
+          { "letter": "B", "text": "Contenido, originalidad y presentación", "isCorrect": false },
+          { "letter": "C", "text": "Forma de expresión, planteamiento definido (pertinencia) y organización del texto", "isCorrect": true },
+          { "letter": "D", "text": "Gramática, cantidad de argumentos y conclusión", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 2,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Se plantea la siguiente pregunta en el Saber Pro: «¿Está usted de acuerdo con que los menores de 14 años puedan acceder a cirugías puramente estéticas?» Un estudiante escribe: «Las cirugías estéticas son un tema muy debatido en la sociedad actual. Hay personas a favor porque mejoran la autoestima y otras en contra porque conllevan riesgos...»",
+        "questionText": "¿Qué tipo de impertinencia comete este estudiante?",
+        "explanation": "El estudiante comete generalización excesiva: responde sobre cirugías estéticas en general en lugar de abordar la pregunta específica sobre menores de 14 años. La pregunta tiene una delimitación de edad que el texto ignora completamente.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Desplazamiento temático", "isCorrect": false },
+          { "letter": "B", "text": "Generalización excesiva", "isCorrect": true },
+          { "letter": "C", "text": "Anécdota personal", "isCorrect": false },
+          { "letter": "D", "text": "Falsa neutralidad", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "La «técnica del subrayado» que enseña el cuadernillo para garantizar pertinencia consta de tres pasos. ¿Cuál es el orden correcto?",
+        "explanation": "La técnica del subrayado tiene tres pasos en orden: (1) leer la pregunta completa dos veces, (2) subrayar o anotar las palabras clave identificando delimitaciones específicas, y (3) verificar que la primera oración del texto responda directamente a esas palabras clave.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Escribir la tesis, leer la pregunta y subrayar palabras clave", "isCorrect": false },
+          { "letter": "B", "text": "Leer la pregunta dos veces, subrayar palabras clave y verificar que la primera oración responda esas palabras clave", "isCorrect": true },
+          { "letter": "C", "text": "Subrayar palabras clave, escribir el primer párrafo y releer la pregunta", "isCorrect": false },
+          { "letter": "D", "text": "Identificar el tema general, redactar la introducción y comparar con la pregunta", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "¿Por qué la impertinencia es considerada el error más grave en el módulo de Comunicación Escrita del Saber Pro?",
+        "explanation": "La impertinencia afecta simultáneamente los tres criterios de evaluación: el planteamiento definido cae a cero porque no se responde la pregunta, la organización no importa si está organizada en torno al tema equivocado, y la forma de expresión no compensa si lo expresado no es lo pedido.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Porque demuestra falta de vocabulario y dominio del español", "isCorrect": false },
+          { "letter": "B", "text": "Porque impide que el evaluador identifique la tesis del texto", "isCorrect": false },
+          { "letter": "C", "text": "Porque afecta simultáneamente los tres criterios de evaluación: planteamiento definido, organización y forma de expresión", "isCorrect": true },
+          { "letter": "D", "text": "Porque el ICFES asigna el doble de peso al criterio de pertinencia", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 3,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Según el cuadernillo, una introducción bien escrita para el Saber Pro debe contener tres elementos. ¿Cuáles son?",
+        "explanation": "La introducción efectiva tiene tres elementos: (1) una oración que presenta el tema en su versión específica usando las palabras clave de la pregunta, (2) una oración que fija la tesis (posición clara), y (3) una oración que anuncia brevemente qué argumentos se van a desarrollar.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Contexto histórico del tema, definición de conceptos y presentación de contraargumentos", "isCorrect": false },
+          { "letter": "B", "text": "Presentación del tema específico, tesis clara y anuncio de los argumentos a desarrollar", "isCorrect": true },
+          { "letter": "C", "text": "Saludo al lector, descripción del problema y pregunta retórica", "isCorrect": false },
+          { "letter": "D", "text": "Cita de autoridad, planteamiento del dilema y resumen del texto", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "La fórmula que el cuadernillo establece para cada párrafo de desarrollo es:",
+        "explanation": "Cada párrafo de desarrollo debe seguir la fórmula: afirmación (el argumento), razón (por qué es válido) y ejemplo (caso concreto que lo ilustra). Esta estructura garantiza que los argumentos sean completos y no queden como afirmaciones vacías.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Pregunta retórica + respuesta + cita de autoridad", "isCorrect": false },
+          { "letter": "B", "text": "Tesis + antítesis + síntesis", "isCorrect": false },
+          { "letter": "C", "text": "Afirmación + razón + ejemplo", "isCorrect": true },
+          { "letter": "D", "text": "Dato estadístico + interpretación + conclusión parcial", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "¿Cuál es la distribución de tiempo recomendada por el cuadernillo para los 40 minutos del examen de Comunicación Escrita?",
+        "explanation": "La distribución recomendada es: 10 minutos para planificar (técnica del subrayado, definir tesis y esbozar argumentos), 25 minutos para escribir (introducción, desarrollo y conclusión sin detenerse a releer) y 5 minutos para revisar el texto buscando errores.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "5 minutos de planificación, 30 de escritura y 5 de revisión", "isCorrect": false },
+          { "letter": "B", "text": "15 minutos de planificación, 20 de escritura y 5 de revisión", "isCorrect": false },
+          { "letter": "C", "text": "10 minutos de planificación, 25 de escritura y 5 de revisión", "isCorrect": true },
+          { "letter": "D", "text": "10 minutos de planificación, 30 de escritura y sin revisión", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 4,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un estudiante escribe: «Así como en los quirófanos se prohíbe el uso de celulares para garantizar concentración y evitar contaminación, en los salones de clase debería aplicarse el mismo principio: ciertos espacios de trabajo especializado requieren silencio y atención total.»",
+        "questionText": "¿Qué tipo de argumento está utilizando el estudiante?",
+        "explanation": "Se trata de un argumento analógico, que compara una situación conocida (prohibición de celulares en quirófanos) con la situación que se está debatiendo (celulares en salones de clase) para mostrar que la misma solución aplica en ambos contextos.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Argumento causal", "isCorrect": false },
+          { "letter": "B", "text": "Argumento de autoridad", "isCorrect": false },
+          { "letter": "C", "text": "Argumento por ejemplo", "isCorrect": false },
+          { "letter": "D", "text": "Argumento analógico", "isCorrect": true }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "Según el cuadernillo, las premisas de un argumento deben cumplir tres condiciones. ¿Cuáles son?",
+        "explanation": "Las tres condiciones que deben cumplir las premisas son: relevantes (relacionadas directamente con la conclusión), suficientes (que apoyen la conclusión, no solo la mencionen) y aceptables (que un lector razonable reconozca que tienen sentido, aunque no esté de acuerdo con la posición).",
+        "competency": "escritura_argumentativa",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Originales, extensas y documentadas con citas", "isCorrect": false },
+          { "letter": "B", "text": "Relevantes, suficientes y aceptables", "isCorrect": true },
+          { "letter": "C", "text": "Científicas, verificables y cuantificables", "isCorrect": false },
+          { "letter": "D", "text": "Novedosas, contundentes y emocionales", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un estudiante escribe: «La Organización Mundial de la Salud ha señalado que el uso excesivo de pantallas en adolescentes afecta la salud mental y la capacidad de atención sostenida, lo que respalda la necesidad de regular el uso de dispositivos en entornos educativos.»",
+        "questionText": "¿Qué tipo de argumento está utilizando el estudiante?",
+        "explanation": "Es un argumento de autoridad porque apoya la posición citando a una institución reconocida (la OMS). Este tipo de argumento funciona especialmente bien cuando el tema tiene dimensión científica o técnica.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Argumento causal", "isCorrect": false },
+          { "letter": "B", "text": "Argumento de autoridad", "isCorrect": true },
+          { "letter": "C", "text": "Argumento analógico", "isCorrect": false },
+          { "letter": "D", "text": "Argumento por ejemplo", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 5,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un estudiante escribe: «Considero de que la salud mental debe ser prioridad del Estado colombiano.»",
+        "questionText": "¿Qué error gramatical se evidencia en esta oración?",
+        "explanation": "El error es dequeísmo: agregar «de» donde no corresponde. Lo correcto es «Considero que...» (sin «de»). El truco para detectarlo es sustituir por la pregunta: se dice «¿Qué considero?» (sin «de»), no «¿De qué considero?».",
+        "competency": "escritura_argumentativa",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Queísmo", "isCorrect": false },
+          { "letter": "B", "text": "Dequeísmo", "isCorrect": true },
+          { "letter": "C", "text": "Error de concordancia", "isCorrect": false },
+          { "letter": "D", "text": "Gerundio mal usado", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un estudiante escribe: «El estudiantado debe conocer sus derechos para que puedan exigirlos ante las autoridades competentes.»",
+        "questionText": "¿Qué error contiene esta oración?",
+        "explanation": "El error es de concordancia de número. «El estudiantado» es un sustantivo singular, por lo que el verbo y el pronombre deben concordar en singular: «para que pueda exigirlos». Este error es muy común cuando el sujeto es un colectivo y el escritor pierde el hilo del número.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Error de puntuación: falta una coma antes de «para que»", "isCorrect": false },
+          { "letter": "B", "text": "Uso incorrecto del gerundio", "isCorrect": false },
+          { "letter": "C", "text": "Error de concordancia de número entre «estudiantado» (singular) y «puedan» (plural)", "isCorrect": true },
+          { "letter": "D", "text": "Falta de tilde en una palabra esdrújula", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Según el cuadernillo, ¿cuál es la regla ortográfica que aplica siempre, sin excepción, a las palabras esdrújulas?",
+        "explanation": "Las palabras esdrújulas (acento en la antepenúltima sílaba) siempre llevan tilde, sin excepción. Ejemplos frecuentes en el área de salud: médico, clínico, diagnóstico, terapéutico, farmacológico, académico, específico, público.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Llevan tilde solo cuando terminan en vocal, N o S", "isCorrect": false },
+          { "letter": "B", "text": "Nunca llevan tilde porque el acento es natural", "isCorrect": false },
+          { "letter": "C", "text": "Siempre llevan tilde, sin excepción", "isCorrect": true },
+          { "letter": "D", "text": "Llevan tilde solo cuando tienen más de tres sílabas", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 6,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un estudiante escribe: «El sistema de salud tiene problemas de cobertura. Sin embargo, los médicos también son insuficientes en las zonas rurales.»",
+        "questionText": "¿Qué error de conectores comete este estudiante?",
+        "explanation": "El error es usar el conector incorrecto para la relación que se quiere expresar. «Sin embargo» indica contraste, pero los dos enunciados no se contradicen; se suman. Lo correcto sería usar un conector de adición como «Además» o «A esto se suma que».",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Usa un conector de contraste donde debería usar uno de adición", "isCorrect": true },
+          { "letter": "B", "text": "Repite el mismo conector demasiadas veces", "isCorrect": false },
+          { "letter": "C", "text": "Omite la puntuación que marca el conector", "isCorrect": false },
+          { "letter": "D", "text": "Usa un conector de conclusión donde debería usar uno de causa", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "Según la analogía del cuadernillo, ¿cuál es la función de los conectores en un texto argumentativo?",
+        "explanation": "El cuadernillo compara el texto con un edificio: los argumentos son los ladrillos y los conectores son el cemento que los une. Sin conectores (cemento), las ideas (ladrillos) se desmoronan aunque cada una sea correcta por separado. Los conectores establecen relaciones lógicas entre las ideas y dan cohesión visible al texto.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Son los ladrillos que forman el edificio del texto", "isCorrect": false },
+          { "letter": "B", "text": "Son el cemento que une los ladrillos (argumentos) del texto", "isCorrect": true },
+          { "letter": "C", "text": "Son los cimientos sobre los que se construye la tesis", "isCorrect": false },
+          { "letter": "D", "text": "Son las ventanas que permiten ver el argumento desde distintos ángulos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "¿Cuáles de los siguientes son conectores de consecuencia, según la clasificación del cuadernillo?",
+        "explanation": "Los conectores de consecuencia incluyen: «por lo tanto», «en consecuencia», «de ahí que», «esto implica que», «lo que significa que» y «lo que lleva a». Estos se usan cuando una premisa produce un resultado específico que refuerza la tesis.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "«Dado que», «puesto que», «ya que»", "isCorrect": false },
+          { "letter": "B", "text": "«Además», «asimismo», «de igual manera»", "isCorrect": false },
+          { "letter": "C", "text": "«Por lo tanto», «en consecuencia», «de ahí que»", "isCorrect": true },
+          { "letter": "D", "text": "«Sin embargo», «no obstante», «a pesar de que»", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 7,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Según el cuadernillo, ¿a qué equivale la tesis de un texto argumentativo en una historia clínica?",
+        "explanation": "La tabla de equivalencias del cuadernillo establece que la tesis en el texto argumentativo equivale a la impresión diagnóstica en la historia clínica: ambas son la posición central que todo lo demás sostiene. Los argumentos equivalen a los hallazgos clínicos y la conclusión equivale al diagnóstico definitivo con plan.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "A la anamnesis", "isCorrect": false },
+          { "letter": "B", "text": "A la impresión diagnóstica", "isCorrect": true },
+          { "letter": "C", "text": "Al examen físico", "isCorrect": false },
+          { "letter": "D", "text": "Al plan de manejo", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un estudiante de medicina escribe en su texto argumentativo sobre salud mental: «La hipocortisolemia secundaria al estrés crónico impacta el eje hipotálamo-hipófisis-suprarrenal, generando disfunción neuroendocrina que compromete la homeostasis del paciente.»",
+        "questionText": "¿Qué problema tiene esta oración según las recomendaciones del cuadernillo?",
+        "explanation": "El cuadernillo advierte que el texto del Saber Pro está dirigido a un público general, no a especialistas. El uso excesivo de lenguaje técnico médico hace que el evaluador pueda no entender y el argumento pierde efectividad. La clave es traducir el conocimiento clínico a lenguaje accesible.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Tiene errores de ortografía en términos médicos", "isCorrect": false },
+          { "letter": "B", "text": "Es un argumento impertinente porque no responde la pregunta", "isCorrect": false },
+          { "letter": "C", "text": "Abusa del lenguaje técnico médico en un texto dirigido a público general", "isCorrect": true },
+          { "letter": "D", "text": "Le falta una conclusión después de la premisa", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "El cuadernillo destaca una ventaja específica de los estudiantes de medicina para el módulo de Comunicación Escrita. ¿Cuál es?",
+        "explanation": "La ventaja es doble: (1) la escritura de historias clínicas ya entrenó la escritura estructurada (organizar ideas en secciones lógicas equivale a introducción-desarrollo-conclusión), y (2) muchos temas del Saber Pro tocan áreas donde la formación médica da conocimiento disciplinar sólido (eutanasia, vacunación, salud mental, etc.).",
+        "competency": "escritura_argumentativa",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Pueden usar terminología técnica que impresiona a los evaluadores", "isCorrect": false },
+          { "letter": "B", "text": "Ya practican escritura estructurada con historias clínicas y tienen conocimiento disciplinar sobre temas frecuentes del examen", "isCorrect": true },
+          { "letter": "C", "text": "Tienen más tiempo de estudio disponible que estudiantes de otras carreras", "isCorrect": false },
+          { "letter": "D", "text": "El ICFES asigna una bonificación especial para estudiantes del área de la salud", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 8,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "¿Cuál es el orden correcto del checklist de revisión pre-entrega según el cuadernillo?",
+        "explanation": "El checklist de revisión tiene cinco pasos en orden estricto: (1) verificar pertinencia (¿respondí la pregunta?), (2) verificar que la tesis esté clara en la introducción, (3) verificar que cada párrafo de desarrollo tenga afirmación, razón y ejemplo, (4) verificar que la conclusión retome la tesis sin ideas nuevas, y (5) buscar errores críticos de ortografía o gramática.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Ortografía, conclusión, argumentos, tesis, pertinencia", "isCorrect": false },
+          { "letter": "B", "text": "Pertinencia, tesis, argumentos completos, conclusión correcta, errores de ortografía", "isCorrect": true },
+          { "letter": "C", "text": "Tesis, ortografía, pertinencia, argumentos, conclusión", "isCorrect": false },
+          { "letter": "D", "text": "Argumentos, pertinencia, ortografía, tesis, conclusión", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "Según la rúbrica simplificada del cuadernillo, ¿qué diferencia principal existe entre un texto de nivel medio (3) y un texto de nivel alto (4) en el criterio de planteamiento definido?",
+        "explanation": "En nivel 4, el texto responde exactamente la pregunta con una tesis clara desde la introducción que se mantiene consistentemente hasta la conclusión. En nivel 3, la tesis es clara pero hay uno o dos momentos en que el texto se desvía levemente del tema. La diferencia está en la consistencia total de la posición.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "El nivel alto usa vocabulario más sofisticado", "isCorrect": false },
+          { "letter": "B", "text": "El nivel alto tiene más párrafos de desarrollo", "isCorrect": false },
+          { "letter": "C", "text": "En nivel alto la tesis se mantiene consistentemente sin desvíos; en nivel medio hay desvíos leves", "isCorrect": true },
+          { "letter": "D", "text": "El nivel alto incluye citas textuales de autores reconocidos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "¿Qué factor marca la diferencia entre un texto de nivel medio y uno de nivel alto según el análisis de los textos A y B del cuadernillo?",
+        "explanation": "La diferencia más visible no está en el vocabulario ni en la complejidad de las ideas, sino en la especificidad de los argumentos. El texto de nivel medio dice cosas generales («la salud mental es importante»), mientras que el de nivel alto incluye datos específicos, mecanismos concretos y propuestas puntuales.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "La cantidad de párrafos y la extensión total del texto", "isCorrect": false },
+          { "letter": "B", "text": "El uso de vocabulario técnico y citas bibliográficas", "isCorrect": false },
+          { "letter": "C", "text": "La especificidad de los argumentos y ejemplos concretos", "isCorrect": true },
+          { "letter": "D", "text": "La presencia de una contraargumentación extensa", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 9,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "En las instrucciones del Simulacro 1, el cuadernillo establece cinco condiciones que reproducen el Saber Pro real. ¿Cuál de las siguientes es una de esas condiciones?",
+        "explanation": "Una de las cinco condiciones es dedicar 10 minutos de planificación antes de escribir una sola palabra del texto. Estos minutos se usan para subrayar palabras clave, definir la tesis, esbozar argumentos y anotar los conectores para cada párrafo. Las otras condiciones son: 40 minutos exactos, 25 minutos de escritura continua, 5 minutos de revisión con checklist y no leer el modelo antes de escribir.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Leer el texto modelo del cuadernillo como guía antes de comenzar a escribir", "isCorrect": false },
+          { "letter": "B", "text": "Destinar 10 minutos de planificación antes de escribir una sola palabra del texto", "isCorrect": true },
+          { "letter": "C", "text": "Escribir primero un borrador completo y luego pasarlo en limpio", "isCorrect": false },
+          { "letter": "D", "text": "Releer cada párrafo inmediatamente después de escribirlo para corregirlo", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "¿Qué es la «concesión estratégica» que el cuadernillo destaca en el texto modelo del Simulacro 1?",
+        "explanation": "La concesión estratégica consiste en reconocer brevemente la posición contraria antes de refutarla con un argumento más sólido. Se introduce con conectores como «Si bien es cierto que...» seguido de «sin embargo...». Esta técnica eleva el nivel argumentativo porque demuestra que el autor conoce y domina el debate, no que ignora los contraargumentos.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Aceptar que la posición contraria es válida y modificar la tesis en la conclusión", "isCorrect": false },
+          { "letter": "B", "text": "Reconocer brevemente la posición contraria y luego refutarla con un argumento más sólido", "isCorrect": true },
+          { "letter": "C", "text": "Presentar los dos lados del debate sin tomar una posición definida", "isCorrect": false },
+          { "letter": "D", "text": "Ceder ante los contraargumentos cuando son más fuertes que los propios", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "¿Por qué el cuadernillo insiste en que es más importante completar el texto que intentar escribir un texto perfecto?",
+        "explanation": "Un texto sin conclusión pierde automáticamente puntos en organización, sin importar qué tan buenos sean los argumentos del desarrollo. La completitud (introducción + desarrollo + conclusión) garantiza puntos en el criterio de organización, mientras que la perfección parcial sin estructura completa penaliza severamente.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Porque el ICFES solo evalúa la cantidad de palabras escritas", "isCorrect": false },
+          { "letter": "B", "text": "Porque un texto sin conclusión pierde automáticamente puntos en organización, independientemente de la calidad del desarrollo", "isCorrect": true },
+          { "letter": "C", "text": "Porque los evaluadores no leen los textos completos, solo la introducción y la conclusión", "isCorrect": false },
+          { "letter": "D", "text": "Porque la extensión tiene más peso que la calidad en la rúbrica del ICFES", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 10,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "El cuadernillo sintetiza cinco claves para puntaje alto en Comunicación Escrita. ¿Cuál de las siguientes es una de esas cinco claves?",
+        "explanation": "Las cinco claves son: (1) responder exactamente la pregunta con posición clara desde la primera oración, (2) desarrollar dos argumentos completos (no cuatro a medias), (3) usar conectores variados, (4) revisar con el checklist en los últimos 5 minutos, y (5) practicar cronometrado al menos tres veces antes del examen real.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Usar lenguaje técnico especializado para demostrar dominio del tema", "isCorrect": false },
+          { "letter": "B", "text": "Escribir al menos cuatro páginas para cubrir todos los argumentos posibles", "isCorrect": false },
+          { "letter": "C", "text": "Desarrollar dos argumentos completos con afirmación, razón y ejemplo, en lugar de cuatro argumentos superficiales", "isCorrect": true },
+          { "letter": "D", "text": "Memorizar textos modelo para reproducirlos durante el examen", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "Según el checklist pre-examen del cuadernillo, ¿qué debe hacer el estudiante la noche anterior al Saber Pro?",
+        "explanation": "La noche anterior el cuadernillo recomienda: repasar las cinco claves, repasar la tabla de conectores, leer una pregunta de práctica y solo escribir el esqueleto (sin texto completo). No se debe hacer un simulacro completo porque el agotamiento perjudica más de lo que se puede ganar.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Realizar un simulacro completo de 40 minutos para estar preparado", "isCorrect": false },
+          { "letter": "B", "text": "Repasar las cinco claves, la tabla de conectores y escribir solo el esqueleto de una pregunta de práctica", "isCorrect": true },
+          { "letter": "C", "text": "Leer todos los textos modelo del cuadernillo para memorizarlos", "isCorrect": false },
+          { "letter": "D", "text": "No estudiar nada para llegar descansado al examen", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "¿Por qué el cuadernillo afirma que el módulo de Comunicación Escrita es el único del Saber Pro donde el estudiante «controla completamente el resultado»?",
+        "explanation": "A diferencia de otros módulos donde el puntaje depende de recordar datos específicos o interpretar enunciados correctamente (con posibilidad de adivinar), en Comunicación Escrita el resultado depende exclusivamente de aplicar una técnica aprendida, construir argumentos propios y manejar el tema desde la formación personal. No hay factor de suerte ni dependencia de contenidos memorizados.",
+        "competency": "escritura_argumentativa",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Porque es el módulo con la rúbrica más sencilla de todos", "isCorrect": false },
+          { "letter": "B", "text": "Porque no depende de recordar contenidos ni de la suerte al descartar opciones, sino de aplicar una técnica con argumentos que el estudiante construye", "isCorrect": true },
+          { "letter": "C", "text": "Porque los evaluadores son más flexibles con los criterios en este módulo", "isCorrect": false },
+          { "letter": "D", "text": "Porque el estudiante puede elegir el tema sobre el que quiere escribir", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

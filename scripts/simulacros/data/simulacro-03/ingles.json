@@ -1,0 +1,717 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "PART 1: Photographs (Questions 1-5)\nLevel: A1\n\nLook at the description of the photograph and choose the sentence that best describes it.\n\nPhotograph description: A large room with exercise equipment including parallel bars and resistance bands. A physical therapist is helping a young man walk between the parallel bars. The man is wearing a knee brace on his right leg.\n\n(Original content \u2014 Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows a rehabilitation gym where a therapist assists a patient using parallel bars. Option A correctly identifies the setting and the action. Option B places the scene in a swimming pool. Option C describes a doctor\u2019s office. Option D describes a weight-lifting gym without medical context.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A therapist is helping a patient walk in a rehabilitation gym.", "isCorrect": true },
+      { "letter": "B", "text": "A man is swimming in a pool at a sports center.", "isCorrect": false },
+      { "letter": "C", "text": "A doctor is examining a patient\u2019s knee in an office.", "isCorrect": false },
+      { "letter": "D", "text": "A man is lifting weights at the gym.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Photograph description: A large industrial kitchen inside a hospital. Two workers in white uniforms and hairnets are preparing food trays. A whiteboard on the wall shows a list of patient diets: \u00ablow sodium,\u00bb \u00abdiabetic,\u00bb and \u00absoft food.\u00bb\n\n(Original content \u2014 Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The scene shows a hospital kitchen where staff prepare special diet trays for patients. Option C accurately describes the main activity. Option A places it in a restaurant. Option B describes cleaning, not cooking. Option D says the workers are eating.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "Two chefs are cooking in a restaurant kitchen.", "isCorrect": false },
+      { "letter": "B", "text": "Hospital workers are cleaning a room.", "isCorrect": false },
+      { "letter": "C", "text": "Two workers are preparing food trays in a hospital kitchen.", "isCorrect": true },
+      { "letter": "D", "text": "Two people in white uniforms are eating lunch.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Photograph description: A small room with dim lighting. Several incubators are visible in a row. A nurse wearing gloves is reaching into one of the incubators to adjust a tube connected to a very small baby.\n\n(Original content \u2014 Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph clearly shows a neonatal intensive care unit with incubators and a nurse caring for a premature baby. Option B is correct. Option A places the scene in a laboratory. Option C describes an adult patient. Option D misidentifies the equipment as cribs in a nursery.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A scientist is working in a laboratory with special equipment.", "isCorrect": false },
+      { "letter": "B", "text": "A nurse is caring for a small baby in an incubator.", "isCorrect": true },
+      { "letter": "C", "text": "A doctor is helping an adult patient breathe with a machine.", "isCorrect": false },
+      { "letter": "D", "text": "Babies are sleeping in cribs in a nursery.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Photograph description: A bright room with several reclining chairs. People are sitting in the chairs with their arms extended. Nurses are connecting tubes to bags of blood. A large sign on the wall reads \u00abDonate Blood, Save Lives.\u00bb\n\n(Original content \u2014 Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows a blood donation center with donors sitting in reclining chairs and nurses assisting them. Option D correctly identifies this scene. Option A describes a vaccination clinic. Option B describes a waiting room. Option C describes a hospital ward.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "Patients are receiving vaccines at a health clinic.", "isCorrect": false },
+      { "letter": "B", "text": "People are sitting in a waiting room at a hospital.", "isCorrect": false },
+      { "letter": "C", "text": "Patients are resting in beds after surgery.", "isCorrect": false },
+      { "letter": "D", "text": "People are donating blood at a donation center.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Photograph description: An outdoor park area with white tents and tables. At one table, a nurse is measuring the blood pressure of a woman. At another table, a health worker is handing pamphlets to a family. Children are playing nearby. A banner reads \u00abCommunity Health Fair.\u00bb\n\n(Original content \u2014 Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows a community health fair in a park with health screenings and educational materials. Option A correctly identifies the setting and activities. Option B describes a birthday party. Option C describes a school event. Option D describes a farmer\u2019s market.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "Health workers are checking people at a community health fair in a park.", "isCorrect": true },
+      { "letter": "B", "text": "A family is having a birthday party in a park.", "isCorrect": false },
+      { "letter": "C", "text": "Teachers are giving out books at a school event.", "isCorrect": false },
+      { "letter": "D", "text": "People are buying vegetables at a farmer\u2019s market.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "PART 2: Short conversations (Questions 6-15)\nLevel: A2\n\nRead the short conversation and answer the question.\n\nPhysical therapist: Good morning, Mr. Delgado. How is your shoulder feeling today?\nPatient: It still hurts when I try to lift my arm above my head.\nPhysical therapist: All right. Let\u2019s start with some gentle stretches and then we\u2019ll do the resistance exercises. Remember, if anything feels too painful, tell me immediately.\nPatient: Okay. Will I need to come back next week?\nPhysical therapist: Yes, I\u2019d like to see you twice a week for the next four weeks.\n\n(Original content \u2014 Study2One)",
+    "questionText": "How often does the therapist want the patient to come?",
+    "explanation": "The therapist says: \u00abI\u2019d like to see you twice a week for the next four weeks.\u00bb Option B matches this schedule. Option A says once a week. Option C says every day. Option D says once a month.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "Once a week for four weeks.", "isCorrect": false },
+      { "letter": "B", "text": "Twice a week for four weeks.", "isCorrect": true },
+      { "letter": "C", "text": "Every day for two weeks.", "isCorrect": false },
+      { "letter": "D", "text": "Once a month for four months.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": null,
+    "questionText": "What is the patient\u2019s main complaint?",
+    "explanation": "The patient says: \u00abIt still hurts when I try to lift my arm above my head.\u00bb This describes shoulder pain when raising the arm. Option C matches. Option A describes back pain. Option B describes finger numbness. Option D describes wrist pain.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "His back hurts when he bends down.", "isCorrect": false },
+      { "letter": "B", "text": "His fingers feel numb in the morning.", "isCorrect": false },
+      { "letter": "C", "text": "His shoulder hurts when he lifts his arm up.", "isCorrect": true },
+      { "letter": "D", "text": "His wrist is swollen and stiff.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Doctor: I have your X-ray results here, Mrs. Navarro. The good news is that there is no fracture.\nPatient: Oh, thank goodness! So why does it hurt so much?\nDoctor: The X-ray shows some swelling in the soft tissue around your ankle. It looks like a sprain.\nPatient: How long will it take to heal?\nDoctor: Usually four to six weeks. I\u2019ll prescribe an anti-inflammatory and recommend that you keep your foot elevated as much as possible.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What do the X-ray results show?",
+    "explanation": "The doctor says: \u00abThere is no fracture\u00bb and \u00abThe X-ray shows some swelling in the soft tissue around your ankle. It looks like a sprain.\u00bb Option A matches: no broken bone, but a sprain. Option B says a fracture exists. Option C says a tumor. Option D says everything is normal.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "No fracture, but a sprain with soft tissue swelling.", "isCorrect": true },
+      { "letter": "B", "text": "A small fracture in the ankle bone.", "isCorrect": false },
+      { "letter": "C", "text": "A tumor near the ankle.", "isCorrect": false },
+      { "letter": "D", "text": "Nothing wrong \u2014 the ankle is completely healthy.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "What treatment does the doctor recommend?",
+    "explanation": "The doctor says: \u00abI\u2019ll prescribe an anti-inflammatory and recommend that you keep your foot elevated.\u00bb Option D matches both recommendations. Option A says surgery. Option B says walking more. Option C mentions only rest without medication.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Surgery to fix the ankle.", "isCorrect": false },
+      { "letter": "B", "text": "Walking as much as possible to strengthen it.", "isCorrect": false },
+      { "letter": "C", "text": "Complete bed rest for six weeks with no medication.", "isCorrect": false },
+      { "letter": "D", "text": "Anti-inflammatory medication and keeping the foot elevated.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Home care nurse: Good afternoon, Mr. Salazar. I\u2019m Nurse Guti\u00e9rrez from the home care program. I\u2019m here to check your blood sugar levels and change the dressing on your wound.\nPatient: Come in. My wife prepared the table in the living room for you.\nNurse: Perfect. Before we start, have you been taking your insulin at the same time every day?\nPatient: Mostly, but I forgot twice this week.\nNurse: It\u2019s very important to take it on schedule. Let\u2019s set a daily alarm on your phone to help you remember.\n\n(Original content \u2014 Study2One)",
+    "questionText": "Why is the nurse visiting the patient\u2019s home?",
+    "explanation": "The nurse says: \u00abI\u2019m here to check your blood sugar levels and change the dressing on your wound.\u00bb Option B matches these two purposes. Option A says vaccination. Option C says delivering medication. Option D says teaching cooking.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "To give the patient a vaccination.", "isCorrect": false },
+      { "letter": "B", "text": "To check blood sugar and change a wound dressing.", "isCorrect": true },
+      { "letter": "C", "text": "To deliver medication from the pharmacy.", "isCorrect": false },
+      { "letter": "D", "text": "To teach the patient how to cook healthy meals.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "What does the nurse suggest to help the patient remember his insulin?",
+    "explanation": "The nurse says: \u00abLet\u2019s set a daily alarm on your phone to help you remember.\u00bb Option C matches. Option A says writing on a calendar. Option B says the wife should give it. Option D says taking it only when he remembers.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Writing reminders on a calendar.", "isCorrect": false },
+      { "letter": "B", "text": "Asking his wife to give him the insulin.", "isCorrect": false },
+      { "letter": "C", "text": "Setting a daily alarm on his phone.", "isCorrect": true },
+      { "letter": "D", "text": "Taking the insulin only when he remembers.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Insurance agent: Welcome to MediSalud. How can I help you today?\nCustomer: I want to enroll in a health insurance plan. I\u2019m self-employed, so I don\u2019t get insurance through an employer.\nAgent: No problem. We have three plans: Basic, Standard, and Premium. The Basic plan covers emergencies and hospital stays. The Standard plan also includes specialist visits and lab tests. The Premium plan covers everything plus dental and vision.\nCustomer: How much is the Standard plan per month?\nAgent: It\u2019s 280,000 pesos per month. Would you like to see the full comparison chart?\n\n(Original content \u2014 Study2One)",
+    "questionText": "Why doesn\u2019t the customer have health insurance?",
+    "explanation": "The customer says: \u00abI\u2019m self-employed, so I don\u2019t get insurance through an employer.\u00bb Option A matches. Option B says he is unemployed. Option C says he recently moved. Option D says his previous plan expired.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "Because he is self-employed and has no employer-provided plan.", "isCorrect": true },
+      { "letter": "B", "text": "Because he is unemployed and cannot afford it.", "isCorrect": false },
+      { "letter": "C", "text": "Because he recently moved from another country.", "isCorrect": false },
+      { "letter": "D", "text": "Because his previous insurance plan expired last year.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "What does the Standard plan cover that the Basic plan does not?",
+    "explanation": "The agent says the Basic plan covers \u00abemergencies and hospital stays\u00bb while the Standard plan \u00abalso includes specialist visits and lab tests.\u00bb Option D correctly identifies the additional coverage. Option A mentions dental. Option B mentions prescription drugs. Option C mentions home visits.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Dental and vision care.", "isCorrect": false },
+      { "letter": "B", "text": "Prescription drugs and mental health therapy.", "isCorrect": false },
+      { "letter": "C", "text": "Home visits and ambulance services.", "isCorrect": false },
+      { "letter": "D", "text": "Specialist visits and lab tests.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Occupational health specialist: Good morning, Ms. Restrepo. I\u2019m Dr. Vargas. This assessment is required before you start your new job at the factory.\nWorker: What will the assessment include?\nSpecialist: We\u2019ll do a hearing test, a vision test, and a basic physical examination. We also need to check your back strength since your job involves lifting heavy boxes.\nWorker: Will I get the results today?\nSpecialist: Yes, the report will be ready within two hours.\n\n(Original content \u2014 Study2One)",
+    "questionText": "Why is Ms. Restrepo having this assessment?",
+    "explanation": "The specialist says: \u00abThis assessment is required before you start your new job at the factory.\u00bb Option B matches. Option A says she is sick. Option C says she wants a promotion. Option D says she had an accident.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Because she is feeling sick and needs treatment.", "isCorrect": false },
+      { "letter": "B", "text": "Because it is required before starting her new factory job.", "isCorrect": true },
+      { "letter": "C", "text": "Because she wants a promotion at her current job.", "isCorrect": false },
+      { "letter": "D", "text": "Because she had an accident at work last week.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "Why does the specialist need to check Ms. Restrepo\u2019s back strength?",
+    "explanation": "The specialist says: \u00abWe also need to check your back strength since your job involves lifting heavy boxes.\u00bb Option C matches this reason. Option A says she has a back injury. Option B says it is a routine test for everyone. Option D says she requested it.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Because she reported a previous back injury.", "isCorrect": false },
+      { "letter": "B", "text": "Because it is a routine test done for all patients.", "isCorrect": false },
+      { "letter": "C", "text": "Because her job requires lifting heavy objects.", "isCorrect": true },
+      { "letter": "D", "text": "Because she specifically requested a back examination.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "PART 3: Short texts (Questions 16-30)\nLevel: B1\n\nRead the following text and answer the questions.\n\nText 1: Hand Hygiene Compliance Study\n\nA university hospital conducted a six-month study to improve hand hygiene among its staff. At the beginning of the study, observers found that only 38% of healthcare workers washed their hands correctly between patient contacts. The hospital then introduced a three-part intervention: placing alcohol-based hand sanitizer dispensers at every bedside, displaying educational posters in all corridors, and giving monthly feedback reports to each department.\n\nAfter six months, compliance rose to 71%. The departments that showed the greatest improvement were the intensive care unit and the surgical ward. Researchers noted that visual reminders and easy access to sanitizer were more effective than educational lectures alone. However, they cautioned that maintaining high compliance requires continuous monitoring, as rates tend to drop when observation programs are discontinued.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What was the hand hygiene compliance rate before the intervention?",
+    "explanation": "The text states: \u00abonly 38% of healthcare workers washed their hands correctly between patient contacts.\u00bb Option B matches. Option A says 21%. Option C says 54%. Option D says 71%, which is the post-intervention rate.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "21%", "isCorrect": false },
+      { "letter": "B", "text": "38%", "isCorrect": true },
+      { "letter": "C", "text": "54%", "isCorrect": false },
+      { "letter": "D", "text": "71%", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "Which two departments improved the most?",
+    "explanation": "The text states: \u00abThe departments that showed the greatest improvement were the intensive care unit and the surgical ward.\u00bb Option A matches. Option B says pediatrics and radiology. Option C says emergency and outpatient. Option D says laboratory and pharmacy.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "The intensive care unit and the surgical ward.", "isCorrect": true },
+      { "letter": "B", "text": "The pediatrics and radiology departments.", "isCorrect": false },
+      { "letter": "C", "text": "The emergency room and the outpatient clinic.", "isCorrect": false },
+      { "letter": "D", "text": "The laboratory and the pharmacy.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "According to the researchers, what could happen when monitoring stops?",
+    "explanation": "The text states: \u00abrates tend to drop when observation programs are discontinued.\u00bb Option D matches. Option A says rates keep rising. Option B says workers switch to gloves. Option C says hospitals close departments.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Compliance rates continue to increase steadily.", "isCorrect": false },
+      { "letter": "B", "text": "Workers switch from hand washing to wearing gloves.", "isCorrect": false },
+      { "letter": "C", "text": "Hospitals close the departments with low compliance.", "isCorrect": false },
+      { "letter": "D", "text": "Hand hygiene compliance rates tend to decrease.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Text 2: Rural Telehealth Pilot Program\n\nIn 2024, the Ministry of Health launched a two-year telehealth pilot program in five remote rural communities with no resident physicians. Each community received a telehealth station equipped with a video screen, a digital stethoscope, and a blood-pressure monitor. Trained community health workers operated the stations and connected patients with doctors at the regional hospital 200 kilometers away.\n\nDuring the first year, the program handled over 3,400 consultations. The most common reasons for consultations were respiratory infections, hypertension follow-ups, and prenatal check-ups. Patient satisfaction surveys showed that 89% of users rated the service as \u00abgood\u00bb or \u00abexcellent.\u00bb However, approximately 12% of patients still required in-person transfers to the hospital for conditions that could not be diagnosed remotely, such as abdominal pain requiring imaging.\n\n(Original content \u2014 Study2One)",
+    "questionText": "Who operates the telehealth stations in the communities?",
+    "explanation": "The text states: \u00abTrained community health workers operated the stations.\u00bb Option C matches. Option A says doctors from the hospital. Option B says the patients themselves. Option D says medical students.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Doctors who travel from the regional hospital.", "isCorrect": false },
+      { "letter": "B", "text": "The patients themselves, without supervision.", "isCorrect": false },
+      { "letter": "C", "text": "Trained community health workers.", "isCorrect": true },
+      { "letter": "D", "text": "Medical students completing their internships.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "What percentage of patients needed to be transferred to the hospital?",
+    "explanation": "The text states: \u00abapproximately 12% of patients still required in-person transfers to the hospital.\u00bb Option B matches. Option A says 3%. Option C says 24%. Option D says 89%, which is the satisfaction rate.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "About 3%.", "isCorrect": false },
+      { "letter": "B", "text": "About 12%.", "isCorrect": true },
+      { "letter": "C", "text": "About 24%.", "isCorrect": false },
+      { "letter": "D", "text": "About 89%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": null,
+    "questionText": "Which of the following was NOT a common reason for telehealth consultations?",
+    "explanation": "The text mentions \u00abrespiratory infections, hypertension follow-ups, and prenatal check-ups\u00bb as the most common reasons. Dental emergencies are not mentioned. Option D is correct.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Respiratory infections.", "isCorrect": false },
+      { "letter": "B", "text": "Hypertension follow-ups.", "isCorrect": false },
+      { "letter": "C", "text": "Prenatal check-ups.", "isCorrect": false },
+      { "letter": "D", "text": "Dental emergencies.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Text 3: Childhood Obesity Prevention Initiative\n\nA city government in South America partnered with local schools to create a childhood obesity prevention program targeting children aged 6 to 12. The program had three components: replacing sugary drinks in school cafeterias with water and natural fruit juices, adding 30 minutes of daily structured physical activity to the school schedule, and sending weekly nutrition guides home to parents.\n\nAfter one school year, the program reached 14,000 students across 42 schools. Body mass index measurements showed that the percentage of overweight children decreased from 28% to 22%. Teachers reported that students were more focused and energetic in the afternoon. Critics of the program argued that the results could not be fully attributed to the school interventions alone, since economic factors and family eating habits also play a significant role in childhood weight.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What was one change made in school cafeterias?",
+    "explanation": "The text states the program involved \u00abreplacing sugary drinks in school cafeterias with water and natural fruit juices.\u00bb Option A matches. Option B says adding more food options. Option C says removing all food. Option D says offering free meals.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Sugary drinks were replaced with water and natural juices.", "isCorrect": true },
+      { "letter": "B", "text": "More food options were added to the menu.", "isCorrect": false },
+      { "letter": "C", "text": "All food was removed from the cafeteria.", "isCorrect": false },
+      { "letter": "D", "text": "Free meals were offered to every student.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "What did critics say about the program?",
+    "explanation": "The text states: \u00abCritics argued that the results could not be fully attributed to the school interventions alone, since economic factors and family eating habits also play a significant role.\u00bb Option C matches. Option A says the program was too expensive. Option B says children did not enjoy it. Option D says the measurements were inaccurate.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "The program was too expensive for the city.", "isCorrect": false },
+      { "letter": "B", "text": "Children did not enjoy the physical activities.", "isCorrect": false },
+      { "letter": "C", "text": "Other factors besides the school program may have influenced the results.", "isCorrect": true },
+      { "letter": "D", "text": "The body mass index measurements were not accurate.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "By how many percentage points did the rate of overweight children decrease?",
+    "explanation": "The text states the percentage of overweight children decreased from 28% to 22%, a decrease of 6 percentage points. Option B matches. Option A says 2. Option C says 14. Option D says 22.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "2 percentage points.", "isCorrect": false },
+      { "letter": "B", "text": "6 percentage points.", "isCorrect": true },
+      { "letter": "C", "text": "14 percentage points.", "isCorrect": false },
+      { "letter": "D", "text": "22 percentage points.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Text 4: New Malaria Vaccine Rollout\n\nThe World Health Organization approved a new malaria vaccine, RTS,S, for widespread use in children in sub-Saharan Africa. Malaria kills more than 600,000 people each year, and most victims are children under five. The vaccine does not provide complete protection \u2014 clinical trials showed it prevents approximately 30% of severe malaria cases \u2014 but health officials say even partial protection could save tens of thousands of lives annually.\n\nThe rollout began in three pilot countries: Ghana, Kenya, and Malawi. Over two million children received at least one dose during the first two years. The main challenges include maintaining cold chain storage in remote areas, training local health workers to administer the four-dose schedule, and overcoming vaccine hesitancy fueled by misinformation. Experts stress that the vaccine must be used alongside existing prevention methods such as insecticide-treated bed nets and antimalarial drugs.\n\n(Original content \u2014 Study2One)",
+    "questionText": "How effective is the RTS,S vaccine at preventing severe malaria?",
+    "explanation": "The text states: \u00abclinical trials showed it prevents approximately 30% of severe malaria cases.\u00bb Option B matches. Option A says 10%. Option C says 60%. Option D says 90%.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "It prevents about 10% of cases.", "isCorrect": false },
+      { "letter": "B", "text": "It prevents about 30% of severe cases.", "isCorrect": true },
+      { "letter": "C", "text": "It prevents about 60% of all cases.", "isCorrect": false },
+      { "letter": "D", "text": "It prevents about 90% of cases in children.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "Which of the following is mentioned as a challenge in the vaccine rollout?",
+    "explanation": "The text lists three challenges: \u00abmaintaining cold chain storage, training local health workers, and overcoming vaccine hesitancy.\u00bb Option D matches one of these. Option A says producing enough vaccines. Option B says transporting vaccines by air. Option C says persuading governments to approve it.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Producing enough vaccines in laboratories.", "isCorrect": false },
+      { "letter": "B", "text": "Transporting vaccines by airplane to remote islands.", "isCorrect": false },
+      { "letter": "C", "text": "Persuading governments to approve the vaccine.", "isCorrect": false },
+      { "letter": "D", "text": "Keeping vaccines properly refrigerated in remote areas.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Text 5: Medical Waste Management Policy\n\nA new national policy requires all hospitals and clinics to classify their waste into four categories: general waste (paper, food), infectious waste (blood-soaked bandages, used syringes), chemical waste (expired medications, disinfectants), and radioactive waste (materials from imaging departments). Each category must be placed in a specific color-coded container: black for general, red for infectious, yellow for chemical, and gray for radioactive.\n\nPreviously, many smaller clinics mixed all waste together, which created serious health risks for cleaning staff and waste collectors. Under the new policy, facilities that fail to comply face fines of up to 50 million pesos. The government will provide free training workshops for healthcare administrators and cleaning staff during the first year of implementation. After that, compliance will be monitored through quarterly inspections.\n\n(Original content \u2014 Study2One)",
+    "questionText": "Into how many categories must hospitals classify their waste?",
+    "explanation": "The text states: \u00abclassify their waste into four categories: general waste, infectious waste, chemical waste, and radioactive waste.\u00bb Option C matches. Option A says two. Option B says three. Option D says five.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Two.", "isCorrect": false },
+      { "letter": "B", "text": "Three.", "isCorrect": false },
+      { "letter": "C", "text": "Four.", "isCorrect": true },
+      { "letter": "D", "text": "Five.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "What color container is used for infectious waste?",
+    "explanation": "The text states: \u00abred for infectious.\u00bb Option B matches. Option A says black (general). Option C says yellow (chemical). Option D says gray (radioactive).",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Black.", "isCorrect": false },
+      { "letter": "B", "text": "Red.", "isCorrect": true },
+      { "letter": "C", "text": "Yellow.", "isCorrect": false },
+      { "letter": "D", "text": "Gray.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "What was the main problem before the new policy?",
+    "explanation": "The text states: \u00abmany smaller clinics mixed all waste together, which created serious health risks for cleaning staff and waste collectors.\u00bb Option A matches. Option B says hospitals produced too much waste. Option C says waste was exported. Option D says containers were too small.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Many clinics mixed all types of waste together, putting workers at risk.", "isCorrect": true },
+      { "letter": "B", "text": "Hospitals produced too much waste for the city to handle.", "isCorrect": false },
+      { "letter": "C", "text": "Medical waste was being exported to other countries.", "isCorrect": false },
+      { "letter": "D", "text": "The waste containers were too small for large hospitals.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": null,
+    "questionText": "What will happen to facilities that do not follow the new rules?",
+    "explanation": "The text states: \u00abfacilities that fail to comply face fines of up to 50 million pesos.\u00bb Option C matches. Option A says they will be closed permanently. Option B says their staff will be arrested. Option D says they will receive a warning letter only.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "They will be closed permanently.", "isCorrect": false },
+      { "letter": "B", "text": "Their staff will be arrested.", "isCorrect": false },
+      { "letter": "C", "text": "They will face fines of up to 50 million pesos.", "isCorrect": true },
+      { "letter": "D", "text": "They will only receive a warning letter.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "PART 4: Academic texts (Questions 31-55)\nLevel: B1-B2\n\nRead the following text and answer the questions.\n\nText A: Social Determinants and Life Expectancy\n\nLife expectancy varies dramatically across and within countries, and these differences cannot be explained by genetics or access to medical care alone. Increasingly, researchers point to the \u00absocial determinants of health\u00bb \u2014 the conditions in which people are born, grow, live, work, and age \u2014 as the primary drivers of health outcomes.\n\nIncome is perhaps the most powerful determinant. Studies consistently show that people in the lowest income quintile die, on average, 10 to 15 years earlier than those in the highest quintile. This gap persists even in countries with universal healthcare, suggesting that medical access alone is insufficient to overcome the disadvantages associated with poverty. Low income limits access to nutritious food, safe housing, and educational opportunities, all of which affect long-term health.\n\nEducation is closely linked to health as well. People with higher levels of education are more likely to understand health information, adopt preventive behaviors such as regular exercise and balanced nutrition, and navigate complex healthcare systems effectively. In many low-income countries, each additional year of maternal education is associated with a 7 to 9% reduction in child mortality.\n\nEnvironmental factors also play a critical role. Communities located near industrial sites or major highways experience higher rates of respiratory illness, cancer, and developmental disorders in children. These communities are disproportionately populated by racial and ethnic minorities and low-income families, creating what public health researchers call \u00abenvironmental injustice.\u00bb\n\nAddressing these disparities requires action beyond the healthcare system. Policies that improve housing quality, increase access to education, raise minimum wages, and regulate environmental pollutants have been shown to produce measurable improvements in population health. As Dr. Michael Marmot, a leading researcher in this field, has argued: \u00abWhy treat people and send them back to the conditions that made them sick?\u00bb\n\n(Original content \u2014 Study2One)",
+    "questionText": "According to the text, what is the life expectancy gap between the lowest and highest income groups?",
+    "explanation": "The text states: \u00abpeople in the lowest income quintile die, on average, 10 to 15 years earlier than those in the highest quintile.\u00bb Option C matches. Option A says 3 to 5 years. Option B says 5 to 8 years. Option D says 20 to 25 years.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "3 to 5 years.", "isCorrect": false },
+      { "letter": "B", "text": "5 to 8 years.", "isCorrect": false },
+      { "letter": "C", "text": "10 to 15 years.", "isCorrect": true },
+      { "letter": "D", "text": "20 to 25 years.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "The text states that the income-health gap persists even in countries with universal healthcare. This suggests that:",
+    "explanation": "The text says: \u00abThis gap persists even in countries with universal healthcare, suggesting that medical access alone is insufficient to overcome the disadvantages associated with poverty.\u00bb Option B captures this inference. Option A says universal healthcare is useless. Option C says wealthy people use hospitals more. Option D says genetics is the main factor.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Universal healthcare is a waste of resources.", "isCorrect": false },
+      { "letter": "B", "text": "Providing medical access is not enough to eliminate poverty-related health disadvantages.", "isCorrect": true },
+      { "letter": "C", "text": "Wealthy people visit hospitals more often than poor people.", "isCorrect": false },
+      { "letter": "D", "text": "Genetics is the main factor determining life expectancy.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "According to the text, each additional year of maternal education in low-income countries is associated with:",
+    "explanation": "The text states: \u00abeach additional year of maternal education is associated with a 7 to 9% reduction in child mortality.\u00bb Option A matches. Option B says an increase in birth rates. Option C says a decrease in school enrollment. Option D says a 15 to 20% increase in income.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "A 7 to 9% reduction in child mortality.", "isCorrect": true },
+      { "letter": "B", "text": "A significant increase in birth rates.", "isCorrect": false },
+      { "letter": "C", "text": "A decrease in school enrollment.", "isCorrect": false },
+      { "letter": "D", "text": "A 15 to 20% increase in household income.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "The term \u00abenvironmental injustice\u00bb in the text refers to:",
+    "explanation": "The text explains that communities near industrial sites experience higher rates of illness and that \u00abthese communities are disproportionately populated by racial and ethnic minorities and low-income families.\u00bb This unequal exposure is called \u00abenvironmental injustice.\u00bb Option D captures this. Option A says all environmental damage. Option B says a lack of parks. Option C says natural disasters.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "All forms of environmental damage caused by human activity.", "isCorrect": false },
+      { "letter": "B", "text": "The lack of parks and green spaces in urban areas.", "isCorrect": false },
+      { "letter": "C", "text": "Natural disasters affecting poor communities more severely.", "isCorrect": false },
+      { "letter": "D", "text": "The disproportionate exposure of minorities and low-income communities to environmental hazards.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "What is the main purpose of Dr. Marmot\u2019s quote at the end of the text?",
+    "explanation": "Dr. Marmot asks: \u00abWhy treat people and send them back to the conditions that made them sick?\u00bb This rhetorical question argues that treating illness without addressing the social conditions that cause it is ineffective. Option C captures this purpose. Option A says it criticizes doctors. Option B says it promotes hospitals. Option D says it questions whether people deserve treatment.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "To criticize doctors for not caring enough about patients.", "isCorrect": false },
+      { "letter": "B", "text": "To promote the building of more hospitals in poor areas.", "isCorrect": false },
+      { "letter": "C", "text": "To argue that fixing social conditions is just as important as providing medical treatment.", "isCorrect": true },
+      { "letter": "D", "text": "To question whether poor people deserve access to healthcare.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "Text B: Artificial Intelligence in Radiology\n\nThe application of artificial intelligence (AI) in medical imaging has advanced rapidly, with deep learning algorithms now capable of analyzing X-rays, CT scans, and MRI images with accuracy that in some studies matches or exceeds that of experienced radiologists. These systems are trained on millions of annotated images and can detect subtle patterns \u2014 such as tiny nodules in lung scans or early signs of diabetic retinopathy \u2014 that human eyes might overlook, especially under time pressure.\n\nProponents argue that AI can address a growing crisis in radiology: the volume of medical images is increasing by approximately 15% per year, but the number of trained radiologists is not keeping pace. AI tools could serve as a \u00absecond pair of eyes,\u00bb flagging suspicious findings for human review and prioritizing urgent cases in the reading queue, thereby reducing diagnostic delays.\n\nHowever, significant concerns remain. Most AI models are trained predominantly on data from high-income countries, which means they may perform less accurately on patient populations with different demographic characteristics or disease prevalence patterns. A study published in The Lancet Digital Health found that only 6% of publicly available medical imaging datasets originated from low- and middle-income countries. This \u00abdata gap\u00bb raises questions about the fairness and generalizability of AI diagnostic tools.\n\nFurthermore, the \u00abblack box\u00bb nature of deep learning models \u2014 where the system produces a result without a transparent explanation of how it reached that conclusion \u2014 creates challenges for clinical accountability. If an AI system misses a tumor, determining who bears responsibility \u2014 the algorithm developer, the hospital, or the reviewing physician \u2014 remains an unresolved legal and ethical question.\n\nMost experts agree that AI will not replace radiologists but rather augment their capabilities. The radiologist of the future, they suggest, will not be one who rejects AI but one who integrates it effectively into clinical practice.\n\n(Original content \u2014 Study2One)",
+    "questionText": "According to the text, by what percentage is the volume of medical images increasing annually?",
+    "explanation": "The text states: \u00abthe volume of medical images is increasing by approximately 15% per year.\u00bb Option B matches. Option A says 5%. Option C says 25%. Option D says 40%.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "About 5% per year.", "isCorrect": false },
+      { "letter": "B", "text": "About 15% per year.", "isCorrect": true },
+      { "letter": "C", "text": "About 25% per year.", "isCorrect": false },
+      { "letter": "D", "text": "About 40% per year.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": null,
+    "questionText": "The phrase \u00absecond pair of eyes\u00bb in the text is used to describe AI\u2019s role as:",
+    "explanation": "The text says AI tools could serve as a \u00absecond pair of eyes, flagging suspicious findings for human review.\u00bb This means AI assists radiologists by providing an additional check, not replacing them. Option A matches. Option B says it replaces the radiologist. Option C says it is a training tool for students. Option D says it is a camera system.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "An additional reviewer that assists radiologists in detecting findings.", "isCorrect": true },
+      { "letter": "B", "text": "A complete replacement for human radiologists.", "isCorrect": false },
+      { "letter": "C", "text": "A training tool exclusively used by medical students.", "isCorrect": false },
+      { "letter": "D", "text": "A camera system that takes better medical images.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": null,
+    "questionText": "What percentage of publicly available medical imaging datasets comes from low- and middle-income countries?",
+    "explanation": "The text states: \u00abonly 6% of publicly available medical imaging datasets originated from low- and middle-income countries.\u00bb Option A matches. Option B says 15%. Option C says 30%. Option D says 50%.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "6%.", "isCorrect": true },
+      { "letter": "B", "text": "15%.", "isCorrect": false },
+      { "letter": "C", "text": "30%.", "isCorrect": false },
+      { "letter": "D", "text": "50%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": null,
+    "questionText": "What does the \u00abblack box\u00bb problem in AI refer to?",
+    "explanation": "The text explains: \u00abthe system produces a result without a transparent explanation of how it reached that conclusion.\u00bb This lack of transparency is the \u00abblack box\u00bb problem. Option C matches. Option A says the physical color of the device. Option B says algorithms that are secret. Option D says errors in data storage.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "The AI hardware is a black-colored device that overheats.", "isCorrect": false },
+      { "letter": "B", "text": "The algorithms are kept secret by the companies that develop them.", "isCorrect": false },
+      { "letter": "C", "text": "The system produces results without explaining how it reached its conclusions.", "isCorrect": true },
+      { "letter": "D", "text": "Important data is lost when stored inside the system.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": null,
+    "questionText": "According to the text, what is the most likely future relationship between AI and radiologists?",
+    "explanation": "The text concludes: \u00abAI will not replace radiologists but rather augment their capabilities.\u00bb Option D matches. Option A says AI will fully replace them. Option B says radiologists will reject AI. Option C says AI will only be used in research.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "AI will fully replace radiologists within the next decade.", "isCorrect": false },
+      { "letter": "B", "text": "Radiologists will reject AI and continue working without it.", "isCorrect": false },
+      { "letter": "C", "text": "AI will only be used in research laboratories, not in clinical practice.", "isCorrect": false },
+      { "letter": "D", "text": "AI will enhance radiologists\u2019 work rather than replace them.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "Text C: Burnout in Healthcare Workers\n\nBurnout \u2014 a state of chronic physical and emotional exhaustion caused by prolonged workplace stress \u2014 has reached alarming levels among healthcare professionals worldwide. A 2023 meta-analysis of 170 studies involving over 200,000 healthcare workers found that approximately 47% reported experiencing at least one dimension of burnout: emotional exhaustion, depersonalization, or reduced personal accomplishment.\n\nThe causes of burnout are multifactorial. Long working hours, high patient-to-staff ratios, administrative burden (particularly electronic health record documentation), exposure to patient suffering and death, and a perceived lack of organizational support all contribute. The COVID-19 pandemic intensified these pressures dramatically, with surveys showing that burnout rates among nurses increased by 15 to 20 percentage points between 2019 and 2022.\n\nThe consequences of burnout extend beyond the individual worker. Burned-out clinicians make more medical errors, provide lower-quality patient care, and are more likely to leave the profession. In the United States alone, physician turnover attributed to burnout costs the healthcare system an estimated 4.6 billion dollars per year. Furthermore, burnout is strongly associated with depression, substance abuse, and suicidal ideation among healthcare workers.\n\nEffective interventions operate at both the individual and organizational levels. Individual strategies include mindfulness-based stress reduction, peer support programs, and cognitive behavioral therapy. However, researchers emphasize that organizational changes are more impactful: reducing non-clinical administrative tasks, implementing flexible scheduling, ensuring adequate staffing levels, and creating a workplace culture where seeking mental health support is normalized rather than stigmatized.\n\n(Original content \u2014 Study2One)",
+    "questionText": "According to the meta-analysis, what percentage of healthcare workers reported experiencing burnout?",
+    "explanation": "The text states: \u00abapproximately 47% reported experiencing at least one dimension of burnout.\u00bb Option C matches. Option A says 23%. Option B says 35%. Option D says 62%.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "About 23%.", "isCorrect": false },
+      { "letter": "B", "text": "About 35%.", "isCorrect": false },
+      { "letter": "C", "text": "About 47%.", "isCorrect": true },
+      { "letter": "D", "text": "About 62%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": null,
+    "questionText": "How did the COVID-19 pandemic affect burnout rates among nurses?",
+    "explanation": "The text states: \u00abburnout rates among nurses increased by 15 to 20 percentage points between 2019 and 2022.\u00bb Option B matches. Option A says rates decreased. Option C says rates stayed the same. Option D says only doctors were affected.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Burnout rates among nurses decreased significantly.", "isCorrect": false },
+      { "letter": "B", "text": "Burnout rates among nurses increased by 15 to 20 percentage points.", "isCorrect": true },
+      { "letter": "C", "text": "Burnout rates remained the same before and after the pandemic.", "isCorrect": false },
+      { "letter": "D", "text": "Only doctors experienced increased burnout during the pandemic.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": null,
+    "questionText": "The word \u00abdepersonalization\u00bb in paragraph 1 most likely refers to:",
+    "explanation": "In the context of burnout, depersonalization refers to treating patients or colleagues as objects rather than people, developing emotional detachment and cynicism. Option D captures this meaning. Option A describes a personality disorder. Option B describes forgetting one\u2019s identity. Option C describes changing jobs.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "A clinical personality disorder requiring medication.", "isCorrect": false },
+      { "letter": "B", "text": "The inability to remember one\u2019s own name and identity.", "isCorrect": false },
+      { "letter": "C", "text": "The desire to change careers and leave healthcare.", "isCorrect": false },
+      { "letter": "D", "text": "Emotional detachment and a tendency to treat patients in a cynical or impersonal way.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": null,
+    "questionText": "According to the text, which type of burnout intervention do researchers consider more effective?",
+    "explanation": "The text states: \u00abresearchers emphasize that organizational changes are more impactful\u00bb compared to individual strategies. Option A matches. Option B says individual therapy. Option C says longer vacations. Option D says transferring to different departments.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Organizational changes such as reducing administrative tasks and improving staffing.", "isCorrect": true },
+      { "letter": "B", "text": "Individual therapy and personal resilience training.", "isCorrect": false },
+      { "letter": "C", "text": "Giving healthcare workers longer annual vacations.", "isCorrect": false },
+      { "letter": "D", "text": "Transferring burned-out workers to different departments.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": null,
+    "questionText": "The estimated annual cost of physician turnover due to burnout in the United States is:",
+    "explanation": "The text states: \u00abphysician turnover attributed to burnout costs the healthcare system an estimated 4.6 billion dollars per year.\u00bb Option C matches. Option A says 460 million. Option B says 1.2 billion. Option D says 10 billion.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "460 million dollars.", "isCorrect": false },
+      { "letter": "B", "text": "1.2 billion dollars.", "isCorrect": false },
+      { "letter": "C", "text": "4.6 billion dollars.", "isCorrect": true },
+      { "letter": "D", "text": "10 billion dollars.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "Text D: Antibiotic Resistance in Developing Countries\n\nAntibiotic resistance \u2014 the ability of bacteria to survive exposure to drugs designed to kill them \u2014 poses a particularly acute threat in developing countries, where the convergence of several factors accelerates its spread. Unlike in high-income nations, where resistance is primarily driven by overprescription, in low- and middle-income countries (LMICs), the problem is fueled by a combination of over-the-counter antibiotic sales, counterfeit medications, poor sanitation infrastructure, and limited laboratory capacity for bacterial culture and sensitivity testing.\n\nIn many LMICs, antibiotics can be purchased without a prescription at pharmacies and even informal market stalls. A 2022 survey across 12 African and Asian countries found that 62% of antibiotic purchases were made without a prescription, and in 34% of those cases, the antibiotic was inappropriate for the patient\u2019s condition. Counterfeit drugs compound the problem: sub-therapeutic doses of active ingredients kill weaker bacteria while allowing resistant strains to survive and proliferate.\n\nPoor water and sanitation systems further accelerate resistance by facilitating the spread of resistant bacteria through contaminated water sources. Hospitals in LMICs, many of which lack adequate wastewater treatment, can serve as hotspots for environmental dissemination of antibiotic-resistant genes. A study of hospital effluent in Southeast Asia detected genes encoding resistance to last-resort antibiotics such as colistin in 78% of samples tested.\n\nAddressing antibiotic resistance in developing countries requires context-specific strategies. Strengthening pharmaceutical regulation, investing in diagnostic infrastructure so that antibiotics are prescribed based on laboratory evidence rather than clinical guesswork, improving water and sanitation systems, and funding local surveillance networks to track resistance patterns are all critical components. International cooperation is also essential, as resistant bacteria do not respect national borders.\n\n(Original content \u2014 Study2One)",
+    "questionText": "According to the text, what makes antibiotic resistance in developing countries different from the problem in high-income countries?",
+    "explanation": "The text states: \u00abUnlike in high-income nations, where resistance is primarily driven by overprescription, in LMICs, the problem is fueled by a combination of over-the-counter sales, counterfeit medications, poor sanitation, and limited laboratory capacity.\u00bb Option D captures this distinction. Option A says it is the same. Option B says it only affects hospitals. Option C says it is caused by too many doctors.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "It is essentially the same problem with the same causes.", "isCorrect": false },
+      { "letter": "B", "text": "It only affects hospitals and not the general population.", "isCorrect": false },
+      { "letter": "C", "text": "It is caused by too many doctors prescribing the same antibiotic.", "isCorrect": false },
+      { "letter": "D", "text": "It is driven by over-the-counter sales, counterfeit drugs, poor sanitation, and limited diagnostic capacity.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": null,
+    "questionText": "What percentage of antibiotic purchases in the surveyed countries were made without a prescription?",
+    "explanation": "The text states: \u00ab62% of antibiotic purchases were made without a prescription.\u00bb Option B matches. Option A says 34% (the percentage of inappropriate prescriptions). Option C says 78% (colistin resistance percentage). Option D says 90%.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "34%.", "isCorrect": false },
+      { "letter": "B", "text": "62%.", "isCorrect": true },
+      { "letter": "C", "text": "78%.", "isCorrect": false },
+      { "letter": "D", "text": "90%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": null,
+    "questionText": "How do counterfeit drugs contribute to antibiotic resistance?",
+    "explanation": "The text explains: \u00absub-therapeutic doses of active ingredients kill weaker bacteria while allowing resistant strains to survive and proliferate.\u00bb Option C matches. Option A says they contain no chemicals at all. Option B says they are too strong. Option D says they cause immediate allergic reactions.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "They contain no active chemicals, so they have no effect whatsoever.", "isCorrect": false },
+      { "letter": "B", "text": "They are too strong and kill all bacteria, including beneficial ones.", "isCorrect": false },
+      { "letter": "C", "text": "Their low doses of active ingredients kill weak bacteria but let resistant ones survive and multiply.", "isCorrect": true },
+      { "letter": "D", "text": "They cause severe allergic reactions that weaken the patient\u2019s immune system.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": null,
+    "questionText": "The word \u00abeffluent\u00bb in paragraph 3 most likely means:",
+    "explanation": "The text says: \u00abA study of hospital effluent in Southeast Asia detected genes encoding resistance.\u00bb In context, effluent refers to liquid waste or wastewater discharged from the hospital. Option A matches. Option B says staff. Option C says medical equipment. Option D says patients.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Liquid waste or wastewater discharged from a facility.", "isCorrect": true },
+      { "letter": "B", "text": "The medical staff working at a hospital.", "isCorrect": false },
+      { "letter": "C", "text": "The equipment used in a laboratory.", "isCorrect": false },
+      { "letter": "D", "text": "Patients who are discharged from the hospital.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": null,
+    "questionText": "Why does the text say that international cooperation is essential in fighting antibiotic resistance?",
+    "explanation": "The text states: \u00abresistant bacteria do not respect national borders.\u00bb This means resistance can spread globally, so no country can solve the problem alone. Option B matches. Option A says it is only about funding. Option C says bacteria only spread by air travel. Option D says developing countries cannot make their own drugs.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Because only wealthy countries can afford to produce antibiotics.", "isCorrect": false },
+      { "letter": "B", "text": "Because resistant bacteria can spread across borders, making it a global problem.", "isCorrect": true },
+      { "letter": "C", "text": "Because bacteria travel exclusively through international air travel.", "isCorrect": false },
+      { "letter": "D", "text": "Because developing countries do not have the ability to manufacture any drugs.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 51,
+    "caseText": "Text E: Water, Sanitation, and Child Mortality\n\nDespite significant global progress, inadequate water supply and sanitation remain among the leading causes of death in children under five. Diarrheal diseases alone kill approximately 525,000 children in this age group each year, and the vast majority of these deaths are attributable to unsafe drinking water, poor sanitation facilities, and insufficient hygiene practices. The burden falls overwhelmingly on sub-Saharan Africa and South Asia, which together account for more than 80% of child diarrheal deaths.\n\nThe pathways through which unsafe water and sanitation affect child health are well documented. Contaminated water transmits pathogens such as rotavirus, cholera, and typhoid directly through ingestion. Open defecation \u2014 still practiced by an estimated 494 million people worldwide \u2014 contaminates soil and water sources, creating a cycle of reinfection that is particularly devastating for children with developing immune systems. Repeated episodes of diarrhea lead to chronic malnutrition, stunting, and impaired cognitive development, effects that persist into adulthood.\n\nInterventions that have proven effective include the construction of piped water systems, community-led total sanitation programs that aim to eliminate open defecation, household water treatment using chlorine or ceramic filters, and handwashing promotion campaigns. A landmark study in Bangladesh found that communities with access to improved sanitation experienced a 44% reduction in diarrheal disease incidence among children under two.\n\nHowever, progress has been uneven. While urban areas in many developing countries have made substantial gains, rural communities continue to lag behind. Funding gaps are a persistent obstacle: the United Nations estimates that achieving universal access to basic water and sanitation services by 2030 will require annual investments of 114 billion dollars, more than three times the current level of spending. Climate change adds another layer of complexity, as rising temperatures, prolonged droughts, and more frequent flooding threaten to undo decades of progress in water security.\n\n(Original content \u2014 Study2One)",
+    "questionText": "How many children under five die from diarrheal diseases each year?",
+    "explanation": "The text states: \u00abDiarrheal diseases alone kill approximately 525,000 children in this age group each year.\u00bb Option B matches. Option A says 52,500. Option C says 1.2 million. Option D says 5 million.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Approximately 52,500.", "isCorrect": false },
+      { "letter": "B", "text": "Approximately 525,000.", "isCorrect": true },
+      { "letter": "C", "text": "Approximately 1.2 million.", "isCorrect": false },
+      { "letter": "D", "text": "Approximately 5 million.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 52,
+    "caseText": null,
+    "questionText": "According to the text, repeated diarrheal episodes in children can lead to long-term consequences including:",
+    "explanation": "The text states: \u00abRepeated episodes of diarrhea lead to chronic malnutrition, stunting, and impaired cognitive development, effects that persist into adulthood.\u00bb Option A matches. Option B says stronger immunity. Option C says hearing loss. Option D says improved gut bacteria.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Chronic malnutrition, stunting, and impaired cognitive development.", "isCorrect": true },
+      { "letter": "B", "text": "Stronger immunity and resistance to future infections.", "isCorrect": false },
+      { "letter": "C", "text": "Permanent hearing loss and vision problems.", "isCorrect": false },
+      { "letter": "D", "text": "Improved gut bacteria and better nutrient absorption.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 53,
+    "caseText": null,
+    "questionText": "What reduction in diarrheal disease was observed in the Bangladesh study?",
+    "explanation": "The text states: \u00abcommunities with access to improved sanitation experienced a 44% reduction in diarrheal disease incidence among children under two.\u00bb Option C matches. Option A says 12%. Option B says 28%. Option D says 80%.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "A 12% reduction.", "isCorrect": false },
+      { "letter": "B", "text": "A 28% reduction.", "isCorrect": false },
+      { "letter": "C", "text": "A 44% reduction.", "isCorrect": true },
+      { "letter": "D", "text": "An 80% reduction.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 54,
+    "caseText": null,
+    "questionText": "According to the text, how much annual investment is needed to achieve universal basic water and sanitation by 2030?",
+    "explanation": "The text states: \u00abachieving universal access to basic water and sanitation services by 2030 will require annual investments of 114 billion dollars.\u00bb Option D matches. Option A says 30 billion. Option B says 50 billion. Option C says 80 billion.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "30 billion dollars per year.", "isCorrect": false },
+      { "letter": "B", "text": "50 billion dollars per year.", "isCorrect": false },
+      { "letter": "C", "text": "80 billion dollars per year.", "isCorrect": false },
+      { "letter": "D", "text": "114 billion dollars per year.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 55,
+    "caseText": null,
+    "questionText": "The text suggests that climate change threatens water security because:",
+    "explanation": "The text states: \u00abrising temperatures, prolonged droughts, and more frequent flooding threaten to undo decades of progress in water security.\u00bb Option B matches. Option A says it increases rainfall everywhere. Option C says it only affects ocean water. Option D says it has no real connection to sanitation.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "It increases rainfall everywhere, causing permanent flooding of water systems.", "isCorrect": false },
+      { "letter": "B", "text": "Droughts, rising temperatures, and flooding can reverse progress made in clean water access.", "isCorrect": true },
+      { "letter": "C", "text": "It only affects ocean water and has no impact on freshwater supplies.", "isCorrect": false },
+      { "letter": "D", "text": "There is no real connection between climate change and water sanitation.", "isCorrect": false }
+    ]
+  }
+]

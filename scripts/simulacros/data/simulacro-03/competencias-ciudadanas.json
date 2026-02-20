@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "El artículo 86 de la Constitución Política de Colombia establece la acción de tutela como mecanismo de protección inmediata de los derechos fundamentales. En la práctica, la tutela se ha convertido en el principal instrumento para garantizar el acceso al derecho a la salud. Según la Defensoría del Pueblo, en 2022 se interpusieron más de 230.000 tutelas en salud, siendo las principales causas la negación de medicamentos, demoras en citas con especialistas y la falta de autorización de procedimientos quirúrgicos.\n\n(Redacción Study2One, con referencia al artículo 86 de la Constitución de 1991)",
+    "questionText": "¿Cuál es la principal razón por la que la acción de tutela se ha convertido en el mecanismo más utilizado para acceder a servicios de salud en Colombia?",
+    "explanation": "La tutela es un mecanismo judicial preferente y sumario diseñado para proteger derechos fundamentales de manera urgente. Su uso masivo en salud evidencia que los mecanismos administrativos ordinarios del sistema (autorizaciones de EPS, PQRS, Superintendencia de Salud) no resuelven oportunamente las necesidades de los pacientes. Cuando las EPS niegan o demoran servicios, la tutela se convierte en la última vía efectiva para el paciente.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Porque es el único mecanismo jurídico que existe en Colombia para reclamar derechos.", "isCorrect": false },
+      { "letter": "B", "text": "Porque los mecanismos administrativos ordinarios del sistema de salud no resuelven oportunamente las necesidades de los pacientes.", "isCorrect": true },
+      { "letter": "C", "text": "Porque los abogados promueven su uso masivo para obtener honorarios profesionales.", "isCorrect": false },
+      { "letter": "D", "text": "Porque la Constitución obliga a interponer tutela antes de cualquier consulta médica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "¿Cuál de las siguientes situaciones NO amerita una acción de tutela en salud según la jurisprudencia constitucional colombiana?",
+    "explanation": "La acción de tutela en salud procede cuando hay vulneración o amenaza de derechos fundamentales (negación de tratamientos vitales, demoras injustificadas, falta de medicamentos esenciales). La solicitud de una cirugía estética electiva sin justificación médica no constituye una amenaza a derechos fundamentales, ya que no compromete la vida ni la integridad del paciente. La tutela no es un mecanismo para obtener servicios que no son médicamente necesarios.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "La negación de un medicamento de alto costo que el médico tratante ha prescrito como indispensable.", "isCorrect": false },
+      { "letter": "B", "text": "La demora de más de seis meses en la autorización de una cirugía cardíaca urgente.", "isCorrect": false },
+      { "letter": "C", "text": "La solicitud de una cirugía estética electiva sin justificación médica ni afectación de la salud.", "isCorrect": true },
+      { "letter": "D", "text": "La interrupción unilateral de un tratamiento oncológico por parte de la EPS.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "La Ley 1733 de 2014 regula los servicios de cuidados paliativos en Colombia y reconoce el derecho de toda persona a suscribir un Documento de Voluntad Anticipada (DVA). Mediante este documento, una persona mayor de edad, en pleno uso de sus facultades mentales, puede expresar su voluntad sobre los tratamientos médicos que desea o no desea recibir en caso de encontrarse en una situación de enfermedad terminal, estado vegetativo o condición clínica irreversible.\n\n(Redacción Study2One, con referencia a la Ley 1733 de 2014)",
+    "questionText": "El Documento de Voluntad Anticipada tiene como propósito principal:",
+    "explanation": "El DVA es un instrumento jurídico que permite a la persona ejercer su autonomía de manera anticipada, garantizando que sus deseos sean respetados cuando ya no pueda comunicarlos. Se fundamenta en el principio de autonomía del paciente y en el respeto a la dignidad humana. No es un testamento patrimonial ni autoriza la eutanasia por sí mismo; es una declaración de voluntad sobre tratamientos médicos futuros.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Garantizar que la persona pueda decidir anticipadamente sobre los tratamientos médicos que desea o no recibir cuando no pueda expresar su voluntad.", "isCorrect": true },
+      { "letter": "B", "text": "Autorizar automáticamente la eutanasia cuando el paciente pierda la consciencia.", "isCorrect": false },
+      { "letter": "C", "text": "Distribuir los bienes del paciente entre sus familiares antes de una enfermedad terminal.", "isCorrect": false },
+      { "letter": "D", "text": "Permitir que los médicos decidan unilateralmente suspender los tratamientos del paciente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Una paciente de 65 años con diagnóstico de enfermedad de Alzheimer en etapa temprana suscribe un Documento de Voluntad Anticipada en el que solicita que, cuando la enfermedad avance y pierda la capacidad de decidir, no se le apliquen medidas de reanimación ni se le conecte a ventilación mecánica. Dos años después, la paciente se encuentra en etapa avanzada de la enfermedad y presenta una neumonía grave. Su hijo solicita que se realicen todos los procedimientos invasivos posibles para mantenerla con vida, argumentando que «ella ya no es la misma persona que firmó ese documento».\n\n(Redacción Study2One)",
+    "questionText": "Según la normativa colombiana, ¿qué debe hacer el equipo médico?",
+    "explanation": "La Ley 1733 de 2014 y la Resolución 2665 de 2018 establecen que el DVA es vinculante para el equipo médico, siempre que haya sido suscrito por una persona capaz y ante testigos o notario. El argumento de que «ya no es la misma persona» no invalida jurídicamente el documento, pues fue suscrito cuando la paciente tenía plena capacidad. La voluntad anticipada del paciente prevalece sobre los deseos de los familiares.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Seguir las indicaciones del hijo porque es el familiar más cercano y la paciente ya no puede decidir.", "isCorrect": false },
+      { "letter": "B", "text": "Respetar el Documento de Voluntad Anticipada de la paciente, que fue suscrito cuando ella tenía plena capacidad de decidir.", "isCorrect": true },
+      { "letter": "C", "text": "Ignorar ambas posiciones y aplicar el tratamiento que el equipo médico considere más adecuado.", "isCorrect": false },
+      { "letter": "D", "text": "Esperar a que un juez determine cuál voluntad prevalece mediante una acción de tutela.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "La Declaración de Helsinki de la Asociación Médica Mundial establece los principios éticos que rigen la investigación médica en seres humanos. Entre sus principios fundamentales se encuentra que «el bienestar del sujeto de investigación debe tener siempre primacía sobre todos los otros intereses». Un laboratorio multinacional propone realizar un ensayo clínico de fase III en Colombia para probar un nuevo medicamento contra el cáncer de pulmón. El estudio ofrece el medicamento experimental gratuitamente a los participantes, pero el consentimiento informado está redactado exclusivamente en inglés y los participantes potenciales son pacientes de escasos recursos con educación primaria incompleta.\n\n(Redacción Study2One, con referencia a la Declaración de Helsinki)",
+    "questionText": "¿Cuál principio ético de investigación se vulnera con el consentimiento informado descrito?",
+    "explanation": "El consentimiento informado debe ser comprensible para el participante, lo que implica que esté en su idioma nativo y adaptado a su nivel educativo. Un documento en inglés para pacientes hispanohablantes con educación primaria incompleta no garantiza la comprensión real de los riesgos, beneficios y derechos. La Resolución 8430 de 1993 exige que el consentimiento sea en un lenguaje comprensible para el sujeto de investigación.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El principio de justicia, porque el medicamento no se distribuye equitativamente.", "isCorrect": false },
+      { "letter": "B", "text": "El principio de autonomía, porque un consentimiento incomprensible para el participante no garantiza una decisión libre e informada.", "isCorrect": true },
+      { "letter": "C", "text": "El principio de beneficencia, porque el medicamento podría no ser eficaz.", "isCorrect": false },
+      { "letter": "D", "text": "El principio de confidencialidad, porque el documento está en otro idioma.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "Según la Declaración de Helsinki, ¿qué obligación tiene el investigador con los participantes de un ensayo clínico una vez finalizado el estudio?",
+    "explanation": "La Declaración de Helsinki (párrafo 34) establece que antes de iniciar un ensayo clínico, los investigadores deben hacer provisiones para que los participantes que se beneficiaron del tratamiento durante el estudio tengan acceso al mismo después de su conclusión. Esto se conoce como «acceso post-estudio» y busca evitar la explotación de poblaciones vulnerables que participan en investigaciones pero luego quedan sin acceso al tratamiento probado.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Ninguna obligación; la relación termina al concluir el estudio.", "isCorrect": false },
+      { "letter": "B", "text": "Garantizar que los participantes que se beneficiaron del tratamiento tengan acceso a él una vez finalizado el estudio.", "isCorrect": true },
+      { "letter": "C", "text": "Publicar los resultados únicamente si son favorables al medicamento.", "isCorrect": false },
+      { "letter": "D", "text": "Compensar económicamente a todos los participantes sin importar el resultado del estudio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Un estudio comparativo entre dos departamentos colombianos revela las siguientes disparidades en indicadores de salud:\n\n| Indicador | Departamento A (zona andina, industrializada) | Departamento B (zona pacífica, rural) |\n|-----------|----------------------------------------------|--------------------------------------|\n| Médicos por 10.000 hab. | 22 | 3 |\n| Camas hospitalarias por 10.000 hab. | 18 | 4 |\n| Mortalidad materna (×100.000 NV) | 28 | 142 |\n| Cobertura de acueducto | 96 % | 38 % |\n| Pobreza multidimensional | 12 % | 67 % |\n\n(Datos ficticios basados en tendencias reales — Redacción Study2One)",
+    "questionText": "Los datos de la tabla evidencian principalmente:",
+    "explanation": "Las disparidades mostradas entre ambos departamentos revelan una profunda inequidad territorial en la distribución de recursos de salud y en las condiciones socioeconómicas. El departamento B, más pobre y con menor infraestructura, presenta indicadores de salud significativamente peores. Esto refleja un problema estructural de equidad: las poblaciones con mayores necesidades reciben menos recursos, perpetuando un círculo de pobreza y enfermedad.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Que los habitantes del Departamento B tienen peores hábitos de salud que los del Departamento A.", "isCorrect": false },
+      { "letter": "B", "text": "Que existe una inequidad territorial estructural en la distribución de recursos de salud y condiciones socioeconómicas.", "isCorrect": true },
+      { "letter": "C", "text": "Que la zona pacífica es naturalmente menos saludable que la zona andina por factores climáticos.", "isCorrect": false },
+      { "letter": "D", "text": "Que el Departamento A invierte más en salud porque recauda más impuestos locales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "Para reducir las disparidades territoriales en salud evidenciadas en la tabla anterior, la estrategia más coherente con el principio de equidad sería:",
+    "explanation": "El principio de equidad en salud establece que los recursos deben distribuirse según las necesidades, no de forma igualitaria. Un departamento con indicadores críticos (alta mortalidad materna, escasez de profesionales, pobreza extrema) necesita una inversión proporcionalmente mayor para cerrar las brechas. Distribuir recursos por igual mantendría la inequidad existente. La formación de talento humano local es clave para la sostenibilidad.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Distribuir el presupuesto nacional de salud en partes iguales entre todos los departamentos.", "isCorrect": false },
+      { "letter": "B", "text": "Asignar proporcionalmente más recursos al Departamento B, priorizando formación de talento humano local, infraestructura básica y agua potable.", "isCorrect": true },
+      { "letter": "C", "text": "Trasladar a los habitantes del Departamento B al Departamento A para que accedan a mejores servicios.", "isCorrect": false },
+      { "letter": "D", "text": "Reducir los recursos del Departamento A para compensar al Departamento B.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "La Corte Constitucional de Colombia, mediante la Sentencia C-239 de 1997 y la Sentencia T-970 de 2014, despenalizó la eutanasia en casos de enfermos terminales que la soliciten de manera libre, informada y reiterada, y reglamentó el procedimiento. La Resolución 971 de 2021 del Ministerio de Salud estableció los protocolos para el derecho a morir con dignidad, incluyendo los comités científico-interdisciplinarios que deben evaluar cada solicitud.\n\n(Redacción Study2One, con referencia a la Sentencia C-239 de 1997, Sentencia T-970 de 2014 y Resolución 971 de 2021)",
+    "questionText": "Según la normativa colombiana, ¿cuáles son los requisitos para que una persona pueda acceder al procedimiento de eutanasia?",
+    "explanation": "La jurisprudencia constitucional colombiana ha establecido requisitos claros: (1) padecer una enfermedad terminal o una lesión corporal grave e incurable que cause sufrimiento; (2) que la solicitud sea libre, informada y reiterada; (3) que un comité científico-interdisciplinario evalúe y apruebe la solicitud. En 2022, la Corte amplió el derecho a personas con enfermedades no necesariamente terminales pero que causen sufrimiento intenso e incompatible con la dignidad.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Cualquier persona puede solicitarla sin importar su condición médica.", "isCorrect": false },
+      { "letter": "B", "text": "Solo puede solicitarla un familiar del paciente cuando este se encuentre en estado de inconsciencia.", "isCorrect": false },
+      { "letter": "C", "text": "El paciente debe padecer una enfermedad terminal o condición que cause sufrimiento intenso, y la solicitud debe ser libre, informada y reiterada, evaluada por un comité interdisciplinario.", "isCorrect": true },
+      { "letter": "D", "text": "Basta con la solicitud del paciente y la aprobación de su médico tratante, sin necesidad de comité.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "En un hospital de Bogotá, un paciente de 52 años con esclerosis lateral amiotrófica (ELA) avanzada solicita el procedimiento de eutanasia. Su médico tratante, por razones de convicción religiosa, se niega a participar en el proceso. El hospital no cuenta con otro médico dispuesto a atender la solicitud.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva de los derechos del paciente y del médico, ¿cuál es la solución jurídicamente correcta?",
+    "explanation": "La objeción de conciencia es un derecho individual del médico reconocido constitucionalmente, pero no puede ser un obstáculo para el ejercicio del derecho del paciente a morir con dignidad. La Resolución 971 de 2021 establece que la institución prestadora de salud tiene la obligación de garantizar que otro profesional atienda la solicitud dentro de los plazos establecidos. La objeción de conciencia no puede ser institucional, solo individual.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "El médico debe realizar el procedimiento porque su obligación profesional prevalece sobre sus convicciones personales.", "isCorrect": false },
+      { "letter": "B", "text": "El hospital debe respetar la objeción de conciencia del médico y a la vez garantizar que otro profesional atienda la solicitud del paciente en los plazos establecidos.", "isCorrect": true },
+      { "letter": "C", "text": "La solicitud debe ser denegada porque el hospital no cuenta con médicos dispuestos a realizar el procedimiento.", "isCorrect": false },
+      { "letter": "D", "text": "El paciente debe buscar por su cuenta otro hospital que realice el procedimiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "Un ensayo clínico de fase I se desarrolla en un hospital universitario de Medellín para probar un nuevo medicamento antirretroviral. Los participantes son pacientes con VIH que no han respondido a los tratamientos convencionales. Durante el estudio, un participante presenta efectos adversos graves no previstos. El protocolo del ensayo establece que los investigadores deben reportar los eventos adversos graves dentro de las 24 horas siguientes.\n\n(Redacción Study2One)",
+    "questionText": "Si los investigadores deciden no reportar el evento adverso grave para evitar la suspensión del ensayo, ¿cuáles principios éticos de investigación se vulneran?",
+    "explanation": "No reportar un evento adverso grave vulnera múltiples principios: (1) no maleficencia, porque ocultar riesgos expone a otros participantes a peligros desconocidos; (2) transparencia e integridad científica, porque altera la evidencia del estudio; (3) justicia, porque los participantes tienen derecho a conocer los riesgos reales. La Resolución 8430 de 1993 y la Declaración de Helsinki obligan al reporte inmediato de eventos adversos graves y, si es necesario, a la suspensión del estudio.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Solo el principio de confidencialidad, porque no se protegió la identidad del participante afectado.", "isCorrect": false },
+      { "letter": "B", "text": "Los principios de no maleficencia, transparencia científica y justicia, al exponer a otros participantes a riesgos ocultos.", "isCorrect": true },
+      { "letter": "C", "text": "Solo el principio de beneficencia, porque el medicamento podría haber ayudado al participante.", "isCorrect": false },
+      { "letter": "D", "text": "Ningún principio, porque los eventos adversos son inherentes a toda investigación clínica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Un paciente con esquizofrenia paranoide en fase aguda presenta conductas agresivas hacia sí mismo y hacia terceros. Su familia solicita la hospitalización psiquiátrica involuntaria. En Colombia, la Ley 1616 de 2013 de Salud Mental establece que la internación involuntaria es una medida excepcional que solo procede cuando existe riesgo inminente para la vida o la integridad del paciente o de terceros, y debe ser lo más breve posible.\n\n(Redacción Study2One, con referencia a la Ley 1616 de 2013)",
+    "questionText": "¿Cuál es el límite que debe respetar la internación psiquiátrica involuntaria según la normativa colombiana?",
+    "explanation": "La Ley 1616 de 2013 y los estándares internacionales (Principios de la ONU para la Protección de Enfermos Mentales) establecen que la internación involuntaria: (1) debe ser una medida de último recurso; (2) requiere evaluación por profesional de salud mental calificado; (3) debe durar solo lo estrictamente necesario; (4) debe revisarse periódicamente; (5) el paciente conserva todos los derechos que no sean incompatibles con la internación. El objetivo es estabilizar al paciente, no recluirlo indefinidamente.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "No tiene límite; una vez internado, el paciente permanece hasta que la familia decida darlo de alta.", "isCorrect": false },
+      { "letter": "B", "text": "Debe ser una medida excepcional, lo más breve posible, evaluada por profesional calificado y revisada periódicamente, respetando los derechos del paciente.", "isCorrect": true },
+      { "letter": "C", "text": "Puede durar indefinidamente si el psiquiatra considera que el paciente sigue representando un riesgo.", "isCorrect": false },
+      { "letter": "D", "text": "Solo puede durar 24 horas, después de las cuales el paciente debe ser dado de alta obligatoriamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "En un hospital público de Cali, la unidad de cuidados intensivos (UCI) tiene 10 camas, todas ocupadas. Llegan simultáneamente tres pacientes que requieren UCI:\n\n• Paciente A: Mujer de 35 años, madre de tres hijos, con insuficiencia respiratoria por neumonía grave. Pronóstico favorable con UCI.\n• Paciente B: Hombre de 78 años con falla multiorgánica y cáncer metastásico terminal. Pronóstico reservado.\n• Paciente C: Adolescente de 16 años con trauma craneoencefálico severo por accidente de tránsito. Pronóstico incierto.\n\n(Redacción Study2One)",
+    "questionText": "Desde la ética médica, ¿cuál criterio debe guiar la decisión de asignación de la cama de UCI cuando se libere una?",
+    "explanation": "En situaciones de escasez de recursos, la ética médica y los protocolos de triaje establecen que la asignación debe basarse en criterios clínicos objetivos: probabilidad de beneficio (sobrevivencia con calidad de vida), gravedad reversible y respuesta esperada al tratamiento. No deben usarse criterios discriminatorios como edad, género, estatus socioeconómico, rol social o valor percibido de la persona. Comités de ética pueden apoyar estas decisiones.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La edad del paciente: los más jóvenes deben tener prioridad automática.", "isCorrect": false },
+      { "letter": "B", "text": "El rol social del paciente: la madre de familia tiene más responsabilidades.", "isCorrect": false },
+      { "letter": "C", "text": "Criterios clínicos objetivos: probabilidad de beneficio, gravedad reversible y respuesta esperada al tratamiento intensivo.", "isCorrect": true },
+      { "letter": "D", "text": "El orden de llegada: el primero que llegó al hospital tiene prioridad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "En el contexto del caso anterior, ¿por qué es éticamente inadecuado utilizar la edad como criterio exclusivo de asignación de UCI?",
+    "explanation": "Utilizar la edad como criterio exclusivo constituye discriminación por edad (edadismo), prohibida por la Constitución colombiana (art. 13, derecho a la igualdad) y los tratados internacionales de derechos humanos. La edad puede ser un factor clínico relevante (reserva fisiológica), pero no puede ser el único criterio. Un paciente anciano con buen pronóstico tiene tanto derecho a la UCI como un joven. La decisión debe ser multifactorial y basada en la evidencia clínica individual.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Porque los pacientes jóvenes siempre tienen mejor pronóstico que los mayores.", "isCorrect": false },
+      { "letter": "B", "text": "Porque constituye discriminación por edad, y la decisión debe ser multifactorial basada en el pronóstico clínico individual de cada paciente.", "isCorrect": true },
+      { "letter": "C", "text": "Porque la ley colombiana prohíbe que los adultos mayores ingresen a UCI.", "isCorrect": false },
+      { "letter": "D", "text": "Porque es irrelevante; todos los pacientes deben recibir UCI independientemente de su condición.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "La Ley 1618 de 2013 establece las disposiciones para garantizar el pleno ejercicio de los derechos de las personas con discapacidad en Colombia. Entre sus mandatos, ordena que el sistema de salud garantice la accesibilidad física, comunicativa y actitudinal a todos los servicios de salud. Un paciente con discapacidad auditiva acude a urgencias de un hospital público. No hay intérprete de lengua de señas disponible, la señalización del hospital no incluye pictogramas y el personal de admisiones se comunica exclusivamente de forma oral.\n\n(Redacción Study2One, con referencia a la Ley 1618 de 2013)",
+    "questionText": "Las barreras que enfrenta el paciente evidencian una vulneración del principio de:",
+    "explanation": "La Ley 1618 de 2013 y la Convención sobre los Derechos de las Personas con Discapacidad (ratificada por Colombia) exigen que los servicios de salud sean accesibles para todas las personas, incluyendo la accesibilidad comunicativa. La ausencia de intérprete, señalización accesible y protocolos de comunicación alternativa constituye una barrera de acceso que vulnera el derecho a la salud en su componente de accesibilidad y el principio de inclusión.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Eficiencia administrativa, porque el hospital no ha optimizado sus recursos.", "isCorrect": false },
+      { "letter": "B", "text": "Accesibilidad e inclusión, al no garantizar la comunicación efectiva con una persona con discapacidad auditiva.", "isCorrect": true },
+      { "letter": "C", "text": "Confidencialidad, porque el personal no puede proteger la información del paciente.", "isCorrect": false },
+      { "letter": "D", "text": "Solidaridad, porque otros pacientes deberían ayudar a comunicarse con el paciente sordo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Una empresa multinacional instala una planta de procesamiento químico en un municipio del sur de Bolívar, generando empleo para 200 personas. Sin embargo, los residuos de la planta contaminan el río principal de la zona, del cual dependen 5.000 habitantes para el consumo de agua y la pesca. Tres años después de la instalación, se registra un aumento del 300 % en enfermedades respiratorias y dermatológicas en la población, y los pescadores reportan la desaparición de varias especies acuáticas.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva de la justicia ambiental, esta situación ilustra:",
+    "explanation": "La justicia ambiental se refiere a la distribución equitativa de cargas y beneficios ambientales. En este caso, los beneficios económicos (empleo para 200 personas, ganancias de la multinacional) se concentran en pocos, mientras que las cargas ambientales y de salud (contaminación, enfermedades, pérdida de medios de vida) recaen sobre una comunidad mucho más amplia (5.000 habitantes). La Constitución colombiana (art. 79 y 80) reconoce el derecho a un ambiente sano y el deber del Estado de prevenir el deterioro ambiental.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Un progreso económico necesario que la comunidad debe aceptar como precio del desarrollo.", "isCorrect": false },
+      { "letter": "B", "text": "Una distribución inequitativa de cargas ambientales: los beneficios económicos se concentran en pocos, mientras los daños a la salud afectan a toda la comunidad.", "isCorrect": true },
+      { "letter": "C", "text": "Un problema exclusivamente ambiental que no tiene relación con la salud de la población.", "isCorrect": false },
+      { "letter": "D", "text": "Una situación aceptable porque la empresa genera empleo y paga impuestos al municipio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "¿Cuál mecanismo constitucional es el más adecuado para que los habitantes afectados por la contaminación del río protejan sus derechos colectivos al ambiente sano y a la salud pública?",
+    "explanation": "La acción popular (art. 88 de la Constitución, Ley 472 de 1998) es el mecanismo diseñado para proteger derechos e intereses colectivos, como el ambiente sano, la salubridad pública y el equilibrio ecológico. A diferencia de la tutela (que protege derechos individuales), la acción popular puede beneficiar a toda la comunidad afectada y generar órdenes de reparación colectiva.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Una acción de tutela individual interpuesta por cada uno de los 5.000 habitantes.", "isCorrect": false },
+      { "letter": "B", "text": "Una acción popular para proteger los derechos colectivos al ambiente sano y la salubridad pública.", "isCorrect": true },
+      { "letter": "C", "text": "Un derecho de petición ante la empresa multinacional solicitando que reduzca la contaminación.", "isCorrect": false },
+      { "letter": "D", "text": "Una demanda laboral colectiva ante el Ministerio de Trabajo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "La Ley 1164 de 2007 reconoce que los sistemas de medicina tradicional de los pueblos indígenas y las comunidades afrocolombianas son parte del patrimonio cultural del país. La Organización Mundial de la Salud (OMS) también ha promovido la integración de la medicina tradicional en los sistemas de salud nacionales. En el departamento del Amazonas, un programa piloto del Ministerio de Salud busca integrar los saberes de los taitas (médicos tradicionales indígenas) con la medicina occidental para la atención de enfermedades comunes en las comunidades.\n\n(Redacción Study2One, con referencia a la Ley 1164 de 2007)",
+    "questionText": "¿Cuál es el principal desafío ético de integrar la medicina tradicional en el sistema de salud colombiano?",
+    "explanation": "La integración de la medicina tradicional plantea el desafío de encontrar un equilibrio entre el respeto a los saberes ancestrales (protegidos por la Constitución en sus artículos 7 y 70) y la garantía de seguridad y eficacia para los pacientes. No se trata de subordinar un sistema al otro, sino de establecer un diálogo intercultural que proteja los derechos de los pacientes. El riesgo está tanto en desconocer los saberes tradicionales como en aceptarlos sin ningún criterio de seguridad.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Que la medicina tradicional reemplace completamente a la medicina occidental en las zonas rurales.", "isCorrect": false },
+      { "letter": "B", "text": "Encontrar un equilibrio entre el respeto a los saberes ancestrales y la garantía de seguridad y eficacia para los pacientes.", "isCorrect": true },
+      { "letter": "C", "text": "Que los médicos occidentales se vean obligados a aprender todas las prácticas indígenas.", "isCorrect": false },
+      { "letter": "D", "text": "Que la medicina tradicional deba demostrar eficacia mediante ensayos clínicos aleatorizados antes de cualquier uso.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Durante la pandemia de COVID-19, se difundieron masivamente en redes sociales mensajes que promovían el consumo de dióxido de cloro como tratamiento contra el virus, a pesar de que la OMS, el INVIMA y la comunidad científica advirtieron que esta sustancia es tóxica y puede causar lesiones graves en el tracto gastrointestinal. Varias personas en Colombia fueron hospitalizadas por intoxicación tras consumir dióxido de cloro por recomendación de influenciadores de redes sociales sin formación médica.\n\n(Redacción Study2One)",
+    "questionText": "Desde la ética de la comunicación en salud, ¿cuál es la principal responsabilidad de quien difunde información sobre tratamientos médicos en redes sociales?",
+    "explanation": "La difusión de información falsa sobre tratamientos médicos puede causar daño directo a la salud de las personas. Quien difunde información sobre salud tiene la responsabilidad ética de verificar que sea científicamente respaldada, no induzca a conductas peligrosas y no reemplace la consulta médica profesional. El Código Penal colombiano (art. 373) tipifica la comercialización de productos nocivos para la salud, y la Ley 1341 de 2009 establece responsabilidades sobre contenidos digitales.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Verificar que la información sea científicamente respaldada y no induzca a conductas que pongan en riesgo la salud de las personas.", "isCorrect": true },
+      { "letter": "B", "text": "No tiene ninguna responsabilidad porque la libertad de expresión es absoluta en las redes sociales.", "isCorrect": false },
+      { "letter": "C", "text": "Poner un aviso de «esto no es consejo médico» es suficiente para eximirse de responsabilidad.", "isCorrect": false },
+      { "letter": "D", "text": "Solo los médicos pueden difundir información de salud; cualquier otra persona tiene prohibido hacerlo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "Un grupo de ciudadanos denuncia que en su municipio, las autoridades de salud difunden campañas de vacunación únicamente en español escrito, a pesar de que el 40 % de la población es indígena y habla primordialmente wayuunaiki. Como resultado, la cobertura de vacunación en la comunidad indígena es del 35 %, frente al 90 % en la población hispanohablante.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "La brecha en cobertura de vacunación descrita se debe principalmente a:",
+    "explanation": "La comunicación en salud debe ser culturalmente pertinente y lingüísticamente accesible para toda la población. Cuando las campañas se diseñan sin considerar la diversidad lingüística y cultural, generan barreras de acceso que afectan desproporcionadamente a las minorías étnicas. La Ley 1381 de 2010 (Ley de Lenguas Nativas) establece el deber del Estado de garantizar el acceso a servicios públicos en las lenguas nativas del territorio.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "La resistencia natural de la comunidad indígena a la vacunación.", "isCorrect": false },
+      { "letter": "B", "text": "Una barrera comunicativa y cultural, al no adaptar las campañas de salud a la lengua y contexto cultural de la población indígena.", "isCorrect": true },
+      { "letter": "C", "text": "La falta de vacunas disponibles para la población indígena.", "isCorrect": false },
+      { "letter": "D", "text": "La distancia geográfica entre los centros de salud y las comunidades indígenas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Una pareja de mujeres solicita acceder a un tratamiento de reproducción asistida (inseminación artificial) en un centro médico de Bogotá. El director médico del centro niega el servicio argumentando que «la reproducción asistida está diseñada para parejas heterosexuales con problemas de fertilidad, no para parejas del mismo sexo». La pareja señala que la Corte Constitucional ha reconocido los derechos de las parejas del mismo sexo y que el derecho a conformar una familia es fundamental.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál principio constitucional se vulnera con la negativa del centro médico?",
+    "explanation": "La Corte Constitucional colombiana (Sentencia SU-214 de 2016 y otras) ha reconocido que las parejas del mismo sexo tienen los mismos derechos que las parejas heterosexuales, incluido el derecho a conformar una familia (art. 42 de la Constitución). Negar un servicio médico disponible por la orientación sexual de los solicitantes constituye discriminación, prohibida por el artículo 13 de la Constitución, que consagra el derecho a la igualdad y prohíbe la discriminación por cualquier condición.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El principio de eficiencia, porque la reproducción asistida es un recurso limitado.", "isCorrect": false },
+      { "letter": "B", "text": "El derecho a la igualdad y la no discriminación, al negar un servicio disponible por la orientación sexual de la pareja.", "isCorrect": true },
+      { "letter": "C", "text": "El principio de subsidiariedad, porque el Estado debería asumir el costo del procedimiento.", "isCorrect": false },
+      { "letter": "D", "text": "No se vulnera ningún principio; el centro médico tiene autonomía para decidir a quién atiende.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "En Colombia, los episodios de agresión contra personal de salud han aumentado significativamente. Un informe del Ministerio de Salud registra que, en el último año, se reportaron más de 1.200 agresiones contra profesionales y auxiliares de salud en servicios de urgencias, incluyendo agresiones verbales, amenazas, lesiones físicas y daño a infraestructura hospitalaria. Las principales causas identificadas son: insatisfacción por tiempos de espera, desacuerdo con el diagnóstico y consumo de alcohol o sustancias psicoactivas por parte de los agresores.\n\n(Datos ficticios basados en tendencias reales — Redacción Study2One)",
+    "questionText": "Desde una perspectiva integral, ¿cuál estrategia sería más efectiva para reducir la violencia contra el personal de salud?",
+    "explanation": "La violencia contra el personal de salud es un problema multifactorial que requiere intervenciones en múltiples niveles: (1) mejorar los tiempos de espera y la calidad de la atención (causa raíz de la insatisfacción); (2) capacitar al personal en manejo de conflictos y comunicación empática; (3) fortalecer la seguridad física en los servicios; (4) aplicar sanciones efectivas contra los agresores. Las medidas aisladas (solo más vigilancia o solo más médicos) son insuficientes cuando las causas son múltiples.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Instalar cámaras de vigilancia en todas las áreas del hospital como única medida disuasoria.", "isCorrect": false },
+      { "letter": "B", "text": "Un programa integral que combine mejora de la atención, capacitación en manejo de conflictos, protocolos de seguridad y sanciones efectivas.", "isCorrect": true },
+      { "letter": "C", "text": "Prohibir el acceso de acompañantes a los servicios de urgencias.", "isCorrect": false },
+      { "letter": "D", "text": "Armar al personal de seguridad del hospital para intimidar a los potenciales agresores.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Un laboratorio de genética ofrece un servicio de pruebas genéticas directas al consumidor (DTC, por sus siglas en inglés) en Colombia. Sin prescripción médica, cualquier persona puede enviar una muestra de saliva y recibir un informe sobre su predisposición genética a enfermedades como Alzheimer, cáncer de mama y diabetes tipo 2. Una empleadora solicita que todos los candidatos a un puesto de trabajo presenten los resultados de una prueba genética como requisito de contratación.\n\n(Redacción Study2One)",
+    "questionText": "La solicitud de la empleadora de exigir pruebas genéticas para la contratación es éticamente problemática porque:",
+    "explanation": "La discriminación por información genética es una forma de discriminación basada en características inherentes e inalterables de la persona. Utilizar datos genéticos para decisiones laborales vulnera el derecho a la intimidad genética, a la igualdad y a la no discriminación. La Ley 1581 de 2012 clasifica los datos genéticos como datos sensibles de máxima protección. Internacionalmente, la Declaración Universal sobre el Genoma Humano y los Derechos Humanos (UNESCO, 1997) prohíbe la discriminación basada en características genéticas.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Porque las pruebas genéticas son muy costosas y la empleadora debería asumirlas.", "isCorrect": false },
+      { "letter": "B", "text": "Porque constituye discriminación genética, al usar información sensible e inalterable para decisiones laborales, vulnerando la intimidad y la igualdad.", "isCorrect": true },
+      { "letter": "C", "text": "Porque las pruebas genéticas no son confiables y podrían dar resultados falsos.", "isCorrect": false },
+      { "letter": "D", "text": "Porque solo los médicos pueden solicitar pruebas genéticas, no los empleadores.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "En el departamento de Arauca, una comunidad indígena U'wa ha denunciado que las fumigaciones aéreas contra cultivos ilícitos afectan sus territorios ancestrales, contaminando fuentes de agua, destruyendo cultivos de subsistencia y causando problemas de salud (irritaciones cutáneas, problemas respiratorios y abortos espontáneos). El gobierno argumenta que las fumigaciones son necesarias para combatir el narcotráfico. La comunidad U'wa exige que se aplique el derecho a la consulta previa libre e informada antes de cualquier intervención en su territorio.\n\n(Redacción Study2One)",
+    "questionText": "El conflicto descrito refleja una tensión entre:",
+    "explanation": "Este caso ilustra la tensión entre la política de seguridad del Estado (lucha contra el narcotráfico) y los derechos territoriales, ambientales y de salud de las comunidades indígenas. La Constitución colombiana (art. 330) y el Convenio 169 de la OIT reconocen el derecho a la consulta previa libre e informada antes de intervenciones que afecten territorios indígenas. La Corte Constitucional (Sentencia T-236 de 2017) ha protegido este derecho incluso frente a políticas antinarcóticos.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La política de seguridad del Estado y los derechos territoriales, ambientales y de salud de las comunidades indígenas.", "isCorrect": true },
+      { "letter": "B", "text": "Los intereses económicos de la comunidad indígena y el presupuesto militar del Estado.", "isCorrect": false },
+      { "letter": "C", "text": "El derecho al desarrollo económico de la región y la resistencia al cambio de la comunidad.", "isCorrect": false },
+      { "letter": "D", "text": "Las preferencias agrícolas de los indígenas y las técnicas modernas de fumigación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Un hospital universitario diseña un protocolo de atención para pacientes transgénero que incluye: (1) uso del nombre identitario del paciente (no el registrado en el documento de identidad) en todos los registros clínicos; (2) capacitación del personal en atención con enfoque de género; (3) creación de un consultorio de endocrinología especializado en terapia hormonal; (4) acompañamiento psicológico no patologizante. Algunos profesionales del hospital se oponen argumentando que «no es función del hospital adaptarse a las preferencias personales de los pacientes».\n\n(Redacción Study2One)",
+    "questionText": "El protocolo del hospital se fundamenta en:",
+    "explanation": "El protocolo descrito se basa en el derecho a la identidad de género (reconocido por la Corte Constitucional en sentencias como la T-063 de 2015), la dignidad humana (art. 1 de la Constitución), la Ley 1751 de 2015 (que incluye la aceptabilidad como componente del derecho a la salud) y las recomendaciones de la OMS, que en 2019 retiró las identidades transgénero de la clasificación de trastornos mentales (CIE-11). No se trata de «preferencias» sino de derechos fundamentales.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Una tendencia social pasajera que los hospitales no están obligados a seguir.", "isCorrect": false },
+      { "letter": "B", "text": "El derecho a la identidad de género, la dignidad humana y la obligación de los servicios de salud de ser accesibles, aceptables y libres de discriminación.", "isCorrect": true },
+      { "letter": "C", "text": "Las preferencias estéticas de un grupo minoritario de pacientes.", "isCorrect": false },
+      { "letter": "D", "text": "La obligación legal de que todos los hospitales tengan endocrinólogos especializados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "La Resolución 2665 de 2018 del Ministerio de Salud reglamenta parcialmente la Ley 1733 de 2014 y establece que el Documento de Voluntad Anticipada puede incluir instrucciones sobre: cuidados paliativos, uso de medidas de soporte vital, hidratación y nutrición artificial, reanimación cardiopulmonar y donación de órganos. Un paciente con cáncer terminal suscribe un DVA solicitando que, en caso de paro cardíaco, no se le realice reanimación cardiopulmonar (RCP). Semanas después, el paciente sufre un paro cardíaco en presencia del equipo de urgencias. Un residente de primer año, desconociendo el DVA, inicia maniobras de RCP.\n\n(Redacción Study2One, con referencia a la Resolución 2665 de 2018)",
+    "questionText": "Esta situación evidencia una falla en:",
+    "explanation": "El DVA es legalmente vinculante, pero su efectividad depende de que sea accesible para el equipo de salud en el momento crítico. Si el residente no conocía el documento, la falla es del sistema de información del hospital: el DVA debería estar registrado de manera visible en la historia clínica, idealmente con alertas electrónicas. La comunicación institucional y los protocolos de acceso a la información del paciente son responsabilidad de la institución.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "La competencia clínica del residente, que debería haber consultado el historial antes de actuar.", "isCorrect": false },
+      { "letter": "B", "text": "Los sistemas de información y comunicación institucional, que deben garantizar que el DVA sea accesible para todo el equipo de salud en el momento oportuno.", "isCorrect": true },
+      { "letter": "C", "text": "La validez legal del DVA, que no debería aplicarse en situaciones de urgencia.", "isCorrect": false },
+      { "letter": "D", "text": "La decisión del paciente, que debió informar personalmente a cada profesional del hospital.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Un ensayo clínico de fase II prueba un nuevo medicamento para la artritis reumatoide en 200 pacientes de un hospital de Barranquilla. Los participantes firman un consentimiento informado que indica que recibirán el medicamento experimental. Sin embargo, 100 de ellos reciben un placebo sin ser informados de esta posibilidad. El protocolo fue aprobado por el comité de ética del laboratorio patrocinador, pero no fue revisado por el comité de ética del hospital donde se realiza el estudio.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuáles son las dos principales violaciones éticas en este estudio?",
+    "explanation": "Primero, el consentimiento informado debe mencionar explícitamente la posibilidad de recibir placebo; no hacerlo engaña a los participantes y vulnera su autonomía. Segundo, la Resolución 8430 de 1993 exige que toda investigación en seres humanos sea aprobada por el comité de ética de la institución donde se realiza, no solo del patrocinador. El comité institucional es independiente y evalúa los aspectos locales del estudio.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "El uso de placebo en investigación y la falta de seguro para los participantes.", "isCorrect": false },
+      { "letter": "B", "text": "La omisión de la posibilidad de recibir placebo en el consentimiento informado y la falta de revisión por el comité de ética institucional.", "isCorrect": true },
+      { "letter": "C", "text": "El número de participantes (demasiados) y la elección de la ciudad para el estudio.", "isCorrect": false },
+      { "letter": "D", "text": "La duración del estudio y la edad de los participantes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Un gobierno departamental implementa un programa de tamizaje genético neonatal obligatorio para detectar enfermedades metabólicas tratables (hipotiroidismo congénito, fenilcetonuria, fibrosis quística). El programa ha permitido diagnosticar y tratar tempranamente a cientos de niños, mejorando significativamente su pronóstico. Sin embargo, un grupo de padres se opone argumentando que las muestras genéticas de sus hijos se almacenan indefinidamente sin su consentimiento y podrían ser utilizadas para fines distintos al diagnóstico.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la tensión ética central de este caso?",
+    "explanation": "El tamizaje neonatal es una intervención de salud pública con beneficio demostrado (detección temprana salva vidas). Sin embargo, el almacenamiento de muestras genéticas plantea riesgos de uso secundario no consentido (investigación, identificación genética, seguros). La tensión está entre el beneficio colectivo del programa y la protección de la privacidad genética de los neonatos y sus familias. La Ley 1581 de 2012 protege los datos sensibles, incluidos los genéticos.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La tensión entre el beneficio de la detección temprana de enfermedades y la protección de la privacidad genética ante el almacenamiento y posible uso no consentido de las muestras.", "isCorrect": true },
+      { "letter": "B", "text": "La tensión entre el costo del programa y la capacidad presupuestal del departamento.", "isCorrect": false },
+      { "letter": "C", "text": "La tensión entre los derechos de los médicos y los derechos de los padres.", "isCorrect": false },
+      { "letter": "D", "text": "La tensión entre la medicina tradicional y la genética moderna.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Un hospital público en el departamento del Meta atiende a una comunidad afectada por el conflicto armado. El equipo de salud mental detecta que el 60 % de los adultos presentan síntomas de trastorno de estrés postraumático (TEPT) y que el consumo de alcohol ha aumentado un 200 % en los últimos cinco años. Sin embargo, el hospital solo cuenta con un psicólogo para atender a 15.000 personas y no hay psiquiatra. El director del hospital solicita al Ministerio de Salud un programa especial, pero la respuesta es que «los recursos ya están distribuidos según la fórmula estándar de asignación per cápita».\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "La respuesta del Ministerio es problemática desde el principio de equidad porque:",
+    "explanation": "La equidad en salud implica que la distribución de recursos se ajuste a las necesidades diferenciadas de las poblaciones. Una comunidad afectada por el conflicto armado tiene necesidades de salud mental que superan ampliamente las de la población general. Aplicar una fórmula estándar per cápita sin considerar estas necesidades especiales perpetúa la inequidad, porque trata de manera igual a poblaciones con condiciones radicalmente diferentes. La Ley 1448 de 2011 (Ley de Víctimas) establece un enfoque diferencial en la atención a víctimas del conflicto.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "No es problemática; la distribución per cápita garantiza igualdad para todos.", "isCorrect": false },
+      { "letter": "B", "text": "La asignación estándar per cápita ignora las necesidades diferenciadas de una comunidad afectada por el conflicto armado, perpetuando la inequidad.", "isCorrect": true },
+      { "letter": "C", "text": "Es problemática solo porque el hospital necesita más infraestructura física.", "isCorrect": false },
+      { "letter": "D", "text": "Es problemática porque el Ministerio debería asignar menos recursos a esta zona para evitar la dependencia institucional.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "La Ley 1618 de 2013 establece que las personas con discapacidad tienen derecho a la habilitación y rehabilitación integral, al acceso a ayudas técnicas y tecnológicas, y a la inclusión social efectiva en todos los ámbitos. Un estudiante de medicina con discapacidad visual (baja visión) solicita a su universidad adaptaciones razonables para sus prácticas clínicas: lupas electrónicas, iluminación especial en los laboratorios y asignación de rotaciones donde pueda desarrollar sus competencias. La universidad niega las adaptaciones argumentando que «la medicina requiere visión perfecta» y sugiere al estudiante cambiar de carrera.\n\n(Redacción Study2One, con referencia a la Ley 1618 de 2013)",
+    "questionText": "La posición de la universidad es:",
+    "explanation": "La Ley 1618 de 2013 y la Convención sobre los Derechos de las Personas con Discapacidad (art. 24, ratificada por Colombia) establecen el derecho a la educación inclusiva, que incluye la obligación de las instituciones educativas de realizar ajustes razonables. Negar las adaptaciones sin evaluar si son viables constituye discriminación por discapacidad. La baja visión no impide necesariamente el ejercicio de la medicina; existen especialidades y roles compatibles con diferentes capacidades visuales.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Correcta, porque la seguridad de los pacientes exige que los médicos tengan visión perfecta.", "isCorrect": false },
+      { "letter": "B", "text": "Discriminatoria, porque niega adaptaciones razonables sin evaluar su viabilidad y asume que la discapacidad visual es incompatible con la medicina en todos los casos.", "isCorrect": true },
+      { "letter": "C", "text": "Neutral, porque la universidad tiene autonomía para definir los requisitos de ingreso a sus programas.", "isCorrect": false },
+      { "letter": "D", "text": "Protectora, porque busca evitar que el estudiante se exponga a situaciones difíciles en la práctica clínica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Un estudio ecológico compara la inversión en salud pública y los resultados en salud de cuatro municipios colombianos con población similar:\n\n| Municipio | Inversión per cápita en salud | % inversión en prevención | Mortalidad infantil (×1.000 NV) | Cobertura vacunación |\n|-----------|------------------------------|--------------------------|-------------------------------|---------------------|\n| A | $800.000 | 60 % | 8 | 96 % |\n| B | $800.000 | 15 % | 22 | 71 % |\n| C | $400.000 | 55 % | 11 | 93 % |\n| D | $400.000 | 10 % | 30 | 62 % |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Los datos sugieren que el factor que más influye en los resultados de salud es:",
+    "explanation": "Comparando municipios con igual inversión total (A vs. B y C vs. D), los que destinan mayor proporción a prevención obtienen mejores indicadores. Incluso el municipio C (menor inversión total pero alta proporción en prevención) supera al B (mayor inversión total pero baja proporción en prevención). Esto evidencia que no basta con invertir más; la priorización de la prevención sobre la atención curativa genera mejores resultados poblacionales.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "El monto total de la inversión per cápita en salud, sin importar cómo se distribuye.", "isCorrect": false },
+      { "letter": "B", "text": "La proporción de la inversión destinada a prevención, más que el monto total invertido.", "isCorrect": true },
+      { "letter": "C", "text": "La ubicación geográfica de los municipios.", "isCorrect": false },
+      { "letter": "D", "text": "El número de hospitales de alta complejidad en cada municipio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Un investigador colombiano publica un artículo científico en el que reporta resultados favorables de un tratamiento herbal para la hipertensión arterial. Sin embargo, una revisión posterior descubre que: (1) el investigador omitió datos de 30 participantes que no mostraron mejoría; (2) el estudio fue financiado por una empresa que comercializa el producto herbal, sin que este conflicto de intereses fuera declarado; (3) los participantes no fueron informados de que sus datos serían publicados.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuántas violaciones éticas de investigación se identifican en este caso?",
+    "explanation": "Se identifican tres violaciones éticas claras: (1) Falsificación de datos por omisión selectiva de resultados desfavorables, lo que viola la integridad científica; (2) No declaración de conflicto de intereses con la empresa financiadora, lo que viola la transparencia; (3) Publicación de datos sin consentimiento informado de los participantes para ese uso, lo que viola la autonomía y la privacidad. Cada una de estas violaciones puede invalidar el estudio y generar sanciones disciplinarias y legales.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Una: la falta de consentimiento informado de los participantes.", "isCorrect": false },
+      { "letter": "B", "text": "Dos: la omisión de datos y el financiamiento no declarado.", "isCorrect": false },
+      { "letter": "C", "text": "Tres: la omisión selectiva de datos, la no declaración de conflicto de intereses y la falta de consentimiento para la publicación.", "isCorrect": true },
+      { "letter": "D", "text": "Ninguna, porque el investigador tiene libertad para publicar los resultados que considere relevantes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Un programa de salud pública en el departamento del Cauca implementa un modelo de atención intercultural que incluye: (1) médicos occidentales y médicos tradicionales indígenas atendiendo conjuntamente; (2) traducción simultánea en lengua Nasa; (3) incorporación de la cosmovisión Nasa en los planes de cuidado; (4) huertas medicinales comunitarias vinculadas al centro de salud. Después de tres años, el programa muestra una reducción del 45 % en la mortalidad infantil y un aumento del 70 % en la adherencia a controles prenatales en las comunidades indígenas.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "El éxito de este programa se explica principalmente porque:",
+    "explanation": "El programa integra múltiples dimensiones de la accesibilidad y aceptabilidad: eliminación de barreras lingüísticas (traducción), culturales (cosmovisión Nasa, medicina tradicional) y de confianza (atención conjunta con sabedores tradicionales). Cuando los servicios de salud son culturalmente pertinentes, las comunidades confían más y acuden con mayor frecuencia. El enfoque intercultural no rechaza la medicina occidental, sino que la complementa con los saberes locales.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Se aumentó significativamente el presupuesto y se construyeron hospitales de alta complejidad en la zona.", "isCorrect": false },
+      { "letter": "B", "text": "Se eliminaron las barreras lingüísticas, culturales y de confianza, haciendo los servicios de salud pertinentes y accesibles para la población indígena.", "isCorrect": true },
+      { "letter": "C", "text": "Se reemplazó completamente la medicina occidental por la medicina tradicional indígena.", "isCorrect": false },
+      { "letter": "D", "text": "Se obligó a las comunidades indígenas a asistir a los controles bajo amenaza de sanciones.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Un comité de ética hospitalario recibe la solicitud de un paciente de 40 años con diagnóstico de cáncer gástrico avanzado metastásico. El paciente ha agotado todos los tratamientos disponibles en Colombia y solicita participar en un ensayo clínico de fase I con un medicamento experimental disponible únicamente en Estados Unidos. El paciente no tiene recursos económicos para viajar ni para cubrir los costos del tratamiento. Su EPS niega la cobertura argumentando que los ensayos clínicos internacionales no están incluidos en el plan de beneficios.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el dilema ético que enfrenta el comité?",
+    "explanation": "Este caso plantea la tensión entre el derecho individual del paciente a buscar cualquier opción terapéutica (autonomía, derecho a la vida) y los límites financieros y operativos del sistema de salud, que no puede cubrir todos los tratamientos existentes en el mundo. La sostenibilidad del sistema implica que hay recursos finitos; pero el derecho a la vida es fundamental. La jurisprudencia colombiana ha sido ambivalente: en algunos casos ha ordenado tratamientos en el exterior, y en otros ha reconocido los límites del sistema.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La tensión entre el derecho del paciente a agotar todas las opciones terapéuticas y los límites financieros del sistema de salud para cubrir tratamientos experimentales en el exterior.", "isCorrect": true },
+      { "letter": "B", "text": "La tensión entre la voluntad del paciente y la recomendación de su médico tratante.", "isCorrect": false },
+      { "letter": "C", "text": "La tensión entre las EPS colombianas y los hospitales internacionales.", "isCorrect": false },
+      { "letter": "D", "text": "No hay dilema: la EPS debe cubrir cualquier tratamiento que el paciente solicite en cualquier país.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "Un gobierno municipal implementa un sistema de «Historias Clínicas Interoperables» que permite a cualquier médico de la red pública del municipio acceder a la historia clínica completa de un paciente, incluyendo diagnósticos previos, tratamientos, resultados de laboratorio e imágenes diagnósticas. El sistema ha mejorado significativamente la continuidad de la atención y ha reducido la duplicación de exámenes en un 40 %. Sin embargo, una auditoría revela que 15 funcionarios administrativos tienen acceso irrestricto al sistema sin necesidad funcional, y que no existe un registro de quién consulta las historias clínicas ni cuándo.\n\n(Redacción Study2One)",
+    "questionText": "El caso evidencia que los beneficios de la interoperabilidad de historias clínicas deben equilibrarse con:",
+    "explanation": "La interoperabilidad mejora la calidad de la atención, pero el acceso irrestricto a datos sensibles de salud sin control genera riesgos de violación de la privacidad. La Ley 1581 de 2012 (protección de datos) y la Resolución 1995 de 1999 (historia clínica) exigen que el acceso a la información médica esté limitado a quienes tengan necesidad funcional, con trazabilidad de cada consulta. Un sistema interoperable sin controles de acceso y auditoría es tan problemático como uno sin interoperabilidad.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "La necesidad de eliminar completamente la interoperabilidad para proteger la privacidad.", "isCorrect": false },
+      { "letter": "B", "text": "Controles de acceso basados en perfiles funcionales, trazabilidad de consultas y protección de datos sensibles.", "isCorrect": true },
+      { "letter": "C", "text": "La autorización verbal del paciente cada vez que un médico necesite consultar su historial.", "isCorrect": false },
+      { "letter": "D", "text": "La impresión de todas las historias clínicas en papel como respaldo de seguridad.", "isCorrect": false }
+    ]
+  }
+]

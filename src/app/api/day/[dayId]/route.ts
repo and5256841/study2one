@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { getModuleForDay, getDayInModule, TOTAL_DAYS } from "@/lib/student-day";
+import { getModuleForDay, getDayInModule, getStudentCurrentDay, TOTAL_DAYS } from "@/lib/student-day";
 
 export async function GET(
   req: NextRequest,
@@ -15,6 +15,17 @@ export async function GET(
   const globalDay = parseInt(params.dayId);
   if (isNaN(globalDay) || globalDay < 1 || globalDay > TOTAL_DAYS) {
     return NextResponse.json({ error: "Día inválido" }, { status: 400 });
+  }
+
+  // Future day access control (skip for coordinators/clients)
+  if (session.user.role === "STUDENT") {
+    const studentDayInfo = await getStudentCurrentDay(session.user.id);
+    if (studentDayInfo && globalDay > studentDayInfo.dayNumber) {
+      return NextResponse.json(
+        { error: "No tienes acceso a este día aún" },
+        { status: 403 }
+      );
+    }
   }
 
   const moduleInfo = getModuleForDay(globalDay);

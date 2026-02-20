@@ -73,8 +73,11 @@ export async function GET(
     ? Math.round((scores.reduce((a, b) => a + b, 0) / scores.length) * 100) / 100
     : null;
   const sortedScores = [...scores].sort((a, b) => a - b);
+  const mid = Math.floor(sortedScores.length / 2);
   const medianScore = sortedScores.length > 0
-    ? sortedScores[Math.floor(sortedScores.length / 2)]
+    ? sortedScores.length % 2 === 0
+      ? Math.round((sortedScores[mid - 1] + sortedScores[mid]) / 2)
+      : sortedScores[mid]
     : null;
 
   return NextResponse.json({

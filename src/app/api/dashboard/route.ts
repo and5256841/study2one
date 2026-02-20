@@ -10,6 +10,7 @@ import {
 } from "@/lib/student-day";
 import { getStudentRhythmFromActivity } from "@/lib/ecg-rhythms";
 import { getTodaysSection } from "@/lib/exam-schedule";
+import type { ExamMode } from "@/lib/exam-schedule";
 
 export async function GET() {
   const session = await auth();
@@ -49,17 +50,22 @@ export async function GET() {
     },
   });
 
-  // Get quiz attempts (passed with score >= 2)
-  const passedQuizzes = await prisma.quizAttempt.findMany({
-    where: {
-      studentId,
-      score: { gte: 2 },
-    },
+  // Get all quiz attempts to determine pass/fail dynamically based on isExamDay
+  const allQuizAttemptsForDays = await prisma.quizAttempt.findMany({
+    where: { studentId },
     include: {
       dailyContent: {
         include: { module: true },
       },
     },
+  });
+
+  // Filter passed quizzes: exam days need 67% (ceil), normal quizzes need 2/3
+  const passedQuizzes = allQuizAttemptsForDays.filter((q) => {
+    const threshold = q.dailyContent.isExamDay
+      ? Math.ceil(q.totalQuestions * 0.67)
+      : 2;
+    return q.score >= threshold;
   });
 
   // Calculate fully completed days using new module structure
@@ -189,6 +195,7 @@ export async function GET() {
             id: true,
             title: true,
             number: true,
+            mode: true,
             isActive: true,
             sections: {
               select: { id: true, sectionNumber: true, title: true, durationMinutes: true },
@@ -201,7 +208,8 @@ export async function GET() {
 
     for (const schedule of examSchedules) {
       if (!schedule.exam.isActive) continue;
-      const sectionNum = getTodaysSection(schedule.startDay, maxUnlockedDay);
+      const examMode = schedule.exam.mode as ExamMode;
+      const sectionNum = getTodaysSection(schedule.startDay, maxUnlockedDay, examMode);
       if (sectionNum === null) continue;
 
       const section = schedule.exam.sections.find(

@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "La estrategia AIEPI (Atención Integrada a las Enfermedades Prevalentes de la Infancia) fue desarrollada por la OMS y UNICEF para reducir la mortalidad infantil en menores de 5 años. Incluye tres componentes: clínico (mejora de habilidades del personal de salud), comunitario (prácticas familiares clave) e institucional (fortalecimiento del sistema de salud).\n\n(Redacción Study2One)",
+    "questionText": "El componente comunitario de AIEPI, que promueve prácticas familiares clave como lactancia materna, lavado de manos y alimentación complementaria adecuada, corresponde principalmente a:",
+    "explanation": "El componente comunitario de AIEPI busca empoderar a las familias y comunidades para adoptar prácticas saludables que mejoren la salud infantil en general. No se dirige a una enfermedad específica, sino que fortalece factores protectores y determinantes sociales de la salud infantil. Esto lo clasifica como promoción de la salud, a diferencia del componente clínico que sí aborda enfermedades específicas (prevención secundaria/tratamiento).",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención secundaria, porque detecta enfermedades en fase temprana.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud, porque fortalece prácticas protectoras sin dirigirse a una enfermedad específica.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria, porque rehabilita a niños enfermos.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención primaria específica, porque vacuna contra enfermedades prevalentes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "En un centro de salud rural se implementa la estrategia AIEPI clínica. Un niño de 3 años llega con fiebre, tos y respiración rápida. El profesional de salud utiliza los algoritmos de AIEPI para clasificar al niño como «neumonía» e inicia tratamiento antibiótico inmediato según el protocolo.\n\n(Redacción Study2One)",
+    "questionText": "La clasificación y tratamiento oportuno del niño mediante los algoritmos clínicos de AIEPI corresponde a:",
+    "explanation": "El componente clínico de AIEPI permite al profesional de salud identificar signos de peligro y clasificar la enfermedad para iniciar tratamiento oportuno. Esto corresponde a prevención secundaria según Leavell y Clark: diagnóstico precoz y tratamiento oportuno de una enfermedad ya presente, con el objetivo de limitar su progresión y reducir complicaciones. La enfermedad ya está en periodo patogénico.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica).", "isCorrect": false },
+      { "letter": "C", "text": "Prevención secundaria (diagnóstico precoz y tratamiento oportuno).", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria (rehabilitación).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "La OMS recomienda lactancia materna exclusiva durante los primeros 6 meses de vida y continuada hasta los 2 años o más, complementada con alimentos apropiados. Un hospital implementa la iniciativa «Hospital Amigo del Niño», que incluye: contacto piel a piel inmediato, inicio temprano de la lactancia, alojamiento conjunto madre-hijo y capacitación del personal.\n\n(Redacción Study2One)",
+    "questionText": "La iniciativa «Hospital Amigo del Niño» para promover la lactancia materna exclusiva es un ejemplo de:",
+    "explanation": "La promoción de la lactancia materna exclusiva no se dirige a prevenir una enfermedad específica, sino que busca fortalecer un factor protector fundamental para la salud integral del lactante (nutrición óptima, inmunidad, vínculo afectivo). Es promoción de la salud porque actúa sobre determinantes positivos de bienestar, creando entornos institucionales que facilitan prácticas saludables para toda la población materno-infantil.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria específica contra infecciones gastrointestinales.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria mediante detección de desnutrición.", "isCorrect": false },
+      { "letter": "C", "text": "Promoción de la salud mediante la creación de entornos institucionales que favorecen prácticas saludables.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria para rehabilitación nutricional.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Una madre de 22 años acude a consulta con su bebé de 4 meses alimentado exclusivamente con fórmula láctea desde el nacimiento. Refiere que «no le bajó leche». El pediatra identifica que no recibió apoyo para lactancia en el hospital y que su entorno familiar desalentó la práctica. Ahora el bebé presenta episodios recurrentes de diarrea.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva de Leavell y Clark, ¿en qué nivel se ubica la falla que permitió que este bebé no recibiera lactancia materna exclusiva?",
+    "explanation": "La falta de apoyo para lactancia materna en el hospital y en el entorno familiar representa una falla en la prevención primaria, específicamente en la promoción de la salud y protección inespecífica. Leavell y Clark ubican las intervenciones que actúan en el periodo prepatogénico (antes de la enfermedad) en la prevención primaria. La lactancia materna actúa como protección inespecífica contra múltiples enfermedades (diarrea, infecciones respiratorias, alergias), no contra una sola.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención secundaria, porque no se detectó la diarrea a tiempo.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención terciaria, porque el bebé ya tiene secuelas.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención primaria, porque falló la protección inespecífica en el periodo prepatogénico.", "isCorrect": true },
+      { "letter": "D", "text": "No corresponde a ningún nivel de prevención.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "En una consulta de planificación familiar, una mujer de 28 años solicita información sobre métodos anticonceptivos. El profesional de salud le explica las opciones disponibles (barrera, hormonales, DIU, implante subdérmico), sus tasas de eficacia, efectos secundarios y contraindicaciones, para que ella tome una decisión informada según su proyecto de vida.\n\n(Redacción Study2One)",
+    "questionText": "La consejería anticonceptiva orientada a la toma de decisiones informadas sobre reproducción se clasifica como:",
+    "explanation": "La consejería anticonceptiva tiene una doble naturaleza. Cuando se enfoca en empoderar a la mujer para tomar decisiones informadas sobre su salud sexual y reproductiva, fortaleciendo su autonomía y bienestar integral, actúa como promoción de la salud. No busca prevenir una «enfermedad», sino promover el ejercicio de derechos reproductivos y el bienestar. Si se enfocara únicamente en prevenir embarazos de alto riesgo, sería prevención primaria específica.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención secundaria, porque detecta riesgos reproductivos.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud, porque empodera a la persona para tomar decisiones informadas sobre su bienestar reproductivo.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria, porque evita complicaciones obstétricas.", "isCorrect": false },
+      { "letter": "D", "text": "Tratamiento curativo de infertilidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "Un programa de salud pública en una zona minera identifica que niños menores de 6 años presentan niveles elevados de plomo en sangre (>5 µg/dL). Se implementan intervenciones: remediación de suelos contaminados, reemplazo de tuberías de plomo, educación a familias sobre lavado de manos antes de comer, y tamizaje periódico de plumbemia en niños expuestos.\n\n(Redacción Study2One)",
+    "questionText": "La remediación de suelos contaminados y el reemplazo de tuberías de plomo corresponden a:",
+    "explanation": "Según Leavell y Clark, la prevención primaria incluye dos subcategorías: promoción de la salud (medidas inespecíficas) y protección específica (medidas dirigidas a un agente o enfermedad). Eliminar la fuente de exposición al plomo (suelos contaminados, tuberías) es protección específica: actúa en el periodo prepatogénico, antes de que ocurra la intoxicación, eliminando el agente causal específico (plomo) del ambiente.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud, porque mejora el ambiente general.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica), porque elimina la fuente de un agente tóxico específico.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria, porque detecta la contaminación.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque remedia el daño ambiental.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "En el mismo programa de la zona minera, se realiza tamizaje periódico de plumbemia (niveles de plomo en sangre) a todos los niños menores de 6 años residentes en el área de influencia, aunque no presenten síntomas. Los niños con niveles ≥5 µg/dL son derivados para seguimiento y quelación si es necesario.\n\n(Redacción Study2One)",
+    "questionText": "El tamizaje de plumbemia en niños asintomáticos corresponde a:",
+    "explanation": "El tamizaje (screening) de plomo en sangre busca detectar la intoxicación en fase preclínica, antes de que aparezcan síntomas neurológicos irreversibles. Esto es prevención secundaria según Leavell y Clark: diagnóstico precoz en el periodo patogénico temprano. El niño ya tiene plomo en su organismo (periodo patogénico), pero aún no manifiesta síntomas clínicos. La detección temprana permite intervenir antes de que ocurra daño neurológico permanente.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria, porque se aplica a niños sanos.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención secundaria (diagnóstico precoz), porque detecta la intoxicación en fase preclínica.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria, porque trata la intoxicación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Una campaña nacional promueve la ingesta adecuada de calcio, vitamina D y ejercicio con carga de peso a lo largo de la vida para mantener la salud ósea. Se dirige a mujeres desde la adolescencia, con mensajes como «Construye huesos fuertes hoy para tu futuro» e incluye talleres de actividad física en colegios y universidades.\n\n(Redacción Study2One)",
+    "questionText": "Esta campaña dirigida a la población general para mantener la salud ósea es un ejemplo de:",
+    "explanation": "La campaña busca fortalecer la salud ósea en la población general, sin dirigirse a personas con diagnóstico de osteoporosis ni a un grupo de riesgo específico. Promueve hábitos saludables (nutrición, ejercicio) que contribuyen al bienestar integral. Es promoción de la salud porque actúa sobre determinantes positivos y factores protectores de manera inespecífica, no sobre una enfermedad particular.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria específica de osteoporosis.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria mediante detección de osteopenia.", "isCorrect": false },
+      { "letter": "C", "text": "Promoción de la salud, porque fomenta hábitos protectores para el bienestar óseo en la población general.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria de fracturas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Una mujer posmenopáusica de 62 años con factores de riesgo (bajo peso, tabaquismo, historia familiar de fractura de cadera) acude a control. El médico solicita una densitometría ósea (DEXA) que revela un T-score de -2.8 en columna lumbar, diagnosticando osteoporosis. Se inicia tratamiento con bifosfonatos, suplementación de calcio y vitamina D, y programa de ejercicios.\n\n(Redacción Study2One)",
+    "questionText": "La realización de densitometría ósea en esta paciente con factores de riesgo corresponde a:",
+    "explanation": "La densitometría ósea en una mujer con factores de riesgo busca detectar la osteoporosis antes de que ocurra una fractura (evento clínico mayor). Es prevención secundaria: diagnóstico precoz de una enfermedad ya establecida pero que aún no ha producido complicaciones clínicas. La paciente ya tiene pérdida de masa ósea (periodo patogénico), pero la detección temprana permite iniciar tratamiento para evitar fracturas.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria, porque la paciente aún no tiene fractura.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (diagnóstico precoz), porque detecta osteoporosis antes de complicaciones.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria, porque la paciente ya tiene osteoporosis.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Las guías colombianas de control prenatal recomiendan realizar una prueba de tolerancia oral a la glucosa (PTOG) con 75 g entre las semanas 24 y 28 de gestación para tamizaje de diabetes gestacional. Una gestante de 26 semanas, sin síntomas, acude a su control prenatal y se le realiza la PTOG.\n\n(Redacción Study2One)",
+    "questionText": "El tamizaje de diabetes gestacional mediante PTOG en una gestante asintomática corresponde a:",
+    "explanation": "La PTOG busca detectar diabetes gestacional en fase preclínica (la gestante aún no tiene síntomas). Es prevención secundaria según Leavell y Clark: diagnóstico precoz y tratamiento oportuno. La alteración metabólica puede estar presente sin manifestaciones clínicas, y su detección temprana permite intervenciones (dieta, ejercicio, insulina si necesario) que previenen complicaciones materno-fetales como macrosomía, preeclampsia y distocia.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria, porque la gestante no tiene síntomas.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (diagnóstico precoz), porque detecta diabetes gestacional en fase preclínica.", "isCorrect": true },
+      { "letter": "C", "text": "Promoción de la salud, porque forma parte del control prenatal.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque previene complicaciones del parto.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "El debate sobre el tamizaje de cáncer de próstata con antígeno prostático específico (PSA) ha generado controversia. Organizaciones como la USPSTF recomiendan una decisión compartida médico-paciente en hombres de 55 a 69 años, señalando que el PSA puede detectar cánceres indolentes que nunca causarían daño, llevando a sobrediagnóstico y sobretratamiento con efectos adversos (incontinencia, disfunción eréctil).\n\n(Redacción Study2One)",
+    "questionText": "El concepto de «sobrediagnóstico» en el tamizaje con PSA ilustra una limitación importante de:",
+    "explanation": "El sobrediagnóstico es una limitación inherente a la prevención secundaria (tamizaje/screening). Cuando un tamizaje detecta enfermedades que nunca habrían causado síntomas ni muerte, genera intervenciones innecesarias con efectos adversos. Esto demuestra que la prevención secundaria no siempre es beneficiosa: el tamizaje ideal debería detectar solo enfermedades que, sin tratamiento, causarían daño significativo. Es una tensión ética propia del diagnóstico precoz.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "La prevención primaria, porque no logra evitar el cáncer.", "isCorrect": false },
+      { "letter": "B", "text": "La promoción de la salud, porque no educa adecuadamente.", "isCorrect": false },
+      { "letter": "C", "text": "La prevención secundaria (tamizaje), porque puede detectar enfermedades que no causarían daño clínico.", "isCorrect": true },
+      { "letter": "D", "text": "La prevención terciaria, porque el tratamiento causa efectos adversos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Un hombre de 60 años consulta sobre el tamizaje de PSA. El médico le explica: «El PSA puede salvarle la vida si tiene un cáncer agresivo, pero también puede llevarlo a biopsias y tratamientos innecesarios si tiene un cáncer que nunca le causaría problemas. Quiero que usted participe en esta decisión». Tras discutir riesgos y beneficios, el paciente decide realizarse el tamizaje.\n\n(Redacción Study2One)",
+    "questionText": "La decisión compartida médico-paciente sobre el tamizaje con PSA refleja un principio central de:",
+    "explanation": "La decisión compartida (shared decision-making) es un principio de la promoción de la salud: empodera al individuo para tomar decisiones informadas sobre su propia salud, respetando su autonomía. La Carta de Ottawa (1986) establece que la promoción de la salud busca que las personas incrementen el control sobre su salud. Aunque el PSA es una herramienta de prevención secundaria, el proceso de decisión compartida es un acto de promoción de la salud.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención terciaria, porque busca evitar complicaciones.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud, porque empodera al paciente para tomar decisiones informadas sobre su bienestar.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención primaria, porque evita el cáncer.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención secundaria exclusivamente, porque involucra un tamizaje.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Un programa de seguridad vial en Colombia incluye: campañas educativas sobre uso del cinturón de seguridad y casco, control de alcoholemia en conductores, mejoramiento de señalización e infraestructura vial (separadores, reductores de velocidad), y legislación que prohíbe el uso del celular mientras se conduce.\n\n(Redacción Study2One)",
+    "questionText": "Las medidas de infraestructura vial (separadores, reductores de velocidad, señalización) corresponden a:",
+    "explanation": "Las medidas de infraestructura vial son prevención primaria en la categoría de protección específica: actúan antes de que ocurra el evento (accidente de tránsito) eliminando o reduciendo factores de riesgo específicos del ambiente. Modifican el entorno físico para hacer que los accidentes sean menos probables o menos graves. No son promoción de la salud porque se dirigen a un riesgo específico (trauma por accidente vial), no al bienestar general.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud, porque mejoran el ambiente urbano.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica), porque reducen el riesgo de un evento específico: el accidente de tránsito.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria, porque detectan infracciones.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque reducen la gravedad de las lesiones.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Dentro del mismo programa de seguridad vial, las campañas educativas masivas utilizan mensajes como «La vida no tiene repuesto: conduce responsablemente» y promueven una cultura de respeto por las normas de tránsito, autocuidado y convivencia vial en toda la población.\n\n(Redacción Study2One)",
+    "questionText": "Las campañas educativas que promueven una cultura de seguridad vial y convivencia corresponden a:",
+    "explanation": "Las campañas que buscan promover valores, actitudes y comportamientos saludables en la población general (cultura de autocuidado, respeto por la vida, convivencia) son promoción de la salud. No se dirigen a un agente causal específico, sino que buscan fortalecer factores protectores culturales y comportamentales. La diferencia con la protección específica (infraestructura) es que estas campañas actúan sobre determinantes sociales y culturales de manera más amplia.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria específica, porque previenen accidentes.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria, porque educan después de un accidente.", "isCorrect": false },
+      { "letter": "C", "text": "Promoción de la salud, porque fomentan una cultura de autocuidado y convivencia en la población general.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria, porque rehabilitan a víctimas de accidentes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "La OMS recomienda suplementación con hierro (2 mg/kg/día) en lactantes de 6 a 24 meses que no reciben alimentos fortificados, especialmente en regiones con alta prevalencia de anemia ferropénica. Un programa de atención primaria en el Chocó colombiano implementa la entrega gratuita de gotas de sulfato ferroso a todos los lactantes de 6 meses en adelante.\n\n(Redacción Study2One)",
+    "questionText": "La suplementación universal con hierro en lactantes de una región con alta prevalencia de anemia corresponde a:",
+    "explanation": "La suplementación con hierro en lactantes es prevención primaria en la subcategoría de protección específica: se administra un nutriente específico (hierro) para prevenir una enfermedad específica (anemia ferropénica) antes de que esta se presente. Actúa en el periodo prepatogénico. Es análoga a la vacunación: una intervención específica dirigida a un agente/déficit causal conocido, aplicada antes de la enfermedad.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud, porque mejora la nutrición general.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica), porque suplemente un nutriente para prevenir una enfermedad específica.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria, porque se aplica a niños que podrían tener anemia.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque trata la deficiencia de hierro.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Un programa de tamizaje visual en niños preescolares (3 a 5 años) utiliza optotipos de Lea (figuras geométricas) para detectar ambliopía (ojo perezoso) y defectos refractivos. Un niño de 4 años sin quejas visuales es evaluado y se detecta una ambliopía del ojo izquierdo con agudeza visual de 20/60. Se inicia tratamiento con oclusión del ojo sano.\n\n(Redacción Study2One)",
+    "questionText": "El tamizaje visual en preescolares asintomáticos para detectar ambliopía corresponde a:",
+    "explanation": "El tamizaje visual busca detectar ambliopía en fase preclínica (el niño no se queja porque el ojo sano compensa). Es prevención secundaria: diagnóstico precoz de una condición ya presente pero no manifiesta clínicamente. La ventana crítica para tratar la ambliopía es antes de los 7-8 años; después, el daño puede ser irreversible. La detección temprana permite un tratamiento exitoso (oclusión), evitando la pérdida visual permanente.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria, porque el niño no tiene síntomas.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (diagnóstico precoz), porque detecta una condición presente pero asintomática en una ventana tratable.", "isCorrect": true },
+      { "letter": "C", "text": "Promoción de la salud visual.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque corrige un defecto visual.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "En un servicio de urgencias, un hombre de 35 años es atendido por intoxicación alcohólica aguda. Durante la observación, el médico aplica el cuestionario AUDIT (Alcohol Use Disorders Identification Test) y detecta un patrón de consumo de riesgo (AUDIT = 14). Realiza una intervención breve de 10 minutos: retroalimentación personalizada, información sobre riesgos y establecimiento de metas de reducción.\n\n(Redacción Study2One)",
+    "questionText": "La intervención breve para consumo de alcohol de riesgo detectado mediante AUDIT corresponde a:",
+    "explanation": "La intervención breve en alcohol combina elementos de prevención secundaria (el AUDIT detecta un patrón de consumo de riesgo, que es una condición precursora ya presente) con elementos de promoción (empoderar al paciente para modificar su comportamiento). Sin embargo, dado que se aplica a una persona con un patrón de consumo de riesgo ya identificado, se clasifica principalmente como prevención secundaria: detección temprana de un problema y tratamiento oportuno antes de que progrese a dependencia.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud, porque educa sobre riesgos.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria, porque el paciente no es alcohólico.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención secundaria, porque detecta un patrón de riesgo ya presente e interviene antes de que progrese.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria, porque trata una intoxicación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Una universidad implementa un programa integral de prevención del consumo problemático de alcohol que incluye: talleres de habilidades sociales y manejo del estrés, políticas de campus libre de alcohol, eventos recreativos alternativos (deportes, cultura), y normativas sobre publicidad de bebidas alcohólicas en eventos estudiantiles.\n\n(Redacción Study2One)",
+    "questionText": "El programa universitario con talleres de habilidades sociales, eventos alternativos y políticas de campus saludable es un ejemplo de:",
+    "explanation": "Este programa actúa sobre determinantes sociales y ambientales del consumo de alcohol sin dirigirse a individuos con consumo de riesgo. Fortalece factores protectores (habilidades sociales, alternativas de ocio, entornos saludables) en la población universitaria general. Es promoción de la salud porque crea condiciones que favorecen estilos de vida saludables, no se enfoca en una enfermedad específica sino en el bienestar integral de los estudiantes.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria específica del alcoholismo.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria mediante detección de consumo problemático.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria mediante rehabilitación.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud, porque crea entornos y desarrolla habilidades para el bienestar integral.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "El tamizaje de cáncer de cuello uterino ha evolucionado: además de la citología convencional, ahora se dispone de la prueba de ADN del VPH (virus del papiloma humano), que detecta la presencia del virus oncogénico en células cervicales. La OMS recomienda la prueba de ADN-VPH como método de tamizaje primario en mujeres de 30 a 65 años, con mayor sensibilidad que la citología.\n\n(Redacción Study2One)",
+    "questionText": "La prueba de ADN-VPH como tamizaje primario para cáncer de cuello uterino corresponde a:",
+    "explanation": "La prueba de ADN-VPH es prevención secundaria: busca detectar la presencia de un agente oncogénico (VPH de alto riesgo) en mujeres asintomáticas, antes de que se desarrolle cáncer invasor. Es diagnóstico precoz porque identifica una infección persistente que podría progresar a lesiones premalignas y cáncer. A diferencia de la vacunación contra VPH (prevención primaria), el tamizaje actúa cuando el agente ya está presente en el organismo.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria, porque detecta el virus antes del cáncer.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (diagnóstico precoz), porque identifica una infección oncogénica ya presente en fase preclínica.", "isCorrect": true },
+      { "letter": "C", "text": "Promoción de la salud, porque previene el cáncer.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque trata lesiones premalignas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "La rehabilitación basada en la comunidad (RBC) es una estrategia de la OMS que busca la inclusión social de personas con discapacidad mediante cinco componentes: salud, educación, subsistencia, social y empoderamiento. En un municipio colombiano, un programa de RBC incluye adaptación de espacios públicos, formación laboral, grupos de apoyo y participación comunitaria de personas con discapacidad motora por trauma raquimedular.\n\n(Redacción Study2One)",
+    "questionText": "El programa de RBC para personas con discapacidad por trauma raquimedular corresponde a:",
+    "explanation": "La RBC para personas con discapacidad establecida es prevención terciaria según Leavell y Clark: la enfermedad/lesión ya ocurrió (trauma raquimedular) y las intervenciones buscan rehabilitación funcional, inclusión social y limitación de la discapacidad. Los cinco componentes de la RBC (salud, educación, subsistencia, social, empoderamiento) apuntan a maximizar la funcionalidad y calidad de vida tras un daño irreversible.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud, porque promueve la inclusión social.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria, porque previene la exclusión.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención secundaria, porque detecta necesidades de la persona.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria (rehabilitación), porque busca la máxima funcionalidad e inclusión tras una lesión establecida.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "La Agencia de Protección Ambiental de Estados Unidos (EPA) estima que la exposición al radón en viviendas es la segunda causa de cáncer de pulmón después del tabaquismo. El radón es un gas radioactivo natural que se filtra desde el suelo y se acumula en sótanos y pisos bajos. Un programa municipal ofrece kits gratuitos para medir niveles de radón en hogares y subsidios para sistemas de ventilación en viviendas con niveles superiores a 4 pCi/L.\n\n(Redacción Study2One)",
+    "questionText": "La medición de radón en viviendas y la instalación de sistemas de ventilación para reducir la exposición corresponden a:",
+    "explanation": "Medir niveles de radón y ventilar viviendas con niveles elevados es prevención primaria (protección específica): actúa antes de que ocurra la enfermedad (cáncer de pulmón), eliminando o reduciendo la exposición a un carcinógeno ambiental específico (radón). Se interviene sobre el agente causal en el periodo prepatogénico. No es prevención secundaria porque no se está detectando cáncer, sino midiendo un factor de riesgo ambiental para eliminarlo.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención secundaria, porque detecta un riesgo.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica), porque reduce la exposición a un carcinógeno antes de que cause enfermedad.", "isCorrect": true },
+      { "letter": "C", "text": "Promoción de la salud, porque mejora la calidad del aire.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque remedia la contaminación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Las guías ATP III y la USPSTF recomiendan tamizaje de colesterol (perfil lipídico) en adultos de 40 a 75 años para evaluar riesgo cardiovascular. Un hombre de 48 años, asintomático, sin antecedentes relevantes, se realiza un perfil lipídico en su control anual: colesterol total 280 mg/dL, LDL 190 mg/dL, HDL 38 mg/dL, triglicéridos 220 mg/dL.\n\n(Redacción Study2One)",
+    "questionText": "El tamizaje de perfil lipídico en este adulto asintomático corresponde a:",
+    "explanation": "El tamizaje de colesterol busca detectar dislipidemia (una condición ya presente pero asintomática) antes de que cause eventos cardiovasculares (infarto, ACV). Es prevención secundaria: diagnóstico precoz en el periodo patogénico temprano. La dislipidemia es una enfermedad metabólica que ya existe en el paciente aunque no cause síntomas; su detección permite intervenir con cambios de estilo de vida y/o estatinas para prevenir complicaciones.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria, porque busca evitar enfermedad cardiovascular.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (diagnóstico precoz), porque detecta dislipidemia asintomática ya presente.", "isCorrect": true },
+      { "letter": "C", "text": "Promoción de la salud, porque es parte de un control anual.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque previene infarto.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Una familia consulta con un genetista porque la madre fue diagnosticada con cáncer de mama a los 38 años y su hermana a los 42, ambas con mutación BRCA1 confirmada. La hija de 25 años, sana, desea saber su riesgo. El asesoramiento genético incluye: explicación de la herencia autosómica dominante, prueba genética, discusión de opciones si resulta positiva (vigilancia intensificada, quimioprofilaxis con tamoxifeno, mastectomía profiláctica).\n\n(Redacción Study2One)",
+    "questionText": "El asesoramiento genético y la prueba genética para BRCA1 en la hija sana corresponden a:",
+    "explanation": "El asesoramiento genético en una persona sana con riesgo hereditario es un tema debatido. La prueba genética no detecta una enfermedad presente, sino una predisposición (susceptibilidad). Se ubica en la frontera entre prevención primaria (identificar susceptibilidad para tomar medidas protectoras antes de la enfermedad) y prevención secundaria. Sin embargo, dado que identifica un factor de riesgo genético antes de que la enfermedad se manifieste, se clasifica como prevención primaria orientada a la protección específica.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria, porque identifica susceptibilidad genética antes de la enfermedad para tomar medidas protectoras.", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria, porque detecta una enfermedad en fase preclínica.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria, porque previene recurrencia de cáncer.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud, porque educa sobre genética.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Un programa de «guardianes» (gatekeeper training) en una universidad capacita a docentes, personal administrativo y líderes estudiantiles para identificar señales de alerta de riesgo suicida (aislamiento, desesperanza, cambios de conducta), realizar primeros auxilios psicológicos y derivar apropiadamente a servicios de salud mental.\n\n(Redacción Study2One)",
+    "questionText": "La capacitación de «guardianes» para identificar señales de riesgo suicida y derivar corresponde a:",
+    "explanation": "La capacitación de guardianes busca detectar personas en riesgo suicida en fase temprana (antes de un intento) y conectarlas con atención profesional. Es prevención secundaria: identificación temprana de un problema de salud mental ya presente pero que aún no ha culminado en un evento fatal. Los guardianes no tratan la enfermedad, sino que facilitan el diagnóstico precoz y la derivación oportuna, que son las dos funciones clave de la prevención secundaria.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud mental, porque capacita a la comunidad.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria, porque actúa antes del intento de suicidio.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención secundaria, porque busca identificar tempranamente personas en riesgo e intervenir antes del desenlace.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria, porque rehabilita después de un intento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Un programa nacional de «Entornos Escolares Saludables» en Colombia promueve: recreos activos con juegos cooperativos, huertos escolares, tiendas escolares con opciones saludables (frutas, agua), resolución pacífica de conflictos y fortalecimiento de la autoestima en niños de primaria. No se enfoca en ninguna enfermedad en particular.\n\n(Redacción Study2One)",
+    "questionText": "Este programa de «Entornos Escolares Saludables» es un ejemplo de:",
+    "explanation": "El programa actúa sobre múltiples determinantes de la salud (alimentación, actividad física, relaciones interpersonales, salud mental) en la población escolar general, sin dirigirse a una enfermedad específica. Crea entornos que favorecen el bienestar integral. Es promoción de la salud: fortalece factores protectores y crea condiciones favorables para la salud, empoderando a la comunidad escolar. Corresponde a la estrategia de «crear entornos favorables» de la Carta de Ottawa.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de obesidad infantil.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria de trastornos alimentarios.", "isCorrect": false },
+      { "letter": "C", "text": "Promoción de la salud, porque crea entornos saludables y fortalece factores protectores sin dirigirse a una enfermedad específica.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria de bullying.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "El Programa Ampliado de Inmunizaciones (PAI) de Colombia incluye esquemas de «puesta al día» (catch-up) para niños que no completaron su esquema de vacunación en las edades recomendadas. Un niño de 7 años, desplazado por violencia, llega a un municipio receptor sin carné de vacunas. El equipo de salud aplica un esquema acelerado que incluye: triple viral (SRP), pentavalente, polio y hepatitis A.\n\n(Redacción Study2One)",
+    "questionText": "El esquema de vacunación acelerada (catch-up) en este niño corresponde a:",
+    "explanation": "La vacunación de puesta al día sigue siendo prevención primaria (protección específica): se aplican inmunógenos para generar inmunidad contra enfermedades específicas antes de que el niño las contraiga. El hecho de que sea tardía o acelerada no cambia su nivel de prevención. Actúa en el periodo prepatogénico: el niño no tiene las enfermedades, y la vacuna lo protege específicamente contra cada una. Es análoga a la vacunación en el esquema regular.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (protección específica), porque genera inmunidad antes de la exposición al agente.", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria, porque detecta un vacío en la protección.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria, porque rehabilita el esquema incompleto.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud, porque busca el bienestar del niño.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "La campaña «Safe to Sleep» (antes «Back to Sleep») recomienda colocar a los lactantes boca arriba (posición supina) para dormir, en una superficie firme sin almohadas, cobijas sueltas ni objetos blandos. Desde su implementación en 1994, la incidencia de muerte súbita del lactante (SMSL) en Estados Unidos disminuyó en más de un 50%.\n\n(Redacción Study2One)",
+    "questionText": "La campaña «Safe to Sleep» que promueve la posición supina para dormir en lactantes es un ejemplo de:",
+    "explanation": "La campaña se dirige a prevenir un evento específico (muerte súbita del lactante) mediante una medida específica (posición supina para dormir). Es prevención primaria en la subcategoría de protección específica: modifica un factor de riesgo conocido (posición prona para dormir) para prevenir un desenlace específico (SMSL). No es promoción de la salud porque se enfoca en un riesgo particular, no en el bienestar general.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud, porque educa a los padres.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica), porque modifica un factor de riesgo para prevenir un evento específico.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria, porque detecta lactantes en riesgo.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque evita la muerte.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Una mujer en edad fértil consulta porque planea embarazarse en los próximos meses. El médico le prescribe ácido fólico 400 µg/día desde al menos un mes antes de la concepción y durante el primer trimestre, para prevenir defectos del tubo neural (espina bífida, anencefalia) en el futuro bebé.\n\n(Redacción Study2One)",
+    "questionText": "La suplementación preconcepcional con ácido fólico para prevenir defectos del tubo neural corresponde a:",
+    "explanation": "La suplementación con ácido fólico preconcepcional es prevención primaria (protección específica): se administra un nutriente específico para prevenir una malformación congénita específica (defectos del tubo neural) antes de que ocurra. Actúa en el periodo prepatogénico, antes incluso de la concepción. Es una intervención dirigida a un riesgo concreto con un agente protector conocido, lo que la distingue de la promoción de la salud.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud reproductiva.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica), porque previene una malformación específica con un agente protector conocido.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria, porque se realiza antes del embarazo.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque evita discapacidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Un programa comunitario de AIEPI en una vereda del Cauca capacita a agentes comunitarios de salud y madres líderes para reconocer signos de peligro en niños menores de 5 años: respiración rápida, tiraje subcostal, fiebre alta, diarrea con deshidratación, desnutrición. Cuando identifican estos signos, derivan al niño al centro de salud más cercano.\n\n(Redacción Study2One)",
+    "questionText": "La capacitación de agentes comunitarios para reconocer signos de peligro y derivar oportunamente a niños enfermos corresponde a:",
+    "explanation": "Los agentes comunitarios no tratan la enfermedad, sino que facilitan la detección temprana de enfermedades ya presentes (el niño ya tiene los signos) y la derivación para tratamiento oportuno. Es prevención secundaria: diagnóstico precoz delegado a la comunidad para acortar el tiempo entre el inicio de la enfermedad y el acceso al tratamiento. Actúa en el periodo patogénico temprano, cuando la intervención oportuna puede prevenir complicaciones graves y muerte.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud comunitaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria, porque capacita a la comunidad.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención secundaria (diagnóstico precoz y derivación oportuna), porque facilita la detección temprana de enfermedad presente.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria, porque evita la muerte.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Un programa de anticoncepción de emergencia se implementa en Colombia: se distribuyen anticonceptivos orales de emergencia (levonorgestrel) en farmacias sin prescripción médica para mujeres que han tenido relaciones sexuales sin protección. El objetivo es prevenir embarazos no deseados cuando falló o no se usó un método anticonceptivo regular.\n\n(Redacción Study2One)",
+    "questionText": "La anticoncepción de emergencia después de relaciones sin protección se clasifica como:",
+    "explanation": "La anticoncepción de emergencia actúa después de la exposición al riesgo (relación sexual sin protección) pero antes de que se produzca el embarazo. Es prevención primaria (protección específica): interviene en el periodo prepatogénico para evitar que un evento específico (embarazo no deseado) se concrete. Aunque se aplica después de la conducta de riesgo, el «evento a prevenir» (embarazo) aún no ha ocurrido. No es prevención secundaria porque no detecta un embarazo ya existente.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención secundaria, porque actúa después de la exposición al riesgo.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención terciaria, porque es una medida de último recurso.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención primaria (protección específica), porque actúa antes de que se produzca el embarazo.", "isCorrect": true },
+      { "letter": "D", "text": "No corresponde a ningún nivel de prevención.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Una EPS colombiana implementa un programa de «escuela de espalda» para trabajadores con diagnóstico de lumbalgia crónica. El programa incluye: ejercicios de fortalecimiento del core, ergonomía postural, técnicas de levantamiento de cargas, manejo del dolor con fisioterapia y educación sobre autocuidado. El objetivo es reducir la discapacidad y las recaídas.\n\n(Redacción Study2One)",
+    "questionText": "La «escuela de espalda» para pacientes con lumbalgia crónica corresponde a:",
+    "explanation": "La lumbalgia crónica ya está establecida (periodo patogénico avanzado). La «escuela de espalda» busca reducir la discapacidad, prevenir recaídas y restaurar la funcionalidad: es prevención terciaria según Leavell y Clark. Las intervenciones (ejercicios, ergonomía, manejo del dolor) apuntan a la rehabilitación y limitación del daño, no a detectar una enfermedad nueva ni a proteger contra un agente específico.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria, porque enseña ergonomía.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria, porque detecta problemas posturales.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (rehabilitación y limitación del daño), porque actúa sobre una enfermedad crónica establecida.", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la salud, porque educa sobre autocuidado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "La estrategia AIEPI promueve 16 «prácticas familiares clave» organizadas en cuatro grupos: crecimiento y desarrollo (lactancia, alimentación complementaria, micronutrientes), prevención de enfermedades (vacunación, higiene, malaria), atención en el hogar (alimentación del niño enfermo, tratamiento casero) y búsqueda de atención (signos de peligro, seguimiento).\n\n(Redacción Study2One)",
+    "questionText": "Las 16 prácticas familiares clave de AIEPI combinan diferentes niveles de intervención. ¿Cuál de las siguientes clasificaciones es correcta?",
+    "explanation": "Las prácticas de vacunación e higiene son prevención primaria (protección específica). Las prácticas de reconocimiento de signos de peligro y búsqueda oportuna de atención son prevención secundaria (detección temprana y derivación). Las prácticas de lactancia y alimentación complementaria son promoción de la salud (fortalecen factores protectores inespecíficos). AIEPI es integral precisamente porque combina todos estos niveles.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Todas son promoción de la salud porque se dirigen a familias.", "isCorrect": false },
+      { "letter": "B", "text": "Todas son prevención primaria porque actúan antes de la enfermedad.", "isCorrect": false },
+      { "letter": "C", "text": "Combinan promoción (lactancia, nutrición), prevención primaria (vacunación, higiene) y prevención secundaria (signos de peligro, derivación).", "isCorrect": true },
+      { "letter": "D", "text": "Todas son prevención secundaria porque detectan problemas en niños.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Un programa municipal ofrece clases gratuitas de natación, yoga y caminatas grupales para adultos mayores de 60 años en parques públicos. También incluye talleres de nutrición, socialización y manejo del tiempo libre. El programa busca mejorar la calidad de vida y el bienestar integral de los adultos mayores, sin dirigirse a una patología específica.\n\n(Redacción Study2One)",
+    "questionText": "Este programa de actividad física y bienestar para adultos mayores es un ejemplo de:",
+    "explanation": "El programa ofrece actividades que fortalecen múltiples dimensiones de la salud (física, nutricional, social, emocional) en adultos mayores, sin dirigirse a una enfermedad particular. No busca prevenir osteoporosis o caídas específicamente, sino mejorar el bienestar integral. Es promoción de la salud: crea oportunidades y entornos que favorecen la salud, actúa sobre determinantes positivos y empodera a las personas para mejorar su calidad de vida.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de caídas en adultos mayores.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria de enfermedades crónicas.", "isCorrect": false },
+      { "letter": "C", "text": "Promoción de la salud, porque busca el bienestar integral sin dirigirse a una enfermedad específica.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria de discapacidad en adultos mayores.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Una paciente de 68 años con osteoporosis diagnosticada (T-score -3.2) y antecedente de fractura de muñeca hace 2 años participa en un programa de prevención de caídas: evaluación de riesgos en el hogar (alfombras, iluminación, barandas), revisión de medicamentos que causan mareo, ejercicios de equilibrio y fortalecimiento, y uso de calzado apropiado.\n\n(Redacción Study2One)",
+    "questionText": "El programa de prevención de caídas en esta paciente con osteoporosis y fractura previa corresponde a:",
+    "explanation": "La paciente ya tiene osteoporosis establecida y antecedente de fractura (la enfermedad ya causó daño). Las intervenciones buscan prevenir nuevas fracturas (recurrencia/complicación) y mantener la funcionalidad. Es prevención terciaria: limitación del daño y prevención de nuevas complicaciones en una persona con enfermedad crónica establecida y antecedente de evento adverso. No es prevención primaria porque la osteoporosis ya existe.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de caídas.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria de osteoporosis.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (limitación del daño), porque previene nuevas complicaciones de una enfermedad establecida.", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la salud en adultos mayores.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "En el marco de la estrategia AIEPI comunitaria, una promotora de salud visita hogares en una comunidad indígena del Vaupés. Enseña a las madres a preparar suero de rehidratación oral casero (SRO) con agua hervida, sal y azúcar para usar cuando el niño tenga diarrea, mientras llegan al centro de salud más cercano (a 6 horas en lancha).\n\n(Redacción Study2One)",
+    "questionText": "Enseñar a las madres a preparar SRO casero para el manejo inicial de la diarrea en el hogar, mientras se accede a atención, corresponde a:",
+    "explanation": "El SRO casero es un tratamiento domiciliario de una enfermedad ya presente (diarrea con riesgo de deshidratación). Aunque se enseña preventivamente, su uso es curativo: se aplica cuando el niño YA tiene diarrea. Es prevención secundaria (tratamiento oportuno): actúa en el periodo patogénico temprano para limitar la progresión de la deshidratación mientras se accede a atención médica. Reduce la gravedad y mortalidad por diarrea.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud, porque capacita a la comunidad.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria, porque se enseña antes de que el niño se enferme.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención secundaria (tratamiento oportuno), porque trata una enfermedad presente para evitar su progresión.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria, porque evita la muerte por deshidratación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "Un ginecólogo ofrece consejería anticonceptiva a una adolescente de 17 años con diabetes tipo 1 y nefropatía incipiente. Le explica que un embarazo en su condición tiene alto riesgo de complicaciones (preeclampsia, deterioro renal, malformaciones fetales por hiperglucemia). Le recomienda un método anticonceptivo de larga duración (implante subdérmico) hasta que su diabetes esté bien controlada.\n\n(Redacción Study2One)",
+    "questionText": "La anticoncepción en esta adolescente con diabetes tipo 1 y nefropatía, dirigida a evitar un embarazo de alto riesgo, se clasifica como:",
+    "explanation": "En este caso, la anticoncepción NO busca empoderar la autonomía reproductiva general (promoción), sino prevenir complicaciones específicas en una paciente con enfermedad crónica. Evitar un embarazo de alto riesgo en una paciente con diabetes y nefropatía es prevención terciaria: la enfermedad de base ya existe, y la intervención busca evitar que un evento (embarazo) desencadene complicaciones graves adicionales. Es limitación del daño.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud reproductiva.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria del embarazo.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria, porque busca evitar complicaciones adicionales en una paciente con enfermedad crónica.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención secundaria, porque detecta el riesgo de embarazo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": "Un programa de suplementación con vitamina D (400 UI/día) se ofrece a todos los lactantes amamantados durante el primer año de vida en una ciudad del altiplano colombiano (Bogotá, 2600 m.s.n.m.), donde la radiación solar es insuficiente para la síntesis cutánea de vitamina D en invierno.\n\n(Redacción Study2One)",
+    "questionText": "La suplementación universal con vitamina D en lactantes amamantados para prevenir raquitismo corresponde a:",
+    "explanation": "La suplementación con vitamina D en lactantes es prevención primaria (protección específica): se administra un nutriente específico para prevenir una enfermedad específica (raquitismo por déficit de vitamina D) antes de que esta se presente. Es análoga a la suplementación con hierro (pregunta 15) y con ácido fólico (pregunta 28): intervenciones dirigidas a un déficit causal conocido, aplicadas en el periodo prepatogénico.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud ósea.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica), porque previene una enfermedad concreta con un nutriente específico.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria, porque detecta déficit vitamínico.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque trata el raquitismo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": "Una organización no gubernamental desarrolla un programa de «Habilidades para la Vida» en colegios de Medellín, con talleres sobre: autoconocimiento, empatía, comunicación asertiva, toma de decisiones, pensamiento crítico, manejo de emociones y resolución de conflictos. El programa se aplica a todos los estudiantes de 6.° a 11.° sin seleccionar por riesgo.\n\n(Redacción Study2One)",
+    "questionText": "El programa de «Habilidades para la Vida» aplicado a todos los estudiantes sin selección por riesgo es un ejemplo de:",
+    "explanation": "Las «Habilidades para la Vida» son una estrategia de promoción de la salud reconocida por la OMS. Se dirigen a la población general (no a grupos de riesgo), fortalecen competencias psicosociales que protegen contra múltiples problemas (adicciones, violencia, trastornos mentales, conducta sexual de riesgo), y no se enfocan en una enfermedad particular. Actúan sobre determinantes positivos del bienestar: son promoción porque fortalecen recursos personales.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de adicciones.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria de trastornos de conducta.", "isCorrect": false },
+      { "letter": "C", "text": "Promoción de la salud, porque fortalece competencias psicosociales protectoras en la población general.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria de violencia escolar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "Un hospital pediátrico implementa un programa de visitas domiciliarias para familias de niños prematuros dados de alta de la UCIN (Unidad de Cuidados Intensivos Neonatales). El equipo multidisciplinario evalúa: alimentación, crecimiento, desarrollo neuromotor, vínculo afectivo, signos de alarma, y brinda estimulación temprana y apoyo psicosocial a los padres.\n\n(Redacción Study2One)",
+    "questionText": "Las visitas domiciliarias de seguimiento a prematuros egresados de UCIN corresponden a:",
+    "explanation": "Los prematuros egresados de UCIN ya experimentaron una condición de riesgo (prematurez) y posiblemente complicaciones neonatales. Las visitas buscan: detectar secuelas tempranamente (prevención secundaria), rehabilitar el desarrollo (prevención terciaria) y limitar el daño de posibles complicaciones. Sin embargo, el componente principal es la limitación del daño y rehabilitación en un niño que ya tiene una condición de base, lo que lo ubica predominantemente en prevención terciaria.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud infantil.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria de complicaciones.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (rehabilitación y limitación del daño), porque actúa sobre un niño con condición de base establecida.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención secundaria exclusivamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": "La OMS promueve la «Lactancia materna continuada» hasta los 2 años o más, complementada con alimentación complementaria adecuada desde los 6 meses. Un estudio en Lancet estimó que la lactancia materna óptima podría prevenir 823,000 muertes infantiles y 20,000 muertes maternas por cáncer de mama anualmente a nivel mundial.\n\n(Redacción Study2One)",
+    "questionText": "La lactancia materna protege contra múltiples enfermedades (diarrea, neumonía, otitis, obesidad, cáncer de mama materno). Esta protección múltiple e inespecífica la diferencia de la vacunación. Desde la perspectiva promoción vs. prevención, la lactancia materna se clasifica como:",
+    "explanation": "La lactancia materna no se dirige a una enfermedad específica: protege contra diarrea, infecciones respiratorias, otitis, obesidad, alergias, cáncer materno y más. Esta protección múltiple e inespecífica es característica de la promoción de la salud, que fortalece la salud en general. A diferencia de la vacunación (que protege contra un patógeno específico = protección específica), la lactancia es un factor protector inespecífico que beneficia múltiples sistemas.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria específica, porque previene enfermedades concretas.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud, porque ofrece protección múltiple e inespecífica al fortalecer la salud integral.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria, porque detecta riesgos nutricionales.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque trata la desnutrición.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "Un programa de prevención del suicidio en una universidad colombiana implementa tres componentes: 1) talleres de bienestar emocional y mindfulness para todos los estudiantes; 2) línea de crisis 24/7 con psicólogos; 3) protocolo de posvención (apoyo psicológico a la comunidad universitaria después de un suicidio consumado).\n\n(Redacción Study2One)",
+    "questionText": "¿Cómo se clasifican los tres componentes de este programa según los niveles de Leavell y Clark?",
+    "explanation": "Componente 1 (talleres de bienestar para todos): Promoción de la salud mental, fortalece factores protectores en la población general. Componente 2 (línea de crisis): Prevención secundaria, interviene en personas con crisis suicida activa (periodo patogénico) para evitar el desenlace fatal. Componente 3 (posvención): Prevención terciaria, apoya a la comunidad afectada por un suicidio consumado para limitar el daño psicológico y prevenir el efecto contagio.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Los tres son promoción de la salud mental.", "isCorrect": false },
+      { "letter": "B", "text": "1=promoción, 2=prevención secundaria (intervención en crisis), 3=prevención terciaria (posvención).", "isCorrect": true },
+      { "letter": "C", "text": "Los tres son prevención primaria del suicidio.", "isCorrect": false },
+      { "letter": "D", "text": "1=prevención primaria, 2=prevención primaria, 3=prevención secundaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "Un programa de «sueño seguro» en una maternidad colombiana capacita a las madres antes del alta: el bebé debe dormir boca arriba, en su propia cuna (sin compartir cama), en superficie firme, sin almohadas ni peluches, a temperatura adecuada (no abrigarlo en exceso), y preferiblemente en la habitación de los padres durante los primeros 6 meses.\n\n(Redacción Study2One)",
+    "questionText": "La diferencia entre la campaña poblacional «Safe to Sleep» (pregunta 27) y la educación individual al alta de maternidad es que:",
+    "explanation": "Ambas intervenciones tienen el mismo contenido (posición supina, superficie firme, sin objetos) y el mismo objetivo (prevenir muerte súbita del lactante). Ambas son prevención primaria (protección específica) porque se dirigen a un riesgo específico (SMSL) con medidas específicas. La diferencia es el nivel de alcance (poblacional vs. individual), pero el nivel de prevención es el mismo. La promoción de la salud actúa sobre determinantes generales; aquí se actúa sobre un riesgo concreto.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "La campaña poblacional es promoción y la educación individual es prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Ambas son el mismo nivel de prevención (primaria, protección específica); difieren en alcance pero no en clasificación.", "isCorrect": true },
+      { "letter": "C", "text": "La educación individual es prevención secundaria porque se da a una madre específica.", "isCorrect": false },
+      { "letter": "D", "text": "La campaña poblacional es prevención terciaria y la individual es primaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "En un centro de atención primaria, un médico realiza consejería breve sobre alcohol a un paciente con AUDIT de 16 (consumo de riesgo). Simultáneamente, en la sala de espera, un promotor de salud ofrece un taller grupal sobre «manejo del estrés sin recurrir al alcohol», abierto a todos los usuarios del centro sin importar su patrón de consumo.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la diferencia fundamental entre la consejería individual (AUDIT 16) y el taller grupal abierto sobre manejo del estrés?",
+    "explanation": "La consejería individual se dirige a una persona con un problema ya identificado (consumo de riesgo, AUDIT 16): es prevención secundaria (detección + intervención temprana). El taller grupal se dirige a toda la población sin selección por riesgo y fortalece habilidades de afrontamiento (manejo del estrés): es promoción de la salud. La diferencia clave es si la intervención parte de un problema identificado (prevención) o busca fortalecer factores protectores en todos (promoción).",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Ambas son prevención secundaria porque se realizan en un centro de salud.", "isCorrect": false },
+      { "letter": "B", "text": "Ambas son promoción de la salud porque educan sobre alcohol.", "isCorrect": false },
+      { "letter": "C", "text": "La consejería es prevención secundaria (interviene en problema detectado); el taller es promoción (fortalece factores protectores en todos).", "isCorrect": true },
+      { "letter": "D", "text": "La consejería es prevención terciaria y el taller es prevención primaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": "Un municipio colombiano implementa un programa integral de primera infancia que incluye: jardines infantiles con nutrición balanceada, estimulación temprana, espacios de juego seguros, formación a padres sobre crianza positiva, y acceso a control de crecimiento y desarrollo. El programa busca el desarrollo integral de todos los niños de 0 a 5 años.\n\n(Redacción Study2One)",
+    "questionText": "Este programa de primera infancia que busca el desarrollo integral de todos los niños se clasifica como:",
+    "explanation": "El programa no se dirige a una enfermedad o riesgo específico, sino al desarrollo integral (físico, cognitivo, emocional, social) de todos los niños. Crea entornos favorables, fortalece la crianza positiva y ofrece oportunidades de desarrollo. Es promoción de la salud en su expresión más amplia: actúa sobre determinantes del desarrollo infantil, empodera a las familias y crea condiciones para que los niños alcancen su máximo potencial de salud y bienestar.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de desnutrición y retraso del desarrollo.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud, porque busca el desarrollo integral y el bienestar de todos los niños.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria mediante control de crecimiento.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria de discapacidad infantil.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": "Una IPS de Bucaramanga ofrece un servicio de asesoramiento genético preconcepcional para parejas con antecedentes familiares de enfermedades hereditarias (fibrosis quística, anemia falciforme, enfermedad de Huntington). El genetista evalúa el riesgo de transmisión, explica las opciones reproductivas (diagnóstico preimplantacional, diagnóstico prenatal, adopción) y apoya la toma de decisiones informada.\n\n(Redacción Study2One)",
+    "questionText": "El asesoramiento genético preconcepcional para parejas portadoras de enfermedades hereditarias combina elementos de:",
+    "explanation": "El asesoramiento genético preconcepcional tiene dos componentes: 1) Evaluación del riesgo genético: prevención primaria, porque identifica la susceptibilidad antes de la concepción para tomar medidas protectoras (periodo prepatogénico). 2) Apoyo a la toma de decisiones informada: promoción de la salud, porque empodera a la pareja para decidir con autonomía sobre su reproducción. Combina prevención primaria con promoción de la salud.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención secundaria exclusivamente.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (evaluación de riesgo genético) y promoción de la salud (empoderamiento para decisiones informadas).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria de enfermedades genéticas.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud exclusivamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "Un niño de 3 años con diagnóstico de intoxicación por plomo (plumbemia = 25 µg/dL) presenta retraso del desarrollo del lenguaje y problemas de conducta. Se inicia quelación con succimer (DMSA) para reducir los niveles de plomo, y se incorpora a un programa de estimulación del desarrollo del lenguaje y terapia ocupacional.\n\n(Redacción Study2One)",
+    "questionText": "El tratamiento con quelación y la terapia de estimulación del lenguaje en este niño corresponden a:",
+    "explanation": "El niño ya tiene intoxicación por plomo con secuelas (retraso del lenguaje, problemas de conducta). La quelación busca reducir los niveles de plomo para limitar mayor daño (limitación del daño), y la estimulación del lenguaje busca rehabilitar funciones afectadas (rehabilitación). Ambas son prevención terciaria según Leavell y Clark: actúan en el periodo patogénico avanzado con el objetivo de restaurar funcionalidad y prevenir discapacidad permanente.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria, porque elimina el plomo del organismo.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria, porque trata una enfermedad detectada.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (limitación del daño y rehabilitación), porque actúa sobre secuelas de una intoxicación establecida.", "isCorrect": true },
+      { "letter": "D", "text": "Promoción del desarrollo infantil.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "Considere las siguientes intervenciones realizadas en un mismo día en un centro de salud:\n\nA. Se coloca un implante subdérmico anticonceptivo a una adolescente sana de 16 años que solicita anticoncepción.\nB. Se realiza una densitometría ósea a una mujer de 65 años asintomática.\nC. Un fisioterapeuta dirige una sesión de ejercicios para pacientes con fractura de cadera operada.\nD. Se ofrece un taller de alimentación saludable abierto a toda la comunidad.\n\n(Redacción Study2One)",
+    "questionText": "Clasifique cada intervención según el modelo de Leavell y Clark:",
+    "explanation": "A) Implante anticonceptivo en adolescente sana: prevención primaria (protección específica contra embarazo). B) Densitometría en mujer asintomática: prevención secundaria (tamizaje/diagnóstico precoz de osteoporosis). C) Rehabilitación postfractura: prevención terciaria (rehabilitación de una complicación ya ocurrida). D) Taller de alimentación para toda la comunidad: promoción de la salud (fortalece factores protectores sin dirigirse a enfermedad específica).",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "A=primaria, B=secundaria, C=terciaria, D=promoción.", "isCorrect": true },
+      { "letter": "B", "text": "Todas son prevención primaria.", "isCorrect": false },
+      { "letter": "C", "text": "A=promoción, B=primaria, C=secundaria, D=terciaria.", "isCorrect": false },
+      { "letter": "D", "text": "A=secundaria, B=terciaria, C=primaria, D=promoción.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": "La Carta de Ottawa (1986) establece cinco áreas de acción para la promoción de la salud: 1) Construcción de políticas públicas saludables, 2) Creación de entornos favorables, 3) Fortalecimiento de la acción comunitaria, 4) Desarrollo de habilidades personales, 5) Reorientación de los servicios de salud. Un municipio colombiano implementa las siguientes acciones:\n\nA. Prohíbe la venta de bebidas azucaradas en colegios públicos.\nB. Construye ciclovías y parques con máquinas de ejercicio.\nC. Crea comités de salud barriales con líderes comunitarios.\nD. Ofrece talleres de cocina saludable para familias.\n\n(Redacción Study2One)",
+    "questionText": "Relacione cada acción con el área de la Carta de Ottawa que representa:",
+    "explanation": "A) Prohibición de bebidas azucaradas en colegios: «Construcción de políticas públicas saludables» (norma que crea condiciones favorables). B) Ciclovías y parques: «Creación de entornos favorables» (infraestructura que facilita la actividad física). C) Comités barriales: «Fortalecimiento de la acción comunitaria» (participación y empoderamiento comunitario). D) Talleres de cocina: «Desarrollo de habilidades personales» (aptitudes para estilos de vida saludables). Todas son promoción de la salud.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "A=políticas públicas, B=entornos favorables, C=acción comunitaria, D=habilidades personales.", "isCorrect": true },
+      { "letter": "B", "text": "Todas corresponden a «creación de entornos favorables».", "isCorrect": false },
+      { "letter": "C", "text": "A=prevención primaria, B=prevención primaria, C=prevención secundaria, D=promoción.", "isCorrect": false },
+      { "letter": "D", "text": "A=habilidades personales, B=acción comunitaria, C=políticas públicas, D=entornos favorables.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "Un programa de prevención del suicidio en una región con alta tasa de suicidio adolescente implementa: líneas de atención telefónica, restricción de acceso a medios letales (control de plaguicidas en zonas rurales), capacitación de «guardianes» en colegios, y campañas mediáticas responsables (evitar sensacionalismo, incluir recursos de ayuda).\n\n(Redacción Study2One)",
+    "questionText": "La restricción de acceso a medios letales (control de plaguicidas) como estrategia de prevención del suicidio corresponde a:",
+    "explanation": "La restricción de acceso a medios letales es prevención primaria (protección específica): elimina o reduce la disponibilidad de un «agente» (plaguicida como medio letal) antes de que ocurra el evento (suicidio consumado). Es análoga a la remoción de plomo del ambiente o la mejora de infraestructura vial: interviene sobre el agente/medio en el periodo prepatogénico. Es una de las estrategias de prevención del suicidio con mayor evidencia de efectividad a nivel poblacional.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud mental.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica), porque elimina el acceso a un medio letal antes del evento.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria, porque interviene en personas en crisis.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria, porque evita la muerte.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": "Un sistema de salud evalúa sus inversiones en el continuo de la atención. Encuentra que gasta el 85% del presupuesto en atención hospitalaria y tratamiento curativo (prevención terciaria), el 10% en tamizajes y diagnóstico precoz (prevención secundaria), el 4% en vacunación y protección específica (prevención primaria), y apenas el 1% en promoción de la salud (entornos saludables, empoderamiento comunitario, políticas públicas saludables).\n\n(Redacción Study2One)",
+    "questionText": "¿Por qué este desequilibrio presupuestario, centrado en la atención curativa, es problemático desde la perspectiva de la salud pública?",
+    "explanation": "Las intervenciones «aguas arriba» (promoción y prevención primaria) actúan sobre determinantes y factores de riesgo ANTES de que la enfermedad ocurra, beneficiando a toda la población con menor costo por persona. Cada peso invertido en promoción y prevención genera un retorno multiplicado al evitar costos hospitalarios, sufrimiento y discapacidad. Un sistema centrado en la curación solo responde al daño ya causado, es más costoso y beneficia solo a los ya enfermos.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "No es problemático; la atención curativa es lo más importante.", "isCorrect": false },
+      { "letter": "B", "text": "Es problemático porque invertir más en promoción y prevención primaria evitaría enfermedades, reduciría costos y beneficiaría a toda la población.", "isCorrect": true },
+      { "letter": "C", "text": "Es problemático solo porque la OMS lo exige.", "isCorrect": false },
+      { "letter": "D", "text": "Es adecuado porque los tamizajes son suficientes para prevenir enfermedades.", "isCorrect": false }
+    ]
+  }
+]

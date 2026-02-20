@@ -1,0 +1,717 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "PART 1: Photographs (Questions 1-5)\nLevel: A1\n\nLook at the description of the photograph and choose the sentence that best describes it.\n\nPhotograph description: A wound care station in a hospital ward. A nurse wearing blue gloves is cleaning a patient's leg wound with gauze and antiseptic solution. There are bandages, tape, and sterile instruments arranged neatly on a metal tray beside her.\n\n(Original content \u2014 Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows a nurse cleaning a wound at a care station with supplies on a tray. Option A accurately describes the main action and setting. Option B incorrectly says the nurse is giving an injection. Option C places the scene in an operating room. Option D says the patient is bandaging their own wound.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A nurse is cleaning a patient's wound at a care station.", "isCorrect": true },
+      { "letter": "B", "text": "A nurse is giving an injection to a patient's arm.", "isCorrect": false },
+      { "letter": "C", "text": "A doctor is performing surgery in an operating room.", "isCorrect": false },
+      { "letter": "D", "text": "A patient is bandaging their own leg in a bathroom.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Photograph description: A colorful handwashing poster mounted on the wall above a sink in a hospital hallway. The poster shows six illustrated steps for proper handwashing technique. A hand sanitizer dispenser is attached to the wall next to it.\n\n(Original content \u2014 Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows an infection control poster about handwashing displayed near a sink. Option C correctly identifies the poster, the steps, and the location. Option A says it is a menu. Option B describes a different type of poster. Option D incorrectly says someone is washing their hands.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A cafeteria menu is hanging on a kitchen wall.", "isCorrect": false },
+      { "letter": "B", "text": "A fire safety poster is displayed in an office.", "isCorrect": false },
+      { "letter": "C", "text": "A handwashing poster with six steps is on the wall near a sink.", "isCorrect": true },
+      { "letter": "D", "text": "A doctor is washing their hands at a hospital sink.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Photograph description: A community health worker wearing a vest with a health organization logo is sitting in a small living room with an elderly couple. She is holding a clipboard and explaining something while pointing to a pamphlet on the table.\n\n(Original content \u2014 Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph clearly shows a community health worker visiting an elderly couple at their home. Option B accurately describes the scene. Option A says the worker is in a hospital. Option C says she is selling products. Option D describes a classroom.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A nurse is examining patients in a hospital waiting room.", "isCorrect": false },
+      { "letter": "B", "text": "A health worker is visiting an elderly couple at their home.", "isCorrect": true },
+      { "letter": "C", "text": "A woman is selling health products at a market.", "isCorrect": false },
+      { "letter": "D", "text": "A teacher is giving a class to elderly students.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Photograph description: A hospital helipad on the roof of a large building. A red and white helicopter is landing while two paramedics in orange vests run toward it pushing an empty stretcher. The sky is overcast.\n\n(Original content \u2014 Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows a helicopter landing on a hospital helipad with paramedics approaching. Option D correctly captures this scene. Option A says the helicopter is taking off. Option B describes an airport. Option C says the paramedics are inside the helicopter.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A helicopter is taking off from a field near a hospital.", "isCorrect": false },
+      { "letter": "B", "text": "An airplane is landing at a small airport.", "isCorrect": false },
+      { "letter": "C", "text": "Two paramedics are sitting inside a helicopter.", "isCorrect": false },
+      { "letter": "D", "text": "A helicopter is landing on a hospital rooftop while paramedics approach with a stretcher.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Photograph description: A large room filled with rows of metal shelving units containing thousands of paper folders and files. A hospital employee in a white coat is pulling a folder from one of the shelves. There is a computer on a desk in the corner.\n\n(Original content \u2014 Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows a medical records archive room with shelves of files and an employee retrieving a folder. Option A correctly describes the scene. Option B says it is a library. Option C says it is a pharmacy. Option D says the employee is using a computer.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "A hospital worker is taking a folder from a shelf in a medical records room.", "isCorrect": true },
+      { "letter": "B", "text": "A student is looking for a book in a university library.", "isCorrect": false },
+      { "letter": "C", "text": "A pharmacist is organizing medicine bottles on a shelf.", "isCorrect": false },
+      { "letter": "D", "text": "An office worker is typing on a computer at their desk.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "PART 2: Short conversations (Questions 6-15)\nLevel: A2\n\nRead the short conversation and answer the question.\n\nRespiratory Therapist: Good morning, Mr. Garcia. I'm going to show you how to use your new inhaler. First, shake it well for about five seconds.\nPatient: Like this?\nRespiratory Therapist: That's right. Now, breathe out slowly, put the mouthpiece between your lips, and press down while breathing in deeply. Hold your breath for ten seconds, then breathe out slowly.\nPatient: Do I need to do this every day?\nRespiratory Therapist: Yes, twice a day \u2014 once in the morning and once before bed.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What is the first step the therapist tells the patient to do?",
+    "explanation": "The respiratory therapist says: \u00abFirst, shake it well for about five seconds.\u00bb Option B correctly identifies the first step. Option A describes a later step. Option C mentions cleaning, which is not discussed. Option D describes the breathing-out step, which comes second.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Put the mouthpiece between his lips.", "isCorrect": false },
+      { "letter": "B", "text": "Shake the inhaler for about five seconds.", "isCorrect": true },
+      { "letter": "C", "text": "Clean the inhaler with water.", "isCorrect": false },
+      { "letter": "D", "text": "Breathe out slowly.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": null,
+    "questionText": "How often should the patient use the inhaler?",
+    "explanation": "The therapist clearly states: \u00abYes, twice a day \u2014 once in the morning and once before bed.\u00bb Option C matches this instruction exactly.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Once a day in the morning.", "isCorrect": false },
+      { "letter": "B", "text": "Three times a day with meals.", "isCorrect": false },
+      { "letter": "C", "text": "Twice a day, morning and before bed.", "isCorrect": true },
+      { "letter": "D", "text": "Only when he has difficulty breathing.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Receptionist: Good afternoon, Allergy Clinic. How can I help you?\nPatient: I'd like to make an appointment for allergy testing. My doctor recommended it.\nReceptionist: Of course. We have openings next Tuesday at 9 a.m. or Thursday at 2 p.m. Which works better for you?\nPatient: Tuesday morning is fine.\nReceptionist: Perfect. Please don't take any antihistamines for at least three days before the test, as they can affect the results.\nPatient: I didn't know that. Thank you for telling me.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What does the receptionist warn the patient about?",
+    "explanation": "The receptionist says: \u00abPlease don't take any antihistamines for at least three days before the test, as they can affect the results.\u00bb Option A captures this warning. Options B, C, and D mention instructions not given in the conversation.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Not to take antihistamines for three days before the test.", "isCorrect": true },
+      { "letter": "B", "text": "To arrive 30 minutes early for the appointment.", "isCorrect": false },
+      { "letter": "C", "text": "Not to eat anything before the test.", "isCorrect": false },
+      { "letter": "D", "text": "To bring a list of all their medications.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "When is the patient's appointment?",
+    "explanation": "The patient says: \u00abTuesday morning is fine.\u00bb The receptionist had offered Tuesday at 9 a.m. Option B is correct. Option A is the other option offered. Options C and D were not mentioned.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Thursday at 2 p.m.", "isCorrect": false },
+      { "letter": "B", "text": "Tuesday at 9 a.m.", "isCorrect": true },
+      { "letter": "C", "text": "Monday at 10 a.m.", "isCorrect": false },
+      { "letter": "D", "text": "Wednesday at 3 p.m.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Employee: Excuse me, could you tell me what healthy options the cafeteria has today?\nCafeteria Worker: Sure! We have grilled chicken with steamed vegetables, a lentil soup, and a fresh fruit salad. We also have whole wheat sandwiches.\nEmployee: Is the lentil soup low in sodium?\nCafeteria Worker: Yes, we reduced the salt in all our soups this month. The nutrition information is on the card next to each dish.\nEmployee: Great, I'll have the soup and the fruit salad, please.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What does the employee decide to order?",
+    "explanation": "The employee says: \u00abI'll have the soup and the fruit salad, please.\u00bb Option D matches this order. Options A, B, and C include items not selected by the employee.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Grilled chicken and vegetables.", "isCorrect": false },
+      { "letter": "B", "text": "A whole wheat sandwich and soup.", "isCorrect": false },
+      { "letter": "C", "text": "Grilled chicken and a fruit salad.", "isCorrect": false },
+      { "letter": "D", "text": "Lentil soup and a fruit salad.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "What change has the cafeteria made this month?",
+    "explanation": "The cafeteria worker says: \u00abWe reduced the salt in all our soups this month.\u00bb Option A correctly identifies this change. Options B, C, and D describe changes not mentioned in the conversation.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "They reduced the sodium in their soups.", "isCorrect": true },
+      { "letter": "B", "text": "They added more dessert options.", "isCorrect": false },
+      { "letter": "C", "text": "They started serving breakfast.", "isCorrect": false },
+      { "letter": "D", "text": "They increased the price of meals.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Doctor: Mrs. Rojas, this is Ana. She is a medical interpreter and she will help us communicate during your appointment today.\nInterpreter: Good morning, Mrs. Rojas. I will translate everything the doctor says into Spanish, and I will translate your answers into English for the doctor. Please speak normally and look at the doctor when you talk.\nPatient: Thank you. I was worried I wouldn't understand everything.\nInterpreter: Don't worry. I'm here to make sure nothing is missed. If you don't understand something, just tell me and I'll ask the doctor to explain again.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What is the interpreter's role?",
+    "explanation": "The interpreter explains: \u00abI will translate everything the doctor says into Spanish, and I will translate your answers into English for the doctor.\u00bb Option C correctly describes this role. Option A is incorrect because she translates, not examines. Option B says she writes notes. Option D says she gives medical advice.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "To examine the patient and give a diagnosis.", "isCorrect": false },
+      { "letter": "B", "text": "To write notes about the patient's symptoms.", "isCorrect": false },
+      { "letter": "C", "text": "To translate between the doctor and the patient.", "isCorrect": true },
+      { "letter": "D", "text": "To give the patient medical advice in Spanish.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "What does the interpreter tell the patient to do if she doesn't understand something?",
+    "explanation": "The interpreter says: \u00abIf you don't understand something, just tell me and I'll ask the doctor to explain again.\u00bb Option B matches this instruction. Options A, C, and D describe actions not suggested by the interpreter.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Write down her questions on a piece of paper.", "isCorrect": false },
+      { "letter": "B", "text": "Tell the interpreter so she can ask the doctor to explain again.", "isCorrect": true },
+      { "letter": "C", "text": "Ask a family member to help translate.", "isCorrect": false },
+      { "letter": "D", "text": "Look up the word on her phone.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Therapist: Good morning, Mr. Delgado. I'm going to measure you for your new wheelchair today. First, I'll measure the width of your hips while you're sitting.\nPatient: Will this wheelchair be different from my old one?\nTherapist: Yes, we're going to fit you with a lightweight model that has better back support. It should be much more comfortable for daily use.\nPatient: That sounds good. My back gets sore after a few hours in the current one.\nTherapist: That's exactly what we want to fix. I'll also adjust the footrests to the correct height for your legs.\n\n(Original content \u2014 Study2One)",
+    "questionText": "Why is the patient getting a new wheelchair?",
+    "explanation": "The patient says: \u00abMy back gets sore after a few hours in the current one.\u00bb The therapist is fitting a new model with better back support. Option A correctly identifies the reason. Option B says it is broken, which is not stated. Option C says the patient no longer needs one. Option D says the doctor ordered it, which is not mentioned.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Because the current one causes back pain.", "isCorrect": true },
+      { "letter": "B", "text": "Because the old one is broken.", "isCorrect": false },
+      { "letter": "C", "text": "Because the patient no longer needs a wheelchair.", "isCorrect": false },
+      { "letter": "D", "text": "Because the doctor ordered a temporary wheelchair.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "What will the therapist measure first?",
+    "explanation": "The therapist says: \u00abFirst, I'll measure the width of your hips while you're sitting.\u00bb Option D correctly identifies the first measurement. Options A, B, and C describe other measurements not specified as first.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "The patient's leg length.", "isCorrect": false },
+      { "letter": "B", "text": "The patient's arm reach.", "isCorrect": false },
+      { "letter": "C", "text": "The patient's weight.", "isCorrect": false },
+      { "letter": "D", "text": "The width of the patient's hips while sitting.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "PART 3: Short texts (Questions 16-30)\nLevel: B1\n\nRead the following text and answer the questions.\n\nText 1: Global Polio Eradication Progress\n\nPolio, once a devastating disease that paralyzed thousands of children every year, is now on the verge of being completely eradicated. In 1988, when the Global Polio Eradication Initiative (GPEI) was launched, polio was endemic in 125 countries and paralyzed more than 350,000 children annually. By 2024, that number had dropped by over 99%, with only a handful of cases reported worldwide.\n\nThe success has been driven largely by massive vaccination campaigns, particularly in developing countries. Health workers travel to remote villages and conflict zones to administer the oral polio vaccine, often going door to door. However, the final stages of eradication have proven the most difficult. The remaining cases are concentrated in Afghanistan and Pakistan, where ongoing conflict, population displacement, and vaccine misinformation continue to pose challenges.\n\nPublic health officials remain optimistic but caution that surveillance and vaccination efforts must continue until the disease is fully eliminated. History has shown that even a single unvaccinated community can lead to a resurgence of the virus.\n\n(Original content \u2014 Study2One, based on WHO reports)",
+    "questionText": "How many children were paralyzed by polio annually when the GPEI was launched?",
+    "explanation": "The text states: \u00abpolio was endemic in 125 countries and paralyzed more than 350,000 children annually.\u00bb Option C matches this figure.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "More than 125,000.", "isCorrect": false },
+      { "letter": "B", "text": "More than 250,000.", "isCorrect": false },
+      { "letter": "C", "text": "More than 350,000.", "isCorrect": true },
+      { "letter": "D", "text": "More than 500,000.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "According to the text, where are the remaining polio cases concentrated?",
+    "explanation": "The text clearly states: \u00abThe remaining cases are concentrated in Afghanistan and Pakistan.\u00bb Option B is correct. Options A, C, and D mention regions not specified in the text.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "In sub-Saharan Africa and South Asia.", "isCorrect": false },
+      { "letter": "B", "text": "In Afghanistan and Pakistan.", "isCorrect": true },
+      { "letter": "C", "text": "In Southeast Asia and Central America.", "isCorrect": false },
+      { "letter": "D", "text": "In 125 countries around the world.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "What does the text warn could happen if vaccination efforts stop too early?",
+    "explanation": "The text states: \u00abeven a single unvaccinated community can lead to a resurgence of the virus.\u00bb Option A captures this warning. Options B, C, and D describe outcomes not mentioned in the text.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "The virus could return even from a single unvaccinated community.", "isCorrect": true },
+      { "letter": "B", "text": "New strains of polio could develop that resist all vaccines.", "isCorrect": false },
+      { "letter": "C", "text": "The cost of future vaccination campaigns would double.", "isCorrect": false },
+      { "letter": "D", "text": "Other diseases would become more common.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Text 2: Hospital Fire Safety Protocol\n\nAll hospital staff must be familiar with the RACE protocol in the event of a fire. RACE stands for: Rescue anyone in immediate danger, Activate the fire alarm and call the emergency number, Contain the fire by closing doors and windows, and Evacuate patients and staff through the nearest safe exit.\n\nStaff should never use elevators during a fire. Patients who cannot walk must be moved using evacuation chairs or blanket drags. Each department must conduct fire drills at least twice a year, and all employees must know the location of fire extinguishers, emergency exits, and assembly points on their floor.\n\nSmoking is strictly prohibited inside all hospital buildings. Flammable materials must be stored in designated areas only. Any fire safety concerns should be reported to the Safety Office immediately.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What does the letter 'C' in the RACE protocol stand for?",
+    "explanation": "The text explains: \u00abContain the fire by closing doors and windows.\u00bb Option C correctly identifies this step. Option A describes the R step. Option B describes the A step. Option D describes the E step.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Call the emergency number.", "isCorrect": false },
+      { "letter": "B", "text": "Check all patients for injuries.", "isCorrect": false },
+      { "letter": "C", "text": "Contain the fire by closing doors and windows.", "isCorrect": true },
+      { "letter": "D", "text": "Carry patients to the nearest exit.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "How often must each department conduct fire drills?",
+    "explanation": "The text states: \u00abEach department must conduct fire drills at least twice a year.\u00bb Option B matches. Options A, C, and D give incorrect frequencies.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Once a month.", "isCorrect": false },
+      { "letter": "B", "text": "At least twice a year.", "isCorrect": true },
+      { "letter": "C", "text": "Every three months.", "isCorrect": false },
+      { "letter": "D", "text": "Once a year.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": null,
+    "questionText": "According to the protocol, what should staff NOT do during a fire?",
+    "explanation": "The text clearly states: \u00abStaff should never use elevators during a fire.\u00bb Option D matches this prohibition. Options A, B, and C are either recommended or not prohibited.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Close doors to contain the fire.", "isCorrect": false },
+      { "letter": "B", "text": "Activate the fire alarm.", "isCorrect": false },
+      { "letter": "C", "text": "Help rescue patients in danger.", "isCorrect": false },
+      { "letter": "D", "text": "Use the elevators to evacuate.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Text 3: Blood Donation Awareness Campaign\n\nEvery two seconds, someone in the world needs blood. Blood cannot be manufactured \u2014 it can only come from generous volunteer donors. A single donation can save up to three lives because blood is separated into its components: red blood cells, platelets, and plasma.\n\nTo be eligible to donate, you must be at least 18 years old, weigh at least 50 kilograms, and be in good general health. The donation process takes about 10 minutes, though the entire visit \u2014 including registration, a brief health screening, and a rest period with refreshments \u2014 lasts approximately one hour. You can donate whole blood every 56 days, or about six times a year.\n\nCommon myths about blood donation include the belief that it weakens your body or that you can catch diseases from donating. Neither is true. Your body replaces the donated blood within a few weeks, and all equipment used is sterile and single-use.\n\n(Original content \u2014 Study2One)",
+    "questionText": "How many lives can a single blood donation save?",
+    "explanation": "The text states: \u00abA single donation can save up to three lives.\u00bb Option B matches this directly. Options A, C, and D give incorrect numbers.",
+    "competency": "A1",
+    "options": [
+      { "letter": "A", "text": "One life.", "isCorrect": false },
+      { "letter": "B", "text": "Up to three lives.", "isCorrect": true },
+      { "letter": "C", "text": "Up to five lives.", "isCorrect": false },
+      { "letter": "D", "text": "Up to ten lives.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "How often can a person donate whole blood?",
+    "explanation": "The text states: \u00abYou can donate whole blood every 56 days, or about six times a year.\u00bb Option C matches. Options A, B, and D give incorrect intervals.",
+    "competency": "A2",
+    "options": [
+      { "letter": "A", "text": "Every 30 days.", "isCorrect": false },
+      { "letter": "B", "text": "Every 45 days.", "isCorrect": false },
+      { "letter": "C", "text": "Every 56 days.", "isCorrect": true },
+      { "letter": "D", "text": "Every 90 days.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "Which of the following is described as a myth in the text?",
+    "explanation": "The text says: \u00abCommon myths about blood donation include the belief that it weakens your body or that you can catch diseases from donating. Neither is true.\u00bb Option A is one of these myths. Options B, C, and D are stated as facts in the text, not myths.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Donating blood weakens your body.", "isCorrect": true },
+      { "letter": "B", "text": "You must be at least 18 years old to donate.", "isCorrect": false },
+      { "letter": "C", "text": "The entire visit lasts about one hour.", "isCorrect": false },
+      { "letter": "D", "text": "Blood is separated into three components.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Text 4: New Surgical Robot System\n\nSt. Anne's Medical Center has announced the installation of a new robotic surgical system, making it one of the first hospitals in the region to offer robot-assisted surgery. The system allows surgeons to perform minimally invasive procedures through tiny incisions using robotic arms controlled from a console.\n\nDr. Patricia Mendoza, chief of surgery, explained that the robot provides a magnified, high-definition 3D view of the surgical area and allows for greater precision than traditional open surgery. \u00abThe surgeon's hand movements are translated into smaller, more precise movements of the instruments inside the patient's body,\u00bb she said.\n\nBenefits for patients include smaller scars, less blood loss, reduced pain after surgery, and shorter hospital stays. Most patients who undergo robot-assisted procedures can return to normal activities within two to three weeks, compared to six to eight weeks for traditional open surgery.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What advantage does the robot provide to surgeons?",
+    "explanation": "Dr. Mendoza explains that the robot provides \u00aba magnified, high-definition 3D view\u00bb and translates hand movements into \u00absmaller, more precise movements.\u00bb Option B captures these advantages. Options A, C, and D describe capabilities not mentioned.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "It can perform surgery without any human involvement.", "isCorrect": false },
+      { "letter": "B", "text": "It provides a magnified 3D view and greater precision.", "isCorrect": true },
+      { "letter": "C", "text": "It eliminates the need for anesthesia.", "isCorrect": false },
+      { "letter": "D", "text": "It can diagnose patients before surgery.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "According to the text, how long does recovery take after robot-assisted surgery compared to open surgery?",
+    "explanation": "The text states: \u00abMost patients who undergo robot-assisted procedures can return to normal activities within two to three weeks, compared to six to eight weeks for traditional open surgery.\u00bb Option C matches these timeframes.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "One week instead of four weeks.", "isCorrect": false },
+      { "letter": "B", "text": "Two days instead of two weeks.", "isCorrect": false },
+      { "letter": "C", "text": "Two to three weeks instead of six to eight weeks.", "isCorrect": true },
+      { "letter": "D", "text": "Recovery time is the same for both types.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Text 5: Mental Health First Aid Training\n\nRiverside Community Hospital is offering free Mental Health First Aid (MHFA) training to all hospital employees and members of the public. The eight-hour course teaches participants how to recognize the signs of mental health problems and substance use disorders, how to offer initial support, and how to guide a person toward appropriate professional help.\n\nThe training covers five common mental health challenges: depression, anxiety disorders, psychosis, substance use disorders, and eating disorders. Participants learn the ALGEE action plan: Assess the risk of suicide or harm, Listen non-judgmentally, Give reassurance and information, Encourage appropriate professional help, and Encourage self-help and other support strategies.\n\nCourse instructor Dr. Camilo Vargas emphasized that mental health first aid is not therapy. \u00abJust as traditional first aid is given before professional medical help arrives, mental health first aid is offered until a person receives professional treatment or the crisis passes,\u00bb he explained.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What does the 'L' in the ALGEE action plan stand for?",
+    "explanation": "The text explains ALGEE: \u00abAssess the risk of suicide or harm, Listen non-judgmentally, Give reassurance and information, Encourage appropriate professional help, and Encourage self-help.\u00bb Option B correctly identifies 'L' as 'Listen non-judgmentally.'",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Learn about the person's history.", "isCorrect": false },
+      { "letter": "B", "text": "Listen non-judgmentally.", "isCorrect": true },
+      { "letter": "C", "text": "Look for signs of danger.", "isCorrect": false },
+      { "letter": "D", "text": "Lead the person to a hospital.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "According to Dr. Vargas, what is mental health first aid NOT?",
+    "explanation": "Dr. Vargas emphasized: \u00abmental health first aid is not therapy.\u00bb He compares it to traditional first aid \u2014 something given before professional help arrives. Option A correctly identifies what MHFA is not.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "It is not professional therapy or treatment.", "isCorrect": true },
+      { "letter": "B", "text": "It is not available to the general public.", "isCorrect": false },
+      { "letter": "C", "text": "It is not a recognized course.", "isCorrect": false },
+      { "letter": "D", "text": "It is not useful for substance use disorders.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "How many mental health challenges does the MHFA training cover?",
+    "explanation": "The text lists: \u00abdepression, anxiety disorders, psychosis, substance use disorders, and eating disorders.\u00bb That is five challenges. Option C is correct.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Three.", "isCorrect": false },
+      { "letter": "B", "text": "Four.", "isCorrect": false },
+      { "letter": "C", "text": "Five.", "isCorrect": true },
+      { "letter": "D", "text": "Eight.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": null,
+    "questionText": "The main purpose of this text is to:",
+    "explanation": "The text informs readers about a Mental Health First Aid training program \u2014 what it covers, who can attend, and what it aims to achieve. Its purpose is informational. It does not argue for mandatory training, criticize current practices, or present research data.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Criticize hospitals for not providing enough mental health support.", "isCorrect": false },
+      { "letter": "B", "text": "Inform readers about a mental health first aid training opportunity.", "isCorrect": true },
+      { "letter": "C", "text": "Argue that all citizens should receive mandatory mental health training.", "isCorrect": false },
+      { "letter": "D", "text": "Present research findings on the effectiveness of MHFA.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "PART 4: Academic texts (Questions 31-55)\nLevel: B1-B2\n\nRead the following text and answer the questions.\n\nText 1: Vaccine Hesitancy Among Healthcare Workers\n\nVaccine hesitancy \u2014 the reluctance or refusal to be vaccinated despite the availability of vaccines \u2014 is not limited to the general public. A growing body of research has revealed that a significant proportion of healthcare workers (HCWs) themselves express doubts about certain vaccines, most notably seasonal influenza and, more recently, COVID-19 vaccines.\n\nA 2023 meta-analysis of 85 studies from 35 countries found that approximately 23% of healthcare workers reported hesitancy toward COVID-19 vaccination. The rates varied considerably by profession: nurses tended to show higher hesitancy rates (28%) compared to physicians (12%). Factors associated with vaccine hesitancy among HCWs included concerns about side effects, distrust of the rapid development process, religious or philosophical beliefs, and exposure to misinformation on social media.\n\nThe implications are profound. Healthcare workers are not only at higher risk of contracting and spreading infectious diseases but also serve as trusted sources of health information for their patients. When a nurse or doctor expresses doubt about a vaccine, it can significantly influence patients' decisions. Studies have consistently shown that a healthcare provider's personal vaccination status is one of the strongest predictors of whether they will recommend vaccination to their patients.\n\nInterventions that have shown promise include providing transparent, evidence-based information about vaccine development and safety, offering vaccines conveniently at the workplace, engaging trusted peer leaders as vaccine champions, and addressing specific concerns through open dialogue rather than mandates. Experts emphasize that coercive approaches tend to increase resistance, whereas respectful, informational strategies build lasting confidence.\n\n(Original content \u2014 Study2One)",
+    "questionText": "According to the meta-analysis, what percentage of healthcare workers reported COVID-19 vaccine hesitancy?",
+    "explanation": "The text states: \u00abapproximately 23% of healthcare workers reported hesitancy toward COVID-19 vaccination.\u00bb Option B matches this figure.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "12%", "isCorrect": false },
+      { "letter": "B", "text": "23%", "isCorrect": true },
+      { "letter": "C", "text": "28%", "isCorrect": false },
+      { "letter": "D", "text": "35%", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "Which professional group showed higher vaccine hesitancy rates?",
+    "explanation": "The text states: \u00abnurses tended to show higher hesitancy rates (28%) compared to physicians (12%).\u00bb Option A correctly identifies nurses as the group with higher hesitancy.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Nurses.", "isCorrect": true },
+      { "letter": "B", "text": "Physicians.", "isCorrect": false },
+      { "letter": "C", "text": "Pharmacists.", "isCorrect": false },
+      { "letter": "D", "text": "Laboratory technicians.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "Why is vaccine hesitancy among healthcare workers particularly concerning?",
+    "explanation": "The text explains: \u00abHealthcare workers... serve as trusted sources of health information for their patients. When a nurse or doctor expresses doubt about a vaccine, it can significantly influence patients' decisions.\u00bb Option C captures this concern.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Because healthcare workers never get sick.", "isCorrect": false },
+      { "letter": "B", "text": "Because hospitals will close without vaccinated staff.", "isCorrect": false },
+      { "letter": "C", "text": "Because their doubts can influence patients' vaccination decisions.", "isCorrect": true },
+      { "letter": "D", "text": "Because governments require all healthcare workers to be vaccinated.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "Which of the following is NOT mentioned as a factor contributing to vaccine hesitancy among HCWs?",
+    "explanation": "The text lists: concerns about side effects, distrust of rapid development, religious or philosophical beliefs, and exposure to misinformation on social media. \u00abInsufficient salary to pay for vaccines\u00bb is NOT mentioned. Vaccines for HCWs are typically free.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Concerns about side effects.", "isCorrect": false },
+      { "letter": "B", "text": "Distrust of the rapid development process.", "isCorrect": false },
+      { "letter": "C", "text": "Insufficient salary to pay for vaccines.", "isCorrect": true },
+      { "letter": "D", "text": "Exposure to misinformation on social media.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "According to the text, what type of approach tends to increase resistance to vaccination?",
+    "explanation": "The text states: \u00abExperts emphasize that coercive approaches tend to increase resistance, whereas respectful, informational strategies build lasting confidence.\u00bb Option D correctly identifies coercive approaches.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Providing evidence-based information.", "isCorrect": false },
+      { "letter": "B", "text": "Engaging peer leaders as vaccine champions.", "isCorrect": false },
+      { "letter": "C", "text": "Offering vaccines at the workplace.", "isCorrect": false },
+      { "letter": "D", "text": "Coercive or mandatory approaches.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": null,
+    "questionText": "The word 'profound' in paragraph 3 is closest in meaning to:",
+    "explanation": "In the sentence \u00abThe implications are profound,\u00bb 'profound' means very deep, significant, or far-reaching. Option A captures this meaning. 'Minimal' means very small. 'Temporary' means short-lasting. 'Predictable' means expected.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "very significant and far-reaching", "isCorrect": true },
+      { "letter": "B", "text": "minimal and unimportant", "isCorrect": false },
+      { "letter": "C", "text": "temporary and reversible", "isCorrect": false },
+      { "letter": "D", "text": "predictable and expected", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": "Text 2: Impact of Air Pollution on Cardiovascular Health\n\nFor decades, the health effects of air pollution were primarily associated with respiratory conditions such as asthma and chronic obstructive pulmonary disease. However, a substantial and growing body of evidence now demonstrates that air pollution is a major risk factor for cardiovascular disease (CVD), including heart attacks, strokes, heart failure, and atrial fibrillation.\n\nFine particulate matter (PM2.5) \u2014 particles smaller than 2.5 micrometers in diameter \u2014 is considered the most harmful component of air pollution for cardiovascular health. These microscopic particles penetrate deep into the lungs and enter the bloodstream, triggering systemic inflammation, oxidative stress, and endothelial dysfunction. Long-term exposure to elevated PM2.5 levels has been associated with accelerated atherosclerosis, the buildup of fatty deposits in arterial walls that can lead to heart attacks and strokes.\n\nThe World Health Organization estimates that outdoor air pollution contributes to approximately 4.2 million premature deaths globally each year, with cardiovascular disease accounting for the largest share \u2014 roughly 40% of these deaths. Low- and middle-income countries bear a disproportionate burden, as they tend to have higher pollution levels and weaker regulatory frameworks.\n\nRecent research has highlighted that even short-term spikes in air pollution can trigger acute cardiovascular events in vulnerable individuals, including the elderly, people with pre-existing heart conditions, and those with diabetes. Studies in major cities have documented increases in hospital admissions for heart attacks and strokes on days with high pollution levels.\n\nPublic health strategies to mitigate cardiovascular harm from air pollution include strengthening air quality standards, transitioning to clean energy sources, promoting urban green spaces, and advising high-risk individuals to limit outdoor activity during high-pollution days. At the clinical level, physicians are increasingly encouraged to consider air pollution exposure as part of cardiovascular risk assessment.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What was air pollution traditionally associated with before recent research?",
+    "explanation": "The text states: \u00abthe health effects of air pollution were primarily associated with respiratory conditions such as asthma and chronic obstructive pulmonary disease.\u00bb Option A matches.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Respiratory diseases like asthma and COPD.", "isCorrect": true },
+      { "letter": "B", "text": "Cardiovascular diseases like heart attacks.", "isCorrect": false },
+      { "letter": "C", "text": "Mental health disorders like depression.", "isCorrect": false },
+      { "letter": "D", "text": "Infectious diseases like tuberculosis.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": null,
+    "questionText": "Why is PM2.5 considered particularly harmful to cardiovascular health?",
+    "explanation": "The text explains: \u00abThese microscopic particles penetrate deep into the lungs and enter the bloodstream, triggering systemic inflammation, oxidative stress, and endothelial dysfunction.\u00bb Option B correctly describes why PM2.5 is dangerous for the heart.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Because the particles are visible to the naked eye and easily inhaled.", "isCorrect": false },
+      { "letter": "B", "text": "Because they enter the bloodstream and cause inflammation and dysfunction.", "isCorrect": true },
+      { "letter": "C", "text": "Because they only affect people who smoke.", "isCorrect": false },
+      { "letter": "D", "text": "Because they make the air smell bad, causing stress.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": null,
+    "questionText": "According to WHO estimates, what percentage of air-pollution-related premature deaths are due to cardiovascular disease?",
+    "explanation": "The text states: \u00abcardiovascular disease accounting for the largest share \u2014 roughly 40% of these deaths.\u00bb Option C matches.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "About 20%.", "isCorrect": false },
+      { "letter": "B", "text": "About 30%.", "isCorrect": false },
+      { "letter": "C", "text": "About 40%.", "isCorrect": true },
+      { "letter": "D", "text": "About 60%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": null,
+    "questionText": "The word 'disproportionate' in paragraph 3 most closely means:",
+    "explanation": "'Disproportionate burden' means a share that is unfairly large relative to what would be expected. Low- and middle-income countries are affected more than their fair share. Option D captures this meaning.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "equal and fair", "isCorrect": false },
+      { "letter": "B", "text": "small and insignificant", "isCorrect": false },
+      { "letter": "C", "text": "temporary and short-lived", "isCorrect": false },
+      { "letter": "D", "text": "unfairly large relative to what is expected", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": null,
+    "questionText": "Which group is NOT mentioned as particularly vulnerable to acute cardiovascular events from air pollution?",
+    "explanation": "The text mentions: \u00abthe elderly, people with pre-existing heart conditions, and those with diabetes.\u00bb Pregnant women are not mentioned as a vulnerable group in this text. Option C is correct.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Elderly individuals.", "isCorrect": false },
+      { "letter": "B", "text": "People with pre-existing heart conditions.", "isCorrect": false },
+      { "letter": "C", "text": "Pregnant women.", "isCorrect": true },
+      { "letter": "D", "text": "People with diabetes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": null,
+    "questionText": "What new role are physicians encouraged to take regarding air pollution?",
+    "explanation": "The text states: \u00abphysicians are increasingly encouraged to consider air pollution exposure as part of cardiovascular risk assessment.\u00bb Option A correctly identifies this new clinical role.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "To include air pollution exposure in cardiovascular risk assessments.", "isCorrect": true },
+      { "letter": "B", "text": "To prescribe air purifiers to all patients.", "isCorrect": false },
+      { "letter": "C", "text": "To report pollution levels to the government.", "isCorrect": false },
+      { "letter": "D", "text": "To move their practices to less polluted areas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "Text 3: Digital Health Literacy in Elderly Populations\n\nThe rapid digitalization of healthcare services \u2014 from online appointment booking and electronic health records to telemedicine consultations and patient portals \u2014 has created significant challenges for elderly populations. Digital health literacy, defined as the ability to seek, find, understand, and appraise health information from electronic sources and apply the knowledge gained to address or solve a health problem, is now essential for effective healthcare navigation.\n\nA cross-sectional study conducted in 12 European countries in 2024 found that only 38% of adults over 65 felt confident using digital health tools, compared to 82% of adults aged 25-44. The study identified several barriers: limited experience with technology, physical challenges such as poor eyesight and reduced fine motor skills, cognitive difficulties in navigating complex interfaces, fear of making errors with personal health data, and a preference for face-to-face communication with healthcare providers.\n\nThe consequences of low digital health literacy are not trivial. Elderly patients who cannot access patient portals may miss important test results, medication reminders, or appointment notifications. Those unable to use telemedicine platforms may face longer wait times for in-person visits or forgo care altogether. In essence, the digital transformation of healthcare risks widening existing health inequities along generational lines.\n\nPromising interventions include designing age-friendly digital interfaces with larger text, simpler navigation, and voice-command options; providing free digital literacy workshops at community centers and libraries; training family members and caregivers to serve as digital health navigators; and maintaining non-digital alternatives for essential healthcare services. Researchers stress that digital health equity requires not only improving elderly people's digital skills but also adapting technology to meet their needs.\n\n(Original content \u2014 Study2One)",
+    "questionText": "According to the study, what percentage of adults over 65 felt confident using digital health tools?",
+    "explanation": "The text states: \u00abonly 38% of adults over 65 felt confident using digital health tools, compared to 82% of adults aged 25-44.\u00bb Option B matches.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "25%", "isCorrect": false },
+      { "letter": "B", "text": "38%", "isCorrect": true },
+      { "letter": "C", "text": "65%", "isCorrect": false },
+      { "letter": "D", "text": "82%", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": null,
+    "questionText": "Which of the following is NOT listed as a barrier to digital health literacy in elderly populations?",
+    "explanation": "The text lists: limited tech experience, physical challenges (poor eyesight, reduced motor skills), cognitive difficulties, fear of errors with personal data, and preference for face-to-face communication. \u00abHigh cost of internet services\u00bb is NOT mentioned. Option C is correct.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "Poor eyesight and reduced fine motor skills.", "isCorrect": false },
+      { "letter": "B", "text": "Fear of making errors with personal health data.", "isCorrect": false },
+      { "letter": "C", "text": "High cost of internet services.", "isCorrect": true },
+      { "letter": "D", "text": "Preference for face-to-face communication.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": null,
+    "questionText": "The phrase 'not trivial' in paragraph 3 most closely means:",
+    "explanation": "Saying consequences are 'not trivial' means they are serious and significant. It is a form of understatement (litotes). The author emphasizes that the consequences matter. Option A captures this meaning.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "serious and significant", "isCorrect": true },
+      { "letter": "B", "text": "easy to solve", "isCorrect": false },
+      { "letter": "C", "text": "amusing and entertaining", "isCorrect": false },
+      { "letter": "D", "text": "rare and unusual", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": null,
+    "questionText": "According to the text, what risk does the digital transformation of healthcare create?",
+    "explanation": "The text states: \u00abthe digital transformation of healthcare risks widening existing health inequities along generational lines.\u00bb Option B correctly identifies this risk. Options A, C, and D describe outcomes not mentioned.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "It makes healthcare too expensive for everyone.", "isCorrect": false },
+      { "letter": "B", "text": "It may increase health inequalities between younger and older people.", "isCorrect": true },
+      { "letter": "C", "text": "It will replace all doctors with artificial intelligence.", "isCorrect": false },
+      { "letter": "D", "text": "It reduces the quality of medical care for all patients.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": null,
+    "questionText": "What do researchers stress is necessary for digital health equity?",
+    "explanation": "The text states: \u00abdigital health equity requires not only improving elderly people's digital skills but also adapting technology to meet their needs.\u00bb Option D captures this dual approach. Options A, B, and C are incomplete or inaccurate.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "Eliminating all digital health tools.", "isCorrect": false },
+      { "letter": "B", "text": "Only teaching elderly people to use existing technology.", "isCorrect": false },
+      { "letter": "C", "text": "Requiring family members to manage elderly patients' healthcare.", "isCorrect": false },
+      { "letter": "D", "text": "Both improving elderly people's skills and adapting technology to their needs.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": "Text 4: Antimicrobial Resistance \u2014 A One Health Approach\n\nAntimicrobial resistance (AMR) occurs when bacteria, viruses, fungi, and parasites evolve to withstand the drugs designed to kill them. The World Health Organization has declared AMR one of the top ten global public health threats. Without effective antimicrobials, routine medical procedures such as surgeries, organ transplants, and cancer chemotherapy become significantly more dangerous, as the risk of untreatable infections rises sharply.\n\nTraditionally, AMR was viewed primarily as a human health problem linked to overuse of antibiotics in clinical settings. However, the One Health approach recognizes that human, animal, and environmental health are interconnected. Approximately 73% of all antimicrobials sold globally are used in livestock production \u2014 not to treat sick animals, but as growth promoters and prophylactics. Resistant bacteria can transfer between animals and humans through direct contact, the food chain, and shared water sources. Similarly, pharmaceutical manufacturing waste and agricultural runoff contaminate waterways, creating environmental reservoirs of resistant organisms.\n\nThe One Health response to AMR requires coordinated action across multiple sectors. In human health, this means improving diagnostic capabilities to ensure antibiotics are prescribed only when truly needed, strengthening infection prevention and control, and investing in the development of new antimicrobials and alternative therapies. In animal health, it involves phasing out the use of antimicrobials as growth promoters, implementing stricter veterinary oversight of antibiotic use, and improving animal husbandry practices to reduce the need for prophylactic treatments. Environmentally, it demands better regulation of pharmaceutical waste, improved wastewater treatment systems, and monitoring of resistant organisms in ecosystems.\n\nCritics of the One Health approach argue that its broad, multi-sectoral nature makes implementation slow and coordination difficult, particularly in low-resource settings where regulatory capacity is limited. Proponents counter that the interconnected nature of AMR makes a siloed approach \u2014 focusing on human health alone \u2014 fundamentally inadequate. As resistant infections claim an estimated 1.27 million lives annually and could cause 10 million deaths per year by 2050, the urgency of a comprehensive response cannot be overstated.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What percentage of global antimicrobial sales are used in livestock production?",
+    "explanation": "The text states: \u00abApproximately 73% of all antimicrobials sold globally are used in livestock production.\u00bb Option C matches this figure.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "About 40%.", "isCorrect": false },
+      { "letter": "B", "text": "About 55%.", "isCorrect": false },
+      { "letter": "C", "text": "About 73%.", "isCorrect": true },
+      { "letter": "D", "text": "About 90%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": null,
+    "questionText": "According to the text, what is the One Health approach?",
+    "explanation": "The text explains: \u00abthe One Health approach recognizes that human, animal, and environmental health are interconnected.\u00bb It advocates coordinated action across all three sectors. Option B captures this definition.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "A strategy that focuses exclusively on reducing antibiotic use in hospitals.", "isCorrect": false },
+      { "letter": "B", "text": "An approach recognizing that human, animal, and environmental health are interconnected.", "isCorrect": true },
+      { "letter": "C", "text": "A program that bans all use of antibiotics in animals.", "isCorrect": false },
+      { "letter": "D", "text": "A policy requiring all countries to adopt the same health regulations.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": null,
+    "questionText": "Why are antimicrobials primarily used in livestock, according to the text?",
+    "explanation": "The text states: \u00abnot to treat sick animals, but as growth promoters and prophylactics.\u00bb Option D correctly identifies these purposes. Options A, B, and C describe uses not mentioned as the primary reasons.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "To treat infections in sick animals.", "isCorrect": false },
+      { "letter": "B", "text": "To improve the taste of animal products.", "isCorrect": false },
+      { "letter": "C", "text": "To vaccinate animals against diseases.", "isCorrect": false },
+      { "letter": "D", "text": "As growth promoters and to prevent disease.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 51,
+    "caseText": null,
+    "questionText": "The word 'siloed' in paragraph 4 most closely means:",
+    "explanation": "A 'siloed approach' means an approach that is isolated, compartmentalized, and does not integrate with other areas. The text contrasts this with the interconnected One Health approach. Option C captures this meaning.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "comprehensive and inclusive", "isCorrect": false },
+      { "letter": "B", "text": "modern and innovative", "isCorrect": false },
+      { "letter": "C", "text": "isolated and compartmentalized", "isCorrect": true },
+      { "letter": "D", "text": "expensive and impractical", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 52,
+    "caseText": null,
+    "questionText": "How many lives does AMR currently claim annually, according to the text?",
+    "explanation": "The text states: \u00abresistant infections claim an estimated 1.27 million lives annually.\u00bb Option B matches this figure. The 10 million figure is the projected deaths by 2050, not the current number.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "About 500,000.", "isCorrect": false },
+      { "letter": "B", "text": "About 1.27 million.", "isCorrect": true },
+      { "letter": "C", "text": "About 4.2 million.", "isCorrect": false },
+      { "letter": "D", "text": "About 10 million.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 53,
+    "caseText": "Text 5: Universal Health Coverage \u2014 Progress and Challenges\n\nUniversal health coverage (UHC) \u2014 the principle that all people should have access to the health services they need without suffering financial hardship \u2014 has become a central goal of global health policy. Enshrined in the United Nations Sustainable Development Goals as Target 3.8, UHC encompasses the full spectrum of health services, from prevention and promotion to treatment, rehabilitation, and palliative care.\n\nProgress toward UHC has been uneven. The WHO's UHC Service Coverage Index, which measures access to essential health services on a scale from 0 to 100, showed a global average of 68 in 2021, up from 45 in 2000. However, significant disparities persist. High-income countries average scores above 80, while many low-income countries in sub-Saharan Africa and South Asia score below 40. Furthermore, the COVID-19 pandemic caused unprecedented disruptions to essential health services, reversing years of progress in some regions.\n\nFinancial protection remains one of the most challenging dimensions of UHC. Globally, approximately 2 billion people face catastrophic or impoverishing health spending, meaning they must spend more than 10% of their household budget on healthcare or are pushed below the poverty line by medical expenses. Out-of-pocket payments continue to be the primary source of health financing in many developing countries, creating a system where the quality of care a person receives depends largely on their ability to pay.\n\nInnovative financing mechanisms are being explored to close the UHC gap. These include expanding tax-funded public health systems, implementing social health insurance schemes, leveraging digital technology to reduce administrative costs, and increasing international development assistance for health. Some countries have made remarkable strides: Thailand achieved near-universal coverage through its Universal Coverage Scheme, which provides comprehensive services to all citizens for a nominal copayment of roughly one US dollar per visit. Rwanda expanded community-based health insurance to cover over 90% of its population through the Mutuelles de Sant\u00e9 program.\n\nCritics caution that achieving UHC is not simply a matter of financing. Workforce shortages, infrastructure gaps, governance challenges, and the rising burden of non-communicable diseases all threaten to undermine coverage expansion. The WHO estimates a projected shortfall of 10 million health workers globally by 2030, concentrated in the countries that can least afford it.\n\n(Original content \u2014 Study2One)",
+    "questionText": "What was the global UHC Service Coverage Index score in 2021?",
+    "explanation": "The text states: \u00abThe WHO's UHC Service Coverage Index... showed a global average of 68 in 2021, up from 45 in 2000.\u00bb Option C matches the 2021 figure.",
+    "competency": "B1",
+    "options": [
+      { "letter": "A", "text": "45", "isCorrect": false },
+      { "letter": "B", "text": "55", "isCorrect": false },
+      { "letter": "C", "text": "68", "isCorrect": true },
+      { "letter": "D", "text": "80", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 54,
+    "caseText": null,
+    "questionText": "According to the text, how many people globally face catastrophic or impoverishing health spending?",
+    "explanation": "The text states: \u00abapproximately 2 billion people face catastrophic or impoverishing health spending.\u00bb Option B matches.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "About 500 million.", "isCorrect": false },
+      { "letter": "B", "text": "About 2 billion.", "isCorrect": true },
+      { "letter": "C", "text": "About 5 billion.", "isCorrect": false },
+      { "letter": "D", "text": "About 10 billion.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 55,
+    "caseText": null,
+    "questionText": "What does the text suggest is the projected global health worker shortfall by 2030?",
+    "explanation": "The text states: \u00abThe WHO estimates a projected shortfall of 10 million health workers globally by 2030.\u00bb Option D matches. Options A, B, and C give incorrect figures.",
+    "competency": "B2",
+    "options": [
+      { "letter": "A", "text": "1 million.", "isCorrect": false },
+      { "letter": "B", "text": "3 million.", "isCorrect": false },
+      { "letter": "C", "text": "5 million.", "isCorrect": false },
+      { "letter": "D", "text": "10 million.", "isCorrect": true }
+    ]
+  }
+]

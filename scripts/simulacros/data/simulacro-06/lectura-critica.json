@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Lea el siguiente texto.\n\n«Rudolf Virchow, considerado el padre de la patologia celular, pronuncio en 1848 una frase que sigue resonando en la salud publica contemporanea: «La medicina es una ciencia social y la politica no es mas que medicina a gran escala». Para Virchow, la enfermedad no podia comprenderse aislada de las condiciones sociales que la producian. Cuando el gobierno prusiano lo envio a investigar una epidemia de tifus en la Alta Silesia, su informe no recomendo medicamentos ni cuarentenas: propuso democracia, educacion, libertad de prensa y autonomia municipal. La causa de la epidemia, concluyo, no era un microbio —el bacilo de la fiebre tifoidea ni siquiera habia sido identificado—, sino la pobreza estructural de la poblacion.\n\nEsta tradicion, conocida como medicina social, sostiene que las enfermedades tienen raices politicas y economicas, y que tratarlas sin abordar esas raices equivale a secar el piso sin cerrar la llave. Virchow no negaba la importancia de la ciencia biomedica; al contrario, sus contribuciones a la histopatologia fueron fundamentales. Pero insistia en que la biologia sola no explica por que los pobres enferman mas y mueren antes que los ricos. Para entender eso, decia, hay que mirar las estructuras de poder.\n\nLa vigencia de Virchow es incomoda. En pleno siglo XXI, las enfermedades no transmisibles —diabetes, hipertension, obesidad— se concentran desproporcionadamente en las poblaciones de menores ingresos. La respuesta predominante sigue siendo individual: dieta, ejercicio, medicacion. La pregunta que Virchow formularia hoy seria otra: ¿por que las condiciones de vida de millones de personas hacen que enfermarse sea casi inevitable?»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, cuando Virchow investigo la epidemia de tifus en la Alta Silesia, su informe recomendo:",
+    "explanation": "El texto afirma explicitamente que el informe de Virchow «no recomendo medicamentos ni cuarentenas: propuso democracia, educacion, libertad de prensa y autonomia municipal». Es informacion literal del primer parrafo.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "El aislamiento de los enfermos y la distribucion de medicamentos antifebriles.", "isCorrect": false },
+      { "letter": "B", "text": "Reformas politicas y sociales como la democracia, la educacion y la libertad de prensa.", "isCorrect": true },
+      { "letter": "C", "text": "La identificacion y erradicacion del bacilo causante de la fiebre tifoidea.", "isCorrect": false },
+      { "letter": "D", "text": "La creacion de hospitales publicos en las zonas rurales de la Alta Silesia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "La metafora «secar el piso sin cerrar la llave» se utiliza en el texto para ilustrar que:",
+    "explanation": "La metafora aparece cuando el texto dice que «tratarlas sin abordar esas raices equivale a secar el piso sin cerrar la llave». La llave abierta representa las causas estructurales (pobreza, desigualdad); secar el piso, el tratamiento medico que no las aborda. La opcion C captura esta relacion.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La ciencia biomedica carece de herramientas eficaces para combatir las epidemias.", "isCorrect": false },
+      { "letter": "B", "text": "Los sistemas de salud publica desperdician recursos en intervenciones preventivas.", "isCorrect": false },
+      { "letter": "C", "text": "Tratar enfermedades sin modificar las condiciones sociales que las generan resulta insuficiente.", "isCorrect": true },
+      { "letter": "D", "text": "Los gobiernos prefieren soluciones economicas a soluciones medicas ante las epidemias.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "El texto senala que «la vigencia de Virchow es incomoda». Esta incomodidad se explica porque:",
+    "explanation": "El autor califica la vigencia como «incomoda» justo antes de mostrar que en el siglo XXI las enfermedades se concentran en los mas pobres y la respuesta sigue siendo individual. La incomodidad radica en que las criticas de Virchow del siglo XIX siguen siendo aplicables, lo cual expone un fracaso persistente de las politicas de salud.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Las teorias de Virchow han sido refutadas por la epidemiologia contemporanea.", "isCorrect": false },
+      { "letter": "B", "text": "Sus criticas del siglo XIX siguen siendo aplicables porque las causas estructurales de la enfermedad no se han abordado.", "isCorrect": true },
+      { "letter": "C", "text": "La medicina social ha sido adoptada masivamente, pero no ha logrado reducir la desigualdad.", "isCorrect": false },
+      { "letter": "D", "text": "Los avances en patologia celular han demostrado que las enfermedades tienen causas exclusivamente biologicas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": null,
+    "questionText": "Un lector critico podria cuestionar el argumento del texto senalando que:",
+    "explanation": "El texto presenta la respuesta predominante como «individual: dieta, ejercicio, medicacion» y la contrasta con el enfoque estructural de Virchow, como si fueran mutuamente excluyentes. Sin embargo, ambos niveles de intervencion pueden ser complementarios. Esta simplificacion dicotomica constituye una limitacion argumentativa identificable por un lector critico.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Virchow no tenia formacion en epidemiologia y, por lo tanto, sus opiniones carecen de rigor cientifico.", "isCorrect": false },
+      { "letter": "B", "text": "El texto omite que las enfermedades no transmisibles tambien afectan a personas de altos ingresos.", "isCorrect": false },
+      { "letter": "C", "text": "Presenta las intervenciones individuales y las estructurales como excluyentes, cuando podrian ser complementarias.", "isCorrect": true },
+      { "letter": "D", "text": "Utiliza datos del siglo XIX que no pueden extrapolarse a la realidad sanitaria del siglo XXI.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Lea el siguiente texto.\n\n«Durante decadas, la salud mental fue tratada como un asunto secundario dentro de los sistemas de salud. Los trastornos mentales se consideraban menos urgentes que las enfermedades fisicas, y quienes los padecian enfrentaban no solo la enfermedad misma, sino el estigma social que la acompanaba. En muchos paises, la respuesta institucional consistia en el internamiento en manicomios: espacios de aislamiento que, lejos de promover la recuperacion, perpetuaban la exclusion.\n\nEl movimiento global de salud mental surgio como una reaccion contra este modelo. Impulsado por organismos como la Organizacion Mundial de la Salud y por activistas de paises del Sur Global, este movimiento propone integrar la atencion en salud mental dentro de los servicios de atencion primaria, capacitar a trabajadores comunitarios como primer punto de contacto y reconocer que la salud mental esta condicionada por factores sociales como la pobreza, la violencia y la discriminacion.\n\nSin embargo, el movimiento no esta exento de criticas. Algunos academicos del Sur Global senalan que los modelos diagnosticos utilizados —fundamentalmente el DSM y la CIE— fueron desarrollados en contextos culturales occidentales y no siempre capturan las formas en que otras culturas experimentan y expresan el sufrimiento psiquico. La tristeza prolongada que en una comunidad indigena se interpreta como un mensaje de los ancestros puede ser clasificada, desde el DSM, como un episodio depresivo mayor. La pregunta es: ¿quien tiene la autoridad para definir que es enfermedad mental y que no lo es?»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, el modelo institucional predominante para abordar los trastornos mentales durante decadas consistia en:",
+    "explanation": "El texto indica explicitamente que «la respuesta institucional consistia en el internamiento en manicomios: espacios de aislamiento que perpetuaban la exclusion». Es informacion literal del primer parrafo.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "La integracion de la salud mental en los servicios de atencion primaria.", "isCorrect": false },
+      { "letter": "B", "text": "El internamiento en instituciones de aislamiento que perpetuaban la exclusion social.", "isCorrect": true },
+      { "letter": "C", "text": "La capacitacion de trabajadores comunitarios para brindar atencion psicologica.", "isCorrect": false },
+      { "letter": "D", "text": "La derivacion de los pacientes a centros de rehabilitacion especializados en adicciones.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "La expresion «quienes los padecian enfrentaban no solo la enfermedad misma, sino el estigma social que la acompanaba» permite inferir que:",
+    "explanation": "La frase indica que el sufrimiento de los pacientes con trastornos mentales tenia dos dimensiones: la enfermedad y la discriminacion social. De alli se infiere que el rechazo social agravaba la experiencia de la enfermedad, constituyendo una barrera adicional. La opcion B captura esta inferencia.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Las enfermedades mentales eran menos graves que las enfermedades fisicas.", "isCorrect": false },
+      { "letter": "B", "text": "El rechazo social constituia una carga adicional que agravaba la experiencia de la enfermedad mental.", "isCorrect": true },
+      { "letter": "C", "text": "Los profesionales de la salud eran los principales responsables del estigma hacia los pacientes.", "isCorrect": false },
+      { "letter": "D", "text": "El estigma social impedia que los investigadores estudiaran los trastornos mentales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": null,
+    "questionText": "La pregunta final del texto — «¿quien tiene la autoridad para definir que es enfermedad mental y que no lo es?» — cumple la funcion argumentativa de:",
+    "explanation": "La pregunta cierra un parrafo que cuestiona la universalidad de los modelos diagnosticos occidentales aplicados a contextos culturales diversos. No busca una respuesta factual, sino invitar al lector a reflexionar sobre los supuestos de poder detras de las clasificaciones psiquiatricas. Es una estrategia retorica critica.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Solicitar al lector una respuesta tecnica sobre los criterios del DSM.", "isCorrect": false },
+      { "letter": "B", "text": "Cuestionar la legitimidad de imponer categorias diagnosticas occidentales a todas las culturas.", "isCorrect": true },
+      { "letter": "C", "text": "Demostrar que los trastornos mentales no existen fuera del contexto cultural occidental.", "isCorrect": false },
+      { "letter": "D", "text": "Proponer que cada comunidad deberia crear su propio manual diagnostico independiente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "El ejemplo de «la tristeza prolongada que en una comunidad indigena se interpreta como un mensaje de los ancestros» se incluye en el texto para:",
+    "explanation": "El autor utiliza este ejemplo concreto para ilustrar la critica que plantea: que los marcos diagnosticos occidentales pueden clasificar como patologia lo que otra cultura interpreta de manera diferente. Es una evidencia que respalda la idea de que los modelos del DSM no son culturalmente universales.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Demostrar que las comunidades indigenas no padecen trastornos depresivos.", "isCorrect": false },
+      { "letter": "B", "text": "Ilustrar que un mismo fenomeno puede ser clasificado de manera distinta segun el marco cultural.", "isCorrect": true },
+      { "letter": "C", "text": "Criticar a las comunidades que rechazan los avances de la psiquiatria moderna.", "isCorrect": false },
+      { "letter": "D", "text": "Proponer que la medicina tradicional indigena es superior a la psiquiatria occidental.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Lea el siguiente texto.\n\n«La inteligencia artificial (IA) esta transformando la investigacion biomedica a una velocidad sin precedentes. Algoritmos de aprendizaje profundo pueden analizar millones de imagenes histopatologicas en horas, identificar patrones moleculares invisibles para el ojo humano y predecir la eficacia de farmacos antes de que ingresen a ensayos clinicos. En 2020, el sistema AlphaFold de DeepMind resolvio un problema que habia desafiado a la biologia estructural durante cincuenta anos: la prediccion de la estructura tridimensional de proteinas a partir de su secuencia de aminoacidos. Este logro, celebrado como uno de los avances cientificos mas importantes del siglo, abrio posibilidades extraordinarias para el diseno de farmacos y la comprension de enfermedades.\n\nPero el entusiasmo tecnologico no deberia eclipsar las preguntas eticas que la IA plantea en este campo. Los algoritmos se entrenan con datos, y esos datos no son neutrales. Si los conjuntos de entrenamiento provienen predominantemente de poblaciones caucasicas —como ocurre con la mayoria de las bases de datos genomicas actuales—, los modelos resultantes pueden ser menos precisos para poblaciones africanas, asiaticas o latinoamericanas. Esto no es un problema hipotetico: estudios han demostrado que herramientas de IA dermatologica entrenadas con imagenes de piel clara diagnostican peor las lesiones en piel oscura.\n\nAdemnas, la opacidad de los modelos de aprendizaje profundo —el llamado problema de la «caja negra»— plantea un dilema etico fundamental: ¿puede un medico confiar en un diagnostico que no puede explicar? ¿Puede un paciente aceptar un tratamiento recomendado por un algoritmo cuyo razonamiento nadie comprende? La IA no reemplaza el juicio clinico; lo complementa. Pero para que esa complementariedad sea etica, necesita transparencia.»\n\n(Redaccion Study2One)",
+    "questionText": "El texto menciona que el sistema AlphaFold resolvio el problema de:",
+    "explanation": "El texto indica literalmente que AlphaFold resolvio «la prediccion de la estructura tridimensional de proteinas a partir de su secuencia de aminoacidos». Es una pregunta de recuperacion de informacion explicita.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "La secuenciacion completa del genoma humano en tiempo real.", "isCorrect": false },
+      { "letter": "B", "text": "La prediccion de la estructura tridimensional de proteinas a partir de su secuencia de aminoacidos.", "isCorrect": true },
+      { "letter": "C", "text": "La identificacion automatica de mutaciones geneticas asociadas al cancer.", "isCorrect": false },
+      { "letter": "D", "text": "La simulacion de ensayos clinicos completos mediante modelos computacionales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": null,
+    "questionText": "Cuando el texto afirma que «los datos no son neutrales», se refiere a que:",
+    "explanation": "El texto desarrolla esta idea explicando que los conjuntos de datos de entrenamiento provienen de poblaciones especificas (predominantemente caucasicas), lo cual genera sesgos en los modelos de IA. La opcion A captura esta idea: los datos llevan incorporados los sesgos de las poblaciones y contextos de los que fueron recolectados.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Los conjuntos de datos reflejan los sesgos de las poblaciones y contextos de los que fueron recolectados.", "isCorrect": true },
+      { "letter": "B", "text": "Los investigadores manipulan deliberadamente los datos para obtener resultados favorables.", "isCorrect": false },
+      { "letter": "C", "text": "Las bases de datos genomicas contienen errores tecnicos que invalidan los analisis de IA.", "isCorrect": false },
+      { "letter": "D", "text": "Los algoritmos de aprendizaje profundo no pueden procesar informacion de diversas fuentes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "El ejemplo de las herramientas de IA dermatologica que diagnostican peor las lesiones en piel oscura se incluye para:",
+    "explanation": "El autor introduce este ejemplo inmediatamente despues de senalar que los datos de entrenamiento pueden generar sesgos. El ejemplo concreto de dermatologia demuestra que el sesgo no es teorico sino real, con consecuencias clinicas para poblaciones subrepresentadas. Funciona como evidencia empirica de la tesis.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Sugerir que la IA no deberia utilizarse en especialidades medicas visuales.", "isCorrect": false },
+      { "letter": "B", "text": "Demostrar con un caso concreto que los sesgos en los datos de entrenamiento tienen consecuencias clinicas reales.", "isCorrect": true },
+      { "letter": "C", "text": "Argumentar que los dermatologos humanos son mas precisos que cualquier algoritmo de IA.", "isCorrect": false },
+      { "letter": "D", "text": "Criticar a las empresas tecnologicas por no incluir diversidad etnica en sus equipos de desarrollo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "La postura del autor frente a la IA en la investigacion biomedica puede describirse como:",
+    "explanation": "El texto reconoce los logros extraordinarios de la IA (AlphaFold, analisis de imagenes) pero senala riesgos eticos concretos (sesgo, opacidad). No rechaza la IA ni la acepta sin reservas. La opcion C captura esta posicion equilibrada: valoracion del potencial acompanada de una exigencia de responsabilidad etica.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Entusiasta e incondicional frente al potencial de la IA para revolucionar la medicina.", "isCorrect": false },
+      { "letter": "B", "text": "Esceptica y contraria a la incorporacion de algoritmos en la practica clinica.", "isCorrect": false },
+      { "letter": "C", "text": "Favorable al potencial de la IA, pero critica frente a su implementacion sin transparencia ni equidad.", "isCorrect": true },
+      { "letter": "D", "text": "Indiferente ante las implicaciones eticas y centrada exclusivamente en los avances tecnologicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Lea el siguiente texto.\n\n«La relacion entre cambio climatico y enfermedades infecciosas emergentes es una de las amenazas sanitarias menos comprendidas y mas subestimadas de nuestro tiempo. A medida que las temperaturas globales aumentan, los vectores de enfermedades —mosquitos, garrapatas, roedores— expanden sus rangos geograficos hacia regiones donde antes no podian sobrevivir. El Aedes aegypti, mosquito transmisor del dengue, el zika y el chikunguia, ha colonizado altitudes y latitudes que hace veinte anos le eran hostiles. Ciudades como Bogota, situadas a 2.600 metros sobre el nivel del mar y tradicionalmente libres de dengue, han comenzado a registrar casos autoctonos.\n\nPero los mecanismos son mas complejos que la simple expansion de vectores. El deshielo del permafrost artico esta liberando microorganismos congelados durante miles de anos, algunos de los cuales podrian ser patogenos para los humanos. En 2016, un brote de antrax en Siberia se atribuyo a la descongelacion de un reno infectado que habia permanecido bajo el hielo durante decadas. Las inundaciones y sequias extremas, cada vez mas frecuentes, contaminan fuentes de agua potable y desplazan poblaciones hacia asentamientos precarios donde las condiciones sanitarias facilitan la propagacion de enfermedades.\n\nLa ironia es que las poblaciones que menos han contribuido al cambio climatico son las mas vulnerables a sus consecuencias sanitarias. Los paises del tropico y del Sur Global, cuyas emisiones de carbono per capita son una fraccion de las del Norte industrializado, soportan la mayor carga de enfermedades transmitidas por vectores. El cambio climatico no es solo una crisis ambiental: es un amplificador de la desigualdad sanitaria global.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, el caso de Bogota se menciona para ilustrar que:",
+    "explanation": "El texto presenta a Bogota como un ejemplo concreto de como el Aedes aegypti ha expandido su rango a altitudes que antes le eran hostiles, y ahora se registran casos autoctonos de dengue en la ciudad. Es informacion explicita del primer parrafo.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Las ciudades colombianas carecen de infraestructura para el control de vectores.", "isCorrect": false },
+      { "letter": "B", "text": "Los mosquitos transmisores de enfermedades estan alcanzando altitudes que antes les eran inhospitas.", "isCorrect": true },
+      { "letter": "C", "text": "El sistema de salud de Bogota no esta preparado para enfrentar epidemias tropicales.", "isCorrect": false },
+      { "letter": "D", "text": "La contaminacion del aire en las grandes ciudades favorece la proliferacion de mosquitos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "Del brote de antrax en Siberia mencionado en el texto se puede inferir que:",
+    "explanation": "El texto relata que un reno infectado, congelado durante decadas, libero antrax al descongelarse. De esto se infiere que el permafrost funciona como un reservorio de patogenos que, al derretirse por el calentamiento global, pueden reactivarse. La opcion D captura esta inferencia.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Los renos son los principales vectores de enfermedades infecciosas en el Artico.", "isCorrect": false },
+      { "letter": "B", "text": "Las autoridades siberianas actuaron con negligencia ante las senales de la epidemia.", "isCorrect": false },
+      { "letter": "C", "text": "El antrax es una enfermedad nueva que aparecio como consecuencia del cambio climatico.", "isCorrect": false },
+      { "letter": "D", "text": "El deshielo del permafrost puede liberar patogenos antiguos que representan un riesgo para la salud actual.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "Cuando el texto califica la situacion como una «ironia», se refiere a que:",
+    "explanation": "El texto describe como ironica la situacion en la que los paises con menores emisiones de carbono (Sur Global) sufren las mayores consecuencias sanitarias del cambio climatico. La ironia reside en la desproporcion entre responsabilidad y consecuencia.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Los paises tropicales rechazan las medidas de mitigacion del cambio climatico.", "isCorrect": false },
+      { "letter": "B", "text": "Las naciones con mayor desarrollo tecnologico son las mas afectadas por las enfermedades emergentes.", "isCorrect": false },
+      { "letter": "C", "text": "Quienes menos contribuyen al cambio climatico son quienes mas sufren sus consecuencias sanitarias.", "isCorrect": true },
+      { "letter": "D", "text": "Las enfermedades transmitidas por vectores solo afectan a paises con climas calidos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": null,
+    "questionText": "Un lector critico podria senalar como debilidad del texto que:",
+    "explanation": "El texto afirma que el cambio climatico amplifica la desigualdad sanitaria, pero no aborda que esta desigualdad ya existia antes del cambio climatico (por colonialismo, extractivismo, inequidad economica). Al atribuir la situacion principalmente al cambio climatico, el texto puede simplificar las causas estructurales de la vulnerabilidad del Sur Global.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "No incluye datos numericos sobre la incidencia de dengue en Bogota.", "isCorrect": false },
+      { "letter": "B", "text": "Atribuye la vulnerabilidad sanitaria del Sur Global al cambio climatico sin considerar las desigualdades estructurales preexistentes.", "isCorrect": true },
+      { "letter": "C", "text": "Utiliza un lenguaje excesivamente tecnico que impide al lector general comprender los argumentos.", "isCorrect": false },
+      { "letter": "D", "text": "Contradice la evidencia cientifica al afirmar que el permafrost contiene microorganismos viables.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Lea el siguiente texto.\n\n«La historia de la vacunacion es, en cierto sentido, la historia de la humanidad aprendiendo a adelantarse a la enfermedad. Desde las practicas de variolizacion en China y el Imperio Otomano en el siglo XVIII, pasando por el descubrimiento de Jenner con la viruela bovina en 1796, hasta las vacunas de ARN mensajero desarrolladas contra el COVID-19 en 2020, cada hito refleja no solo un avance cientifico, sino una transformacion en la manera de entender la relacion entre el cuerpo humano y los patogenos.\n\nLouis Pasteur, en la decada de 1880, demostro que era posible atenuar microorganismos para inducir inmunidad sin causar enfermedad, sentando las bases de la vacunologia moderna. Su vacuna contra la rabia, probada en un nino mordido por un perro rabioso, fue tanto un triunfo cientifico como un escandalo etico: Pasteur no era medico y el procedimiento no habia sido aprobado por ningun comite. La necesidad de protocolos de experimentacion eticos surgira despues, alimentada precisamente por episodios como este.\n\nEl siglo XX vio la erradicacion de la viruela —la unica enfermedad humana eliminada mediante vacunacion— y la reduccion dramatica de poliomielitis, sarampion y difteria. Pero tambien vio los abusos del Estudio Tuskegee y los ensayos no consentidos en poblaciones vulnerables del Sur Global. La vacunacion salva millones de vidas cada ano; esta fuera de discusion. Lo que si esta en discusion es quien participa en los ensayos, quien accede primero a las vacunas y quien asume los riesgos de los efectos adversos. La tecnologia de ARNm —rapida, adaptable, revolucionaria— no resolvio estas preguntas. Las hizo mas urgentes.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, la vacuna de Pasteur contra la rabia genero controversia etica porque:",
+    "explanation": "El texto afirma que Pasteur «no era medico y el procedimiento no habia sido aprobado por ningun comite». Estas dos condiciones son las que el texto senala como fuente de controversia etica. La opcion B recoge esta informacion literal.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Utilizo un patogeno no atenuado que ponia en riesgo la vida del paciente.", "isCorrect": false },
+      { "letter": "B", "text": "Fue aplicada por alguien que no era medico y sin aprobacion de ningun comite etico.", "isCorrect": true },
+      { "letter": "C", "text": "Se probo primero en animales sin haber obtenido resultados concluyentes.", "isCorrect": false },
+      { "letter": "D", "text": "Causo efectos adversos graves en el nino que la recibio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "La frase «la unica enfermedad humana eliminada mediante vacunacion» cumple en el texto la funcion de:",
+    "explanation": "El dato sobre la viruela como unica enfermedad erradicada por vacunacion destaca la magnitud de ese logro. En el contexto del parrafo que menciona multiples enfermedades reducidas, esta frase enfatiza que la erradicacion completa es un caso excepcional y extraordinario.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Cuestionar la eficacia de las vacunas para erradicar otras enfermedades infecciosas.", "isCorrect": false },
+      { "letter": "B", "text": "Comparar la viruela con la poliomielitis para establecer cual fue mas mortifera.", "isCorrect": false },
+      { "letter": "C", "text": "Resaltar el caracter excepcional de la erradicacion de la viruela como logro de la vacunacion.", "isCorrect": true },
+      { "letter": "D", "text": "Sugerir que las campanas de vacunacion del siglo XX fueron insuficientes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": null,
+    "questionText": "La oracion final — «La tecnologia de ARNm no resolvio estas preguntas. Las hizo mas urgentes» — sugiere que:",
+    "explanation": "El texto plantea que las preguntas pendientes son de equidad: quien participa en los ensayos, quien accede primero, quien asume los riesgos. La tecnologia de ARNm, al ser mas rapida y potente, no elimino estas inequidades sino que las acentuo, porque su desarrollo y distribucion reprodujeron patrones de desigualdad global.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La tecnologia de ARNm ha resultado menos eficaz de lo que se prometia inicialmente.", "isCorrect": false },
+      { "letter": "B", "text": "Los avances tecnologicos amplifican las preguntas eticas sobre equidad en lugar de resolverlas.", "isCorrect": true },
+      { "letter": "C", "text": "Las vacunas de ARNm presentan mas efectos adversos que las vacunas tradicionales.", "isCorrect": false },
+      { "letter": "D", "text": "Los paises desarrollados deberian compartir la patente de la tecnologia de ARNm.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "El texto establece un contraste recurrente entre los logros cientificos de la vacunacion y:",
+    "explanation": "A lo largo de los tres parrafos, el texto yuxtapone avances (Jenner, Pasteur, erradicacion de la viruela, ARNm) con dilemas eticos (experimentacion sin consentimiento, Tuskegee, desigualdad en el acceso). Este patron argumentativo estructura todo el texto. La opcion A identifica esta tension central.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Los dilemas eticos y las desigualdades que han acompanado su desarrollo y distribucion.", "isCorrect": true },
+      { "letter": "B", "text": "La resistencia de los movimientos antivacunas a aceptar la evidencia cientifica.", "isCorrect": false },
+      { "letter": "C", "text": "La incapacidad de los gobiernos para financiar programas de inmunizacion masiva.", "isCorrect": false },
+      { "letter": "D", "text": "Las limitaciones tecnicas que impiden desarrollar vacunas contra todas las enfermedades.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Lea el siguiente fragmento.\n\n«Raskolnikov se estremecio; era como si le hubiesen clavado un alfiler. Todo le daba vueltas. Tenia la sensacion de que aquello ya lo habia vivido, de que ya habia estado en aquel mismo rincon oscuro, en aquella misma penumbra, ante aquella misma mujer que lo miraba con los mismos ojos... Y sin embargo, no recordaba cuando ni donde. «¿Estare sonando?», penso.\n\nLa fiebre le habia subido. Sentia las sienes latir como martillos y una sed abrasadora que ninguna cantidad de agua podia saciar. Los objetos de la habitacion empezaban a deformarse: la puerta se alejaba, las paredes se ondulaban como si respiraran. La vieja seguia alli, sentada junto a la ventana, con las manos cruzadas sobre el regazo, mirandolo con una calma que a el le parecia mas terrible que cualquier grito.\n\n—Usted sabe por que he venido —dijo Raskolnikov, y su propia voz le sono lejana, como si hablara desde el fondo de un pozo.\n—Se por que has venido —respondio ella, sin alterar un solo musculo del rostro—. Pero no cambiara nada.»\n\n(Fedor Dostoievski, Crimen y castigo, traduccion adaptada — dominio publico)",
+    "questionText": "La descripcion de los objetos de la habitacion — «la puerta se alejaba, las paredes se ondulaban como si respiraran» — indica que Raskolnikov:",
+    "explanation": "El texto describe distorsiones perceptivas (puerta que se aleja, paredes que se ondulan) en el contexto de una fiebre alta. Estas alteraciones sensoriales son consistentes con un estado febril que altera la percepcion de la realidad. La opcion C recoge esta interpretacion literal del pasaje.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Se encuentra en una habitacion construida con materiales inestables.", "isCorrect": false },
+      { "letter": "B", "text": "Ha consumido alguna sustancia que altera su percepcion sensorial.", "isCorrect": false },
+      { "letter": "C", "text": "Experimenta alucinaciones visuales provocadas por la fiebre.", "isCorrect": true },
+      { "letter": "D", "text": "Describe de manera poetica su estado de angustia moral.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "La sensacion de Raskolnikov de que «aquello ya lo habia vivido» sugiere, en el contexto de la novela, que:",
+    "explanation": "El pasaje describe una sensation de deja vu mezclada con el delirio febril. En el contexto de Crimen y castigo, donde Raskolnikov es atormentado por la culpa, esta repeticion sugiere que su conciencia lo atrapa en un ciclo de angustia que la fiebre intensifica, haciendo que el pasado y el presente se confundan.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "El personaje posee la capacidad sobrenatural de prever el futuro.", "isCorrect": false },
+      { "letter": "B", "text": "La fiebre y la culpa crean un ciclo de angustia en el que el pasado y el presente se confunden.", "isCorrect": true },
+      { "letter": "C", "text": "La escena descrita es un recuerdo de infancia que Raskolnikov ha reprimido.", "isCorrect": false },
+      { "letter": "D", "text": "El narrador utiliza una tecnica de flashback para introducir una escena previa de la novela.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "La respuesta de la vieja — «Se por que has venido. Pero no cambiara nada» — puede interpretarse como:",
+    "explanation": "En el contexto del delirio febril de Raskolnikov, la vieja aparece como una presencia que conoce sus intenciones y las declara inutiles. La frase «no cambiara nada» sugiere que, independientemente de lo que Raskolnikov haga, la culpa o el tormento persistiran. Es una manifestacion del conflicto interno del personaje proyectado en la figura de la vieja.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Una advertencia practica sobre las consecuencias legales de sus actos.", "isCorrect": false },
+      { "letter": "B", "text": "Una manifestacion del tormento interior de Raskolnikov, que sabe que la culpa no puede deshacerse.", "isCorrect": true },
+      { "letter": "C", "text": "Una invitacion de la vieja a que Raskolnikov abandone sus planes y regrese a su hogar.", "isCorrect": false },
+      { "letter": "D", "text": "Una expresion de la indiferencia de la vieja ante el sufrimiento ajeno.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "La comparacion «como si hablara desde el fondo de un pozo» contribuye a crear en el texto una atmosfera de:",
+    "explanation": "La voz que suena lejana, como desde el fondo de un pozo, sugiere desconexion del personaje con la realidad. Junto con las alucinaciones visuales y la fiebre, esta imagen auditiva refuerza la atmosfera de aislamiento y enajenacion del personaje respecto a su propio cuerpo y entorno.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Misterio policial, propia de una narracion de suspenso.", "isCorrect": false },
+      { "letter": "B", "text": "Enajenacion y desconexion del personaje con su propia realidad.", "isCorrect": true },
+      { "letter": "C", "text": "Tranquilidad melancolica, propia de un relato de despedida.", "isCorrect": false },
+      { "letter": "D", "text": "Tension fisica, similar a la de una escena de persecucion.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Lea el siguiente fragmento.\n\n«Las sirenas, entretanto, entonaban su canto dulcisimo: «Ven aca, celebre Odiseo, gloria de los aqueos; deten tu nave para que oigas nuestra voz. Ningun hombre ha pasado de largo en su negro navio sin escuchar la voz que brota de nuestros labios, sino que se ha deleitado con ella y se ha marchado despues de saber mas. Porque sabemos todo cuanto en la vasta Troya padecieron argivos y teucros por voluntad de los dioses, y sabemos todo cuanto ocurre sobre la tierra fecunda».\n\nAsi cantaban con hermosa voz. Mi corazon deseaba escucharlas, y con un movimiento de cejas ordene a mis companeros que me desataran; pero ellos se inclinaron sobre los remos y remaron con mas fuerza. Euriloco y Perimedes se levantaron enseguida y me ataron con mas cuerdas, apretandolas. Cuando al fin las dejamos atras y ya no se oia ni su canto ni su voz, mis fieles companeros se quitaron la cera que yo les habia puesto en los oidos y me desataron.»\n\n(Homero, Odisea, Canto XII, traduccion adaptada — dominio publico)",
+    "questionText": "Segun el fragmento, las sirenas prometen a Odiseo:",
+    "explanation": "Las sirenas cantan: «se ha marchado despues de saber mas» y «sabemos todo cuanto [...] padecieron argivos y teucros [...] y sabemos todo cuanto ocurre sobre la tierra fecunda». Prometen conocimiento total. La opcion A recoge esta informacion literal.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Conocimiento sobre todo lo que ocurrio en Troya y cuanto sucede en la tierra.", "isCorrect": true },
+      { "letter": "B", "text": "Un regreso seguro a Itaca si detiene su nave ante ellas.", "isCorrect": false },
+      { "letter": "C", "text": "Riquezas y honores superiores a los que obtuvo en la guerra de Troya.", "isCorrect": false },
+      { "letter": "D", "text": "La inmortalidad y un lugar entre los dioses del Olimpo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "La estrategia de Odiseo de pedir a sus companeros que lo aten al mastil revela que el personaje:",
+    "explanation": "Odiseo sabe que el canto de las sirenas es irresistible y que deseara ceder. Su estrategia consiste en reconocer previamente esa debilidad y preparar un mecanismo externo (las ataduras, la cera en los oidos de los companeros) para contrarrestarla. Esto revela autoconocimiento y prevision: sabe que su voluntad no sera suficiente.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Desconfia de la lealtad de sus companeros y teme ser abandonado.", "isCorrect": false },
+      { "letter": "B", "text": "Reconoce su propia vulnerabilidad ante la tentacion y disena una estrategia para resistirla.", "isCorrect": true },
+      { "letter": "C", "text": "Desea demostrar ante su tripulacion que es capaz de soportar cualquier prueba.", "isCorrect": false },
+      { "letter": "D", "text": "Obedece una instruccion divina sin comprender su proposito.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": null,
+    "questionText": "El hecho de que Odiseo ordene «con un movimiento de cejas» que lo desaten, mientras sus companeros responden remando con mas fuerza, genera en el relato:",
+    "explanation": "La escena presenta una tension dramatica entre el deseo de Odiseo (ser desatado para acercarse a las sirenas) y la accion de sus companeros (que lo atan mas fuerte y reman mas). Es un conflicto entre la voluntad alterada del heroe y el plan racional que el mismo habia trazado. La opcion C captura esta tension.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Un efecto comico derivado de la impotencia del capitan ante su propia tripulacion.", "isCorrect": false },
+      { "letter": "B", "text": "Un cuestionamiento sobre la legitimidad de la autoridad de Odiseo como lider.", "isCorrect": false },
+      { "letter": "C", "text": "Una tension dramatica entre el deseo irracional del heroe y el plan racional que el mismo habia disenado.", "isCorrect": true },
+      { "letter": "D", "text": "Una demostracion de la desobediencia de la tripulacion frente a las ordenes de su capitan.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "La promesa de las sirenas — «se ha marchado despues de saber mas» — resulta enganosa porque, segun la tradicion del relato:",
+    "explanation": "Las sirenas afirman que quienes escuchan su canto se marchan «despues de saber mas», pero la tradicion homerica y el contexto del pasaje indican que quienes se acercan a ellas no sobreviven. La promesa de conocimiento oculta la destruccion. La opcion B senala este caracter enganoso basado en la omision deliberada.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Las sirenas no poseian realmente ningun conocimiento sobre Troya ni sobre los asuntos humanos.", "isCorrect": false },
+      { "letter": "B", "text": "Omite que quienes se detenian a escucharlas no regresaban jamas, seducidos hasta la muerte.", "isCorrect": true },
+      { "letter": "C", "text": "El conocimiento que ofrecian era falso y contradecia los relatos de los sobrevivientes de Troya.", "isCorrect": false },
+      { "letter": "D", "text": "Odiseo ya poseia todo el conocimiento sobre la guerra y no necesitaba el de las sirenas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Lea el siguiente texto.\n\n«En 1955, el cardiologo Henry Beecher publico un articulo que cambiaria la investigacion clinica para siempre. Tras observar que soldados heridos en la Segunda Guerra Mundial reportaban significativamente menos dolor del que sus lesiones sugerian —siempre que creyeran que serian evacuados pronto—, Beecher comprendio que la expectativa del paciente era un componente activo del resultado terapeutico. Habia identificado, con precision clinica, el nucleo del efecto placebo.\n\nEl efecto placebo no es un engano ni una ilucion. Es un fenomeno neurobiologico mensurable: cuando un paciente cree que recibe un tratamiento eficaz, su cerebro libera endorfinas, dopamina y otros neurotransmisores que modulan el dolor, la inflamacion y el estado de animo. Estudios con neuroimagen funcional han demostrado que las areas cerebrales activadas por un placebo son las mismas que se activan con analgesicos reales. El cuerpo, en cierto sentido, produce su propia medicina cuando la mente le indica que la ayuda ha llegado.\n\nLa medicina mente-cuerpo amplifica este principio. Practicas como la meditacion, la hipnosis clinica, la terapia cognitivo-conductual y la relajacion guiada han demostrado eficacia en el manejo del dolor cronico, la hipertension, el sindrome de colon irritable y la ansiedad, entre otras condiciones. No se trata de sustituir los farmacos, sino de reconocer que la relacion terapeutica, la confianza del paciente y sus expectativas son variables clinicas tan reales como la dosis de un medicamento. El desafio para la medicina contemporanea es integrar este conocimiento sin caer en el charlatanismo ni en el reduccionismo biologico.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, la observacion de Beecher que condujo a su comprension del efecto placebo fue que:",
+    "explanation": "El texto afirma explicitamente que Beecher observo que «soldados heridos reportaban significativamente menos dolor del que sus lesiones sugerian, siempre que creyeran que serian evacuados pronto». Esta es informacion literal del primer parrafo.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Los medicamentos administrados en el campo de batalla tenian mayor eficacia que en los hospitales.", "isCorrect": false },
+      { "letter": "B", "text": "Los soldados heridos sentian menos dolor cuando creian que serian evacuados pronto.", "isCorrect": true },
+      { "letter": "C", "text": "Las heridas de guerra sanaban mas rapido en pacientes que recibian atencion psicologica.", "isCorrect": false },
+      { "letter": "D", "text": "Los soldados con lesiones leves reportaban mas dolor que los que tenian lesiones graves.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": null,
+    "questionText": "La afirmacion «el cuerpo produce su propia medicina cuando la mente le indica que la ayuda ha llegado» es una reformulacion de la idea de que:",
+    "explanation": "El parrafo explica que la expectativa de tratamiento eficaz activa mecanismos neurobiologicos (endorfinas, dopamina) que producen efectos terapeuticos reales. La frase es una sintesis metaforica de este mecanismo: las expectativas del paciente desencadenan respuestas fisiologicas curativas.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Los pacientes no necesitan farmacos si confian lo suficiente en su recuperacion.", "isCorrect": false },
+      { "letter": "B", "text": "Las expectativas positivas del paciente activan mecanismos neurobiologicos con efectos terapeuticos reales.", "isCorrect": true },
+      { "letter": "C", "text": "La mente humana puede curar cualquier enfermedad sin intervencion medica externa.", "isCorrect": false },
+      { "letter": "D", "text": "El efecto placebo solo funciona en pacientes que desconocen la naturaleza de su tratamiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": null,
+    "questionText": "El texto afirma que el efecto placebo «no es un engano ni una ilusion». El proposito de esta aclaracion es:",
+    "explanation": "El autor anticipa la objecion comun de que el placebo es simplemente un truco o una sugestion sin base real. Al aclarar que es un «fenomeno neurobiologico mensurable» con correlato en neuroimagen, busca desmontar la percepcion descalificadora y legitimar el placebo como un fenomeno digno de estudio cientifico serio.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Justificar que los medicos administren placebos a los pacientes sin informarles.", "isCorrect": false },
+      { "letter": "B", "text": "Desmontar la percepcion de que el efecto placebo carece de base fisiologica real.", "isCorrect": true },
+      { "letter": "C", "text": "Demostrar que la neuroimagen es la unica herramienta valida para estudiar el dolor.", "isCorrect": false },
+      { "letter": "D", "text": "Criticar a los profesionales de la salud que recurren al efecto placebo en su practica clinica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "La frase final — «integrar este conocimiento sin caer en el charlatanismo ni en el reduccionismo biologico» — senala dos riesgos opuestos. Un lector critico identificaria que estos riesgos son:",
+    "explanation": "El texto advierte contra dos extremos: por un lado, usar el efecto placebo como excusa para pseudoterapias sin base cientifica (charlatanismo); por otro, ignorar completamente los factores mentales y emocionales en la terapia y reducir todo a farmacos (reduccionismo biologico). Son riesgos simetricamente opuestos.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Rechazar la medicina basada en evidencia y depender exclusivamente de la relacion terapeutica.", "isCorrect": false },
+      { "letter": "B", "text": "Sobreestimar el componente mental hasta justificar pseudociencias, o ignorarlo reduciendolo todo a biologia.", "isCorrect": true },
+      { "letter": "C", "text": "Formar demasiados especialistas en medicina mente-cuerpo o demasiados investigadores en neurociencia.", "isCorrect": false },
+      { "letter": "D", "text": "Confiar excesivamente en la tecnologia de neuroimagen o descartarla como herramienta diagnostica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "La mencion de practicas como la meditacion, la hipnosis clinica y la terapia cognitivo-conductual tiene como funcion en el texto:",
+    "explanation": "El autor introduce estas practicas como ejemplos concretos de la medicina mente-cuerpo que han demostrado eficacia clinica. No las presenta como alternativas a la farmacologia, sino como complementos que aprovechan el principio del efecto placebo. Su funcion es dar sustento empirico a la tesis de que las expectativas y la relacion terapeutica tienen efectos clinicos reales.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Proponer que estas practicas reemplacen el uso de farmacos en el tratamiento de enfermedades cronicas.", "isCorrect": false },
+      { "letter": "B", "text": "Ofrecer ejemplos concretos de aplicaciones clinicas del principio mente-cuerpo con eficacia demostrada.", "isCorrect": true },
+      { "letter": "C", "text": "Demostrar que la psicologia es mas eficaz que la medicina en el manejo del dolor.", "isCorrect": false },
+      { "letter": "D", "text": "Criticar las terapias alternativas que carecen de respaldo cientifico.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "Considerando el conjunto del texto, la tesis principal del autor es que:",
+    "explanation": "El texto argumenta a lo largo de los tres parrafos que el efecto placebo es un fenomeno neurobiologico real, que las expectativas del paciente influyen en los resultados terapeuticos y que la medicina mente-cuerpo ofrece herramientas clinicas eficaces. La tesis integradora es que la medicina debe incorporar estos factores como variables clinicas legitimas, sin abandonar el rigor cientifico.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "El efecto placebo demuestra que la mayoria de los farmacos son innecesarios.", "isCorrect": false },
+      { "letter": "B", "text": "La investigacion clinica deberia abandonar los ensayos controlados con placebo por razones eticas.", "isCorrect": false },
+      { "letter": "C", "text": "Las expectativas del paciente y la relacion terapeutica son variables clinicas reales que la medicina debe integrar con rigor cientifico.", "isCorrect": true },
+      { "letter": "D", "text": "Henry Beecher fue el cientifico mas importante del siglo XX en el campo de la neurologia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "Un lector critico podria senalar como limitacion del texto que:",
+    "explanation": "El texto presenta el efecto placebo y la medicina mente-cuerpo con multiples ejemplos de eficacia, pero no discute las condiciones en las que el placebo no funciona (enfermedades estructurales graves, infecciones, cancer avanzado). Esta omision puede generar una imagen excesivamente optimista de los alcances de la medicina mente-cuerpo.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "No distingue entre las condiciones clinicas donde el efecto placebo tiene eficacia demostrada y aquellas donde no la tiene.", "isCorrect": true },
+      { "letter": "B", "text": "Utiliza un lenguaje demasiado tecnico que impide la comprension del lector no especializado.", "isCorrect": false },
+      { "letter": "C", "text": "Contradice la evidencia cientifica al afirmar que el placebo activa neurotransmisores reales.", "isCorrect": false },
+      { "letter": "D", "text": "Omite la biografia completa de Henry Beecher, lo que impide evaluar la credibilidad de su investigacion.", "isCorrect": false }
+    ]
+  }
+]

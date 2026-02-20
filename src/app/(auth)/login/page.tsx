@@ -24,9 +24,25 @@ export default function LoginPage() {
     });
 
     if (result?.error) {
-      if (result.error === "PENDING_APPROVAL") {
-        router.push("/pending");
-      } else {
+      // signIn failed — check if the user is PENDING or REJECTED
+      try {
+        const checkRes = await fetch("/api/auth/check-status", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email }),
+        });
+        const checkData = await checkRes.json();
+
+        if (checkData.status === "PENDING") {
+          router.push("/pending");
+          setLoading(false);
+          return;
+        } else if (checkData.status === "REJECTED") {
+          setError("Tu solicitud de matrícula fue rechazada. Contacta a tu coordinador.");
+        } else {
+          setError("Email o contraseña incorrectos");
+        }
+      } catch {
         setError("Email o contraseña incorrectos");
       }
     } else {

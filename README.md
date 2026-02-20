@@ -1,6 +1,6 @@
 # Study2One Platform
 
-Plataforma de preparacion para examenes Saber Pro/TyT diseñada para estudiantes universitarios de ciencias de la salud en Colombia. Programa estructurado de 125 dias (lunes a viernes) con audio diario, quizzes, practica de escritura, subida de evidencias fotograficas, simulacros mensuales tipo Saber Pro con metricas de investigacion, y panel de coordinador con ECG waveforms.
+Plataforma de preparacion para examenes Saber Pro/TyT diseñada para estudiantes universitarios de ciencias de la salud en Colombia. Programa estructurado de 125 dias (lunes a viernes) con audio diario, quizzes con scoring server-side, practica de escritura, subida de evidencias fotograficas, simulacros mensuales tipo Saber Pro con metricas de investigacion, y panel de coordinador con ECG waveforms.
 
 ## Tabla de Contenidos
 
@@ -13,6 +13,7 @@ Plataforma de preparacion para examenes Saber Pro/TyT diseñada para estudiantes
 - [Simulacros Mensuales](#simulacros-mensuales)
 - [Metricas de Investigacion](#metricas-de-investigacion)
 - [Visualizacion ECG](#visualizacion-ecg)
+- [Seguridad](#seguridad)
 - [Base de Datos](#base-de-datos)
 - [API Reference](#api-reference)
 - [Scripts de Utilidad](#scripts-de-utilidad)
@@ -26,12 +27,12 @@ Plataforma de preparacion para examenes Saber Pro/TyT diseñada para estudiantes
 Study2One transforma la preparacion del Saber Pro en un programa diario estructurado. Cada dia el estudiante:
 
 1. **Escucha** una leccion en audio (generada con OpenAI TTS, alojada en Cloudinary)
-2. **Responde** un quiz de 3 preguntas sobre el contenido del dia
+2. **Responde** un quiz de 3 preguntas con scoring verificado server-side
 3. **Sube** una evidencia fotografica (mapa mental, cuadro sinoptico, cuadernillo)
 4. **Practica escritura** (solo Modulo 4 — Comunicacion Escrita)
 5. **Presenta simulacros** mensuales tipo Saber Pro con timing oficial ICFES
 
-Tres roles: **Estudiante**, **Coordinador** y **Cliente**. El coordinador programa simulacros por cohorte, revisa metricas detalladas y monitorea la salud academica mediante ECG waveforms animados.
+Tres roles: **Estudiante**, **Coordinador** y **Cliente**. El coordinador programa simulacros por cohorte, revisa metricas detalladas y monitorea la salud academica mediante ECG waveforms animados. Todos los datos del coordinador estan scoped a sus propias cohortes.
 
 ---
 
@@ -42,14 +43,14 @@ Tres roles: **Estudiante**, **Coordinador** y **Cliente**. El coordinador progra
 | Frontend | Next.js 14.2 (App Router), React 18, TypeScript 5 |
 | Estilos | Tailwind CSS 3.4 |
 | ORM | Prisma 5.22, PostgreSQL 16 |
-| Auth | NextAuth v5 beta (credentials, JWT, `trustHost: true`) |
-| Estado | Zustand (client), Zod (validacion) |
+| Auth | NextAuth v5 beta (credentials, JWT, secure cookies) |
+| Validacion | Zod |
 | CDN Audio | Cloudinary (`resource_type: "video"`) |
 | Email | Resend |
 | Push | web-push (VAPID) |
 | PDF | jsPDF + qrcode.react |
 | Audio TTS | OpenAI TTS API (tts-1-hd) |
-| Deploy | Render.com |
+| Deploy | Render.com (compatible con Google Cloud Run) |
 
 ---
 
@@ -79,7 +80,7 @@ npm run dev          # Servidor dev (localhost:3000)
 npm run build        # Build de produccion
 npm run lint         # ESLint
 npx prisma generate  # Regenerar Prisma client
-npx prisma db push   # Push schema (usar en Render — no interactivo)
+npx prisma db push   # Push schema (no interactivo, apto para CI/CD)
 npx prisma migrate dev --name <name>  # Migracion local
 npx prisma studio    # UI para explorar la BD
 ```
@@ -97,21 +98,27 @@ src/
 │   ├── (student)/       # Dashboard, dia, quiz, escritura, perfil, examen
 │   ├── (coordinator)/   # Panel, alumnos, simulacros, matriculas, metricas
 │   ├── (client)/        # Metricas agregadas, cohortes
-│   └── api/             # 57 endpoints REST
+│   └── api/             # 60 endpoints REST
 ├── components/
+│   ├── audio/           # AudioPlayer
 │   ├── monthly-exam/    # PCOnlyGate, ExamTimer, QuestionNavigator, ConfirmSubmitModal
-│   ├── coordinator/     # Componentes del panel de coordinador
-│   └── EcgWaveform.tsx  # SVG polyline con scroll infinito CSS
+│   ├── coordinator/     # PhotoGallery, MessageModal
+│   ├── EcgWaveform.tsx  # SVG polyline con scroll infinito CSS
+│   └── PushNotificationSetup.tsx
 ├── lib/
-│   ├── auth.ts          # NextAuth config con Prisma adapter
+│   ├── auth.ts          # NextAuth config con Prisma adapter, secure cookies
 │   ├── prisma.ts        # Singleton Prisma client
 │   ├── student-day.ts   # Calculo de dias habiles, modulos, semanas
-│   ├── exam-schedule.ts # Mapeo seccion→dia para simulacros
-│   ├── ecg-rhythms.ts   # 6 ritmos ECG y getStudentRhythm()
+│   ├── exam-schedule.ts # Mapeo seccion→dia para simulacros (WEEKLY/CONTINUOUS)
+│   ├── ecg-rhythms.ts   # 10 ritmos ECG y getStudentRhythm()
 │   ├── exam-sounds.ts   # Web Audio API (warning, completion, time-up)
-│   └── cloudinary.ts    # Upload/retrieval de audio
+│   ├── cloudinary.ts    # Upload/retrieval de audio
+│   ├── push.ts          # Web-push VAPID notifications
+│   ├── email.ts         # Resend email integration
+│   ├── message-templates.ts  # Formateo de mensajes
+│   └── generate-credential-pdf.ts  # Generacion de certificados PDF
 └── types/
-    └── next-auth.d.ts   # Extensiones de sesion
+    └── next-auth.d.ts   # Extensiones de sesion (id, role, pseudonym, avatarSeed)
 ```
 
 ### Patron de Autenticacion
@@ -120,32 +127,41 @@ No hay `middleware.ts` — auth se verifica por ruta. Cada API protegida usa:
 
 ```typescript
 const session = await auth();
-if (!session?.user?.role || session.user.role !== "COORDINATOR") {
+if (!session?.user?.id) {
   return NextResponse.json({ error: "No autorizado" }, { status: 401 });
 }
 ```
 
-Cron endpoints usan `?key=CRON_SECRET`. Path alias: `@/` → `./src/`.
+- **Coordinador APIs**: verifican `session.user.role !== "COORDINATOR"` y scoped a sus cohortes
+- **Estudiante APIs**: verifican rol + control de acceso a dias futuros via `getStudentCurrentDay()`
+- **Cron endpoints**: usan `?key=CRON_SECRET` en vez de sesion
+- **Path alias**: `@/` → `./src/`
+
+### Patron de Data Fetching
+
+Pages usan `useState` + `fetch()` directamente — sin SWR ni TanStack Query. Parametros de ruta dinamicos via `useParams()`.
 
 ---
 
 ## Roles de Usuario
 
 ### Estudiante (STUDENT)
-- Dashboard con alerta de simulacro del dia, racha, progreso
-- Contenido diario: audio + quiz + evidencia fotografica
-- Practica de escritura (Modulo 4)
-- Simulacros mensuales con timer oficial ICFES
-- Leaderboard, roadmap, perfil con ECG rhythm
-- Notificaciones push
+- Dashboard con alerta de simulacro del dia, racha, progreso, ECG rhythm
+- Contenido diario: audio + quiz (scoring server-side) + evidencia fotografica
+- Control de acceso temporal: solo puede acceder a dias desbloqueados por su cohorte
+- Practica de escritura con anti-paste (Modulo 4)
+- Simulacros mensuales con timer server-enforced
+- Leaderboard, roadmap dinamico, perfil personalizable
+- Notificaciones push y in-app
 
 ### Coordinador (COORDINATOR)
 - Dashboard con ECG waveforms (salud academica por estudiante)
-- Gestion de alumnos, matriculas, cohortes
+- **Datos scoped a sus propias cohortes** — no ve estudiantes de otros coordinadores
+- Gestion de alumnos, matriculas (PENDING → APPROVED/REJECTED), cohortes
 - **Programacion de simulacros por cohorte** (elige semana de inicio)
 - **Metricas de simulacros**: puntajes, tiempos, cambios de respuesta, tab switches
 - **Export CSV** de datos para investigacion
-- Anuncios, desbloqueo manual de exams
+- Anuncios, desbloqueo manual de exams, mensajeria
 - Gestion de exam days (Modulo 6)
 
 ### Cliente (CLIENT)
@@ -170,13 +186,14 @@ Cron endpoints usan `?key=CRON_SECRET`. Path alias: `@/` → `./src/`.
 | 8 | Promocion y Prevencion | 15 | 3 | 111-125 |
 
 ### Dia Normal
-- Audio (~10 min) → Quiz (3 preguntas) → Evidencia fotografica
-- Dia completado = audio + quiz + evidencia
+- Audio (~10 min) → Quiz (3 preguntas, scoring server-side) → Evidencia fotografica
+- Dia completado = audio + quiz aprobado (2/3) + evidencia
+- Quiz siempre desbloqueado (no depende de completar audio)
 
 ### Funcionalidades Especiales
 
-- **Modulo 4**: Practica de escritura con anti-paste (onPaste/onDrop/onContextMenu)
-- **Modulo 6 dias 26-30**: Exam days (15 preguntas, timer visible, `isExamDay: true`)
+- **Modulo 4**: Practica de escritura con anti-paste (onPaste/onDrop/onContextMenu). Timer cuenta desde primera tecla. Dias 7-10 con meta de 40 min; dias 9-10 son simulacros completos.
+- **Modulo 6 dias 26-30**: Exam days (15 preguntas, timer visible, umbral de aprobacion 10/15 = 67%, `isExamDay: true`)
 
 ---
 
@@ -198,36 +215,35 @@ Sistema completo de examenes tipo Saber Pro con 6 simulacros de 8 secciones cada
 | 8 | Promocion y Prevencion | 55 min | MC |
 
 ### Modos de Examen
-- **WEEKLY** (Simulacros 1-4, 6): Secciones en cualquier orden, una por dia programado
-- **CONTINUOUS** (Simulacro 5): Secciones secuenciales 1→8
+- **WEEKLY** (Simulacros 1-4, 6): Una seccion por dia programado, cualquier orden
+- **CONTINUOUS** (Simulacro 5): Todas las secciones el mismo dia, secuenciales 1→8 (replica Saber Pro real)
 
 ### Programacion por Cohorte
 
 El coordinador programa cada simulacro eligiendo la **semana de inicio** para una cohorte:
-- **Semana 1**: Secciones 1-5 (Lun-Vie)
-- **Semana 2**: Secciones 6-8 (Lun-Mie)
-- Total: 8 secciones en 8 dias habiles (2 semanas)
+- **WEEKLY**: Semana 1 secciones 1-5 (Lun-Vie), Semana 2 secciones 6-8 (Lun-Mie) — 8 secciones en 8 dias habiles
+- **CONTINUOUS**: Todas las 8 secciones en el dia de inicio
 
-El estudiante ve una **alerta en su dashboard** el dia que tiene simulacro: "Hoy tienes simulacro — lo puedes realizar durante todo el dia, a la hora que quieras, pero debes cumplir con las reglas del Saber Pro."
+El estudiante ve una **alerta en su dashboard** el dia que tiene simulacro.
 
 ### Timer Server-Enforced
 
 - El timer se calcula desde `startedAt` del servidor, no del cliente
 - Si el estudiante cierra el navegador, el tiempo sigue corriendo
-- Al reconectarse, el timer muestra el tiempo real transcurrido
+- Al reconectarse, el timer muestra el tiempo real transcurrido (`serverElapsedSeconds`)
 - Si el tiempo expira, se auto-submit la seccion con las respuestas guardadas
 
 ### Auto-Guardado
 
-- Cada 30 segundos se guardan: respuestas, tiempo, tab switches, metricas
+- Cada 30 segundos se guardan: respuestas, tiempo, tab switches, metricas de investigacion
 - Si se pierde conexion, al reconectar se restauran las respuestas guardadas
 - El estudiante NO puede reiniciar un simulacro — solo continuar
 
 ### Auto-Cero por Inasistencia
 
-Si el estudiante no presenta una seccion en el dia programado:
-- Cron diario (`/api/cron/check-exam-deadlines`) marca la seccion como SUBMITTED con 0 correctas
-- Como si no hubiera asistido al examen real
+Cron diario (`/api/cron/check-exam-deadlines`):
+- Secciones NO_STARTED en dias pasados → SUBMITTED con 0 correctas
+- Secciones IN_PROGRESS expiradas (startedAt + timeLimitSeconds) → SUBMITTED con score calculado de respuestas guardadas
 
 ### Boton "Confirmar Respuesta"
 
@@ -243,6 +259,11 @@ Si el estudiante no presenta una seccion en el dia programado:
 - Sonidos Web Audio: aviso a 5 min, alerta a 1 min, tiempo agotado
 - Advertencia `beforeunload` al intentar cerrar
 
+### Proteccion contra Double-Submit
+
+- Submit usa `updateMany` atomico con `WHERE status = 'IN_PROGRESS'`
+- Si ya fue entregado, retorna HTTP 409 (Conflict)
+
 ---
 
 ## Metricas de Investigacion
@@ -254,7 +275,7 @@ Sistema completo de tracking para analisis estadistico posterior. **Invisible pa
 **Por respuesta (`ExamAnswerEvent`):**
 - Tipo de evento: SELECTED (primera vez), CHANGED (cambio), CLEARED (borrada)
 - Opcion seleccionada y opcion anterior
-- Si la opcion es correcta (para analizar patrones buena→mala, mala→buena)
+- Si la opcion es correcta (verificado server-side contra la BD)
 - Timestamp exacto
 
 **Por pregunta (`ExamQuestionView`):**
@@ -264,9 +285,10 @@ Sistema completo de tracking para analisis estadistico posterior. **Invisible pa
 
 **Por seccion (`ExamSectionAttempt`):**
 - Tiempo total (server-enforced)
-- Cambios de pestaña
-- Total de cambios de respuesta
+- Cambios de pestaña (`tabSwitches`)
+- Total de cambios de respuesta (`totalAnswerChanges`)
 - Contenido de escritura y conteo de palabras
+- Estado: NOT_STARTED → IN_PROGRESS → SUBMITTED
 
 ### Export CSV
 
@@ -281,49 +303,97 @@ El CSV incluye dos secciones:
 
 ## Visualizacion ECG
 
-ECG waveforms animados en el panel del coordinador como indicadores de salud academica.
+ECG waveforms animados en el panel del coordinador como indicadores de salud academica. 10 ritmos desde bradicardia sinusal (elite) hasta asistolia (inactivo):
 
 | Ritmo | Condicion | Color |
 |-------|-----------|-------|
-| Normal Sinus | Activo, quiz >= 80% | Verde |
-| Wenckebach | 1-2d inactivo o quiz 60-79% | Lima |
-| Mobitz II | 3-4d inactivo o quiz 40-59% | Amarillo |
-| AFib | 5-7d inactivo o quiz 20-39% | Naranja |
-| VTach | 7+d inactivo + quiz < 40% | Rojo |
+| Sinus Bradycardia | Elite: activo, quiz >= 95%, streak >= 5 | Esmeralda |
+| Normal Sinus | Activo, quiz >= 85% | Verde |
+| Sinus Tachycardia | Activo, quiz < 85% | Lima |
+| Premature Beats | 1d inactivo o quiz < 70% | Lima claro |
+| Wenckebach | 2d inactivo o quiz < 60% | Amarillo |
+| Mobitz II | 3-4d inactivo o quiz < 45% | Ambar |
+| AFib | 5-6d inactivo o quiz < 30% | Naranja |
+| AFlutter | 7-9d inactivo o quiz < 40% | Naranja oscuro |
+| VTach | 10+d inactivo o 7+d con quiz < 30% | Rojo |
 | Asystole | 14+d inactivo o nunca activo | Gris |
 
-Implementacion: `src/lib/ecg-rhythms.ts` (generadores de forma de onda Gaussiana) + `src/components/EcgWaveform.tsx` (SVG polyline con scroll CSS infinito).
+Implementacion: `src/lib/ecg-rhythms.ts` (generadores de forma de onda Gaussiana) + `src/components/EcgWaveform.tsx` (SVG polyline con scroll CSS infinito, datos duplicados para loop seamless).
+
+---
+
+## Seguridad
+
+### Autenticacion y Autorizacion
+- Sesiones JWT con secure cookies (`__Secure-authjs.session-token`) en produccion
+- Verificacion de sesion por ruta (sin middleware global)
+- Control de acceso temporal: estudiantes no pueden acceder a dias futuros
+- Coordinadores solo ven datos de sus propias cohortes (scoped queries)
+- APIs de simulacro restringidas a rol STUDENT (coordinadores/clientes no pueden crear attempts)
+- Cron endpoints protegidos con `CRON_SECRET`
+
+### Integridad de Datos
+- **Quiz scoring server-side**: el servidor recalcula el score desde la BD, ignorando valores del cliente
+- **isCorrect verificado server-side**: tanto en quizzes diarios como en eventos de simulacro
+- **Batch inserts**: quiz answers se insertan via `createMany` (no N+1)
+- **longestStreak atomico**: actualizado con SQL `GREATEST(longest_streak, current_streak)`
+- **Double-submit protection**: `updateMany` atomico con guard de estado en simulacros
+
+### Flujo de Matricula
+- Registro → estado PENDING → coordinador aprueba → APPROVED (puede iniciar sesion)
+- Email normalizado (`toLowerCase().trim()`) en registro y login
+- Registro transaccional (User + CohortStudent en una transaccion)
+- Guards de estado: solo se pueden aprobar estudiantes en estado PENDING
+- Endpoint `/api/auth/check-status` diferencia entre credenciales invalidas, PENDING y REJECTED
+
+### Indices de Base de Datos
+Indices optimizados para consultas frecuentes: Notification, PushSubscription, QuizAttempt, PhotoUpload, CohortStudent, Announcement, WritingSubmission.
 
 ---
 
 ## Base de Datos
 
-### Modelos Principales (45+)
+### Modelos (35) y Enums (10)
 
-**Usuarios y Auth:** User, Account, Session, VerificationToken
+**Usuarios y Auth:**
+User
 
-**Cohortes:** Cohort, CohortStudent, Certificate
+**Cohortes:**
+Cohort, CohortStudent, Certificate
 
-**Contenido:** Module, Block, DailyContent, DailyQuestion, QuestionOption
+**Contenido Academico:**
+Module, Block, DailyContent, DailyQuestion, QuestionOption
 
-**Progreso:** AudioProgress, QuizAttempt, QuizAnswer, PhotoUpload, WritingSubmission, Streak
+**Progreso del Estudiante:**
+AudioProgress, QuizAttempt, QuizAnswer, PhotoUpload, WritingSubmission, Streak
 
-**Simulacros Mensuales:**
-- MonthlyExam, ExamSection, ExamSectionQuestion, ExamSectionOption
-- MonthlyExamAttempt, ExamSectionAttempt, ExamSectionAnswer
-- ManualUnlock, CohortExamSchedule
+**Simulacros Mensuales (13 modelos):**
+- Estructura: MonthlyExam → ExamSection → ExamSectionQuestion → ExamSectionOption
+- Tracking: MonthlyExamAttempt → ExamSectionAttempt → ExamSectionAnswer
+- Investigacion: ExamAnswerEvent (SELECTED/CHANGED/CLEARED), ExamQuestionView (viewedAt/leftAt/duracion)
+- Scheduling: CohortExamSchedule, ManualUnlock
 
-**Metricas de Investigacion:**
-- ExamAnswerEvent (historial de clicks con tipo SELECTED/CHANGED/CLEARED)
-- ExamQuestionView (tiempo viendo cada pregunta)
+**Simulacros Legacy:**
+Simulacro, SimulacroQuestion, SimulacroOption, SimulacroAttempt, SimulacroAnswer
 
-**Comunicacion:** Announcement, EmailLog, PushSubscription, Notification
+**Comunicacion:**
+Announcement, EmailLog, PushSubscription, Notification
 
-**Legacy:** Simulacro, SimulacroQuestion, SimulacroOption, SimulacroAttempt, SimulacroAnswer
+**Enums:** Role, EnrollmentStatus, PhotoType, EmailType, EmailStatus, Difficulty, NotificationType, MonthlyExamMode, ExamSectionStatus, ExamAnswerEventType
+
+Todos los nombres de tabla usan snake_case via `@@map()`. Campos camelCase en Prisma mapeados a snake_case en BD.
 
 ---
 
 ## API Reference
+
+### Auth
+
+| Metodo | Endpoint | Descripcion |
+|--------|----------|-------------|
+| POST | `/api/auth/[...nextauth]` | NextAuth (login/logout/session) |
+| POST | `/api/auth/register` | Registro de estudiante (transaccional) |
+| POST | `/api/auth/check-status` | Estado de matricula por email |
 
 ### Estudiante — Contenido Diario
 
@@ -332,8 +402,8 @@ Implementacion: `src/lib/ecg-rhythms.ts` (generadores de forma de onda Gaussiana
 | GET | `/api/day/[dayId]` | Datos completos del dia (titulo, audio, resumen, progreso) |
 | GET | `/api/audio/file/[dayId]` | Redirect 302 a URL de Cloudinary |
 | POST | `/api/audio/[dailyContentId]/progress` | Actualizar progreso de audio (usa UUID) |
-| GET | `/api/quiz/[dayId]` | Preguntas del quiz (`{ questions, isExamDay }`) |
-| POST | `/api/quiz/[dayId]/submit` | Entregar quiz (acepta `timeSpentSeconds`) |
+| GET | `/api/quiz/[dayId]` | Preguntas del quiz (sin respuestas correctas) |
+| POST | `/api/quiz/[dayId]/submit` | Entregar quiz (scoring server-side) |
 | GET | `/api/photos/[dayId]` | Fotos subidas del dia |
 | POST | `/api/photos/[dayId]` | Subir evidencia fotografica |
 | GET | `/api/writing/[dayId]` | Practica de escritura del dia |
@@ -349,45 +419,7 @@ Implementacion: `src/lib/ecg-rhythms.ts` (generadores de forma de onda Gaussiana
 | GET | `/api/profile` | Perfil del estudiante |
 | PATCH | `/api/profile` | Actualizar perfil |
 
-### Estudiante — Simulacros Mensuales
-
-| Metodo | Endpoint | Descripcion |
-|--------|----------|-------------|
-| GET | `/api/monthly-exam` | Lista de 6 simulacros + progreso + gating |
-| GET | `/api/monthly-exam/[examId]` | Overview del examen (8 secciones + estados) |
-| GET | `/api/monthly-exam/[examId]/section/[sectionId]` | Cargar seccion (preguntas, `serverElapsedSeconds`, `isTimeExpired`) |
-| POST | `/api/monthly-exam/[examId]/section/[sectionId]/save` | Auto-save (respuestas + answerEvents + questionViews) |
-| POST | `/api/monthly-exam/[examId]/section/[sectionId]/submit` | Entregar seccion (server-enforced timing) |
-| GET | `/api/monthly-exam/[examId]/results` | Resultados con desglose por competencia |
-
-### Coordinador — Simulacros
-
-| Metodo | Endpoint | Descripcion |
-|--------|----------|-------------|
-| GET | `/api/coordinator/monthly-exams` | Lista de simulacros con stats agregadas |
-| PATCH | `/api/coordinator/monthly-exams/[examId]` | Activar/desactivar simulacro |
-| GET | `/api/coordinator/monthly-exams/[examId]/analytics` | Metricas detalladas por estudiante |
-| GET | `/api/coordinator/monthly-exams/[examId]/export` | Export CSV de metricas |
-| GET | `/api/coordinator/cohort-exam-schedule` | Listar programaciones |
-| POST | `/api/coordinator/cohort-exam-schedule` | Crear programacion (cohortId, examId, startWeek) |
-| DELETE | `/api/coordinator/cohort-exam-schedule/[scheduleId]` | Eliminar programacion |
-
-### Coordinador — General
-
-| Metodo | Endpoint | Descripcion |
-|--------|----------|-------------|
-| GET | `/api/coordinator/dashboard` | Dashboard con ECG data |
-| GET | `/api/coordinator/students` | Lista de estudiantes |
-| GET | `/api/coordinator/students/[studentId]` | Detalle del estudiante |
-| POST | `/api/coordinator/students/[studentId]/unlock` | Desbloqueo manual |
-| POST | `/api/coordinator/students/[studentId]/message` | Enviar mensaje |
-| GET | `/api/coordinator/cohorts` | Lista de cohortes |
-| POST | `/api/coordinator/cohorts` | Crear cohorte |
-| GET | `/api/coordinator/enrollments` | Matriculas pendientes |
-| POST | `/api/coordinator/announcements` | Crear anuncio |
-| GET | `/api/coordinator/exam-days` | Dias de examen (Modulo 6) |
-
-### Notificaciones
+### Estudiante — Notificaciones
 
 | Metodo | Endpoint | Descripcion |
 |--------|----------|-------------|
@@ -397,12 +429,78 @@ Implementacion: `src/lib/ecg-rhythms.ts` (generadores de forma de onda Gaussiana
 | GET | `/api/notifications/unread-count` | Conteo de no leidas |
 | POST | `/api/push/subscribe` | Suscribir push |
 
+### Estudiante — Simulacros Mensuales
+
+| Metodo | Endpoint | Descripcion |
+|--------|----------|-------------|
+| GET | `/api/monthly-exam` | Lista de 6 simulacros + progreso + gating |
+| GET | `/api/monthly-exam/[examId]` | Overview del examen (8 secciones + estados) |
+| GET | `/api/monthly-exam/[examId]/section/[sectionId]` | Cargar seccion (preguntas, `serverElapsedSeconds`) |
+| POST | `/api/monthly-exam/[examId]/section/[sectionId]/save` | Auto-save (respuestas + eventos + vistas) |
+| POST | `/api/monthly-exam/[examId]/section/[sectionId]/submit` | Entregar seccion (atomico, anti double-submit) |
+| GET | `/api/monthly-exam/[examId]/results` | Resultados con desglose por competencia |
+
+### Estudiante — Certificados
+
+| Metodo | Endpoint | Descripcion |
+|--------|----------|-------------|
+| POST | `/api/certificates/generate` | Generar certificado PDF con QR |
+| GET | `/api/certificates/verify` | Verificar autenticidad de certificado |
+
+### Coordinador — Dashboard y Gestion
+
+| Metodo | Endpoint | Descripcion |
+|--------|----------|-------------|
+| GET | `/api/coordinator/dashboard` | Dashboard (scoped a cohortes propias) |
+| GET | `/api/coordinator/students` | Lista de estudiantes (scoped) |
+| GET | `/api/coordinator/students/[studentId]` | Detalle del estudiante |
+| GET | `/api/coordinator/students/[studentId]/photos` | Fotos del estudiante |
+| PATCH | `/api/coordinator/students/[studentId]/photos/[photoId]` | Aprobar/rechazar foto |
+| POST | `/api/coordinator/students/[studentId]/message` | Enviar mensaje |
+| POST | `/api/coordinator/students/[studentId]/unlock` | Desbloqueo manual de examen |
+| GET | `/api/coordinator/students/[studentId]/unlocks` | Historial de desbloqueos |
+| GET | `/api/coordinator/cohorts` | Lista de cohortes |
+| POST | `/api/coordinator/cohorts` | Crear cohorte |
+| GET | `/api/coordinator/cohorts/[cohortId]` | Detalle de cohorte |
+| POST | `/api/coordinator/cohorts/[cohortId]/enroll` | Matricular estudiante |
+| GET | `/api/coordinator/enrollments` | Matriculas pendientes (scoped) |
+| PATCH | `/api/coordinator/enrollments` | Aprobar/rechazar (crea CohortStudent) |
+| POST | `/api/coordinator/announcements` | Crear anuncio |
+
+### Coordinador — Exam Days (Modulo 6)
+
+| Metodo | Endpoint | Descripcion |
+|--------|----------|-------------|
+| GET | `/api/coordinator/exam-days` | Dias de examen |
+| GET | `/api/coordinator/exam-days/[dayId]/questions` | Preguntas del exam day |
+| POST | `/api/coordinator/exam-days/[dayId]/questions` | Crear pregunta |
+| PUT | `/api/coordinator/exam-days/[dayId]/questions/[questionId]` | Actualizar pregunta |
+| DELETE | `/api/coordinator/exam-days/[dayId]/questions/[questionId]` | Eliminar pregunta |
+
+### Coordinador — Simulacros Mensuales
+
+| Metodo | Endpoint | Descripcion |
+|--------|----------|-------------|
+| GET | `/api/coordinator/monthly-exams` | Lista de simulacros con stats |
+| PATCH | `/api/coordinator/monthly-exams/[examId]` | Activar/desactivar simulacro |
+| GET | `/api/coordinator/monthly-exams/[examId]/analytics` | Metricas detalladas |
+| GET | `/api/coordinator/monthly-exams/[examId]/export` | Export CSV de investigacion |
+| GET | `/api/coordinator/cohort-exam-schedule` | Listar programaciones |
+| POST | `/api/coordinator/cohort-exam-schedule` | Crear programacion (WEEKLY/CONTINUOUS) |
+| DELETE | `/api/coordinator/cohort-exam-schedule/[scheduleId]` | Eliminar programacion |
+
+### Cliente
+
+| Metodo | Endpoint | Descripcion |
+|--------|----------|-------------|
+| GET | `/api/client/dashboard` | Metricas agregadas por cohorte |
+
 ### Cron Jobs
 
 | Endpoint | Frecuencia | Funcion |
 |----------|-----------|---------|
 | `/api/cron/check-streaks` | Diario 11:59 PM | Resetea rachas rotas |
-| `/api/cron/check-exam-deadlines` | Diario | Auto-cero secciones de simulacro no presentadas |
+| `/api/cron/check-exam-deadlines` | Diario | Auto-cero secciones no presentadas + auto-submit expiradas |
 | `/api/cron/inactivity-alerts` | Diario | Alertas de inactividad |
 | `/api/cron/weekly-report` | Semanal | Reporte semanal |
 
@@ -410,27 +508,55 @@ Implementacion: `src/lib/ecg-rhythms.ts` (generadores de forma de onda Gaussiana
 
 ## Scripts de Utilidad
 
+### Seed de Contenido
 ```
 scripts/
 ├── upload-audios-cloudinary.mjs     # Sube MP3s, crea modules/blocks/DailyContent
+├── seed-questions.mjs               # Seed de preguntas diarias (general)
+├── seed-daily-questions.mjs         # Seed de preguntas por modulo desde JSON
+├── validate-daily-questions.mjs     # Validacion de JSONs de preguntas
 ├── seed-exam-days-module6.mjs       # Crea DailyContent para dias 26-30 (exam days)
-├── seed-exam-questions-module6.mjs  # Seed de preguntas de examen Modulo 6
-├── seed-cohort-demo.mjs             # Seed de cohorte demo
+└── seed-exam-questions-module6.mjs  # Seed de preguntas de examen Modulo 6
+```
+
+### Seed de Simulacros
+```
+scripts/simulacros/
+├── seed-monthly-exams.mjs           # Seed de 6 simulacros desde JSON
+└── data/
+    ├── simulacro-01/                # 8 secciones (completo — 311 MC + 1 essay)
+    ├── simulacro-02/                # 8 secciones (completo)
+    ├── simulacro-03/                # 7 secciones (pendiente: atencion-en-salud)
+    ├── simulacro-04/                # 8 secciones (completo)
+    ├── simulacro-05/                # 8 secciones (completo)
+    └── simulacro-06/                # 8 secciones (completo)
+```
+
+### Datos de Preguntas Diarias
+```
+scripts/data/
+├── daily-questions/
+│   ├── module-01-lectura-critica.json
+│   ├── module-02-razonamiento-cuantitativo.json
+│   ├── module-03-competencias-ciudadanas.json
+│   ├── module-04-comunicacion-escrita.json
+│   ├── module-05-ingles.json
+│   ├── module-06-fundamentacion-dx-tx.json
+│   ├── module-07-atencion-en-salud.json
+│   └── module-08-promocion-prevencion.json
+└── exam-questions-module6.json
+```
+
+### Demos y Utilidades
+```
+scripts/
+├── seed-demo-data.mjs               # Seed de datos demo
 ├── seed-demo-full-access.mjs        # Demo con acceso completo
+├── seed-cohort-demo.mjs             # Seed de cohorte demo
 ├── seed-ecg-demo.mjs                # Demo de ECG waveforms
-├── generar-audio-presentacion.mjs   # Genera audio de presentacion
-└── simulacros/
-    ├── seed-monthly-exams.mjs       # Seed de 6 simulacros desde JSON
-    └── data/
-        └── simulacro-01/            # 8 JSONs (311 MC + 1 essay)
-            ├── lectura-critica.json
-            ├── razonamiento-cuantitativo.json
-            ├── competencias-ciudadanas.json
-            ├── comunicacion-escrita.json
-            ├── ingles.json
-            ├── fundamentacion-dx-tx.json
-            ├── atencion-en-salud.json
-            └── promocion-prevencion.json
+├── generate-audio.mjs               # Genera audio con TTS
+├── generar-audio-presentacion.mjs   # Audio de presentacion
+└── e2e-test.mjs                     # Test end-to-end
 ```
 
 **JSON gotcha:** Usar «» guillemets en lugar de `"` en caseText para evitar errores de parsing.
@@ -439,9 +565,24 @@ scripts/
 
 ## Despliegue
 
-Render.com con build command: `npm install && npx prisma generate && npm run build`
+### Render.com (Actual)
+Build command: `npm install && npx prisma generate && npm run build`
 
 Usar `npx prisma db push` (no `migrate dev`) — entorno no interactivo.
+
+Cron jobs configurados en Render.com apuntando a `/api/cron/*?key=CRON_SECRET`.
+
+### Google Cloud (Compatible)
+
+La aplicacion es portable sin cambios de codigo:
+
+| Componente | Render | Google Cloud |
+|-----------|--------|-------------|
+| Web app | Web Service | Cloud Run (contenedor) |
+| Base de datos | PostgreSQL | Cloud SQL for PostgreSQL |
+| Cron jobs | Render Cron | Cloud Scheduler → Cloud Run |
+| Env vars | Render Dashboard | Secret Manager |
+| Config | `render.yaml` | `Dockerfile` + `cloudbuild.yaml` |
 
 ---
 
@@ -464,14 +605,18 @@ Usar `npx prisma db push` (no `migrate dev`) — entorno no interactivo.
 
 ## Estadisticas del Proyecto
 
-- **57** API endpoints
-- **32+** paginas
-- **9** componentes
-- **11** archivos de libreria
-- **11** scripts
-- **45+** modelos Prisma
-- **3** roles de usuario
-- **8** modulos academicos
-- **6** simulacros mensuales (48 secciones, 311+ preguntas)
-- **6** ritmos ECG
-- **4** cron jobs
+| Metrica | Cantidad |
+|---------|----------|
+| API endpoints | 60 |
+| Paginas | 33 |
+| Componentes | 9 |
+| Archivos de libreria | 11 |
+| Scripts ejecutables | 14 |
+| Archivos de datos | 50+ |
+| Modelos Prisma | 35 |
+| Enums Prisma | 10 |
+| Roles de usuario | 3 |
+| Modulos academicos | 8 |
+| Simulacros mensuales | 6 (48 secciones, 311+ preguntas) |
+| Ritmos ECG | 10 |
+| Cron jobs | 4 |

@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "La Ley 1616 de 2013 establece que la salud mental es un derecho fundamental, de prioridad nacional, un bien de interés público y componente esencial del bienestar general. Esta ley define las responsabilidades del Estado, las entidades territoriales y las instituciones de salud en materia de promoción de la salud mental, prevención del trastorno mental y atención integral e integrada.\n\n(Redacción Study2One, con referencia a la Ley 1616 de 2013)",
+    "questionText": "Según la Ley 1616 de 2013, ¿cuál es el enfoque que debe orientar la atención en salud mental en Colombia?",
+    "explanation": "La Ley 1616 de 2013 establece que la atención en salud mental debe ser integral e integrada, lo que implica abordar no solo los trastornos mentales sino también la promoción de la salud mental y la prevención. Además, debe articularse con otros sectores (educación, trabajo, justicia) bajo un enfoque de derechos humanos, de curso de vida y diferencial. No se trata únicamente de hospitalización psiquiátrica ni de intervención farmacológica exclusiva.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Enfoque exclusivamente farmacológico centrado en la prescripción de psicotrópicos.", "isCorrect": false },
+      { "letter": "B", "text": "Enfoque integral e integrado con perspectiva de derechos humanos y curso de vida.", "isCorrect": true },
+      { "letter": "C", "text": "Enfoque de institucionalización prolongada para todos los pacientes con trastorno mental.", "isCorrect": false },
+      { "letter": "D", "text": "Enfoque exclusivamente comunitario sin participación del sector salud formal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Un hospital de segundo nivel en un municipio del departamento de Boyacá reporta que en el último trimestre ha recibido 12 intentos de suicidio en adolescentes entre 14 y 17 años. El comité de vigilancia epidemiológica del hospital solicita activar las rutas de atención correspondientes. La Ley 1616 de 2013 establece obligaciones específicas para las entidades territoriales frente a la conducta suicida.\n\n(Datos ficticios — Redacción Study2One, con referencia a la Ley 1616 de 2013)",
+    "questionText": "Frente al aumento de intentos de suicidio en adolescentes, ¿cuál es la obligación prioritaria de la entidad territorial según la Ley 1616 de 2013?",
+    "explanation": "La Ley 1616 de 2013 (artículos 5 y 7) establece que las entidades territoriales deben implementar planes de acción en salud mental que incluyan la prevención de la conducta suicida, con acciones intersectoriales que involucren a familias, instituciones educativas y comunidad. La respuesta no puede limitarse a hospitalización ni a medicación, sino que debe integrar promoción, prevención y atención en el nivel comunitario.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Remitir todos los casos a un hospital psiquiátrico de tercer nivel en la capital.", "isCorrect": false },
+      { "letter": "B", "text": "Implementar un plan de acción intersectorial de prevención de la conducta suicida con participación comunitaria.", "isCorrect": true },
+      { "letter": "C", "text": "Prohibir el acceso de menores de edad a los servicios de urgencias.", "isCorrect": false },
+      { "letter": "D", "text": "Delegar toda la responsabilidad a las instituciones educativas del municipio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "El Decreto 780 de 2016 compiló en un solo cuerpo normativo todas las disposiciones reglamentarias vigentes del sector salud y protección social en Colombia. Este decreto único reglamentario (DUR) organiza la normativa por libros, partes, títulos y capítulos para facilitar su consulta y aplicación.\n\n(Redacción Study2One, con referencia al Decreto 780 de 2016)",
+    "questionText": "¿Cuál es la principal ventaja del Decreto 780 de 2016 para la gestión del sistema de salud colombiano?",
+    "explanation": "El Decreto 780 de 2016 es el Decreto Único Reglamentario del sector salud. Su principal ventaja es la simplificación normativa: compila en un solo documento las disposiciones reglamentarias dispersas en múltiples decretos anteriores, facilitando su consulta, interpretación y aplicación por parte de los actores del sistema. No crea nuevas normas sustantivas sino que organiza las existentes.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Crea nuevas instituciones para la vigilancia de la calidad en salud.", "isCorrect": false },
+      { "letter": "B", "text": "Establece un nuevo modelo de financiamiento para las EPS.", "isCorrect": false },
+      { "letter": "C", "text": "Compila y organiza en un solo cuerpo normativo las disposiciones reglamentarias del sector salud.", "isCorrect": true },
+      { "letter": "D", "text": "Deroga la Ley 100 de 1993 y establece un sistema de salud completamente nuevo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Una secretaría departamental de salud está estructurando su Plan de Intervenciones Colectivas (PIC) para el siguiente año. La Resolución 518 de 2015 define las intervenciones colectivas como aquellas dirigidas a grupos poblacionales y que no generan cobro a la persona beneficiaria. El equipo técnico debe definir las líneas operativas del PIC.\n\n(Redacción Study2One, con referencia a la Resolución 518 de 2015)",
+    "questionText": "Según la Resolución 518 de 2015, ¿cuál de las siguientes es una línea operativa del Plan de Intervenciones Colectivas (PIC)?",
+    "explanation": "La Resolución 518 de 2015 define las líneas operativas del PIC: promoción de la salud, gestión del riesgo en salud pública, gestión de la salud pública en emergencias y desastres, y fortalecimiento de la autoridad sanitaria. La gestión del riesgo en salud pública incluye vigilancia epidemiológica, control de vectores y acciones colectivas de prevención. Las consultas médicas individuales no forman parte del PIC.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Consultas médicas individuales de control prenatal.", "isCorrect": false },
+      { "letter": "B", "text": "Gestión del riesgo en salud pública, incluyendo vigilancia y control de vectores.", "isCorrect": true },
+      { "letter": "C", "text": "Cirugías electivas programadas en hospitales de tercer nivel.", "isCorrect": false },
+      { "letter": "D", "text": "Dispensación de medicamentos en farmacias privadas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "El Plan Decenal de Salud Pública (PDSP) 2012-2021 fue adoptado mediante la Resolución 1841 de 2013. Este plan estableció ocho dimensiones prioritarias y dos dimensiones transversales para orientar las políticas, programas y proyectos de salud pública en Colombia durante una década.\n\n(Redacción Study2One, con referencia al PDSP 2012-2021)",
+    "questionText": "¿Cuál de las siguientes es una dimensión prioritaria del Plan Decenal de Salud Pública 2012-2021?",
+    "explanation": "El PDSP 2012-2021 estableció ocho dimensiones prioritarias: salud ambiental, vida saludable y condiciones no transmisibles, convivencia social y salud mental, seguridad alimentaria y nutricional, sexualidad y derechos sexuales y reproductivos, vida saludable y enfermedades transmisibles, salud pública en emergencias y desastres, y salud y ámbito laboral. Las dimensiones transversales son: gestión diferencial de poblaciones vulnerables y fortalecimiento de la autoridad sanitaria.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Acreditación de hospitales universitarios de cuarto nivel.", "isCorrect": false },
+      { "letter": "B", "text": "Convivencia social y salud mental.", "isCorrect": true },
+      { "letter": "C", "text": "Regulación de precios de dispositivos médicos importados.", "isCorrect": false },
+      { "letter": "D", "text": "Formación de especialistas médicos en el exterior.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "El Modelo de Acción Integral Territorial (MAITE), adoptado mediante la Resolución 2626 de 2019, organiza las acciones del sector salud en el territorio colombiano articulando a todos los agentes del sistema. El MAITE se implementa a través de ocho líneas de acción que buscan mejorar las condiciones de salud de la población.\n\n(Redacción Study2One, con referencia a la Resolución 2626 de 2019)",
+    "questionText": "¿Cuál es el propósito principal del Modelo de Acción Integral Territorial (MAITE)?",
+    "explanation": "El MAITE busca articular las acciones de los diferentes agentes del sistema de salud (entidades territoriales, EPS, IPS, otros sectores) en el territorio para lograr resultados en salud de manera coordinada. Se operativiza a través de líneas de acción como aseguramiento, prestación de servicios, salud pública, financiamiento, talento humano, medicamentos, gobernanza y enfoque diferencial. Su enfoque es territorial, reconociendo las particularidades de cada región.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Centralizar todas las decisiones de salud en el Ministerio de Salud y Protección Social.", "isCorrect": false },
+      { "letter": "B", "text": "Articular las acciones de los agentes del sistema de salud en el territorio para lograr resultados coordinados.", "isCorrect": true },
+      { "letter": "C", "text": "Reemplazar las EPS por un sistema de atención directa estatal.", "isCorrect": false },
+      { "letter": "D", "text": "Limitar la prestación de servicios de salud exclusivamente al primer nivel de atención.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Una EPS del régimen contributivo en el departamento de Antioquia está implementando la Ruta Integral de Atención en Salud (RIAS) para la población con riesgo cardiovascular. La RIAS de grupo de riesgo cardiovascular define intervenciones individuales según el nivel de riesgo (bajo, medio, alto, muy alto) determinado por escalas validadas como la de Framingham adaptada.\n\n(Redacción Study2One, con referencia a las RIAS — Resolución 3280 de 2018)",
+    "questionText": "En el marco de las RIAS, ¿qué criterio principal se utiliza para estratificar las intervenciones en la ruta de riesgo cardiovascular?",
+    "explanation": "Las RIAS de grupo de riesgo utilizan la estratificación del riesgo como criterio principal para definir las intervenciones. En el caso cardiovascular, se emplean escalas validadas (como Framingham adaptada para Colombia) que clasifican a las personas en niveles de riesgo. A mayor riesgo, mayor intensidad y frecuencia de las intervenciones. No se basa únicamente en la edad ni en el diagnóstico previo de enfermedad.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "La edad del paciente como único criterio de clasificación.", "isCorrect": false },
+      { "letter": "B", "text": "El nivel de riesgo determinado por escalas validadas de estratificación.", "isCorrect": true },
+      { "letter": "C", "text": "El tipo de afiliación (contributivo o subsidiado) del paciente.", "isCorrect": false },
+      { "letter": "D", "text": "La solicitud voluntaria del paciente para ingresar al programa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Un municipio de categoría 6 en el departamento de Nariño presenta una alta incidencia de dengue. La secretaría municipal de salud debe implementar acciones de vigilancia epidemiológica conforme a los protocolos del Instituto Nacional de Salud (INS). En las últimas 4 semanas epidemiológicas se han notificado 85 casos de dengue, de los cuales 8 corresponden a dengue grave.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Ante el incremento de casos de dengue, ¿cuál es la acción prioritaria que debe realizar la secretaría municipal de salud en materia de vigilancia epidemiológica?",
+    "explanation": "La vigilancia epidemiológica del dengue requiere la notificación oportuna al SIVIGILA, pero ante un incremento significativo de casos (posible brote), la acción prioritaria es la investigación de campo: búsqueda activa comunitaria e institucional, caracterización de los casos, identificación de focos de transmisión y análisis de la situación para orientar las acciones de control vectorial y atención. La fumigación sola no constituye vigilancia epidemiológica.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Suspender la notificación al SIVIGILA hasta confirmar todos los casos por laboratorio.", "isCorrect": false },
+      { "letter": "B", "text": "Realizar investigación de campo con búsqueda activa, caracterización de casos e identificación de focos de transmisión.", "isCorrect": true },
+      { "letter": "C", "text": "Realizar fumigación masiva sin análisis previo de la distribución espacial de los casos.", "isCorrect": false },
+      { "letter": "D", "text": "Esperar el informe mensual consolidado antes de tomar cualquier decisión.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "El equipo de epidemiología de una secretaría departamental está elaborando el capítulo de transición demográfica del Análisis de Situación de Salud (ASIS). Los datos del departamento muestran:\n\n• Tasa bruta de natalidad 2005: 22,4 por 1.000 hab.\n• Tasa bruta de natalidad 2020: 13,8 por 1.000 hab.\n• Tasa bruta de mortalidad 2005: 5,1 por 1.000 hab.\n• Tasa bruta de mortalidad 2020: 6,3 por 1.000 hab.\n• Índice de envejecimiento 2005: 18,2 %\n• Índice de envejecimiento 2020: 42,7 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿En qué fase de la transición demográfica se encuentra este departamento según los datos presentados?",
+    "explanation": "Los datos muestran una natalidad en descenso marcado (de 22,4 a 13,8), una mortalidad que comienza a incrementarse levemente (por envejecimiento poblacional) y un índice de envejecimiento que se ha duplicado. Esto corresponde a una fase avanzada de la transición demográfica, donde la fecundidad ha descendido significativamente, la población envejece y el crecimiento natural tiende a reducirse. No es una fase temprana (alta natalidad y alta mortalidad) ni una fase intermedia (descenso de mortalidad con natalidad aún alta).",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Fase temprana: alta natalidad y alta mortalidad con crecimiento lento.", "isCorrect": false },
+      { "letter": "B", "text": "Fase intermedia: descenso de mortalidad con natalidad aún alta y rápido crecimiento.", "isCorrect": false },
+      { "letter": "C", "text": "Fase avanzada: natalidad baja, mortalidad en leve ascenso por envejecimiento y crecimiento natural reducido.", "isCorrect": true },
+      { "letter": "D", "text": "No es posible determinar la fase con los datos disponibles.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Un hospital público de segundo nivel en el departamento de Santander presenta los siguientes indicadores de gestión hospitalaria correspondientes al último semestre:\n\n• Porcentaje de ocupación: 95,2 %\n• Promedio de estancia hospitalaria: 8,7 días\n• Tasa de reingresos a 30 días: 18,4 %\n• Giro cama: 14,3\n\nEl referente departamental indica que los estándares esperados son: ocupación entre 75-85 %, estancia promedio de 4-5 días, reingresos menor al 10 % y giro cama de 20-25.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué interpretación es correcta respecto a los indicadores de gestión hospitalaria de este hospital?",
+    "explanation": "La ocupación de 95,2 % supera el rango óptimo (75-85 %), lo cual indica sobreocupación que puede comprometer la calidad de la atención. La estancia promedio de 8,7 días (vs. 4-5 esperados) sugiere ineficiencias en los procesos de atención o egresos tardíos. La tasa de reingresos del 18,4 % (vs. <10 %) indica posibles fallas en la calidad del egreso. El giro cama bajo (14,3 vs. 20-25) es consecuencia de la estancia prolongada. En conjunto, estos indicadores evidencian problemas de eficiencia y calidad asistencial.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Los indicadores son óptimos y reflejan un uso eficiente de los recursos hospitalarios.", "isCorrect": false },
+      { "letter": "B", "text": "La sobreocupación, estancia prolongada y altos reingresos evidencian problemas de eficiencia y calidad asistencial.", "isCorrect": true },
+      { "letter": "C", "text": "Solo la tasa de reingresos es preocupante; los demás indicadores están dentro de lo esperado.", "isCorrect": false },
+      { "letter": "D", "text": "El giro cama alto indica que el hospital está funcionando con capacidad excedente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "La Ley 1616 de 2013 establece en su artículo 13 que las personas con trastornos mentales tienen derecho a recibir atención integral en salud mental a través de la red de prestación de servicios. Además, prohíbe la discriminación por razón de trastorno mental y garantiza el consentimiento informado.\n\nUna IPS de primer nivel atiende a una mujer de 34 años con diagnóstico de trastorno afectivo bipolar que acude solicitando atención médica general por un cuadro gripal. El personal administrativo le indica que debe dirigirse exclusivamente a un centro de salud mental.\n\n(Datos ficticios — Redacción Study2One, con referencia a la Ley 1616 de 2013)",
+    "questionText": "¿La actuación del personal administrativo es coherente con lo establecido en la Ley 1616 de 2013?",
+    "explanation": "La Ley 1616 de 2013 prohíbe la discriminación por razón de trastorno mental (artículo 6). Las personas con trastornos mentales tienen derecho a recibir atención integral en todos los servicios de salud, no solo en servicios especializados de salud mental. Negar la atención médica general y redirigir exclusivamente a un centro de salud mental constituye una forma de discriminación y viola el principio de integralidad de la atención.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Sí, porque las personas con trastornos mentales deben ser atendidas únicamente en centros especializados.", "isCorrect": false },
+      { "letter": "B", "text": "Sí, porque la IPS de primer nivel no está habilitada para atender a personas con diagnósticos psiquiátricos.", "isCorrect": false },
+      { "letter": "C", "text": "No, porque negar atención médica general por tener un diagnóstico mental constituye discriminación según la Ley 1616.", "isCorrect": true },
+      { "letter": "D", "text": "No, pero solo porque el cuadro gripal es una urgencia vital.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "El Decreto 780 de 2016, en su Libro 2, Parte 5, regula la prestación de servicios de salud. El Título 1 de esta parte aborda el Sistema Obligatorio de Garantía de Calidad de la Atención de Salud (SOGCS), que comprende cuatro componentes: habilitación, auditoría para el mejoramiento de la calidad, acreditación en salud y sistema de información para la calidad.\n\n(Redacción Study2One, con referencia al Decreto 780 de 2016)",
+    "questionText": "¿Cuál de los componentes del SOGCS, según lo compilado en el Decreto 780 de 2016, es de carácter obligatorio para todas las IPS?",
+    "explanation": "El Sistema Único de Habilitación es el componente obligatorio del SOGCS para todas las IPS. Establece las condiciones mínimas que deben cumplir los prestadores para operar (capacidad técnico-administrativa, suficiencia patrimonial y financiera, capacidad tecnológica y científica). La acreditación, en cambio, es voluntaria y representa un nivel superior de calidad. La auditoría es obligatoria pero como proceso interno, y el sistema de información complementa los otros componentes.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Acreditación en salud.", "isCorrect": false },
+      { "letter": "B", "text": "Sistema Único de Habilitación.", "isCorrect": true },
+      { "letter": "C", "text": "Acreditación y auditoría únicamente.", "isCorrect": false },
+      { "letter": "D", "text": "Ninguno es obligatorio; todos son voluntarios.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Una secretaría de salud departamental está formulando el componente de «Vida saludable y condiciones no transmisibles» del Plan Territorial de Salud, alineado con el PDSP 2012-2021. Los datos del departamento muestran que las enfermedades cardiovasculares son la primera causa de mortalidad (tasa de 128,5 por 100.000 hab.), seguidas de las neoplasias (tasa de 87,3 por 100.000 hab.) y la diabetes mellitus (tasa de 32,1 por 100.000 hab.).\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Según el enfoque del PDSP 2012-2021, ¿cuál debe ser la estrategia central de esta dimensión para abordar la carga de enfermedad no transmisible?",
+    "explanation": "El PDSP 2012-2021 plantea para la dimensión de «Vida saludable y condiciones no transmisibles» un abordaje de gestión integral del riesgo que incluya: promoción de estilos de vida saludables (actividad física, alimentación saludable, reducción del consumo de tabaco y alcohol), detección temprana, atención integral y rehabilitación. El enfoque no es exclusivamente curativo ni se limita a una sola enfermedad, sino que aborda los factores de riesgo compartidos por las principales enfermedades no transmisibles.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Construir unidades de cuidados coronarios en todos los municipios del departamento.", "isCorrect": false },
+      { "letter": "B", "text": "Gestión integral del riesgo: promoción de estilos de vida saludables, detección temprana y atención integral de las ENT.", "isCorrect": true },
+      { "letter": "C", "text": "Campañas masivas de tamizaje genético para identificar predisposición a cáncer.", "isCorrect": false },
+      { "letter": "D", "text": "Tratamiento farmacológico preventivo a toda la población mayor de 40 años.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "El Modelo de Acción Integral Territorial (MAITE) incluye la línea de acción de «Prestación de servicios de salud», que busca garantizar el acceso efectivo a los servicios. En un departamento con alta dispersión geográfica, la gobernación ha identificado que el 40 % de los municipios rurales dispersos no cuentan con IPS habilitadas para atención de partos.\n\n(Datos ficticios — Redacción Study2One, con referencia al MAITE — Resolución 2626 de 2019)",
+    "questionText": "En el marco del MAITE, ¿cuál estrategia de la línea de prestación de servicios sería más pertinente para mejorar el acceso en estos municipios?",
+    "explanation": "El MAITE reconoce las particularidades territoriales y propone estrategias diferenciadas. Para municipios rurales dispersos sin IPS habilitadas para partos, la estrategia más pertinente es el fortalecimiento de la red integrada de servicios: equipos extramurales, telemedicina como complemento, transporte asistencial organizado y fortalecimiento de la capacidad resolutiva del primer nivel. Centralizar la atención en la capital o construir hospitales de alta complejidad en cada municipio no es viable ni pertinente.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Centralizar toda la atención obstétrica en la capital del departamento.", "isCorrect": false },
+      { "letter": "B", "text": "Construir hospitales de tercer nivel en cada municipio rural disperso.", "isCorrect": false },
+      { "letter": "C", "text": "Fortalecer la red integrada con equipos extramurales, telemedicina y transporte asistencial organizado.", "isCorrect": true },
+      { "letter": "D", "text": "Eliminar la habilitación como requisito para la atención de partos en zonas rurales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "La gestión del riesgo en salud es uno de los pilares del Modelo Integral de Atención en Salud (MIAS) y del MAITE. Implica la identificación, evaluación, medición, intervención, seguimiento y monitoreo de los riesgos para la salud de las personas, familias y comunidades. Una EPS ha implementado un programa de gestión del riesgo para su población con diabetes mellitus tipo 2.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál de las siguientes acciones corresponde a la gestión del riesgo en salud para la población diabética?",
+    "explanation": "La gestión del riesgo en salud implica un proceso continuo de identificación y estratificación de la población según nivel de riesgo, seguido de intervenciones diferenciadas. Para diabetes tipo 2, esto incluye: tamizaje de factores de riesgo, clasificación del riesgo, asignación de intervenciones según nivel de riesgo, seguimiento activo y ajuste de intervenciones. No se trata solo de atender al paciente cuando consulta, sino de una gestión proactiva y anticipatoria.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Atender únicamente a los pacientes que consultan espontáneamente por descompensación.", "isCorrect": false },
+      { "letter": "B", "text": "Estratificar la población diabética por nivel de riesgo y asignar intervenciones diferenciadas con seguimiento activo.", "isCorrect": true },
+      { "letter": "C", "text": "Entregar medicamentos antidiabéticos a toda la población afiliada mayor de 50 años.", "isCorrect": false },
+      { "letter": "D", "text": "Realizar una jornada anual de medición de glucemia sin seguimiento posterior.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Un epidemiólogo de la secretaría de salud de un distrito está analizando los datos de vigilancia epidemiológica del primer semestre. El sistema de información reporta los siguientes eventos de notificación obligatoria:\n\n• Dengue: 1.240 casos (incremento del 180 % respecto al mismo periodo del año anterior)\n• Tuberculosis pulmonar: 89 casos (similar al año anterior)\n• Intoxicaciones por plaguicidas: 34 casos (incremento del 45 %)\n• Mortalidad materna: 3 casos (estable respecto al año anterior)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde la perspectiva de vigilancia epidemiológica, ¿cuál evento requiere la activación inmediata de una sala de análisis del riesgo (sala situacional)?",
+    "explanation": "Un incremento del 180 % en los casos de dengue respecto al periodo anterior constituye un comportamiento inusual que sugiere una situación de brote o epidemia. Esto requiere la activación inmediata de una sala de análisis del riesgo (sala situacional) para analizar la tendencia, la distribución espacial y temporal de los casos, identificar factores determinantes y definir acciones de respuesta inmediata. Los otros eventos, aunque importantes, no muestran un comportamiento inusual que requiera activación de sala situacional de urgencia.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Tuberculosis pulmonar, por ser una enfermedad de interés en salud pública.", "isCorrect": false },
+      { "letter": "B", "text": "Dengue, por el incremento del 180 % que sugiere un posible brote epidémico.", "isCorrect": true },
+      { "letter": "C", "text": "Mortalidad materna, porque toda muerte materna es evitable.", "isCorrect": false },
+      { "letter": "D", "text": "Intoxicaciones por plaguicidas, por ser un evento centinela ambiental.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "La Resolución 518 de 2015 establece que el Plan de Intervenciones Colectivas (PIC) debe ejecutar acciones de promoción de la salud que actúen sobre los determinantes sociales. Un municipio del departamento del Cauca, con población mayoritariamente afrodescendiente, tiene alta prevalencia de anemia en niños menores de 5 años (32 %) y desnutrición crónica (19 %).\n\n(Datos ficticios — Redacción Study2One, con referencia a la Resolución 518 de 2015)",
+    "questionText": "En el marco del PIC, ¿cuál intervención colectiva sería más pertinente para abordar esta problemática?",
+    "explanation": "El PIC, según la Resolución 518 de 2015, debe implementar acciones colectivas que aborden los determinantes de la salud con enfoque diferencial (étnico, en este caso). Para la anemia y desnutrición infantil, las intervenciones más pertinentes son las de educación alimentaria y nutricional con enfoque intercultural, fortalecimiento de huertos comunitarios, vigilancia del estado nutricional y articulación con programas de seguridad alimentaria. La suplementación individual no es una intervención colectiva del PIC.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Suplementación individual con hierro a cada niño en la consulta médica.", "isCorrect": false },
+      { "letter": "B", "text": "Educación alimentaria con enfoque intercultural, fortalecimiento de huertos comunitarios y vigilancia nutricional colectiva.", "isCorrect": true },
+      { "letter": "C", "text": "Remisión de todos los niños a un hospital de tercer nivel para manejo especializado.", "isCorrect": false },
+      { "letter": "D", "text": "Distribución masiva de leche en polvo sin seguimiento nutricional.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Un equipo de salud pública está realizando el ASIS de un municipio del departamento del Meta. Al analizar la pirámide poblacional, observan que en 2005 la base era amplia (alta proporción de menores de 15 años) y el vértice estrecho, mientras que en 2023 la base se ha estrechado y el grupo de 25 a 44 años se ha ensanchado considerablemente.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué fenómeno demográfico refleja este cambio en la pirámide poblacional y cuál es su principal implicación para la planificación en salud?",
+    "explanation": "El estrechamiento de la base de la pirámide (menos niños) y el ensanchamiento de los grupos de edad productiva reflejan el bono demográfico, que es la fase de la transición demográfica donde la proporción de población en edad productiva es mayor que la dependiente. Sin embargo, esto implica que en el mediano plazo habrá un envejecimiento progresivo, por lo que la planificación en salud debe prepararse para una mayor demanda de servicios para enfermedades crónicas y condiciones propias del envejecimiento.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Crecimiento exponencial de la población que requiere más hospitales materno-infantiles.", "isCorrect": false },
+      { "letter": "B", "text": "Bono demográfico, que exige preparar el sistema para el envejecimiento poblacional futuro y la carga de enfermedades crónicas.", "isCorrect": true },
+      { "letter": "C", "text": "Transición epidemiológica inversa que demanda más servicios de atención pediátrica.", "isCorrect": false },
+      { "letter": "D", "text": "Estancamiento demográfico sin implicaciones para la planificación en salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "La seguridad del paciente es una prioridad en la política de calidad del sistema de salud colombiano. Un hospital de tercer nivel implementó un sistema de reporte voluntario de eventos adversos. En el último año se reportaron:\n\n• Caídas de pacientes: 45 eventos\n• Errores de medicación: 38 eventos\n• Infecciones asociadas a la atención en salud (IAAS): 72 eventos\n• Úlceras por presión: 28 eventos\n• Flebitis asociada a catéter: 19 eventos\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál de los siguientes análisis es el más apropiado para priorizar las acciones de mejoramiento en seguridad del paciente?",
+    "explanation": "Para priorizar acciones en seguridad del paciente, se debe analizar no solo la frecuencia de los eventos sino también su severidad (daño causado al paciente), evitabilidad y tendencia temporal. Las IAAS son las más frecuentes (72), pero un análisis integral debe considerar cuáles eventos causan mayor daño, cuáles son prevenibles con intervenciones de bajo costo y cuáles muestran tendencia ascendente. El análisis de causa raíz (protocolo de Londres o similar) permite identificar fallas sistémicas. Enfocarse solo en la frecuencia sin considerar severidad puede llevar a priorizar eventos de bajo impacto.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Analizar únicamente la frecuencia y actuar sobre el evento más reportado.", "isCorrect": false },
+      { "letter": "B", "text": "Evaluar frecuencia, severidad, evitabilidad y tendencia de cada tipo de evento para priorizar con análisis de causa raíz.", "isCorrect": true },
+      { "letter": "C", "text": "Eliminar el sistema de reporte para evitar sanciones al personal de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Atender exclusivamente los errores de medicación por ser los más graves siempre.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "La Ley 1616 de 2013 establece en su artículo 21 que los entes territoriales deben incluir en sus planes de desarrollo acciones de promoción de la salud mental y prevención del trastorno mental, con especial énfasis en niños, niñas y adolescentes. Un municipio del departamento del Tolima tiene una población de 45.000 habitantes y no cuenta con profesional de psicología en su red pública de servicios de primer nivel.\n\n(Datos ficticios — Redacción Study2One, con referencia a la Ley 1616 de 2013)",
+    "questionText": "Según la Ley 1616 de 2013, ¿qué obligación tiene este municipio frente a la atención en salud mental de su población?",
+    "explanation": "La Ley 1616 de 2013 (artículo 21) obliga a los entes territoriales a garantizar la prestación de servicios de salud mental en su territorio, incluyendo la disponibilidad de recurso humano capacitado en el primer nivel de atención. El municipio debe gestionar la contratación o vinculación de profesionales de salud mental (psicólogos y/o psiquiatras según la complejidad) y articular la red de prestación para garantizar la referencia y contrarreferencia cuando sea necesario.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "No tiene obligación porque la salud mental es competencia exclusiva del nivel departamental.", "isCorrect": false },
+      { "letter": "B", "text": "Debe garantizar la disponibilidad de recurso humano de salud mental en el primer nivel y articular la red de prestación.", "isCorrect": true },
+      { "letter": "C", "text": "Solo debe atender casos de urgencia psiquiátrica y remitir todo lo demás a la capital.", "isCorrect": false },
+      { "letter": "D", "text": "Puede sustituir la atención en salud mental con talleres de manualidades comunitarias.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "El Decreto 780 de 2016 compila las disposiciones sobre el proceso de afiliación al Sistema General de Seguridad Social en Salud (SGSSS). En una vereda del municipio de Tumaco (Nariño), un equipo de salud extramural identifica a una familia de 6 personas (padres y 4 hijos menores de edad) que no están afiliadas al sistema de salud. La madre trabaja como vendedora informal en la plaza de mercado.\n\n(Datos ficticios — Redacción Study2One, con referencia al Decreto 780 de 2016)",
+    "questionText": "Según las disposiciones compiladas en el Decreto 780 de 2016, ¿cuál es el proceso correcto para la afiliación de esta familia?",
+    "explanation": "El Decreto 780 de 2016 compila las disposiciones sobre afiliación al SGSSS. Para personas sin capacidad de pago (trabajadores informales no cotizantes), el proceso incluye la aplicación de la encuesta SISBÉN para determinar el puntaje y, con base en este, la afiliación al régimen subsidiado a través de una EPS-S del municipio. Los menores de edad se afilian como beneficiarios. La afiliación es un derecho y no puede estar condicionada al pago previo ni a la tenencia de documentos de propiedad.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Exigir a la madre que cotice al régimen contributivo como trabajadora independiente antes de afiliar a la familia.", "isCorrect": false },
+      { "letter": "B", "text": "Aplicar encuesta SISBÉN, determinar elegibilidad y gestionar afiliación al régimen subsidiado para toda la familia.", "isCorrect": true },
+      { "letter": "C", "text": "Afiliar solo a los menores de edad y dejar a los padres sin cobertura hasta que consigan empleo formal.", "isCorrect": false },
+      { "letter": "D", "text": "Informar que la afiliación solo se puede hacer en la cabecera municipal y que deben trasladarse allá.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Las Rutas Integrales de Atención en Salud (RIAS) incluyen la Ruta de Promoción y Mantenimiento de la Salud, las Rutas de Grupo de Riesgo y las Rutas de Eventos Específicos. La RIAS materno-perinatal define las intervenciones desde la preconcepción hasta el posparto y el periodo neonatal.\n\nUna gestante de 28 semanas acude al control prenatal en una IPS de primer nivel. Presenta presión arterial de 150/95 mmHg, proteinuria de ++ y edema en miembros inferiores. Es su primer embarazo.\n\n(Datos ficticios — Redacción Study2One, con referencia a las RIAS)",
+    "questionText": "Según la RIAS materno-perinatal, ¿cuál es la conducta apropiada frente a este cuadro clínico?",
+    "explanation": "La RIAS materno-perinatal establece que una gestante con hipertensión arterial (>140/90 mmHg), proteinuria y edema después de la semana 20 de gestación presenta un cuadro compatible con preeclampsia, que es una condición de alto riesgo obstétrico. Según la ruta, esta paciente debe ser clasificada como alto riesgo y referida de manera inmediata a un nivel de mayor complejidad (segundo o tercer nivel) para manejo especializado, estabilización y vigilancia fetal. Continuar controles en primer nivel sin referencia pone en riesgo la vida de la madre y el feto.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Continuar los controles prenatales mensuales en primer nivel sin modificar la conducta.", "isCorrect": false },
+      { "letter": "B", "text": "Clasificar como alto riesgo obstétrico y referir inmediatamente a un nivel de mayor complejidad.", "isCorrect": true },
+      { "letter": "C", "text": "Indicar reposo domiciliario y citar en 15 días para control de presión arterial.", "isCorrect": false },
+      { "letter": "D", "text": "Iniciar tratamiento antihipertensivo y programar cesárea electiva en la IPS de primer nivel.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "El PDSP 2012-2021 incluye la dimensión de «Salud ambiental» que aborda la relación entre las condiciones ambientales y la salud humana. En un municipio del departamento del Cesar, la explotación minera a cielo abierto ha generado contaminación de fuentes hídricas con mercurio. La comunidad reporta un aumento de síntomas neurológicos en niños y alteraciones en el neurodesarrollo.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde la dimensión de salud ambiental del PDSP 2012-2021, ¿cuál es el abordaje integral que debe implementar la autoridad sanitaria?",
+    "explanation": "La dimensión de salud ambiental del PDSP 2012-2021 establece un abordaje integral que incluye: vigilancia sanitaria y ambiental (monitoreo de la calidad del agua y niveles de mercurio), vigilancia epidemiológica (detección y seguimiento de casos con efectos en salud), gestión intersectorial (articulación con autoridades ambientales y mineras) y acciones de promoción y prevención (educación a la comunidad, medidas de mitigación). No basta con una sola acción aislada.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Limitar la acción a emitir un comunicado informativo a la comunidad sobre los riesgos del mercurio.", "isCorrect": false },
+      { "letter": "B", "text": "Implementar vigilancia sanitaria y epidemiológica, gestión intersectorial con autoridades ambientales y mineras, y acciones de protección a la comunidad.", "isCorrect": true },
+      { "letter": "C", "text": "Cerrar todos los centros de salud del municipio por riesgo de contaminación.", "isCorrect": false },
+      { "letter": "D", "text": "Esperar los resultados de un estudio científico internacional antes de actuar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Un departamento colombiano presenta los siguientes indicadores de carga de enfermedad:\n\n• Años de Vida Potencialmente Perdidos (AVPP) por enfermedades cardiovasculares: 12.340\n• AVPP por accidentes de tránsito: 8.920\n• AVPP por enfermedades respiratorias crónicas: 4.560\n• AVPP por cáncer de cuello uterino: 3.780\n• AVPP por suicidio: 5.210\n\nLa tasa de AVPP por 100.000 habitantes es:\n• Enfermedades cardiovasculares: 980\n• Accidentes de tránsito: 710\n• Suicidio: 414\n• Enfermedades respiratorias crónicas: 362\n• Cáncer de cuello uterino: 300\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Al analizar la carga de enfermedad mediante AVPP, ¿qué conclusión es correcta sobre la mortalidad prematura en este departamento?",
+    "explanation": "Los AVPP miden la mortalidad prematura (muertes antes de una edad esperada). Aunque las enfermedades cardiovasculares generan más AVPP totales, los accidentes de tránsito y el suicidio afectan a personas más jóvenes, generando una proporción alta de AVPP respecto a su frecuencia. El cáncer de cuello uterino y el suicidio, aunque con menor AVPP total, representan mortalidad evitable con intervenciones de promoción, prevención y detección temprana. Un análisis integral debe considerar tanto la magnitud de los AVPP como la evitabilidad de las causas.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Solo las enfermedades cardiovasculares merecen intervención porque generan más AVPP.", "isCorrect": false },
+      { "letter": "B", "text": "Los accidentes de tránsito y el suicidio, aunque con menor AVPP total, representan mortalidad prematura significativa en población joven y son altamente prevenibles.", "isCorrect": true },
+      { "letter": "C", "text": "Los AVPP no son un indicador útil para la planificación en salud pública.", "isCorrect": false },
+      { "letter": "D", "text": "El cáncer de cuello uterino no es una prioridad porque tiene los menores AVPP.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "La Resolución 518 de 2015 define la línea operativa de «Gestión de la salud pública en emergencias y desastres» como parte del PIC. Un municipio del departamento de Caldas se encuentra en zona de alto riesgo volcánico y ha experimentado sismos recientes. La secretaría de salud municipal debe articular el componente de salud en el plan municipal de gestión del riesgo de desastres.\n\n(Datos ficticios — Redacción Study2One, con referencia a la Resolución 518 de 2015)",
+    "questionText": "En el marco de la línea operativa de gestión de la salud pública en emergencias y desastres del PIC, ¿qué acciones debe incluir la secretaría de salud municipal?",
+    "explanation": "La línea operativa de gestión de la salud pública en emergencias y desastres del PIC (Resolución 518 de 2015) incluye: preparación del sector salud para la respuesta a emergencias (planes de contingencia, capacitación del talento humano, simulacros), vigilancia epidemiológica en situaciones de emergencia, gestión de albergues saludables, vigilancia de la calidad del agua y alimentos, atención psicosocial y coordinación intersectorial con las entidades de gestión del riesgo. No se limita a la atención de heridos.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Preparar únicamente un listado de ambulancias disponibles para evacuación.", "isCorrect": false },
+      { "letter": "B", "text": "Planes de contingencia, vigilancia epidemiológica en emergencias, gestión de albergues, atención psicosocial y coordinación intersectorial.", "isCorrect": true },
+      { "letter": "C", "text": "Delegar toda la responsabilidad a la Unidad Nacional de Gestión del Riesgo sin participación del sector salud.", "isCorrect": false },
+      { "letter": "D", "text": "Cerrar los servicios de salud durante la emergencia para proteger la infraestructura.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "La Ley 1616 de 2013 establece en su artículo 23 la conformación del Consejo Nacional de Salud Mental, como instancia asesora del Ministerio de Salud y Protección Social. Además, en su artículo 14 señala que los prestadores de servicios de salud deben conformar equipos interdisciplinarios de salud mental.\n\nUna IPS de segundo nivel en el departamento de Risaralda atiende consulta de salud mental únicamente con un médico general que prescribe medicamentos psicotrópicos, sin contar con psicología, trabajo social ni terapia ocupacional.\n\n(Datos ficticios — Redacción Study2One, con referencia a la Ley 1616 de 2013)",
+    "questionText": "¿Esta IPS cumple con lo establecido en la Ley 1616 de 2013 respecto a la conformación de equipos de atención en salud mental?",
+    "explanation": "La Ley 1616 de 2013 (artículo 14) establece que la atención en salud mental debe ser prestada por equipos interdisciplinarios que incluyan, según la complejidad: psiquiatría, psicología, trabajo social, enfermería, terapia ocupacional y otras disciplinas. Una IPS de segundo nivel que solo ofrece prescripción farmacológica por médico general no cumple con el requisito de interdisciplinariedad. La atención debe ser integral, no solo farmacológica.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Sí, porque el médico general está autorizado para prescribir medicamentos psicotrópicos.", "isCorrect": false },
+      { "letter": "B", "text": "Sí, siempre que el médico general tenga un diplomado en salud mental.", "isCorrect": false },
+      { "letter": "C", "text": "No, porque la Ley 1616 exige equipos interdisciplinarios que no se limiten a la prescripción farmacológica.", "isCorrect": true },
+      { "letter": "D", "text": "No, pero solo porque la ley prohíbe que los médicos generales prescriban psicotrópicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "En el marco del MAITE, las entidades territoriales deben desarrollar la línea de acción de «Aseguramiento en salud», que busca garantizar la cobertura universal. Un análisis de la Secretaría de Salud de un municipio del departamento del Chocó revela que el 22 % de la población no se encuentra afiliada al SGSSS, predominantemente población afrocolombiana en zonas rurales dispersas de difícil acceso.\n\n(Datos ficticios — Redacción Study2One, con referencia al MAITE — Resolución 2626 de 2019)",
+    "questionText": "¿Cuál estrategia del MAITE es más pertinente para cerrar la brecha de aseguramiento en este municipio?",
+    "explanation": "El MAITE contempla estrategias diferenciadas para poblaciones dispersas y con enfoque diferencial étnico. Para cerrar brechas de aseguramiento en zonas rurales dispersas con población afrocolombiana, la estrategia incluye: brigadas de afiliación extramural con acompañamiento intercultural, articulación con líderes comunitarios y organizaciones étnicas, simplificación de trámites documentales y uso de la base de datos del SISBÉN actualizada. La afiliación debe ir al territorio, no esperar a que la población se desplace.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Publicar avisos en la página web de la alcaldía invitando a la población a afiliarse.", "isCorrect": false },
+      { "letter": "B", "text": "Brigadas de afiliación extramural con enfoque intercultural, articulación con líderes comunitarios y simplificación de trámites.", "isCorrect": true },
+      { "letter": "C", "text": "Esperar a que la población se desplace a la cabecera municipal para solicitar la afiliación.", "isCorrect": false },
+      { "letter": "D", "text": "Exigir cédula de ciudadanía y certificado de residencia notariado como requisitos de afiliación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "El ASIS de un municipio del departamento del Huila incluye el análisis de la mortalidad evitable. Los datos muestran:\n\n• Mortalidad por infección respiratoria aguda (IRA) en menores de 5 años: tasa de 18,5 por 100.000 (promedio nacional: 8,2)\n• Mortalidad por enfermedad diarreica aguda (EDA) en menores de 5 años: tasa de 12,3 por 100.000 (promedio nacional: 3,1)\n• Mortalidad por desnutrición en menores de 5 años: tasa de 8,7 por 100.000 (promedio nacional: 2,8)\n• Cobertura de vacunación con tercera dosis de pentavalente: 72 % (meta: ≥95 %)\n• Cobertura de control de crecimiento y desarrollo: 58 % (meta: ≥90 %)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué patrón revelan estos indicadores y cuál es su significado para la planificación en salud?",
+    "explanation": "Los datos muestran que las tres principales causas de mortalidad evitable en menores de 5 años (IRA, EDA, desnutrición) tienen tasas significativamente superiores al promedio nacional, acompañadas de bajas coberturas en vacunación y control de crecimiento y desarrollo. Este patrón indica fallas en la atención primaria y en los programas de promoción y prevención dirigidos a la primera infancia. Son muertes evitables con intervenciones de bajo costo y alta efectividad (vacunación, lactancia materna, rehidratación oral, vigilancia nutricional).",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Los indicadores son aceptables porque la mortalidad infantil es un fenómeno natural e inevitable.", "isCorrect": false },
+      { "letter": "B", "text": "Las altas tasas de mortalidad evitable con bajas coberturas de prevención indican fallas en la atención primaria y los programas de primera infancia.", "isCorrect": true },
+      { "letter": "C", "text": "El problema se resuelve exclusivamente construyendo una unidad de cuidados intensivos pediátricos.", "isCorrect": false },
+      { "letter": "D", "text": "La vacunación no tiene relación con la mortalidad por IRA en menores de 5 años.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "La gestión del riesgo en salud incluye la identificación de riesgos colectivos. Un barrio de la zona urbana de Cúcuta (Norte de Santander) concentra población migrante venezolana en situación irregular. El equipo de salud pública identifica:\n\n• Hacinamiento: promedio 3,2 personas por habitación\n• Acceso a agua potable: 65 % de las viviendas\n• Vacunación infantil: cobertura estimada del 40 %\n• Acceso a servicios de salud: barrera administrativa por falta de documentación\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde la perspectiva de gestión del riesgo en salud, ¿cuál es el riesgo colectivo prioritario en esta comunidad?",
+    "explanation": "La combinación de hacinamiento, bajo acceso a agua potable, baja cobertura de vacunación y barreras de acceso a servicios de salud configura un alto riesgo de brotes de enfermedades transmisibles (respiratorias, diarreicas, inmunoprevenibles). La baja vacunación infantil (40 % vs. meta de 95 %) es particularmente crítica porque puede facilitar la reemergencia de enfermedades como sarampión o difteria. El riesgo es colectivo porque afecta no solo a la población migrante sino a toda la comunidad del barrio.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Alto riesgo de brotes de enfermedades transmisibles e inmunoprevenibles por hacinamiento, bajo saneamiento y baja vacunación.", "isCorrect": true },
+      { "letter": "B", "text": "Riesgo exclusivamente de enfermedades crónicas no transmisibles.", "isCorrect": false },
+      { "letter": "C", "text": "No existe riesgo colectivo porque se trata de población en situación migratoria irregular.", "isCorrect": false },
+      { "letter": "D", "text": "El riesgo se limita a problemas de salud mental por la condición migratoria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "El Decreto 780 de 2016, en su Libro 2, Parte 3, compila las normas sobre el régimen de beneficios en salud. El plan de beneficios (antes POS, ahora Plan de Beneficios en Salud — PBS) cubre las tecnologías en salud que la población requiere. Sin embargo, existen tecnologías no incluidas en el PBS que pueden ser financiadas a través de mecanismos como el presupuesto máximo o las MIPRES.\n\n(Redacción Study2One, con referencia al Decreto 780 de 2016)",
+    "questionText": "Según el marco normativo compilado en el Decreto 780 de 2016, ¿cuál es el mecanismo vigente para acceder a tecnologías en salud no incluidas en el Plan de Beneficios en Salud?",
+    "explanation": "Con la expedición de la Resolución 1885 de 2018 y normas complementarias compiladas en el Decreto 780, se estableció el aplicativo MIPRES (Mi Prescripción) como mecanismo para que los profesionales de salud prescriban tecnologías no financiadas con la UPC (no incluidas en el PBS). Las EPS deben suministrar estas tecnologías y el financiamiento se realiza a través de presupuestos máximos asignados por la ADRES. Ya no se requiere Comité Técnico Científico (CTC) ni acción de tutela como vía principal.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "La acción de tutela es el único mecanismo disponible para acceder a tecnologías no PBS.", "isCorrect": false },
+      { "letter": "B", "text": "El Comité Técnico Científico (CTC) de cada EPS sigue siendo el mecanismo exclusivo.", "isCorrect": false },
+      { "letter": "C", "text": "La prescripción a través de MIPRES y el financiamiento mediante presupuestos máximos asignados por la ADRES.", "isCorrect": true },
+      { "letter": "D", "text": "El paciente debe asumir el costo total de cualquier tecnología no incluida en el PBS.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "La vigilancia epidemiológica de eventos de interés en salud pública opera a través del SIVIGILA (Sistema de Vigilancia en Salud Pública). Un caso confirmado de meningitis bacteriana en un niño de 3 años es notificado desde una IPS de primer nivel en un municipio del departamento del Atlántico. El protocolo del INS establece acciones inmediatas de vigilancia.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuáles son las acciones inmediatas de vigilancia epidemiológica que deben realizarse ante este caso de meningitis bacteriana?",
+    "explanation": "La meningitis bacteriana es un evento de notificación inmediata que requiere: notificación individual inmediata al SIVIGILA (en las primeras 24 horas), investigación epidemiológica de campo (identificación de contactos cercanos, búsqueda activa de casos), quimioprofilaxis a contactos según protocolo del INS, toma de muestras para identificación del agente etiológico y seguimiento del caso índice. Esperar confirmación por laboratorio para notificar o no realizar búsqueda de contactos son errores graves en la vigilancia.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Esperar la confirmación de laboratorio antes de notificar al SIVIGILA.", "isCorrect": false },
+      { "letter": "B", "text": "Notificación inmediata, investigación de campo, búsqueda de contactos, quimioprofilaxis y seguimiento.", "isCorrect": true },
+      { "letter": "C", "text": "Notificar al SIVIGILA al final de la semana epidemiológica.", "isCorrect": false },
+      { "letter": "D", "text": "Tratar al paciente y dar de alta sin investigar contactos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "La atención integral al consumo de sustancias psicoactivas (SPA) está regulada por la Ley 1566 de 2012 y se articula con la Ley 1616 de 2013. Un adolescente de 16 años es llevado por su madre a un centro de salud de primer nivel porque ha sido encontrado consumiendo marihuana y bazuco. La madre solicita que lo internen «para que se cure».\n\n(Datos ficticios — Redacción Study2One, con referencia a la Ley 1566 de 2012 y la Ley 1616 de 2013)",
+    "questionText": "Según la normativa vigente, ¿cuál es el abordaje correcto para este caso?",
+    "explanation": "La Ley 1566 de 2012 reconoce el consumo de sustancias psicoactivas como un asunto de salud pública y establece que la atención debe ser integral, incluida en el plan de beneficios en salud. La Ley 1616 de 2013 establece que la internación es el último recurso y debe ser lo más breve posible, priorizando la atención ambulatoria y comunitaria. Para un adolescente, el abordaje debe incluir valoración integral (médica, psicológica, social, familiar), determinación del nivel de consumo y riesgo, plan de tratamiento individualizado que puede incluir intervención breve, tratamiento ambulatorio o, solo si hay criterios clínicos, internación.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Internar inmediatamente al adolescente en un centro de rehabilitación por tiempo indefinido.", "isCorrect": false },
+      { "letter": "B", "text": "Realizar valoración integral, determinar nivel de riesgo y definir plan de tratamiento individualizado priorizando atención ambulatoria.", "isCorrect": true },
+      { "letter": "C", "text": "Informar a la madre que el consumo de sustancias no es un problema de salud y que no requiere atención.", "isCorrect": false },
+      { "letter": "D", "text": "Reportar el caso a la policía porque el consumo de sustancias es un delito.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Un municipio del departamento del Magdalena tiene una alta incidencia de enfermedades transmitidas por vectores (dengue, chikunguña, Zika). La secretaría de salud municipal debe implementar acciones de salud ambiental y control de vectores como parte del PIC, conforme a la Resolución 518 de 2015.\n\nLos datos del municipio muestran:\n• Índice aédico (presencia de larvas de Aedes aegypti en viviendas): 28 % (umbral de riesgo: >5 %)\n• Índice de Breteau: 42 (umbral de riesgo: >20)\n• Recipientes más comunes con larvas: tanques de almacenamiento de agua sin tapa, llantas, floreros\n\n(Datos ficticios — Redacción Study2One, con referencia a la Resolución 518 de 2015)",
+    "questionText": "Considerando los índices entomológicos, ¿cuál es la estrategia integral más efectiva para el control vectorial?",
+    "explanation": "Los índices entomológicos (aédico 28 % e Índice de Breteau 42) están muy por encima de los umbrales de riesgo, indicando alta infestación de Aedes aegypti. La estrategia integral de control vectorial debe incluir: control larvario (eliminación y tratamiento de criaderos), control químico adulticida como complemento (no como acción única), educación comunitaria para la eliminación de recipientes, ordenamiento ambiental y vigilancia entomológica continua. La fumigación aérea sola es insuficiente porque no elimina las larvas en los recipientes.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Fumigación aérea masiva como única medida de control.", "isCorrect": false },
+      { "letter": "B", "text": "Control larvario, eliminación de criaderos, educación comunitaria, control químico complementario y vigilancia entomológica continua.", "isCorrect": true },
+      { "letter": "C", "text": "Distribución de mosquiteros a toda la población sin otras acciones complementarias.", "isCorrect": false },
+      { "letter": "D", "text": "Cierre de los servicios de salud hasta que el índice aédico descienda.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "La seguridad del paciente incluye la gestión de eventos adversos según la Política de Seguridad del Paciente del Ministerio de Salud y Protección Social. Un paciente de 68 años, hospitalizado por neumonía, recibe por error una dosis de insulina que no le correspondía. El paciente presenta hipoglucemia severa que requiere manejo en UCI. El evento es detectado por la enfermera jefe del servicio.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la secuencia correcta de acciones frente a este evento adverso?",
+    "explanation": "Ante un evento adverso, la secuencia correcta según la Política de Seguridad del Paciente es: 1) Atención inmediata al paciente para mitigar el daño (prioridad absoluta), 2) Reporte del evento en el sistema institucional de notificación, 3) Investigación y análisis de causa raíz usando metodologías como el Protocolo de Londres, 4) Implementación de acciones de mejoramiento para evitar recurrencia, 5) Retroalimentación al equipo y seguimiento. La cultura de seguridad promueve el reporte sin castigo (cultura no punitiva) para fomentar el aprendizaje organizacional.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Sancionar inmediatamente al responsable antes de atender al paciente.", "isCorrect": false },
+      { "letter": "B", "text": "Atender al paciente, reportar el evento, realizar análisis de causa raíz e implementar acciones de mejoramiento.", "isCorrect": true },
+      { "letter": "C", "text": "Ocultar el evento para proteger la imagen de la institución.", "isCorrect": false },
+      { "letter": "D", "text": "Reportar el evento a la prensa antes de notificar a la familia del paciente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "El PDSP 2012-2021 incluye la dimensión de «Sexualidad, derechos sexuales y reproductivos». Un análisis del ASIS de un departamento revela que la tasa de embarazo en adolescentes (15-19 años) es de 78 por 1.000 mujeres (promedio nacional: 61 por 1.000). Además, el 45 % de los embarazos adolescentes se concentra en los municipios con mayor índice de necesidades básicas insatisfechas (NBI).\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde la perspectiva de determinantes sociales de la salud, ¿cómo se interpreta la concentración de embarazo adolescente en municipios con alto NBI?",
+    "explanation": "La concentración del embarazo adolescente en municipios con alto NBI evidencia la relación entre determinantes sociales estructurales (pobreza, baja escolaridad, falta de oportunidades) y los resultados en salud sexual y reproductiva. Las adolescentes en contextos de mayor privación tienen menor acceso a educación sexual integral, a métodos anticonceptivos y a servicios de salud amigables para jóvenes. Abordar el embarazo adolescente requiere intervenciones que actúen sobre los determinantes estructurales (educación, reducción de pobreza) además de las intervenciones directas en salud.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Es una coincidencia estadística sin significado para la planificación en salud.", "isCorrect": false },
+      { "letter": "B", "text": "Se debe exclusivamente a factores genéticos propios de esas poblaciones.", "isCorrect": false },
+      { "letter": "C", "text": "Evidencia la relación entre determinantes sociales estructurales (pobreza, baja escolaridad) y los resultados en salud sexual y reproductiva.", "isCorrect": true },
+      { "letter": "D", "text": "Indica que los programas de salud sexual solo deben implementarse en municipios con bajo NBI.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "Las RIAS incluyen rutas para eventos específicos. La RIAS de evento para la depresión define las intervenciones según la severidad del episodio (leve, moderado, grave) y establece criterios de referencia entre niveles de atención.\n\nUn paciente de 42 años acude a consulta de medicina general en una IPS de primer nivel. Refiere ánimo triste persistente hace 3 meses, insomnio, pérdida de apetito, dificultad para concentrarse en el trabajo y ha comenzado a pensar que «sería mejor no estar vivo». Tiene antecedente de un intento de suicidio hace 5 años.\n\n(Datos ficticios — Redacción Study2One, con referencia a las RIAS)",
+    "questionText": "Según la RIAS de evento para depresión, ¿cuál es la conducta apropiada en este caso?",
+    "explanation": "Este paciente presenta un episodio depresivo con ideación suicida activa y antecedente de intento de suicidio previo, lo que lo clasifica como alto riesgo. Según la RIAS de depresión, los casos con ideación suicida y/o antecedente de intento previo requieren: evaluación inmediata del riesgo suicida (escala validada), intervención en crisis, referencia urgente a psiquiatría y, si hay riesgo inminente, manejo intrahospitalario. No debe enviarse a casa con cita programada ni tratarse solo con ansiolíticos.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Prescribir un ansiolítico y programar cita de control en 30 días.", "isCorrect": false },
+      { "letter": "B", "text": "Evaluar riesgo suicida inmediato, realizar intervención en crisis y referir urgente a psiquiatría.", "isCorrect": true },
+      { "letter": "C", "text": "Recomendar actividades recreativas y dar de alta sin seguimiento.", "isCorrect": false },
+      { "letter": "D", "text": "Informar al paciente que la depresión no es una enfermedad real.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": "La salud ambiental como dimensión del PDSP 2012-2021 incluye la vigilancia de la calidad del agua para consumo humano. El Índice de Riesgo de la Calidad del Agua para Consumo Humano (IRCA) es el indicador utilizado en Colombia para evaluar el grado de riesgo de ocurrencia de enfermedades relacionadas con el no cumplimiento de las normas de calidad del agua.\n\nUn municipio reporta un IRCA promedio anual de 52,4 %.\n\nLos rangos del IRCA son:\n• 0-5 %: sin riesgo\n• 5,1-14 %: riesgo bajo\n• 14,1-35 %: riesgo medio\n• 35,1-80 %: riesgo alto\n• 80,1-100 %: inviable sanitariamente\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué nivel de riesgo presenta el agua de este municipio y cuáles son las implicaciones para la salud pública?",
+    "explanation": "Un IRCA de 52,4 % se clasifica en riesgo alto (rango 35,1-80 %). Esto significa que el agua de este municipio presenta incumplimientos significativos de las normas de calidad (microbiológicos, fisicoquímicos o ambos) y representa un riesgo considerable para la salud de la población. Las implicaciones incluyen: mayor riesgo de enfermedades de origen hídrico (EDA, hepatitis A, parasitosis), necesidad de intervención inmediata de la empresa prestadora, notificación a las autoridades sanitarias y ambientales, y vigilancia epidemiológica de eventos asociados al agua.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Riesgo bajo; el agua es apta para consumo con tratamiento casero mínimo.", "isCorrect": false },
+      { "letter": "B", "text": "Riesgo alto; requiere intervención inmediata por incumplimiento significativo de normas de calidad con riesgo de enfermedades hídricas.", "isCorrect": true },
+      { "letter": "C", "text": "Riesgo medio; solo requiere monitoreo semestral sin acciones correctivas.", "isCorrect": false },
+      { "letter": "D", "text": "Inviable sanitariamente; el municipio debe ser evacuado de inmediato.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": "La Resolución 518 de 2015 establece que las entidades territoriales deben desarrollar la línea operativa de «Fortalecimiento de la autoridad sanitaria» como parte del PIC. Esta línea incluye la inspección, vigilancia y control (IVC) sanitario de los establecimientos que pueden generar riesgo para la salud pública.\n\nUna inspección sanitaria a un restaurante escolar que alimenta a 350 estudiantes revela:\n• Ausencia de registro sanitario de los alimentos preparados\n• Personal manipulador sin certificación en manejo higiénico de alimentos\n• Temperatura de conservación de alimentos refrigerados: 12°C (norma: <4°C)\n• Presencia de vectores (cucarachas) en el área de almacenamiento\n\n(Datos ficticios — Redacción Study2One, con referencia a la Resolución 518 de 2015)",
+    "questionText": "¿Cuál es la medida sanitaria de seguridad que debe aplicar la autoridad sanitaria?",
+    "explanation": "Las condiciones descritas representan un riesgo inminente para la salud de 350 estudiantes: conservación inadecuada de alimentos (12°C vs. <4°C favorece multiplicación bacteriana), presencia de vectores, personal sin capacitación y ausencia de registro sanitario. La autoridad sanitaria debe aplicar medida sanitaria de seguridad de clausura temporal del establecimiento hasta que se corrijan las condiciones, decomiso de alimentos en riesgo, y dar plazo para cumplimiento de requisitos sanitarios. No es suficiente una amonestación verbal.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Emitir una amonestación verbal y programar una nueva visita en 6 meses.", "isCorrect": false },
+      { "letter": "B", "text": "Clausura temporal del establecimiento, decomiso de alimentos en riesgo y plazo para corrección de hallazgos.", "isCorrect": true },
+      { "letter": "C", "text": "No tomar ninguna medida porque el restaurante opera dentro de una institución educativa.", "isCorrect": false },
+      { "letter": "D", "text": "Multar al restaurante y permitir que continúe operando sin cambios.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "Un hospital de segundo nivel implementó un programa de vigilancia de infecciones asociadas a la atención en salud (IAAS). Los datos del primer trimestre muestran:\n\n• Infecciones del sitio quirúrgico: 4,2 por 100 procedimientos (referente nacional: <2,0)\n• Infección urinaria asociada a catéter: 6,8 por 1.000 días-catéter (referente: <3,5)\n• Neumonía asociada a ventilación mecánica: 8,1 por 1.000 días-ventilador (referente: <5,0)\n• Bacteriemia asociada a catéter central: 3,2 por 1.000 días-catéter (referente: <2,5)\n• Adherencia al lavado de manos: 42 % (meta: ≥80 %)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué relación existe entre la adherencia al lavado de manos y las tasas de IAAS en este hospital?",
+    "explanation": "Todos los indicadores de IAAS están por encima de los referentes nacionales, y la adherencia al lavado de manos es alarmantemente baja (42 % vs. meta ≥80 %). La evidencia científica ha demostrado consistentemente que la higiene de manos es la intervención más efectiva y de menor costo para prevenir las IAAS. La baja adherencia al lavado de manos es un factor contribuyente directo a las altas tasas de IAAS observadas. Mejorar la adherencia al lavado de manos debería ser la primera intervención del programa de control de infecciones.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "No hay relación; las IAAS se deben exclusivamente a la virulencia de los microorganismos.", "isCorrect": false },
+      { "letter": "B", "text": "La baja adherencia al lavado de manos es un factor contribuyente directo a las altas tasas de IAAS y debe ser la primera intervención.", "isCorrect": true },
+      { "letter": "C", "text": "El lavado de manos solo previene infecciones del sitio quirúrgico, no las demás IAAS.", "isCorrect": false },
+      { "letter": "D", "text": "Las IAAS son inevitables en cualquier hospital y no se relacionan con prácticas de higiene.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": "El PDSP 2012-2021 incluye la dimensión transversal de «Gestión diferencial de poblaciones vulnerables», que reconoce las desigualdades en salud según condiciones socioeconómicas, étnicas, de género y territoriales.\n\nUn análisis comparativo de indicadores de salud en un departamento muestra:\n\n| Indicador | Zona urbana | Zona rural dispersa |\n|-----------|-------------|---------------------|\n| Tasa de mortalidad infantil | 9,8/1.000 NV | 24,6/1.000 NV |\n| Cobertura de parto institucional | 98,2 % | 62,3 % |\n| Profesionales de salud por 10.000 hab. | 22,4 | 3,1 |\n| Porcentaje de hogares con agua potable | 96,8 % | 38,5 % |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué concepto del PDSP 2012-2021 describe mejor la situación reflejada en estos datos?",
+    "explanation": "Los datos evidencian inequidades en salud, es decir, diferencias injustas y evitables en los resultados de salud entre la zona urbana y rural dispersa. La mortalidad infantil es 2,5 veces mayor en zona rural, con menor cobertura de parto institucional, escasez de profesionales y bajo acceso a agua potable. Estas no son simples diferencias estadísticas (desigualdades) sino inequidades porque son evitables y están determinadas por las condiciones socioeconómicas y geográficas. El PDSP aborda esto a través de la gestión diferencial y la acción sobre determinantes estructurales.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Diferencias genéticas entre poblaciones urbanas y rurales.", "isCorrect": false },
+      { "letter": "B", "text": "Inequidades en salud: diferencias injustas y evitables determinadas por condiciones socioeconómicas y geográficas.", "isCorrect": true },
+      { "letter": "C", "text": "Variaciones naturales que no requieren intervención de política pública.", "isCorrect": false },
+      { "letter": "D", "text": "Efecto exclusivo de las preferencias culturales de la población rural.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "La Ley 1616 de 2013, en su artículo 26, establece que las Administradoras de Riesgos Laborales (ARL) deben generar estrategias, programas, acciones o servicios de promoción de la salud mental y prevención del trastorno mental en el ámbito laboral.\n\nUna empresa del sector floricultor en Cundinamarca tiene 320 trabajadores. La ARL ha identificado que el 35 % de los trabajadores reportan síntomas de estrés laboral crónico y que las incapacidades por trastornos mentales han aumentado un 60 % en el último año.\n\n(Datos ficticios — Redacción Study2One, con referencia a la Ley 1616 de 2013)",
+    "questionText": "Según la Ley 1616 de 2013, ¿qué acciones debe implementar la ARL frente a esta situación?",
+    "explanation": "La Ley 1616 de 2013 (artículo 26) obliga a las ARL a desarrollar acciones de promoción de la salud mental y prevención del trastorno mental en el entorno laboral. Esto incluye: evaluación de los factores de riesgo psicosocial (Resolución 2646 de 2008 y Resolución 2764 de 2022 — batería de riesgo psicosocial), implementación de programas de intervención sobre los factores identificados, capacitación, acompañamiento psicosocial y seguimiento. No es suficiente con medicar a los trabajadores ni con ignorar el problema atribuyéndolo a factores personales.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Aplicar la batería de riesgo psicosocial, implementar programas de intervención y acompañamiento psicosocial laboral.", "isCorrect": true },
+      { "letter": "B", "text": "Despedir a los trabajadores que presenten síntomas de estrés para reducir las incapacidades.", "isCorrect": false },
+      { "letter": "C", "text": "Informar a la empresa que el estrés laboral es un problema personal de cada trabajador.", "isCorrect": false },
+      { "letter": "D", "text": "Distribuir folletos informativos sobre técnicas de relajación sin ninguna otra intervención.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "El MAITE contempla la línea de acción de «Talento humano en salud» que busca garantizar la disponibilidad, distribución y competencias del recurso humano necesario para la prestación de servicios. Un análisis del departamento del Guainía muestra:\n\n• Población total: 48.000 habitantes\n• Médicos generales: 12 (1 por cada 4.000 hab.)\n• Especialistas: 2 (ginecólogo y pediatra, solo en la capital)\n• Enfermeros profesionales: 8\n• Auxiliares de enfermería: 35\n• Promotores de salud: 22\n• Psicólogos: 1 (en la capital departamental)\n\n(Datos ficticios — Redacción Study2One, con referencia al MAITE — Resolución 2626 de 2019)",
+    "questionText": "En el marco de la línea de talento humano del MAITE, ¿cuál es la estrategia más pertinente para este departamento?",
+    "explanation": "El Guainía es un departamento con alta dispersión geográfica y población predominantemente indígena. La estrategia del MAITE para estos territorios debe ser diferenciada: incentivos para la vinculación de profesionales en zonas dispersas (estímulos salariales, bonificaciones), fortalecimiento de los equipos extramurales con enfoque intercultural, ampliación de las competencias de los promotores de salud y auxiliares de enfermería para funciones de primer nivel, telemedicina como complemento (no como sustituto) y formación del talento humano local. Llevar especialistas permanentes a cada corregimiento no es viable ni sostenible.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Asignar un especialista permanente a cada corregimiento del departamento.", "isCorrect": false },
+      { "letter": "B", "text": "Incentivos para profesionales, fortalecimiento de equipos extramurales interculturales, telemedicina y formación del talento humano local.", "isCorrect": true },
+      { "letter": "C", "text": "Reemplazar a todos los promotores de salud por médicos especialistas.", "isCorrect": false },
+      { "letter": "D", "text": "Cerrar los puestos de salud rurales y centralizar toda la atención en la capital.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "El ASIS incluye el análisis de la mortalidad por grandes causas. Un departamento presenta la siguiente distribución de mortalidad proporcional:\n\n• Enfermedades del sistema circulatorio: 28,5 %\n• Neoplasias (tumores): 19,2 %\n• Causas externas (homicidios, accidentes, suicidios): 17,8 %\n• Enfermedades del sistema respiratorio: 10,4 %\n• Enfermedades infecciosas y parasitarias: 8,1 %\n• Enfermedades endocrinas, nutricionales y metabólicas: 6,3 %\n• Otras causas: 9,7 %\n\nAl comparar con el perfil nacional:\n• Las causas externas representan el 17,8 % vs. 13,2 % nacional\n• Las enfermedades infecciosas representan el 8,1 % vs. 4,3 % nacional\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué conclusión se puede extraer del perfil de mortalidad de este departamento?",
+    "explanation": "El departamento muestra un perfil de «doble carga» o superposición epidemiológica: mantiene una alta proporción de mortalidad por enfermedades infecciosas (casi el doble del promedio nacional), lo que es propio de una transición epidemiológica incompleta, a la vez que tiene alta mortalidad por enfermedades crónicas no transmisibles (circulatorias y neoplasias). Además, las causas externas están significativamente por encima del promedio nacional. Esto indica que el departamento debe abordar simultáneamente las enfermedades transmisibles, las no transmisibles y la violencia.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "El departamento ha completado la transición epidemiológica y solo debe enfocarse en enfermedades crónicas.", "isCorrect": false },
+      { "letter": "B", "text": "Presenta una doble carga epidemiológica con sobremortalidad por causas externas e infecciosas respecto al promedio nacional.", "isCorrect": true },
+      { "letter": "C", "text": "El perfil de mortalidad es idéntico al nacional y no requiere acciones diferenciadas.", "isCorrect": false },
+      { "letter": "D", "text": "Solo las enfermedades del sistema circulatorio merecen atención por ser la primera causa de muerte.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": "La Resolución 518 de 2015 establece que el PIC debe desarrollar acciones de promoción de la salud utilizando la estrategia de Entornos Saludables. En un colegio público de un municipio del departamento del Valle del Cauca, con 800 estudiantes de 6 a 17 años, se detecta que:\n\n• El 40 % de los estudiantes de 12-17 años reporta haber consumido alcohol alguna vez\n• El 22 % reporta consumo de cigarrillo\n• El 12 % reporta consumo de marihuana\n• El 65 % de los estudiantes tiene sobrepeso u obesidad\n• La actividad física regular es reportada solo por el 25 % de los estudiantes\n\n(Datos ficticios — Redacción Study2One, con referencia a la Resolución 518 de 2015)",
+    "questionText": "Desde la estrategia de Entornos Saludables del PIC, ¿cuál es el abordaje más apropiado para este entorno educativo?",
+    "explanation": "La estrategia de Entornos Saludables busca transformar las condiciones del entorno (en este caso, el educativo) para promover la salud. El abordaje debe ser integral: intervenciones sobre alimentación saludable en la tienda escolar, promoción de la actividad física en el currículo, prevención del consumo de SPA con metodologías adaptadas a adolescentes (habilidades para la vida, toma de decisiones), articulación con familias y comunidad educativa, y creación de políticas institucionales saludables. No es eficaz limitar las acciones a charlas o a medidas punitivas.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Realizar una charla informativa al año sobre los riesgos del consumo de sustancias.", "isCorrect": false },
+      { "letter": "B", "text": "Intervención integral: alimentación saludable escolar, actividad física curricular, prevención de SPA con habilidades para la vida y políticas institucionales saludables.", "isCorrect": true },
+      { "letter": "C", "text": "Expulsar a los estudiantes que reporten consumo de sustancias psicoactivas.", "isCorrect": false },
+      { "letter": "D", "text": "Cerrar la tienda escolar sin ofrecer alternativas de alimentación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": "El Decreto 780 de 2016 compila las disposiciones sobre el sistema de referencia y contrarreferencia entre IPS de diferentes niveles de complejidad. Un paciente con trauma craneoencefálico severo es atendido en un hospital de primer nivel en un municipio del departamento de Arauca. El hospital no cuenta con neurocirujano, tomógrafo ni UCI.\n\n(Datos ficticios — Redacción Study2One, con referencia al Decreto 780 de 2016)",
+    "questionText": "Según el sistema de referencia compilado en el Decreto 780 de 2016, ¿cuál es la conducta correcta?",
+    "explanation": "El sistema de referencia y contrarreferencia establece que cuando una IPS no tiene la capacidad resolutiva para manejar un caso (como un trauma craneoencefálico severo que requiere neurocirugía, TAC y UCI), debe: estabilizar al paciente según sus capacidades, activar la referencia al nivel de complejidad apropiado coordinando con la EPS o con el Centro Regulador de Urgencias y Emergencias (CRUE), garantizar el transporte medicalizado y entregar la información clínica completa. No puede retener al paciente ni dar de alta sin la referencia adecuada.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Retener al paciente hasta que llegue un neurocirujano al municipio.", "isCorrect": false },
+      { "letter": "B", "text": "Estabilizar, activar referencia al nivel de complejidad adecuado mediante CRUE/EPS con transporte medicalizado.", "isCorrect": true },
+      { "letter": "C", "text": "Dar de alta al paciente con indicación de consultar a un neurocirujano particular.", "isCorrect": false },
+      { "letter": "D", "text": "Realizar la neurocirugía en el hospital de primer nivel con los recursos disponibles.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "La gestión del riesgo en salud incluye la estratificación del riesgo poblacional. Una EPS ha clasificado a sus 250.000 afiliados en cinco grupos de riesgo:\n\n• Grupo 1 — Sanos (sin factores de riesgo identificados): 45 %\n• Grupo 2 — Con factores de riesgo (hipertensión, dislipidemia, prediabetes, tabaquismo): 28 %\n• Grupo 3 — Con enfermedad crónica controlada: 15 %\n• Grupo 4 — Con enfermedad crónica no controlada o con complicaciones: 9 %\n• Grupo 5 — Con enfermedad catastrófica o terminal: 3 %\n\nEl 75 % del gasto en salud se concentra en los grupos 4 y 5.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde la perspectiva de gestión del riesgo en salud, ¿cuál estrategia tiene mayor potencial de impacto a mediano plazo?",
+    "explanation": "La gestión del riesgo en salud se basa en el principio de anticipación: actuar antes de que la enfermedad progrese. Los grupos 2 y 3 (43 % de la población) representan la mayor oportunidad de intervención porque están en etapas donde las intervenciones de prevención y control pueden evitar la progresión a complicaciones (grupo 4) o enfermedad catastrófica (grupo 5). Intervenir intensivamente en estos grupos (control de factores de riesgo, adherencia al tratamiento, educación, seguimiento activo) tiene el mayor potencial de reducir el gasto futuro y mejorar resultados en salud.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Concentrar todos los recursos en el grupo 5 porque genera el mayor gasto per cápita.", "isCorrect": false },
+      { "letter": "B", "text": "Intervenir intensivamente en los grupos 2 y 3 para evitar la progresión a complicaciones y enfermedad catastrófica.", "isCorrect": true },
+      { "letter": "C", "text": "Eliminar las coberturas del grupo 1 porque son personas sanas que no requieren atención.", "isCorrect": false },
+      { "letter": "D", "text": "Limitar la atención del grupo 4 para reducir costos inmediatos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "La salud ambiental incluye la vigilancia y control de la calidad del aire. El Sistema de Vigilancia de Calidad del Aire (SVCA) de una ciudad capital reporta que las concentraciones de material particulado PM2.5 han superado la norma diaria (37 μg/m³ según Resolución 2254 de 2017) en 45 de los últimos 90 días, alcanzando picos de hasta 82 μg/m³. Las estaciones más afectadas están en zonas industriales y de alto tráfico vehicular.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la implicación para la salud pública y qué acciones intersectoriales se requieren?",
+    "explanation": "La exposición crónica a PM2.5 por encima de los límites normativos se asocia con aumento de enfermedades respiratorias (EPOC, asma), cardiovasculares (infarto, ACV) y cáncer de pulmón. Que la norma se supere en el 50 % de los días es una situación crítica que requiere acciones intersectoriales: restricción de fuentes de emisión (industria, vehículos), alertas epidemiológicas para grupos vulnerables (niños, adultos mayores, pacientes respiratorios), monitoreo de consultas por enfermedad respiratoria y vigilancia epidemiológica de efectos en salud a mediano y largo plazo.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "No hay implicación porque la calidad del aire es un tema exclusivamente ambiental sin relación con la salud.", "isCorrect": false },
+      { "letter": "B", "text": "Riesgo aumentado de enfermedades respiratorias y cardiovasculares; se requieren acciones intersectoriales de control de emisiones, alertas y vigilancia epidemiológica.", "isCorrect": true },
+      { "letter": "C", "text": "Solo se requiere distribuir tapabocas a la población sin otras acciones.", "isCorrect": false },
+      { "letter": "D", "text": "El problema se resuelve reubicando las estaciones de monitoreo a zonas con mejor calidad de aire.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": "Las enfermedades no transmisibles (ENT) representan la mayor carga de enfermedad en Colombia. El ASIS de un departamento muestra las siguientes tasas ajustadas de mortalidad por ENT:\n\n• Enfermedades isquémicas del corazón: 78,3 por 100.000 hab.\n• Enfermedades cerebrovasculares: 35,2 por 100.000 hab.\n• Diabetes mellitus: 18,6 por 100.000 hab.\n• EPOC: 24,8 por 100.000 hab.\n• Cáncer de estómago: 14,2 por 100.000 hab.\n• Cáncer de mama: 12,1 por 100.000 hab.\n\nFactores de riesgo prevalentes en la población adulta:\n• Sedentarismo: 62 %\n• Consumo de tabaco: 18 %\n• Consumo nocivo de alcohol: 24 %\n• Alimentación no saludable (bajo consumo de frutas y verduras): 71 %\n• Hipertensión arterial: 32 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Considerando que las ENT comparten factores de riesgo comunes, ¿cuál estrategia poblacional tendría el mayor impacto en la reducción de la mortalidad?",
+    "explanation": "Las ENT (cardiovasculares, cáncer, diabetes, EPOC) comparten cuatro factores de riesgo principales: tabaquismo, consumo nocivo de alcohol, alimentación no saludable e inactividad física. Abordar estos factores de riesgo comunes a nivel poblacional (no solo individual) tiene el mayor impacto porque: afecta a múltiples enfermedades simultáneamente, alcanza a una proporción mayor de la población y genera cambios sostenibles. Las intervenciones poblacionales incluyen: regulación (impuestos al tabaco y bebidas azucaradas, restricción de publicidad), ambientes saludables (ciclovías, espacios públicos) y educación masiva.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Tamizaje masivo de cáncer de estómago a toda la población.", "isCorrect": false },
+      { "letter": "B", "text": "Abordaje integral de los factores de riesgo comunes (tabaco, alcohol, alimentación, sedentarismo) mediante intervenciones poblacionales y regulatorias.", "isCorrect": true },
+      { "letter": "C", "text": "Prescribir estatinas a toda la población mayor de 40 años.", "isCorrect": false },
+      { "letter": "D", "text": "Tratar únicamente las enfermedades isquémicas del corazón por ser la primera causa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "La Ley 1616 de 2013 (artículo 29) establece que los niños, niñas y adolescentes gozan de especial protección en materia de salud mental. El artículo 30 señala que las instituciones educativas deben contar con profesional en psicología o psicoorientación, y desarrollar acciones de promoción de la salud mental y detección temprana de problemas y trastornos mentales.\n\nUn colegio público con 1.200 estudiantes en un municipio del departamento de Bolívar no cuenta con profesional de orientación escolar. Los docentes reportan que en el último año se han presentado 8 casos de autolesiones (cutting) en estudiantes de secundaria.\n\n(Datos ficticios — Redacción Study2One, con referencia a la Ley 1616 de 2013)",
+    "questionText": "Según la Ley 1616 de 2013, ¿cuáles son las obligaciones del sector educativo y del sector salud frente a esta situación?",
+    "explanation": "La Ley 1616 de 2013 establece responsabilidades compartidas: el sector educativo debe contar con psicoorientadores, desarrollar programas de promoción de la salud mental, detectar tempranamente y activar las rutas de atención (Ruta de Atención Integral — RAI de la Ley 1620 de 2013). El sector salud debe garantizar la atención integral a los estudiantes identificados, articularse con el sector educativo para la prevención y ofrecer acompañamiento técnico. Ambos sectores deben trabajar intersectorialmente. No es exclusivamente responsabilidad de uno u otro.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Educación debe garantizar psicoorientación y detección temprana; salud debe garantizar atención integral; ambos sectores deben articularse intersectorialmente.", "isCorrect": true },
+      { "letter": "B", "text": "Es responsabilidad exclusiva del sector educativo porque los casos ocurren en el colegio.", "isCorrect": false },
+      { "letter": "C", "text": "Es responsabilidad exclusiva de las familias y ningún sector institucional debe intervenir.", "isCorrect": false },
+      { "letter": "D", "text": "El sector salud solo interviene si los estudiantes presentan intento de suicidio consumado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": "Un municipio del departamento de La Guajira está evaluando los indicadores de gestión de su hospital de primer nivel para la rendición de cuentas. Los datos del último año son:\n\n• Consultas de medicina general realizadas: 18.400\n• Población asignada: 25.000 personas\n• Consultas de control prenatal realizadas: 820\n• Gestantes esperadas (según nacimientos del año anterior): 480\n• Promedio de controles prenatales por gestante: 3,2 (meta OMS: ≥8)\n• Partos atendidos en la institución: 380\n• Partos domiciliarios reportados: 95\n• Referencia oportuna de gestantes de alto riesgo: 78 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Analizando integralmente los indicadores de gestión materno-perinatal, ¿cuál es la principal debilidad identificada?",
+    "explanation": "El análisis integral revela que el promedio de controles prenatales por gestante es de solo 3,2 (vs. meta OMS ≥8), lo que indica una baja concentración del control prenatal. Esto significa que aunque las gestantes acceden al control, no completan el número mínimo de controles necesarios para un seguimiento adecuado. Además, el 20 % de los partos son domiciliarios (95 de 475 totales), lo que sugiere barreras de acceso geográfico o cultural. La referencia oportuna del 78 % también está por debajo de lo ideal. La debilidad principal es la baja adherencia al control prenatal completo, que impide la detección oportuna de complicaciones.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "El número total de consultas de medicina general es insuficiente.", "isCorrect": false },
+      { "letter": "B", "text": "La baja concentración del control prenatal (3,2 vs. ≥8 recomendados) limita la detección oportuna de complicaciones.", "isCorrect": true },
+      { "letter": "C", "text": "Los indicadores son óptimos y no requieren acciones de mejoramiento.", "isCorrect": false },
+      { "letter": "D", "text": "La principal debilidad es el exceso de partos institucionales.", "isCorrect": false }
+    ]
+  }
+]

@@ -47,19 +47,20 @@ export async function POST(
       },
     });
 
+    // Update lastActivityDate without incrementing streak
+    // (streak is incremented only by quiz submission to avoid double-counting)
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
     await prisma.streak.upsert({
       where: { studentId: session.user.id },
       update: {
-        currentStreak: { increment: 1 },
         lastActivityDate: today,
       },
       create: {
         studentId: session.user.id,
-        currentStreak: 1,
-        longestStreak: 1,
+        currentStreak: 0,
+        longestStreak: 0,
         lastActivityDate: today,
       },
     });

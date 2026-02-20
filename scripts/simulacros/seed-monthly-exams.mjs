@@ -170,6 +170,14 @@ async function seedExam(examDef) {
     if (existingQuestions.length > 0) {
       const questionIds = existingQuestions.map((q) => q.id);
 
+      // Delete research tracking records first
+      await prisma.examAnswerEvent.deleteMany({
+        where: { questionId: { in: questionIds } },
+      });
+      await prisma.examQuestionView.deleteMany({
+        where: { questionId: { in: questionIds } },
+      });
+
       // Delete answers that reference these questions
       await prisma.examSectionAnswer.deleteMany({
         where: { questionId: { in: questionIds } },

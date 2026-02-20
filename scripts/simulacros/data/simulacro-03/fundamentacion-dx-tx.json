@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Caso clínico: Hombre de 72 años con antecedentes de hipertensión arterial y diabetes mellitus tipo 2 es llevado a urgencias por su familia por presentar vómito y diarrea profusos desde hace 3 días. Refiere disminución marcada de la ingesta de líquidos. Al examen físico se encuentra taquicárdico (FC 110 lpm), hipotenso (PA 85/55 mmHg), mucosas secas, signo del pliegue positivo y oliguria (diuresis de 150 mL en las últimas 12 horas). Los laboratorios muestran BUN 48 mg/dL, creatinina 3,8 mg/dL (basal 1,1 mg/dL), relación BUN/creatinina >20, sodio urinario <20 mEq/L y fracción excretada de sodio (FeNa) 0,5 %.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La combinación de deshidratación severa (vómito, diarrea, mucosas secas, signo del pliegue), hipotensión, oliguria y laboratorios con relación BUN/creatinina >20, sodio urinario bajo (<20 mEq/L) y FeNa <1 % es característica de una lesión renal aguda (LRA) prerrenal por hipovolemia. La necrosis tubular aguda tendría FeNa >2 % y sodio urinario >40 mEq/L. La glomerulonefritis rápidamente progresiva se presenta con hematuria, proteinuria y cilindros eritrocitarios. La obstrucción urinaria (posrenal) se descarta con ecografía sin hidronefrosis.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Necrosis tubular aguda", "isCorrect": false },
+      { "letter": "B", "text": "Lesión renal aguda prerrenal por deshidratación", "isCorrect": true },
+      { "letter": "C", "text": "Glomerulonefritis rápidamente progresiva", "isCorrect": false },
+      { "letter": "D", "text": "Uropatía obstructiva bilateral", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta terapéutica inicial más apropiada para este paciente?",
+    "explanation": "En la LRA prerrenal por deshidratación, el tratamiento fundamental es la reposición agresiva de volumen con cristaloides isotónicos (solución salina 0,9 % o Lactato de Ringer) para restaurar la perfusión renal. Los diuréticos están contraindicados porque empeorarían la hipovolemia. La diálisis de urgencia no está indicada si la causa es reversible con hidratación. Los vasopresores sin reposición hídrica previa son inadecuados en hipovolemia pura.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Iniciar furosemida intravenosa para forzar diuresis", "isCorrect": false },
+      { "letter": "B", "text": "Hemodiálisis de urgencia", "isCorrect": false },
+      { "letter": "C", "text": "Reposición agresiva de volumen con cristaloides isotónicos y monitorización de diuresis", "isCorrect": true },
+      { "letter": "D", "text": "Iniciar norepinefrina sin reposición hídrica", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "¿Cuál de los siguientes hallazgos indicaría que la lesión renal ha progresado a necrosis tubular aguda?",
+    "explanation": "La necrosis tubular aguda (NTA) se caracteriza por FeNa >2 %, sodio urinario >40 mEq/L, cilindros granulosos «marrones lodosos» en el sedimento urinario y osmolaridad urinaria <350 mOsm/kg. Un FeNa <1 % indica causa prerrenal (preservación de la reabsorción tubular). La relación BUN/creatinina <15 sugiere causa renal intrínseca. La presencia de cilindros eritrocitarios apunta a glomerulonefritis, no a NTA.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "FeNa <1 % con sodio urinario <20 mEq/L", "isCorrect": false },
+      { "letter": "B", "text": "Cilindros eritrocitarios en el sedimento urinario", "isCorrect": false },
+      { "letter": "C", "text": "FeNa >2 %, sodio urinario >40 mEq/L y cilindros granulosos en sedimento", "isCorrect": true },
+      { "letter": "D", "text": "Proteinuria masiva con hipoalbuminemia", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Caso clínico: Mujer de 28 años consulta por dolor abdominal tipo cólico en fosa ilíaca derecha y región periumbilical de 6 meses de evolución, acompañado de diarrea no sanguinolenta (4-6 deposiciones/día), pérdida de peso de 8 kg, fiebre intermitente y fisura perianal recurrente. Al examen físico se palpa masa dolorosa en fosa ilíaca derecha. Los laboratorios muestran anemia (Hb 10,2 g/dL), PCR 85 mg/L y velocidad de sedimentación globular (VSG) 62 mm/h. La colonoscopia revela úlceras aftosas profundas y lineales con patrón en «empedrado» en íleon terminal, con segmentos de mucosa sana intercalados.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El cuadro de dolor en fosa ilíaca derecha, diarrea crónica, pérdida de peso, fisura perianal recurrente, masa palpable en fosa ilíaca derecha, elevación de reactantes inflamatorios y colonoscopia con úlceras aftosas profundas, patrón en empedrado y distribución salteada (skip lesions) en íleon terminal es clásico de enfermedad de Crohn. La colitis ulcerativa afecta solo colon y recto de forma continua, sin íleon terminal ni lesiones perianales típicas. El síndrome de intestino irritable no produce inflamación ni pérdida de peso. La tuberculosis intestinal es un diferencial válido pero la presentación colonoscópica típica es de Crohn.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Colitis ulcerativa", "isCorrect": false },
+      { "letter": "B", "text": "Enfermedad de Crohn ileocecal", "isCorrect": true },
+      { "letter": "C", "text": "Síndrome de intestino irritable", "isCorrect": false },
+      { "letter": "D", "text": "Tuberculosis intestinal", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento de primera línea más apropiado para inducir la remisión en esta paciente?",
+    "explanation": "Para la enfermedad de Crohn con actividad moderada a severa (anemia, PCR elevada, masa palpable), el tratamiento de inducción de primera línea son los corticosteroides sistémicos (prednisona o budesonida según localización). La mesalazina tiene eficacia limitada en Crohn ileal. Los biológicos anti-TNF (infliximab, adalimumab) se reservan para enfermedad refractaria a corticosteroides o como estrategia «top-down» en casos seleccionados. La cirugía se considera cuando hay complicaciones (estenosis, fístulas, abscesos) o refractariedad al tratamiento médico.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Mesalazina oral a dosis altas", "isCorrect": false },
+      { "letter": "B", "text": "Corticosteroides sistémicos (prednisona) para inducción de remisión", "isCorrect": true },
+      { "letter": "C", "text": "Resección quirúrgica ileocecal inmediata", "isCorrect": false },
+      { "letter": "D", "text": "Antibióticos de amplio espectro por 6 semanas", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "Una vez alcanzada la remisión, ¿cuál es el fármaco más adecuado para el mantenimiento a largo plazo?",
+    "explanation": "Para el mantenimiento de la remisión en enfermedad de Crohn, los inmunomoduladores como la azatioprina o la 6-mercaptopurina son el pilar terapéutico, ya que permiten reducir y suspender los corticosteroides. Los corticosteroides no deben usarse como terapia de mantenimiento por sus efectos adversos a largo plazo (osteoporosis, diabetes, infecciones). La mesalazina no ha demostrado eficacia significativa para mantenimiento en Crohn. Los antidiarreicos solo manejan síntomas sin modificar la enfermedad.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Prednisona a dosis bajas indefinidamente", "isCorrect": false },
+      { "letter": "B", "text": "Loperamida como monoterapia", "isCorrect": false },
+      { "letter": "C", "text": "Azatioprina o 6-mercaptopurina como inmunomodulador", "isCorrect": true },
+      { "letter": "D", "text": "Mesalazina oral a dosis de mantenimiento", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Caso clínico: Mujer de 31 años, primigestante de 26 semanas, es remitida a consulta de alto riesgo obstétrico por una glucemia en ayunas de 98 mg/dL encontrada en control prenatal. Se realiza prueba de tolerancia oral a la glucosa con 75 g (PTOG 75 g) con los siguientes resultados: ayunas 95 mg/dL, 1 hora 190 mg/dL, 2 horas 162 mg/dL. Tiene antecedente familiar de diabetes mellitus tipo 2 (madre) e índice de masa corporal pregestacional de 32 kg/m².\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Según los criterios de la IADPSG/OMS, ¿cuál es el diagnóstico?",
+    "explanation": "Los criterios IADPSG/OMS para diabetes gestacional con PTOG 75 g requieren uno o más valores alterados: ayunas ≥92 mg/dL, 1 hora ≥180 mg/dL o 2 horas ≥153 mg/dL. Esta paciente supera los tres valores de corte, confirmando diabetes mellitus gestacional. La intolerancia a la glucosa gestacional no es una categoría separada con estos criterios. Una glucemia en ayunas aislada de 98 mg/dL no configura diabetes pregestacional si no cumple criterios de diabetes franca (ayunas ≥126 mg/dL o HbA1c ≥6,5 %). El resultado no es normal pues supera los umbrales diagnósticos.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Resultado normal, sin alteración glucémica", "isCorrect": false },
+      { "letter": "B", "text": "Diabetes mellitus gestacional", "isCorrect": true },
+      { "letter": "C", "text": "Diabetes mellitus tipo 2 pregestacional", "isCorrect": false },
+      { "letter": "D", "text": "Intolerancia a la glucosa no clasificada", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "¿Cuál es el manejo inicial más apropiado para esta paciente?",
+    "explanation": "El manejo inicial de la diabetes gestacional incluye terapia médica nutricional (dieta fraccionada con restricción de carbohidratos simples), actividad física regular adaptada al embarazo y automonitoreo glucémico (ayunas <95 mg/dL, 1 hora postprandial <140 mg/dL). La insulina se inicia si después de 1-2 semanas de dieta y ejercicio no se logran las metas glucémicas. La metformina es una alternativa aceptable pero no es la primera línea universal. Las sulfonilureas no se recomiendan en embarazo por riesgo de hipoglucemia neonatal.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Iniciar insulina NPH de inmediato", "isCorrect": false },
+      { "letter": "B", "text": "Terapia médica nutricional, ejercicio regular y automonitoreo glucémico", "isCorrect": true },
+      { "letter": "C", "text": "Glibenclamida oral con control mensual", "isCorrect": false },
+      { "letter": "D", "text": "Observación sin intervención hasta el tercer trimestre", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "Después de 2 semanas de dieta y ejercicio, la paciente presenta glucemias en ayunas de 105 mg/dL y postprandiales de 160 mg/dL. ¿Cuál es el siguiente paso terapéutico?",
+    "explanation": "Cuando la terapia nutricional y el ejercicio no logran las metas glucémicas (ayunas <95 mg/dL, 1 h postprandial <140 mg/dL) después de 1-2 semanas, se debe iniciar insulina, que es el tratamiento farmacológico de primera línea en diabetes gestacional. La insulina no cruza la placenta y permite un control glucémico preciso. Duplicar la restricción calórica puede ser perjudicial para el crecimiento fetal. La metformina es alternativa aceptable pero la insulina sigue siendo la primera opción. Continuar solo con dieta con valores tan elevados expone al feto a macrosomía y complicaciones.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Continuar con dieta y ejercicio por 2 semanas más", "isCorrect": false },
+      { "letter": "B", "text": "Iniciar insulinoterapia (basal y/o prandial) ajustada a los valores glucémicos", "isCorrect": true },
+      { "letter": "C", "text": "Duplicar la restricción calórica diaria", "isCorrect": false },
+      { "letter": "D", "text": "Programar cesárea electiva a las 34 semanas", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Caso clínico: Hombre de 68 años es traído por su esposa porque desde hace aproximadamente 2 años presenta temblor en la mano derecha en reposo que desaparece al realizar movimientos voluntarios. Refiere que camina cada vez más lento, ha tenido varias caídas y tiene dificultad para abotonarse la camisa. La esposa nota que su rostro es «inexpresivo». Al examen neurológico se encuentra temblor de reposo tipo «cuenta monedas» en mano derecha, rigidez en rueda dentada en extremidades superiores, bradicinesia marcada y marcha con pasos cortos y arrastre de pies.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico clínico más probable?",
+    "explanation": "La tríada clásica de temblor de reposo asimétrico (tipo «cuenta monedas»), rigidez en rueda dentada y bradicinesia, acompañada de hipomimia facial y marcha parkinsoniana (pasos cortos, festinante), en un paciente de 68 años, es característica de la enfermedad de Parkinson idiopática. El temblor esencial es bilateral, de acción (no de reposo) y sin rigidez ni bradicinesia. La parálisis supranuclear progresiva presenta parálisis de la mirada vertical y caídas tempranas hacia atrás. La enfermedad de Huntington cursa con movimientos coreicos, no temblor de reposo.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Temblor esencial", "isCorrect": false },
+      { "letter": "B", "text": "Enfermedad de Parkinson idiopática", "isCorrect": true },
+      { "letter": "C", "text": "Parálisis supranuclear progresiva", "isCorrect": false },
+      { "letter": "D", "text": "Enfermedad de Huntington", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "¿Cuál es el fármaco de primera línea para el control de los síntomas motores en este paciente?",
+    "explanation": "La levodopa/carbidopa es el fármaco más eficaz para el control de los síntomas motores de la enfermedad de Parkinson y se considera el tratamiento de primera línea, especialmente en pacientes mayores de 65 años o con compromiso funcional significativo. Los agonistas dopaminérgicos (pramipexol, ropinirol) pueden usarse como monoterapia inicial en pacientes jóvenes para retrasar las complicaciones motoras de la levodopa. Los anticolinérgicos (biperideno) tienen un rol limitado y más efectos adversos en ancianos. Los IMAO-B (selegilina) tienen efecto modesto como monoterapia.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Biperideno (anticolinérgico)", "isCorrect": false },
+      { "letter": "B", "text": "Selegilina (IMAO-B) como monoterapia", "isCorrect": false },
+      { "letter": "C", "text": "Levodopa/carbidopa", "isCorrect": true },
+      { "letter": "D", "text": "Haloperidol a dosis bajas", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "Después de 5 años de tratamiento con levodopa, el paciente presenta episodios de movimientos involuntarios excesivos (discinesias) y periodos de inmovilidad súbita (fenómeno «on-off»). ¿Cuál es la estrategia de manejo más apropiada?",
+    "explanation": "Las fluctuaciones motoras (fenómeno on-off) y las discinesias son complicaciones a largo plazo del tratamiento con levodopa. El manejo incluye fraccionar la dosis de levodopa (dosis más pequeñas y frecuentes), agregar un inhibidor de la COMT (entacapona) para prolongar la vida media de la levodopa, o agregar un agonista dopaminérgico. Aumentar la dosis de levodopa empeoraría las discinesias. Suspender abruptamente la levodopa puede causar síndrome neuroléptico maligno. Los antipsicóticos típicos (haloperidol) bloquean los receptores dopaminérgicos y empeoran los síntomas motores.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Duplicar la dosis de levodopa", "isCorrect": false },
+      { "letter": "B", "text": "Fraccionar la levodopa y agregar un inhibidor de la COMT (entacapona)", "isCorrect": true },
+      { "letter": "C", "text": "Suspender toda la medicación dopaminérgica", "isCorrect": false },
+      { "letter": "D", "text": "Agregar haloperidol para las discinesias", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Caso clínico: Hombre de 34 años, trabajador agrícola en zona rural del Chocó, consulta por fiebre alta de 40 °C con escalofríos intensos y diaforesis profusa de 5 días de evolución, con patrón cíclico cada 48 horas. Refiere cefalea severa, mialgias generalizadas, vómito y dolor abdominal. Al examen físico se encuentra ictérico, con hepatoesplenomegalia y palidez conjuntival. Los laboratorios muestran Hb 8,5 g/dL, plaquetas 45.000/μL, bilirrubina total 4,2 mg/dL, creatinina 2,1 mg/dL. El extendido de sangre periférica (gota gruesa) muestra trofozoítos en forma de anillo con parasitemia del 8 % y presencia de gametocitos en forma de banana.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico etiológico más probable?",
+    "explanation": "La fiebre cíclica cada 48 horas en un paciente de zona endémica (Chocó, Colombia), con gota gruesa positiva mostrando parasitemia elevada (8 %) y gametocitos en forma de banana (media luna), es patognomónico de malaria por Plasmodium falciparum. Los gametocitos en forma de banana son exclusivos de P. falciparum. P. vivax produce gametocitos redondos y rara vez causa parasitemia tan elevada ni complicaciones orgánicas. El dengue no muestra parásitos intraeritrocitarios. La leptospirosis no presenta hallazgos en gota gruesa.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Malaria por Plasmodium vivax", "isCorrect": false },
+      { "letter": "B", "text": "Malaria por Plasmodium falciparum", "isCorrect": true },
+      { "letter": "C", "text": "Dengue con signos de alarma", "isCorrect": false },
+      { "letter": "D", "text": "Leptospirosis ictérica", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "Considerando que se trata de malaria complicada (anemia severa, ictericia, compromiso renal, parasitemia >5 %), ¿cuál es el tratamiento de primera línea?",
+    "explanation": "En malaria complicada por P. falciparum, el tratamiento de primera línea es artesunato intravenoso, que ha demostrado superioridad sobre la quinina IV en reducción de mortalidad (estudios SEAQUAMAT y AQUAMAT). La cloroquina no es efectiva contra P. falciparum por resistencia amplia. La quinina IV es alternativa si no hay disponibilidad de artesunato, pero tiene más efectos adversos. La primaquina oral es un esquizonticida tisular usado para P. vivax (hipnozoítos), no para malaria complicada aguda.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Cloroquina oral a dosis estándar", "isCorrect": false },
+      { "letter": "B", "text": "Artesunato intravenoso", "isCorrect": true },
+      { "letter": "C", "text": "Primaquina oral por 14 días", "isCorrect": false },
+      { "letter": "D", "text": "Doxiciclina oral como monoterapia", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "Una vez completado el tratamiento con artesunato IV y mejoría clínica, ¿cuál es el paso siguiente más apropiado?",
+    "explanation": "Después de completar artesunato IV (mínimo 24 horas y al menos 3 dosis), cuando el paciente tolera vía oral y la parasitemia ha disminuido, se debe completar un ciclo con una terapia combinada basada en artemisinina oral (ACT), como arteméter-lumefantrina, para erradicar completamente la infección. Suspender todo tratamiento antipalúdico prematuramente lleva a recrudescencia. No se necesita primaquina para P. falciparum (no forma hipnozoítos). Continuar artesunato IV indefinidamente no es necesario ni recomendado.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Suspender todo tratamiento antipalúdico y observar", "isCorrect": false },
+      { "letter": "B", "text": "Completar tratamiento oral con arteméter-lumefantrina (ACT)", "isCorrect": true },
+      { "letter": "C", "text": "Continuar artesunato IV por 14 días más", "isCorrect": false },
+      { "letter": "D", "text": "Iniciar primaquina oral por 14 días", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Caso clínico: Hombre de 22 años, delgado (IMC 19 kg/m²), fumador de 5 cigarrillos/día, consulta a urgencias por dolor torácico derecho de inicio súbito hace 2 horas, de tipo pleurítico (aumenta con la inspiración profunda), acompañado de disnea progresiva. Niega trauma. Al examen físico se encuentra taquipneico (FR 24 rpm), con disminución del murmullo vesicular en hemitórax derecho, timpanismo a la percusión en el mismo lado y desviación traqueal ausente. La radiografía de tórax muestra colapso pulmonar del 35 % en el lado derecho con línea pleural visible.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Un hombre joven, delgado, fumador, con dolor pleurítico súbito, disnea, disminución del murmullo vesicular unilateral, timpanismo a la percusión y radiografía con colapso pulmonar y línea pleural visible es el cuadro clásico de neumotórax espontáneo primario. El tromboembolismo pulmonar no produce timpanismo ni colapso visible en la radiografía. La neumonía presenta fiebre, tos productiva y consolidación radiológica. El derrame pleural produce matidez a la percusión, no timpanismo.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Tromboembolismo pulmonar", "isCorrect": false },
+      { "letter": "B", "text": "Neumotórax espontáneo primario", "isCorrect": true },
+      { "letter": "C", "text": "Neumonía adquirida en la comunidad", "isCorrect": false },
+      { "letter": "D", "text": "Derrame pleural derecho", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "Considerando un colapso pulmonar del 35 % en un paciente sintomático con su primer episodio, ¿cuál es el manejo más apropiado?",
+    "explanation": "En un primer episodio de neumotórax espontáneo primario grande (>15-20 % o >3 cm del ápex al borde pulmonar) con paciente sintomático, el manejo recomendado es la aspiración simple con catéter o la colocación de un tubo de toracostomía con sello de agua. Las guías BTS permiten intentar aspiración simple como primera medida; si falla, se coloca tubo de tórax. La observación con oxígeno se reserva para neumotórax pequeños (<15 %) en pacientes asintomáticos. La toracotomía es para casos recurrentes o complicados. El tratamiento conservador con oxígeno suplementario no es suficiente para un colapso del 35 % con disnea.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Observación con oxígeno suplementario por 24 horas", "isCorrect": false },
+      { "letter": "B", "text": "Aspiración simple o tubo de toracostomía con sello de agua", "isCorrect": true },
+      { "letter": "C", "text": "Toracotomía de urgencia con pleurectomía", "isCorrect": false },
+      { "letter": "D", "text": "Ventilación mecánica invasiva inmediata", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "Seis meses después, el paciente presenta un segundo episodio de neumotórax espontáneo del mismo lado. ¿Cuál es la conducta más apropiada?",
+    "explanation": "Ante un segundo episodio ipsilateral de neumotórax espontáneo primario, la indicación es cirugía torácica videoasistida (VATS) con bullectomía y pleurodesis (mecánica o química) para prevenir recurrencias, ya que la tasa de recurrencia después del segundo episodio supera el 50 %. La aspiración simple tiene alta tasa de fallo en episodios recurrentes. La observación no es apropiada en recurrencia. El manejo conservatorio no reduce el riesgo de futuros episodios.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Nueva aspiración simple y seguimiento ambulatorio", "isCorrect": false },
+      { "letter": "B", "text": "Cirugía torácica videoasistida (VATS) con bullectomía y pleurodesis", "isCorrect": true },
+      { "letter": "C", "text": "Observación con restricción de actividad física por 3 meses", "isCorrect": false },
+      { "letter": "D", "text": "Tubo de toracostomía permanente", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Caso clínico: Mujer de 42 años consulta por debilidad facial derecha de inicio agudo hace 24 horas. Al despertar notó que no podía cerrar el ojo derecho, tenía la comisura labial desviada hacia la izquierda y dificultad para inflar las mejillas. Refiere hiperacusia en oído derecho y disminución del gusto en los dos tercios anteriores de la lengua del mismo lado. Niega cefalea, déficit motor en extremidades, alteración del habla o cambios en la visión. El examen neurológico muestra parálisis facial periférica derecha completa (frente, ojo y boca) con fuerza 5/5 en las 4 extremidades, sensibilidad normal y pares craneales restantes sin alteración.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "La parálisis facial periférica aguda unilateral que compromete tanto la frente como la porción inferior de la cara (imposibilidad de arrugar la frente, cerrar el ojo y mover la comisura labial), acompañada de hiperacusia y disgeusia ipsilateral, sin otros déficits neurológicos, es característica de la parálisis de Bell (parálisis facial idiopática). Un ACV produce parálisis facial central que respeta la frente (solo compromiso inferior contralateral). El síndrome de Ramsay Hunt presenta vesículas herpéticas en el pabellón auricular. El neurinoma del acústico produce hipoacusia neurosensorial progresiva, no parálisis facial aguda.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Accidente cerebrovascular isquémico", "isCorrect": false },
+      { "letter": "B", "text": "Parálisis de Bell (parálisis facial periférica idiopática)", "isCorrect": true },
+      { "letter": "C", "text": "Síndrome de Ramsay Hunt", "isCorrect": false },
+      { "letter": "D", "text": "Neurinoma del acústico", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento más apropiado para esta paciente en las primeras 72 horas?",
+    "explanation": "El tratamiento de la parálisis de Bell dentro de las primeras 72 horas incluye corticosteroides orales (prednisona 1 mg/kg/día por 7-10 días), que han demostrado mejorar la tasa de recuperación completa. La protección ocular (lágrimas artificiales, oclusión nocturna) es esencial para prevenir queratitis por exposición. El aciclovir combinado con prednisona es controvertido; la evidencia no demuestra beneficio claro del antiviral solo, pero algunos guías sugieren combinación en parálisis severas. La descompresión quirúrgica del nervio facial no tiene indicación de rutina. La fisioterapia facial es útil en la fase de recuperación, no como tratamiento agudo aislado.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Descompresión quirúrgica del nervio facial", "isCorrect": false },
+      { "letter": "B", "text": "Prednisona oral por 7-10 días y protección ocular", "isCorrect": true },
+      { "letter": "C", "text": "Solo fisioterapia facial sin medicamentos", "isCorrect": false },
+      { "letter": "D", "text": "Antibióticos intravenosos por 14 días", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Caso clínico: Mujer de 24 años consulta a urgencias por dolor abdominal intenso en fosa ilíaca derecha de inicio súbito hace 6 horas, acompañado de náuseas y múltiples episodios de vómito. Refiere que el dolor la despertó y ha ido empeorando progresivamente. Tiene antecedente de quiste ovárico derecho diagnosticado hace 3 meses (6 cm, seguimiento ecográfico pendiente). Su última menstruación fue hace 14 días. Al examen físico se encuentra taquicárdica (FC 105 lpm), con abdomen con defensa en fosa ilíaca derecha, signo de Blumberg negativo y dolor intenso a la palpación del anexo derecho en el examen bimanual. La prueba de embarazo en orina es negativa. La ecografía transvaginal muestra ovario derecho aumentado de tamaño (8 cm) con ausencia de flujo en la arteria ovárica al Doppler.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Dolor abdominal agudo en fosa ilíaca derecha en una mujer joven con antecedente de quiste ovárico, acompañado de náuseas, vómito, taquicardia y ecografía que muestra ovario aumentado de tamaño con ausencia de flujo al Doppler es el cuadro clásico de torsión ovárica. La apendicitis aguda no explica la ausencia de flujo ovárico ni el antecedente de quiste. El embarazo ectópico roto se descarta con prueba de embarazo negativa. La ruptura de quiste ovárico produce dolor súbito pero con flujo Doppler normal y líquido libre en fondo de saco.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Apendicitis aguda", "isCorrect": false },
+      { "letter": "B", "text": "Torsión ovárica derecha", "isCorrect": true },
+      { "letter": "C", "text": "Embarazo ectópico roto", "isCorrect": false },
+      { "letter": "D", "text": "Ruptura de quiste ovárico", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "¿Cuál es la conducta terapéutica más apropiada?",
+    "explanation": "La torsión ovárica es una emergencia quirúrgica que requiere intervención inmediata para preservar la viabilidad del ovario. La laparoscopia urgente con destorsión del pedículo ovárico es el tratamiento de elección, especialmente en mujeres en edad reproductiva. Si el ovario está necrótico e irrecuperable, se realiza ooforectomía. La observación con analgésicos lleva a necrosis ovárica irreversible. El tratamiento antibiótico no está indicado como manejo primario. La punción guiada por ecografía no resuelve la torsión del pedículo vascular.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Observación con analgésicos y control ecográfico en 24 horas", "isCorrect": false },
+      { "letter": "B", "text": "Laparoscopia urgente con destorsión del pedículo ovárico", "isCorrect": true },
+      { "letter": "C", "text": "Antibióticos intravenosos y manejo conservador", "isCorrect": false },
+      { "letter": "D", "text": "Punción ovárica guiada por ecografía", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Caso clínico: Niño de 8 años, de origen afrocolombiano, es llevado a urgencias por dolor óseo severo en ambas tibias y fémures de 24 horas de evolución, acompañado de fiebre de 38,8 °C. Los padres refieren que ha tenido episodios similares previos que se han manejado con analgésicos. Tiene antecedente de ictericia neonatal prolongada y esplenomegalia crónica. Al examen físico se encuentra pálido, ictérico, con esplenomegalia de 4 cm bajo el reborde costal y dolor intenso a la palpación de huesos largos sin eritema ni calor local. Los laboratorios muestran Hb 7,2 g/dL, reticulocitos 12 %, bilirrubina indirecta 3,8 mg/dL, LDH 580 U/L. El frotis de sangre periférica muestra eritrocitos falciformes (drepanocitos).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Un niño afrocolombiano con dolor óseo severo recurrente (crisis vasooclusiva), anemia hemolítica crónica (Hb baja, reticulocitos elevados, bilirrubina indirecta alta, LDH elevada), esplenomegalia, ictericia neonatal y drepanocitos en el frotis configura el diagnóstico de crisis vasooclusiva en enfermedad de células falciformes (anemia drepanocítica). La osteomielitis multifocal produciría eritema, calor local y fiebre más prolongada. La leucemia linfoblástica aguda puede causar dolor óseo pero presenta blastos en sangre periférica. La talasemia mayor produce anemia hemolítica pero no crisis vasooclusivas típicas ni drepanocitos.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Osteomielitis multifocal", "isCorrect": false },
+      { "letter": "B", "text": "Crisis vasooclusiva por enfermedad de células falciformes", "isCorrect": true },
+      { "letter": "C", "text": "Leucemia linfoblástica aguda", "isCorrect": false },
+      { "letter": "D", "text": "Talasemia mayor", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "¿Cuál es el manejo más apropiado de la crisis vasooclusiva?",
+    "explanation": "El manejo de la crisis vasooclusiva en enfermedad de células falciformes se basa en tres pilares: hidratación intravenosa vigorosa (para disminuir la viscosidad sanguínea y la falciformación), analgesia multimodal (incluyendo opioides si el dolor es severo) y oxígeno suplementario si hay hipoxemia. La transfusión sanguínea se reserva para Hb <5 g/dL, síndrome torácico agudo, secuestro esplénico o crisis aplásica, no para crisis vasooclusiva simple. Los antibióticos profilácticos (penicilina) son parte del manejo crónico, no del agudo. La esplenectomía no está indicada en crisis vasooclusiva.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Transfusión de concentrado globular inmediata", "isCorrect": false },
+      { "letter": "B", "text": "Hidratación IV vigorosa, analgesia multimodal (incluidos opioides) y oxígeno suplementario", "isCorrect": true },
+      { "letter": "C", "text": "Esplenectomía de urgencia", "isCorrect": false },
+      { "letter": "D", "text": "Solo AINEs orales y reposo domiciliario", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "¿Cuál es el fármaco que ha demostrado reducir la frecuencia de las crisis vasooclusivas como terapia de mantenimiento?",
+    "explanation": "La hidroxiurea es el fármaco que ha demostrado en múltiples estudios (MSH, BABY HUG) reducir significativamente la frecuencia de las crisis vasooclusivas, el síndrome torácico agudo y la necesidad de transfusiones en pacientes con enfermedad de células falciformes. Actúa aumentando la producción de hemoglobina fetal (HbF), que interfiere con la polimerización de la HbS. La deferoxamina es un quelante de hierro para sobrecarga férrica. El ácido fólico previene deficiencia de folato pero no reduce crisis. La eritropoyetina no modifica la falciformación.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Deferoxamina", "isCorrect": false },
+      { "letter": "B", "text": "Ácido fólico a dosis altas", "isCorrect": false },
+      { "letter": "C", "text": "Hidroxiurea", "isCorrect": true },
+      { "letter": "D", "text": "Eritropoyetina recombinante", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Caso clínico: Hombre de 65 años con antecedentes de enfermedad renal crónica estadio IV (TFG 22 mL/min), diabetes mellitus tipo 2 e insuficiencia cardíaca, consulta a urgencias por debilidad muscular generalizada y palpitaciones de 2 horas de evolución. Refiere que ha estado tomando suplementos de potasio por cuenta propia y espironolactona prescrita por su cardiólogo. Al examen físico presenta FC 48 lpm irregular, PA 100/65 mmHg, reflejos osteotendinosos disminuidos. El electrocardiograma muestra ondas T picudas y simétricas, QRS ensanchado (140 ms) y ausencia de ondas P. El potasio sérico es 7,8 mEq/L.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es la primera medida terapéutica que debe tomarse de forma inmediata?",
+    "explanation": "Ante una hiperkalemia severa (K+ 7,8 mEq/L) con cambios electrocardiográficos graves (ondas T picudas, QRS ancho, ausencia de ondas P), la primera medida es la administración de gluconato de calcio IV, que estabiliza la membrana miocárdica y reduce el riesgo de arritmias fatales (fibrilación ventricular, asistolia) en 1-3 minutos, aunque no reduce el potasio sérico. La insulina con dextrosa desplaza el potasio al intracelular pero tarda 15-30 minutos. El bicarbonato de sodio es coadyuvante. La diálisis es definitiva pero toma tiempo en iniciar.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Insulina regular IV con dextrosa al 10 %", "isCorrect": false },
+      { "letter": "B", "text": "Gluconato de calcio IV para estabilización de membrana miocárdica", "isCorrect": true },
+      { "letter": "C", "text": "Resina de intercambio iónico (poliestireno sulfonato) oral", "isCorrect": false },
+      { "letter": "D", "text": "Bicarbonato de sodio IV", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": null,
+    "questionText": "Después de estabilizar la membrana cardíaca, ¿cuál es la siguiente medida para desplazar el potasio al espacio intracelular?",
+    "explanation": "Después del gluconato de calcio, la siguiente medida es la administración de insulina regular IV (10 unidades) con dextrosa al 10 % (500 mL) o al 50 % (50 mL), que estimula la bomba Na+/K+-ATPasa y desplaza el potasio al espacio intracelular en 15-30 minutos, reduciendo el K+ sérico en 0,5-1,5 mEq/L. El salbutamol nebulizado también desplaza potasio al intracelular y puede usarse como coadyuvante. La furosemida favorece la excreción renal de potasio pero su efecto es más lento y limitado en ERC avanzada. El kayexalate tarda horas en actuar.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Furosemida IV a dosis altas", "isCorrect": false },
+      { "letter": "B", "text": "Insulina regular IV con dextrosa", "isCorrect": true },
+      { "letter": "C", "text": "Poliestireno sulfonato de sodio oral", "isCorrect": false },
+      { "letter": "D", "text": "Restricción dietaria de potasio únicamente", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "¿Cuál de los medicamentos del paciente contribuyó de forma más directa a la hiperkalemia?",
+    "explanation": "La espironolactona es un diurético ahorrador de potasio que bloquea el receptor de aldosterona en el túbulo colector, reduciendo la excreción renal de potasio. En un paciente con ERC estadio IV (TFG 22 mL/min), la capacidad renal para excretar potasio ya está comprometida, y la espironolactona potencia este efecto. Además, la autosuplementación de potasio agravó el cuadro. La metformina puede causar acidosis láctica pero no hiperkalemia directa. Los IECA/ARA-II también contribuyen a hiperkalemia pero no fueron mencionados. La insulina reduce el potasio sérico, no lo aumenta.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Metformina", "isCorrect": false },
+      { "letter": "B", "text": "Espironolactona", "isCorrect": true },
+      { "letter": "C", "text": "Insulina", "isCorrect": false },
+      { "letter": "D", "text": "Aspirina", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Caso clínico: Niño de 5 años, previamente sano, es traído a urgencias por un cuadro de fiebre de 39,2 °C de 3 días de evolución, cefalea frontal, dolor retroocular, mialgias intensas, artralgias y erupción maculopapular generalizada. Reside en Cúcuta, zona endémica de arbovirus. Desde hace 12 horas presenta sangrado gingival espontáneo, petequias en extremidades inferiores y dolor abdominal. Al examen físico: PA 80/50 mmHg (hipotensión para su edad), FC 130 lpm, hepatomegalia dolorosa de 3 cm, prueba del torniquete positiva con >20 petequias. Los laboratorios muestran plaquetas 35.000/μL, hematocrito 48 % (previo 38 %), albúmina 2,1 g/dL, NS1 positivo e IgM para dengue positivo.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es la clasificación clínica más apropiada según la OMS?",
+    "explanation": "Según la clasificación revisada de la OMS (2009), este paciente presenta dengue grave por cumplir criterios de extravasación plasmática severa (hematocrito elevado con aumento >20 % del basal, hipoalbuminemia, hipotensión con taquicardia) y sangrado clínicamente importante (sangrado gingival, petequias). La trombocitopenia <50.000/μL, la hepatomegalia dolorosa y la prueba del torniquete positiva son signos de alarma. El dengue sin signos de alarma no presenta sangrado ni hipotensión. El dengue con signos de alarma no incluye hipotensión ni shock. El chikungunya produce artritis pero no hemoconcentración ni sangrado.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Dengue sin signos de alarma", "isCorrect": false },
+      { "letter": "B", "text": "Dengue grave", "isCorrect": true },
+      { "letter": "C", "text": "Dengue con signos de alarma sin compromiso hemodinámico", "isCorrect": false },
+      { "letter": "D", "text": "Fiebre por chikungunya complicada", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": null,
+    "questionText": "¿Cuál es el manejo inmediato más apropiado para este paciente?",
+    "explanation": "En dengue grave con signos de shock (hipotensión, taquicardia, hemoconcentración), el manejo inmediato es la reanimación con cristaloides isotónicos (Lactato de Ringer o solución salina 0,9 %) en bolo de 10-20 mL/kg en 15-30 minutos, con monitorización estricta del hematocrito, diuresis y signos vitales. Los coloides se reservan si no hay respuesta a 2-3 bolos de cristaloides. La transfusión de plaquetas no está indicada de forma profiláctica sino solo ante sangrado severo activo. Los corticosteroides no tienen indicación en dengue. Los AINEs están contraindicados por el riesgo de sangrado.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Transfusión de plaquetas profiláctica", "isCorrect": false },
+      { "letter": "B", "text": "Reanimación con cristaloides isotónicos IV en bolo (10-20 mL/kg) y monitorización estricta", "isCorrect": true },
+      { "letter": "C", "text": "Dexametasona IV y acetaminofén", "isCorrect": false },
+      { "letter": "D", "text": "Ibuprofeno para la fiebre y observación", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Caso clínico: Mujer de 27 años, sin antecedentes patológicos relevantes, consulta por fiebre de 39,5 °C, dolor lumbar derecho tipo cólico irradiado a flanco y región inguinal derecha, escalofríos, náuseas y vómito de 2 días de evolución. Refiere disuria y polaquiuria desde hace una semana que manejó con «remedios caseros». Al examen físico presenta taquicardia (FC 100 lpm), puñopercusión lumbar derecha positiva y dolor a la palpación profunda en flanco derecho. El uroanálisis muestra leucocituria >100/campo, nitritos positivos, bacteriuria abundante y cilindros leucocitarios. El hemograma muestra leucocitosis de 18.500/μL con neutrofilia.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Fiebre alta con escalofríos, dolor lumbar con puñopercusión positiva, antecedente de síntomas urinarios bajos no tratados, uroanálisis con leucocituria, nitritos positivos, bacteriuria y cilindros leucocitarios (marcador de infección del parénquima renal) configuran una pielonefritis aguda. La cistitis no causa fiebre, dolor lumbar ni cilindros leucocitarios. La urolitiasis produce dolor cólico pero sin fiebre, leucocituria masiva ni cilindros leucocitarios. La apendicitis no presenta síntomas urinarios ni puñopercusión positiva.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Cistitis aguda complicada", "isCorrect": false },
+      { "letter": "B", "text": "Pielonefritis aguda", "isCorrect": true },
+      { "letter": "C", "text": "Urolitiasis con cólico renal", "isCorrect": false },
+      { "letter": "D", "text": "Apendicitis retrocecal", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento empírico más apropiado para esta paciente?",
+    "explanation": "En pielonefritis aguda no complicada en una mujer joven que tolera vía oral, el tratamiento empírico de primera línea son las fluoroquinolonas orales (ciprofloxacina 500 mg c/12h por 7 días o levofloxacina 750 mg/día por 5 días) o cefalosporinas de tercera generación. Si hay intolerancia oral, se hospitalizan para antibiótico IV. La amoxicilina sola no es apropiada por alta resistencia de E. coli. La nitrofurantoína solo alcanza concentraciones terapéuticas en orina baja, no en parénquima renal. El trimetoprim-sulfametoxazol puede usarse si la susceptibilidad es conocida, pero no como empírico en muchas regiones por resistencia.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Nitrofurantoína oral por 7 días", "isCorrect": false },
+      { "letter": "B", "text": "Fluoroquinolona oral (ciprofloxacina o levofloxacina) por 7 días", "isCorrect": true },
+      { "letter": "C", "text": "Amoxicilina oral por 10 días", "isCorrect": false },
+      { "letter": "D", "text": "Trimetoprim-sulfametoxazol por 3 días", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "La ecografía renal muestra hidronefrosis derecha moderada con cálculo de 12 mm en la unión ureterovesical. ¿Cuál es la conducta adicional más apropiada?",
+    "explanation": "La pielonefritis obstructiva (infección del tracto urinario superior con obstrucción por cálculo) es una emergencia urológica. Se requiere descompresión urgente de la vía urinaria mediante nefrostomía percutánea o colocación de catéter doble J, además de continuar el antibiótico parenteral. Sin descompresión, la infección puede progresar a pionefrosis y sepsis. La litotricia se realiza una vez resuelta la infección. Continuar solo con antibióticos sin descompresión es insuficiente ante obstrucción. El manejo ambulatorio no es apropiado con pielonefritis obstructiva.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Continuar solo con antibiótico oral y control ambulatorio", "isCorrect": false },
+      { "letter": "B", "text": "Descompresión urgente de la vía urinaria (nefrostomía o catéter doble J) y antibiótico parenteral", "isCorrect": true },
+      { "letter": "C", "text": "Litotricia extracorpórea inmediata", "isCorrect": false },
+      { "letter": "D", "text": "Nefrectomía derecha de urgencia", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Caso clínico: Mujer de 55 años consulta por fatiga progresiva de 8 meses de evolución, aumento de peso de 6 kg a pesar de no haber cambiado su dieta, intolerancia al frío, estreñimiento, piel seca y caída del cabello. Refiere que su voz se ha vuelto más ronca. Al examen físico se encuentra con facies abotagada, edema periorbitario, bradicardia (FC 54 lpm), reflejos osteotendinosos con fase de relajación lenta y tiroides aumentada difusamente de tamaño, firme y no dolorosa. Los laboratorios muestran TSH 68 mUI/L (normal: 0,4-4,0), T4 libre 0,3 ng/dL (normal: 0,8-1,8), anticuerpos antiperoxidasa tiroidea (anti-TPO) fuertemente positivos (>600 UI/mL).\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El cuadro de hipotiroidismo primario (TSH muy elevada, T4 libre baja) con bocio difuso firme y anticuerpos anti-TPO fuertemente positivos es diagnóstico de tiroiditis de Hashimoto (tiroiditis linfocítica crónica autoinmune), que es la causa más frecuente de hipotiroidismo en áreas con suficiente yodo. La enfermedad de Graves produce hipertiroidismo, no hipotiroidismo. La tiroiditis subaguda de De Quervain es dolorosa y transitoria. El hipotiroidismo central (secundario/terciario) presenta TSH baja o inapropiadamente normal con T4 libre baja.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Enfermedad de Graves", "isCorrect": false },
+      { "letter": "B", "text": "Hipotiroidismo por tiroiditis de Hashimoto", "isCorrect": true },
+      { "letter": "C", "text": "Tiroiditis subaguda de De Quervain", "isCorrect": false },
+      { "letter": "D", "text": "Hipotiroidismo central (secundario)", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento de elección para esta paciente?",
+    "explanation": "El tratamiento de elección del hipotiroidismo primario es la levotiroxina sódica (T4 sintética), administrada en ayunas 30-60 minutos antes del desayuno, con dosis ajustada según peso (1,6 μg/kg/día) y nivel de TSH. El objetivo es normalizar la TSH (0,5-2,5 mUI/L). La liotironina (T3) como monoterapia no se recomienda por su vida media corta y fluctuaciones en los niveles séricos. El yodo radiactivo está indicado para hipertiroidismo, no hipotiroidismo. La tiroidectomía no está indicada en hipotiroidismo por Hashimoto sin sospecha de malignidad ni síntomas compresivos.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Liotironina (T3) como monoterapia", "isCorrect": false },
+      { "letter": "B", "text": "Levotiroxina sódica oral con ajuste según TSH", "isCorrect": true },
+      { "letter": "C", "text": "Yodo radiactivo (I-131)", "isCorrect": false },
+      { "letter": "D", "text": "Tiroidectomía total", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "Caso clínico: Mujer de 19 años, primigestante de 12 semanas, consulta por sangrado vaginal abundante, rojo oscuro, con expulsión de estructuras vesiculares «en racimo de uvas». Refiere náuseas y vómito severos desde las 6 semanas (hiperemesis). Al examen físico se encuentra taquicárdica (FC 108 lpm), PA 140/95 mmHg, útero aumentado de tamaño mayor al esperado para 12 semanas (fondo uterino a nivel de cicatriz umbilical), y quistes ováricos bilaterales palpables. No se auscultan latidos fetales. La β-hCG sérica es 285.000 mUI/mL (marcadamente elevada). La ecografía transvaginal muestra imagen intrauterina en «tormenta de nieve» (múltiples ecos internos sin evidencia de embrión), sin feto identificable.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Sangrado vaginal con expulsión de vesículas en «racimo de uvas», útero mayor que amenorrea, β-hCG marcadamente elevada (>100.000 mUI/mL), ecografía con imagen en «tormenta de nieve» sin embrión, quistes ováricos tecaluteínicos bilaterales (por estimulación de β-hCG) e hipertensión en primer trimestre constituyen el cuadro clásico de mola hidatidiforme completa. La mola parcial tiene un feto con anomalías y β-hCG menos elevada. El aborto incompleto tiene restos ovulares pero no vesículas ni β-hCG tan elevada. El coriocarcinoma es una neoplasia trofoblástica gestacional posterior a un embarazo molar u otro evento gestacional.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Mola hidatidiforme parcial", "isCorrect": false },
+      { "letter": "B", "text": "Mola hidatidiforme completa", "isCorrect": true },
+      { "letter": "C", "text": "Aborto incompleto", "isCorrect": false },
+      { "letter": "D", "text": "Coriocarcinoma", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento inmediato más apropiado?",
+    "explanation": "El tratamiento de la mola hidatidiforme completa es la evacuación uterina mediante aspiración por vacío (AMEU o LUA con aspiración), que es más seguro que el legrado instrumental por menor riesgo de perforación. Se debe administrar oxitocina durante el procedimiento. La histerectomía se considera en mujeres con paridad satisfecha y mayores de 40 años. El metotrexato se usa para enfermedad trofoblástica gestacional persistente posterior a la evacuación, no como tratamiento primario. La observación no es apropiada ante sangrado activo con mola completa.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Metotrexato sistémico", "isCorrect": false },
+      { "letter": "B", "text": "Evacuación uterina por aspiración con monitorización de β-hCG post-evacuación", "isCorrect": true },
+      { "letter": "C", "text": "Histerectomía total de urgencia", "isCorrect": false },
+      { "letter": "D", "text": "Observación y control ecográfico semanal", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": null,
+    "questionText": "Después de la evacuación uterina, ¿cuál es el seguimiento más importante para detectar enfermedad trofoblástica gestacional persistente?",
+    "explanation": "Después de la evacuación de una mola completa, se debe realizar seguimiento seriado semanal de β-hCG hasta que sea negativa durante 3 semanas consecutivas, y luego mensual por 6-12 meses. Un plateau o ascenso de β-hCG después de la evacuación indica enfermedad trofoblástica gestacional persistente que requiere quimioterapia (metotrexato). Durante este periodo la paciente debe usar anticoncepción confiable para no confundir un embarazo nuevo con enfermedad persistente. La ecografía sola no es suficiente. El hemograma no detecta enfermedad persistente. La biopsia endometrial no es el método estándar de seguimiento.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Ecografía transvaginal mensual", "isCorrect": false },
+      { "letter": "B", "text": "Medición seriada semanal de β-hCG hasta negativización y seguimiento mensual posterior", "isCorrect": true },
+      { "letter": "C", "text": "Hemograma y función hepática cada 2 semanas", "isCorrect": false },
+      { "letter": "D", "text": "Biopsia endometrial a las 6 semanas", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "Caso clínico: Hombre de 35 años, sin antecedentes previos, consulta a urgencias por dolor torácico retroesternal agudo, tipo punzante, de 2 días de evolución, que aumenta con la inspiración profunda y mejora al sentarse inclinado hacia adelante. Refiere que hace 10 días tuvo un cuadro gripal con fiebre y malestar general que se resolvió espontáneamente. Al examen físico: temperatura 37,8 °C, FC 92 lpm, PA 120/80 mmHg. A la auscultación cardíaca se escucha un roce pericárdico en el borde esternal izquierdo. El electrocardiograma muestra elevación difusa del segmento ST con concavidad superior en múltiples derivaciones y depresión del segmento PR.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "El dolor torácico pleurítico que mejora al inclinarse hacia adelante, antecedente de infección viral reciente, roce pericárdico a la auscultación y ECG con elevación difusa del ST (concavidad superior, no territorial) con depresión del PR son hallazgos patognomónicos de pericarditis aguda. El infarto agudo de miocardio produce elevación del ST en un territorio coronario específico (convexidad superior) sin depresión del PR. La disección aórtica causa dolor desgarrante irradiado a espalda, sin roce pericárdico. El tromboembolismo pulmonar presenta disnea súbita, taquicardia y patrón S1Q3T3 en el ECG.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Infarto agudo de miocardio con elevación del ST", "isCorrect": false },
+      { "letter": "B", "text": "Pericarditis aguda viral", "isCorrect": true },
+      { "letter": "C", "text": "Disección aórtica aguda", "isCorrect": false },
+      { "letter": "D", "text": "Tromboembolismo pulmonar", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento de primera línea para la pericarditis aguda?",
+    "explanation": "El tratamiento de primera línea de la pericarditis aguda es la combinación de AINEs (ibuprofeno 600 mg c/8h o aspirina 750-1000 mg c/8h) más colchicina (0,5 mg c/12h por 3 meses), que reduce significativamente la tasa de recurrencia (estudio COPE). La duración del AINE es de 1-2 semanas con descenso gradual. Los corticosteroides sistémicos se reservan para casos refractarios o contraindicación de AINEs/colchicina, ya que aumentan la tasa de recurrencia. Los antibióticos no están indicados en pericarditis viral. La pericardiocentesis solo se realiza si hay taponamiento cardíaco.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Prednisona oral por 4 semanas", "isCorrect": false },
+      { "letter": "B", "text": "AINEs (ibuprofeno o aspirina) más colchicina", "isCorrect": true },
+      { "letter": "C", "text": "Antibióticos de amplio espectro IV", "isCorrect": false },
+      { "letter": "D", "text": "Pericardiocentesis diagnóstica inmediata", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "Caso clínico: Niña de 2 años, previamente sana, es llevada a urgencias porque hace 30 minutos presentó una convulsión tónico-clónica generalizada de 3 minutos de duración que cedió espontáneamente. La madre refiere que la niña ha tenido fiebre de 39,5 °C desde hace unas horas por un cuadro de infección de vías respiratorias altas. No tiene antecedentes de convulsiones previas ni antecedentes familiares de epilepsia. Al examen físico posicctal: temperatura 39,2 °C, Glasgow 14/15 (somnolienta pero responde a estímulos), signos meníngeos negativos, fontanela cerrada, fondo de ojo normal, sin déficit neurológico focal. A los 20 minutos de la evaluación, la niña está despierta, alerta y jugando.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Una convulsión tónico-clónica generalizada, breve (<5 minutos), en una niña de 2 años (rango típico: 6 meses a 5 años) con fiebre alta, sin antecedentes de convulsiones afebriles, sin signos meníngeos, sin déficit neurológico focal y con recuperación completa rápida es el cuadro clásico de convulsión febril simple. La meningitis bacteriana presentaría signos meníngeos, estado tóxico y recuperación lenta. La epilepsia se diagnostica con convulsiones recurrentes no provocadas. La convulsión febril compleja tiene una duración >15 minutos, es focal o se repite en 24 horas.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Meningitis bacteriana aguda", "isCorrect": false },
+      { "letter": "B", "text": "Convulsión febril simple", "isCorrect": true },
+      { "letter": "C", "text": "Epilepsia de inicio en la infancia", "isCorrect": false },
+      { "letter": "D", "text": "Convulsión febril compleja", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": null,
+    "questionText": "¿Cuál es el manejo más apropiado para esta niña?",
+    "explanation": "En la convulsión febril simple, el manejo consiste en tratamiento antipirético (acetaminofén o ibuprofeno) para la comodidad del paciente, identificar y tratar la causa de la fiebre, y tranquilizar a los padres explicando la naturaleza benigna del cuadro. No se requieren anticonvulsivantes profilácticos, neuroimágenes ni electroencefalograma (EEG) de rutina en una convulsión febril simple típica. La punción lumbar se considera en menores de 12 meses o si hay signos meníngeos. Los antiepilépticos de mantenimiento no están indicados por el bajo riesgo de epilepsia posterior (2-4 %).",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Iniciar ácido valproico profiláctico", "isCorrect": false },
+      { "letter": "B", "text": "Manejo antipirético, tratar la causa de fiebre y educación a los padres", "isCorrect": true },
+      { "letter": "C", "text": "Punción lumbar inmediata y antibióticos empíricos", "isCorrect": false },
+      { "letter": "D", "text": "Resonancia magnética cerebral urgente y EEG", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": null,
+    "questionText": "Si durante la evaluación en urgencias la niña presenta una nueva convulsión que no cede en 5 minutos, ¿cuál es el tratamiento de primera línea?",
+    "explanation": "Las benzodiazepinas son el tratamiento de primera línea para una convulsión activa que dura más de 5 minutos (estatus epiléptico). El diazepam IV (0,2-0,5 mg/kg) o el midazolam IM/intranasal/bucal (0,2 mg/kg) son las opciones de primera línea. Si no hay acceso IV, el midazolam IM es preferido por su rapidez de administración. El fenobarbital es un fármaco de segunda línea. La fenitoína IV se usa si las benzodiazepinas fallan. El acetaminofén no tiene acción anticonvulsivante.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Acetaminofén rectal a dosis altas", "isCorrect": false },
+      { "letter": "B", "text": "Fenobarbital IV como primera opción", "isCorrect": false },
+      { "letter": "C", "text": "Benzodiazepina (diazepam IV o midazolam IM)", "isCorrect": true },
+      { "letter": "D", "text": "Fenitoína IV en infusión lenta", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": "Caso clínico: Familia de 4 personas (padre, madre y 2 hijos de 8 y 12 años) es llevada a urgencias en la madrugada después de ser encontrados inconscientes en su vivienda. Los bomberos informan que la familia utilizaba un calentador de gas sin ventilación adecuada en una habitación cerrada. Al examen físico, todos presentan cefalea (los que están conscientes), confusión, náuseas, piel de color rojo cereza (cherry red) y el padre (quien dormía más cerca del calentador) está inconsciente con Glasgow 7/15. La pulsioximetría de todos muestra SpO₂ de 98-99 %. La gasometría arterial del padre muestra carboxihemoglobina (COHb) de 38 %.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Por qué la pulsioximetría convencional muestra valores normales a pesar de la intoxicación?",
+    "explanation": "La pulsioximetría convencional mide la absorbancia de luz a dos longitudes de onda y no puede diferenciar la oxihemoglobina de la carboxihemoglobina (COHb), ya que ambas absorben luz de forma similar a 660 nm. Por eso muestra valores falsamente normales (98-99 %) a pesar de niveles tóxicos de COHb. Para el diagnóstico correcto se requiere cooximetría (gasometría arterial con medición directa de COHb). La intoxicación no aumenta el oxígeno disuelto. La pulsioximetría no está mal calibrada; es una limitación inherente de la tecnología de dos longitudes de onda.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Porque el CO aumenta el oxígeno disuelto en plasma", "isCorrect": false },
+      { "letter": "B", "text": "Porque la pulsioximetría no distingue entre oxihemoglobina y carboxihemoglobina", "isCorrect": true },
+      { "letter": "C", "text": "Porque los pacientes están hiperventilando compensatoriamente", "isCorrect": false },
+      { "letter": "D", "text": "Porque el equipo de pulsioximetría está mal calibrado", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": null,
+    "questionText": "¿Cuál es el tratamiento inmediato para todos los miembros de la familia?",
+    "explanation": "En la intoxicación por monóxido de carbono, el tratamiento inmediato es la administración de oxígeno al 100 % con máscara de no reinhalación (FiO₂ 1,0), que reduce la vida media de la COHb de 4-6 horas (aire ambiente) a 60-90 minutos. Para el padre con COHb de 38 % y Glasgow 7/15 (síntomas neurológicos severos), está indicada la oxigenoterapia hiperbárica si está disponible. Retirar de la fuente de exposición es lo primero, seguido del oxígeno al 100 %. El oxígeno a bajo flujo es insuficiente. Los antídotos como la hidroxocobalamina son para intoxicación por cianuro, no por CO.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Oxígeno a bajo flujo (2 L/min por cánula nasal)", "isCorrect": false },
+      { "letter": "B", "text": "Oxígeno al 100 % con máscara de no reinhalación para todos, y considerar cámara hiperbárica para el padre", "isCorrect": true },
+      { "letter": "C", "text": "Hidroxocobalamina IV para todos", "isCorrect": false },
+      { "letter": "D", "text": "Ventilación mecánica invasiva para todos", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": null,
+    "questionText": "¿Cuáles son las indicaciones para oxigenoterapia hiperbárica en intoxicación por monóxido de carbono?",
+    "explanation": "Las indicaciones para oxigenoterapia hiperbárica en intoxicación por CO incluyen: pérdida de conciencia o coma (Glasgow ≤8), COHb >25 %, síntomas neurológicos severos (convulsiones, déficit focal, confusión persistente), isquemia miocárdica, embarazo con cualquier nivel de COHb sintomático, y síntomas persistentes a pesar de oxígeno normbárico. El padre cumple múltiples criterios (Glasgow 7/15, COHb 38 %). La cámara hiperbárica reduce la vida media de COHb a 15-23 minutos y disminuye la incidencia de secuelas neurológicas tardías. Una COHb <10 % asintomática no requiere hiperbárica.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "COHb >10 % en cualquier paciente", "isCorrect": false },
+      { "letter": "B", "text": "Pérdida de conciencia, COHb >25 %, síntomas neurológicos severos o embarazo sintomática", "isCorrect": true },
+      { "letter": "C", "text": "Solo cuando hay paro cardiorrespiratorio", "isCorrect": false },
+      { "letter": "D", "text": "Todos los pacientes con exposición a CO independientemente de los síntomas", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "Caso clínico: Mujer de 38 años, G3P2, con embarazo de 8 semanas por última menstruación, consulta a urgencias por sangrado vaginal escaso y dolor pélvico leve. Tiene antecedente de 2 embarazos a término sin complicaciones. En el control prenatal previo a las 6 semanas, la ecografía mostró saco gestacional intrauterino con embrión de 4 mm sin actividad cardíaca, interpretado como embarazo temprano. La ecografía transvaginal actual muestra saco gestacional de 25 mm con embrión de 8 mm sin actividad cardíaca. La β-hCG sérica es 12.500 mUI/mL. El cuello uterino está cerrado.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "Considerando que este no es uno de los 17 casos principales, esta pregunta evalúa un diagnóstico obstétrico. Según los hallazgos ecográficos, ¿cuál es el diagnóstico más probable?",
+    "explanation": "Un embrión de 8 mm (>7 mm) sin actividad cardíaca en ecografía transvaginal es diagnóstico de aborto diferido (aborto retenido o missed abortion). Los criterios ecográficos de aborto diferido incluyen: longitud corona-rabadilla (CRL) ≥7 mm sin latido cardíaco, o saco gestacional ≥25 mm sin embrión (huevo anembrionado). La amenaza de aborto tendría latido cardíaco presente con sangrado. El embarazo viable temprano no explica la ausencia de latido con CRL >7 mm. El embarazo ectópico se descarta con saco gestacional intrauterino confirmado.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Amenaza de aborto con embarazo viable", "isCorrect": false },
+      { "letter": "B", "text": "Aborto diferido (retenido)", "isCorrect": true },
+      { "letter": "C", "text": "Embarazo ectópico", "isCorrect": false },
+      { "letter": "D", "text": "Embarazo intrauterino viable temprano", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": null,
+    "questionText": "¿Cuáles son las opciones terapéuticas apropiadas para esta paciente?",
+    "explanation": "En el aborto diferido del primer trimestre, hay tres opciones terapéuticas válidas: (1) manejo expectante (esperar expulsión espontánea en 2-4 semanas), (2) manejo farmacológico con misoprostol (800 μg vaginal), que tiene tasa de éxito del 80-85 %, y (3) evacuación quirúrgica (aspiración manual endouterina o legrado). La elección depende de la preferencia de la paciente, el tamaño del saco y la estabilidad clínica. El metotrexato está indicado en embarazo ectópico, no en aborto diferido intrauterino. La cerclaje cervical es para incompetencia cervical. La progesterona no revierte un aborto diferido confirmado.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Metotrexato intramuscular", "isCorrect": false },
+      { "letter": "B", "text": "Misoprostol vaginal, manejo expectante o evacuación uterina, según preferencia de la paciente", "isCorrect": true },
+      { "letter": "C", "text": "Cerclaje cervical de emergencia", "isCorrect": false },
+      { "letter": "D", "text": "Progesterona intramuscular para rescate del embarazo", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "Caso clínico: Hombre de 50 años, obeso (IMC 34 kg/m²), consulta por dolor en rodilla derecha de 6 meses de evolución que empeora con la actividad física (subir escaleras, caminar distancias largas) y mejora con el reposo. Refiere rigidez matutina de 15 minutos que cede con el movimiento. No tiene fiebre ni antecedente de trauma. Al examen físico presenta crepitación a la movilización de la rodilla derecha, leve derrame articular, rango de movimiento limitado en los últimos grados de flexión y deformidad en varo incipiente. No hay eritema ni calor local. La radiografía de rodilla muestra disminución del espacio articular medial, osteofitos marginales y esclerosis subcondral.\n\n(Caso ficticio — Redacción Study2One)",
+    "questionText": "¿Cuál es el diagnóstico más probable?",
+    "explanation": "Dolor articular mecánico (empeora con actividad, mejora con reposo), rigidez matutina breve (<30 minutos), crepitación, osteofitos, disminución del espacio articular y esclerosis subcondral en radiografía, en un paciente obeso de 50 años sin signos inflamatorios sistémicos, son hallazgos clásicos de osteoartrosis (artrosis) de rodilla. La artritis reumatoide produce rigidez matutina prolongada (>1 hora), afecta articulaciones pequeñas simétricamente y presenta signos inflamatorios. La artritis gotosa es aguda, monoarticular, con cristales de urato y eritema intenso. La artritis séptica cursa con fiebre, eritema, calor local y leucocitosis.",
+    "competency": "diagnostico",
+    "options": [
+      { "letter": "A", "text": "Artritis reumatoide", "isCorrect": false },
+      { "letter": "B", "text": "Osteoartrosis de rodilla", "isCorrect": true },
+      { "letter": "C", "text": "Artritis gotosa aguda", "isCorrect": false },
+      { "letter": "D", "text": "Artritis séptica", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": null,
+    "questionText": "¿Cuál es el manejo inicial más apropiado para este paciente?",
+    "explanation": "El manejo inicial de la osteoartrosis incluye medidas no farmacológicas como pilar fundamental: reducción de peso (disminuye la carga sobre la articulación), ejercicio terapéutico (fortalecimiento de cuádriceps, ejercicio aeróbico de bajo impacto), educación del paciente y uso de dispositivos de asistencia si es necesario. El tratamiento farmacológico de primera línea es el acetaminofén; los AINEs tópicos u orales se usan si el acetaminofén es insuficiente. Los opioides y la artroplastia se reservan para enfermedad avanzada refractaria. Los corticosteroides sistémicos no están indicados en osteoartrosis. El reposo absoluto empeora la rigidez y atrofia muscular.",
+    "competency": "tratamiento",
+    "options": [
+      { "letter": "A", "text": "Prednisona oral por 3 meses", "isCorrect": false },
+      { "letter": "B", "text": "Reducción de peso, ejercicio terapéutico y acetaminofén o AINEs según necesidad", "isCorrect": true },
+      { "letter": "C", "text": "Artroplastia total de rodilla inmediata", "isCorrect": false },
+      { "letter": "D", "text": "Reposo absoluto e inmovilización con férula", "isCorrect": false }
+    ]
+  }
+]

@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Lea el siguiente texto.\n\n«En el verano de 1854, un brote de colera devastaba el barrio del Soho en Londres. La teoria dominante de la epoca atribuia la enfermedad a los miasmas: emanaciones toxicas producidas por la materia organica en descomposicion que supuestamente envenenaban el aire. John Snow, un medico anestesiologo con inclinaciones estadisticas poco habituales para su tiempo, no estaba convencido. Mientras sus colegas buscaban la causa en el aire fetido de los callejones londinenses, Snow se dedico a trazar un mapa: visito casa por casa el barrio afectado, registro cada muerte por colera y descubrio un patron que nadie habia visto. Los casos se concentraban alrededor de una bomba de agua publica ubicada en Broad Street.\n\nSnow presento sus hallazgos ante las autoridades locales y solicito que se retirara la manija de la bomba para impedir su uso. Las autoridades, escepticas pero desesperadas, accedieron. Los nuevos casos se redujeron drasticamente. Sin embargo, la comunidad medica no acepto sus conclusiones. La teoria miasmática tenia siglos de tradicion y el respaldo de figuras como Florence Nightingale, quien insistia en que la ventilacion —no el agua— era la clave para prevenir enfermedades. Snow murio en 1858 sin ver su teoria validada. Solo decadas despues, con el trabajo de Robert Koch y Louis Pasteur sobre los microorganismos, la teoria del germen confirmo lo que Snow habia intuido con un mapa y un cuaderno de notas.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, ¿que metodo utilizo John Snow para investigar el brote de colera en el Soho?",
+    "explanation": "El texto indica explicitamente que Snow «visito casa por casa el barrio afectado, registro cada muerte por colera» y «se dedico a trazar un mapa», descubriendo un patron geografico. La opcion B recoge esta informacion literal. La opcion A introduce el microscopio, que Snow no utilizo segun el texto. La opcion C habla de autopsias, no mencionadas. La opcion D refiere a experimentos de laboratorio, que tampoco figuran en el pasaje.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Analizo muestras de agua bajo el microscopio para identificar microorganismos patogenos.", "isCorrect": false },
+      { "letter": "B", "text": "Registro sistematicamente las muertes por colera y las ubico en un mapa del barrio afectado.", "isCorrect": true },
+      { "letter": "C", "text": "Realizo autopsias a las victimas del colera para determinar la causa de muerte.", "isCorrect": false },
+      { "letter": "D", "text": "Condujo experimentos de laboratorio para aislar el agente causal de la enfermedad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "La expresion «inclinaciones estadisticas poco habituales para su tiempo» sugiere que Snow:",
+    "explanation": "El autor califica las inclinaciones de Snow como «poco habituales» en su epoca, lo que permite inferir que el enfoque cuantitativo y cartografico no era la norma en la practica medica del siglo XIX. La opcion C captura esta inferencia. La opcion A confunde estadistica con matematica formal. La opcion B introduce una relacion con universidades que el texto no menciona. La opcion D habla de rechazo a la clinica, cuando Snow era medico practicante.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Habia recibido formacion academica en matematicas antes de estudiar medicina.", "isCorrect": false },
+      { "letter": "B", "text": "Trabajaba en una universidad donde la investigacion cuantitativa era prioritaria.", "isCorrect": false },
+      { "letter": "C", "text": "Utilizaba un enfoque basado en datos y patrones que no era comun en la medicina de su epoca.", "isCorrect": true },
+      { "letter": "D", "text": "Rechazaba la practica clinica directa y preferia dedicarse exclusivamente a la investigacion.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "Segun el texto, ¿por que las autoridades accedieron a retirar la manija de la bomba de Broad Street?",
+    "explanation": "El texto afirma explicitamente que las autoridades eran «escepticas pero desesperadas» y que «accedieron» a la solicitud de Snow. La razon literal es la combinacion de escepticismo con desesperacion ante la magnitud del brote. La opcion A recoge esta informacion directa. La opcion B atribuye conviccion que el texto niega. La opcion C introduce presion popular no mencionada. La opcion D habla de un plan de saneamiento inexistente en el pasaje.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "La gravedad de la crisis sanitaria supero la resistencia ideologica frente a una teoria no aceptada.", "isCorrect": true },
+      { "letter": "B", "text": "Las autoridades estaban convencidas de la validez cientifica de los hallazgos de Snow.", "isCorrect": false },
+      { "letter": "C", "text": "La presion popular obligo a las autoridades a tomar medidas inmediatas contra el brote.", "isCorrect": false },
+      { "letter": "D", "text": "El retiro de la manija formaba parte de un plan mas amplio de saneamiento del barrio del Soho.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": null,
+    "questionText": "La mencion de que Florence Nightingale defendia la teoria miasmatica cumple en el texto la funcion de:",
+    "explanation": "El autor menciona a Nightingale —una figura historica de gran prestigio— como defensora de la teoria miasmatica para mostrar que la oposicion a Snow no provenia de personas ignorantes sino de figuras respetadas. Esto refuerza la idea de que el peso de la autoridad puede obstaculizar el avance cientifico. La opcion B captura esta funcion. La opcion A introduce genero, un tema que el texto no aborda. La opcion C sugiere descredito hacia Nightingale, pero el texto la presenta con respeto. La opcion D habla de enfermeria vs. medicina, una distincion ajena al argumento.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Demostrar que la discriminacion de genero impedia que las mujeres accedieran al conocimiento cientifico.", "isCorrect": false },
+      { "letter": "B", "text": "Ilustrar que el rechazo a Snow no era solo institucional sino que incluia a figuras de gran prestigio.", "isCorrect": true },
+      { "letter": "C", "text": "Desacreditar las contribuciones de Nightingale al campo de la enfermeria y la salud publica.", "isCorrect": false },
+      { "letter": "D", "text": "Contrastar el enfoque medico con el enfoque de enfermeria en el manejo de epidemias.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": null,
+    "questionText": "La frase final — «la teoria del germen confirmo lo que Snow habia intuido con un mapa y un cuaderno de notas» — pone de relieve:",
+    "explanation": "El autor contrasta la sofisticacion de la microbiologia de Koch y Pasteur con la sencillez de las herramientas de Snow (un mapa, un cuaderno). La frase enfatiza que la observacion metodica con recursos simples puede anticipar verdades que luego la tecnologia confirmara. La opcion C identifica esta idea. La opcion A reduce la frase a una comparacion de costos. La opcion B introduce suerte, un concepto ajeno. La opcion D habla de superioridad de la cartografia sobre la microbiologia, lo cual el texto no sostiene.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Que la investigacion cientifica requiere siempre equipos costosos y laboratorios especializados.", "isCorrect": false },
+      { "letter": "B", "text": "Que Snow tuvo suerte al acertar con sus conclusiones antes de contar con evidencia microbiologica.", "isCorrect": false },
+      { "letter": "C", "text": "Que la observacion sistematica y el razonamiento riguroso pueden anticipar descubrimientos que la tecnologia posterior confirmara.", "isCorrect": true },
+      { "letter": "D", "text": "Que la cartografia epidemiologica es un metodo superior a la microbiologia para comprender las enfermedades.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "Lea el siguiente texto.\n\n«El debate sobre la relacion entre neurociencia y libre albedrio se intensifico en 1983, cuando el neurofisiologo Benjamin Libet publico los resultados de un experimento que sacudio los cimientos de la filosofia moral. Libet pidio a sus sujetos que movieran la muneca en el momento que eligieran, mientras registraba su actividad cerebral con un electroencefalograma. Descubrio que el cerebro generaba un potencial electrico preparatorio —el llamado «potencial de disposicion»— aproximadamente 550 milisegundos antes de que el sujeto reportara haber tomado la decision consciente de mover la muneca. En otras palabras: el cerebro «decidia» antes de que la persona creyera estar decidiendo.\n\nLas implicaciones filosoficas fueron enormes. Si la actividad neuronal precede a la experiencia consciente de decidir, ¿en que sentido podemos afirmar que somos los autores de nuestras acciones? Los neurodeterministas, como Sam Harris, argumentan que el libre albedrio es una ilusion: nuestras decisiones son el producto de procesos cerebrales inconscientes sobre los cuales no tenemos control. Desde esta perspectiva, conceptos como culpa, responsabilidad moral y merito personal carecen de fundamento neurobiologico.\n\nSin embargo, la interpretacion de Libet no es unanime. Criticos como Alfred Mele senalan que un potencial electrico preparatorio no equivale a una decision. Preparar el movimiento no es lo mismo que decidir ejecutarlo: el propio Libet reconocio que los sujetos podian vetar el movimiento incluso despues de que apareciera el potencial de disposicion. Esta capacidad de veto — la posibilidad de decir «no» a un impulso ya iniciado — podria ser, precisamente, donde reside la libertad humana: no en iniciar las acciones, sino en la capacidad de inhibirlas.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, ¿que descubrio Libet en su experimento de 1983?",
+    "explanation": "El texto afirma explicitamente que Libet descubrio que «el cerebro generaba un potencial electrico preparatorio aproximadamente 550 milisegundos antes de que el sujeto reportara haber tomado la decision consciente». La opcion A recoge esta informacion literal. La opcion B invierte la secuencia temporal. La opcion C introduce la corteza prefrontal, no mencionada. La opcion D habla de decision inconsciente vs. consciente, pero no refleja el hallazgo temporal especifico.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Que la actividad cerebral preparatoria precedia en medio segundo a la experiencia consciente de decidir.", "isCorrect": true },
+      { "letter": "B", "text": "Que la decision consciente de moverse ocurria antes que cualquier actividad cerebral medible.", "isCorrect": false },
+      { "letter": "C", "text": "Que la corteza prefrontal era la unica region involucrada en la toma de decisiones voluntarias.", "isCorrect": false },
+      { "letter": "D", "text": "Que los sujetos del experimento no podian distinguir entre movimientos voluntarios e involuntarios.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": null,
+    "questionText": "La postura de los neurodeterministas, como Sam Harris, implica que:",
+    "explanation": "El texto explica que los neurodeterministas consideran el libre albedrio una ilusion y que «conceptos como culpa, responsabilidad moral y merito personal carecen de fundamento neurobiologico». De esto se infiere que si las personas no son autoras reales de sus acciones, los sistemas de justicia que presuponen responsabilidad individual tendrian un fundamento cuestionable. La opcion B captura esta implicacion. La opcion A habla de educacion, un tema ajeno. La opcion C introduce el castigo penal como solucion, pero el argumento neurodeterminista lo cuestiona. La opcion D invierte la relacion entre biologia y conciencia.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La educacion moral es innecesaria porque las personas siempre actuaran segun sus instintos biologicos.", "isCorrect": false },
+      { "letter": "B", "text": "Los sistemas de justicia basados en la responsabilidad individual carecerian de fundamento neurobiologico.", "isCorrect": true },
+      { "letter": "C", "text": "El castigo penal deberia endurecerse para compensar la falta de autocontrol de los individuos.", "isCorrect": false },
+      { "letter": "D", "text": "La conciencia humana es un fenomeno exclusivamente biologico que no requiere explicacion filosofica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "La critica de Alfred Mele al experimento de Libet se basa en la distincion entre:",
+    "explanation": "El texto dice que Mele senala que «un potencial electrico preparatorio no equivale a una decision» y que «preparar el movimiento no es lo mismo que decidir ejecutarlo». La critica se fundamenta en distinguir la preparacion neurologica de la toma de decision propiamente dicha. La opcion C recoge esta distincion. La opcion A introduce metodologia experimental, no mencionada. La opcion B confunde tipos de movimiento. La opcion D habla de conciencia y subconsciencia, pero no captura la distincion especifica de Mele.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Los resultados obtenidos en laboratorio y los observados en situaciones de la vida real.", "isCorrect": false },
+      { "letter": "B", "text": "Los movimientos voluntarios simples y las decisiones morales complejas.", "isCorrect": false },
+      { "letter": "C", "text": "La preparacion neurologica para un movimiento y la decision efectiva de ejecutarlo.", "isCorrect": true },
+      { "letter": "D", "text": "Los procesos cerebrales conscientes y los procesos cerebrales subconscientes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "Un lector critico podria senalar que el debate presentado en el texto tiene la siguiente limitacion:",
+    "explanation": "El texto se centra en un unico tipo de decision: mover la muneca, que es una accion motora simple. Las decisiones morales complejas (mentir, ayudar, delinquir) involucran procesos cognitivos mucho mas elaborados. Generalizar de movimientos de muneca a la totalidad del libre albedrio es un salto argumentativo que ambos bandos del debate parecen dar. La opcion A identifica esta limitacion. La opcion B habla de muestras, un detalle tecnico menor. La opcion C critica la estructura del texto, no el debate. La opcion D introduce tecnologia, un factor que el texto no presenta como barrera.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Extrapola conclusiones sobre el libre albedrio a partir de un experimento con movimientos motores simples, no con decisiones morales complejas.", "isCorrect": true },
+      { "letter": "B", "text": "No menciona el tamano de la muestra del experimento de Libet ni si ha sido replicado.", "isCorrect": false },
+      { "letter": "C", "text": "Presenta unicamente dos posturas (neurodeterminismo y capacidad de veto) sin explorar posiciones intermedias.", "isCorrect": false },
+      { "letter": "D", "text": "Asume que la tecnologia de 1983 era suficiente para medir con precision la actividad cerebral.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Lea el siguiente texto.\n\n«La resistencia antimicrobiana (RAM) no es una amenaza futura: es una crisis presente. Cada ano, al menos 1,27 millones de personas mueren en el mundo como consecuencia directa de infecciones causadas por bacterias resistentes a los antibioticos disponibles. Para dimensionar esta cifra: es mas del doble de las muertes anuales por malaria y VIH combinadas. Sin embargo, a diferencia de estas enfermedades, la RAM no cuenta con una campana global de financiacion ni con un marco politico vinculante que obligue a los paises a actuar coordinadamente.\n\nEl origen del problema es multiple, pero sus vectores principales estan bien identificados. En la medicina humana, la prescripcion innecesaria de antibioticos — particularmente para infecciones virales como resfriados y gripes, contra las cuales son ineficaces — genera una presion selectiva constante que favorece la proliferacion de cepas resistentes. En la ganaderia, el panorama es aun mas alarmante: el 73% de los antibioticos vendidos en el mundo se destinan a animales de granja, no como tratamiento de enfermedades sino como promotores de crecimiento. Cada kilogramo de pollo o cerdo que llega al supermercado lleva consigo una historia invisible de exposicion antibiotica sistematica.\n\nLas soluciones existen pero exigen una coordinacion sin precedentes. Prohibir el uso de antibioticos como promotores de crecimiento —como ya hizo la Union Europea en 2006— seria un primer paso. Desarrollar pruebas de diagnostico rapido que permitan a los medicos distinguir en minutos entre infecciones bacterianas y virales reduciria drasticamente la prescripcion innecesaria. Y reinvertir en la investigacion de nuevos antibioticos, mediante incentivos publicos que compensen la baja rentabilidad del mercado, es una necesidad urgente. El problema no es que no sepamos que hacer. El problema es que no lo hacemos.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, ¿que porcentaje de los antibioticos vendidos mundialmente se destina a animales de granja?",
+    "explanation": "El texto lo afirma de forma explicita: «el 73% de los antibioticos vendidos en el mundo se destinan a animales de granja». Es una pregunta de recuperacion de informacion literal directa. La opcion C (73%) es correcta. Las demas cifras no aparecen en el texto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "45%.", "isCorrect": false },
+      { "letter": "B", "text": "58%.", "isCorrect": false },
+      { "letter": "C", "text": "73%.", "isCorrect": true },
+      { "letter": "D", "text": "86%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "La comparacion entre las muertes por RAM y las causadas por malaria y VIH combinadas tiene como funcion:",
+    "explanation": "El autor usa enfermedades conocidas y con gran visibilidad mediatica (malaria, VIH) como punto de referencia para que el lector dimensione la magnitud de la RAM. Al mostrar que la RAM causa mas del doble de muertes, evidencia una desproporcion entre la gravedad del problema y la atencion que recibe. La opcion B captura esta funcion. La opcion A introduce politicas de salud que el texto no aborda en esa comparacion. La opcion C sugiere que malaria y VIH estan controladas, lo cual el texto no afirma. La opcion D habla de prioridades de investigacion, un tema distinto.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Demostrar que las politicas de salud publica contra la malaria y el VIH han sido ineficaces.", "isCorrect": false },
+      { "letter": "B", "text": "Poner en perspectiva la magnitud de la RAM al compararla con amenazas sanitarias de mayor visibilidad publica.", "isCorrect": true },
+      { "letter": "C", "text": "Argumentar que la malaria y el VIH ya no representan una amenaza significativa para la salud global.", "isCorrect": false },
+      { "letter": "D", "text": "Proponer que los recursos destinados a malaria y VIH se redirijan hacia la lucha contra la RAM.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "La frase «cada kilogramo de pollo o cerdo que llega al supermercado lleva consigo una historia invisible de exposicion antibiotica sistematica» emplea un recurso retorico que busca:",
+    "explanation": "El autor transforma un dato abstracto (73% de antibioticos para ganaderia) en una imagen concreta y cotidiana: el pollo o cerdo que el lector compra en el supermercado. El adjetivo «invisible» refuerza la idea de que el consumidor desconoce esta realidad. Es un recurso que conecta lo global con lo personal. La opcion A identifica esta funcion. La opcion B introduce culpa del consumidor, que el texto no explicita. La opcion C habla de vegetarianismo, ausente del argumento. La opcion D critica a los supermercados, lo cual no es el proposito de la frase.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Hacer tangible y cercana una realidad que el consumidor habitualmente ignora.", "isCorrect": true },
+      { "letter": "B", "text": "Responsabilizar al consumidor individual por la crisis de resistencia antimicrobiana.", "isCorrect": false },
+      { "letter": "C", "text": "Promover el vegetarianismo como solucion a la resistencia antimicrobiana.", "isCorrect": false },
+      { "letter": "D", "text": "Denunciar las practicas comerciales de los supermercados en la venta de productos carnicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "La frase final — «el problema no es que no sepamos que hacer. El problema es que no lo hacemos» — puede interpretarse como una critica dirigida a:",
+    "explanation": "El autor ha presentado tres soluciones concretas (prohibir promotores de crecimiento, diagnostico rapido, reinversion en investigacion) y cierra afirmando que el conocimiento existe pero la accion no. Esta estructura apunta a que la barrera no es tecnica sino politica y de voluntad colectiva. La opcion D identifica esta critica. La opcion A culpa a la ciencia, cuando el texto senala que las soluciones ya estan disponibles. La opcion B introduce farmaceuticas como unico actor, pero el texto critica multiples actores. La opcion C habla de pacientes, que no son el foco de la critica final.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "La comunidad cientifica, por no investigar soluciones innovadoras contra la resistencia antimicrobiana.", "isCorrect": false },
+      { "letter": "B", "text": "La industria farmaceutica, por priorizar medicamentos rentables sobre antibioticos necesarios.", "isCorrect": false },
+      { "letter": "C", "text": "Los pacientes, por automedicarse con antibioticos sin prescripcion medica.", "isCorrect": false },
+      { "letter": "D", "text": "La falta de voluntad politica y coordinacion global para implementar soluciones que ya se conocen.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Lea el siguiente texto.\n\n«Las humanidades medicas no son un adorno curricular ni una concesion a la moda interdisciplinaria. Son, o deberian ser, una herramienta clinica tan fundamental como el estetoscopio o la resonancia magnetica. La medicina narrativa — rama central de las humanidades medicas — parte de una premisa sencilla pero profundamente transformadora: para tratar eficazmente a un paciente, el medico necesita comprender no solo su enfermedad sino su historia.\n\nRita Charon, medica y doctora en literatura de la Universidad de Columbia, acuno el termino «medicina narrativa» en el ano 2000 para designar una practica clinica enriquecida por la competencia narrativa: la capacidad de escuchar, interpretar y responder a las historias de los pacientes. Charon observo que los medicos entrenados en lectura literaria close reading identificaban matices en los relatos de sus pacientes que sus colegas sin esa formacion pasaban por alto: metaforas que revelaban miedos no expresados, silencios que indicaban vergüenza, contradicciones que senalaban ambivalencia frente al tratamiento.\n\nLa evidencia respalda este enfoque. Estudios en hospitales de Estados Unidos y Europa han demostrado que los programas de medicina narrativa mejoran la relacion medico-paciente, reducen el burnout profesional y aumentan la adherencia al tratamiento. Cuando un paciente siente que su medico lo escucha — no solo sus sintomas, sino su experiencia —, confia mas, colabora mas y se recupera mejor. La historia del paciente no es un complemento del diagnostico: es parte del diagnostico.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, ¿quien acuno el termino «medicina narrativa» y en que ano?",
+    "explanation": "El texto lo indica de forma explicita: «Rita Charon, medica y doctora en literatura de la Universidad de Columbia, acuno el termino «medicina narrativa» en el ano 2000». Es una pregunta de recuperacion de informacion literal. La opcion A es correcta.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Rita Charon, en el ano 2000.", "isCorrect": true },
+      { "letter": "B", "text": "Rita Charon, en 1995.", "isCorrect": false },
+      { "letter": "C", "text": "Un grupo de investigadores de la Universidad de Columbia, en 2000.", "isCorrect": false },
+      { "letter": "D", "text": "La Organizacion Mundial de la Salud, en su informe sobre humanidades medicas de 2001.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "Los ejemplos de «metaforas que revelaban miedos no expresados, silencios que indicaban vergüenza, contradicciones que senalaban ambivalencia» cumplen la funcion de:",
+    "explanation": "El autor enumera tres casos especificos en los que la competencia narrativa permite al medico captar informacion que la consulta convencional no revela. Estos ejemplos muestran que la lectura literaria aplicada a la clinica detecta dimensiones emocionales y psicologicas ocultas en el relato del paciente. La opcion B identifica esta funcion. La opcion A confunde literatura con clinica. La opcion C introduce critica a la formacion, que no es el proposito de estos ejemplos. La opcion D habla de talento literario, lo cual el texto no sugiere.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Demostrar que los pacientes utilizan recursos literarios sofisticados al describir sus sintomas.", "isCorrect": false },
+      { "letter": "B", "text": "Ilustrar de que manera la competencia narrativa permite al medico acceder a informacion clinicamente relevante que de otro modo pasaria inadvertida.", "isCorrect": true },
+      { "letter": "C", "text": "Criticar la formacion medica tradicional por no incluir cursos obligatorios de literatura.", "isCorrect": false },
+      { "letter": "D", "text": "Sugerir que solo los medicos con talento literario innato pueden practicar la medicina narrativa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": null,
+    "questionText": "La afirmacion «la historia del paciente no es un complemento del diagnostico: es parte del diagnostico» reformula la relacion entre narrativa y clinica al:",
+    "explanation": "Tradicionalmente, la narrativa del paciente se considera un elemento subjetivo complementario (la «anamnesis» como paso previo a los examenes objetivos). El autor invierte esta jerarquia al afirmar que la historia ES diagnostico, no solo contexto. Esto eleva la narrativa a categoria clinica fundamental. La opcion C captura esta reformulacion. La opcion A habla de reemplazo de examenes, que el texto no propone. La opcion B introduce responsabilidad del paciente, ajena al argumento. La opcion D reduce la frase a un recurso retorico sin contenido conceptual.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Proponer que las pruebas diagnosticas sean reemplazadas por entrevistas narrativas.", "isCorrect": false },
+      { "letter": "B", "text": "Transferir al paciente la responsabilidad de comunicar su diagnostico al medico.", "isCorrect": false },
+      { "letter": "C", "text": "Elevar la narrativa del paciente de elemento contextual a componente esencial del proceso diagnostico.", "isCorrect": true },
+      { "letter": "D", "text": "Utilizar una hiperbole retorica para captar la atencion del lector sin implicaciones clinicas reales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "Un lector critico podria cuestionar el argumento del texto senalando que:",
+    "explanation": "El texto menciona «estudios en hospitales de Estados Unidos y Europa» pero no ofrece datos cuantitativos especificos (tamanos de muestra, porcentajes de mejora, disenos experimentales). Esto debilita la fuerza probatoria de la evidencia citada, pues el lector no puede evaluar la solidez de los estudios. La opcion A identifica esta limitacion. La opcion B critica el prestigio de Charon, que no es el punto debil. La opcion C introduce costo, un tema ausente. La opcion D habla de contexto latinoamericano, una observacion valida pero secundaria frente a la falta de datos concretos.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Menciona evidencia favorable sin citar datos cuantitativos especificos que permitan evaluar la solidez de los estudios.", "isCorrect": true },
+      { "letter": "B", "text": "Se apoya exclusivamente en la autoridad de Rita Charon sin considerar criticas a su enfoque.", "isCorrect": false },
+      { "letter": "C", "text": "No aborda el costo economico de implementar programas de medicina narrativa en los sistemas de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Utiliza ejemplos de hospitales estadounidenses y europeos que no son transferibles al contexto latinoamericano.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Lea el siguiente texto.\n\n«La medicina genomica promete transformar radicalmente la manera en que prevenimos, diagnosticamos y tratamos las enfermedades. La secuenciacion del genoma humano, completada en 2003 tras trece anos de trabajo y una inversion de casi tres mil millones de dolares, abrio una ventana sin precedentes a la arquitectura biologica de nuestra especie. Hoy, dos decadas despues, secuenciar un genoma completo cuesta menos de doscientos dolares y puede hacerse en horas. Esta reduccion de costos ha hecho viable lo que antes era impensable: la medicina personalizada.\n\nLa farmacogenomica — rama de la medicina genomica que estudia como los genes influyen en la respuesta individual a los farmacos — ofrece quiza el ejemplo mas inmediato de aplicacion clinica. No todos los pacientes responden igual a un mismo medicamento. El clopidogrel, un antiagregante plaquetario ampliamente prescrito tras infartos, es ineficaz en aproximadamente el 30% de los pacientes debido a variantes en el gen CYP2C19 que impiden su metabolizacion. Estos pacientes reciben un medicamento que no funciona en su organismo, con el riesgo de sufrir un nuevo evento cardiovascular. Una prueba farmacogenomica previa a la prescripcion podria evitar esta situacion.\n\nNo obstante, la medicina genomica plantea dilemas eticos que aun no hemos resuelto. ¿Que sucede cuando un analisis genetico revela predisposicion a una enfermedad para la cual no existe tratamiento? ¿Debe informarse al paciente? ¿Y a sus familiares biologicos, que comparten parte de su genoma? ¿Puede una aseguradora exigir pruebas geneticas y discriminar en funcion de los resultados? La tecnologia avanza a una velocidad que la regulacion etica y juridica no logra igualar.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, ¿por que el clopidogrel es ineficaz en aproximadamente el 30% de los pacientes?",
+    "explanation": "El texto lo explica de forma explicita: el clopidogrel es ineficaz «debido a variantes en el gen CYP2C19 que impiden su metabolizacion». Es informacion literal directa. La opcion B es correcta. La opcion A introduce alergias, no mencionadas. La opcion C habla de dosis inadecuada. La opcion D refiere a interacciones farmacologicas, un concepto distinto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Porque estos pacientes presentan una reaccion alergica al principio activo del medicamento.", "isCorrect": false },
+      { "letter": "B", "text": "Porque variantes en el gen CYP2C19 impiden que su organismo metabolice correctamente el farmaco.", "isCorrect": true },
+      { "letter": "C", "text": "Porque la dosis estandar es insuficiente para pacientes con mayor peso corporal.", "isCorrect": false },
+      { "letter": "D", "text": "Porque la interaccion con otros medicamentos anula el efecto antiagregante del clopidogrel.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": null,
+    "questionText": "La frase «la tecnologia avanza a una velocidad que la regulacion etica y juridica no logra igualar» expresa la idea de que:",
+    "explanation": "El autor cierra con una observacion sobre la asimetria temporal entre el progreso tecnico y la respuesta normativa. Las pruebas geneticas ya son posibles, pero las preguntas eticas que generan (informar al paciente, discriminacion por aseguradoras) carecen de marco regulatorio. La opcion C identifica esta idea. La opcion A introduce prohibicion, que el texto no propone. La opcion B habla de obsolescencia legal, que es un efecto, no la idea central. La opcion D sugiere que la etica es un obstaculo, cuando el texto la presenta como necesidad.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Es necesario detener el avance tecnologico hasta que existan regulaciones eticas adecuadas.", "isCorrect": false },
+      { "letter": "B", "text": "Las leyes actuales sobre privacidad genetica son obsoletas y deben ser derogadas.", "isCorrect": false },
+      { "letter": "C", "text": "Las capacidades tecnicas de la medicina genomica superan la capacidad de la sociedad para regular sus implicaciones eticas.", "isCorrect": true },
+      { "letter": "D", "text": "La etica medica es un obstaculo para el desarrollo pleno de la medicina personalizada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "El texto menciona que el costo de secuenciar un genoma paso de «casi tres mil millones de dolares» a «menos de doscientos dolares». Esta informacion se incluye para:",
+    "explanation": "El autor presenta estos dos datos contrastantes — tres mil millones y menos de doscientos dolares — como informacion factual que fundamenta directamente la siguiente afirmacion: «esta reduccion de costos ha hecho viable lo que antes era impensable: la medicina personalizada». La opcion A identifica esta funcion. La opcion B introduce eficiencia gubernamental, un tema ajeno. La opcion C habla de industria tecnologica, que no es el foco. La opcion D sugiere que el genoma fue un gasto innecesario, lo cual contradice el argumento del texto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Demostrar que la reduccion de costos ha convertido la medicina personalizada de una posibilidad teorica en una realidad viable.", "isCorrect": true },
+      { "letter": "B", "text": "Criticar la ineficiencia de los primeros proyectos de secuenciacion financiados con fondos publicos.", "isCorrect": false },
+      { "letter": "C", "text": "Destacar el papel de la industria tecnologica privada en la democratizacion de la medicina genomica.", "isCorrect": false },
+      { "letter": "D", "text": "Argumentar que la secuenciacion del genoma humano fue un gasto innecesario dada la rapida disminucion de costos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": null,
+    "questionText": "Las preguntas que plantea el ultimo parrafo — sobre informar al paciente, a sus familiares y sobre la discriminacion por aseguradoras — tienen en comun que todas:",
+    "explanation": "Las tres preguntas comparten un eje: informacion genetica que puede usarse o retenerse, y en cada caso la decision afecta derechos individuales (autonomia, privacidad, no discriminacion). El autor las plantea como dilemas sin solucion clara para mostrar que la tecnologia genera tensiones eticas nuevas. La opcion B identifica este denominador comun. La opcion A habla de costos, que no es el tema. La opcion C introduce legislacion existente, que el texto dice que falta. La opcion D se centra en el medico, cuando las preguntas involucran multiples actores.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Cuestionan la viabilidad economica de implementar pruebas geneticas a gran escala.", "isCorrect": false },
+      { "letter": "B", "text": "Exponen tensiones no resueltas entre el acceso a informacion genetica y los derechos individuales de privacidad y no discriminacion.", "isCorrect": true },
+      { "letter": "C", "text": "Pueden resolverse aplicando la legislacion vigente sobre proteccion de datos personales.", "isCorrect": false },
+      { "letter": "D", "text": "Senalan la responsabilidad exclusiva del medico en la gestion de la informacion genetica del paciente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Lea el siguiente fragmento.\n\n«Socrates: Imagina una caverna subterranea provista de una larga entrada, abierta a la luz, que se extiende a lo ancho de toda la caverna, y unos hombres que estan en ella desde ninos, atados por las piernas y el cuello, de modo que tengan que estarse quietos y mirar unicamente hacia adelante, pues las ligaduras les impiden volver la cabeza; detras de ellos, la luz de un fuego que arde algo lejos y en plano superior, y entre el fuego y los encadenados, un camino situado en alto, a lo largo del cual imagina que se ha construido un tabiquillo parecido a las mamparas que se alzan entre los titiriteros y el publico, por encima de las cuales exhiben aquellos sus maravillas.\n\nGlaucon: Ya lo veo.\n\nSocrates: Pues bien, ve ahora, a lo largo de esa paredilla, unos hombres que transportan toda clase de objetos, cuya altura sobrepasa la de la pared, y estatuas de hombres o animales hechas de piedra y de madera y de toda clase de materias; entre estos portadores habra, como es natural, unos que vayan hablando y otros que esten callados.\n\nGlaucon: ¡Que extrana escena describes y que extranos prisioneros!\n\nSocrates: Iguales que nosotros, porque en primer lugar, ¿crees que los que estan asi han visto otra cosa de si mismos o de sus companeros sino las sombras proyectadas por el fuego sobre la parte de la caverna que esta frente a ellos?»\n\n(Platon, Republica, Libro VII, siglo IV a.C., traduccion al espanol de obra de dominio publico)",
+    "questionText": "Segun la descripcion de Socrates, los prisioneros de la caverna estan sujetos de tal manera que:",
+    "explanation": "El texto indica explicitamente que los prisioneros estan «atados por las piernas y el cuello, de modo que tengan que estarse quietos y mirar unicamente hacia adelante, pues las ligaduras les impiden volver la cabeza». La opcion C recoge esta informacion literal. La opcion A introduce libertad de movimiento en las manos, no mencionada. La opcion B habla de venda en los ojos, lo cual contradice el texto. La opcion D sugiere que pueden girarse, lo opuesto a lo descrito.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Pueden mover las manos libremente pero no levantarse de su lugar.", "isCorrect": false },
+      { "letter": "B", "text": "Tienen los ojos vendados y solo perciben sonidos del exterior de la caverna.", "isCorrect": false },
+      { "letter": "C", "text": "Solo pueden mirar hacia adelante y ver las sombras proyectadas en la pared frente a ellos.", "isCorrect": true },
+      { "letter": "D", "text": "Estan encadenados por los pies pero pueden girar la cabeza hacia el fuego.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "La respuesta de Glaucon — «¡Que extrana escena describes y que extranos prisioneros!» — seguida de la replica de Socrates — «Iguales que nosotros» — produce un efecto argumentativo que consiste en:",
+    "explanation": "Glaucon percibe la escena como ajena y extrana; Socrates responde que los prisioneros son «iguales que nosotros», convirtiendo la alegoria en un espejo. El efecto argumentativo es obligar al interlocutor (y al lector) a reconocer su propia condicion en lo que creia una situacion ajena. La opcion A identifica este mecanismo. La opcion B reduce la respuesta a humor. La opcion C habla de contradiccion. La opcion D introduce provocacion sin contenido argumentativo.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Obligar al interlocutor a reconocer que la situacion descrita no es fantastica sino una representacion de su propia condicion.", "isCorrect": true },
+      { "letter": "B", "text": "Generar un efecto comico al contrastar la perplejidad de Glaucon con la calma de Socrates.", "isCorrect": false },
+      { "letter": "C", "text": "Demostrar que Glaucon no ha comprendido la alegoria y necesita una explicacion mas detallada.", "isCorrect": false },
+      { "letter": "D", "text": "Provocar a Glaucon para que abandone el dialogo y busque sus propias respuestas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "En el contexto de la alegoria, las sombras proyectadas en la pared representan:",
+    "explanation": "En la alegoria platonica, las sombras son lo unico que los prisioneros conocen, y las toman por la realidad completa. Representan las percepciones limitadas y las creencias no examinadas que los seres humanos confunden con el conocimiento verdadero. La opcion B captura esta interpretacion. La opcion A se refiere a recuerdos, un concepto ajeno. La opcion C introduce engano deliberado, que no es el punto (nadie engana intencionalmente a los prisioneros). La opcion D habla de deseos, una lectura freudiana no sostenida por el texto.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Los recuerdos de experiencias pasadas que los prisioneros conservan desde la infancia.", "isCorrect": false },
+      { "letter": "B", "text": "Las percepciones limitadas que los seres humanos confunden con la realidad verdadera.", "isCorrect": true },
+      { "letter": "C", "text": "Las mentiras que los gobernantes difunden para mantener al pueblo en la ignorancia.", "isCorrect": false },
+      { "letter": "D", "text": "Los deseos y temores inconscientes que determinan la conducta humana.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "Un lector critico podria objetar que la alegoria de la caverna, tal como se presenta en este fragmento:",
+    "explanation": "En la alegoria, los prisioneros estan fisicamente imposibilitados de girar la cabeza, lo que garantiza su ignorancia. Sin embargo, en la vida real, las personas tienen capacidad de buscar informacion, cuestionar y decidir. La alegoria no reconoce la agencia individual de quienes viven en la «caverna», lo cual constituye una limitacion argumentativa. La opcion C identifica esta objecion. La opcion A critica la forma del dialogo, no su contenido. La opcion B introduce un analfabetismo no pertinente. La opcion D habla de comprobacion empirica, pero la alegoria es filosofica, no cientifica.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Utiliza un formato dialogico que dificulta la comprension del argumento central.", "isCorrect": false },
+      { "letter": "B", "text": "Presupone que los interlocutores de Socrates son capaces de leer, lo cual era poco comun en la Grecia clasica.", "isCorrect": false },
+      { "letter": "C", "text": "Presenta la ignorancia como una condicion impuesta externamente sin considerar la posibilidad de que las personas contribuyan activamente a sus propias limitaciones epistemicas.", "isCorrect": true },
+      { "letter": "D", "text": "No ofrece evidencia empirica que respalde la existencia de una realidad mas alla de las percepciones sensoriales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Lea el siguiente texto.\n\n«Antes de que Robert Koch identificara el bacilo de la tuberculosis en 1882 y Louis Pasteur desarrollara las primeras vacunas a partir de microorganismos atenuados, la comprension de las enfermedades infecciosas estaba dominada por la teoria miasmatica. Segun esta teoria, vigente desde la Antiguedad clasica hasta mediados del siglo XIX, las enfermedades eran causadas por «miasmas»: emanaciones pestilentes producidas por la descomposicion de materia organica en pantanos, alcantarillas y zonas insalubres. El aire corrupto era, literalmente, el enemigo.\n\nEsta teoria, aunque erronea en su mecanismo causal, produjo efectos paradojicamente beneficiosos. La conviccion de que el aire contaminado causaba enfermedades impulso campanas de saneamiento urbano en Londres, Paris y otras capitales europeas durante el siglo XIX: se construyeron sistemas de alcantarillado, se pavimentaron calles, se drenaron pantanos y se mejoro la ventilacion de hospitales y viviendas. Estas medidas, diseñadas para combatir los «miasmas», redujeron efectivamente la incidencia de enfermedades infecciosas — no porque eliminaran el aire contaminado, sino porque indirectamente eliminaban los focos de reproduccion de bacterias y vectores de transmision como mosquitos y ratas.\n\nLa transicion de la teoria miasmatica a la teoria del germen no fue una ruptura subita sino un proceso gradual, conflictivo y politicamente cargado. Los defensores de los miasmas — entre ellos influyentes sanitaristas como Edwin Chadwick — resistieron la nueva teoria porque implicaba que sus campanas de limpieza habian funcionado por razones equivocadas. Aceptar la teoria del germen significaba admitir que se habia tenido razon en las acciones pero no en las razones, una paradoja que pocas mentes estan dispuestas a tolerar.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, la teoria miasmatica sostenia que las enfermedades eran causadas por:",
+    "explanation": "El texto lo afirma de forma explicita: las enfermedades eran causadas por «miasmas: emanaciones pestilentes producidas por la descomposicion de materia organica en pantanos, alcantarillas y zonas insalubres». Es informacion literal directa. La opcion A es correcta. La opcion B introduce microorganismos, que corresponden a la teoria del germen. La opcion C habla de contacto directo, un concepto distinto. La opcion D refiere a castigo divino, ausente del texto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Emanaciones toxicas del aire producidas por la descomposicion de materia organica.", "isCorrect": true },
+      { "letter": "B", "text": "Microorganismos invisibles transmitidos a traves del contacto entre personas enfermas y sanas.", "isCorrect": false },
+      { "letter": "C", "text": "El contacto directo con agua estancada contaminada por residuos industriales.", "isCorrect": false },
+      { "letter": "D", "text": "Un castigo divino provocado por la falta de higiene moral de las poblaciones urbanas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": null,
+    "questionText": "La expresion «efectos paradojicamente beneficiosos» se refiere a que la teoria miasmatica:",
+    "explanation": "El autor califica de paradoja el hecho de que una teoria erronea en su mecanismo (los miasmas no causaban enfermedades) produjera acciones que efectivamente redujeron la incidencia de enfermedades infecciosas (saneamiento que eliminaba focos de bacterias). La opcion C recoge esta paradoja. La opcion A invierte la relacion. La opcion B introduce descubrimiento de microorganismos, que fue merito de Koch y Pasteur. La opcion D habla de vacunacion, ajena al punto.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Demostro ser cientificamente correcta a pesar de carecer de evidencia experimental.", "isCorrect": false },
+      { "letter": "B", "text": "Condujo al descubrimiento de los microorganismos como agentes causales de enfermedades.", "isCorrect": false },
+      { "letter": "C", "text": "Motivo intervenciones de saneamiento que redujeron enfermedades, aunque por razones distintas a las que se creian.", "isCorrect": true },
+      { "letter": "D", "text": "Inspiro el desarrollo de las primeras vacunas al demostrar la importancia de la prevencion.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "La frase «se habia tenido razon en las acciones pero no en las razones» plantea un problema epistemologico que un lector critico podria formular como:",
+    "explanation": "El autor describe una situacion en la que las medidas adoptadas (saneamiento) fueron efectivas, pero la justificacion teorica (miasmas) era incorrecta. Un lector critico puede reconocer que esto plantea un problema mas amplio: ¿es valido un conocimiento que produce buenos resultados por razones erroneas? La opcion B formula esta cuestion critica. La opcion A habla de intuicion, pero los sanitaristas tenian una teoria explicita (erronea). La opcion C introduce falsificacion deliberada. La opcion D confunde la paradoja con un debate etico.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Que la intuicion de los sanitaristas era superior al metodo cientifico experimental de su epoca.", "isCorrect": false },
+      { "letter": "B", "text": "Que es posible realizar intervenciones exitosas basadas en teorias cientificamente incorrectas.", "isCorrect": true },
+      { "letter": "C", "text": "Que los cientificos deliberadamente falsificaron sus resultados para justificar las campanas de limpieza.", "isCorrect": false },
+      { "letter": "D", "text": "Que la teoria del germen era moralmente superior a la teoria miasmatica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "La resistencia de los defensores de la teoria miasmatica ante la teoria del germen puede interpretarse como un ejemplo de:",
+    "explanation": "El texto explica que los sanitaristas resistieron la nueva teoria porque «implicaba que sus campanas de limpieza habian funcionado por razones equivocadas». No era un rechazo basado en evidencia contraria, sino en la dificultad psicologica e institucional de aceptar que el marco teorico propio era erroneo. Esto se asemeja al concepto de resistencia al cambio de paradigma. La opcion D identifica este fenomeno. La opcion A introduce ignorancia, que no describe a sanitaristas como Chadwick. La opcion B habla de corrupcion. La opcion C reduce la resistencia a un debate tecnico.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "La ignorancia generalizada de la comunidad medica del siglo XIX frente a los avances cientificos.", "isCorrect": false },
+      { "letter": "B", "text": "La corrupcion de los funcionarios publicos que se beneficiaban economicamente de las campanas de saneamiento.", "isCorrect": false },
+      { "letter": "C", "text": "Un debate tecnico normal entre dos hipotesis igualmente sustentadas por la evidencia disponible.", "isCorrect": false },
+      { "letter": "D", "text": "La dificultad inherente a abandonar un marco teorico consolidado, aun cuando la evidencia lo contradiga.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Lea el siguiente texto.\n\n«La medicina regenerativa representa el horizonte mas ambicioso de la biomedicina contemporanea: la posibilidad de reparar, reemplazar o regenerar tejidos y organos danados en lugar de limitarse a tratar sus sintomas. En el centro de esta promesa se encuentran las celulas madre, organismos celulares con la capacidad unica de diferenciarse en practicamente cualquier tipo de celula del cuerpo humano.\n\nLos avances han sido notables. En 2006, el investigador japones Shinya Yamanaka demostro que era posible reprogramar celulas adultas — como las de la piel — para que volvieran a un estado pluripotente, es decir, capaz de convertirse en cualquier tipo de celula. Estas celulas, denominadas celulas madre pluripotentes inducidas (iPSC), eliminaron una de las mayores barreras eticas de la investigacion: ya no era necesario utilizar embriones humanos como fuente de celulas madre. Yamanaka recibio el Premio Nobel de Medicina en 2012 por este descubrimiento.\n\nSin embargo, la brecha entre la promesa y la practica clinica sigue siendo considerable. Los ensayos con celulas madre han mostrado resultados prometedores en enfermedades como la degeneracion macular, lesiones de medula espinal y diabetes tipo 1, pero la mayoria se encuentra en fases tempranas. Mientras tanto, una industria paralela de «turismo de celulas madre» ha florecido en paises con regulaciones laxas, ofreciendo tratamientos no probados a pacientes desesperados que pagan decenas de miles de dolares por terapias cuya eficacia no ha sido demostrada y cuyos riesgos — incluyendo formacion de tumores — son reales. La esperanza, cuando no esta regulada, se convierte en mercancia.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, ¿que logro demostrar Shinya Yamanaka en 2006?",
+    "explanation": "El texto lo indica de forma explicita: Yamanaka «demostro que era posible reprogramar celulas adultas para que volvieran a un estado pluripotente». La opcion A recoge esta informacion literal. La opcion B introduce embriones, que es justamente lo que Yamanaka evito. La opcion C habla de clonacion, un concepto distinto. La opcion D refiere a organos completos, lo cual el texto no atribuye a Yamanaka.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Que celulas adultas podian reprogramarse para volver a un estado pluripotente capaz de diferenciarse en cualquier tipo celular.", "isCorrect": true },
+      { "letter": "B", "text": "Que los embriones humanos contenian celulas madre con potencial terapeutico para enfermedades degenerativas.", "isCorrect": false },
+      { "letter": "C", "text": "Que era posible clonar organos humanos completos a partir de una sola celula madre embrionaria.", "isCorrect": false },
+      { "letter": "D", "text": "Que las celulas madre de la piel podian utilizarse para generar organos completos listos para trasplante.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": null,
+    "questionText": "La expresion «la esperanza, cuando no esta regulada, se convierte en mercancia» condensa la critica del autor hacia:",
+    "explanation": "El autor dedica el ultimo parrafo a describir el «turismo de celulas madre»: clinicas que venden tratamientos no probados a pacientes desesperados. La frase final sintetiza la critica: la esperanza de los pacientes se instrumentaliza comercialmente en ausencia de regulacion. La opcion C identifica esta critica. La opcion A culpa a la ciencia, pero el autor la distingue de la industria no regulada. La opcion B habla de gobiernos, que son parte del problema pero no el foco directo de la frase. La opcion D introduce medicos, que no son los actores principales del «turismo».",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La comunidad cientifica por generar expectativas irrealistas sobre el potencial de las celulas madre.", "isCorrect": false },
+      { "letter": "B", "text": "Los gobiernos que no destinan suficientes recursos a la investigacion en medicina regenerativa.", "isCorrect": false },
+      { "letter": "C", "text": "La explotacion comercial de pacientes vulnerables mediante tratamientos no probados en un vacio regulatorio.", "isCorrect": true },
+      { "letter": "D", "text": "Los medicos que recomiendan terapias experimentales sin informar adecuadamente a sus pacientes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "El descubrimiento de Yamanaka resolvio un obstaculo etico de la investigacion con celulas madre porque:",
+    "explanation": "El texto explica que las iPSC «eliminaron una de las mayores barreras eticas de la investigacion: ya no era necesario utilizar embriones humanos como fuente de celulas madre». La destruccion de embriones era el principal obstaculo etico, y las iPSC ofrecieron una alternativa que no requiere embriones. La opcion B captura esta relacion. La opcion A introduce terapia genica, un campo distinto. La opcion C habla de pacientes, pero la barrera etica era sobre embriones. La opcion D refiere a patentes, un tema ajeno.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Demostro que la terapia genica era mas segura que el trasplante de celulas madre embrionarias.", "isCorrect": false },
+      { "letter": "B", "text": "Proporciono una fuente de celulas pluripotentes que no requeria la utilizacion de embriones humanos.", "isCorrect": true },
+      { "letter": "C", "text": "Permitio que los pacientes donaran sus propias celulas sin ningun riesgo para su salud.", "isCorrect": false },
+      { "letter": "D", "text": "Elimino la necesidad de obtener patentes sobre materiales biologicos de origen humano.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "Un lector critico podria senalar que el texto presenta una tension no resuelta entre:",
+    "explanation": "El texto dedica el segundo parrafo a los avances (iPSC, Nobel, ensayos prometedores) y el tercero a los riesgos (turismo de celulas madre, tumores, falta de regulacion). Ambas dimensiones coexisten en el texto sin que el autor ofrezca un criterio claro para conciliarlas: ¿cuando una terapia es suficientemente probada para ofrecerse? ¿Quien define el umbral? Esta tension queda abierta. La opcion A la identifica. La opcion B introduce una oposicion que el texto no plantea (ciencia basica vs. aplicada). La opcion C habla de Japon vs. otros paises. La opcion D refiere a Nobel, un aspecto secundario.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "El entusiasmo por el potencial terapeutico de las celulas madre y la ausencia de criterios claros para distinguir las terapias legitimas de las fraudulentas.", "isCorrect": true },
+      { "letter": "B", "text": "La defensa de la investigacion basica y el rechazo a la investigacion aplicada en medicina.", "isCorrect": false },
+      { "letter": "C", "text": "El reconocimiento al trabajo de Yamanaka en Japon y la critica a la falta de investigacion en otros paises.", "isCorrect": false },
+      { "letter": "D", "text": "La valoracion del Premio Nobel como maximo reconocimiento cientifico y la critica al proceso de seleccion de candidatos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "La estructura argumentativa del texto puede describirse como una progresion que va de:",
+    "explanation": "El primer parrafo presenta la promesa de la medicina regenerativa. El segundo describe los avances concretos (iPSC, Yamanaka). El tercero introduce los riesgos y la brecha entre promesa y realidad. Es una progresion de promesa → avance → advertencia critica. La opcion D describe esta estructura. La opcion A omite la advertencia. La opcion B invierte el orden. La opcion C introduce una comparacion historica que no es el eje del texto.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Un problema etico, su solucion tecnica y las consecuencias economicas de la solucion.", "isCorrect": false },
+      { "letter": "B", "text": "Una critica inicial, el reconocimiento de avances parciales y una propuesta de regulacion.", "isCorrect": false },
+      { "letter": "C", "text": "La historia de la medicina regenerativa, una comparacion con la medicina tradicional y una conclusion optimista.", "isCorrect": false },
+      { "letter": "D", "text": "La presentacion de una promesa cientifica, la descripcion de avances concretos y una advertencia critica sobre los riesgos de su instrumentalizacion.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "La mencion de riesgos como la «formacion de tumores» en el contexto del turismo de celulas madre tiene la funcion argumentativa de:",
+    "explanation": "El autor menciona el riesgo concreto de tumores para transformar la critica de abstracta (falta de regulacion) en tangible (dano fisico real). Un paciente que busca curarse podria terminar con cancer. Este dato convierte la advertencia en algo urgente y personal. La opcion B identifica esta funcion. La opcion A habla de oncologia, un campo distinto. La opcion C introduce regulacion farmaceutica como tema central. La opcion D sugiere que el autor quiere disuadir de toda investigacion, lo cual contradice el tono del texto.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Demostrar que la investigacion con celulas madre es inherentemente peligrosa y deberia detenerse.", "isCorrect": false },
+      { "letter": "B", "text": "Dar concrecion y urgencia a la advertencia sobre los tratamientos no probados al evidenciar un dano fisico real y grave.", "isCorrect": true },
+      { "letter": "C", "text": "Introducir un tema nuevo — la oncologia — que el autor desarrollara en los parrafos siguientes.", "isCorrect": false },
+      { "letter": "D", "text": "Equilibrar el tono optimista del texto con informacion negativa para aparentar neutralidad.", "isCorrect": false }
+    ]
+  }
+]

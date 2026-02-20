@@ -8,8 +8,21 @@ export async function GET() {
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
+  // Find cohorts belonging to this coordinator
+  const coordinatorCohorts = await prisma.cohort.findMany({
+    where: { coordinatorId: session.user.id },
+    select: { id: true },
+  });
+  const cohortIds = coordinatorCohorts.map((c) => c.id);
+
   const students = await prisma.user.findMany({
-    where: { role: "STUDENT", enrollmentStatus: "APPROVED" },
+    where: {
+      role: "STUDENT",
+      enrollmentStatus: "APPROVED",
+      cohortStudents: {
+        some: { cohortId: { in: cohortIds } },
+      },
+    },
     select: {
       id: true,
       fullName: true,
@@ -23,7 +36,7 @@ export async function GET() {
         select: { id: true },
       },
       quizAttempts: {
-        select: { score: true },
+        select: { score: true, totalQuestions: true },
       },
       photoUploads: {
         select: { id: true },
@@ -34,7 +47,10 @@ export async function GET() {
 
   const result = students.map((s) => {
     const avgScore = s.quizAttempts.length > 0
-      ? Math.round(s.quizAttempts.reduce((sum, q) => sum + q.score, 0) / s.quizAttempts.length * 100 / 3)
+      ? Math.round(
+          (s.quizAttempts.reduce((sum, q) => sum + q.score, 0) /
+            s.quizAttempts.reduce((sum, q) => sum + q.totalQuestions, 0)) * 100
+        )
       : 0;
 
     return {

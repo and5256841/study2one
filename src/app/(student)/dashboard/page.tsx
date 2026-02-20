@@ -251,7 +251,7 @@ export default function StudentDashboard() {
             style={{ width: `${progressPct}%` }}
           />
         </div>
-        <p className="text-gray-400 text-xs mt-2 text-right">{completedDays} de 120 dias completados</p>
+        <p className="text-gray-400 text-xs mt-2 text-right">{completedDays} de 125 dias completados</p>
       </div>
     </div>
   );

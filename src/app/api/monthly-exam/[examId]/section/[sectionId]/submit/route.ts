@@ -12,6 +12,13 @@ export async function POST(
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
+  if (session.user.role !== "STUDENT") {
+    return NextResponse.json(
+      { error: "Solo estudiantes pueden acceder a simulacros" },
+      { status: 403 }
+    );
+  }
+
   const { examId, sectionId } = await params;
   const body = await req.json();
 
@@ -76,6 +83,22 @@ export async function POST(
 
   // Flush remaining answer events
   if (body.answerEvents && Array.isArray(body.answerEvents) && body.answerEvents.length > 0) {
+    // Build correctness map from DB to avoid trusting client-sent isCorrect
+    const eventOptionIds = body.answerEvents
+      .map((e: { selectedOptionId: string | null }) => e.selectedOptionId)
+      .filter((id: string | null): id is string => !!id);
+
+    const correctnessMap = new Map<string, boolean>();
+    if (eventOptionIds.length > 0) {
+      const options = await prisma.examSectionOption.findMany({
+        where: { id: { in: eventOptionIds } },
+        select: { id: true, isCorrect: true },
+      });
+      for (const opt of options) {
+        correctnessMap.set(opt.id, opt.isCorrect);
+      }
+    }
+
     await prisma.examAnswerEvent.createMany({
       data: body.answerEvents.map((e: {
         questionId: string;
@@ -90,7 +113,7 @@ export async function POST(
         selectedOptionId: e.selectedOptionId || null,
         previousOptionId: e.previousOptionId || null,
         eventType: e.eventType as "SELECTED" | "CHANGED" | "CLEARED",
-        isCorrect: e.isCorrect ?? false,
+        isCorrect: e.selectedOptionId ? (correctnessMap.get(e.selectedOptionId) ?? false) : false,
         timestamp: new Date(e.timestamp),
       })),
     });
@@ -136,9 +159,12 @@ export async function POST(
     totalCorrect = answers.filter((a) => a.selectedOption?.isCorrect).length;
   }
 
-  // Mark section as submitted with server-enforced time
-  await prisma.examSectionAttempt.update({
-    where: { id: sectionAttempt.id },
+  // Atomically mark section as submitted — only if still IN_PROGRESS (prevents double submit)
+  const updated = await prisma.examSectionAttempt.updateMany({
+    where: {
+      id: sectionAttempt.id,
+      status: "IN_PROGRESS",
+    },
     data: {
       status: "SUBMITTED",
       submittedAt: now,
@@ -150,6 +176,13 @@ export async function POST(
         : {}),
     },
   });
+
+  if (updated.count === 0) {
+    return NextResponse.json(
+      { error: "Esta sección ya fue entregada" },
+      { status: 409 }
+    );
+  }
 
   // Check if all sections are now submitted → mark exam complete
   const allSectionAttempts = await prisma.examSectionAttempt.findMany({

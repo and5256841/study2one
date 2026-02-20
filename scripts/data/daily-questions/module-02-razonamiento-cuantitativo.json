@@ -1,0 +1,707 @@
+[
+  {
+    "dayNumber": 1,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "La siguiente tabla muestra el numero de sismos registrados en Colombia segun magnitud y ano:\n\n| Magnitud     | 2010  | 2011  | 2012  | 2013 | 2014  | 2015  |\n|--------------|-------|-------|-------|------|-------|-------|\n| 3.0 a 3.9    | 2.122 | 2.500 | 2.800 | 3.200| 3.900 | 4.566 |\n| 4.0 a 4.9    | 280   | 295   | 305   | 310  | 320   | 340   |\n| 5.0 a 5.9    | 18    | 22    | 20    | 25   | 19    | 23    |\n| 6.0 a 6.9    | 3     | 1     | 2     | 2    | 4     | 4     |\n| 7.0 o mayor  | 0     | 0     | 1     | 1    | 0     | 2     |",
+        "questionText": "Segun la tabla, ¿en que ano se registro exactamente un sismo de magnitud 7.0 o mayor por primera vez?",
+        "explanation": "Para responder, se ubica la fila «7.0 o mayor» y se recorren las columnas buscando la primera aparicion del valor 1. En 2010 hay 0, en 2011 hay 0, y en 2012 aparece el valor 1. Por lo tanto, 2012 es el primer ano con exactamente un sismo de esa magnitud.",
+        "competency": "interpretacion_y_representacion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "2010", "isCorrect": false },
+          { "letter": "B", "text": "2011", "isCorrect": false },
+          { "letter": "C", "text": "2012", "isCorrect": true },
+          { "letter": "D", "text": "2013", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "Toda tabla de datos tiene cuatro elementos fundamentales que se deben identificar antes de buscar cualquier valor. ¿Cuales son?",
+        "explanation": "Segun el cuadernillo, los cuatro elementos fundamentales de una tabla son: el titulo (tema de la informacion), los encabezados de columna (primera fila), los encabezados de fila (primera columna) y las celdas (donde se cruzan filas y columnas con los datos).",
+        "competency": "interpretacion_y_representacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Titulo, ejes, leyenda y escala", "isCorrect": false },
+          { "letter": "B", "text": "Titulo, encabezados de columna, encabezados de fila y celdas", "isCorrect": true },
+          { "letter": "C", "text": "Filas, columnas, totales y porcentajes", "isCorrect": false },
+          { "letter": "D", "text": "Datos, formula, resultado y unidades", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Una tabla de un estudio muestra datos en «miles de habitantes». Un estudiante lee el valor 45 en una celda y lo registra como 45 habitantes para hacer un calculo.",
+        "questionText": "¿Que error cometio el estudiante al leer la tabla?",
+        "explanation": "Uno de los errores mas comunes al leer tablas es no verificar las unidades. Si la tabla indica «miles de habitantes», el valor 45 en la celda representa 45.000 habitantes, no 45. El ICFES frecuentemente coloca este tipo de trampas en los encabezados o titulos de las tablas.",
+        "competency": "argumentacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Confundio filas con columnas", "isCorrect": false },
+          { "letter": "B", "text": "Leyo la celda adyacente en lugar de la correcta", "isCorrect": false },
+          { "letter": "C", "text": "No verifico las unidades indicadas en la tabla; el dato real es 45.000", "isCorrect": true },
+          { "letter": "D", "text": "Aplico incorrectamente el metodo del cruce", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 2,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "La siguiente tabla muestra la inversion en seguridad vial y la tasa de muertes por accidentes en cinco paises:\n\n| Pais   | Inversion (millones USD) | Muertes por cada 100.000 hab. |\n|--------|--------------------------|-------------------------------|\n| Pais A | 320                      | 18.2                          |\n| Pais B | 890                      | 9.4                           |\n| Pais C | 150                      | 24.7                          |\n| Pais D | 410                      | 12.1                          |\n| Pais E | 560                      | 10.8                          |",
+        "questionText": "¿Cuantos paises tienen una tasa de mortalidad menor a 15 por cada 100.000 habitantes?",
+        "explanation": "Se recorre la columna de muertes por cada 100.000 habitantes y se cuentan los valores menores a 15: Pais B (9.4), Pais D (12.1) y Pais E (10.8). Tres paises cumplen la condicion. Pais A (18.2) y Pais C (24.7) estan por encima de 15.",
+        "competency": "interpretacion_y_representacion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "2", "isCorrect": false },
+          { "letter": "B", "text": "3", "isCorrect": true },
+          { "letter": "C", "text": "4", "isCorrect": false },
+          { "letter": "D", "text": "1", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Usando la misma tabla de inversion en seguridad vial, se observa que el Pais B tiene la mayor inversion (890 millones) y la menor tasa de muertes (9.4), mientras que el Pais C tiene la menor inversion (150 millones) y la mayor tasa de muertes (24.7).",
+        "questionText": "A partir de estos datos, un estudiante afirma: «Si el Pais C duplicara su inversion, su tasa de mortalidad bajaria a la mitad». ¿Es valida esta conclusion?",
+        "explanation": "La conclusion no es valida por dos razones. Primera: la relacion entre inversion y mortalidad es una correlacion, no una funcion matematica lineal. No se puede asumir proporcionalidad. Segunda: incluso si hubiera causalidad, no hay evidencia de que sea lineal. Duplicar la inversion no implica necesariamente reducir la mortalidad a la mitad. Es una extrapolacion injustificada.",
+        "competency": "argumentacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Si, porque existe una relacion directa entre inversion y mortalidad", "isCorrect": false },
+          { "letter": "B", "text": "Si, porque los datos muestran que mas inversion siempre reduce la mortalidad proporcionalmente", "isCorrect": false },
+          { "letter": "C", "text": "No, porque la relacion observada es una correlacion y no se puede asumir proporcionalidad ni causalidad directa", "isCorrect": true },
+          { "letter": "D", "text": "No, porque el Pais C no tiene suficiente presupuesto", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Una tabla con porcentajes muestra la distribucion de satisfaccion de pacientes: Muy satisfecho 35%, Satisfecho 42%, Neutral 15%, Insatisfecho 5%, Muy insatisfecho 3%. La muestra total es de 200 pacientes.",
+        "questionText": "¿Cuantos pacientes estan insatisfechos o muy insatisfechos?",
+        "explanation": "Primero se suman los porcentajes de insatisfechos y muy insatisfechos: 5% + 3% = 8%. Luego se calcula el 8% de 200 pacientes: 200 x 0.08 = 16 pacientes. La clave es sumar los porcentajes correctos antes de multiplicar por el total.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "10", "isCorrect": false },
+          { "letter": "B", "text": "16", "isCorrect": true },
+          { "letter": "C", "text": "6", "isCorrect": false },
+          { "letter": "D", "text": "20", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 3,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una grafica de barras muestra el numero de pacientes atendidos en un hospital. La barra del mes de enero mide 5 cm de alto y la barra de marzo mide 10 cm de alto. Sin embargo, el eje Y comienza en 400, no en cero.",
+        "questionText": "¿Es correcto afirmar que en marzo se atendio el doble de pacientes que en enero?",
+        "explanation": "Cuando el eje Y no empieza en cero (escala truncada), la proporcion entre las alturas visuales de las barras NO refleja la proporcion real entre los valores. Para comparar correctamente, se deben leer los valores reales del eje Y, no estimar visualmente las alturas de las barras. Por lo tanto, no se puede afirmar que fueron el doble solo por la altura visual.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Si, porque la barra de marzo es exactamente el doble de alta", "isCorrect": false },
+          { "letter": "B", "text": "Si, siempre que la escala sea uniforme", "isCorrect": false },
+          { "letter": "C", "text": "No, porque al no empezar el eje Y en cero, las diferencias visuales no representan las diferencias reales", "isCorrect": true },
+          { "letter": "D", "text": "No, porque las graficas de barras no permiten comparar valores", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "En una grafica de lineas que muestra la evolucion de un indicador durante 12 meses, la linea desciende los primeros 6 meses, se mantiene estable los siguientes 3 meses y sube los ultimos 3 meses. ¿Como se describe correctamente esta tendencia?",
+        "explanation": "El vocabulario correcto para describir tendencias en graficas de lineas requiere identificar cada fase: la primera es decreciente (la linea baja), la segunda es de estabilizacion (la linea se mantiene horizontal) y la tercera es de recuperacion o crecimiento (la linea sube). Son tres fases claramente diferenciadas.",
+        "competency": "interpretacion_y_representacion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Tendencia decreciente constante", "isCorrect": false },
+          { "letter": "B", "text": "Tendencia decreciente inicial, seguida de estabilizacion y luego recuperacion", "isCorrect": true },
+          { "letter": "C", "text": "Tendencia estable con variaciones menores", "isCorrect": false },
+          { "letter": "D", "text": "Tendencia creciente general con una caida al inicio", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "¿Cuales son los cuatro elementos que se deben identificar en toda grafica antes de responder cualquier pregunta?",
+        "explanation": "Toda grafica tiene cuatro elementos fundamentales: el titulo (tema de la grafica), los ejes (que mide cada eje, X y Y), las unidades (en que se mide el eje Y) y la leyenda (que representa cada color o simbolo cuando hay mas de una serie de datos). Identificarlos antes de analizar los datos evita errores de interpretacion.",
+        "competency": "interpretacion_y_representacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Titulo, fuente, fecha y autor", "isCorrect": false },
+          { "letter": "B", "text": "Barras, lineas, sectores y puntos", "isCorrect": false },
+          { "letter": "C", "text": "Titulo, ejes, unidades y leyenda", "isCorrect": true },
+          { "letter": "D", "text": "Datos, formulas, resultados y conclusiones", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 4,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una grafica circular muestra la distribucion de ingresos de una familia: Vivienda 35%, Alimentacion 25%, Transporte 15%, Educacion 12%, Entretenimiento 8%. El sector de Ahorro no tiene etiqueta.",
+        "questionText": "¿Que porcentaje de los ingresos se destina al ahorro?",
+        "explanation": "En una grafica circular, todos los sectores suman 100%. Se suman los sectores conocidos: 35% + 25% + 15% + 12% + 8% = 95%. El sector faltante es el complemento a 100%: 100% - 95% = 5%. El ahorro representa el 5% de los ingresos.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "3%", "isCorrect": false },
+          { "letter": "B", "text": "5%", "isCorrect": true },
+          { "letter": "C", "text": "7%", "isCorrect": false },
+          { "letter": "D", "text": "10%", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Una grafica de dispersion muestra que los paises con mayor gasto en educacion tienden a tener menor desempleo.",
+        "questionText": "¿Cual de las siguientes conclusiones es la mas apropiada a partir de esta grafica?",
+        "explanation": "Una grafica de dispersion solo puede mostrar si existe correlacion entre dos variables, no causalidad. La opcion correcta describe una correlacion negativa sin afirmar que una variable causa el cambio en la otra. Las frases como «reduce» o «causa» implican causalidad que no puede concluirse de un grafico de dispersion.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "El gasto en educacion reduce el desempleo", "isCorrect": false },
+          { "letter": "B", "text": "Existe una correlacion negativa entre gasto en educacion y desempleo", "isCorrect": true },
+          { "letter": "C", "text": "El desempleo causa que los paises gasten menos en educacion", "isCorrect": false },
+          { "letter": "D", "text": "No existe relacion alguna entre las dos variables", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Cuando los puntos de una grafica de dispersion estan completamente dispersos sin formar ningun patron visible, ¿que se puede concluir?",
+        "explanation": "Si los puntos en una grafica de dispersion estan dispersos sin direccion ni patron, significa que no existe correlacion entre las dos variables o que esta es muy debil. No se puede establecer que las variables cambien juntas de manera sistematica.",
+        "competency": "interpretacion_y_representacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Existe una correlacion positiva fuerte", "isCorrect": false },
+          { "letter": "B", "text": "Las variables tienen una relacion causal directa", "isCorrect": false },
+          { "letter": "C", "text": "No existe correlacion entre las variables, o es muy debil", "isCorrect": true },
+          { "letter": "D", "text": "Hay un error en la recoleccion de datos", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 5,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "La siguiente tabla muestra visitantes en cuatro museos durante el primer semestre:\n\n| Museo          | Enero | Febrero | Marzo | Abril | Mayo  | Junio |\n|----------------|-------|---------|-------|-------|-------|-------|\n| Museo de Arte  | 3.200 | 3.400   | 3.600 | 4.500 | 4.300 | 4.800 |\n| Museo Ciencias | 2.800 | 2.900   | 3.100 | 3.200 | 3.000 | 3.400 |\n| Museo Historia | 1.500 | 1.600   | 1.700 | 1.800 | 1.900 | 2.100 |\n| Museo Infantil | 4.100 | 4.300   | 4.200 | 4.400 | 5.200 | 6.800 |",
+        "questionText": "¿Cual museo tuvo el mayor incremento absoluto en numero de visitantes entre enero y junio?",
+        "explanation": "Se calcula la diferencia junio - enero para cada museo: Arte: 4.800 - 3.200 = 1.600. Ciencias: 3.400 - 2.800 = 600. Historia: 2.100 - 1.500 = 600. Infantil: 6.800 - 4.100 = 2.700. El mayor incremento es 2.700, correspondiente al Museo Infantil.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Museo de Arte (1.600 visitantes)", "isCorrect": false },
+          { "letter": "B", "text": "Museo de Ciencias (600 visitantes)", "isCorrect": false },
+          { "letter": "C", "text": "Museo Infantil (2.700 visitantes)", "isCorrect": true },
+          { "letter": "D", "text": "Museo de Historia (600 visitantes)", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "Segun el protocolo de cinco pasos para resolver preguntas de interpretacion de datos, ¿cual es el primer paso que debes realizar?",
+        "explanation": "El protocolo de cinco pasos establece: 1) Leer el titulo de la representacion, 2) Identificar que mide cada eje o columna, 3) Leer la pregunta completa, 4) Buscar solo los datos necesarios, 5) Verificar la respuesta contra las opciones. El primer paso siempre es leer el titulo para saber de que trata la informacion.",
+        "competency": "interpretacion_y_representacion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Buscar el valor maximo en la tabla o grafica", "isCorrect": false },
+          { "letter": "B", "text": "Leer las opciones de respuesta", "isCorrect": false },
+          { "letter": "C", "text": "Leer el titulo de la representacion", "isCorrect": true },
+          { "letter": "D", "text": "Calcular el promedio de todos los datos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un estudiante analiza la tabla de museos y lee solo las primeras palabras de la pregunta: «¿En que mes el Museo de Arte...?». Sin terminar de leer, busca el mes con mas visitantes del Museo de Arte y responde «junio».",
+        "questionText": "Si la pregunta completa era «¿En que mes el Museo de Arte supero por primera vez los 4.000 visitantes?», ¿cual seria la respuesta correcta?",
+        "explanation": "Se recorre la fila del Museo de Arte: enero 3.200, febrero 3.400, marzo 3.600 (todos por debajo de 4.000). En abril el valor es 4.500, que supera los 4.000 por primera vez. La respuesta es abril, no junio. Este ejemplo ilustra el error de no leer la pregunta completa antes de buscar datos (paso 3 del protocolo).",
+        "competency": "argumentacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Marzo", "isCorrect": false },
+          { "letter": "B", "text": "Abril", "isCorrect": true },
+          { "letter": "C", "text": "Mayo", "isCorrect": false },
+          { "letter": "D", "text": "Junio", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 6,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un hospital tiene 450 camas y el 36% estan ocupadas.",
+        "questionText": "¿Cuantas camas estan ocupadas?",
+        "explanation": "Se aplica la primera operacion fundamental con porcentajes: resultado = cantidad total x porcentaje en decimal. Se convierte 36% a decimal: 0.36. Luego: 450 x 0.36 = 162 camas. Verificacion: 450 x 0.3 = 135, y 450 x 0.06 = 27. Suma: 135 + 27 = 162.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "150", "isCorrect": false },
+          { "letter": "B", "text": "162", "isCorrect": true },
+          { "letter": "C", "text": "170", "isCorrect": false },
+          { "letter": "D", "text": "180", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un precio de 100.000 pesos aumenta un 20%. Luego, el nuevo precio baja un 20%.",
+        "questionText": "¿Cual es el precio final?",
+        "explanation": "Este es un caso de porcentajes sucesivos. Primero: 100.000 x 1.20 = 120.000 (aumento del 20%). Luego: 120.000 x 0.80 = 96.000 (descuento del 20% sobre 120.000). El precio final es 96.000, NO 100.000. Los porcentajes sucesivos no se cancelan porque se aplican sobre valores diferentes: el 20% de aumento se aplica sobre 100.000, pero el 20% de bajada se aplica sobre 120.000.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "100.000 pesos", "isCorrect": false },
+          { "letter": "B", "text": "104.000 pesos", "isCorrect": false },
+          { "letter": "C", "text": "96.000 pesos", "isCorrect": true },
+          { "letter": "D", "text": "98.000 pesos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "El 40% de 200 pacientes tiene diabetes. De esos pacientes con diabetes, el 25% tiene tambien hipertension.",
+        "questionText": "¿Cuantos pacientes tienen ambas enfermedades?",
+        "explanation": "Se aplican los porcentajes en el orden correcto. Primero: el 40% de 200 = 200 x 0.40 = 80 pacientes con diabetes. Luego: el 25% de 80 = 80 x 0.25 = 20 pacientes con ambas enfermedades. El error comun es calcular el 25% de 200 directamente (que daria 50), pero el 25% se refiere solo a los pacientes con diabetes, no a todos.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "50", "isCorrect": false },
+          { "letter": "B", "text": "30", "isCorrect": false },
+          { "letter": "C", "text": "20", "isCorrect": true },
+          { "letter": "D", "text": "10", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 7,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Preparar 10 dosis de un medicamento requiere 250 gramos de principio activo.",
+        "questionText": "¿Cuantos gramos de principio activo se necesitan para preparar 35 dosis?",
+        "explanation": "La relacion es directa: mas dosis requieren mas principio activo. Se aplica regla de tres directa: X = 35 x 250 / 10 = 8.750 / 10 = 875 gramos. Si 10 dosis necesitan 250 g, 35 dosis (3.5 veces mas) necesitan 3.5 veces mas principio activo.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "750 gramos", "isCorrect": false },
+          { "letter": "B", "text": "875 gramos", "isCorrect": true },
+          { "letter": "C", "text": "900 gramos", "isCorrect": false },
+          { "letter": "D", "text": "1.000 gramos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Si 4 medicos tardan 60 dias en atender a todos los pacientes de una campana de salud, se contrata el doble de medicos para reducir el tiempo.",
+        "questionText": "¿Cuantos dias tardarian 8 medicos si trabajan al mismo ritmo?",
+        "explanation": "La relacion entre numero de medicos y dias es inversa: mas medicos hacen el trabajo mas rapido. El producto es constante: 4 medicos x 60 dias = 240. Con 8 medicos: 8 x X = 240, entonces X = 240 / 8 = 30 dias. Con el doble de medicos, el tiempo se reduce a la mitad.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "120 dias", "isCorrect": false },
+          { "letter": "B", "text": "45 dias", "isCorrect": false },
+          { "letter": "C", "text": "30 dias", "isCorrect": true },
+          { "letter": "D", "text": "15 dias", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un presupuesto de salud de 240 millones de pesos se distribuye entre prevencion y tratamiento en proporcion 3 a 5.",
+        "questionText": "¿Cuanto dinero se destina a prevencion?",
+        "explanation": "En un reparto proporcional 3 a 5, el total de partes es 3 + 5 = 8. El valor de una parte es 240 / 8 = 30 millones. Prevencion recibe 3 partes: 3 x 30 = 90 millones. Tratamiento recibe 5 partes: 5 x 30 = 150 millones. Verificacion: 90 + 150 = 240 millones.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "80 millones", "isCorrect": false },
+          { "letter": "B", "text": "90 millones", "isCorrect": true },
+          { "letter": "C", "text": "120 millones", "isCorrect": false },
+          { "letter": "D", "text": "150 millones", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 8,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Los tiempos de espera en minutos de 7 pacientes en una sala de urgencias fueron: 10, 12, 8, 65, 11, 9 y 13.",
+        "questionText": "¿Cual medida de tendencia central es mas representativa del tiempo de espera tipico y cual es su valor?",
+        "explanation": "Los datos ordenados son: 8, 9, 10, 11, 12, 13, 65. La media seria 128/7 = 18.3 minutos, pero esta distorsionada por el valor atipico de 65. La mediana (valor central de 7 datos) es el cuarto valor: 11 minutos. La mediana refleja mejor la experiencia del paciente tipico cuando hay valores extremos.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "La media: 18.3 minutos", "isCorrect": false },
+          { "letter": "B", "text": "La mediana: 11 minutos", "isCorrect": true },
+          { "letter": "C", "text": "La moda: no hay moda", "isCorrect": false },
+          { "letter": "D", "text": "La media: 15 minutos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un medico registro los tiempos de consulta en minutos para 7 pacientes: 12, 15, 10, 18, 14, 11 y 16.",
+        "questionText": "¿Cual es el tiempo promedio (media aritmetica) de consulta?",
+        "explanation": "La media aritmetica se calcula sumando todos los valores y dividiendo entre la cantidad. Suma: 12 + 15 + 10 + 18 + 14 + 11 + 16 = 96. Division: 96 / 7 = 13.7 minutos aproximadamente.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "12.5 minutos", "isCorrect": false },
+          { "letter": "B", "text": "13.7 minutos", "isCorrect": true },
+          { "letter": "C", "text": "14.0 minutos", "isCorrect": false },
+          { "letter": "D", "text": "15.2 minutos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "La media de 5 mediciones de glucemia de un paciente es 95 mg/dL. Se agrega una sexta medicion de 110 mg/dL.",
+        "questionText": "¿Cual es la nueva media de las 6 mediciones?",
+        "explanation": "La suma original de las 5 mediciones era: 95 x 5 = 475 mg/dL. La nueva suma con la sexta medicion: 475 + 110 = 585. La nueva media: 585 / 6 = 97.5 mg/dL. Como el nuevo valor (110) es mayor que la media original (95), la media sube.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "95.0 mg/dL", "isCorrect": false },
+          { "letter": "B", "text": "97.5 mg/dL", "isCorrect": true },
+          { "letter": "C", "text": "100.0 mg/dL", "isCorrect": false },
+          { "letter": "D", "text": "102.5 mg/dL", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 9,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un procedimiento quirurgico utiliza un hilo de 45 centimetros.",
+        "questionText": "¿Cuanto mide el hilo expresado en metros?",
+        "explanation": "Para convertir centimetros a metros se sube 2 peldanos en la escalera del Sistema Internacional, lo que equivale a dividir entre 100. Entonces: 45 / 100 = 0.45 metros.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "4.5 metros", "isCorrect": false },
+          { "letter": "B", "text": "0.045 metros", "isCorrect": false },
+          { "letter": "C", "text": "0.45 metros", "isCorrect": true },
+          { "letter": "D", "text": "4.500 metros", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Una bomba de infusion administra medicamento a razon de 30 mililitros por hora. El medico prescribe una infusion de 4 horas y 30 minutos.",
+        "questionText": "¿Cuantos mililitros de medicamento se administraran en total?",
+        "explanation": "Primero se convierte el tiempo a una sola unidad: 4 horas + 30 minutos = 4 + 30/60 = 4.5 horas. Luego se multiplica: 30 mL/hora x 4.5 horas = 135 mililitros. La clave es convertir los minutos a horas antes de operar.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "120 mililitros", "isCorrect": false },
+          { "letter": "B", "text": "135 mililitros", "isCorrect": true },
+          { "letter": "C", "text": "150 mililitros", "isCorrect": false },
+          { "letter": "D", "text": "140 mililitros", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Una bacteria tiene un tamano de 0.000002 metros.",
+        "questionText": "¿Como se expresa este tamano en notacion cientifica?",
+        "explanation": "Para escribir 0.000002 en notacion cientifica, se mueve el punto decimal 6 lugares a la derecha para obtener un numero entre 1 y 10: 2.0. Como se movio hacia la derecha, el exponente es negativo: 2.0 x 10^(-6) metros. El exponente -6 indica que el numero original es un millon de veces mas pequeno que 2.",
+        "competency": "interpretacion_y_representacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "2.0 x 10^(-5) metros", "isCorrect": false },
+          { "letter": "B", "text": "20 x 10^(-7) metros", "isCorrect": false },
+          { "letter": "C", "text": "2.0 x 10^(-6) metros", "isCorrect": true },
+          { "letter": "D", "text": "0.2 x 10^(-5) metros", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 10,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una clinica tiene una camioneta que consume 12 litros de combustible por cada 100 kilometros. Debe recorrer 350 kilometros para una campana de salud rural. El combustible cuesta 9.500 pesos por litro.",
+        "questionText": "¿Cuanto costara el combustible para el viaje?",
+        "explanation": "Paso 1: calcular litros necesarios con regla de tres directa. Si 100 km requieren 12 litros, 350 km requieren: X = 350 x 12 / 100 = 42 litros. Paso 2: calcular el costo. 42 litros x 9.500 pesos/litro = 399.000 pesos. Verificacion: 350 km son 3.5 veces 100 km, y 42 es 3.5 veces 12.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "342.000 pesos", "isCorrect": false },
+          { "letter": "B", "text": "399.000 pesos", "isCorrect": true },
+          { "letter": "C", "text": "420.000 pesos", "isCorrect": false },
+          { "letter": "D", "text": "380.000 pesos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un estudiante debe calcular la dosis total de un medicamento. La dosis es de 500 miligramos y el paciente necesita 3 tomas diarias durante 7 dias. El estudiante multiplica 500 x 3 = 1.500 miligramos diarios, y luego 1.500 x 7 = 10.500 miligramos totales. Luego afirma: «El paciente necesita 10.500 gramos del medicamento».",
+        "questionText": "¿Que error cometio el estudiante?",
+        "explanation": "El calculo numerico es correcto: 500 x 3 x 7 = 10.500 miligramos. Sin embargo, el estudiante afirmo que son 10.500 gramos en lugar de 10.500 miligramos. Para convertir a gramos: 10.500 mg / 1.000 = 10.5 gramos. El error es de unidades, no de operacion aritmetica. Este es uno de los errores mas frecuentes en la competencia de Formulacion y Ejecucion.",
+        "competency": "argumentacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Multiplico incorrectamente los valores", "isCorrect": false },
+          { "letter": "B", "text": "No convirtio las unidades: el resultado es 10.500 miligramos (10.5 gramos), no 10.500 gramos", "isCorrect": true },
+          { "letter": "C", "text": "Uso regla de tres en lugar de multiplicacion directa", "isCorrect": false },
+          { "letter": "D", "text": "Olvido incluir los dias en el calculo", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "¿Cual de los siguientes NO es un error frecuente en la competencia de Formulacion y Ejecucion del Saber Pro?",
+        "explanation": "Los errores frecuentes identificados en el cuadernillo son: operar sin verificar unidades, confundir porcentaje del total con porcentaje del porcentaje, plantear regla de tres directa cuando es inversa, no verificar si el resultado tiene sentido, y redondear en pasos intermedios. Leer el titulo de la tabla o grafica es un paso correcto del protocolo, no un error.",
+        "competency": "argumentacion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Operar con datos en unidades diferentes sin convertirlas", "isCorrect": false },
+          { "letter": "B", "text": "Confundir el porcentaje del total con el porcentaje del porcentaje", "isCorrect": false },
+          { "letter": "C", "text": "Leer el titulo de la representacion antes de buscar datos", "isCorrect": true },
+          { "letter": "D", "text": "Plantear regla de tres directa cuando la relacion es inversa", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 11,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un estudiante calcula el aumento porcentual del precio de una consulta que subio de 80.000 a 92.000 pesos de la siguiente manera: (92.000 - 80.000) / 92.000 x 100 = 13%.",
+        "questionText": "¿Que tipo de error cometio el estudiante?",
+        "explanation": "El estudiante uso el valor nuevo (92.000) como denominador en lugar del valor original (80.000). La formula correcta es: cambio porcentual = (valor nuevo - valor original) / valor original x 100 = (92.000 - 80.000) / 80.000 x 100 = 12.000 / 80.000 x 100 = 15%. El error es de tipo conceptual: aplico mal la formula al confundir el denominador.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Error de operacion: la resta esta mal calculada", "isCorrect": false },
+          { "letter": "B", "text": "Error conceptual: uso el valor nuevo como denominador en vez del valor original", "isCorrect": true },
+          { "letter": "C", "text": "Error de conversion de unidades", "isCorrect": false },
+          { "letter": "D", "text": "No hay error: el procedimiento es correcto", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un medico necesita administrar 0.5 gramos de un medicamento. El medicamento viene en tabletas de 250 miligramos. Un estudiante plantea: 0.5 / 250 = 0.002 tabletas.",
+        "questionText": "¿Cual es el error en el procedimiento y cuantas tabletas se necesitan realmente?",
+        "explanation": "El error es de conversion de unidades: el estudiante mezclo gramos y miligramos sin convertir. El calculo correcto: 0.5 gramos = 500 miligramos. Luego: 500 mg / 250 mg por tableta = 2 tabletas. El procedimiento conceptual (dividir dosis total entre dosis por tableta) es correcto, pero al no convertir las unidades obtuvo un resultado absurdo de 0.002 tabletas.",
+        "competency": "argumentacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Error de operacion; se necesitan 5 tabletas", "isCorrect": false },
+          { "letter": "B", "text": "Error de conversion de unidades; se necesitan 2 tabletas", "isCorrect": true },
+          { "letter": "C", "text": "Error conceptual; se necesitan 4 tabletas", "isCorrect": false },
+          { "letter": "D", "text": "No hay error; efectivamente se necesitan 0.002 tabletas", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un estudiante calcula la media de los valores 15, 20, 25, 30 y 10. Suma los valores y obtiene 90. Luego divide 90 entre 5 y obtiene 18 como media.",
+        "questionText": "¿Que tipo de error cometio el estudiante?",
+        "explanation": "El procedimiento para calcular la media es correcto (sumar y dividir entre la cantidad de valores), pero hay un error de operacion en la suma. La suma correcta es: 15 + 20 = 35, + 25 = 60, + 30 = 90, + 10 = 100. La suma real es 100, no 90. La media correcta es 100 / 5 = 20. El error es estrictamente aritmetico, no conceptual.",
+        "competency": "argumentacion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Error conceptual: debio calcular la mediana, no la media", "isCorrect": false },
+          { "letter": "B", "text": "Error de interpretacion del resultado", "isCorrect": false },
+          { "letter": "C", "text": "Error de operacion: la suma correcta es 100, no 90", "isCorrect": true },
+          { "letter": "D", "text": "No hay error: la media si es 18", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 12,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un estudio en 15 colegios muestra que los estudiantes que duermen mas de 8 horas tienen mejores calificaciones.",
+        "questionText": "¿Cual de las siguientes conclusiones es la mas apropiada a partir de estos datos?",
+        "explanation": "Los datos muestran una correlacion positiva entre horas de sueno y calificaciones. La opcion A afirma causalidad (dormir «mejora» las calificaciones) sin evidencia suficiente. La opcion C invierte la causalidad sin justificacion. La opcion D niega la relacion cuando los datos si la muestran. Solo la opcion B describe correctamente la asociacion observada.",
+        "competency": "argumentacion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Dormir mas de 8 horas mejora las calificaciones", "isCorrect": false },
+          { "letter": "B", "text": "Existe una correlacion positiva entre horas de sueno y calificaciones", "isCorrect": true },
+          { "letter": "C", "text": "Las mejores calificaciones hacen que los estudiantes duerman mas", "isCorrect": false },
+          { "letter": "D", "text": "No existe ninguna relacion entre sueno y calificaciones", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un analisis de datos hospitalarios muestra que los pacientes que reciben mas visitas de familiares se recuperan mas rapido. Alguien concluye: «Las visitas de familiares aceleran la recuperacion de los pacientes».",
+        "questionText": "¿Que variable de confusion podria explicar esta correlacion sin necesidad de que sea causal?",
+        "explanation": "Una variable de confusion es una tercera variable que puede causar cambios en ambas variables observadas. En este caso, la gravedad de la enfermedad es una variable de confusion plausible: los pacientes con enfermedades menos graves reciben mas visitas (porque se sienten mejor y pueden interactuar) y tambien se recuperan mas rapido, no porque las visitas causen la recuperacion, sino porque ambas cosas son consecuencia de la menor gravedad.",
+        "competency": "argumentacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "El tamano del hospital", "isCorrect": false },
+          { "letter": "B", "text": "La gravedad de la enfermedad: los pacientes menos graves reciben mas visitas y tambien se recuperan mas rapido", "isCorrect": true },
+          { "letter": "C", "text": "El dia de la semana en que se hacen las visitas", "isCorrect": false },
+          { "letter": "D", "text": "No hay ninguna variable de confusion posible", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Cuatro argumentos analizan relaciones entre variables:\n1. «Los paises con mayor gasto en salud publica tienen poblaciones mas longevas, por lo tanto invertir en salud publica aumenta la esperanza de vida».\n2. «Los datos muestran una relacion entre medicos por habitante y mortalidad infantil».\n3. «Esta asociacion merece investigacion adicional para determinar si hay causalidad».\n4. «Se observa que las ciudades con mas parques tienen residentes mas activos fisicamente».",
+        "questionText": "¿Cual argumento comete el error de afirmar causalidad a partir de correlacion?",
+        "explanation": "El argumento 1 usa la expresion «por lo tanto... aumenta la esperanza de vida», lo cual establece una relacion causal directa a partir de datos que solo muestran correlacion. Los argumentos 2, 3 y 4 usan vocabulario apropiado: «muestran una relacion», «merece investigacion adicional» y «se observa», que describen asociacion sin afirmar causalidad.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Argumento 1", "isCorrect": true },
+          { "letter": "B", "text": "Argumento 2", "isCorrect": false },
+          { "letter": "C", "text": "Argumento 3", "isCorrect": false },
+          { "letter": "D", "text": "Argumento 4", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 13,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "En una sala de espera hay 20 pacientes. 8 tienen diagnostico de hipertension, 5 tienen diabetes, 4 tienen ambas enfermedades y 3 tienen otras condiciones.",
+        "questionText": "Si se selecciona un paciente al azar, ¿cual es la probabilidad de que tenga hipertension?",
+        "explanation": "La probabilidad basica se calcula como: resultados favorables / total de resultados posibles. El total de pacientes es 20. Los pacientes con hipertension son 8 (independientemente de si tambien tienen diabetes). Probabilidad = 8 / 20 = 0.40 = 40%. La informacion sobre los pacientes con ambas enfermedades es un distractor.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "20%", "isCorrect": false },
+          { "letter": "B", "text": "40%", "isCorrect": true },
+          { "letter": "C", "text": "25%", "isCorrect": false },
+          { "letter": "D", "text": "60%", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Se realizan 3 cirugias independientes. Cada una tiene un 15% de probabilidad de complicaciones.",
+        "questionText": "¿Cual es la probabilidad de que ninguna de las tres cirugias tenga complicaciones?",
+        "explanation": "La probabilidad de que una cirugia NO tenga complicaciones es 1 - 0.15 = 0.85 (85%). Como las cirugias son independientes, se multiplican las probabilidades: 0.85 x 0.85 x 0.85 = 0.614 aproximadamente, es decir 61.4%. Incluso con cirugias de bajo riesgo individual, la probabilidad acumulada de que todas salgan bien disminuye con cada procedimiento adicional.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "85%", "isCorrect": false },
+          { "letter": "B", "text": "55%", "isCorrect": false },
+          { "letter": "C", "text": "61.4%", "isCorrect": true },
+          { "letter": "D", "text": "45%", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "En un programa de tamizaje neonatal, los ultimos 5 bebes examinados dieron resultado negativo para una enfermedad genetica cuya prevalencia es del 1%. Un colega dice: «El siguiente bebe tiene mas probabilidad de dar positivo porque ya hubo cinco negativos seguidos».",
+        "questionText": "¿Es valido el razonamiento del colega?",
+        "explanation": "El razonamiento del colega es la falacia del jugador: creer que los resultados pasados afectan las probabilidades futuras en eventos independientes. Si la prevalencia es del 1%, cada prueba es un evento independiente con 1% de probabilidad de positivo, sin importar los resultados anteriores. Los cinco negativos previos no cambian la probabilidad del siguiente bebe.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Si, porque estadisticamente debe «compensarse» con un positivo", "isCorrect": false },
+          { "letter": "B", "text": "Si, porque la probabilidad acumulada aumenta con cada prueba negativa", "isCorrect": false },
+          { "letter": "C", "text": "No, porque cada prueba es un evento independiente y la probabilidad sigue siendo 1%", "isCorrect": true },
+          { "letter": "D", "text": "No, porque la prevalencia de la enfermedad deberia ser mayor al 1%", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 14,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una sala de hospitalizacion rectangular tiene 12 metros de largo y 7 metros de ancho. La norma establece que cada paciente debe tener al menos 6 metros cuadrados.",
+        "questionText": "¿Cuantos pacientes puede albergar la sala como maximo?",
+        "explanation": "Primero se calcula el area de la sala: 12 x 7 = 84 metros cuadrados. Luego se divide entre el area minima por paciente: 84 / 6 = 14 pacientes. La clave es identificar que se trata de un calculo de area (largo x ancho) seguido de una division.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "12 pacientes", "isCorrect": false },
+          { "letter": "B", "text": "14 pacientes", "isCorrect": true },
+          { "letter": "C", "text": "16 pacientes", "isCorrect": false },
+          { "letter": "D", "text": "10 pacientes", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Una ambulancia debe llegar desde el hospital hasta un punto de emergencia. El hospital esta en una esquina de una zona rectangular de 6 kilometros de largo y 8 kilometros de ancho, y la emergencia esta en la esquina diagonalmente opuesta.",
+        "questionText": "¿Cual es la distancia en linea recta entre el hospital y el punto de emergencia?",
+        "explanation": "Se aplica el teorema de Pitagoras. Los catetos son 6 km y 8 km. La hipotenusa al cuadrado = 6^2 + 8^2 = 36 + 64 = 100. La hipotenusa = raiz cuadrada de 100 = 10 kilometros. Este es un triangulo pitagorico clasico 6-8-10 (multiplo de 3-4-5).",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "14 kilometros", "isCorrect": false },
+          { "letter": "B", "text": "12 kilometros", "isCorrect": false },
+          { "letter": "C", "text": "10 kilometros", "isCorrect": true },
+          { "letter": "D", "text": "8 kilometros", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un tanque cilindrico de almacenamiento de agua para una clinica tiene un radio de 1.5 metros y una altura de 3 metros. (Use pi = 3.14)",
+        "questionText": "¿Cual es la capacidad aproximada del tanque en litros? (1 metro cubico = 1.000 litros)",
+        "explanation": "Volumen del cilindro = pi x radio^2 x altura. Radio^2 = 1.5^2 = 2.25. Entonces: 3.14 x 2.25 x 3 = 3.14 x 6.75 = 21.195 metros cubicos. Conversion a litros: 21.195 x 1.000 = 21.195 litros, aproximadamente 21.195 litros. La clave es no confundir radio con diametro y recordar la conversion de metros cubicos a litros.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "14.130 litros", "isCorrect": false },
+          { "letter": "B", "text": "21.195 litros", "isCorrect": true },
+          { "letter": "C", "text": "28.260 litros", "isCorrect": false },
+          { "letter": "D", "text": "42.390 litros", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 15,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una grafica circular muestra la distribucion de diagnosticos en una clinica: hipertension 35%, diabetes 22%, infecciones respiratorias 18%, enfermedades cardiovasculares 16%. El quinto sector no tiene etiqueta.",
+        "questionText": "¿Que porcentaje representa el sector sin etiqueta?",
+        "explanation": "En una grafica circular, todos los sectores suman 100%. Se suman los sectores conocidos: 35 + 22 + 18 + 16 = 91%. El sector faltante es el complemento a 100%: 100 - 91 = 9%. Esta es la tecnica del complemento a 100 aprendida en el Dia 4.",
+        "competency": "interpretacion_y_representacion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "7%", "isCorrect": false },
+          { "letter": "B", "text": "9%", "isCorrect": true },
+          { "letter": "C", "text": "11%", "isCorrect": false },
+          { "letter": "D", "text": "13%", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Los pesos en kilogramos de 6 pacientes en un programa de control metabolico son: 85, 92, 78, 95, 88 y 82.",
+        "questionText": "¿Cual es la mediana del grupo?",
+        "explanation": "Primero se ordenan los datos de menor a mayor: 78, 82, 85, 88, 92, 95. Con 6 valores (numero par), la mediana es el promedio del tercer y cuarto valor. Tercer valor: 85. Cuarto valor: 88. Mediana = (85 + 88) / 2 = 173 / 2 = 86.5 kilogramos.",
+        "competency": "formulacion_y_ejecucion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "85 kg", "isCorrect": false },
+          { "letter": "B", "text": "86.5 kg", "isCorrect": true },
+          { "letter": "C", "text": "88 kg", "isCorrect": false },
+          { "letter": "D", "text": "90 kg", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un articulo cientifico concluye: «Los estudiantes de medicina que usan aplicaciones de aprendizaje obtienen mejores resultados en los examenes, por lo tanto las aplicaciones mejoran el aprendizaje».",
+        "questionText": "¿Por que esta conclusion no es valida?",
+        "explanation": "La conclusion comete el error de afirmar causalidad a partir de correlacion. El uso de «por lo tanto... mejoran» establece una relacion causal. Sin embargo, puede haber variables de confusion: los estudiantes mas motivados podrian tanto usar aplicaciones como estudiar mas por cuenta propia. Es la motivacion, no la aplicacion en si, lo que podria explicar los mejores resultados. Solo se puede afirmar que existe una asociacion, no una causalidad.",
+        "competency": "argumentacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Porque no menciona el tamano de la muestra", "isCorrect": false },
+          { "letter": "B", "text": "Porque la correlacion no implica causalidad; puede haber variables de confusion como la motivacion del estudiante", "isCorrect": true },
+          { "letter": "C", "text": "Porque los resultados en examenes no se pueden medir objetivamente", "isCorrect": false },
+          { "letter": "D", "text": "Porque las aplicaciones de aprendizaje no son efectivas", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

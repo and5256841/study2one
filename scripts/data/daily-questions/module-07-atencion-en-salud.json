@@ -1,0 +1,1427 @@
+[
+  {
+    "dayNumber": 1,
+    "questions": [
+      {
+        "caseText": "En un municipio rural del Chocó, la Secretaría de Salud identifica una alta tasa de mortalidad infantil asociada a enfermedades diarreicas agudas. El 70% de las viviendas carece de acueducto y el centro de salud más cercano está a tres horas en lancha.",
+        "explanation": "La causa raíz de la mortalidad infantil por diarrea es la falta de agua segura. La acción de mayor impacto poblacional es eliminar el determinante (agua insegura), no tratar la consecuencia individualmente. Las opciones clínicas (hospital, especialista, rehidratación) son reactivas y no abordan la causa estructural.",
+        "competency": "determinantes",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Construir un hospital pediátrico en la cabecera municipal",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Gestionar sistemas de potabilización de agua y capacitar en manejo higiénico",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Solicitar un pediatra gastroenterólogo permanente para el centro de salud",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Implementar terapia de rehidratación oral en el centro de salud",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál es la acción prioritaria que debe emprender un equipo interdisciplinario en este municipio?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": null,
+        "explanation": "Las cuatro afirmaciones son: (1) determinantes sociales, (2) diagnóstico, ejecución y evaluación de programas, (3) normatividad nacional e internacional, y (4) sistematización de información epidemiológica. «Diagnóstico diferencial y tratamiento clínico» pertenece al módulo de Fundamentación Dx y Tx (Cuadernillo 6), no al de Atención en Salud.",
+        "competency": "programas",
+        "difficulty": "EASY",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Identificar los determinantes sociales de la salud",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Diagnosticar la fase de un programa de salud y el tipo de evaluación que aplica",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Realizar diagnóstico diferencial y seleccionar tratamiento clínico individual",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Leer tablas, calcular indicadores epidemiológicos e interpretar datos de salud",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "El módulo de Atención en Salud del Saber Pro evalúa una competencia central desagregada en cuatro afirmaciones. ¿Cuál de las siguientes NO es una de esas cuatro afirmaciones?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": null,
+        "explanation": "El Cuadernillo 7 plantea un cambio radical: pasar de pensar en pacientes individuales (diagnóstico y tratamiento clínico) a pensar en poblaciones (epidemiología, determinantes, políticas). La unidad de análisis cambia del individuo a la comunidad, lo que modifica la lógica de las respuestas correctas.",
+        "competency": "determinantes",
+        "difficulty": "EASY",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Atención en Salud tiene más preguntas y más tiempo por pregunta",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Fundamentación se centra en el paciente individual; Atención en Salud se centra en poblaciones y salud pública",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Atención en Salud solo evalúa normatividad colombiana",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Fundamentación evalúa enfermedades crónicas y Atención en Salud evalúa enfermedades infecciosas",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál es la diferencia fundamental entre el enfoque del módulo de Fundamentación Dx y Tx y el de Atención en Salud en el Saber Pro?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 2,
+    "questions": [
+      {
+        "caseText": "En departamentos como Cauca y Nariño, la minería ilegal usa mercurio, lo que causa daño renal y neurológico crónico en la población. La economía ilegal surge en gran parte por la falta de alternativas laborales formales en la zona.",
+        "explanation": "La falta de alternativas económicas formales es un determinante estructural (genera la estratificación social y empuja a la población hacia la minería ilegal). La contaminación por mercurio es un determinante intermedio ambiental que media entre esa posición socioeconómica y el daño en salud. La acción correcta apunta a generar alternativas económicas y regular la minería, no solo a tratar los pacientes intoxicados.",
+        "competency": "determinantes",
+        "difficulty": "HARD",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Ambos son determinantes intermedios: contaminación ambiental y exposición laboral",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "La falta de alternativas laborales es un determinante estructural y la contaminación por mercurio es un determinante intermedio ambiental",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Son determinantes individuales relacionados con la decisión personal de trabajar en minería",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "La contaminación por mercurio es un determinante estructural y la falta de empleo es un determinante biológico",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "Según el modelo de determinantes sociales de la OMS, ¿cómo se clasifican los factores involucrados en este escenario?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": null,
+        "explanation": "La capa 4 del modelo de Dahlgren y Whitehead comprende las condiciones de vida y trabajo: vivienda, educación, empleo, acceso a servicios de salud, agua potable, saneamiento básico y seguridad alimentaria. Son los determinantes intermedios más preguntados por el ICFES. La capa 1 son factores individuales (edad, sexo, genética), la capa 2 son estilos de vida, y la capa 5 son condiciones socioeconómicas, culturales y ambientales generales.",
+        "competency": "determinantes",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Capa 1: factores individuales no modificables",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Capa 2: estilos de vida individuales",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Capa 4: condiciones de vida y trabajo",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Capa 5: condiciones socioeconómicas, culturales y ambientales generales",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "En el modelo de Dahlgren y Whitehead, ¿a qué capa corresponden las condiciones de vivienda, acceso a agua potable, saneamiento básico y educación?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": "Según la ENSIN 2015, la desnutrición crónica en menores de 5 años es del 10,8% a nivel nacional, pero alcanza el 34,7% en población indígena y el 15,7% en zona rural dispersa.",
+        "explanation": "El ICFES siempre prioriza la acción que ataca el determinante de fondo sobre la que trata la consecuencia individual. La desnutrición crónica en indígenas y zonas rurales responde a determinantes estructurales como la pobreza, la exclusión étnica y la inseguridad alimentaria. Dar vitaminas es una intervención individualista que no modifica las condiciones que generan la desnutrición a nivel poblacional.",
+        "competency": "determinantes",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Porque las vitaminas no están en el Plan de Beneficios del régimen subsidiado",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Porque las vitaminas son un tratamiento individual que no ataca los determinantes estructurales de la desnutrición",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Porque la desnutrición crónica no se corrige con vitaminas sino con antibióticos",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Porque las comunidades indígenas rechazan culturalmente los suplementos vitamínicos",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "Desde la perspectiva de los determinantes sociales, ¿por qué el ICFES casi nunca acepta «dar vitaminas al niño desnutrido» como respuesta correcta en este tipo de escenarios?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 3,
+    "questions": [
+      {
+        "caseText": "En un tamizaje de VIH realizado a 2.500 gestantes, se encontraron 35 pruebas positivas confirmadas. De esas 35, 12 ya tenían diagnóstico previo y 23 fueron diagnósticos nuevos.",
+        "explanation": "La prevalencia incluye TODOS los casos existentes (nuevos y previos) divididos entre la población total. Prevalencia = 35 / 2.500 × 100 = 1,4%. Usar solo los 23 casos nuevos sería calcular algo cercano a la incidencia, no la prevalencia. Prevalencia mide cuántos TIENEN la enfermedad, sin importar cuándo la adquirieron.",
+        "competency": "datos",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "0,92% (23 / 2.500 × 100)",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "1,4% (35 / 2.500 × 100)",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "1,42% (35 / 2.465 × 100)",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "0,48% (12 / 2.500 × 100)",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál es la prevalencia de VIH en esta población de gestantes?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": null,
+        "explanation": "La incidencia mide cuántos casos NUEVOS aparecen en un período. Permite evaluar la velocidad de aparición de la enfermedad y la efectividad de intervenciones. Si la incidencia baja después de la fumigación, la intervención fue efectiva. La prevalencia mide la carga total (existentes) pero no la velocidad de aparición; la tasa de mortalidad mide muertes, no aparición de casos; la razón compara dos grupos, no mide velocidad.",
+        "competency": "datos",
+        "difficulty": "EASY",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Prevalencia de período",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Incidencia acumulada",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Tasa de mortalidad específica por dengue",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Razón hombre-mujer de los casos",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "Un municipio necesita saber qué tan rápido está apareciendo el dengue en la comunidad y si la fumigación reciente fue efectiva. ¿Cuál indicador epidemiológico es el más apropiado?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": "En una enfermedad con 900 casos totales, la razón hombre a mujer es de 2 a 1.",
+        "explanation": "En una razón de 2:1, por cada 3 casos, 2 son hombres y 1 es mujer. Así, 900 / 3 = 300 mujeres y 600 hombres. El error frecuente es dividir 900 / 2 = 450, confundiendo la razón con una proporción del 50%. La razón compara grupos entre sí, no es una proporción sobre el total.",
+        "competency": "datos",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "450 mujeres",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "300 mujeres",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "225 mujeres",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "600 mujeres",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuántos casos corresponden a mujeres?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 4,
+    "questions": [
+      {
+        "caseText": "En un estudio sobre dengue grave, se encontraron los siguientes factores de riesgo: Diabetes mellitus RR = 2,1 (IC 95%: 1,3–3,4); Obesidad RR = 1,8 (IC 95%: 0,9–3,6); Hipertensión RR = 1,4 (IC 95%: 1,1–1,8); Tabaquismo RR = 1,2 (IC 95%: 0,7–2,1).",
+        "explanation": "La regla de oro: si el IC 95% incluye el 1, la asociación NO es significativa. Diabetes (1,3–3,4) no incluye el 1: significativa. Obesidad (0,9–3,6) incluye el 1: no significativa. Hipertensión (1,1–1,8) no incluye el 1: significativa. Tabaquismo (0,7–2,1) incluye el 1: no significativa. La obesidad tiene RR mayor que la hipertensión, pero su IC incluye el 1, por lo que no es estadísticamente significativa.",
+        "competency": "datos",
+        "difficulty": "HARD",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Diabetes y obesidad, porque tienen los RR más altos",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Solo diabetes, por ser el único factor con RR mayor a 2",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Diabetes e hipertensión, porque sus IC 95% no incluyen el 1",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Los cuatro factores, porque todos tienen RR mayor a 1",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuáles factores muestran asociación estadísticamente significativa con el dengue grave?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": null,
+        "explanation": "El RR se usa en estudios de cohorte (se sigue a expuestos y no expuestos en el tiempo para medir quién enferma). El OR se usa en estudios de casos y controles (se parte de enfermos y sanos y se mira hacia atrás). Ambos se interpretan con la misma regla del IC 95%: si incluye el 1, no es significativo.",
+        "competency": "datos",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "El RR se usa en estudios de cohorte y el OR en estudios de casos y controles",
+            "isCorrect": true
+          },
+          {
+            "letter": "B",
+            "text": "El RR mide factores protectores y el OR mide factores de riesgo",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "El OR es más preciso que el RR independientemente del diseño del estudio",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "El RR se usa cuando hay pocos participantes y el OR cuando hay muchos",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál es la diferencia práctica entre el Riesgo Relativo (RR) y el Odds Ratio (OR) según el tipo de estudio epidemiológico?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": "Una gráfica comparativa muestra que la cobertura de alcantarillado es del 91% en zona urbana y del 15% en zona rural. La cobertura de acueducto es del 96% en zona urbana y del 28% en zona rural.",
+        "explanation": "La mayor brecha indica la mayor inequidad. Alcantarillado: 91% − 15% = 76 puntos de diferencia. Acueducto: 96% − 28% = 68 puntos de diferencia. La mayor brecha está en el alcantarillado (76 puntos), por lo que es la prioridad de inversión para reducir inequidad. Sin embargo, si la pregunta fuera sobre enfermedades transmitidas por agua, el razonamiento adicional llevaría al acueducto.",
+        "competency": "datos",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Acueducto, porque el 28% rural es más bajo que el 15% de alcantarillado rural",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Alcantarillado, porque la brecha urbano-rural es de 76 puntos porcentuales",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Ambos servicios tienen la misma brecha",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "No se puede determinar sin datos de morbilidad asociada",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "Si la pregunta del ICFES pide identificar dónde está la mayor inequidad para priorizar la inversión pública, ¿cuál servicio presenta la mayor brecha?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 5,
+    "questions": [
+      {
+        "caseText": "Una Secretaría de Salud municipal necesita formular su Plan Territorial de Salud. El primer paso es conocer las principales causas de muerte, la distribución demográfica y los determinantes que explican el perfil de enfermedad del territorio.",
+        "explanation": "El ASIS (Análisis de Situación de Salud) es para una comunidad lo que la historia clínica es para un paciente. Es el proceso que caracteriza, mide y explica el perfil de salud-enfermedad de una población. Todo Plan Territorial de Salud debe basarse en un ASIS previo. No se pueden formular intervenciones sin primero diagnosticar la situación.",
+        "competency": "datos",
+        "difficulty": "EASY",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Realizar una campaña de vacunación masiva",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Elaborar un ASIS (Análisis de Situación de Salud) del municipio",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Solicitar transferencia de recursos al Ministerio de Salud",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Contratar especialistas para las IPS del municipio",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Qué proceso debe realizar la Secretaría como primer paso antes de formular el plan?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": "Un equipo de salud pública necesita conocer las principales causas de consulta externa y hospitalización en su municipio para elaborar el componente de morbilidad del ASIS.",
+        "explanation": "El RIPS (Registros Individuales de Prestación de Servicios) contiene los datos de todas las atenciones en salud: consulta externa, hospitalización, urgencias y procedimientos. Es la fuente correcta para datos de morbilidad por consulta y utilización de servicios. El SIVIGILA solo registra enfermedades de notificación obligatoria. El DANE tiene estadísticas vitales. La ENDS mide comportamientos de salud mediante encuesta, no atenciones clínicas.",
+        "competency": "datos",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "SIVIGILA",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "RIPS",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "DANE",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "ENDS",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál fuente de información colombiana es la más apropiada para obtener estos datos?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": "En un municipio, las principales causas de muerte fueron: homicidios (edad promedio de muerte: 25 años), cáncer gástrico (edad promedio: 65 años) y enfermedades cardiovasculares (edad promedio: 68 años). Se usa como edad límite 70 años para calcular los AVPP.",
+        "explanation": "Los AVPP se calculan como: edad límite − edad de la muerte. Homicidios: 70 − 25 = 45 AVPP por muerte. Cáncer gástrico: 70 − 65 = 5 AVPP por muerte. Enfermedades cardiovasculares: 70 − 68 = 2 AVPP por muerte. Los homicidios generan muchos más AVPP porque las víctimas son jóvenes. Esta medida prioriza las causas de muerte que más años de vida arrebatan a la comunidad.",
+        "competency": "datos",
+        "difficulty": "EASY",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Cáncer gástrico, por ser la enfermedad más grave",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Enfermedades cardiovasculares, por ser la primera causa de muerte en Colombia",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Homicidios, porque cada muerte a los 25 años genera 45 AVPP",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Todas generan el mismo número de AVPP",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál causa de muerte genera más Años de Vida Potencialmente Perdidos (AVPP) por cada fallecimiento?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 6,
+    "questions": [
+      {
+        "caseText": null,
+        "explanation": "La Ley 1438 de 2011 define cuatro componentes de la APS para Colombia: (1) acción intersectorial por la salud, (2) participación social y comunitaria, (3) talento humano en salud, y (4) enfoque de riesgo y de curso de vida. Estos son los más preguntados en el Saber Pro. Los 8 componentes de Alma-Ata son los originales de 1978; los de la APS renovada (2007) tienen una estructura diferente.",
+        "competency": "normativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Inmunización, saneamiento básico, nutrición y medicamentos esenciales",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Acción intersectorial, participación social, talento humano y enfoque de riesgo y curso de vida",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Universalidad, solidaridad, eficiencia e integralidad",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Promoción, prevención, tratamiento y rehabilitación",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuáles son los cuatro componentes de la APS adoptados por la Ley 1438 de 2011 en Colombia?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": "Un equipo de APS en un municipio rural realiza visitas domiciliarias y encuentra que el 42% de los adultos mayores tiene hipertensión sin diagnóstico previo. El equipo sistematiza estos hallazgos en un informe con prevalencia por vereda y factores asociados.",
+        "explanation": "Es la fase de diagnóstico, porque están identificando y caracterizando un problema de salud en la población. No es programación (no están planeando la intervención todavía), no es ejecución (no están tratando pacientes) y no es evaluación (no están midiendo el cumplimiento de una meta previa). Los verbos clave «identificar» y «caracterizar» corresponden al diagnóstico.",
+        "competency": "programas",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Programación",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Diagnóstico",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Ejecución",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Evaluación",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿En qué fase del ciclo de un programa de APS se encuentra esta actividad?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": "Un programa de vacunación lleva 18 meses. El equipo revisa que la cobertura de terceras dosis de pentavalente alcanzó el 78% (meta del 95%) y que los casos de tosferina bajaron de 12 en 2023 a cero en 2024.",
+        "explanation": "El equipo está en la fase de evaluación, porque compara coberturas alcanzadas versus metas planteadas y mide el impacto en morbilidad (reducción de casos). Aunque la vacunación siga en marcha (ejecución), la actividad DESCRITA es medir resultados, lo cual es evaluación. El error más común es confundir ejecución con evaluación; solo cuando se miden resultados versus metas es evaluación.",
+        "competency": "programas",
+        "difficulty": "HARD",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Ejecución, porque la vacunación sigue en marcha",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Diagnóstico, porque están identificando la cobertura actual",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Programación, porque están planificando la siguiente fase",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Evaluación, porque comparan coberturas con metas y miden reducción de casos",
+            "isCorrect": true
+          }
+        ],
+        "questionText": "¿En qué fase del ciclo del programa está el equipo al realizar esta revisión?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 7,
+    "questions": [
+      {
+        "caseText": "Un paciente sin documento de identidad ni afiliación al SGSSS llega a urgencias con abdomen agudo. El personal administrativo dice que no puede atenderse sin verificación de derechos.",
+        "explanation": "La Ley 1751 de 2015 (Ley Estatutaria de Salud) consagra la salud como derecho fundamental autónomo e irrenunciable y prohíbe negar la atención de urgencias por motivos administrativos como falta de documento o afiliación. La Ley 100 de 1993 creó el SGSSS pero no tiene esta protección específica. La Constitución de 1991 establece la salud como servicio público (Art. 49), no como derecho fundamental en sí.",
+        "competency": "normativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Ley 100 de 1993",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Constitución de 1991, Artículo 48",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Ley 1751 de 2015",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Resolución 412 de 2000",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Qué norma colombiana obliga a la atención inmediata de este paciente?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": null,
+        "explanation": "La Constitución de 1991 (Art. 49) estableció la salud como un servicio público a cargo del Estado. La Ley 1751 de 2015 cambió su estatus jurídico: la salud pasó a ser un derecho fundamental autónomo e irrenunciable. Esto implica que no se necesita tutela para exigirlo, se eliminan barreras administrativas y el principio de integralidad obliga a atender todo lo necesario.",
+        "competency": "normativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Creó el régimen subsidiado para la población sin capacidad de pago",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Cambió la salud de servicio público a derecho fundamental autónomo e irrenunciable",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Estableció la APS como estrategia central del sistema de salud",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Introdujo el modelo MIAS y las Rutas Integrales de Atención",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál fue el cambio de paradigma que introdujo la Ley 1751 de 2015 respecto a la Constitución de 1991?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": null,
+        "explanation": "La Ley 100 de 1993 creó el régimen contributivo (trabajadores formales y sus familias, que aportan un porcentaje del salario) y el régimen subsidiado (población sin capacidad de pago, financiado con recursos públicos). También existe el régimen de excepción (fuerzas militares, policía, Ecopetrol, magisterio) con sus propios sistemas, pero los dos principales son contributivo y subsidiado.",
+        "competency": "normativa",
+        "difficulty": "EASY",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Régimen de excepción y régimen especial",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Régimen público y régimen privado",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Régimen contributivo y régimen subsidiado",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Régimen preventivo y régimen curativo",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuáles son los dos regímenes de afiliación principales creados por la Ley 100 de 1993?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 8,
+    "questions": [
+      {
+        "caseText": "Un programa de salud bucal en escuelas incluye: talleres para niños sobre cepillado correcto, formación a padres como multiplicadores de hábitos saludables, capacitación a maestros para supervisar el cepillado, e inclusión del tema en el proyecto educativo institucional.",
+        "explanation": "Los talleres para niños corresponden al área 4: desarrollo de aptitudes personales (educación en salud para decisiones informadas). La formación de padres y maestros como multiplicadores corresponde al área 3: fortalecimiento de la acción comunitaria (empoderar a la comunidad para participar en salud). La inclusión en el proyecto educativo institucional podría verse como construcción de políticas, pero las dos áreas principales son aptitudes personales y acción comunitaria.",
+        "competency": "normativa",
+        "difficulty": "HARD",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Reorientación de los servicios de salud y creación de entornos favorables",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Construcción de políticas públicas saludables y reorientación de servicios",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Desarrollo de aptitudes personales y fortalecimiento de la acción comunitaria",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Creación de entornos favorables y desarrollo de aptitudes personales",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuáles áreas de acción de la Carta de Ottawa de 1986 sustentan mejor este programa?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": "En 2023, Colombia reportó una razón de mortalidad materna de 48,9 por 100.000 nacidos vivos. La meta 3.1 de los ODS establece reducir esta cifra a menos de 70 por 100.000 para 2030.",
+        "explanation": "El ICFES siempre privilegia la respuesta que reconoce las inequidades territoriales. Aunque la cifra nacional (48,9) está por debajo de la meta ODS (70), persisten desigualdades departamentales: departamentos como Vaupés, Chocó y Guainía tienen razones muy superiores al promedio nacional. Los promedios nacionales ocultan inequidades regionales y no todos los territorios cumplen la meta.",
+        "competency": "normativa",
+        "difficulty": "HARD",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Colombia ya cumplió la meta y puede redirigir recursos a otras prioridades",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "La cifra muestra un aumento sostenido que requiere intervención inmediata",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Los datos son insuficientes para evaluar el cumplimiento",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Aunque la cifra nacional cumple la meta, persisten inequidades departamentales donde algunos territorios no la alcanzan",
+            "isCorrect": true
+          }
+        ],
+        "questionText": "¿Cuál es la interpretación correcta de esta situación según la lógica del ICFES?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": null,
+        "explanation": "El Reglamento Sanitario Internacional (RSI) de 2005 es un instrumento jurídico vinculante para 196 países. Su objetivo es prevenir la propagación internacional de enfermedades. Obliga a notificar a la OMS en 24 horas y a mantener capacidades de vigilancia y respuesta. Ejemplos de ESPII: COVID-19, Mpox, Ébola, poliomielitis. La Carta de Ottawa es sobre promoción de la salud, los ODS son metas de desarrollo, y la Declaración de Alma-Ata es sobre APS.",
+        "competency": "normativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "La Carta de Ottawa de 1986",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Los Objetivos de Desarrollo Sostenible",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "El Reglamento Sanitario Internacional (RSI) de 2005",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "La Declaración de Alma-Ata de 1978",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál instrumento jurídico internacional obliga a los países a notificar a la OMS cualquier evento que pueda constituir una Emergencia de Salud Pública de Importancia Internacional (ESPII) en 24 horas?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 9,
+    "questions": [
+      {
+        "caseText": "Un hospital audita si el 100% de sus IPS tiene cadena de frío operativa para vacunas, con temperatura adecuada y equipos de refrigeración en buen estado.",
+        "explanation": "Es evaluación de estructura, porque mide los recursos disponibles para operar el programa: infraestructura, equipamiento, insumos. No es evaluación de proceso (no mide si las vacunas se están aplicando correctamente) ni de resultado (no mide cobertura ni reducción de enfermedad). Estructura pregunta: «¿tenemos lo necesario para operar?»",
+        "competency": "programas",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Evaluación de proceso",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Evaluación de resultado",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Evaluación de estructura",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Evaluación de eficiencia",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "Según el modelo de Donabedian, ¿a qué tipo de evaluación corresponde esta auditoría?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": "Un equipo de salud pública verifica que el 95% de las gestantes captadas antes de la semana 12 recibieron su primer control prenatal según el protocolo establecido.",
+        "explanation": "Es evaluación de proceso, porque mide si las actividades planificadas se están ejecutando correctamente (controles prenatales realizados según protocolo). La evaluación de proceso pregunta: «¿estamos haciendo lo que dijimos que haríamos?» No es estructura (no evalúa recursos sino actividades realizadas) ni resultado (no mide si la mortalidad materna bajó).",
+        "competency": "programas",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Evaluación de estructura",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Evaluación de proceso",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Evaluación de resultado",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Evaluación de efectividad",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿A qué tipo de evaluación de Donabedian corresponde esta verificación?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": "Ante un brote de dengue en un municipio, la Secretaría de Salud activa la sala de análisis de riesgo, la empresa de servicios públicos fumiga criaderos, el sector educativo integra campañas en escuelas y planeación municipal prioriza la recolección de basuras.",
+        "explanation": "Cuando múltiples sectores (salud, servicios públicos, educación, planeación) actúan coordinadamente para abordar un problema de salud con determinantes en varios ámbitos, se denomina acción intersectorial en salud. Es un principio de la APS renovada. No es participación comunitaria (la comunidad no es la que actúa, sino las instituciones), no es solo APS (la APS es un modelo más amplio), y no es vigilancia epidemiológica (que es solo una parte de la respuesta).",
+        "competency": "programas",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Participación comunitaria en salud",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Vigilancia epidemiológica activa",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Acción intersectorial en salud",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Gestión del riesgo en emergencias sanitarias",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cómo se denomina este tipo de respuesta coordinada entre múltiples sectores del gobierno?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 10,
+    "questions": [
+      {
+        "caseText": "Un municipio del Chocó tiene mortalidad infantil tres veces mayor al promedio nacional. La comunidad es mayoritariamente afrocolombiana, con acceso limitado a agua potable y el 68% de Necesidades Básicas Insatisfechas.",
+        "explanation": "El problema no es individual (hábitos de las madres) ni solo de servicios de salud (falta de vacunas). Es la combinación de pobreza estructural, exclusión étnica y ausencia de infraestructura sanitaria. Estos son determinantes estructurales e intermedios que operan a nivel poblacional. El modelo OMS no privilegia respuestas individuales cuando el problema es claramente estructural.",
+        "competency": "determinantes",
+        "difficulty": "HARD",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Falta de educación de las madres sobre signos de alarma neonatal",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Condiciones estructurales de pobreza, exclusión étnica y ausencia de infraestructura sanitaria",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Alta carga genética de enfermedades pediátricas en población afrocolombiana",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Baja cobertura del programa ampliado de inmunización",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "Según el modelo de determinantes sociales de la OMS, ¿qué factor explica mejor esta desigualdad en salud?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": "Un municipio tiene 85.000 habitantes, 3.400 personas con diabetes mellitus tipo 2 diagnosticadas al 1 de enero de 2024, 510 casos nuevos durante 2024 y 68 muertes por DM2 en el mismo año.",
+        "explanation": "La prevalencia de período incluye los casos existentes al inicio MÁS los casos nuevos del período, dividido entre la población total. Casos totales = 3.400 + 510 = 3.910. Prevalencia de período = 3.910 / 85.000 = 0,046 = 46 por mil. El error frecuente es usar solo los casos iniciales (40 por mil) o solo los nuevos (6 por mil). Las muertes no se restan del numerador en la prevalencia de período.",
+        "competency": "datos",
+        "difficulty": "HARD",
+        "options": [
+          {
+            "letter": "A",
+            "text": "40 por mil (3.400 / 85.000)",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "6 por mil (510 / 85.000)",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "46 por mil (3.910 / 85.000)",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "39,3 por mil (3.342 / 85.000)",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál es la prevalencia de período de DM2 durante 2024?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": "En un estudio de casos y controles sobre dengue grave: infección previa por serotipo diferente OR = 4,8 (IC: 2,1–10,9); desnutrición crónica OR = 2,3 (IC: 0,7–7,6); uso de AINES OR = 3,1 (IC: 1,4–6,8); distancia al hospital OR = 1,9 (IC: 0,5–7,2).",
+        "explanation": "Aplicando la regla del IC 95%: Infección previa (IC: 2,1–10,9) no incluye el 1: significativa. Desnutrición (IC: 0,7–7,6) incluye el 1: no significativa. Uso de AINES (IC: 1,4–6,8) no incluye el 1: significativa. Distancia al hospital (IC: 0,5–7,2) incluye el 1: no significativa. La regla aplica igual para OR y RR.",
+        "competency": "datos",
+        "difficulty": "HARD",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Solo infección previa, por tener el OR más alto",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Los cuatro factores, porque todos tienen OR mayor a 1",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Infección previa y uso de AINES, porque sus IC no incluyen el 1",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Infección previa y desnutrición, por ser factores biológicos",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuáles factores muestran asociación estadísticamente significativa con dengue grave?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 11,
+    "questions": [
+      {
+        "caseText": "Un barrio popular de Bucaramanga tiene el 45% de los hogares cocinando con leña o carbón dentro de la vivienda. El puesto de salud registra un aumento de EPOC en mujeres mayores de 50 años.",
+        "explanation": "La causa del EPOC en estas mujeres no es el tabaquismo individual, sino la exposición crónica al humo de biomasa, un determinante ambiental e intermedio. La acción que ataca ese determinante es la sustitución de estufas de leña por estufas limpias. Las opciones clínicas (neumólogo, broncodilatadores, hospital) tratan el daño ya causado pero no eliminan la fuente de exposición.",
+        "competency": "determinantes",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Remitir a todas las mujeres con síntomas respiratorios al neumólogo",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Sustituir las estufas de leña por estufas limpias y capacitar sobre ventilación adecuada",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Construir un hospital con servicio de neumología en el barrio",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Iniciar tratamiento con broncodilatadores a todas las mujeres mayores de 50 años",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál es la acción más apropiada para abordar el determinante de fondo de esta situación?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": null,
+        "explanation": "La educación como sistema es un determinante estructural porque refleja desigualdades en el acceso que generan estratificación social y posicionan a la persona en la jerarquía socioeconómica. El error frecuente es clasificar «educación» como intermedio porque parece una condición individual. Los determinantes intermedios median entre la posición social y la salud (como vivienda o agua), pero la educación determina esa posición social misma.",
+        "competency": "determinantes",
+        "difficulty": "HARD",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Intermedio, porque es una condición de vida individual",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Biológico, porque afecta la capacidad cognitiva de tomar decisiones",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Estructural, porque refleja desigualdades en el acceso a la educación que generan estratificación social",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Ambiental, porque depende de la presencia de escuelas en la zona",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "En el modelo de determinantes sociales de la OMS, la baja escolaridad de las madres en un municipio rural se clasifica como determinante:",
+        "questionOrder": 2
+      },
+      {
+        "caseText": "Un programa de tamizaje para tuberculosis latente usa la prueba de tuberculina. La sensibilidad es del 70% y la especificidad del 95%. El objetivo es no dejar sin detectar ningún caso de TB latente en una comunidad de alta prevalencia.",
+        "explanation": "En un programa donde el objetivo es no perder casos (contexto de alta prevalencia y alto riesgo), la sensibilidad es la prioridad. La sensibilidad mide la capacidad de detectar correctamente a los enfermos (verdaderos positivos / total de enfermos). Es más grave no detectar un enfermo (falso negativo) que generar falsos positivos que luego se confirman con pruebas adicionales. La especificidad importa más cuando el costo del falso positivo es alto.",
+        "competency": "datos",
+        "difficulty": "HARD",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Especificidad, para evitar tratar a personas sanas",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Valor predictivo positivo, para confirmar los diagnósticos",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Sensibilidad, para minimizar los casos no detectados",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Valor predictivo negativo, para asegurar que los negativos son realmente sanos",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Qué propiedad de la prueba es más importante priorizar para este objetivo?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 12,
+    "questions": [
+      {
+        "caseText": "Un equipo de salud de un municipio rural de Boyacá realiza visitas domiciliarias, detecta hipertensos no diagnosticados y sistematiza los hallazgos en un informe con prevalencia por vereda y factores asociados. Luego, el equipo define que realizará 200 tomas de presión arterial por mes durante seis meses con meta de detección del 80%.",
+        "explanation": "Definir metas, recursos y cronograma de intervención corresponde a la fase de Planear (P) del ciclo PHVA, equivalente a la programación en el ciclo de un programa de salud. Las visitas previas de detección fueron diagnóstico; la definición de actividades con metas es programación/planificación. «Planificar, programar, definir recursos» son los verbos clave de esta fase.",
+        "competency": "programas",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Hacer (H), porque están organizando las actividades del programa",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Planear (P), porque están programando recursos, actividades y metas",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Verificar (V), porque están comparando datos con objetivos",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Actuar (A), porque están ajustando la estrategia inicial",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿En qué fase del ciclo PHVA se encuentra la actividad de definir las 200 tomas de presión por mes y la meta de detección?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": "Un usuario del régimen subsidiado necesita un medicamento para su enfermedad crónica. Le informan que debe presentar tutela porque el medicamento no está incluido en el Plan de Beneficios.",
+        "explanation": "El principio de integralidad de la Ley 1751 establece que los servicios de salud deben cubrir todo lo necesario para el paciente, no solo lo incluido en una lista. Si el medicamento es necesario para su condición, el sistema debe proveerlo sin esperar una tutela. La Ley 1751 eliminó las barreras administrativas para garantizar el derecho fundamental a la salud.",
+        "competency": "normativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Universalidad, porque no hay cobertura para todos los colombianos",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Solidaridad, porque los que tienen más no están subsidiando a los que tienen menos",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Integralidad, porque se niega la atención completa que el paciente necesita",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Eficiencia, porque los recursos no se están usando adecuadamente",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Qué principio de la Ley 1751 de 2015 está siendo vulnerado en esta situación?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": "Un departamento colombiano prioriza intervenciones para reducir la violencia intrafamiliar y el consumo de sustancias psicoactivas.",
+        "explanation": "El eje de «condiciones y situaciones que afectan la salud» del PDSP 2022-2031 incluye la convivencia social y la salud mental, que abarca violencia intrafamiliar y consumo de sustancias psicoactivas. No es gestión diferencial de poblaciones (que se refiere a víctimas, discapacidad, etnias, género), no es salud ambiental (entorno físico) ni fortalecimiento de la autoridad sanitaria.",
+        "competency": "normativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Gestión diferencial de poblaciones y territorios",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Salud ambiental",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Condiciones y situaciones que afectan la salud",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Fortalecimiento de la autoridad sanitaria",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Con qué eje estratégico del PDSP 2022-2031 se relacionan más directamente estas intervenciones?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 13,
+    "questions": [
+      {
+        "caseText": "En una comunidad indígena del Vaupés, el 64% de los menores de 5 años presenta desnutrición crónica. La comunidad depende de la pesca y la agricultura de subsistencia, con acceso limitado a alimentos fortificados y sin programa de complementación alimentaria activo. El centro de salud más cercano está a 8 horas en lancha.",
+        "explanation": "La inseguridad alimentaria derivada de condiciones geográficas de aislamiento y la ausencia de políticas de complementación es una combinación de determinantes estructurales (falta de políticas) e intermedios (aislamiento geográfico). El desconocimiento materno culpa al individuo, la carga genética de baja talla es incorrecta en este contexto, y la baja cobertura del PAI se refiere a vacunación, que es irrelevante para la desnutrición.",
+        "competency": "determinantes",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Desconocimiento de las madres sobre grupos de alimentos",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Inseguridad alimentaria por aislamiento geográfico y ausencia de políticas de complementación",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Alta carga genética de baja talla en poblaciones indígenas amazónicas",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Baja cobertura del programa ampliado de inmunización en la comunidad",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál determinante social explica mejor la alta prevalencia de desnutrición crónica en esta comunidad?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": "Un programa municipal de control de hipertensión tiene los siguientes resultados tras dos años: 2.340 hipertensos identificados (meta de 2.000), 1.680 con tratamiento activo (72% de los identificados), y 890 con tensión arterial controlada (53% de los tratados).",
+        "explanation": "El porcentaje de hipertensos con tensión arterial controlada es el indicador de resultado/impacto, porque mide si el estado de salud de la población realmente cambió. El número de identificados es un indicador de cobertura/proceso, y el porcentaje con tratamiento activo es un indicador de proceso. El impacto sobre la salud se mide por la tensión controlada, que previene infartos y ACV.",
+        "competency": "programas",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "El número de hipertensos identificados (2.340), porque supera la meta",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "El porcentaje de identificados con tratamiento activo (72%)",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "El porcentaje de hipertensos tratados con tensión arterial controlada (53%)",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "La meta cumplida de 2.000 hipertensos identificados",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál indicador mide mejor el IMPACTO del programa sobre la salud de la población?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": "La Constitución Política de Colombia de 1991 en su Artículo 49 establece que la atención de la salud es:",
+        "explanation": "El Artículo 49 establece que la atención de la salud y el saneamiento ambiental son servicios públicos a cargo del Estado, y garantiza el acceso a servicios de promoción, protección y recuperación. La salud como «derecho fundamental autónomo e irrenunciable» fue establecida por la Ley 1751 de 2015, no por la Constitución. Esta distinción es frecuente en el ICFES.",
+        "competency": "normativa",
+        "difficulty": "HARD",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Un derecho fundamental autónomo e irrenunciable",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Un servicio público a cargo del Estado con garantía de acceso a promoción, protección y recuperación",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Un bien público de libre mercado regulado por el SGSSS",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Un derecho colectivo asociado exclusivamente al saneamiento ambiental",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál es la definición correcta según el Artículo 49 de la Constitución de 1991?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 14,
+    "questions": [
+      {
+        "caseText": "El municipio de Tumaco reporta 230.000 habitantes y 340 casos nuevos de leishmaniasis cutánea notificados al SIVIGILA en el primer semestre de 2024.",
+        "explanation": "Los 340 son casos NUEVOS notificados, por lo que el indicador apropiado es la incidencia acumulada: 340 / 230.000 × 100.000 = 147,8 por 100.000 habitantes. No es prevalencia de período (necesitaría incluir los casos previos existentes), no es tasa de mortalidad (no hay datos de muertes), y no es letalidad (requiere muertes sobre casos).",
+        "competency": "datos",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Prevalencia de período de leishmaniasis",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Incidencia acumulada de leishmaniasis",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Tasa de mortalidad específica por leishmaniasis",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Tasa de letalidad por leishmaniasis",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál indicador describe mejor esta situación epidemiológica?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": "En un estudio sobre factores de riesgo para caídas en adultos mayores institucionalizados: uso de benzodiacepinas RR = 2,8 (IC 95%: 1,4–5,6); piso húmedo RR = 3,1 (IC 95%: 0,7–13,8).",
+        "explanation": "Solo el uso de benzodiacepinas muestra asociación significativa. Su IC (1,4–5,6) no incluye el 1. El piso húmedo tiene un RR más alto (3,1 vs 2,8) pero su IC amplísimo (0,7–13,8) incluye el 1, indicando que el resultado pudo ser azar. El RR más alto no es automáticamente el más importante si su IC incluye el 1.",
+        "competency": "datos",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Solo piso húmedo, porque tiene el RR más alto (3,1)",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Ambos factores, porque ambos tienen RR mayor a 1",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "Solo uso de benzodiacepinas, porque su IC 95% no incluye el 1",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "Ninguno, porque ambos IC son muy amplios",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál factor muestra asociación estadísticamente significativa con las caídas?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": "Una EPS implementa una ruta que incluye captación temprana de gestantes antes de la semana 12, controles prenatales según guía de práctica clínica, referencia según riesgo y seguimiento posparto en los primeros siete días.",
+        "explanation": "Las RIAS de eventos específicos están diseñadas para condiciones de salud concretas con intervenciones definidas. La ruta materno-perinatal es un ejemplo clásico de RIAS de evento específico (control prenatal). Las RIAS de promoción y mantenimiento aplican a toda la población sana según curso de vida. Las RIAS de grupos de riesgo aplican a personas con factores de riesgo antes de desarrollar enfermedad.",
+        "competency": "normativa",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "RIAS de promoción y mantenimiento de la salud",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "RIAS de grupos de riesgo",
+            "isCorrect": false
+          },
+          {
+            "letter": "C",
+            "text": "RIAS de eventos específicos",
+            "isCorrect": true
+          },
+          {
+            "letter": "D",
+            "text": "RIAS de aseguramiento y gestión financiera",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿A qué tipo de RIAS del modelo MAITE corresponde esta ruta?",
+        "questionOrder": 3
+      }
+    ]
+  },
+  {
+    "dayNumber": 15,
+    "questions": [
+      {
+        "caseText": null,
+        "explanation": "El principio 2 establece que el ICFES casi siempre prefiere la acción que elimina el determinante estructural o intermedio sobre la acción que trata la consecuencia. La falta de agua es la causa de la diarrea; la pobreza y falta de inversión son la causa de la falta de agua. La acción de mayor impacto ataca la causa más raíz que sea modificable.",
+        "competency": "determinantes",
+        "difficulty": "EASY",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Principio 1: piensa en poblaciones, no en pacientes",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Principio 2: la causa de la causa es más importante que la causa",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Principio 3: el IC 95% es tu árbitro en epidemiología",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Principio 4: cada norma tiene su propósito específico",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál de los cinco principios de consolidación del módulo de Atención en Salud establece que «la causa de la causa es más importante que la causa»?",
+        "questionOrder": 1
+      },
+      {
+        "caseText": "Un estudiante se enfrenta al módulo de Atención en Salud del Saber Pro. Una pregunta describe un escenario donde una comunidad rural tiene alta tasa de enfermedad diarreica aguda. Las opciones incluyen: instalar un puesto de rehidratación oral, construir un acueducto comunitario, capacitar a las madres sobre lavado de manos, y solicitar un pediatra para el centro de salud.",
+        "explanation": "Construir un acueducto ataca el determinante estructural de la enfermedad diarreica (falta de agua segura). Las demás opciones son reactivas e individualistas: la rehidratación trata la consecuencia, la capacitación es un enfoque individual que no garantiza acceso a agua, y el pediatra trata pacientes pero no elimina la causa. En este módulo, la respuesta que elimina la causa raíz a nivel poblacional es casi siempre la correcta.",
+        "competency": "determinantes",
+        "difficulty": "MEDIUM",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Instalar un puesto de rehidratación oral, porque es la intervención más rápida",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Construir un acueducto comunitario, porque ataca el determinante estructural",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Capacitar a las madres sobre lavado de manos, porque la educación previene enfermedades",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Solicitar un pediatra, porque es la intervención clínica más apropiada",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "Aplicando la estrategia del módulo, ¿cuál es la respuesta correcta y por qué?",
+        "questionOrder": 2
+      },
+      {
+        "caseText": "Durante el examen, un estudiante encuentra una tabla con datos epidemiológicos y debe decidir qué indicador calcular.",
+        "explanation": "La estrategia del cuadernillo indica que el primer paso siempre es identificar QUÉ indicador piden (prevalencia, incidencia, RR, AVPP) y cuál es el denominador correcto. Para prevalencia: población total. Para incidencia: población en riesgo al inicio. Para RR: comparar incidencias. Para tasa de mortalidad materna: nacidos vivos, no muertes totales. Identificar la fórmula antes de buscar los números evita confusiones con los datos de la tabla.",
+        "competency": "datos",
+        "difficulty": "EASY",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Sumar todos los números de la tabla para encontrar el total",
+            "isCorrect": false
+          },
+          {
+            "letter": "B",
+            "text": "Identificar qué indicador piden y cuál es el denominador correcto antes de buscar los números",
+            "isCorrect": true
+          },
+          {
+            "letter": "C",
+            "text": "Leer primero las opciones de respuesta para orientarse",
+            "isCorrect": false
+          },
+          {
+            "letter": "D",
+            "text": "Calcular la prevalencia porque es el indicador más frecuente",
+            "isCorrect": false
+          }
+        ],
+        "questionText": "¿Cuál es el primer paso que debe seguir para resolver correctamente una pregunta con tabla de datos en el módulo de Atención en Salud?",
+        "questionOrder": 3
+      }
+    ]
+  }
+]

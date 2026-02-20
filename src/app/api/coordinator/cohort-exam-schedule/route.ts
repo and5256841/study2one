@@ -3,6 +3,7 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { getWeekStartDay } from "@/lib/student-day";
 import { getSectionSchedule, isValidScheduleStart } from "@/lib/exam-schedule";
+import type { ExamMode } from "@/lib/exam-schedule";
 
 /** GET /api/coordinator/cohort-exam-schedule?cohortId=X — List schedules for a cohort */
 export async function GET(req: NextRequest) {
@@ -38,7 +39,7 @@ export async function GET(req: NextRequest) {
     examTitle: s.exam.title,
     examMode: s.exam.mode,
     startDay: s.startDay,
-    sectionSchedule: getSectionSchedule(s.startDay),
+    sectionSchedule: getSectionSchedule(s.startDay, s.exam.mode as ExamMode),
     scheduledBy: s.scheduledBy.fullName,
     createdAt: s.createdAt,
   }));
@@ -72,13 +73,6 @@ export async function POST(req: NextRequest) {
 
   const startDay = getWeekStartDay(startWeek);
 
-  if (!isValidScheduleStart(startDay)) {
-    return NextResponse.json(
-      { error: "El simulacro no cabe en el programa (necesita 8 días hábiles desde la semana indicada)" },
-      { status: 400 }
-    );
-  }
-
   // Validate cohort belongs to coordinator
   const cohort = await prisma.cohort.findFirst({
     where: { id: cohortId, coordinatorId: session.user.id },
@@ -94,10 +88,22 @@ export async function POST(req: NextRequest) {
   // Validate exam exists
   const exam = await prisma.monthlyExam.findUnique({
     where: { id: examId },
+    select: { id: true, isActive: true, mode: true },
   });
 
   if (!exam) {
     return NextResponse.json({ error: "Simulacro no encontrado" }, { status: 404 });
+  }
+
+  const examMode = exam.mode as ExamMode;
+
+  if (!isValidScheduleStart(startDay, examMode)) {
+    return NextResponse.json(
+      { error: examMode === "CONTINUOUS"
+        ? "El día de inicio debe estar entre 1 y 125"
+        : "El simulacro no cabe en el programa (necesita 8 días hábiles desde la semana indicada)" },
+      { status: 400 }
+    );
   }
 
   // Upsert schedule
@@ -126,7 +132,7 @@ export async function POST(req: NextRequest) {
       cohortId: schedule.cohortId,
       examId: schedule.examId,
       startDay: schedule.startDay,
-      sectionSchedule: getSectionSchedule(schedule.startDay),
+      sectionSchedule: getSectionSchedule(schedule.startDay, examMode),
     },
   });
 }

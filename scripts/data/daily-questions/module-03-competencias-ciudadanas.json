@@ -1,0 +1,707 @@
+[
+  {
+    "dayNumber": 1,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "El módulo de Competencias Ciudadanas del Saber Pro evalúa cuatro competencias: Conocimiento (25%), Argumentación (30%), Multiperspectivismo (25%) y Pensamiento Sistémico (20%). Un estudiante se prepara para el examen y quiere priorizar su estudio según el peso de cada competencia.",
+        "questionText": "¿Cuál competencia tiene mayor peso porcentual en el módulo de Competencias Ciudadanas del Saber Pro?",
+        "explanation": "La competencia de Argumentación tiene el mayor peso en el examen con el 30%. Le siguen Conocimiento y Multiperspectivismo con 25% cada una, y Pensamiento Sistémico con 20%.",
+        "competency": "conocimiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Conocimiento", "isCorrect": false },
+          { "letter": "B", "text": "Argumentación", "isCorrect": true },
+          { "letter": "C", "text": "Multiperspectivismo", "isCorrect": false },
+          { "letter": "D", "text": "Pensamiento Sistémico", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un estudiante de medicina lee una pregunta del Saber Pro que le presenta un conflicto entre una comunidad indígena y una empresa petrolera. La pregunta le pide identificar qué intereses tiene cada parte involucrada en el conflicto.",
+        "questionText": "Según la estructura del módulo de Competencias Ciudadanas, esta pregunta evalúa la competencia de:",
+        "explanation": "Las preguntas que piden identificar actores, sus intereses y sus perspectivas en una situación de conflicto corresponden a la competencia de Multiperspectivismo. Esta competencia evalúa la capacidad de reconocer y analizar diferentes perspectivas en situaciones donde interactúan diferentes partes.",
+        "competency": "conocimiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Conocimiento, porque requiere saber sobre derechos indígenas", "isCorrect": false },
+          { "letter": "B", "text": "Argumentación, porque evalúa la solidez de las posiciones", "isCorrect": false },
+          { "letter": "C", "text": "Multiperspectivismo, porque pide identificar los intereses de cada parte", "isCorrect": true },
+          { "letter": "D", "text": "Pensamiento Sistémico, porque involucra dimensiones económicas y ambientales", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "La estrategia recomendada para abordar las preguntas de Competencias Ciudadanas consiste en clasificar cada pregunta antes de mirar las opciones de respuesta, ya que cada tipo de competencia requiere un enfoque diferente de análisis.",
+        "questionText": "¿Cuál es la ventaja principal de clasificar el tipo de competencia que evalúa una pregunta antes de revisar las opciones?",
+        "explanation": "Clasificar la pregunta por competencia cambia completamente el enfoque de respuesta: para Conocimiento se necesita recordar principios constitucionales, para Multiperspectivismo se identifican actores e intereses, para Argumentación se evalúa la solidez lógica, y para Pensamiento Sistémico se identifican dimensiones y sus relaciones.",
+        "competency": "conocimiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Permite descartar opciones que no usan vocabulario constitucional", "isCorrect": false },
+          { "letter": "B", "text": "Permite aplicar la estrategia de análisis específica para cada tipo de competencia", "isCorrect": true },
+          { "letter": "C", "text": "Permite responder más rápido porque reduce las opciones a dos", "isCorrect": false },
+          { "letter": "D", "text": "Permite identificar automáticamente la respuesta correcta sin leer el enunciado", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 2,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "El Artículo 1 de la Constitución de 1991 define a Colombia como un Estado Social de Derecho, organizado en forma de república unitaria, descentralizada, con autonomía de sus entidades territoriales, democrática, participativa y pluralista.",
+        "questionText": "¿Qué significa que Colombia sea un «Estado Social de Derecho»?",
+        "explanation": "El concepto de Estado Social de Derecho combina tres elementos: «Estado» (organización política con soberanía), «Social» (obligación activa de garantizar condiciones de vida digna) y «Derecho» (toda actuación estatal sometida a la ley y la Constitución). Juntos significan que el Estado debe garantizar el bienestar de sus ciudadanos dentro de los límites del ordenamiento jurídico.",
+        "competency": "conocimiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "El Estado puede actuar libremente para lograr el bien social sin restricciones legales", "isCorrect": false },
+          { "letter": "B", "text": "El Estado debe garantizar condiciones de vida digna y está sometido al ordenamiento jurídico", "isCorrect": true },
+          { "letter": "C", "text": "Los ciudadanos pueden crear leyes independientes de la Constitución si benefician a la sociedad", "isCorrect": false },
+          { "letter": "D", "text": "El derecho prevalece sobre lo social, priorizando las normas sobre las necesidades de las personas", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "En 1990, un movimiento estudiantil impulsó la Séptima Papeleta para consultar a los ciudadanos sobre la convocatoria de una Asamblea Nacional Constituyente. La respuesta fue masivamente afirmativa, y la Asamblea, con representantes de sectores muy diversos, redactó la nueva Constitución promulgada el 4 de julio de 1991.",
+        "questionText": "La Constitución de 1991 surgió principalmente como respuesta a:",
+        "explanation": "La Constitución de 1991 surgió de una crisis profunda: violencia del narcotráfico, exclusión política (solo dos partidos podían gobernar), conflicto armado y una ciudadanía que exigía participación real. La Séptima Papeleta fue el mecanismo estudiantil que canalizó la demanda ciudadana de cambio constitucional.",
+        "competency": "conocimiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "La necesidad de modernizar el sistema tributario colombiano", "isCorrect": false },
+          { "letter": "B", "text": "Una crisis política profunda con violencia, exclusión política y demandas ciudadanas de participación", "isCorrect": true },
+          { "letter": "C", "text": "La presión de organismos internacionales para cambiar el sistema jurídico", "isCorrect": false },
+          { "letter": "D", "text": "El deseo de los dos partidos tradicionales de ampliar su poder político", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un municipio aprueba una ordenanza que obliga a todos los habitantes a profesar la religión católica. Un grupo de ciudadanos evangélicos presenta una demanda contra esta norma.",
+        "questionText": "¿Cuál principio constitucional se aplica de manera más directa para proteger a los ciudadanos evangélicos en este caso?",
+        "explanation": "El principio más directamente aplicable es la libertad de cultos (Artículo 19) y la primacía de derechos inalienables (Artículo 5). Aunque la supremacía constitucional también se aplica como principio general, la clave para el Saber Pro es identificar el principio específico, no el más general. La libertad de cultos protege directamente el derecho de los ciudadanos a no ser obligados a profesar una religión.",
+        "competency": "conocimiento",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Soberanía popular", "isCorrect": false },
+          { "letter": "B", "text": "Supremacía constitucional", "isCorrect": false },
+          { "letter": "C", "text": "Diversidad étnica y cultural", "isCorrect": false },
+          { "letter": "D", "text": "Libertad de cultos y primacía de derechos inalienables", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 3,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "La Constitución de 1991 organiza los derechos en tres generaciones. La primera generación corresponde a los derechos fundamentales (Artículos 11 al 41), la segunda a los derechos sociales, económicos y culturales (Artículos 42 al 77), y la tercera a los derechos colectivos y del ambiente (Artículos 78 al 82).",
+        "questionText": "¿Cuál es la diferencia principal entre los derechos de primera generación y los de segunda generación?",
+        "explanation": "Los derechos de primera generación (fundamentales) son de aplicación inmediata: no requieren una ley adicional para poder exigirlos y se protegen por acción de tutela. Los de segunda generación (sociales, económicos y culturales) son de realización progresiva: el Estado debe avanzar gradualmente en su cumplimiento según sus capacidades, aunque pueden protegerse por tutela cuando hay conexidad con la vida.",
+        "competency": "conocimiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Los de primera generación son individuales y los de segunda son solo para grupos organizados", "isCorrect": false },
+          { "letter": "B", "text": "Los de primera generación son de aplicación inmediata y los de segunda son de realización progresiva", "isCorrect": true },
+          { "letter": "C", "text": "Los de primera generación solo protegen la vida y los de segunda protegen la propiedad", "isCorrect": false },
+          { "letter": "D", "text": "Los de primera generación requieren abogado para ser exigidos y los de segunda no", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un hospital público niega atención de urgencias a un ciudadano porque no tiene carné de afiliación a una EPS. El ciudadano presenta una queja formal y busca un mecanismo legal para proteger sus derechos.",
+        "questionText": "¿Cuál mecanismo de protección debe utilizar el ciudadano y por qué procede en este caso?",
+        "explanation": "Procede la acción de tutela porque la negación de atención de urgencias amenaza directamente el derecho a la vida (derecho fundamental, Artículo 11). Aunque el derecho a la salud es de segunda generación, cuando su negación pone en riesgo la vida, existe conexidad con un derecho fundamental. Además, ningún hospital en Colombia puede negar atención de urgencias, independientemente del estado de afiliación.",
+        "competency": "conocimiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Acción popular, porque la salud pública es un derecho colectivo", "isCorrect": false },
+          { "letter": "B", "text": "Acción de cumplimiento, porque el hospital incumple una ley administrativa", "isCorrect": false },
+          { "letter": "C", "text": "Acción de tutela, porque hay conexidad entre el derecho a la salud y el derecho fundamental a la vida", "isCorrect": true },
+          { "letter": "D", "text": "Derecho de petición, porque primero debe solicitar formalmente la atención", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Una empresa publica datos personales de salud de sus empleados en un tablero visible para todo el personal, incluyendo diagnósticos médicos y tratamientos en curso, sin el consentimiento de los trabajadores afectados.",
+        "questionText": "Según la clasificación de derechos constitucionales, ¿qué derecho fundamental se vulnera principalmente en esta situación?",
+        "explanation": "El derecho a la intimidad (Artículo 15) es el derecho fundamental que se vulnera. Los datos de salud son información sensible que pertenece a la esfera privada de cada persona. Publicarlos sin consentimiento viola directamente el derecho constitucional a la intimidad personal, que incluye la protección de datos personales, especialmente los de salud.",
+        "competency": "conocimiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "El derecho al trabajo, porque afecta el ambiente laboral", "isCorrect": false },
+          { "letter": "B", "text": "El derecho a la intimidad, porque se divulga información personal de salud sin consentimiento", "isCorrect": true },
+          { "letter": "C", "text": "El derecho a la salud, porque los datos publicados son médicos", "isCorrect": false },
+          { "letter": "D", "text": "El derecho de petición, porque los empleados no solicitaron la publicación", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 4,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "La Constitución de 1991 divide el poder público en tres ramas: Ejecutiva (encabezada por el Presidente), Legislativa (Congreso: Senado y Cámara de Representantes) y Judicial (Corte Constitucional, Corte Suprema de Justicia, Consejo de Estado). Además, existen órganos de control independientes.",
+        "questionText": "¿Cuál es la función principal de la Corte Constitucional dentro de la organización del Estado colombiano?",
+        "explanation": "La Corte Constitucional es la guardiana de la Constitución. Su función exclusiva es determinar si las leyes y normas son compatibles con la Constitución. La Corte Suprema de Justicia es el máximo tribunal ordinario, el Consejo de Estado conoce los conflictos entre ciudadanos y el Estado, y la Fiscalía investiga delitos penales.",
+        "competency": "conocimiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Investigar y acusar penalmente a los infractores de la ley", "isCorrect": false },
+          { "letter": "B", "text": "Vigilar el manejo de los recursos públicos del Estado", "isCorrect": false },
+          { "letter": "C", "text": "Decidir si las leyes son compatibles con la Constitución", "isCorrect": true },
+          { "letter": "D", "text": "Administrar la rama judicial y nombrar a los jueces", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El alcalde de un municipio decide, por decreto, que todos los jueces de su jurisdicción deben seguir sus instrucciones al dictar sentencias en casos relacionados con el uso del suelo urbano.",
+        "questionText": "¿Qué principio constitucional viola directamente la acción del alcalde?",
+        "explanation": "El alcalde pertenece a la Rama Ejecutiva y los jueces a la Rama Judicial. La Constitución establece que los jueces son independientes y solo están sometidos al imperio de la ley, no a instrucciones de funcionarios del ejecutivo. Dar instrucciones a los jueces viola el principio de separación de poderes e independencia judicial.",
+        "competency": "conocimiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Soberanía popular, porque el alcalde fue elegido por voto pero no los jueces", "isCorrect": false },
+          { "letter": "B", "text": "Separación de poderes e independencia judicial", "isCorrect": true },
+          { "letter": "C", "text": "Descentralización territorial, porque el municipio pierde autonomía", "isCorrect": false },
+          { "letter": "D", "text": "Primacía de los derechos fundamentales de los ciudadanos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un ciudadano sospecha que los recursos destinados a la construcción de un hospital público en su municipio están siendo desviados por funcionarios de la alcaldía. Quiere saber a qué entidad debe dirigirse para denunciar el mal uso de dineros públicos.",
+        "questionText": "¿Cuál órgano de control del Estado tiene la competencia para investigar el manejo de los recursos públicos?",
+        "explanation": "La Contraloría General de la República es el órgano encargado de vigilar el manejo de los recursos públicos (función de control fiscal). La Procuraduría vigila el comportamiento disciplinario de los servidores públicos. La Defensoría defiende los derechos humanos. La Fiscalía investiga delitos penales.",
+        "competency": "conocimiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "La Procuraduría General de la Nación", "isCorrect": false },
+          { "letter": "B", "text": "La Contraloría General de la República", "isCorrect": true },
+          { "letter": "C", "text": "La Defensoría del Pueblo", "isCorrect": false },
+          { "letter": "D", "text": "El Consejo Superior de la Judicatura", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 5,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "La Constitución de 1991 estableció siete mecanismos de participación ciudadana: el voto, el plebiscito, el referendo, la consulta popular, el cabildo abierto, la iniciativa legislativa popular y la revocatoria del mandato.",
+        "questionText": "Un grupo de ciudadanos desea eliminar una ley que consideran perjudicial para el medio ambiente. ¿Cuál mecanismo de participación ciudadana es el más apropiado?",
+        "explanation": "El referendo derogatorio es el mecanismo específicamente diseñado para que los ciudadanos puedan eliminar una norma jurídica vigente mediante votación popular. El plebiscito es para decisiones políticas del ejecutivo, no para normas jurídicas. La iniciativa legislativa permite proponer leyes nuevas, no derogar existentes. La consulta popular la convoca el gobernante.",
+        "competency": "conocimiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Plebiscito", "isCorrect": false },
+          { "letter": "B", "text": "Referendo derogatorio", "isCorrect": true },
+          { "letter": "C", "text": "Iniciativa legislativa popular", "isCorrect": false },
+          { "letter": "D", "text": "Consulta popular", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Los habitantes de un barrio quieren discutir directamente con su concejo municipal la problemática de inseguridad y falta de alumbrado público en su zona. Quieren participar personalmente en la sesión del concejo para exponer sus quejas.",
+        "questionText": "¿Cuál mecanismo de participación ciudadana permite a los habitantes participar directamente en una sesión del concejo municipal?",
+        "explanation": "El cabildo abierto es una reunión pública de los concejos municipales o distritales en la que los ciudadanos pueden participar directamente para discutir asuntos de interés comunitario. Es el mecanismo más local y cotidiano de los siete, ideal para que los ciudadanos hablen directamente sobre los problemas de su comunidad.",
+        "competency": "conocimiento",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Consulta popular", "isCorrect": false },
+          { "letter": "B", "text": "Revocatoria del mandato", "isCorrect": false },
+          { "letter": "C", "text": "Cabildo abierto", "isCorrect": true },
+          { "letter": "D", "text": "Plebiscito", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Una paciente debe someterse a cirugía. El médico conoce sus prohibiciones religiosas sobre transfusiones. Después de la cirugía, la paciente presenta hemorragia y necesita transfusión. Sus padres dicen que la salud importa más que la religión. La paciente le dice al cirujano que no autoriza la transfusión.",
+        "questionText": "¿Qué dimensión privilegia la paciente al negarse a la transfusión sanguínea?",
+        "explanation": "La paciente está privilegiando su dimensión religiosa y cultural: sus creencias religiosas y el estilo de vida que estas exigen, por encima de la dimensión de salud física. Sus padres, en cambio, privilegian la dimensión de salud. Este caso muestra cómo diferentes actores priorizan dimensiones diferentes frente al mismo problema.",
+        "competency": "sistemico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Sus creencias religiosas y el estilo de vida que exigen", "isCorrect": true },
+          { "letter": "B", "text": "Las consecuencias en su salud futura", "isCorrect": false },
+          { "letter": "C", "text": "Las recomendaciones médicas basadas en evidencia", "isCorrect": false },
+          { "letter": "D", "text": "Sus relaciones familiares con sus padres", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 6,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "En el análisis multiperspectivista, se distinguen tres conceptos clave: los actores (personas, grupos o instituciones involucrados), los intereses (lo que cada actor realmente busca) y los valores (los principios o creencias que guían su posición).",
+        "questionText": "¿Cuál es la diferencia fundamental entre un interés y un valor en el análisis multiperspectivista?",
+        "explanation": "Los intereses son concretos y prácticos (acceso a recursos, dinero, territorio, empleo, poder), mientras que los valores son principios abstractos (justicia, tradición, progreso, libertad). Los valores explican por qué dos actores con los mismos intereses materiales pueden llegar a posiciones opuestas.",
+        "competency": "multiperspectivismo",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Los intereses son lo que los actores declaran públicamente y los valores son lo que ocultan", "isCorrect": false },
+          { "letter": "B", "text": "Los intereses son concretos y prácticos, mientras que los valores son principios abstractos que guían la postura", "isCorrect": true },
+          { "letter": "C", "text": "Los intereses pertenecen a las instituciones y los valores a los individuos", "isCorrect": false },
+          { "letter": "D", "text": "Los intereses son siempre económicos y los valores son siempre culturales", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "En una zona comercial, los comerciantes quieren que la calle principal permanezca abierta al tráfico vehicular para que sus clientes puedan acceder fácilmente. Los residentes del barrio exigen el cierre de la calle al tráfico vehicular porque el ruido y la contaminación afectan su calidad de vida.",
+        "questionText": "¿Qué intereses entran en conflicto directo entre los comerciantes y los residentes?",
+        "explanation": "Los comerciantes tienen un interés económico (acceso vehicular para sus clientes, que garantiza ventas). Los residentes tienen un interés de bienestar y calidad de vida (tranquilidad, aire limpio). Estos intereses son directamente incompatibles: mantener la calle abierta beneficia a los comerciantes pero perjudica a los residentes, y viceversa.",
+        "competency": "multiperspectivismo",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "El interés político de la alcaldía y el interés cultural de los residentes", "isCorrect": false },
+          { "letter": "B", "text": "El interés económico de los comerciantes y el interés de bienestar de los residentes", "isCorrect": true },
+          { "letter": "C", "text": "El interés ambiental de los residentes y el interés ambiental de los comerciantes", "isCorrect": false },
+          { "letter": "D", "text": "El interés de seguridad del alcalde y el interés de libre tránsito de los peatones", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "En una situación de conflicto social, el ICFES presenta una pregunta que dice: «¿Cuál es la perspectiva del líder comunitario en esta situación?» Un estudiante responde seleccionando la opción que describe la perspectiva que él considera moralmente correcta, en lugar de la que describe lo que el enunciado dice que piensa el líder.",
+        "questionText": "¿Cuál es el error que cometió el estudiante al responder esta pregunta de multiperspectivismo?",
+        "explanation": "El error fundamental es proyectar su propia perspectiva moral sobre el actor del enunciado. En el Saber Pro, las preguntas de multiperspectivismo evalúan comprensión de perspectivas, no acuerdo con ellas. La respuesta correcta es la que describe mejor lo que el actor realmente piensa según el enunciado, no la que el estudiante considera moralmente superior.",
+        "competency": "multiperspectivismo",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "No identificó correctamente el tipo de competencia que evalúa la pregunta", "isCorrect": false },
+          { "letter": "B", "text": "No leyó todas las opciones antes de responder", "isCorrect": false },
+          { "letter": "C", "text": "Proyectó su propia perspectiva moral en lugar de describir la del actor según el enunciado", "isCorrect": true },
+          { "letter": "D", "text": "Confundió los intereses del líder con los valores de la comunidad", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 7,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una comunidad indígena se opone a un proyecto de una empresa energética que quiere construir una represa en territorio ancestral. La comunidad valora el territorio como identidad cultural y espiritual. La empresa valora el desarrollo económico y la rentabilidad del proyecto.",
+        "questionText": "¿Qué tipo de conflicto existe entre la comunidad indígena y la empresa energética?",
+        "explanation": "El conflicto es simultáneamente de valores (la comunidad valora el territorio como identidad cultural y espiritual vs. la empresa valora el desarrollo económico) y de intereses (la comunidad quiere proteger su territorio vs. la empresa quiere usarlo para su proyecto). No es solo de información ni solo de intereses económicos.",
+        "competency": "multiperspectivismo",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Solo conflicto de información, porque no comparten los mismos datos ambientales", "isCorrect": false },
+          { "letter": "B", "text": "Solo conflicto de intereses económicos entre ambas partes", "isCorrect": false },
+          { "letter": "C", "text": "Conflicto de valores y de intereses: territorio ancestral vs. desarrollo, y protección vs. uso del territorio", "isCorrect": true },
+          { "letter": "D", "text": "No hay conflicto real porque ambos se beneficiarían con el empleo generado", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un colegio considera implementar uniformes obligatorios. Los padres apoyan el uniforme porque reduce la presión económica de vestir a sus hijos con ropa costosa. Los docentes lo apoyan porque reduce las diferencias visibles entre estudiantes ricos y pobres.",
+        "questionText": "¿Cómo se clasifican las perspectivas de los padres y los docentes en esta situación?",
+        "explanation": "Los padres y los docentes tienen perspectivas alineadas en la posición (ambos apoyan el uniforme), pero sus intereses son distintos: los padres buscan ahorro económico mientras que los docentes buscan equidad social. Están alineados en la posición pero no necesariamente en las razones.",
+        "competency": "multiperspectivismo",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "En conflicto, porque tienen motivaciones completamente opuestas", "isCorrect": false },
+          { "letter": "B", "text": "Alineadas en posición (ambos apoyan el uniforme) pero con intereses distintos (ahorro vs. equidad)", "isCorrect": true },
+          { "letter": "C", "text": "En conflicto parcial, porque solo coinciden en aspectos secundarios", "isCorrect": false },
+          { "letter": "D", "text": "Completamente alineadas en posición e intereses", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Una comunidad cree que una fábrica cercana está contaminando el río porque varios de sus miembros han enfermado recientemente. La empresa afirma que sus estudios de impacto ambiental demuestran que sus vertimientos cumplen las normas legales. Ambas partes insisten en que sus datos son correctos.",
+        "questionText": "¿Qué tipo de conflicto predomina en esta situación?",
+        "explanation": "Este es principalmente un conflicto de información: las perspectivas diferentes surgen porque cada parte maneja datos distintos, no porque tengan valores o intereses necesariamente incompatibles. La comunidad basa su percepción en la observación de enfermedades; la empresa en estudios técnicos. Si se compartiera información completa y confiable, el conflicto podría resolverse.",
+        "competency": "multiperspectivismo",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Conflicto de valores, porque la comunidad valora la salud y la empresa la producción", "isCorrect": false },
+          { "letter": "B", "text": "Conflicto de intereses, porque compiten por el uso del río", "isCorrect": false },
+          { "letter": "C", "text": "Conflicto de información, porque cada parte maneja datos distintos sobre la contaminación", "isCorrect": true },
+          { "letter": "D", "text": "No es un conflicto real, porque la ley ya establece los límites de vertimiento", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 8,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "El Pensamiento Sistémico identifica seis dimensiones fundamentales en los problemas sociales: económica, social, política, cultural, ambiental y de salud pública. Cada situación puede involucrar varias de estas dimensiones interconectadas.",
+        "questionText": "Una comunidad rural reporta altos índices de desnutrición infantil. Los niños no acceden a alimentos nutritivos porque sus familias no tienen ingresos suficientes, y las tradiciones alimentarias locales no incluyen alimentos ricos en proteínas. ¿Qué dimensiones están presentes en este problema?",
+        "explanation": "La desnutrición infantil es un problema de salud pública. La falta de ingresos pertenece a la dimensión económica. Las tradiciones alimentarias corresponden a la dimensión cultural. Las tres dimensiones están presentes e interconectadas: la situación económica limita el acceso a alimentos, las prácticas culturales influyen en la dieta, y ambas afectan la salud de los niños.",
+        "competency": "sistemico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Solo la dimensión de salud pública, porque se trata de desnutrición", "isCorrect": false },
+          { "letter": "B", "text": "Económica y social, pero no cultural ni de salud", "isCorrect": false },
+          { "letter": "C", "text": "Económica, cultural y de salud pública", "isCorrect": true },
+          { "letter": "D", "text": "Ambiental, social y política", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Una ciudad decide cerrar una mina de carbón que empleaba a 500 familias, debido a la contaminación que genera en las fuentes de agua. Los trabajadores pierden su empleo, el tejido social de la comunidad minera se fragmenta, y los líderes políticos debaten sobre subsidios de transición.",
+        "questionText": "Según el Scanner de Dimensiones, ¿cuáles dimensiones están presentes en esta situación?",
+        "explanation": "Están presentes la dimensión ambiental (contaminación del agua), la económica (pérdida de empleos e ingresos), la social (fragmentación del tejido comunitario), y la política (debate sobre subsidios y decisiones gubernamentales). La situación ilustra cómo un problema involucra múltiples dimensiones interconectadas.",
+        "competency": "sistemico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Solo ambiental y económica", "isCorrect": false },
+          { "letter": "B", "text": "Ambiental, económica, social y política", "isCorrect": true },
+          { "letter": "C", "text": "Solo económica, porque el empleo es el tema central", "isCorrect": false },
+          { "letter": "D", "text": "Cultural y de salud pública únicamente", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un gobierno municipal propone construir una carretera que atravesaría una reserva natural protegida para conectar dos comunidades rurales aisladas. El alcalde argumenta que la vía mejorará el acceso a servicios de salud y educación. Los ambientalistas advierten sobre la destrucción de ecosistemas frágiles.",
+        "questionText": "¿Cuál dimensión privilegia el alcalde con su propuesta, y cuál dimensión privilegian los ambientalistas?",
+        "explanation": "El alcalde privilegia la dimensión social: mejorar el acceso a servicios de salud y educación para las comunidades aisladas. Los ambientalistas privilegian la dimensión ambiental: proteger los ecosistemas de la reserva natural. Este es un caso donde cada actor prioriza una dimensión diferente frente al mismo problema.",
+        "competency": "sistemico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "El alcalde privilegia la dimensión política y los ambientalistas la cultural", "isCorrect": false },
+          { "letter": "B", "text": "El alcalde privilegia la dimensión económica y los ambientalistas la de salud pública", "isCorrect": false },
+          { "letter": "C", "text": "El alcalde privilegia la dimensión social y los ambientalistas la ambiental", "isCorrect": true },
+          { "letter": "D", "text": "Ambos privilegian la misma dimensión pero con enfoques diferentes", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 9,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un gobierno paga a familias campesinas para que conserven los bosques en sus tierras en lugar de talarlos para cultivar o ganadería. Gracias al programa, las familias obtienen ingresos estables y los bosques se mantienen protegidos.",
+        "questionText": "¿Qué tipo de relación se generó entre la dimensión económica y la ambiental gracias a este programa?",
+        "explanation": "El programa de pagos por servicios ambientales convierte una relación que normalmente es de trade-off (talar para generar ingresos vs. conservar el bosque) en una sinergia: las familias conservan el bosque (mejora ambiental) y reciben pagos por hacerlo (mejora económica). Ambas dimensiones mejoran simultáneamente.",
+        "competency": "sistemico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Trade-off: la economía mejoró pero el ambiente empeoró", "isCorrect": false },
+          { "letter": "B", "text": "Sinergia: mejorar la situación económica también mejoró la situación ambiental", "isCorrect": true },
+          { "letter": "C", "text": "Tensión: las familias tuvieron que elegir entre dinero y bosque", "isCorrect": false },
+          { "letter": "D", "text": "Causalidad negativa: la mejora ambiental causó problemas económicos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "La contaminación del aire en una zona industrial aumenta las enfermedades respiratorias de la población. Esto reduce la capacidad laboral de las personas afectadas, lo que incrementa la pobreza en la zona. El aumento de la pobreza genera mayor presión social sobre el gobierno local para tomar medidas.",
+        "questionText": "¿Qué tipo de relación entre dimensiones se describe en esta cadena de efectos?",
+        "explanation": "Se describe una relación de causalidad indirecta en cadena: la dimensión ambiental (contaminación) causa efectos en la dimensión de salud pública (enfermedades respiratorias), que causa efectos en la dimensión económica (menor productividad, pobreza), que causa efectos en la dimensión social y política (presión ciudadana). Reconocer estas cadenas de causalidad es el nivel más sofisticado del Pensamiento Sistémico.",
+        "competency": "sistemico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Trade-off entre la dimensión ambiental y la económica", "isCorrect": false },
+          { "letter": "B", "text": "Sinergia entre múltiples dimensiones que se refuerzan positivamente", "isCorrect": false },
+          { "letter": "C", "text": "Causalidad en cadena: ambiental → salud → económica → social/política", "isCorrect": true },
+          { "letter": "D", "text": "Tensión exclusiva entre la dimensión ambiental y la de salud pública", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Una ciudad decide ampliar una autopista para reducir la congestión vehicular. Para hacerlo, debe demoler un barrio histórico con edificaciones de patrimonio cultural declarado. No es posible construir la autopista por otra ruta.",
+        "questionText": "¿Qué tipo de relación existe entre la dimensión de movilidad/infraestructura y la dimensión cultural en este caso?",
+        "explanation": "Es un trade-off porque mejorar una dimensión (movilidad) implica necesariamente perjudicar la otra (patrimonio cultural). No es posible maximizar ambas simultáneamente: la autopista requiere demoler el patrimonio, y conservar el patrimonio impide construir la autopista. Es un dilema real donde se debe elegir o encontrar un balance.",
+        "competency": "sistemico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Sinergia, porque la ampliación también beneficiará a los habitantes del barrio", "isCorrect": false },
+          { "letter": "B", "text": "Trade-off, porque mejorar la movilidad implica destruir el patrimonio cultural", "isCorrect": true },
+          { "letter": "C", "text": "Causalidad positiva, porque mejor movilidad genera más valoración cultural", "isCorrect": false },
+          { "letter": "D", "text": "Independencia, porque la infraestructura vial y el patrimonio no se relacionan", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 10,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un hospital público debe decidir a quién asignarle el único riñón disponible para trasplante. Los médicos priorizan la compatibilidad y el pronóstico clínico. La familia de un paciente mayor prioriza a su familiar. Los bioeticistas hablan de justicia distributiva. La administración del hospital piensa en los costos de seguimiento.",
+        "questionText": "¿Qué tienen en común todos los actores en esta situación, a pesar de sus diferentes perspectivas?",
+        "explanation": "A pesar de que cada actor tiene una perspectiva distinta sobre cómo tomar la decisión, todos reconocen el hecho fundamental de que el recurso (el riñón) es limitado y que debe tomarse una decisión. No comparten el criterio de selección ni están de acuerdo sobre quién tiene prioridad, pero sí reconocen la necesidad de decidir ante la escasez.",
+        "competency": "multiperspectivismo",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Quieren que se aplique el mismo criterio de selección para todos los candidatos", "isCorrect": false },
+          { "letter": "B", "text": "Reconocen que los recursos son limitados y que debe tomarse una decisión", "isCorrect": true },
+          { "letter": "C", "text": "Están de acuerdo en que los pacientes jóvenes tienen prioridad médica", "isCorrect": false },
+          { "letter": "D", "text": "Creen que la decisión debe tomarla exclusivamente el médico tratante", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Se propone un impuesto nacional al azúcar para reducir el consumo de bebidas azucaradas y combatir la obesidad y la diabetes. La industria de bebidas se opone porque sus ventas caerán. Los médicos de salud pública lo apoyan. Los economistas señalan que afecta más a los hogares de bajos ingresos.",
+        "questionText": "La relación entre la dimensión económica de la industria y la dimensión de salud pública en este caso es un ejemplo de:",
+        "explanation": "Es un trade-off porque el impuesto busca mejorar la salud pública reduciendo el consumo de azúcar, pero esa mejora tiene un costo económico directo para la industria (menores ventas) y para los hogares de bajos ingresos. No es posible maximizar simultáneamente la rentabilidad de la industria y la reducción del consumo de azúcar.",
+        "competency": "sistemico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Sinergia: ambas dimensiones mejoran simultáneamente con el impuesto", "isCorrect": false },
+          { "letter": "B", "text": "Trade-off: la mejora en salud pública tiene un costo económico para la industria", "isCorrect": true },
+          { "letter": "C", "text": "Causalidad positiva: la salud pública causa cambios favorables en la economía", "isCorrect": false },
+          { "letter": "D", "text": "Independencia: las dos dimensiones no se afectan mutuamente", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un programa nacional de educación rural llevó internet a colegios de zonas apartadas. Los estudiantes rurales mejoraron su acceso a información. Las familias campesinas encontraron nuevas oportunidades educativas. Las comunidades aumentaron su capacidad de organización política. La economía local se benefició de ciudadanos más capacitados.",
+        "questionText": "Este caso ilustra que la educación tiene un efecto de:",
+        "explanation": "La inversión en educación (conectividad rural) mejora simultáneamente la dimensión social (mayor equidad y acceso a información), la económica (ciudadanos más productivos y capacitados), y la política (mayor capacidad de participación y organización ciudadana). Múltiples dimensiones mejoran con la misma intervención: eso es sinergia.",
+        "competency": "sistemico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Trade-off con múltiples dimensiones que se perjudican", "isCorrect": false },
+          { "letter": "B", "text": "Sinergia con múltiples dimensiones: social, económica y política", "isCorrect": true },
+          { "letter": "C", "text": "Causalidad directa solo con la dimensión económica", "isCorrect": false },
+          { "letter": "D", "text": "Tensión entre la dimensión social y la política", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 11,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un estudiante lee la siguiente afirmación: «La educación pública es un gasto innecesario del Estado». El estudiante responde: «No estoy de acuerdo, la educación es importante». Su profesor le señala que su respuesta no constituye un argumento.",
+        "questionText": "¿Por qué la respuesta del estudiante no constituye un argumento válido?",
+        "explanation": "Argumentar es sostener una posición mediante razones que la apoyan lógicamente, mientras que opinar es simplemente expresar una preferencia sin justificación. El estudiante expresó su desacuerdo y una valoración personal («es importante»), pero no proporcionó premisas que sustenten lógicamente por qué la educación pública no es un gasto innecesario.",
+        "competency": "argumentacion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Porque no usó datos estadísticos sobre educación", "isCorrect": false },
+          { "letter": "B", "text": "Porque expresó una opinión sin proporcionar razones que sustenten lógicamente su posición", "isCorrect": true },
+          { "letter": "C", "text": "Porque no citó a un experto en educación", "isCorrect": false },
+          { "letter": "D", "text": "Porque no atacó directamente la afirmación original con un contraejemplo", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "La Constitución colombiana establece la separación entre el Estado y la iglesia, garantizando que ninguna religión tenga privilegios oficiales.",
+        "questionText": "¿Cuál de los siguientes enunciados es coherente con esta afirmación constitucional?",
+        "explanation": "Si el Estado es laico y ninguna religión tiene privilegios oficiales, entonces las instituciones del Estado (como los colegios públicos) no pueden imponer la asistencia a clases de una religión específica. Las otras opciones (matrimonio católico como único válido, diezmo descontado del salario, fe de bautismo como documento oficial) implican privilegios para una religión específica.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "El único matrimonio válido frente al Estado es el matrimonio católico", "isCorrect": false },
+          { "letter": "B", "text": "El diezmo será descontado automáticamente del salario de empleados públicos", "isCorrect": false },
+          { "letter": "C", "text": "Los estudiantes de colegios públicos no están obligados a asistir a clase de religión", "isCorrect": true },
+          { "letter": "D", "text": "La fe de bautismo es el único documento que equivale al registro civil", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un político declara: «En una democracia, los gobernantes deben rendir cuentas a los ciudadanos sobre el uso de los recursos públicos».",
+        "questionText": "¿Cuál de los siguientes enunciados es coherente con la declaración del político?",
+        "explanation": "Si los gobernantes deben rendir cuentas a los ciudadanos, entonces los ciudadanos tienen el derecho de solicitar información sobre el uso de recursos públicos. Las otras opciones son incoherentes: informes confidenciales imposibilitan la rendición, limitar el acceso solo a congresistas excluye a los ciudadanos, y que los gobernantes elijan qué mostrar no es rendir cuentas.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Los informes de gestión de los funcionarios públicos son confidenciales por seguridad", "isCorrect": false },
+          { "letter": "B", "text": "Los ciudadanos pueden solicitar información sobre el uso de recursos públicos", "isCorrect": true },
+          { "letter": "C", "text": "Solo los congresistas tienen derecho a conocer los gastos del gobierno", "isCorrect": false },
+          { "letter": "D", "text": "Los gobernantes deciden libremente qué información comparten con la ciudadanía", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 12,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un concejal propone construir un parque público en un terreno abandonado. Durante el debate, otro concejal responde: «No deberíamos considerar esta propuesta, porque el concejal que la presenta fue multado el año pasado por una infracción de tránsito».",
+        "questionText": "¿Cuál falacia argumentativa se identifica en la respuesta del segundo concejal?",
+        "explanation": "Este es un caso clásico de falacia Ad Hominem: se ataca a la persona que propone el argumento (su multa de tránsito) en lugar de evaluar los méritos de la propuesta del parque. La infracción de tránsito del concejal no tiene ninguna relación con la calidad o viabilidad de la propuesta de construir un parque público.",
+        "competency": "argumentacion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Pendiente Resbaladiza, porque asume consecuencias extremas", "isCorrect": false },
+          { "letter": "B", "text": "Ad Hominem, porque ataca a la persona en lugar de evaluar la propuesta", "isCorrect": true },
+          { "letter": "C", "text": "Generalización Apresurada, porque saca conclusiones de un solo caso", "isCorrect": false },
+          { "letter": "D", "text": "Apelación a la Tradición, porque sugiere mantener el terreno como está", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "En un debate legislativo, un senador argumenta: «Si aprobamos la ley que permite el consumo recreativo de cannabis, en pocos años estaremos legalizando la heroína, la cocaína y todas las drogas duras. Terminaremos siendo un narcoestado».",
+        "questionText": "¿Cuál es la principal debilidad argumentativa del senador?",
+        "explanation": "Este es un caso de Pendiente Resbaladiza (Slippery Slope). El senador asume que aprobar una ley específica y regulada (cannabis recreativo) llevará inevitablemente a consecuencias extremas (legalización de todas las drogas y convertirse en narcoestado) sin demostrar por qué esa cadena de consecuencias es inevitable. La falacia está en el salto lógico no justificado.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Apelación a la Popularidad, porque asume que la mayoría rechaza las drogas", "isCorrect": false },
+          { "letter": "B", "text": "Pendiente Resbaladiza, porque asume que un paso regulado llevará inevitablemente a consecuencias extremas", "isCorrect": true },
+          { "letter": "C", "text": "Falsa Dicotomía, porque solo presenta dos opciones posibles", "isCorrect": false },
+          { "letter": "D", "text": "Hombre de Paja, porque exagera la propuesta original", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un funcionario público propone regular los precios de ciertos medicamentos esenciales para garantizar el acceso de la población más vulnerable. Un opositor responde: «No podemos permitir que el gobierno controle toda la economía como en los regímenes comunistas. La libertad de mercado es un derecho fundamental».",
+        "questionText": "¿Cuál falacia comete el opositor al responder de esta manera?",
+        "explanation": "El opositor comete la falacia del Hombre de Paja: distorsiona y exagera la posición original (regulación de precios de medicamentos esenciales) convirtiéndola en algo mucho más extremo (control total de la economía, comunismo) para hacerla más fácil de atacar. La propuesta original es específica y limitada, no un control económico total.",
+        "competency": "argumentacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Ad Hominem, porque ataca al funcionario en lugar de su propuesta", "isCorrect": false },
+          { "letter": "B", "text": "Generalización Apresurada, porque concluye desde un solo ejemplo", "isCorrect": false },
+          { "letter": "C", "text": "Hombre de Paja, porque distorsiona la propuesta original para hacerla parecer extrema", "isCorrect": true },
+          { "letter": "D", "text": "Apelación a la Autoridad, porque invoca la autoridad de los economistas liberales", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 13,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un artículo argumenta: «Las ciudades con más policías tienen menos crimen. Por lo tanto, para reducir el crimen en nuestra ciudad debemos contratar más policías».",
+        "questionText": "¿Cuál es la principal debilidad de este argumento?",
+        "explanation": "El argumento confunde correlación con causalidad: el hecho de que las ciudades con más policías tengan menos crimen no prueba que más policías causen menos crimen. Puede haber otros factores: las ciudades con más presupuesto tienen más policías y también mejores programas sociales, iluminación y empleo, que podrían ser los verdaderos reductores del crimen.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "No especifica cuántos policías se necesitarían exactamente", "isCorrect": false },
+          { "letter": "B", "text": "La correlación entre policías y menos crimen no demuestra causalidad, ya que podría haber otros factores", "isCorrect": true },
+          { "letter": "C", "text": "No consulta la opinión de los ciudadanos sobre la propuesta", "isCorrect": false },
+          { "letter": "D", "text": "El crimen siempre existirá sin importar cuántos policías haya", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un investigador sostiene: «Estudios realizados en tres países europeos muestran que prohibir teléfonos celulares en colegios mejora las calificaciones promedio de los estudiantes. Por eso proponemos prohibir los celulares en todos los colegios de nuestra ciudad».",
+        "questionText": "¿Cuál de las siguientes opciones haría este argumento más fuerte?",
+        "explanation": "El argumento se basa en evidencia de solo tres países europeos. Para que la conclusión sobre colegios locales sea más sólida, se necesitarían estudios de más países y contextos diferentes con resultados similares, lo que haría la generalización más justificada. Las otras opciones (famoso, padres de acuerdo, otros países prohibiendo) son apelaciones a la popularidad o a la autoridad, no evidencia lógicamente válida.",
+        "competency": "argumentacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Que un famoso deportista local apoye públicamente la prohibición", "isCorrect": false },
+          { "letter": "B", "text": "Que se presenten estudios adicionales de diferentes países y contextos con resultados similares", "isCorrect": true },
+          { "letter": "C", "text": "Que los padres de familia de la ciudad estén de acuerdo con la medida", "isCorrect": false },
+          { "letter": "D", "text": "Que muchos otros países del mundo también hayan prohibido los celulares en colegios", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un argumento tiene premisas verdaderas y relevantes para su conclusión, pero las premisas no son suficientes para sostener completamente la conclusión porque hay lagunas de información importantes que podrían cambiar el resultado.",
+        "questionText": "Según la escala de solidez argumentativa, ¿cómo se clasifica este argumento?",
+        "explanation": "Un argumento sólido cumple tres condiciones: premisas verdaderas, relevantes y suficientes. Si las premisas son verdaderas y relevantes pero no suficientes (hay lagunas de información), el argumento se clasifica como parcialmente sólido. Le faltan datos adicionales para que la conclusión se sostenga completamente.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Sólido, porque sus premisas son verdaderas y relevantes", "isCorrect": false },
+          { "letter": "B", "text": "Parcialmente sólido, porque tiene premisas válidas pero con lagunas de información", "isCorrect": true },
+          { "letter": "C", "text": "Falaz, porque contiene un error lógico identificable", "isCorrect": false },
+          { "letter": "D", "text": "Débil, porque sus premisas son insuficientes e irrelevantes", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 14,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un periódico publica el siguiente texto: «La tasa de desempleo juvenil en Colombia fue del 22% en 2023. El gobierno debería priorizar la creación de empleo juvenil porque los jóvenes son el futuro del país».",
+        "questionText": "¿Cuál de las siguientes afirmaciones del texto es un hecho y cuál es una opinión?",
+        "explanation": "Un hecho es una afirmación verificable objetivamente (la tasa de desempleo se puede verificar con datos oficiales). Una opinión es una expresión de preferencia o evaluación personal que no puede verificarse como verdadera o falsa de manera objetiva (que el gobierno «debería» priorizar algo refleja un valor o prioridad del autor).",
+        "competency": "argumentacion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Ambas son hechos verificables con datos oficiales", "isCorrect": false },
+          { "letter": "B", "text": "Ambas son opiniones del autor del texto", "isCorrect": false },
+          { "letter": "C", "text": "La tasa de desempleo es un hecho y la priorización del empleo juvenil es una opinión", "isCorrect": true },
+          { "letter": "D", "text": "La tasa de desempleo es una opinión y la priorización del empleo juvenil es un hecho", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Para reducir la desigualdad entre regiones del país, se propone obligar a los estudiantes universitarios de estratos altos a realizar su servicio social en municipios alejados, donde convivirían con jóvenes de estratos bajos.",
+        "questionText": "¿Cuál es un supuesto implícito fundamental de este argumento?",
+        "explanation": "El argumento asume, sin explicitarlo, que la convivencia entre jóvenes de diferentes estratos reduce efectivamente la desigualdad. Pero ese supuesto es cuestionable: la convivencia física no garantiza cambio de actitudes ni reducción de desigualdad estructural (que tiene causas económicas, políticas y educativas profundas). Si ese supuesto es falso, el argumento se derrumba.",
+        "competency": "argumentacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Todos los jóvenes de estratos altos tienen acceso a la universidad", "isCorrect": false },
+          { "letter": "B", "text": "La convivencia entre jóvenes de diferentes estratos reduce efectivamente la desigualdad", "isCorrect": true },
+          { "letter": "C", "text": "El servicio social es más importante que la formación académica", "isCorrect": false },
+          { "letter": "D", "text": "Los jóvenes no tienen ninguna responsabilidad ciudadana actualmente", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "La tasa de desempleo juvenil en Colombia es del 22%. Por eso, el gobierno debe crear programas de emprendimiento para jóvenes como solución principal.",
+        "questionText": "¿Cuál de los siguientes enunciados, si fuera verdadero, debilitaría más este argumento?",
+        "explanation": "Si el desempleo juvenil se debe principalmente a la falta de experiencia laboral y no a la falta de emprendimiento, entonces los programas de emprendimiento no atacarían la causa real del problema. Esto debilita fundamentalmente el argumento porque muestra que la solución propuesta (emprendimiento) no corresponde con la causa real (falta de experiencia).",
+        "competency": "argumentacion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "El emprendimiento requiere capital inicial que los jóvenes no tienen", "isCorrect": false },
+          { "letter": "B", "text": "Otros países también tienen programas exitosos de emprendimiento juvenil", "isCorrect": false },
+          { "letter": "C", "text": "El desempleo juvenil se debe principalmente a la falta de experiencia laboral, no a la falta de emprendimiento", "isCorrect": true },
+          { "letter": "D", "text": "Los jóvenes prefieren el empleo formal al emprendimiento", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 15,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un grupo de ciudadanos quiere derogar una ley que consideran injusta porque restringe el derecho de reunión pacífica en plazas públicas durante ciertas horas del día.",
+        "questionText": "¿Cuál mecanismo de participación ciudadana es el más apropiado para que los ciudadanos puedan eliminar esta ley?",
+        "explanation": "El referendo derogatorio permite a los ciudadanos eliminar una norma jurídica vigente mediante votación popular. El plebiscito es para decisiones políticas del ejecutivo, no para normas jurídicas. La revocatoria del mandato es para retirar gobernadores o alcaldes, no para derogar leyes. El cabildo abierto es para discutir, no para derogar normas.",
+        "competency": "conocimiento",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Plebiscito", "isCorrect": false },
+          { "letter": "B", "text": "Revocatoria del mandato", "isCorrect": false },
+          { "letter": "C", "text": "Referendo derogatorio", "isCorrect": true },
+          { "letter": "D", "text": "Cabildo abierto", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un texto establece: «Todo ciudadano tiene derecho a la libertad de expresión. Sin embargo, los discursos de odio deben ser sancionados porque vulneran los derechos de otros ciudadanos».",
+        "questionText": "¿Cuál enunciado es coherente con ambas afirmaciones del texto?",
+        "explanation": "La opción B es coherente con ambas afirmaciones: reconoce la libertad de expresión general pero excluye los discursos de odio de esa protección. La opción A contradice la segunda afirmación (los discursos de odio sí deben tener límite). La opción C introduce un criterio de mayoría que no está en el texto. La opción D otorga al gobierno un poder discrecional no sustentado.",
+        "competency": "argumentacion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "La libertad de expresión es absoluta y no puede tener ningún límite bajo ninguna circunstancia", "isCorrect": false },
+          { "letter": "B", "text": "Los discursos de odio no son una forma legítima de expresión protegida por el derecho a la libertad de expresión", "isCorrect": true },
+          { "letter": "C", "text": "La libertad de expresión solo protege las opiniones que la mayoría de ciudadanos aprueba", "isCorrect": false },
+          { "letter": "D", "text": "Los gobiernos deciden qué expresiones están permitidas y cuáles no según sus intereses", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un municipio invirtió en reforestar sus cuencas hidrográficas contratando a familias campesinas. Cinco años después, las fuentes de agua se recuperaron, el turismo ecológico aumentó, las familias tienen ingresos estables y la comunidad se organizó políticamente para defender el territorio.",
+        "questionText": "Este caso ilustra que la inversión en reforestación generó:",
+        "explanation": "La inversión en reforestación (dimensión ambiental) generó simultáneamente mejoras económicas (ingresos para familias y turismo), ambientales (recuperación de fuentes de agua) y sociales (organización comunitaria). Múltiples dimensiones mejoran con la misma intervención: eso es sinergia entre las dimensiones económica, ambiental y social.",
+        "competency": "sistemico",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Tensión entre la dimensión económica y la ambiental", "isCorrect": false },
+          { "letter": "B", "text": "Causalidad negativa de la dimensión ambiental sobre la económica", "isCorrect": false },
+          { "letter": "C", "text": "Sinergia entre las dimensiones económica, ambiental y social", "isCorrect": true },
+          { "letter": "D", "text": "Trade-off entre la inversión inicial y los beneficios a largo plazo", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

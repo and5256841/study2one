@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Lea el siguiente texto.\n\n«La epigenetica ha transformado la comprension que tenemos de la herencia biologica. Durante decadas, el paradigma dominante sostuvo que los genes eran entidades fijas: se heredaban de padres a hijos como un codigo inmutable que determinaba caracteristicas fisicas, predisposiciones a enfermedades y, segun algunos, incluso rasgos de personalidad. La epigenetica demuestra que esta vision es incompleta. Los genes no cambian, pero su expresion si: factores ambientales como la nutricion, el estres cronico, la exposicion a toxinas y hasta las experiencias emocionales tempranas pueden activar o silenciar genes mediante mecanismos como la metilacion del ADN y la modificacion de histonas.\n\nLo verdaderamente revolucionario es que algunas de estas modificaciones epigeneticas pueden transmitirse a la siguiente generacion. Estudios realizados con descendientes de sobrevivientes de hambrunas —como la hambruna holandesa de 1944-1945— han demostrado que los hijos y nietos de quienes padecieron desnutricion severa presentan mayor predisposicion a enfermedades metabolicas como diabetes tipo 2 y obesidad, aun cuando ellos mismos nunca experimentaron carencias alimentarias. El trauma, en cierto sentido, se hereda.\n\nEsta evidencia plantea implicaciones eticas profundas. Si las condiciones de pobreza, violencia y desnutricion que sufre una generacion pueden afectar biologicamente a las generaciones siguientes, entonces la desigualdad social no es solo un problema economico o politico: es un problema de salud publica con consecuencias intergeneracionales.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, el paradigma dominante previo a la epigenetica sostenia que:",
+    "explanation": "El texto afirma explicitamente que «el paradigma dominante sostuvo que los genes eran entidades fijas: se heredaban de padres a hijos como un codigo inmutable». Esta es informacion literal del primer parrafo. La opcion B recoge esta idea fielmente. La opcion A es incorrecta porque habla de intervencion medica, no del paradigma previo. La opcion C introduce el concepto de medio ambiente, que es justamente lo que la epigenetica aporta, no el paradigma anterior. La opcion D menciona la personalidad como factor exclusivo, lo cual no refleja el paradigma descrito.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Los genes podian ser modificados mediante intervencion medica directa.", "isCorrect": false },
+      { "letter": "B", "text": "Los genes constituian un codigo fijo e inmutable que se transmitia entre generaciones.", "isCorrect": true },
+      { "letter": "C", "text": "La expresion genetica dependia exclusivamente del medio ambiente.", "isCorrect": false },
+      { "letter": "D", "text": "Las caracteristicas geneticas determinaban unicamente los rasgos de personalidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "La expresion «el trauma, en cierto sentido, se hereda» puede interpretarse como:",
+    "explanation": "El autor usa esta frase tras explicar que las modificaciones epigeneticas causadas por experiencias traumaticas (hambruna) se transmiten a generaciones siguientes. No se refiere a herencia psicologica ni a memoria consciente, sino a que las marcas biologicas del sufrimiento pasan a los descendientes. La opcion C captura esta idea. La opcion A confunde herencia epigenetica con recuerdos. La opcion B reduce el concepto a aprendizaje social. La opcion D habla de genetica clasica, no de epigenetica.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Los hijos de personas traumatizadas heredan los recuerdos especificos de sus padres.", "isCorrect": false },
+      { "letter": "B", "text": "Las conductas aprendidas durante experiencias traumaticas se transmiten por imitacion familiar.", "isCorrect": false },
+      { "letter": "C", "text": "Las experiencias adversas de una generacion pueden dejar marcas biologicas que afectan a sus descendientes.", "isCorrect": true },
+      { "letter": "D", "text": "Los traumas psicologicos producen mutaciones geneticas permanentes en el ADN de los afectados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "La conclusion del tercer parrafo — que la desigualdad social es «un problema de salud publica con consecuencias intergeneracionales» — se sustenta logicamente en:",
+    "explanation": "El argumento del autor sigue esta cadena, expuesta explicitamente en el texto: la pobreza y la desnutricion producen cambios epigeneticos, y estos cambios se transmiten a las generaciones siguientes. Por tanto, la desigualdad de hoy afecta la salud de manana. La opcion A refleja esta cadena argumentativa que el texto presenta de forma directa. La opcion B invierte la relacion causal. La opcion C introduce la genetica clasica, que el texto distingue de la epigenetica. La opcion D menciona politicas publicas que el texto no aborda.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "La premisa de que las condiciones adversas producen modificaciones epigeneticas transmisibles a la descendencia.", "isCorrect": true },
+      { "letter": "B", "text": "La evidencia de que las enfermedades metabolicas causan pobreza y exclusion social.", "isCorrect": false },
+      { "letter": "C", "text": "La demostracion de que las mutaciones geneticas producidas por la pobreza son irreversibles.", "isCorrect": false },
+      { "letter": "D", "text": "El argumento de que las politicas de salud publica han fracasado en reducir la desigualdad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": null,
+    "questionText": "Un lector critico podria senalar que el argumento del texto presenta la siguiente limitacion:",
+    "explanation": "El texto utiliza el estudio de la hambruna holandesa como evidencia principal, pero este caso involucra una poblacion especifica en condiciones extremas y acotadas. Generalizar de alli a todas las formas de desigualdad social (pobreza cronica, violencia, marginacion) es un salto argumentativo considerable. La opcion B identifica esta limitacion. La opcion A es incorrecta porque el texto si menciona mecanismos (metilacion del ADN, histonas). La opcion C critica algo que el texto no pretende hacer. La opcion D es falsa: el texto no niega la genetica clasica, sino que la complementa.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "No explica los mecanismos moleculares mediante los cuales operan los cambios epigeneticos.", "isCorrect": false },
+      { "letter": "B", "text": "Generaliza a partir de estudios sobre hambrunas extremas a contextos de desigualdad social estructural sin establecer equivalencia.", "isCorrect": true },
+      { "letter": "C", "text": "Omite la definicion tecnica de conceptos como metilacion e histonas, impidiendo la comprension del lector.", "isCorrect": false },
+      { "letter": "D", "text": "Contradice la evidencia cientifica al negar que los genes tengan algun papel en la herencia biologica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Lea el siguiente texto.\n\n«En 1846, el dentista William T. G. Morton realizo la primera demostracion publica exitosa de anestesia con eter en el Hospital General de Massachusetts. El paciente, Edward Abbott, fue sometido a la extirpacion de un tumor en el cuello sin manifestar dolor. El cirujano John Collins Warren, visiblemente conmovido, pronuncio ante el auditorio una frase que se convertiria en historica: «Senores, esto no es un engano».\n\nAntes de ese dia, la cirugia era sinonimo de tormento. Los pacientes eran inmovilizados por la fuerza, y la velocidad del cirujano —no su precision— determinaba el exito del procedimiento. Robert Liston, celebre cirujano britanico, se jactaba de poder amputar una pierna en menos de treinta segundos. En ese contexto, la anestesia no fue simplemente un avance tecnico: fue una revolucion moral. Por primera vez, la medicina podia curar sin torturar.\n\nSin embargo, la historia de la anestesia tambien revela las sombras del progreso cientifico. Crawford Long habia utilizado eter como anestesico cuatro anos antes que Morton, en 1842, pero no publico sus resultados. Horace Wells, quien experimento con oxido nitroso, fracaso en una demostracion publica y, desacreditado y adicto al cloroformo, se suicido en 1848. Morton mismo murio en la pobreza, enfrascado en disputas legales sobre la patente del eter. La anestesia salvo millones de vidas, pero destruyo las de quienes la descubrieron.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, antes de la demostracion de Morton en 1846, el exito de una cirugia dependia principalmente de:",
+    "explanation": "El texto afirma literalmente que «la velocidad del cirujano —no su precision— determinaba el exito del procedimiento», y ofrece el ejemplo de Robert Liston amputando en treinta segundos. La opcion D recoge esta informacion. La opcion A invierte la relacion (la precision no era prioritaria). La opcion B introduce la anestesia natural, que no se menciona. La opcion C habla de consentimiento, un concepto ajeno al pasaje.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "La precision con que el cirujano realizaba las incisiones.", "isCorrect": false },
+      { "letter": "B", "text": "La disponibilidad de anestesicos naturales como el opio.", "isCorrect": false },
+      { "letter": "C", "text": "El consentimiento informado del paciente antes del procedimiento.", "isCorrect": false },
+      { "letter": "D", "text": "La rapidez con que el cirujano completaba la operacion.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "La afirmacion «la anestesia no fue simplemente un avance tecnico: fue una revolucion moral» implica que:",
+    "explanation": "El autor contrasta la anestesia como herramienta tecnica (eliminar el dolor) con su significado etico (la medicina ya no necesita infligir sufrimiento para curar). La palabra «moral» indica que el cambio trasciende lo instrumental y afecta los fundamentos eticos de la practica medica. La opcion B captura esta idea. La opcion A reduce el impacto a lo tecnico. La opcion C habla de regulacion, que no se menciona. La opcion D confunde moral con religioso.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La tecnologia medica avanzo mas rapidamente que la formacion de los cirujanos.", "isCorrect": false },
+      { "letter": "B", "text": "Eliminar el dolor quirurgico transformo la relacion etica entre medicina y sufrimiento.", "isCorrect": true },
+      { "letter": "C", "text": "La comunidad medica necesitaba un marco regulatorio para autorizar el uso de sustancias quimicas.", "isCorrect": false },
+      { "letter": "D", "text": "Las instituciones religiosas se opusieron al uso de anestesia por considerarla contraria a la voluntad divina.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": null,
+    "questionText": "La frase final — «la anestesia salvo millones de vidas, pero destruyo las de quienes la descubrieron» — constituye una paradoja que el autor utiliza para:",
+    "explanation": "El autor cierra con un contraste dramatico: el beneficio colectivo enorme (millones salvados) versus la tragedia personal de los descubridores (pobreza, adiccion, suicidio). Esta paradoja pone en evidencia que el progreso cientifico puede ser implacable con quienes lo hacen posible. La opcion A captura esta funcion. La opcion B critica la industria farmaceutica, tema ajeno al texto. La opcion C es factual pero no explica la funcion argumentativa de la paradoja. La opcion D propone una tesis que el texto no defiende.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Evidenciar que el progreso cientifico puede tener un costo humano devastador para sus propios protagonistas.", "isCorrect": true },
+      { "letter": "B", "text": "Criticar a la industria farmaceutica por no compensar economicamente a los pioneros de la anestesia.", "isCorrect": false },
+      { "letter": "C", "text": "Informar al lector sobre los conflictos legales relacionados con la patente del eter.", "isCorrect": false },
+      { "letter": "D", "text": "Argumentar que los descubrimientos medicos deberian pertenecer al dominio publico.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "El hecho de que Crawford Long hubiera utilizado eter cuatro anos antes que Morton pero no publicara sus resultados sugiere que:",
+    "explanation": "El texto presenta el caso de Long como alguien que logro el hallazgo pero no lo comunico. Esto permite inferir que en ciencia no basta con descubrir algo: hay que publicarlo para que la comunidad lo reconozca y lo aplique. La opcion C refleja esta inferencia. La opcion A es una afirmacion que el texto no sustenta. La opcion B habla de etica medica, no del punto que ilustra el caso de Long. La opcion D introduce competencia institucional, ajena al texto.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Long no estaba seguro de la eficacia del eter y preferia seguir experimentando.", "isCorrect": false },
+      { "letter": "B", "text": "La comunidad medica del siglo XIX rechazaba sistematicamente los descubrimientos de los dentistas.", "isCorrect": false },
+      { "letter": "C", "text": "En el ambito cientifico, la publicacion y difusion de los resultados es tan importante como el descubrimiento mismo.", "isCorrect": true },
+      { "letter": "D", "text": "Las instituciones hospitalarias de la epoca impedian que los medicos rurales publicaran investigaciones.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Lea el siguiente texto.\n\n«El enfoque «Una Salud» (One Health) parte de una premisa que, aunque evidente, ha sido sistematicamente ignorada por las politicas de salud publica: la salud humana, la salud animal y la salud ambiental estan indisolublemente conectadas. El 75% de las enfermedades infecciosas emergentes en humanos son de origen zoonotico, es decir, se transmiten de animales a personas. El SARS, la gripe aviar, el Ebola, el Zika y el COVID-19 comparten un patron comun: surgieron en la interfaz entre fauna silvestre, animales domesticos y seres humanos, en contextos de degradacion ambiental.\n\nLa deforestacion masiva obliga a especies silvestres a desplazarse hacia zonas habitadas por humanos, incrementando las oportunidades de contacto y, por tanto, de transmision de patogenos. Los mercados de animales vivos, donde especies de distintos ecosistemas conviven en condiciones de hacinamiento e higiene precaria, funcionan como caldos de cultivo para la recombinacion viral. La ganaderia industrial, con millones de animales geneticamente homogeneos confinados en espacios reducidos, crea las condiciones ideales para la amplificacion y mutacion de virus.\n\nA pesar de la evidencia acumulada, la respuesta global sigue siendo predominantemente reactiva: se invierte en vacunas y tratamientos despues de que la pandemia estalla, pero se destina una fraccion minima a prevenir las condiciones que la generan. El enfoque Una Salud propone invertir esta logica: en lugar de esperar la proxima pandemia, intervenir en sus causas estructurales —deforestacion, comercio de fauna silvestre, ganaderia insostenible— antes de que el proximo patogeno salte de especie.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, el porcentaje de enfermedades infecciosas emergentes que son de origen zoonotico es:",
+    "explanation": "El texto lo indica explicitamente: «El 75% de las enfermedades infecciosas emergentes en humanos son de origen zoonotico». Es una pregunta de recuperacion de informacion literal. La opcion A (75%) es correcta. Las demas cifras (60%, 85%, 90%) no aparecen en el texto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "75%.", "isCorrect": true },
+      { "letter": "B", "text": "60%.", "isCorrect": false },
+      { "letter": "C", "text": "85%.", "isCorrect": false },
+      { "letter": "D", "text": "90%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": null,
+    "questionText": "La expresion «caldos de cultivo para la recombinacion viral» se refiere, en el contexto del texto, a:",
+    "explanation": "El autor describe los mercados de animales vivos como lugares donde distintas especies conviven hacinadas, lo que facilita que virus de diferentes origenes intercambien material genetico (recombinacion). La metafora «caldos de cultivo» alude a un medio que favorece la proliferacion. La opcion B captura esta idea. La opcion A confunde la metafora con laboratorios. La opcion C habla de cocinar alimentos, una lectura literal erronea. La opcion D introduce manipulacion intencional, ajena al texto.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Laboratorios clandestinos donde se experimentan con virus de origen animal.", "isCorrect": false },
+      { "letter": "B", "text": "Entornos donde el contacto entre especies distintas facilita que los virus muten y se adapten a nuevos huespedes.", "isCorrect": true },
+      { "letter": "C", "text": "Practicas culinarias tradicionales que involucran la coccion insuficiente de carnes de animales silvestres.", "isCorrect": false },
+      { "letter": "D", "text": "Centros de investigacion veterinaria que manipulan patogenos con fines de bioseguridad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "La estructura argumentativa del texto puede describirse como:",
+    "explanation": "El primer parrafo presenta la tesis (salud humana, animal y ambiental estan conectadas). El segundo desarrolla los mecanismos (deforestacion, mercados, ganaderia). El tercero critica la respuesta actual (reactiva) y propone una alternativa (preventiva). La opcion C describe esta estructura con precision. La opcion A omite la propuesta final. La opcion B confunde el orden. La opcion D no refleja la progresion logica del texto.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Presentacion de datos estadisticos, seguida de una refutacion y una conclusion neutral.", "isCorrect": false },
+      { "letter": "B", "text": "Descripcion historica de pandemias, analisis de sus causas y prediccion de futuras epidemias.", "isCorrect": false },
+      { "letter": "C", "text": "Exposicion de una tesis, desarrollo de los mecanismos que la sustentan y critica a la respuesta vigente con una propuesta alternativa.", "isCorrect": true },
+      { "letter": "D", "text": "Comparacion entre dos enfoques de salud publica seguida de una sintesis que los integra.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "Un lector critico podria cuestionar el argumento del texto senalando que:",
+    "explanation": "El texto asume que intervenir en causas estructurales (deforestacion, ganaderia) es viable y suficiente, pero no considera que estas actividades estan profundamente arraigadas en sistemas economicos globales. Detener la deforestacion o transformar la ganaderia industrial implica costos economicos y politicos enormes que el texto no reconoce. La opcion D identifica esta limitacion. La opcion A es falsa porque el texto si menciona multiples enfermedades. La opcion B cuestiona datos que el texto presenta como establecidos. La opcion C critica algo que no es un objetivo del texto.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "No incluye ejemplos suficientes de enfermedades zoonoticas para respaldar su afirmacion.", "isCorrect": false },
+      { "letter": "B", "text": "El dato del 75% de enfermedades zoonoticas probablemente esta desactualizado.", "isCorrect": false },
+      { "letter": "C", "text": "No propone medidas concretas para mejorar la vigilancia epidemiologica en animales domesticos.", "isCorrect": false },
+      { "letter": "D", "text": "Subestima la complejidad economica y politica de modificar las practicas que identifica como causas estructurales.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Lea el siguiente fragmento.\n\n«En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivia un hidalgo de los de lanza en astillero, adarga antigua, rocin flaco y galgo corredor. Una olla de algo mas vaca que carnero, salpicon las mas noches, duelos y quebrantos los sabados, lantejas los viernes, algun palomino de anadidura los domingos, consumian las tres partes de su hacienda. El resto della concluian sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los dias de entresemana se honraba con su vellori de lo mas fino.\n\nTenia en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que asi ensillaba el rocin como tomaba la podadera. Frisaba la edad de nuestro hidalgo con los cincuenta anos; era de complexion recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. Quieren decir que tenia el sobrenombre de Quijada, o Quesada, que en esto hay alguna diferencia en los autores que deste caso escriben; aunque por conjeturas verosimiles se deja entender que se llamaba Quejana. Pero esto importa poco a nuestro cuento: basta que en la narracion del no se salga un punto de la verdad.»\n\n(Miguel de Cervantes, Don Quijote de la Mancha, 1605, obra de dominio publico)",
+    "questionText": "La descripcion de la alimentacion del hidalgo — «una olla de algo mas vaca que carnero, salpicon las mas noches» — tiene como funcion en el texto:",
+    "explanation": "Cervantes detalla la dieta modesta del hidalgo para ubicarlo socialmente: no es un noble rico sino un hidalgo de recursos limitados cuya alimentacion consume «las tres partes de su hacienda». La comida funciona como indicador de su posicion economica. La opcion B identifica esta funcion. La opcion A sobreinterpreta el fragmento como critica social. La opcion C introduce un tema gastronomico ajeno al proposito narrativo. La opcion D invierte la relacion: la comida no muestra abundancia sino restriccion.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Criticar las costumbres alimentarias de la nobleza espanola del siglo XVII.", "isCorrect": false },
+      { "letter": "B", "text": "Establecer la condicion economica modesta del personaje a traves de sus habitos cotidianos.", "isCorrect": true },
+      { "letter": "C", "text": "Documentar las tradiciones gastronomicas de la region de la Mancha.", "isCorrect": false },
+      { "letter": "D", "text": "Demostrar que el hidalgo vivia en la abundancia a pesar de su apariencia sencilla.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "La expresion «de cuyo nombre no quiero acordarme» sugiere que el narrador:",
+    "explanation": "Al decir que no quiere acordarse del nombre del lugar, Cervantes establece un narrador que aparenta distancia o desinteres respecto a ciertos detalles, lo cual crea un tono ironico y ambiguo. Esta deliberada vaguedad es un recurso literario que genera misterio y complicidad con el lector. La opcion C captura esta funcion. La opcion A toma la frase literalmente. La opcion B interpreta el olvido como real. La opcion D introduce censura, un concepto ajeno al tono del fragmento.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Desconoce el lugar exacto donde transcurren los hechos que va a narrar.", "isCorrect": false },
+      { "letter": "B", "text": "Padece problemas de memoria que afectaran la confiabilidad de su relato.", "isCorrect": false },
+      { "letter": "C", "text": "Adopta deliberadamente un tono de ambiguedad e ironia que establece distancia narrativa.", "isCorrect": true },
+      { "letter": "D", "text": "Oculta el nombre del pueblo para proteger la identidad del protagonista por razones de censura.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "La aclaracion final — «basta que en la narracion del no se salga un punto de la verdad» — resulta paradojica en el contexto de la obra porque:",
+    "explanation": "El Quijote es una obra de ficcion, y el narrador acaba de admitir incertidumbre sobre el propio nombre del protagonista (Quijada, Quesada o Quejana). Que un narrador incierto sobre datos basicos proclame fidelidad a la verdad constituye una ironia narrativa deliberada. La opcion A identifica esta paradoja. La opcion B toma la frase como sincera. La opcion C introduce un debate historiografico ajeno. La opcion D habla de critica literaria, no de la funcion del pasaje.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "El narrador promete veracidad en una obra de ficcion, generando una ironia que cuestiona los limites entre realidad y literatura.", "isCorrect": true },
+      { "letter": "B", "text": "Demuestra que Cervantes pretendia escribir una cronica historica y no una novela.", "isCorrect": false },
+      { "letter": "C", "text": "Revela que existio un personaje historico real en quien se baso el Quijote.", "isCorrect": false },
+      { "letter": "D", "text": "Anticipa las criticas que la obra recibiria por parte de los estudiosos de la literatura.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": null,
+    "questionText": "La acumulacion de detalles sobre la vestimenta del hidalgo — «sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo» — contribuye a:",
+    "explanation": "Cervantes enumera las prendas del hidalgo distinguiendo entre ropa de fiesta y de diario, con telas especificas. Esta descripcion pormenorizada crea un retrato completo del personaje, mostrando que incluso su vestuario refleja una economia ajustada pero con pretensiones de decoro. La opcion D recoge esta funcion. La opcion A confunde detalle con critica. La opcion B sobredimensiona el proposito comico. La opcion C introduce moda como tema central, lo cual es incorrecto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Satirizar la vanidad excesiva de la clase aristocratica espanola.", "isCorrect": false },
+      { "letter": "B", "text": "Crear un efecto comico mediante la enumeracion absurda de objetos irrelevantes.", "isCorrect": false },
+      { "letter": "C", "text": "Documentar la moda masculina del siglo XVII para futuros historiadores.", "isCorrect": false },
+      { "letter": "D", "text": "Construir un retrato detallado que refleja la posicion social y las pretensiones del personaje.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Lea el siguiente texto.\n\n«La preparacion para pandemias es, quiza, el ejemplo mas claro de una paradoja politica: cuando funciona, parece innecesaria; cuando falla, parece obvia. Los gobiernos que invierten en sistemas de vigilancia epidemiologica, reservas estrategicas de equipos medicos y protocolos de respuesta rapida rara vez reciben reconocimiento publico, precisamente porque su exito se mide en catastrofes que no ocurren. En cambio, cuando una pandemia golpea a un pais desprevenido, la critica es unanime y retrospectiva: «era evidente que esto iba a pasar».\n\nEsta paradoja se agrava por la naturaleza de los ciclos politicos. Un presidente que destina mil millones de dolares a preparacion pandemica no vera resultados visibles durante su mandato. Los beneficios se materializaran —si acaso— en diez o veinte anos, cuando otro gobierno enfrente una crisis que no estallo gracias a la inversion previa. La logica electoral favorece lo urgente y visible sobre lo importante e invisible. Construir un hospital genera una foto para la campana; fortalecer un sistema de alerta temprana no.\n\nLa pandemia de COVID-19 deberia haber sido el punto de inflexion. Sin embargo, tres anos despues, la mayoria de los paises han recortado sus presupuestos de preparacion pandemica, han desmantelado los equipos tecnicos creados durante la emergencia y han vuelto a la complacencia pre-2020. La memoria institucional de las pandemias es, paradojicamente, mas fragil que la de los individuos que las padecieron.»\n\n(Redaccion Study2One)",
+    "questionText": "La paradoja central que plantea el primer parrafo puede formularse como:",
+    "explanation": "El autor establece una tension: la preparacion efectiva es invisible (no hay pandemia que mostrar), y la falta de preparacion solo se evidencia cuando ya es tarde. Esta paradoja es el eje del texto. La opcion C la formula con precision. La opcion A menciona prevencion vs. tratamiento, pero el texto habla de preparacion vs. percepcion publica. La opcion B introduce competencia entre paises, ajena al texto. La opcion D habla de financiacion, que es consecuencia de la paradoja, no la paradoja misma.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Los sistemas de prevencion son siempre mas costosos que los tratamientos curativos.", "isCorrect": false },
+      { "letter": "B", "text": "Los paises mejor preparados para pandemias son los que menos cooperacion internacional reciben.", "isCorrect": false },
+      { "letter": "C", "text": "La inversion en preparacion pandemica parece superflua cuando tiene exito y obvia cuando fracasa.", "isCorrect": true },
+      { "letter": "D", "text": "Los gobiernos prefieren invertir en infraestructura hospitalaria porque genera resultados electorales inmediatos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "La expresion «la memoria institucional de las pandemias es mas fragil que la de los individuos que las padecieron» significa que:",
+    "explanation": "El autor contrasta dos tipos de memoria: la institucional (politicas, presupuestos, equipos tecnicos) y la individual (recuerdos personales). Afirma que las instituciones olvidan mas rapido que las personas, pues desmantelan lo construido durante la emergencia. La opcion B captura esta idea. La opcion A invierte la relacion. La opcion C habla de trauma individual, que no es el foco. La opcion D interpreta literalmente la «fragilidad» como destruccion fisica.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Las personas olvidan las pandemias mas rapido que las instituciones gubernamentales.", "isCorrect": false },
+      { "letter": "B", "text": "Los gobiernos desmantelan sus sistemas de preparacion con mayor rapidez de lo que las personas olvidan su experiencia de la crisis.", "isCorrect": true },
+      { "letter": "C", "text": "El trauma psicologico de una pandemia impide que los ciudadanos confien en las instituciones de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Los archivos historicos sobre pandemias se destruyen con frecuencia por falta de preservacion documental.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": null,
+    "questionText": "Segun el texto, ¿cual es la razon principal por la que los gobiernos no invierten sostenidamente en preparacion pandemica?",
+    "explanation": "El segundo parrafo lo explica: los beneficios de la preparacion se ven en diez o veinte anos, cuando otro gobierno gobierne. «La logica electoral favorece lo urgente y visible sobre lo importante e invisible.» El desajuste entre ciclos politicos cortos y beneficios a largo plazo es la causa. La opcion A recoge esta idea. La opcion B habla de costos, que el texto no enfatiza como razon principal. La opcion C introduce resistencia ciudadana, ausente del texto. La opcion D habla de conocimiento cientifico, que no es la barrera senalada.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Los ciclos politicos cortos desincentivan inversiones cuyos beneficios no son visibles durante el mandato vigente.", "isCorrect": true },
+      { "letter": "B", "text": "Los costos de preparacion pandemica superan los presupuestos disponibles de la mayoria de los paises.", "isCorrect": false },
+      { "letter": "C", "text": "Los ciudadanos se oponen a destinar recursos publicos a amenazas que perciben como improbables.", "isCorrect": false },
+      { "letter": "D", "text": "La comunidad cientifica no ha logrado desarrollar modelos predictivos confiables para nuevas pandemias.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "¿Cual de las siguientes evidencias debilitaria mas el argumento central del texto?",
+    "explanation": "El argumento central es que los gobiernos no mantienen la preparacion pandemica por la logica de los ciclos politicos y la invisibilidad del exito preventivo. Si existieran paises que, a pesar de esta logica, mantienen inversiones sostenidas y obtienen reconocimiento electoral por ello, la tesis se debilitaria. La opcion C presenta esta evidencia. La opcion A refuerza el argumento en lugar de debilitarlo. La opcion B es irrelevante al punto central. La opcion D no aborda la paradoja politica que el texto plantea.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Un estudio que demuestre que las pandemias son cada vez mas frecuentes por el cambio climatico.", "isCorrect": false },
+      { "letter": "B", "text": "Datos que muestren que la industria farmaceutica ha aumentado su inversion en investigacion de vacunas.", "isCorrect": false },
+      { "letter": "C", "text": "Ejemplos de paises que mantienen inversiones sostenidas en preparacion pandemica y obtienen respaldo electoral por ello.", "isCorrect": true },
+      { "letter": "D", "text": "Informes que confirmen que la mayoria de las pandemias historicas fueron contenidas en su pais de origen.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Lea el siguiente texto.\n\n«Cuando Gregor Samsa desperto una manana tras un sueno intranquilo, se encontro en su cama convertido en un monstruoso insecto. Estaba tumbado sobre su espalda dura, y en forma de caparazon, y, al levantar un poco la cabeza, veia un vientre abombado, parduzco, dividido por partes duras en forma de arco, sobre cuya protuberancia apenas podia mantenerse el cobertor, a punto ya de resbalar del todo. Sus muchas patas, ridiculamente pequenas en comparacion con el resto de su tamano, le vibraban desamparadas ante los ojos.\n\n«¿Que me ha ocurrido?», penso. No era un sueno. Su habitacion, una autentica habitacion humana, si bien algo pequena, permanecia tranquila entre las cuatro paredes harto conocidas. Por encima de la mesa, sobre la que se encontraba desparramado un muestrario de panos desplegado —Samsa era viajante de comercio—, estaba colgado aquel cuadro que el habia recortado hacia poco de una revista ilustrada y habia colocado en un bonito marco dorado.»\n\n(Franz Kafka, La metamorfosis, 1915, traduccion al espanol de obra de dominio publico)",
+    "questionText": "La frase «no era un sueno» cumple la funcion narrativa de:",
+    "explanation": "Tras describir la transformacion fantastica de Samsa, el narrador podria dejar abierta la posibilidad de que se trate de una pesadilla. Al afirmar «no era un sueno», cierra esa interpretacion y obliga al lector a aceptar el hecho sobrenatural como realidad dentro del relato. La opcion B identifica esta funcion. La opcion A contradice la funcion de la frase. La opcion C introduce un concepto psicologico ajeno al texto. La opcion D es erronea porque la frase no senala que vaya a despertar.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Sugerir que la transformacion de Samsa es una alucinacion producto de la fiebre.", "isCorrect": false },
+      { "letter": "B", "text": "Establecer que la transformacion es un hecho real dentro de la logica del relato, no una fantasia onirica.", "isCorrect": true },
+      { "letter": "C", "text": "Indicar que Samsa padece un trastorno disociativo que le impide distinguir realidad y sueno.", "isCorrect": false },
+      { "letter": "D", "text": "Anticipar que Samsa despertara nuevamente y descubrira que todo fue una pesadilla.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "El contraste entre la situacion extraordinaria de Samsa y los detalles banales de su entorno — la habitacion, el muestrario de panos, el cuadro enmarcado — produce un efecto que puede interpretarse como:",
+    "explanation": "Kafka yuxtapone lo monstruoso (la transformacion en insecto) con lo ordinario (objetos cotidianos de un viajante de comercio). Esta combinacion genera una tension absurda: lo sobrenatural irrumpe en lo mundano sin que el entorno se altere. La opcion A describe este efecto. La opcion B introduce critica social explicita que Kafka no formula directamente aqui. La opcion C busca una explicacion racional que el texto no ofrece. La opcion D reduce la funcion a mera descripcion ambiental.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Una intensificacion del absurdo al situar lo sobrenatural en un marco de normalidad inalterada.", "isCorrect": true },
+      { "letter": "B", "text": "Una critica explicita a la monotonia de la vida burguesa europea de principios del siglo XX.", "isCorrect": false },
+      { "letter": "C", "text": "Una pista de que la transformacion tiene una explicacion racional vinculada al trabajo de Samsa.", "isCorrect": false },
+      { "letter": "D", "text": "Una estrategia para que el lector visualice con precision el espacio fisico de la escena.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "La mencion de que «Samsa era viajante de comercio» se introduce en el texto mediante un inciso entre guiones. Esta eleccion narrativa puede interpretarse como:",
+    "explanation": "Kafka inserta la profesion de Samsa como un parentesis, casi un dato accesorio, en medio de la descripcion de su transformacion. Esto ironiza sobre la relacion entre identidad y trabajo: incluso transformado en insecto, lo que se destaca es su ocupacion laboral, como si esta definiera su existencia mas que su propia forma fisica. La opcion D captura esta interpretacion. La opcion A lo toma como dato puramente informativo. La opcion B introduce economia, ajena al texto. La opcion C habla de contexto historico.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Un recurso para informar al lector sobre la fuente de ingresos de la familia Samsa.", "isCorrect": false },
+      { "letter": "B", "text": "Una estrategia para situar la historia en el contexto economico de la clase media europea.", "isCorrect": false },
+      { "letter": "C", "text": "Un detalle irrelevante que Kafka incluye por habito estilístico sin proposito narrativo.", "isCorrect": false },
+      { "letter": "D", "text": "Un recurso ironico que reduce la identidad del personaje a su funcion laboral, aun en medio de una transformacion radical.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Lea el siguiente texto.\n\n«Los determinantes sociales de la salud no son una abstraccion academica: son la razon por la cual un nino nacido en el barrio Aguablanca de Cali tiene una esperanza de vida quince anos menor que uno nacido en Ciudad Jardin, a solo diez kilometros de distancia. En el mismo municipio, con el mismo alcalde, bajo las mismas leyes, la geografia del codigo postal determina cuantos anos vivira una persona.\n\nEsta desigualdad no es accidental. Es el resultado acumulado de decisiones politicas que, durante decadas, concentraron la inversion en infraestructura, saneamiento basico y servicios de salud en las zonas de mayor poder adquisitivo, mientras los barrios perifericos recibian, en el mejor de los casos, soluciones provisionales que se volvieron permanentes. Alcantarillados a cielo abierto, centros de salud sin medicos y colegios sin laboratorios no son fallas del sistema: son el sistema funcionando tal como fue disenado.\n\nEl modelo biomedico tradicional tiende a individualizar la enfermedad: si una persona tiene diabetes, el problema es su dieta; si tiene depresion, el problema es su quimica cerebral. Este enfoque, aunque clinicamente necesario, es sociologicamente ciego. No pregunta por que las comunidades de bajos ingresos tienen peores dietas, mayor exposicion a contaminantes y menos acceso a espacios de recreacion. No pregunta, en definitiva, por que enfermarse es mas probable para unos que para otros.»\n\n(Redaccion Study2One)",
+    "questionText": "La afirmacion «la geografia del codigo postal determina cuantos anos vivira una persona» tiene como proposito:",
+    "explanation": "El autor usa esta frase para sintetizar la tesis central del parrafo: el lugar donde se nace — determinado por condiciones socioeconomicas — predice la esperanza de vida. Es una formulacion condensada que hace tangible una idea abstracta. La opcion A identifica este proposito. La opcion B toma la frase literalmente. La opcion C introduce un debate ajeno (rural vs. urbano). La opcion D confunde la funcion de la frase con una recomendacion practica.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Sintetizar de forma contundente la relacion entre ubicacion socioeconomica y esperanza de vida.", "isCorrect": true },
+      { "letter": "B", "text": "Afirmar que el servicio postal colombiano es determinante en el acceso a servicios de salud.", "isCorrect": false },
+      { "letter": "C", "text": "Comparar las condiciones de vida entre zonas rurales y urbanas de Colombia.", "isCorrect": false },
+      { "letter": "D", "text": "Proponer que las politicas de salud se focalicen segun la division postal de las ciudades.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "La frase «alcantarillados a cielo abierto, centros de salud sin medicos y colegios sin laboratorios no son fallas del sistema: son el sistema funcionando tal como fue disenado» expresa la idea de que:",
+    "explanation": "El autor rechaza la interpretacion de que estas carencias sean errores o accidentes. Al afirmar que «son el sistema funcionando tal como fue disenado», sostiene que la desigualdad es un resultado estructural deliberado, no una anomalia. La opcion C captura esta idea. La opcion A invierte el sentido. La opcion B habla de corrupcion individual, no de diseno estructural. La opcion D introduce la competencia entre ciudades, ajena al texto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Las deficiencias en infraestructura se deben a la falta de planificacion urbana por parte de los gobiernos locales.", "isCorrect": false },
+      { "letter": "B", "text": "La corrupcion de los funcionarios publicos es la causa directa de la desigualdad en los servicios basicos.", "isCorrect": false },
+      { "letter": "C", "text": "La concentracion de recursos en zonas privilegiadas es un resultado estructural e intencional, no un accidente.", "isCorrect": true },
+      { "letter": "D", "text": "Las ciudades colombianas compiten entre si por los recursos del gobierno central.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "El texto critica al modelo biomedico tradicional calificandolo de «sociologicamente ciego». Esta critica se fundamenta en que dicho modelo:",
+    "explanation": "El autor explica que el modelo biomedico diagnostica y trata enfermedades individuales (diabetes = dieta, depresion = quimica cerebral) sin preguntar por las causas sociales que generan esos patrones. «Sociologicamente ciego» significa que no ve el contexto social. La opcion B refleja esta critica. La opcion A exagera al decir que es «ineficaz». La opcion C habla de prevencion en general. La opcion D introduce la investigacion, un tema diferente.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Utiliza tratamientos farmacologicos que han demostrado ser ineficaces en poblaciones vulnerables.", "isCorrect": false },
+      { "letter": "B", "text": "Aborda la enfermedad como un fenomeno individual sin considerar las condiciones sociales que la producen.", "isCorrect": true },
+      { "letter": "C", "text": "Prioriza el tratamiento sobre la prevencion en todos los niveles de atencion.", "isCorrect": false },
+      { "letter": "D", "text": "Ignora los avances de la investigacion genetica en el diagnostico de enfermedades cronicas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Lea el siguiente texto.\n\n«Durante mas de un siglo, la formacion medica en Occidente ha seguido el modelo establecido por Abraham Flexner en su celebre informe de 1910. Flexner propuso que la educacion medica se fundamentara en las ciencias basicas — anatomia, fisiologia, bioquimica, patologia — y que la ensenanza clinica se realizara en hospitales universitarios bajo supervision rigurosa. Este modelo, adoptado rapidamente en Estados Unidos y extendido luego al resto del mundo, produjo una generacion de medicos extraordinariamente competentes en el diagnostico y tratamiento de enfermedades individuales.\n\nSin embargo, un siglo despues, las limitaciones del modelo flexneriano son evidentes. La hiperespecializacion fragmento el cuerpo humano en sistemas y organos atendidos por especialistas que rara vez dialogan entre si. La formacion centrada en el hospital alejo a los futuros medicos de la comunidad, convirtiendo la atencion primaria en una subespecialidad de bajo prestigio en lugar de ser la columna vertebral del sistema de salud. Y la ausencia de formacion en ciencias sociales, comunicacion y etica produjo profesionales tecnicamente brillantes pero frecuentemente incapaces de comprender los contextos culturales, economicos y emocionales de sus pacientes.\n\nLas propuestas de reforma no buscan descartar a Flexner, sino completarlo. Se trata de anadir a la solidez cientifica del modelo original las dimensiones que este omitio: salud comunitaria, trabajo interprofesional, determinantes sociales, competencia cultural y liderazgo en sistemas de salud. No se necesitan menos ciencias basicas; se necesitan mas herramientas para que esas ciencias se apliquen en contextos reales.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, el informe Flexner de 1910 propuso que la educacion medica se fundamentara en:",
+    "explanation": "El texto dice explicitamente que «Flexner propuso que la educacion medica se fundamentara en las ciencias basicas — anatomia, fisiologia, bioquimica, patologia — y que la ensenanza clinica se realizara en hospitales universitarios». Es informacion literal. La opcion A es correcta. La opcion B invierte la propuesta. La opcion C introduce salud comunitaria, que es lo que Flexner omitio. La opcion D menciona investigacion farmaceutica, ausente del texto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Las ciencias basicas y la ensenanza clinica hospitalaria bajo supervision rigurosa.", "isCorrect": true },
+      { "letter": "B", "text": "La practica comunitaria complementada con formacion teorica en universidades.", "isCorrect": false },
+      { "letter": "C", "text": "La integracion de ciencias sociales con ciencias biomedicas desde el primer ano.", "isCorrect": false },
+      { "letter": "D", "text": "La investigacion farmaceutica como eje central de la formacion del futuro medico.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "La expresion «convirtiendo la atencion primaria en una subespecialidad de bajo prestigio» implica que:",
+    "explanation": "El autor senala una consecuencia paradojica: la atencion primaria, que deberia ser la base del sistema de salud, termino siendo desprestigiada dentro de la jerarquia medica por efecto del modelo hospitalario y especializado de Flexner. La opcion C identifica esta implicacion. La opcion A confunde atencion primaria con medicina preventiva. La opcion B habla de salarios, un tema no mencionado. La opcion D introduce regulacion gubernamental, ajena al argumento.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La medicina preventiva fue eliminada de los programas de formacion medica tras el informe Flexner.", "isCorrect": false },
+      { "letter": "B", "text": "Los medicos generalistas reciben salarios inferiores a los de cualquier otra profesion de la salud.", "isCorrect": false },
+      { "letter": "C", "text": "El modelo hospitalario de formacion genero una jerarquia en la que la atencion basica perdio valor profesional.", "isCorrect": true },
+      { "letter": "D", "text": "Los gobiernos dejaron de financiar la atencion primaria para concentrar recursos en hospitales de alta complejidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "La frase final — «no se necesitan menos ciencias basicas; se necesitan mas herramientas para que esas ciencias se apliquen en contextos reales» — revela que la postura del autor frente al modelo flexneriano es:",
+    "explanation": "El autor explicita su postura en la frase final: no rechaza a Flexner sino que propone complementarlo, manteniendo la base cientifica pero ampliando el repertorio de competencias. Es una postura reformista que el texto formula directamente. La opcion D describe esta posicion. La opcion A implica rechazo total, contrario a lo dicho. La opcion B sugiere aceptacion sin critica, cuando el segundo parrafo es enteramente critico. La opcion C introduce ambivalencia que no se observa en el texto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "De rechazo total, pues considera que el modelo ha causado mas dano que beneficio a la medicina.", "isCorrect": false },
+      { "letter": "B", "text": "De aceptacion incondicional, pues reconoce que las ciencias basicas son el unico fundamento necesario.", "isCorrect": false },
+      { "letter": "C", "text": "De ambivalencia, pues no logra definir si Flexner fue positivo o negativo para la formacion medica.", "isCorrect": false },
+      { "letter": "D", "text": "De critica constructiva, pues valora los aportes del modelo pero senala la necesidad de ampliarlo.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": null,
+    "questionText": "Un lector critico podria cuestionar el argumento del texto senalando que:",
+    "explanation": "El texto atribuye multiples problemas de la medicina actual (fragmentacion, desprestigio de la atencion primaria, falta de competencia cultural) al modelo flexneriano, pero la formacion medica ha evolucionado en mas de un siglo con multiples influencias. Atribuir estas consecuencias a un solo informe de 1910 simplifica una cadena causal mucho mas compleja. La opcion A identifica esta debilidad. La opcion B es factual pero no constituye una critica al argumento. La opcion C cuestiona algo que el texto si hace (proponer reformas). La opcion D habla de fuentes bibliograficas, no del argumento.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Atribuye al modelo flexneriano consecuencias que probablemente tienen causas multiples mas alla de un solo informe.", "isCorrect": true },
+      { "letter": "B", "text": "No menciona que el informe Flexner tambien condujo al cierre de escuelas de medicina de baja calidad.", "isCorrect": false },
+      { "letter": "C", "text": "No propone alternativas concretas para reformar los curriculos de las facultades de medicina.", "isCorrect": false },
+      { "letter": "D", "text": "Cita el informe Flexner de 1910 sin referenciar estudios mas recientes sobre formacion medica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Lea el siguiente texto.\n\n«Los cuidados paliativos no son el fracaso de la medicina; son, en muchos sentidos, su expresion mas madura. En una cultura profesional que mide el exito en terminos de curacion, reconocer que un paciente no puede ser curado — pero si cuidado, acompanado y aliviado — requiere una fortaleza clinica y emocional que pocas especialidades demandan con tanta intensidad.\n\nLa Organizacion Mundial de la Salud estima que cada ano 56 millones de personas en el mundo necesitan cuidados paliativos, pero solo el 14% tiene acceso a ellos. En America Latina, la situacion es aun mas precaria: la disponibilidad de opioides para el manejo del dolor — particularmente la morfina oral — esta severamente restringida por legislaciones disenadas para combatir el narcotrafico, que no distinguen entre uso medico y uso recreativo. Un paciente con cancer terminal en Colombia puede enfrentar semanas de tramites burocraticos para acceder a la morfina que necesita para morir sin dolor. La guerra contra las drogas, disenada para proteger vidas, termina prolongando el sufrimiento de quienes estan muriendo.\n\nMas alla del acceso a farmacos, los cuidados paliativos enfrentan un obstaculo cultural profundo: la idea de que hablar de la muerte es rendirse. Familias y medicos evitan la conversacion sobre el final de la vida hasta que ya no hay alternativa, privando al paciente de la posibilidad de tomar decisiones sobre como quiere vivir sus ultimos meses, donde quiere estar y con quien. Los cuidados paliativos no aceleran la muerte ni la niegan: la humanizan.»\n\n(Redaccion Study2One)",
+    "questionText": "Segun el texto, ¿que porcentaje de las personas que necesitan cuidados paliativos tiene acceso a ellos a nivel mundial?",
+    "explanation": "El texto afirma explicitamente: «solo el 14% tiene acceso a ellos». Es informacion literal directa. La opcion B (14%) es correcta. Las demas cifras no aparecen en el texto.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "8%.", "isCorrect": false },
+      { "letter": "B", "text": "14%.", "isCorrect": true },
+      { "letter": "C", "text": "22%.", "isCorrect": false },
+      { "letter": "D", "text": "35%.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "La afirmacion «la guerra contra las drogas, disenada para proteger vidas, termina prolongando el sufrimiento de quienes estan muriendo» constituye una paradoja que el autor utiliza para:",
+    "explanation": "El autor muestra que una politica creada con un proposito protector (combatir el narcotrafico) produce un efecto contrario en los pacientes terminales: les impide acceder a medicamentos esenciales para el manejo del dolor. Es una consecuencia no intencionada de la legislacion antidrogas. La opcion C identifica esta funcion. La opcion A propone legalizacion, algo que el texto no defiende. La opcion B habla de Colombia vs. otros paises. La opcion D cuestiona la OMS, ajena al argumento.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Defender la legalizacion de todas las sustancias controladas para fines terapeuticos.", "isCorrect": false },
+      { "letter": "B", "text": "Demostrar que Colombia tiene las leyes antidrogas mas restrictivas de America Latina.", "isCorrect": false },
+      { "letter": "C", "text": "Evidenciar que la legislacion antinarcoticos genera un dano colateral al restringir el acceso a opioides medicos.", "isCorrect": true },
+      { "letter": "D", "text": "Cuestionar la credibilidad de las estadisticas de la OMS sobre cuidados paliativos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "La frase inicial — «los cuidados paliativos no son el fracaso de la medicina; son su expresion mas madura» — revela un supuesto implicito sobre la cultura medica, a saber:",
+    "explanation": "Al negar que los cuidados paliativos sean un fracaso, el autor implicitamente reconoce que esta es la percepcion dominante: que si no se cura, se ha fracasado. Este supuesto revela que la cultura medica prioriza la curacion como criterio de exito, y el autor busca desafiar esa norma. La opcion A identifica este supuesto. La opcion B habla de formacion, no de cultura. La opcion C introduce una preferencia que el texto no atribuye a los medicos. La opcion D generaliza sobre la sociedad, no sobre la cultura medica.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Existe una percepcion dominante en la medicina de que la imposibilidad de curar equivale a un fracaso profesional.", "isCorrect": true },
+      { "letter": "B", "text": "Los medicos no reciben formacion suficiente en el manejo del dolor cronico durante su carrera.", "isCorrect": false },
+      { "letter": "C", "text": "La mayoria de los profesionales de la salud prefieren la investigacion a la practica clinica directa.", "isCorrect": false },
+      { "letter": "D", "text": "La sociedad contemporanea ha normalizado la muerte como parte natural del ciclo vital.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "La frase final — «los cuidados paliativos no aceleran la muerte ni la niegan: la humanizan» — sintetiza la posicion del autor al:",
+    "explanation": "El autor usa una estructura triadica: niega dos extremos (acelerar la muerte = eutanasia; negar la muerte = obstinacion terapeutica) y propone una tercera via (humanizar). Esta estrategia retorica posiciona los cuidados paliativos como un equilibrio entre dos posiciones extremas. La opcion B describe esta funcion. La opcion A introduce la eutanasia como tema central, que el texto solo menciona implicita e indirectamente. La opcion C habla de familiar vs. medico, un tema no abordado. La opcion D reduce la frase a un dato informativo.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Proponer la legalizacion de la eutanasia como complemento de los cuidados paliativos.", "isCorrect": false },
+      { "letter": "B", "text": "Rechazar dos posiciones extremas — acelerar la muerte y negarla — y definir los cuidados paliativos como una tercera via centrada en la dignidad.", "isCorrect": true },
+      { "letter": "C", "text": "Establecer que la decision sobre el final de la vida corresponde al paciente y no a la familia ni al medico.", "isCorrect": false },
+      { "letter": "D", "text": "Informar al lector sobre la diferencia tecnica entre cuidados paliativos y tratamiento curativo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "El tercer parrafo senala que familias y medicos evitan hablar sobre la muerte. Un lector critico podria observar que esta afirmacion:",
+    "explanation": "El autor atribuye a familias y medicos de manera generalizada la tendencia a evitar la conversacion sobre la muerte, sin distinguir entre culturas, contextos o niveles educativos. En muchas culturas indigenas latinoamericanas, por ejemplo, la muerte se aborda de manera abierta y ritualizada. La generalizacion es una debilidad argumentativa. La opcion D identifica esta limitacion. La opcion A refuerza el argumento en lugar de cuestionarlo. La opcion B critica un aspecto que el texto no necesita incluir. La opcion C confunde el foco del parrafo.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Contradice la evidencia de que la mayoria de los pacientes terminales prefieren no conocer su pronostico.", "isCorrect": false },
+      { "letter": "B", "text": "Carece de respaldo estadistico que cuantifique con precision la frecuencia de estas conversaciones.", "isCorrect": false },
+      { "letter": "C", "text": "Ignora que los protocolos hospitalarios ya incluyen procedimientos obligatorios de comunicacion de malas noticias.", "isCorrect": false },
+      { "letter": "D", "text": "Generaliza una actitud cultural sin considerar que diferentes comunidades y contextos pueden tener relaciones distintas con la muerte.", "isCorrect": true }
+    ]
+  }
+]

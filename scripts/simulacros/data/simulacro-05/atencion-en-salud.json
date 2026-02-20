@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "El Decreto 3518 de 2006 creó y reglamentó el Sistema de Vigilancia en Salud Pública (Sivigila) en Colombia, estableciendo las responsabilidades de los actores del sistema y los procesos básicos de vigilancia: recolección, análisis, interpretación y difusión de datos.\n\n(Redacción Study2One, con referencia al Decreto 3518 de 2006)",
+    "questionText": "Según el Decreto 3518 de 2006, ¿cuál es el objetivo principal del Sistema de Vigilancia en Salud Pública?",
+    "explanation": "El Sivigila tiene como objetivo principal proveer información oportuna y de calidad sobre eventos de interés en salud pública para orientar las políticas y la planificación en salud, detectar cambios en tendencias y patrones epidemiológicos, y permitir la toma de decisiones basada en evidencia. No se limita a la notificación pasiva ni a la vigilancia hospitalaria exclusivamente.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Proveer información oportuna y de calidad para orientar políticas y toma de decisiones en salud pública.", "isCorrect": true },
+      { "letter": "B", "text": "Sancionar a las IPS que no reporten enfermedades transmisibles.", "isCorrect": false },
+      { "letter": "C", "text": "Reemplazar las funciones epidemiológicas del Instituto Nacional de Salud.", "isCorrect": false },
+      { "letter": "D", "text": "Limitar la vigilancia exclusivamente a eventos hospitalarios de alta complejidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "En un municipio fronterizo del departamento de Norte de Santander se detectan 12 casos de sarampión en menores de 5 años en un periodo de dos semanas. El coordinador de vigilancia epidemiológica municipal activa el protocolo correspondiente.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Según el Decreto 3518 de 2006, ¿cuál es la periodicidad de notificación para un brote de sarampión?",
+    "explanation": "El sarampión es un evento de notificación obligatoria inmediata, dado su alto potencial epidémico y la meta de eliminación en la región de las Américas. Los brotes de enfermedades inmunoprevenibles deben notificarse de forma inmediata (dentro de las primeras 24 horas) a la autoridad sanitaria competente, no de forma semanal ni mensual.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Notificación semanal en el periodo epidemiológico correspondiente.", "isCorrect": false },
+      { "letter": "B", "text": "Notificación inmediata, dentro de las primeras 24 horas de la detección del brote.", "isCorrect": true },
+      { "letter": "C", "text": "Notificación mensual consolidada al Instituto Nacional de Salud.", "isCorrect": false },
+      { "letter": "D", "text": "Notificación trimestral al Ministerio de Salud y Protección Social.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Un hospital de segundo nivel en el departamento del Cauca recibe un paciente con fiebre hemorrágica de causa desconocida. El médico tratante sospecha un evento de interés en salud pública y consulta la lista de eventos de notificación obligatoria (ENO) vigente.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál de las siguientes afirmaciones sobre los eventos de notificación obligatoria (ENO) es correcta?",
+    "explanation": "Los ENO incluyen eventos que por su magnitud, potencial epidémico, gravedad o interés en salud pública requieren vigilancia sistemática. La lista es actualizada periódicamente por el Ministerio de Salud y puede incluir enfermedades transmisibles, no transmisibles, eventos centinela y factores de riesgo. No se limitan a enfermedades infecciosas ni requieren confirmación de laboratorio para la notificación inicial.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Solo incluyen enfermedades infecciosas de alta mortalidad.", "isCorrect": false },
+      { "letter": "B", "text": "Requieren confirmación por laboratorio antes de realizar la notificación.", "isCorrect": false },
+      { "letter": "C", "text": "Incluyen enfermedades transmisibles, no transmisibles, eventos centinela y factores de riesgo definidos por el Ministerio de Salud.", "isCorrect": true },
+      { "letter": "D", "text": "Son exclusivamente de competencia del nivel nacional y no involucran al nivel municipal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "En una vereda del municipio de Tumaco (Nariño), un promotor de salud detecta que en las últimas tres semanas se han presentado 25 casos de enfermedad diarreica aguda (EDA) en niños menores de 5 años, cuando el promedio habitual es de 3 casos por semana. El acueducto veredal presenta contaminación por coliformes fecales.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde la perspectiva de vigilancia en salud pública, ¿qué tipo de evento epidemiológico configura esta situación?",
+    "explanation": "Un brote se define como la ocurrencia de casos de una enfermedad por encima de lo esperado en un área geográfica y periodo de tiempo definidos. En este caso, el aumento de EDA (25 casos vs. promedio de 9 en tres semanas) con una fuente común identificable (contaminación del acueducto) configura un brote. No es una pandemia (que implica extensión a múltiples países) ni un caso esporádico.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Un caso esporádico de EDA sin significancia epidemiológica.", "isCorrect": false },
+      { "letter": "B", "text": "Una pandemia de enfermedad diarreica que requiere alerta internacional.", "isCorrect": false },
+      { "letter": "C", "text": "Un brote de fuente común, dado el exceso de casos respecto al comportamiento esperado.", "isCorrect": true },
+      { "letter": "D", "text": "Una endemia estable que no requiere investigación de campo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "El Decreto 1072 de 2015, conocido como el Decreto Único Reglamentario del Sector Trabajo, compiló toda la normativa vigente en materia laboral, incluyendo el Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST), que reemplazó al antiguo Programa de Salud Ocupacional.\n\n(Redacción Study2One, con referencia al Decreto 1072 de 2015)",
+    "questionText": "¿Cuál fue el principal cambio que introdujo el SG-SST frente al antiguo Programa de Salud Ocupacional?",
+    "explanation": "El SG-SST implementó un enfoque de mejora continua basado en el ciclo PHVA (Planificar, Hacer, Verificar, Actuar), con indicadores de gestión, auditorías y revisión por la alta dirección. A diferencia del Programa de Salud Ocupacional, que tenía un enfoque más estático y reactivo, el SG-SST exige evaluación periódica, acciones correctivas y preventivas, y participación activa de la gerencia.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Eliminó la obligación de identificar peligros y valorar riesgos laborales.", "isCorrect": false },
+      { "letter": "B", "text": "Implementó un enfoque de mejora continua basado en el ciclo PHVA con indicadores, auditorías y revisión gerencial.", "isCorrect": true },
+      { "letter": "C", "text": "Limitó la responsabilidad de prevención de riesgos exclusivamente a la ARL.", "isCorrect": false },
+      { "letter": "D", "text": "Excluyó a los trabajadores independientes y contratistas del sistema de protección.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "Una empresa de construcción en Bogotá tiene 120 trabajadores. En el último año se presentaron los siguientes eventos:\n\n• 8 accidentes de trabajo con incapacidad temporal\n• 1 accidente grave (caída de altura con fractura de fémur)\n• 2 enfermedades laborales diagnosticadas (síndrome del túnel carpiano)\n• 240.000 horas-hombre trabajadas en el periodo\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la tasa de frecuencia de accidentalidad laboral de esta empresa?",
+    "explanation": "La tasa de frecuencia se calcula como: (Número de accidentes de trabajo / Horas-hombre trabajadas) × 200.000. En este caso: (9 / 240.000) × 200.000 = 7,5. Se incluyen todos los accidentes de trabajo (8 con incapacidad temporal + 1 grave = 9). Las enfermedades laborales se miden con indicadores separados. El factor 200.000 corresponde a 100 trabajadores × 50 semanas × 40 horas.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "3,3 por cada 200.000 horas-hombre trabajadas.", "isCorrect": false },
+      { "letter": "B", "text": "7,5 por cada 200.000 horas-hombre trabajadas.", "isCorrect": true },
+      { "letter": "C", "text": "6,7 por cada 200.000 horas-hombre trabajadas.", "isCorrect": false },
+      { "letter": "D", "text": "4,2 por cada 200.000 horas-hombre trabajadas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "El Programa de Atención Psicosocial y Salud Integral a Víctimas del Conflicto Armado (PAPSIVI), creado en el marco de la Ley 1448 de 2011 (Ley de Víctimas y Restitución de Tierras), establece lineamientos para la atención psicosocial y la rehabilitación integral de las víctimas.\n\n(Redacción Study2One, con referencia a la Ley 1448 de 2011 y al PAPSIVI)",
+    "questionText": "¿Cuál es el enfoque central del PAPSIVI en la atención a víctimas del conflicto armado?",
+    "explanation": "El PAPSIVI centra su intervención en la atención psicosocial comunitaria y la rehabilitación integral, reconociendo que las víctimas del conflicto armado presentan afectaciones que trascienden lo individual (trauma colectivo, ruptura del tejido social). Su enfoque es diferencial (género, etnia, ciclo vital, discapacidad) y territorial, con componentes de atención individual, familiar y comunitaria.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "La indemnización económica como única medida de reparación.", "isCorrect": false },
+      { "letter": "B", "text": "La atención psicosocial comunitaria y rehabilitación integral con enfoque diferencial y territorial.", "isCorrect": true },
+      { "letter": "C", "text": "La judicialización de los victimarios como prioridad del programa de salud.", "isCorrect": false },
+      { "letter": "D", "text": "La reubicación forzada de todas las víctimas en centros urbanos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "En el municipio de El Carmen de Bolívar, tras un proceso de reparación colectiva, un equipo del PAPSIVI realiza un diagnóstico participativo. Los líderes comunitarios refieren: «Desde las masacres, los jóvenes ya no confían en nadie. Las mujeres cargan solas con la familia. Los ancianos dicen que el miedo nunca se fue».\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde el enfoque psicosocial del PAPSIVI, ¿cuál estrategia es más pertinente para esta comunidad?",
+    "explanation": "El PAPSIVI privilegia la reconstrucción del tejido social y los vínculos comunitarios cuando las afectaciones son colectivas. Los grupos de apoyo mutuo, las prácticas rituales de memoria y los espacios de encuentro intergeneracional permiten elaborar el duelo colectivo y restaurar la confianza. La medicalización exclusiva o la atención individual aislada no abordan las dimensiones comunitarias del daño.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Prescribir ansiolíticos a toda la población afectada.", "isCorrect": false },
+      { "letter": "B", "text": "Realizar atención psicológica individual exclusivamente en consultorio.", "isCorrect": false },
+      { "letter": "C", "text": "Implementar grupos de apoyo mutuo, prácticas de memoria y espacios de encuentro intergeneracional.", "isCorrect": true },
+      { "letter": "D", "text": "Derivar todos los casos al nivel terciario de atención en salud mental.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "La Política de Estado para el Desarrollo Integral de la Primera Infancia «De Cero a Siempre», elevada a ley mediante la Ley 1804 de 2016, establece que la atención integral a niños y niñas desde la gestación hasta los 6 años es una prioridad nacional.\n\n(Redacción Study2One, con referencia a la Ley 1804 de 2016)",
+    "questionText": "¿Cuál de las siguientes características define la atención integral según la política «De Cero a Siempre»?",
+    "explanation": "La política «De Cero a Siempre» define la atención integral como aquella que asegura las realizaciones (condiciones y estados que materializan los derechos) de los niños y niñas mediante cinco estructurantes: salud y nutrición, educación inicial, cuidado y crianza, recreación, y ejercicio de la ciudadanía y participación. No se limita a un solo sector sino que requiere articulación intersectorial.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Se limita exclusivamente a la vacunación y el control de crecimiento y desarrollo.", "isCorrect": false },
+      { "letter": "B", "text": "Articula salud, nutrición, educación inicial, cuidado, recreación y participación para asegurar las realizaciones de los derechos.", "isCorrect": true },
+      { "letter": "C", "text": "Es responsabilidad exclusiva del sector salud, sin participación de educación ni bienestar.", "isCorrect": false },
+      { "letter": "D", "text": "Aplica únicamente a niños mayores de 3 años que asisten a centros de desarrollo infantil.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Un Centro de Desarrollo Infantil (CDI) en Quibdó atiende 80 niños entre 2 y 5 años. El equipo interdisciplinario registra los siguientes datos en el último trimestre:\n\n• 15 niños con desnutrición crónica (talla baja para la edad)\n• 8 niños sin esquema de vacunación completo para la edad\n• 22 niños sin valoración por odontología\n• 3 niños identificados con posible retraso en el desarrollo\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Según la Ruta Integral de Atención para la Primera Infancia, ¿cuál es la acción prioritaria?",
+    "explanation": "La desnutrición crónica (talla baja para la edad) afecta al 18,75 % de los niños del CDI, lo cual indica un problema estructural que requiere articulación intersectorial: seguimiento nutricional, complementación alimentaria, valoración pediátrica y activación de la ruta de atención en desnutrición. Sin embargo, la Ruta Integral de Atención prioriza la gestión articulada de todas las alertas, dado que la desnutrición, los vacíos en vacunación, la salud oral y los posibles retrasos del desarrollo están interrelacionados.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Cerrar el CDI hasta que todos los indicadores mejoren.", "isCorrect": false },
+      { "letter": "B", "text": "Atender exclusivamente la vacunación y posponer las demás intervenciones.", "isCorrect": false },
+      { "letter": "C", "text": "Gestionar de forma articulada todas las alertas: activar ruta de desnutrición, completar esquemas de vacunación, garantizar valoración odontológica y remitir los casos de posible retraso.", "isCorrect": true },
+      { "letter": "D", "text": "Reportar a las familias ante el ICBF por negligencia parental.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "La Política Colombiana de Envejecimiento Humano y Vejez (2015-2024) reconoce a las personas mayores como sujetos de derechos y establece ejes estratégicos para garantizar su bienestar integral, incluyendo protección social, envejecimiento activo y saludable, y formación del talento humano.\n\n(Redacción Study2One, con referencia a la Política de Envejecimiento y Vejez)",
+    "questionText": "¿Cuál es el enfoque central de la Política Colombiana de Envejecimiento Humano y Vejez respecto a la atención en salud?",
+    "explanation": "La política promueve el envejecimiento activo y saludable, entendido como el proceso de optimizar las oportunidades de salud, participación y seguridad para mejorar la calidad de vida a medida que las personas envejecen. No se centra en la institucionalización ni en considerar la vejez como una enfermedad, sino en mantener la funcionalidad, la autonomía y la participación social de las personas mayores.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "La institucionalización en hogares geriátricos como principal estrategia de cuidado.", "isCorrect": false },
+      { "letter": "B", "text": "El envejecimiento activo y saludable, priorizando funcionalidad, autonomía y participación social.", "isCorrect": true },
+      { "letter": "C", "text": "La atención exclusivamente hospitalaria de enfermedades crónicas en adultos mayores.", "isCorrect": false },
+      { "letter": "D", "text": "La separación de las personas mayores de la vida comunitaria para evitar riesgos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "En un hogar geriátrico de Medellín, una enfermera aplica la escala de Barthel a 30 adultos mayores residentes. Los resultados muestran:\n\n• 10 residentes: dependencia total (puntuación 0-20)\n• 8 residentes: dependencia grave (21-60)\n• 7 residentes: dependencia moderada (61-90)\n• 5 residentes: independencia o dependencia escasa (91-100)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué indica esta distribución sobre la capacidad funcional de la población residente y qué implicaciones tiene para la planificación de cuidados?",
+    "explanation": "El 60 % de los residentes (18 de 30) presenta dependencia total o grave, lo que indica una alta carga de cuidado que requiere personal suficiente y capacitado en atención geriátrica. La planificación debe incluir: programas de rehabilitación funcional para prevenir mayor deterioro, prevención de úlceras por presión, y planes individualizados de cuidado. Los 12 residentes con dependencia moderada o independencia necesitan programas de mantenimiento funcional.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "La mayoría es independiente, por lo que el personal de enfermería puede reducirse.", "isCorrect": false },
+      { "letter": "B", "text": "El 60 % presenta dependencia total o grave, lo que exige alta dotación de personal, rehabilitación funcional y planes individualizados de cuidado.", "isCorrect": true },
+      { "letter": "C", "text": "Todos los residentes deben ser trasladados a un hospital de tercer nivel.", "isCorrect": false },
+      { "letter": "D", "text": "La escala de Barthel no es aplicable en adultos mayores institucionalizados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "La Secretaría de Salud de un departamento colombiano analiza los indicadores de salud sexual y reproductiva en adolescentes (10-19 años) del último año:\n\n• Tasa específica de fecundidad en adolescentes (15-19 años): 72 por 1.000 mujeres\n• Porcentaje de embarazos en menores de 15 años: 2,8 % del total de nacimientos\n• Uso de métodos anticonceptivos en adolescentes sexualmente activas: 38 %\n• Cobertura de educación sexual integral en instituciones educativas: 45 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde el enfoque de determinantes sociales, ¿cuál factor explica mejor la alta tasa de fecundidad adolescente en este departamento?",
+    "explanation": "La baja cobertura de educación sexual integral (45 %) y el bajo uso de métodos anticonceptivos (38 %) reflejan barreras de acceso a información y servicios de salud sexual y reproductiva. Desde el modelo de determinantes sociales, estos indicadores se explican por factores estructurales como la pobreza, las desigualdades de género, la baja escolaridad y las barreras culturales. El embarazo adolescente no es simplemente una «decisión individual» sino el resultado de múltiples determinantes interrelacionados.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La decisión voluntaria e informada de las adolescentes de ser madres.", "isCorrect": false },
+      { "letter": "B", "text": "La interacción de determinantes estructurales: pobreza, desigualdades de género, baja escolaridad y barreras de acceso a información y servicios de salud sexual.", "isCorrect": true },
+      { "letter": "C", "text": "La ausencia total de métodos anticonceptivos en el departamento.", "isCorrect": false },
+      { "letter": "D", "text": "Factores exclusivamente biológicos como la pubertad temprana.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Un hospital de segundo nivel en Cali implementa los servicios amigables para adolescentes y jóvenes (SAAJ), siguiendo los lineamientos del Ministerio de Salud y Protección Social. El equipo de salud nota que muchos adolescentes acuden solo por urgencias y no regresan a las consultas de control.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la característica fundamental que deben tener los Servicios Amigables para Adolescentes y Jóvenes (SAAJ)?",
+    "explanation": "Los SAAJ se caracterizan por ser espacios con horarios flexibles, personal capacitado en atención a adolescentes, confidencialidad, trato respetuoso y no discriminatorio, acceso a consejería en salud sexual y reproductiva, anticoncepción y salud mental. La clave es que los adolescentes perciban el servicio como un espacio seguro, sin juicio, donde puedan expresar sus necesidades. La baja adherencia suele deberse a horarios inflexibles, actitudes moralizantes del personal o falta de confidencialidad.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Horarios rígidos de 8 a 12 del mediodía con cita previa obligatoria.", "isCorrect": false },
+      { "letter": "B", "text": "Atención exclusivamente por pediatría, sin participación de otros profesionales.", "isCorrect": false },
+      { "letter": "C", "text": "Espacios con horarios flexibles, confidencialidad, personal capacitado y trato libre de juicios y discriminación.", "isCorrect": true },
+      { "letter": "D", "text": "Servicios que requieren la presencia obligatoria de los padres en todas las consultas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "La Resolución 926 de 2017 estableció los lineamientos para la atención prehospitalaria en Colombia, regulando los servicios de ambulancias, los centros reguladores de urgencias y emergencias (CRUE), y las competencias del personal que presta estos servicios.\n\n(Redacción Study2One, con referencia a la Resolución 926 de 2017)",
+    "questionText": "Según la normativa colombiana de atención prehospitalaria, ¿cuál es la función principal de los Centros Reguladores de Urgencias y Emergencias (CRUE)?",
+    "explanation": "Los CRUE coordinan la respuesta ante urgencias, emergencias y desastres, articulando los recursos disponibles (ambulancias, hospitales, equipos de rescate) para garantizar la atención oportuna. Su función principal es la regulación y coordinación de la red de urgencias, no la atención directa de pacientes. Operan las 24 horas y son responsables del despacho de ambulancias según la severidad y la disponibilidad de la red.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Atender directamente a los pacientes en las instalaciones del centro regulador.", "isCorrect": false },
+      { "letter": "B", "text": "Coordinar y regular la respuesta de urgencias, emergencias y desastres articulando los recursos de la red.", "isCorrect": true },
+      { "letter": "C", "text": "Vender servicios de ambulancia a los usuarios que los soliciten.", "isCorrect": false },
+      { "letter": "D", "text": "Auditar la calidad de las historias clínicas de urgencias en los hospitales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Una ambulancia medicalizada es despachada por el CRUE de Barranquilla para atender un paciente masculino de 58 años con dolor torácico opresivo de 40 minutos de evolución, irradiado a brazo izquierdo, diaforesis y disnea. El tecnólogo en atención prehospitalaria realiza la valoración inicial.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Según los protocolos de atención prehospitalaria, ¿cuál es la conducta prioritaria del equipo de ambulancia?",
+    "explanation": "Ante un cuadro sugestivo de síndrome coronario agudo (dolor torácico típico, diaforesis, disnea), la prioridad prehospitalaria es la estabilización inicial (vía aérea, acceso venoso, monitorización, oxígeno según saturación, aspirina si no hay contraindicaciones) y el traslado prioritario al centro de atención con capacidad de intervención cardiológica (idealmente con laboratorio de hemodinámica). El ECG de 12 derivaciones prehospitalario permite activar el código infarto. No se debe esperar a tomar muestras de laboratorio en campo.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Tomar muestras de laboratorio en campo y esperar resultados antes de trasladar.", "isCorrect": false },
+      { "letter": "B", "text": "Estabilizar, realizar ECG de 12 derivaciones, administrar aspirina y trasladar prioritariamente a un centro con capacidad de intervención cardiológica.", "isCorrect": true },
+      { "letter": "C", "text": "Trasladar al hospital más cercano sin importar su capacidad resolutiva.", "isCorrect": false },
+      { "letter": "D", "text": "Administrar trombolíticos en la ambulancia sin confirmación electrocardiográfica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "El Instituto Nacional de Salud (INS) coordina la Red de Donación y Trasplantes en Colombia, la cual incluye los bancos de tejidos, las IPS habilitadas para trasplante y las organizaciones regionales de donación. En 2024, Colombia reportó una tasa de donación de órganos de 12,8 donantes por millón de habitantes.\n\n(Redacción Study2One, con referencia al INS y datos aproximados)",
+    "questionText": "¿Cuál es el rol principal del INS en la Red de Donación y Trasplantes de Colombia?",
+    "explanation": "El INS actúa como coordinador nacional de la Red de Donación y Trasplantes. Sus funciones incluyen: establecer los criterios técnicos para la donación y el trasplante, coordinar la distribución de órganos y tejidos, mantener la lista nacional de espera, vigilar la calidad y seguridad de los procesos, y generar estadísticas nacionales. No realiza directamente los procedimientos quirúrgicos ni la captación de donantes, que corresponden a las IPS y organizaciones regionales.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Realizar directamente los procedimientos quirúrgicos de trasplante en sus instalaciones.", "isCorrect": false },
+      { "letter": "B", "text": "Coordinar la red, establecer criterios técnicos, gestionar la lista de espera y vigilar la calidad y seguridad de los procesos.", "isCorrect": true },
+      { "letter": "C", "text": "Comercializar los órganos y tejidos donados al mejor postor.", "isCorrect": false },
+      { "letter": "D", "text": "Autorizar exclusivamente los trasplantes entre familiares directos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "En un hospital universitario de Bogotá, un paciente de 45 años con muerte encefálica confirmada es identificado como potencial donante multiorgánico. La familia es abordada por el equipo de coordinación de trasplantes. Los familiares expresan dudas y temores: «¿Y si no está realmente muerto? ¿Le van a sacar todo?»\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el abordaje adecuado del equipo de coordinación de trasplantes ante esta situación?",
+    "explanation": "El abordaje familiar debe ser empático, respetuoso del duelo y transparente. Se debe explicar claramente qué es la muerte encefálica (cese irreversible de todas las funciones cerebrales, incluyendo el tronco encefálico), responder todas las preguntas sin presión, respetar los tiempos del duelo y la decisión final de la familia. La donación es voluntaria y altruista. No se debe presionar, manipular emocionalmente ni omitir información. Si la familia rechaza, se respeta su decisión.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Informar a la familia que la donación es obligatoria por ley y no requiere consentimiento.", "isCorrect": false },
+      { "letter": "B", "text": "Explicar con claridad y empatía la muerte encefálica, responder dudas sin presión y respetar la decisión final de la familia.", "isCorrect": true },
+      { "letter": "C", "text": "Evitar hablar con la familia y proceder directamente con la extracción.", "isCorrect": false },
+      { "letter": "D", "text": "Ofrecer compensación económica a la familia a cambio de la donación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "El Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA) lidera el programa nacional de farmacovigilancia, que tiene como objetivo detectar, evaluar y prevenir las reacciones adversas a medicamentos (RAM) y los problemas relacionados con medicamentos (PRM) en la población colombiana.\n\n(Redacción Study2One, con referencia al INVIMA)",
+    "questionText": "¿Cuál de los siguientes eventos debe ser reportado al programa de farmacovigilancia?",
+    "explanation": "Al programa de farmacovigilancia deben reportarse: reacciones adversas a medicamentos (RAM), tanto esperadas como inesperadas, especialmente las graves; fallas terapéuticas (el medicamento no produce el efecto esperado); errores de medicación con o sin daño; problemas de calidad (cambio de color, olor, partículas). El reporte no se limita a medicamentos nuevos ni a eventos fatales. Todo profesional de salud tiene la obligación de reportar.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Solo las reacciones adversas graves que causan muerte o ponen en peligro la vida.", "isCorrect": false },
+      { "letter": "B", "text": "Solo los eventos adversos de medicamentos nuevos en los primeros 6 meses de comercialización.", "isCorrect": false },
+      { "letter": "C", "text": "Reacciones adversas (esperadas e inesperadas), fallas terapéuticas, errores de medicación y problemas de calidad.", "isCorrect": true },
+      { "letter": "D", "text": "Únicamente los eventos que el paciente reporta espontáneamente sin que el profesional los identifique.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "En una IPS de tercer nivel, el comité de farmacovigilancia identifica que en el último mes se han presentado 5 reportes de reacciones adversas cutáneas graves (síndrome de Stevens-Johnson) asociadas a un mismo lote de un antibiótico betalactámico. Los 5 pacientes requirieron manejo en UCI.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la conducta inmediata del comité de farmacovigilancia institucional?",
+    "explanation": "Ante una señal de seguridad (cluster de RAM graves asociadas a un mismo lote), el comité debe: (1) reportar inmediatamente al INVIMA como alerta de seguridad, (2) inmovilizar el lote sospechoso para evitar nuevas exposiciones, (3) notificar a la dirección médica y al servicio farmacéutico, y (4) realizar investigación del caso. No se puede esperar a acumular más casos ni manejar el asunto solo internamente cuando hay un riesgo inminente para otros pacientes.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Esperar a tener al menos 20 reportes antes de notificar al INVIMA.", "isCorrect": false },
+      { "letter": "B", "text": "Reportar inmediatamente al INVIMA, inmovilizar el lote sospechoso y notificar a la dirección médica para investigación.", "isCorrect": true },
+      { "letter": "C", "text": "Cambiar de proveedor del antibiótico sin notificar a ninguna autoridad.", "isCorrect": false },
+      { "letter": "D", "text": "Archivar los reportes y revisarlos en la reunión trimestral del comité.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "El Sistema Único de Acreditación en Salud (SUA) en Colombia, regulado por el Decreto 903 de 2014, es un componente del Sistema Obligatorio de Garantía de Calidad (SOGC) que evalúa el cumplimiento de estándares superiores de calidad por parte de las instituciones prestadoras de servicios de salud.\n\n(Redacción Study2One, con referencia al Decreto 903 de 2014)",
+    "questionText": "¿Cuál es la diferencia fundamental entre la habilitación y la acreditación en salud en Colombia?",
+    "explanation": "La habilitación es un requisito obligatorio que evalúa condiciones mínimas de funcionamiento (infraestructura, talento humano, dotación, procesos prioritarios) que toda IPS debe cumplir para operar. La acreditación es voluntaria y evalúa estándares superiores de calidad que van más allá de lo mínimo, incluyendo mejoramiento continuo, seguridad del paciente, humanización, gestión del riesgo y resultados centrados en el usuario. La acreditación es otorgada por ICONTEC como ente acreditador.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "No hay diferencia; ambos procesos evalúan los mismos estándares de calidad.", "isCorrect": false },
+      { "letter": "B", "text": "La habilitación es obligatoria y evalúa condiciones mínimas; la acreditación es voluntaria y evalúa estándares superiores de calidad.", "isCorrect": true },
+      { "letter": "C", "text": "La acreditación es obligatoria y la habilitación es voluntaria.", "isCorrect": false },
+      { "letter": "D", "text": "La habilitación la otorga el INVIMA y la acreditación la otorga la Superintendencia Nacional de Salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Una clínica privada de Bucaramanga busca obtener la acreditación en salud. Durante la autoevaluación, el equipo de calidad identifica los siguientes hallazgos:\n\n• Tasa de infección de sitio operatorio: 4,2 % (estándar nacional: < 2 %)\n• Adherencia al lavado de manos: 62 % (meta institucional: > 85 %)\n• Satisfacción del usuario: 78 % (meta institucional: > 90 %)\n• Tasa de reingresos a los 30 días: 8,5 % (estándar: < 5 %)\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué acciones debe priorizar la clínica antes de solicitar la visita de acreditación?",
+    "explanation": "La acreditación exige demostrar mejoramiento continuo y resultados. Los indicadores muestran brechas significativas en seguridad del paciente (infección de sitio operatorio duplica el estándar, lavado de manos por debajo de la meta) y en experiencia del usuario (satisfacción y reingresos fuera de meta). La clínica debe implementar planes de mejoramiento con acciones medibles, documentar los ciclos PHVA, y demostrar tendencias de mejora antes de solicitar la visita.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Solicitar la visita de acreditación inmediatamente, ya que los indicadores se ajustarán durante el proceso.", "isCorrect": false },
+      { "letter": "B", "text": "Implementar planes de mejoramiento con ciclos PHVA para cerrar las brechas en seguridad del paciente, adherencia a prácticas seguras y satisfacción del usuario.", "isCorrect": true },
+      { "letter": "C", "text": "Modificar los estándares institucionales para que coincidan con los resultados actuales.", "isCorrect": false },
+      { "letter": "D", "text": "Tercerizar los servicios con mayor brecha y excluirlos del proceso de acreditación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "En el sistema de salud colombiano, la referencia y contrarreferencia es el mecanismo mediante el cual un paciente es remitido de una IPS de menor complejidad a una de mayor complejidad (referencia) y devuelto a su IPS de origen una vez resuelto el motivo de remisión (contrarreferencia).\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el principal obstáculo del sistema de referencia y contrarreferencia en Colombia?",
+    "explanation": "Uno de los principales obstáculos es la fragmentación de la red de prestadores y la falta de comunicación efectiva entre niveles de atención. Esto se manifiesta en: demoras en la autorización de servicios, pérdida de información clínica durante los traslados, falta de disponibilidad de camas en niveles superiores, y ausencia de seguimiento al paciente contrarreferido. La Ley 1438 de 2011 buscó fortalecer las redes integradas de servicios de salud (RISS) para abordar esta problemática.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "El exceso de camas hospitalarias disponibles en todos los niveles de atención.", "isCorrect": false },
+      { "letter": "B", "text": "La fragmentación de la red de prestadores, las barreras administrativas y la falta de comunicación efectiva entre niveles de atención.", "isCorrect": true },
+      { "letter": "C", "text": "La negativa de los pacientes a ser trasladados a instituciones de mayor complejidad.", "isCorrect": false },
+      { "letter": "D", "text": "La sobreoferta de especialistas médicos en las zonas rurales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Una paciente de 32 años, gestante de 34 semanas, consulta al puesto de salud de un municipio rural de Nariño por cefalea intensa, visión borrosa y edema de miembros inferiores. La tensión arterial es 170/110 mmHg. El puesto de salud no cuenta con laboratorio ni con posibilidad de manejo de preeclampsia severa.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la conducta correcta en el sistema de referencia y contrarreferencia?",
+    "explanation": "Ante un cuadro de preeclampsia severa (TA ≥ 160/110, síntomas de severidad: cefalea, fosfenos), el puesto de salud debe estabilizar (sulfato de magnesio como profilaxis de eclampsia si está disponible, antihipertensivo de primera línea), y referir de inmediato al nivel de mayor complejidad con capacidad obstétrica y de UCI. La referencia debe incluir la historia clínica completa y las intervenciones realizadas. No se puede manejar ambulatoriamente ni esperar a una cita programada.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Manejar ambulatoriamente con control de tensión en una semana.", "isCorrect": false },
+      { "letter": "B", "text": "Estabilizar con sulfato de magnesio y antihipertensivo, y referir de inmediato al nivel de mayor complejidad con capacidad obstétrica.", "isCorrect": true },
+      { "letter": "C", "text": "Esperar a que la paciente presente convulsiones para confirmar el diagnóstico antes de remitir.", "isCorrect": false },
+      { "letter": "D", "text": "Dar de alta con acetaminofén y recomendar reposo en casa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "La atención domiciliaria en Colombia está reglamentada como una modalidad de prestación de servicios de salud que permite llevar al domicilio del paciente intervenciones de promoción, prevención, tratamiento, rehabilitación y cuidado paliativo, cuando las condiciones clínicas y sociales del paciente lo permiten.\n\n(Redacción Study2One, con referencia a la normativa de habilitación de servicios)",
+    "questionText": "¿Cuál es la principal ventaja de la atención domiciliaria frente a la hospitalización prolongada?",
+    "explanation": "La atención domiciliaria reduce el riesgo de infecciones asociadas a la atención en salud (IAAS), favorece la recuperación en el entorno familiar, disminuye los costos para el sistema de salud y el paciente, y mejora la calidad de vida percibida. Además, libera camas hospitalarias para pacientes que realmente las necesitan. Es especialmente útil en pacientes crónicos estables, posoperatorios no complicados, rehabilitación y cuidado paliativo.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Permite acceder a tecnología de mayor complejidad que en el hospital.", "isCorrect": false },
+      { "letter": "B", "text": "Reduce el riesgo de infecciones asociadas a la atención en salud, favorece la recuperación en el entorno familiar y disminuye costos.", "isCorrect": true },
+      { "letter": "C", "text": "Elimina la necesidad de seguimiento médico profesional.", "isCorrect": false },
+      { "letter": "D", "text": "Es apropiada para todos los pacientes, independientemente de su condición clínica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Un paciente de 72 años con enfermedad pulmonar obstructiva crónica (EPOC) severa, oxigenodependiente, es dado de alta del hospital tras una exacerbación. El equipo tratante evalúa si el paciente es candidato a programa de atención domiciliaria. Vive con su esposa de 68 años en un apartamento de tercer piso sin ascensor, en un barrio de estrato 2 de Bogotá.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál factor del entorno domiciliario debe evaluarse como posible barrera para la atención domiciliaria de este paciente?",
+    "explanation": "La accesibilidad física del domicilio es un factor crítico para la atención domiciliaria, especialmente en pacientes con limitación funcional respiratoria. Un tercer piso sin ascensor representa una barrera significativa: dificulta el acceso del equipo de salud con equipos (oxígeno, nebulizador), complica las evacuaciones en emergencia y limita la movilidad del paciente. La evaluación del domicilio debe incluir accesibilidad, condiciones de higiene, disponibilidad de cuidador, servicios públicos y seguridad.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "El estrato socioeconómico, ya que la atención domiciliaria solo aplica para estratos altos.", "isCorrect": false },
+      { "letter": "B", "text": "La accesibilidad física del domicilio (tercer piso sin ascensor), que dificulta el acceso del equipo de salud y la movilidad del paciente.", "isCorrect": true },
+      { "letter": "C", "text": "La edad de la esposa, ya que los cuidadores deben ser menores de 50 años.", "isCorrect": false },
+      { "letter": "D", "text": "La ubicación en Bogotá, dado que la atención domiciliaria solo funciona en zonas rurales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "La salud penitenciaria y carcelaria en Colombia enfrenta múltiples desafíos. Los establecimientos del INPEC presentan hacinamiento promedio del 54 %, y las enfermedades transmisibles (tuberculosis, VIH, hepatitis) tienen prevalencias significativamente superiores a las de la población general.\n\n(Redacción Study2One, con referencia a datos aproximados del INPEC)",
+    "questionText": "¿Cuál es el principal determinante de la alta prevalencia de tuberculosis en la población privada de la libertad?",
+    "explanation": "El hacinamiento es el principal determinante de la tuberculosis en centros penitenciarios. La tuberculosis se transmite por vía aérea, y las condiciones de hacinamiento (múltiples personas en espacios reducidos, ventilación deficiente, contacto prolongado) favorecen la transmisión del Mycobacterium tuberculosis. Además, factores como la desnutrición, el estrés, el VIH (que aumenta la susceptibilidad) y las barreras de acceso a diagnóstico oportuno agravan la situación.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La resistencia genética al Mycobacterium tuberculosis en esta población.", "isCorrect": false },
+      { "letter": "B", "text": "El hacinamiento con ventilación deficiente, que favorece la transmisión aérea, agravado por desnutrición, estrés y barreras de acceso al diagnóstico.", "isCorrect": true },
+      { "letter": "C", "text": "La vacunación masiva con BCG al ingreso al centro penitenciario.", "isCorrect": false },
+      { "letter": "D", "text": "El uso generalizado de tapabocas N95 por todos los internos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "En un establecimiento penitenciario de mediana seguridad en el Valle del Cauca, el equipo de sanidad reporta los siguientes datos del último semestre:\n\n• Población: 1.800 internos (capacidad: 900)\n• Casos nuevos de tuberculosis pulmonar: 22\n• Casos de VIH en tratamiento antirretroviral: 45\n• Consultas de salud mental: 380 (motivos principales: ansiedad, depresión, insomnio)\n• Personal de salud: 1 médico general, 2 enfermeras, 1 odontólogo\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la incidencia de tuberculosis pulmonar en este establecimiento penitenciario en el semestre reportado?",
+    "explanation": "La incidencia se calcula como: (Casos nuevos / Población expuesta) × factor. En este caso: (22 / 1.800) × 1.000 = 12,2 por 1.000 internos en el semestre. Esto es extremadamente alto comparado con la incidencia nacional de tuberculosis en Colombia (aproximadamente 0,27 por 1.000 habitantes/año). El hacinamiento del 100 % (1.800 internos en capacidad para 900) es un factor clave. Además, la relación médico-paciente (1:1.800) es insuficiente para la búsqueda activa de sintomáticos respiratorios.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "1,2 por 1.000 internos en el semestre.", "isCorrect": false },
+      { "letter": "B", "text": "12,2 por 1.000 internos en el semestre.", "isCorrect": true },
+      { "letter": "C", "text": "22 por 1.000 internos en el semestre.", "isCorrect": false },
+      { "letter": "D", "text": "2,5 por 1.000 internos en el semestre.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "El programa de tecnovigilancia del INVIMA monitorea los incidentes adversos y las fallas en dispositivos médicos utilizados en las instituciones de salud colombianas. Una IPS de tercer nivel reporta que un ventilador mecánico dejó de funcionar durante la ventilación de un paciente en UCI, sin causar daño permanente gracias a la intervención rápida del equipo de enfermería.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cómo se clasifica este evento en el programa de tecnovigilancia?",
+    "explanation": "En tecnovigilancia, los eventos se clasifican según la gravedad del daño: evento adverso grave (muerte o deterioro grave de la salud), evento adverso (daño o deterioro de la salud), casi-evento o incidente (falla del dispositivo sin daño al paciente). En este caso, el ventilador falló (incidente con el dispositivo) pero no hubo daño permanente al paciente gracias a la intervención oportuna, por lo que se clasifica como un incidente adverso o cuasi-evento. Aun así, debe reportarse al INVIMA.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "No requiere reporte porque no hubo daño permanente al paciente.", "isCorrect": false },
+      { "letter": "B", "text": "Se clasifica como incidente adverso (cuasi-evento): falla del dispositivo sin daño permanente, pero con obligación de reporte al INVIMA.", "isCorrect": true },
+      { "letter": "C", "text": "Se clasifica como evento adverso grave y requiere cierre inmediato de la UCI.", "isCorrect": false },
+      { "letter": "D", "text": "Se reporta exclusivamente al fabricante del ventilador, sin notificación al INVIMA.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Una emergencia sanitaria se declara en el departamento de La Guajira tras la detección de 180 casos de cólera en tres municipios, con 4 defunciones confirmadas en un periodo de 10 días. El INS confirma Vibrio cholerae O1 en muestras de agua y en coprocultivos de pacientes.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Según el Reglamento Sanitario Internacional (RSI) y la normativa colombiana, ¿cuál es la acción inmediata del nivel nacional?",
+    "explanation": "El cólera es un evento de notificación al RSI (OMS) dado su potencial de propagación internacional. El nivel nacional debe: (1) notificar a la OMS a través del punto focal nacional del RSI, (2) activar el Centro de Operaciones de Emergencia (COE) del Ministerio de Salud, (3) desplegar equipos de respuesta rápida del INS, (4) establecer cerco epidemiológico, (5) garantizar agua segura y saneamiento en las zonas afectadas. No se puede manejar solo a nivel departamental ni esperar a tener más casos.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Esperar a que se acumulen 500 casos antes de declarar emergencia sanitaria.", "isCorrect": false },
+      { "letter": "B", "text": "Delegar exclusivamente al nivel departamental sin intervención del nivel nacional.", "isCorrect": false },
+      { "letter": "C", "text": "Notificar a la OMS, activar el COE, desplegar equipos de respuesta rápida y establecer cerco epidemiológico con intervención en agua y saneamiento.", "isCorrect": true },
+      { "letter": "D", "text": "Cerrar las fronteras del departamento e impedir la movilidad de toda la población.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "El Decreto 1072 de 2015 establece que todas las empresas colombianas, independientemente de su tamaño, deben implementar el Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST). El proceso incluye una evaluación inicial, un plan de trabajo anual, y auditorías internas.\n\n(Redacción Study2One, con referencia al Decreto 1072 de 2015)",
+    "questionText": "¿Cuál es la primera etapa del ciclo PHVA que debe cumplir una empresa al implementar el SG-SST?",
+    "explanation": "La primera etapa es «Planificar» (P del PHVA), que incluye: realizar la evaluación inicial del SG-SST, identificar peligros y valorar riesgos (matriz IPEVR), definir la política de SST, establecer objetivos medibles, asignar recursos y responsabilidades, y elaborar el plan de trabajo anual. Sin una planificación adecuada basada en el diagnóstico de la situación actual, las demás etapas carecen de dirección y criterios de evaluación.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Verificar (V): auditar los resultados antes de implementar cualquier acción.", "isCorrect": false },
+      { "letter": "B", "text": "Hacer (H): ejecutar las actividades de prevención sin diagnóstico previo.", "isCorrect": false },
+      { "letter": "C", "text": "Planificar (P): realizar evaluación inicial, identificar peligros, valorar riesgos y establecer el plan de trabajo.", "isCorrect": true },
+      { "letter": "D", "text": "Actuar (A): implementar acciones correctivas sobre hallazgos de auditorías previas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Una empresa textil en Pereira realiza la matriz de identificación de peligros, evaluación y valoración de riesgos (IPEVR) y encuentra los siguientes riesgos prioritarios:\n\n• Ruido continuo de 92 dB en el área de telares (límite permisible: 85 dB para 8 horas)\n• Material particulado de algodón en el área de hilatura sin sistema de extracción\n• Posturas forzadas y movimientos repetitivos en el área de confección\n• Riesgo eléctrico por cableado expuesto en la planta de tintorería\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Según la jerarquía de controles del SG-SST, ¿cuál intervención es prioritaria para el riesgo de ruido?",
+    "explanation": "La jerarquía de controles establece el orden de prioridad: (1) eliminación, (2) sustitución, (3) controles de ingeniería, (4) controles administrativos, (5) elementos de protección personal (EPP). Para el ruido de 92 dB, la eliminación o sustitución de la fuente no siempre es viable en telares industriales, por lo que los controles de ingeniería (encapsulamiento de máquinas, paneles acústicos, barreras) son la intervención prioritaria. Los EPP (protectores auditivos) son la última línea de defensa, no la primera.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Entregar tapones auditivos a los trabajadores como única medida.", "isCorrect": false },
+      { "letter": "B", "text": "Implementar controles de ingeniería como encapsulamiento de máquinas y paneles acústicos.", "isCorrect": true },
+      { "letter": "C", "text": "Reducir la jornada laboral a 2 horas diarias sin intervenir la fuente.", "isCorrect": false },
+      { "letter": "D", "text": "Rotar a los trabajadores entre todas las áreas sin reducir la exposición total.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "La política «De Cero a Siempre» establece que el desarrollo integral de la primera infancia requiere la corresponsabilidad entre la familia, la sociedad y el Estado. Un equipo de salud de un municipio del Huila implementa la estrategia de atención integral en una zona rural con alta dispersión poblacional.\n\n(Redacción Study2One, con referencia a la Ley 1804 de 2016)",
+    "questionText": "¿Cuál es el rol del sector salud en la atención integral a la primera infancia según «De Cero a Siempre»?",
+    "explanation": "El sector salud es responsable de garantizar la atención en salud y nutrición de los niños y niñas desde la gestación: control prenatal, atención del parto, valoración del recién nacido, control de crecimiento y desarrollo, vacunación, tamizaje neonatal, detección de alteraciones del desarrollo, y atención de enfermedades prevalentes de la infancia. Sin embargo, debe articularse con educación, bienestar (ICBF), cultura y recreación para lograr la integralidad.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Asumir la totalidad de la atención integral sin articulación con otros sectores.", "isCorrect": false },
+      { "letter": "B", "text": "Limitarse a la vacunación y delegar todo lo demás al ICBF.", "isCorrect": false },
+      { "letter": "C", "text": "Garantizar atención en salud y nutrición desde la gestación, articulándose con educación, bienestar, cultura y recreación.", "isCorrect": true },
+      { "letter": "D", "text": "Intervenir solo cuando el niño presente enfermedad, sin actividades de promoción ni prevención.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "En un municipio del Chocó, un equipo interdisciplinario de «De Cero a Siempre» realiza tamizaje del desarrollo en 200 niños de 12 a 24 meses. Los resultados son:\n\n• 140 niños (70 %): desarrollo adecuado para la edad\n• 38 niños (19 %): riesgo de retraso del desarrollo\n• 22 niños (11 %): sospecha de retraso del desarrollo\n• Cobertura de control de crecimiento y desarrollo: 48 %\n• Prevalencia de desnutrición crónica: 28 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué relación existe entre la desnutrición crónica y los resultados del tamizaje del desarrollo en esta población?",
+    "explanation": "La desnutrición crónica (talla baja para la edad) refleja privación nutricional prolongada durante los primeros 1.000 días de vida, periodo crítico para el neurodesarrollo. La evidencia muestra una asociación directa entre desnutrición crónica y alteraciones del desarrollo cognitivo, motor y del lenguaje. En este municipio, la alta prevalencia de desnutrición crónica (28 %) se correlaciona con el 30 % de niños con riesgo o sospecha de retraso del desarrollo, reflejando determinantes estructurales como pobreza, inseguridad alimentaria y baja cobertura de servicios de salud.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "No existe relación entre nutrición y desarrollo infantil; son problemas independientes.", "isCorrect": false },
+      { "letter": "B", "text": "La desnutrición crónica durante los primeros 1.000 días afecta el neurodesarrollo, lo que explica la alta proporción de niños con riesgo o retraso.", "isCorrect": true },
+      { "letter": "C", "text": "El retraso del desarrollo se debe exclusivamente a factores genéticos no modificables.", "isCorrect": false },
+      { "letter": "D", "text": "La baja cobertura de control de crecimiento y desarrollo protege contra la desnutrición.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "La Política Colombiana de Envejecimiento Humano y Vejez reconoce que Colombia atraviesa una transición demográfica: la población mayor de 60 años pasará del 13 % en 2020 al 23 % en 2050. Esto implica un aumento significativo de enfermedades crónicas no transmisibles y demandas de cuidado de larga duración.\n\n(Redacción Study2One, con referencia a proyecciones del DANE)",
+    "questionText": "¿Cuál es la principal implicación de la transición demográfica para el sistema de salud colombiano?",
+    "explanation": "El envejecimiento poblacional implica una mayor prevalencia de enfermedades crónicas (hipertensión, diabetes, EPOC, demencias, cáncer), mayor demanda de servicios de rehabilitación y cuidado de larga duración, y la necesidad de reorientar el modelo de atención desde uno centrado en lo agudo hacia uno que integre la promoción del envejecimiento activo, la prevención de la fragilidad y la atención domiciliaria. Esto requiere formación de talento humano en geriatría y gerontología, y mayor inversión en atención primaria.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La reducción del gasto en salud, dado que los adultos mayores requieren menos servicios.", "isCorrect": false },
+      { "letter": "B", "text": "La necesidad de reorientar el modelo de atención hacia la prevención de enfermedades crónicas, el cuidado de larga duración y el envejecimiento activo.", "isCorrect": true },
+      { "letter": "C", "text": "La eliminación de los programas de primera infancia para redistribuir recursos.", "isCorrect": false },
+      { "letter": "D", "text": "El cierre de servicios de urgencias porque los adultos mayores no los utilizan.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "Un médico de un puesto de salud en la Amazonía colombiana atiende a un paciente de 28 años, minero artesanal, que presenta fiebre de 5 días, cefalea, mialgias y un cuadro compatible con malaria. El médico sospecha Plasmodium falciparum. El municipio no cuenta con microscopista entrenado.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál determinante del sistema de salud explica la dificultad para confirmar el diagnóstico de malaria en este contexto?",
+    "explanation": "La ausencia de microscopista entrenado en un municipio endémico de malaria refleja una barrera de acceso al diagnóstico determinada por factores estructurales del sistema de salud: distribución inequitativa del talento humano, insuficiente capacidad instalada de laboratorio en zonas remotas, y brechas en la organización de la red de servicios. Estos son determinantes intermedios (condiciones del sistema de salud) que afectan desproporcionadamente a poblaciones rurales dispersas, mineros artesanales y comunidades indígenas en zonas endémicas.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La falta de voluntad del paciente para realizarse la gota gruesa.", "isCorrect": false },
+      { "letter": "B", "text": "La distribución inequitativa del talento humano y la insuficiente capacidad de laboratorio en zonas remotas endémicas.", "isCorrect": true },
+      { "letter": "C", "text": "La inexistencia de pruebas diagnósticas para malaria en Colombia.", "isCorrect": false },
+      { "letter": "D", "text": "La baja incidencia de malaria en la Amazonía, que no justifica tener microscopista.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": "Un municipio rural del Cauca, a 4 horas por carretera destapada del hospital más cercano, cuenta únicamente con una ambulancia de Transporte Asistencial Básico (TAB). En el último año, 3 pacientes con trauma severo fallecieron durante el traslado por falta de soporte vital avanzado. La comunidad solicita una ambulancia medicalizada (TAM), pero la secretaría departamental informa que no hay presupuesto.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál determinante del sistema de salud se evidencia en esta situación y cómo afecta los desenlaces clínicos?",
+    "explanation": "La disponibilidad de ambulancias medicalizadas (TAM) es un determinante intermedio del sistema de salud que refleja la inequidad en la distribución de recursos. Los municipios rurales dispersos con tiempos de traslado prolongados necesitan TAM (con médico, desfibrilador, ventilador, medicamentos de emergencia) para estabilizar pacientes críticos durante el transporte. La mortalidad prevenible durante el traslado evidencia cómo las brechas de acceso a atención prehospitalaria adecuada constituyen un determinante modificable que afecta desproporcionadamente a las poblaciones rurales.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "La falta de voluntad de los pacientes para consultar a tiempo.", "isCorrect": false },
+      { "letter": "B", "text": "La inequitativa distribución de recursos de atención prehospitalaria, que genera mortalidad prevenible en poblaciones rurales con tiempos de traslado prolongados.", "isCorrect": true },
+      { "letter": "C", "text": "La clasificación TAB/TAM es irrelevante; cualquier ambulancia puede manejar trauma severo.", "isCorrect": false },
+      { "letter": "D", "text": "El factor geográfico es inmodificable, por lo que no se puede mejorar la situación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": "Un coordinador de trasplantes del INS analiza los datos nacionales de donación de órganos del último año:\n\n• Donantes efectivos: 650\n• Donantes potenciales identificados: 1.800\n• Negativas familiares: 580 (32,2 % de los donantes potenciales)\n• Contraindicaciones médicas: 350\n• Pérdidas por mantenimiento del donante: 220\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la tasa de conversión de donantes potenciales a donantes efectivos y qué factor representa la mayor oportunidad de mejora?",
+    "explanation": "La tasa de conversión es: (Donantes efectivos / Donantes potenciales) × 100 = (650 / 1.800) × 100 = 36,1 %. Las negativas familiares representan el 32,2 % de los donantes potenciales y son la principal causa de pérdida de donantes. La mayor oportunidad de mejora está en reducir las negativas familiares mediante: educación comunitaria sobre donación, formación de los equipos de salud en comunicación con familias, y campañas de sensibilización. Las contraindicaciones médicas (19,4 %) y las pérdidas por mantenimiento (12,2 %) también son áreas de mejora.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "La tasa de conversión es 72 % y el principal problema son las contraindicaciones médicas.", "isCorrect": false },
+      { "letter": "B", "text": "La tasa de conversión es 36,1 % y las negativas familiares (32,2 %) representan la mayor oportunidad de mejora.", "isCorrect": true },
+      { "letter": "C", "text": "La tasa de conversión es 50 % y las pérdidas por mantenimiento son irrelevantes.", "isCorrect": false },
+      { "letter": "D", "text": "La tasa de conversión es 15 % y no hay margen de mejora posible.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "En una comunidad afrocolombiana del Pacífico, el equipo de salud del PAPSIVI realiza un diagnóstico de daño colectivo. La comunidad sufrió un desplazamiento forzado masivo en 2002. Los líderes narran: «Perdimos nuestro río, nuestras fiestas, nuestros muertos quedaron sin sepultura. Los jóvenes ya no conocen los cantos de los ancestros».\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde el enfoque diferencial étnico del PAPSIVI, ¿cuál estrategia de atención psicosocial es más pertinente?",
+    "explanation": "El enfoque diferencial étnico del PAPSIVI reconoce que las comunidades afrocolombianas tienen prácticas culturales propias de elaboración del duelo, sanación y cohesión social (cantos, rituales funerarios, fiestas patronales, relación con el territorio y el río). La intervención debe incorporar estas prácticas culturales, no imponer modelos clínicos occidentales. La recuperación de la memoria colectiva, los rituales de sanación propios y la reconstrucción del vínculo con el territorio son elementos centrales.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Aplicar terapia cognitivo-conductual individual estandarizada a todos los miembros de la comunidad.", "isCorrect": false },
+      { "letter": "B", "text": "Incorporar prácticas culturales propias: recuperación de cantos ancestrales, rituales de sanación y reconstrucción del vínculo con el territorio.", "isCorrect": true },
+      { "letter": "C", "text": "Reubicar a la comunidad en un centro urbano para facilitar el acceso a servicios de salud mental.", "isCorrect": false },
+      { "letter": "D", "text": "Evitar mencionar los hechos violentos para no retraumatizar a la comunidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": "Un adolescente de 16 años acude a un Servicio Amigable para Adolescentes y Jóvenes (SAAJ) en Cartagena. Solicita condones y prueba de VIH. La enfermera le pregunta si sus padres saben que es sexualmente activo. El adolescente responde: «No, y no quiero que se enteren».\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la conducta adecuada del equipo de salud respecto a la confidencialidad?",
+    "explanation": "La normativa colombiana (Resolución 1216 de 2015, Ley 1098 de 2006 — Código de Infancia y Adolescencia, y los lineamientos de SAAJ) establece que los adolescentes tienen derecho a la confidencialidad en consultas de salud sexual y reproductiva. El profesional de salud debe respetar la confidencialidad, brindar la consejería solicitada, entregar los métodos anticonceptivos y realizar la prueba de VIH con consejería pre y post-test. Solo se rompe la confidencialidad cuando hay riesgo para la vida o integridad del adolescente o de terceros.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "Negar la atención hasta que el adolescente traiga autorización firmada por sus padres.", "isCorrect": false },
+      { "letter": "B", "text": "Llamar a los padres inmediatamente para informarles de la consulta.", "isCorrect": false },
+      { "letter": "C", "text": "Respetar la confidencialidad, brindar consejería, entregar condones y realizar la prueba de VIH con consejería pre y post-test.", "isCorrect": true },
+      { "letter": "D", "text": "Atender al adolescente pero registrar en la historia clínica que no tiene consentimiento parental.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "La Red de Donación y Trasplantes de Colombia opera bajo principios de equidad, altruismo y transparencia. La asignación de órganos se realiza mediante criterios técnicos (compatibilidad, urgencia, tiempo en lista de espera) definidos por el INS, y no por criterios económicos o sociales.\n\n(Redacción Study2One, con referencia a la normativa de donación y trasplantes)",
+    "questionText": "¿Cuál principio ético es vulnerado cuando se ofrece compensación económica por la donación de órganos?",
+    "explanation": "La donación de órganos en Colombia es altruista y gratuita. Ofrecer compensación económica vulnera el principio de altruismo y abre la puerta al comercio de órganos, que es un delito tipificado en la legislación colombiana (Ley 919 de 2004). Además, genera inequidad, pues las personas en situación de pobreza serían vulnerables a la explotación. La gratuidad protege la dignidad del donante y garantiza que la donación sea un acto libre y desinteresado.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "El principio de autonomía, ya que el donante decide libremente.", "isCorrect": false },
+      { "letter": "B", "text": "El principio de altruismo y gratuidad, abriendo la puerta al comercio de órganos y la explotación de personas vulnerables.", "isCorrect": true },
+      { "letter": "C", "text": "El principio de beneficencia, ya que el receptor siempre se beneficia.", "isCorrect": false },
+      { "letter": "D", "text": "Ningún principio, ya que la compensación económica es legal en Colombia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "Una IPS de segundo nivel en Villavicencio implementa un programa de atención domiciliaria para pacientes con enfermedades crónicas. El programa incluye visitas de enfermería, fisioterapia, control médico y educación al cuidador. Después de un año, el equipo evalúa los resultados:\n\n• Reingresos hospitalarios: disminuyeron de 22 % a 9 %\n• Satisfacción del paciente y familia: 94 %\n• Costo promedio por paciente/mes: $1.200.000 (vs. $4.500.000 hospitalización)\n• Adherencia al tratamiento: mejoró de 58 % a 87 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué indicadores demuestran el impacto positivo del programa de atención domiciliaria?",
+    "explanation": "Los cuatro indicadores muestran un impacto positivo: la reducción de reingresos (de 22 % a 9 %) indica mejor control de las enfermedades crónicas; la alta satisfacción (94 %) refleja una experiencia positiva para pacientes y familias; la reducción de costos (73 % menos) demuestra eficiencia; y la mejora en adherencia (de 58 % a 87 %) muestra que la atención cercana y personalizada facilita el cumplimiento del tratamiento. La combinación de mejores resultados clínicos, mayor satisfacción y menor costo es lo que se denomina «valor en salud».",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Solo la reducción de costos es relevante; los demás indicadores son secundarios.", "isCorrect": false },
+      { "letter": "B", "text": "La reducción de reingresos, la mejora en adherencia, la alta satisfacción y los menores costos demuestran impacto clínico, experiencial y económico positivo.", "isCorrect": true },
+      { "letter": "C", "text": "El programa es exitoso únicamente porque es más barato, sin importar los resultados clínicos.", "isCorrect": false },
+      { "letter": "D", "text": "Los indicadores no son concluyentes porque no se comparan con un grupo control aleatorizado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "El Sivigila registra los siguientes datos de dengue en un municipio del Tolima durante las últimas 8 semanas epidemiológicas:\n\n• Semana 1: 5 casos  • Semana 2: 7 casos  • Semana 3: 12 casos  • Semana 4: 18 casos\n• Semana 5: 32 casos  • Semana 6: 45 casos  • Semana 7: 61 casos  • Semana 8: 78 casos\n\nEl canal endémico del municipio indica que el límite superior esperado para la semana 8 es de 25 casos.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Qué indica la comparación de los casos observados con el canal endémico?",
+    "explanation": "El canal endémico es una herramienta epidemiológica que compara los casos observados con el comportamiento histórico esperado. Cuando los casos observados (78) superan ampliamente el límite superior del canal endémico (25), se confirma una situación de epidemia o brote. Además, la tendencia es claramente ascendente (de 5 a 78 en 8 semanas), lo que indica que el brote está en fase de expansión y requiere intervención intensificada: control vectorial, búsqueda activa de casos, manejo clínico adecuado y comunicación de riesgo.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Los casos están dentro del comportamiento endémico esperado y no requieren intervención especial.", "isCorrect": false },
+      { "letter": "B", "text": "El municipio se encuentra en situación de epidemia de dengue, con 78 casos observados frente a un máximo esperado de 25, y tendencia ascendente.", "isCorrect": true },
+      { "letter": "C", "text": "El canal endémico no es aplicable para dengue, solo para enfermedades inmunoprevenibles.", "isCorrect": false },
+      { "letter": "D", "text": "Se trata de un comportamiento estacional normal que no amerita alerta epidemiológica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": "Un establecimiento penitenciario implementa un programa de salud mental tras un informe que reveló que el 45 % de los internos presentan sintomatología depresiva, el 38 % ansiedad y el 12 % ideación suicida. Las condiciones incluyen celdas con 8 internos en espacio para 4, iluminación natural insuficiente y 1 hora diaria de patio.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde el enfoque de determinantes sociales, ¿cuál es el factor que más contribuye a la alta prevalencia de trastornos mentales en esta población?",
+    "explanation": "Las condiciones de privación de libertad (hacinamiento, restricción de movimiento, aislamiento social, incertidumbre jurídica, violencia institucional) constituyen determinantes estructurales de la salud mental. El hacinamiento extremo (doble de la capacidad), la iluminación insuficiente y la restricción a 1 hora de patio son factores ambientales que agravan la sintomatología depresiva y ansiosa. Si bien los factores previos al encarcelamiento (abuso de sustancias, trauma previo) son relevantes, las condiciones de reclusión son el determinante modificable más inmediato.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "Factores genéticos exclusivamente, sin relación con las condiciones de reclusión.", "isCorrect": false },
+      { "letter": "B", "text": "Las condiciones de reclusión: hacinamiento extremo, restricción ambiental, aislamiento social e incertidumbre, como determinantes estructurales de la salud mental.", "isCorrect": true },
+      { "letter": "C", "text": "La falta de medicamentos psiquiátricos como única causa.", "isCorrect": false },
+      { "letter": "D", "text": "La decisión voluntaria de los internos de presentar síntomas para obtener beneficios.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": "Una IPS de tercer nivel en Medellín reporta al programa de tecnovigilancia 3 eventos adversos graves relacionados con bombas de infusión de un mismo modelo: en los tres casos, la bomba administró dosis superiores a las programadas, causando sobredosis de medicamentos vasoactivos. Un paciente falleció.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la acción regulatoria que puede tomar el INVIMA ante esta señal de seguridad?",
+    "explanation": "Ante una señal de seguridad con eventos adversos graves (incluyendo muerte) asociados a un dispositivo médico específico, el INVIMA puede emitir una alerta sanitaria y ordenar el retiro del mercado (recall) del modelo específico de bomba de infusión. Además, puede suspender temporalmente el registro sanitario del dispositivo, exigir al fabricante una investigación de causa raíz, y notificar a la red de tecnovigilancia internacional. El recall protege a todos los pacientes expuestos al mismo riesgo en otras instituciones.",
+    "competency": "normativa",
+    "options": [
+      { "letter": "A", "text": "No puede tomar ninguna acción porque los dispositivos ya fueron comprados por la IPS.", "isCorrect": false },
+      { "letter": "B", "text": "Emitir una alerta sanitaria, ordenar el retiro del mercado (recall) del modelo y exigir investigación de causa raíz al fabricante.", "isCorrect": true },
+      { "letter": "C", "text": "Cerrar permanentemente la IPS que reportó los eventos.", "isCorrect": false },
+      { "letter": "D", "text": "Solicitar al fabricante que reduzca el precio del dispositivo como compensación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "El sistema de referencia y contrarreferencia de un departamento colombiano muestra los siguientes datos del último trimestre:\n\n• Total de referencias emitidas por el primer nivel: 4.200\n• Referencias aceptadas por el nivel superior: 3.100 (73,8 %)\n• Referencias con contrarreferencia completa al primer nivel: 890 (28,7 % de las aceptadas)\n• Tiempo promedio de espera para autorización: 72 horas\n• Eventos adversos por demora en la referencia: 18\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál indicador refleja la mayor debilidad del sistema de referencia y contrarreferencia en este departamento?",
+    "explanation": "La contrarreferencia completa al primer nivel es apenas del 28,7 %, lo que indica que el 71,3 % de los pacientes referidos no tienen un retorno adecuado a su IPS de origen con la información clínica necesaria para la continuidad del cuidado. Esto genera: pérdida de seguimiento, duplicación de exámenes, falta de continuidad en el tratamiento y fragmentación del cuidado. Aunque el rechazo del 26,2 % de las referencias y el tiempo de espera de 72 horas son problemáticos, la ruptura en la contrarreferencia compromete la integralidad y continuidad de la atención.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "La tasa de aceptación del 73,8 %, que indica alta disponibilidad de camas.", "isCorrect": false },
+      { "letter": "B", "text": "La tasa de contrarreferencia completa del 28,7 %, que refleja ruptura en la continuidad del cuidado y pérdida de seguimiento.", "isCorrect": true },
+      { "letter": "C", "text": "El número total de referencias (4.200), que indica exceso de demanda.", "isCorrect": false },
+      { "letter": "D", "text": "Los 18 eventos adversos, que son estadísticamente insignificantes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "Una trabajadora de una floricultura en la Sabana de Bogotá, de 35 años, consulta por cefalea, náuseas, visión borrosa y temblor en manos. Refiere que los síntomas empeoran durante la jornada laboral y mejoran los fines de semana. Trabaja aplicando plaguicidas sin equipo de protección personal completo.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Según el SG-SST y la normativa de riesgos laborales, ¿cuál es la conducta del médico tratante?",
+    "explanation": "El cuadro clínico (cefalea, náuseas, visión borrosa, temblor, empeoramiento laboral y mejoría los fines de semana) es altamente sugestivo de intoxicación crónica por organofosforados (plaguicidas). El médico debe: (1) sospechar enfermedad laboral y solicitar niveles de colinesterasa, (2) retirar a la trabajadora de la exposición, (3) reportar al sistema de vigilancia epidemiológica de intoxicaciones por plaguicidas, (4) notificar a la ARL para investigación del puesto de trabajo, y (5) reportar al SG-SST de la empresa. La falta de EPP completo constituye un incumplimiento del empleador.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Prescribir analgésicos y enviar a la paciente de regreso al trabajo sin restricciones.", "isCorrect": false },
+      { "letter": "B", "text": "Sospechar enfermedad laboral, solicitar colinesterasa, retirar de la exposición, notificar a la ARL y al sistema de vigilancia de intoxicaciones.", "isCorrect": true },
+      { "letter": "C", "text": "Diagnosticar migraña y remitir a neurología sin considerar el contexto laboral.", "isCorrect": false },
+      { "letter": "D", "text": "Indicar que los síntomas son por estrés y recomendar técnicas de relajación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": "El SUA evalúa a una IPS de segundo nivel mediante estándares que incluyen: derechos de los pacientes, seguridad del paciente, accesibilidad, oportunidad, pertinencia, continuidad, humanización y gestión de la tecnología. Durante la visita de acreditación, los evaluadores encuentran que la IPS tiene excelentes indicadores de productividad pero deficientes resultados en humanización y experiencia del paciente.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Por qué la humanización es un estándar crítico en el proceso de acreditación?",
+    "explanation": "La acreditación en salud va más allá de la eficiencia operativa. La humanización reconoce al paciente como un ser integral con dimensiones físicas, emocionales, sociales y espirituales. Una IPS productiva pero deshumanizada no cumple con la finalidad del sistema de salud: garantizar el derecho a una atención digna. Los estándares de humanización evalúan: trato respetuoso, comunicación efectiva, manejo del dolor, acompañamiento emocional, respeto a la autonomía y a las creencias culturales. Sin humanización, la alta productividad puede encubrir prácticas que vulneran la dignidad del paciente.",
+    "competency": "determinantes",
+    "options": [
+      { "letter": "A", "text": "No es un estándar crítico; la productividad es suficiente para obtener la acreditación.", "isCorrect": false },
+      { "letter": "B", "text": "Porque reconoce al paciente como ser integral y garantiza el derecho a una atención digna, respetuosa y centrada en la persona.", "isCorrect": true },
+      { "letter": "C", "text": "Es un requisito meramente decorativo que no afecta los resultados en salud.", "isCorrect": false },
+      { "letter": "D", "text": "Solo aplica para IPS psiquiátricas, no para instituciones de atención general.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "En un municipio de Córdoba, el equipo de salud pública identifica que durante las últimas 4 semanas se han reportado 15 casos de leishmaniasis cutánea en trabajadores agrícolas de una misma vereda. Históricamente, el municipio reporta 2-3 casos por año. El INS clasifica la leishmaniasis como evento de notificación obligatoria semanal.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la investigación de campo prioritaria ante este brote?",
+    "explanation": "Ante un brote de leishmaniasis cutánea (casos muy por encima del comportamiento histórico, concentrados en un grupo poblacional y área geográfica específicos), la investigación de campo debe incluir: (1) búsqueda activa de casos adicionales en la comunidad, (2) estudio entomológico para identificar la especie de Lutzomyia vectora y sus criaderos, (3) caracterización de los factores de riesgo ambientales y laborales (deforestación, proximidad a bosques, condiciones de vivienda), y (4) identificación de la especie de Leishmania para orientar el tratamiento. La investigación del vector y su ecología es fundamental para diseñar las medidas de control.",
+    "competency": "datos",
+    "options": [
+      { "letter": "A", "text": "Fumigar toda la vereda con insecticidas sin investigación previa del vector.", "isCorrect": false },
+      { "letter": "B", "text": "Realizar búsqueda activa de casos, estudio entomológico del vector, caracterización de factores ambientales y laborales, e identificación de la especie de Leishmania.", "isCorrect": true },
+      { "letter": "C", "text": "Esperar al reporte anual consolidado para iniciar la investigación.", "isCorrect": false },
+      { "letter": "D", "text": "Vacunar a toda la población contra leishmaniasis.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": "Un hospital acreditado de Cali implementa un programa integral de seguridad del paciente que incluye: rondas de seguridad, análisis de eventos adversos con metodología de causa raíz, protocolo de Londres para investigación de incidentes, lista de chequeo quirúrgico (OMS), identificación correcta del paciente y comunicación efectiva (SBAR). En el último año, la tasa de eventos adversos prevenibles disminuyó de 4,8 % a 2,1 %.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál enfoque metodológico es el más adecuado para investigar un evento adverso grave en el marco de la seguridad del paciente?",
+    "explanation": "El análisis de causa raíz (ACR) es la metodología recomendada para investigar eventos adversos graves. A diferencia del enfoque punitivo (buscar un culpable), el ACR analiza las fallas del sistema: factores organizacionales, del equipo de trabajo, del entorno, de la tarea y del paciente que contribuyeron al evento. El Protocolo de Londres es una guía estructurada para realizar ACR en salud. Este enfoque sistémico permite identificar las causas profundas y diseñar barreras de seguridad que prevengan la recurrencia, en lugar de simplemente sancionar al individuo involucrado.",
+    "competency": "programas",
+    "options": [
+      { "letter": "A", "text": "Sancionar disciplinariamente al profesional involucrado sin investigación adicional.", "isCorrect": false },
+      { "letter": "B", "text": "Archivar el caso y no comunicarlo al equipo para evitar alarma.", "isCorrect": false },
+      { "letter": "C", "text": "Realizar análisis de causa raíz con enfoque sistémico (Protocolo de Londres), identificando fallas del sistema y diseñando barreras de seguridad.", "isCorrect": true },
+      { "letter": "D", "text": "Culpar al paciente por no haber informado adecuadamente sobre sus alergias.", "isCorrect": false }
+    ]
+  }
+]

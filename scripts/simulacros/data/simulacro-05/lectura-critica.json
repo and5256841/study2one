@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Lea el siguiente texto.\n\n«Durante siglos, la locura fue tratada como un problema de orden público antes que como una cuestión médica. Los primeros asilos psiquiátricos europeos —el Bethlem Royal Hospital de Londres, fundado en 1247, o el Hospital de Inocentes de Valencia, en 1409— funcionaban más como cárceles que como centros de atención. Los pacientes eran encadenados, sometidos a sangrías, duchas heladas y, en casos extremos, trepanaciones. La premisa implícita era que el enfermo mental había perdido su condición humana y, por tanto, no merecía los mismos cuidados que cualquier otro paciente.\n\nEl giro comenzó en 1793, cuando Philippe Pinel, médico del hospicio de Bicêtre en París, ordenó retirar las cadenas de los internos. Este gesto, inmortalizado en la pintura de Tony Robert-Fleury, no fue meramente simbólico: inauguró el tratamiento moral, un enfoque que consideraba al paciente psiquiátrico como un ser racional susceptible de mejorar mediante el trato digno, la ocupación productiva y el orden ambiental. Sin embargo, el tratamiento moral también contenía sus propias contradicciones: la «libertad» que ofrecía estaba confinada a los muros del asilo, y la «dignidad» dependía de que el paciente se comportara según las normas del médico.\n\nNo sería sino hasta la segunda mitad del siglo XX cuando la psiquiatría comunitaria propuso una alternativa radical: sacar al paciente del asilo y reintegrarlo a la comunidad. El movimiento de desinstitucionalización, impulsado por figuras como Franco Basaglia en Italia, cerró hospitales psiquiátricos y promovió centros de atención ambulatoria. Pero la promesa de la psiquiatría comunitaria se cumplió solo a medias: en muchos países, los hospitales se cerraron sin que existieran los servicios comunitarios para reemplazarlos, y miles de pacientes terminaron en la calle o en prisiones, repitiendo, bajo otro nombre, la misma exclusión que Pinel había intentado abolir.»\n\n(Redacción Study2One)",
+    "questionText": "Según el texto, la premisa que sustentaba el trato dado a los enfermos mentales en los primeros asilos era que:",
+    "explanation": "El texto afirma literalmente que «la premisa implícita era que el enfermo mental había perdido su condición humana y, por tanto, no merecía los mismos cuidados que cualquier otro paciente». La opción C recoge esta información directa del primer párrafo.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "La locura era una enfermedad contagiosa que exigía el aislamiento preventivo del paciente.", "isCorrect": false },
+      { "letter": "B", "text": "Los métodos físicos como las sangrías y las duchas constituían tratamientos médicos eficaces.", "isCorrect": false },
+      { "letter": "C", "text": "El enfermo mental había perdido su condición humana y no merecía los mismos cuidados que otros pacientes.", "isCorrect": true },
+      { "letter": "D", "text": "Las instituciones religiosas tenían la obligación moral de custodiar a quienes no podían valerse por sí mismos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "La expresión «la misma exclusión que Pinel había intentado abolir» cumple la función de:",
+    "explanation": "El autor cierra el texto señalando que la desinstitucionalización mal ejecutada terminó reproduciendo la exclusión que Pinel combatió. La expresión tiene una función argumentativa clara: mostrar que la historia de la psiquiatría es cíclica, y que los avances pueden revertirse si no se implementan con recursos suficientes. La opción B captura esta función retórica de circularidad histórica.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Demostrar que la obra de Pinel fue un fracaso completo sin impacto duradero en la psiquiatría.", "isCorrect": false },
+      { "letter": "B", "text": "Señalar la ironía de que el proceso de desinstitucionalización reprodujo el problema que pretendía resolver.", "isCorrect": true },
+      { "letter": "C", "text": "Criticar a Franco Basaglia por haber ignorado deliberadamente las lecciones históricas de Pinel.", "isCorrect": false },
+      { "letter": "D", "text": "Argumentar que los hospitales psiquiátricos nunca debieron cerrarse.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "El texto señala que el tratamiento moral de Pinel contenía una contradicción interna. Esta contradicción consiste en que:",
+    "explanation": "El texto explica que el tratamiento moral promovía la dignidad y la racionalidad del paciente, pero esa «libertad» estaba limitada a los muros del asilo y la «dignidad» dependía de la obediencia al médico. La contradicción radica en proclamar libertad y dignidad dentro de un marco que las condicionaba al sometimiento. La opción A describe esta tensión.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Proclamaba la libertad y la dignidad del paciente, pero las condicionaba a la obediencia y al confinamiento.", "isCorrect": true },
+      { "letter": "B", "text": "Eliminaba las cadenas físicas pero introducía tratamientos farmacológicos igualmente coercitivos.", "isCorrect": false },
+      { "letter": "C", "text": "Reconocía la racionalidad del paciente pero le negaba el derecho a participar en su propio tratamiento.", "isCorrect": false },
+      { "letter": "D", "text": "Mejoraba las condiciones materiales del asilo pero mantenía los mismos métodos punitivos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": null,
+    "questionText": "Un lector crítico podría objetar que el texto:",
+    "explanation": "El texto traza una narrativa lineal desde los asilos hasta la psiquiatría comunitaria como si cada etapa fuera un progreso sobre la anterior, pero omite desarrollos importantes como la psicofarmacología (descubrimiento de la clorpromazina en 1952), el psicoanálisis o la antipsiquiatría, que transformaron profundamente la disciplina. La opción D identifica esta simplificación.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Presenta a Pinel como un héroe sin cuestionar sus motivaciones políticas personales.", "isCorrect": false },
+      { "letter": "B", "text": "Utiliza fuentes exclusivamente europeas y desconoce las tradiciones psiquiátricas de otras culturas.", "isCorrect": false },
+      { "letter": "C", "text": "Exagera el impacto de la desinstitucionalización al no citar estadísticas concretas.", "isCorrect": false },
+      { "letter": "D", "text": "Simplifica la historia de la psiquiatría al omitir desarrollos fundamentales como la psicofarmacología y el psicoanálisis.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Lea el siguiente texto.\n\n«Durante décadas, la neurociencia sostuvo que el cerebro adulto era un órgano esencialmente estático: las neuronas con las que nacíamos eran las mismas que tendríamos durante toda la vida, y cualquier daño cerebral —un ictus, un traumatismo craneoencefálico, una lesión medular— era, por definición, irreversible. Esta concepción, conocida como el dogma de la invariabilidad neuronal, fue desafiada a partir de los años noventa por una acumulación de evidencia que demostró que el cerebro posee una capacidad extraordinaria de reorganización: la neuroplasticidad.\n\nLa neuroplasticidad opera a múltiples niveles. A nivel sináptico, las conexiones entre neuronas se fortalecen o debilitan según la frecuencia con que se utilizan —un fenómeno que Donald Hebb sintetizó en su célebre máxima: «las neuronas que se activan juntas, se conectan juntas». A nivel cortical, regiones del cerebro que han perdido su función original pueden ser «reclutadas» por áreas vecinas. En pacientes ciegos de nacimiento, por ejemplo, la corteza visual —privada de estímulos ópticos— es reasignada al procesamiento del lenguaje Braille o de señales auditivas. El cerebro, lejos de resignarse a la pérdida, redistribuye sus recursos.\n\nLa implicación clínica más poderosa de la neuroplasticidad es la rehabilitación. La terapia de restricción del lado sano, desarrollada por Edward Taub, obliga al paciente con hemiplejia a usar exclusivamente la extremidad afectada, forzando al cerebro a crear nuevas rutas neuronales para compensar el daño. Los resultados han sido notables: pacientes que habían sido desahuciados recuperaron movilidad funcional años después del evento cerebrovascular. Sin embargo, la neuroplasticidad no es ilimitada. Depende de la edad del paciente, la extensión de la lesión, la intensidad de la rehabilitación y factores genéticos que apenas comenzamos a comprender.»\n\n(Redacción Study2One)",
+    "questionText": "Según el texto, el «dogma de la invariabilidad neuronal» sostenía que:",
+    "explanation": "El texto define explícitamente este dogma: «el cerebro adulto era un órgano esencialmente estático: las neuronas con las que nacíamos eran las mismas que tendríamos durante toda la vida, y cualquier daño cerebral era, por definición, irreversible». La opción B recoge fielmente esta información.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Las neuronas podían regenerarse únicamente durante los primeros años de vida.", "isCorrect": false },
+      { "letter": "B", "text": "El cerebro adulto no podía generar nuevas conexiones y el daño neuronal era irreversible.", "isCorrect": true },
+      { "letter": "C", "text": "La rehabilitación neurológica era ineficaz porque las lesiones cerebrales carecían de tratamiento.", "isCorrect": false },
+      { "letter": "D", "text": "Las funciones cerebrales estaban distribuidas de forma simétrica entre ambos hemisferios.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "La máxima de Hebb — «las neuronas que se activan juntas, se conectan juntas» — se utiliza en el texto para:",
+    "explanation": "El autor introduce la máxima de Hebb inmediatamente después de explicar que las conexiones sinápticas se fortalecen o debilitan según la frecuencia de uso. La frase funciona como una síntesis del mecanismo de plasticidad sináptica: la repetición refuerza las conexiones. La opción A captura esta función ilustrativa.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Ilustrar el mecanismo mediante el cual la repetición fortalece las conexiones neuronales.", "isCorrect": true },
+      { "letter": "B", "text": "Demostrar que la neuroplasticidad fue descubierta antes de los años noventa.", "isCorrect": false },
+      { "letter": "C", "text": "Cuestionar la validez científica del dogma de la invariabilidad neuronal.", "isCorrect": false },
+      { "letter": "D", "text": "Explicar por qué los pacientes ciegos desarrollan habilidades auditivas superiores.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": null,
+    "questionText": "El ejemplo de los pacientes ciegos de nacimiento cuya corteza visual procesa lenguaje Braille permite inferir que:",
+    "explanation": "El texto presenta este ejemplo como evidencia de plasticidad cortical: una región cerebral diseñada para procesar estímulos visuales puede reasignarse a otras funciones cuando esos estímulos no existen. La inferencia válida es que las regiones cerebrales no están irrevocablemente atadas a una sola función, sino que pueden adaptarse a nuevas demandas.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La ceguera congénita produce un desarrollo neurológico superior al de las personas videntes.", "isCorrect": false },
+      { "letter": "B", "text": "Las regiones cerebrales no están condenadas a una única función y pueden adaptarse a nuevas demandas sensoriales.", "isCorrect": true },
+      { "letter": "C", "text": "El lenguaje Braille activa exactamente las mismas neuronas que la visión convencional.", "isCorrect": false },
+      { "letter": "D", "text": "La corteza visual de los pacientes ciegos se atrofia progresivamente por falta de estímulos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "¿Cuál de las siguientes afirmaciones constituye una limitación argumentativa del texto?",
+    "explanation": "El texto presenta casos exitosos de neuroplasticidad (pacientes que recuperaron movilidad años después) y luego menciona brevemente que «no es ilimitada», pero no ofrece datos sobre tasas de éxito, porcentajes de recuperación o casos en los que la rehabilitación fracasó. Esta omisión puede generar expectativas desproporcionadas en el lector. La opción C identifica esta limitación.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "No explica los mecanismos moleculares de la plasticidad sináptica.", "isCorrect": false },
+      { "letter": "B", "text": "Utiliza ejemplos clínicos sin citar las revistas científicas donde fueron publicados.", "isCorrect": false },
+      { "letter": "C", "text": "Enfatiza los casos exitosos de recuperación sin ofrecer datos sobre la proporción de pacientes que no responden a la rehabilitación.", "isCorrect": true },
+      { "letter": "D", "text": "Atribuye a Donald Hebb un descubrimiento que en realidad fue formulado por Santiago Ramón y Cajal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "La expresión «el cerebro, lejos de resignarse a la pérdida, redistribuye sus recursos» emplea una figura retórica que consiste en:",
+    "explanation": "La frase atribuye al cerebro acciones propias de un ser con voluntad: «resignarse» y «redistribuir recursos» son comportamientos intencionales. Esta figura retórica es la personificación (prosopopeya), que asigna características humanas a entidades no humanas para hacer más accesible la explicación científica.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Comparar explícitamente el cerebro con un organismo autónomo mediante la conjunción «como».", "isCorrect": false },
+      { "letter": "B", "text": "Atribuir al cerebro capacidades intencionales propias de un ser con voluntad (personificación).", "isCorrect": true },
+      { "letter": "C", "text": "Exagerar deliberadamente las capacidades del cerebro para generar impacto emocional (hipérbole).", "isCorrect": false },
+      { "letter": "D", "text": "Sustituir el término «neuronas» por «recursos» para evitar la repetición léxica (metonimia).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Lea el siguiente texto.\n\n«En 2015, la Comisión Lancet sobre Cirugía Global publicó un informe que reveló una cifra devastadora: cinco mil millones de personas en el mundo carecen de acceso a cirugía segura, oportuna y asequible. Cada año, aproximadamente 18 millones de personas mueren por condiciones que podrían haberse tratado quirúrgicamente —más que las muertes combinadas por VIH/SIDA, tuberculosis y malaria—. La cirugía, durante décadas considerada un «lujo» en la agenda de salud global, era en realidad una necesidad urgente.\n\nEl informe identificó tres barreras principales. Primera, la escasez de personal quirúrgico: mientras que los países de ingresos altos cuentan con más de 40 cirujanos, anestesiólogos y obstetras por cada 100 000 habitantes, los países de ingresos bajos tienen menos de 1 por cada 100 000. Segunda, la barrera geográfica: en el África subsahariana, más del 90 % de la población vive a más de dos horas de un centro con capacidad quirúrgica. Tercera, el costo catastrófico: 33 millones de personas al año enfrentan gastos quirúrgicos que los empujan a la pobreza.\n\nLa Comisión propuso una meta ambiciosa: garantizar que, para 2030, el 80 % de la población mundial tenga acceso a cirugía esencial. Para ello, recomendó la formación masiva de cirujanos en países de bajos ingresos, la inversión en infraestructura quirúrgica y la integración de la cirugía en los planes nacionales de salud. No obstante, cinco años después de la publicación del informe, el progreso ha sido desigual: algunos países como Etiopía y Zambia han desarrollado planes nacionales quirúrgicos, mientras que muchos otros ni siquiera han incluido la cirugía en sus prioridades sanitarias.»\n\n(Redacción Study2One)",
+    "questionText": "Según el texto, la cifra de 18 millones de muertes anuales por condiciones tratables quirúrgicamente se menciona con el propósito de:",
+    "explanation": "El texto presenta esta cifra inmediatamente después de afirmar que la cirugía fue considerada un «lujo» en la agenda de salud global. La comparación con las muertes por VIH, tuberculosis y malaria refuerza el argumento de que la cirugía no es un lujo sino una necesidad urgente. La función de la cifra es dimensionar la magnitud del problema.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Comparar la eficacia de la cirugía con la de los tratamientos farmacológicos convencionales.", "isCorrect": false },
+      { "letter": "B", "text": "Demostrar que la mortalidad quirúrgica es la principal causa de muerte en el mundo.", "isCorrect": false },
+      { "letter": "C", "text": "Dimensionar la magnitud del problema y refutar la idea de que la cirugía es un lujo sanitario.", "isCorrect": true },
+      { "letter": "D", "text": "Criticar a las organizaciones internacionales por haber priorizado enfermedades infecciosas sobre las quirúrgicas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "Del dato de que los países de ingresos altos tienen más de 40 profesionales quirúrgicos por cada 100 000 habitantes mientras los de ingresos bajos tienen menos de 1, se puede inferir que:",
+    "explanation": "La proporción 40:1 frente a menos de 1:100 000 revela una desigualdad de más de 40 veces. Esta disparidad permite inferir que la distribución global del personal quirúrgico no responde a la carga de enfermedad sino a la capacidad económica de los países. La opción A captura esta inferencia.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La distribución del personal quirúrgico está determinada por la riqueza del país, no por la necesidad de atención.", "isCorrect": true },
+      { "letter": "B", "text": "Los países de ingresos bajos han decidido deliberadamente priorizar la medicina preventiva sobre la cirugía.", "isCorrect": false },
+      { "letter": "C", "text": "La formación de cirujanos requiere una tecnología que solo está disponible en países desarrollados.", "isCorrect": false },
+      { "letter": "D", "text": "Los profesionales quirúrgicos de países pobres emigran masivamente a países de ingresos altos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "La afirmación de que «el progreso ha sido desigual» tras la publicación del informe Lancet sugiere que:",
+    "explanation": "El texto reconoce avances en algunos países (Etiopía, Zambia) pero lamenta que «muchos otros ni siquiera han incluido la cirugía en sus prioridades». Esto sugiere que las recomendaciones de la Comisión, al carecer de mecanismos vinculantes, dependen de la voluntad política de cada nación. La opción C refleja esta inferencia.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Las recomendaciones de la Comisión Lancet fueron técnicamente inviables para la mayoría de los países.", "isCorrect": false },
+      { "letter": "B", "text": "Etiopía y Zambia cuentan con más recursos económicos que los demás países de ingresos bajos.", "isCorrect": false },
+      { "letter": "C", "text": "La implementación de las recomendaciones depende de la voluntad política de cada gobierno, no solo de la evidencia científica.", "isCorrect": true },
+      { "letter": "D", "text": "La meta de alcanzar el 80 % de cobertura para 2030 ya fue abandonada por la comunidad internacional.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "Un lector crítico podría señalar que el texto presenta la siguiente debilidad:",
+    "explanation": "El texto aborda las barreras de acceso a la cirugía desde una perspectiva cuantitativa (número de cirujanos, distancia geográfica, costos) pero no menciona otros factores como la calidad de la atención, la seguridad quirúrgica, la disponibilidad de sangre para transfusiones o la mortalidad perioperatoria en los centros existentes. Acceso sin calidad puede ser tan peligroso como la falta de acceso.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Asume que la cirugía es siempre la mejor opción terapéutica sin considerar tratamientos alternativos.", "isCorrect": false },
+      { "letter": "B", "text": "No diferencia entre tipos de cirugía (electiva vs. urgente) al presentar las estadísticas de mortalidad.", "isCorrect": false },
+      { "letter": "C", "text": "Se enfoca en el acceso cuantitativo a la cirugía sin abordar la calidad y seguridad de la atención quirúrgica disponible.", "isCorrect": true },
+      { "letter": "D", "text": "Utiliza cifras de 2015 que podrían estar desactualizadas al momento de la lectura.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Lea el siguiente texto.\n\n«El terremoto de Haití de 2010 dejó más de 200 000 muertos y 300 000 heridos en cuestión de minutos. En las horas siguientes, los equipos médicos internacionales que llegaron al país se enfrentaron a decisiones que ningún libro de texto prepara: con recursos limitados, quirófanos improvisados y miles de pacientes en estado crítico, debían decidir a quién operar primero y a quién dejar morir.\n\nEste proceso, conocido como triaje de desastre, invierte los principios éticos de la medicina ordinaria. En condiciones normales, el paciente más grave recibe atención prioritaria. En una catástrofe, ocurre lo contrario: se prioriza a quienes tienen mayores posibilidades de sobrevivir con los recursos disponibles, y los más graves —aquellos que requerirían horas de cirugía con resultados inciertos— pueden ser clasificados como «expectantes», un eufemismo que, en la práctica, significa abandonarlos a su suerte.\n\nEsta lógica utilitarista —salvar al mayor número posible— entra en conflicto directo con el principio de justicia distributiva, que exige tratar a cada paciente según su necesidad individual. También colisiona con el deber médico de no abandonar al paciente. ¿Puede un cirujano pasar de largo ante un niño con el abdomen abierto porque en la carpa contigua hay cinco adultos con fracturas más tratables? La ética del desastre no ofrece respuestas limpias; solo dilemas que dejan cicatrices en quienes deben resolverlos.»\n\n(Redacción Study2One)",
+    "questionText": "Según el texto, el triaje de desastre «invierte los principios éticos de la medicina ordinaria» porque:",
+    "explanation": "El texto explica la inversión de forma explícita: en condiciones normales se atiende primero al más grave, pero en una catástrofe se prioriza a quienes tienen mayor probabilidad de sobrevivir, y los más graves pueden ser clasificados como «expectantes». La opción A recoge esta inversión descrita literalmente.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "En lugar de atender primero al paciente más grave, se prioriza a quienes tienen mayor probabilidad de sobrevivir.", "isCorrect": true },
+      { "letter": "B", "text": "Permite que médicos sin especialización quirúrgica realicen procedimientos complejos.", "isCorrect": false },
+      { "letter": "C", "text": "Obliga a los equipos internacionales a seguir protocolos ajenos a su formación.", "isCorrect": false },
+      { "letter": "D", "text": "Elimina el consentimiento informado como requisito para la intervención quirúrgica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "La palabra «eufemismo» aplicada al término «expectantes» indica que el autor considera que esta clasificación:",
+    "explanation": "Un eufemismo es una expresión suavizada que reemplaza otra más directa o cruda. Al llamar «eufemismo» al término «expectantes», el autor señala que la palabra disfraza una realidad brutal: que esos pacientes serán abandonados. La opción B identifica esta función del lenguaje.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Refleja con precisión la condición clínica de los pacientes clasificados en esa categoría.", "isCorrect": false },
+      { "letter": "B", "text": "Disfraza con lenguaje técnico la decisión de no brindar atención a pacientes gravemente heridos.", "isCorrect": true },
+      { "letter": "C", "text": "Fue creada por organismos internacionales para estandarizar los protocolos de emergencia.", "isCorrect": false },
+      { "letter": "D", "text": "Constituye un término médico legítimo que no implica juicio de valor alguno.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": null,
+    "questionText": "La pregunta retórica sobre el niño con el abdomen abierto tiene la función argumentativa de:",
+    "explanation": "El autor introduce un caso concreto y emocionalmente impactante (un niño herido de gravedad) para que el lector experimente el dilema moral del triaje, no solo lo comprenda intelectualmente. No busca responder la pregunta sino confrontar al lector con la tensión irresoluble entre utilitarismo y justicia individual.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Demostrar que la cirugía pediátrica debe tener prioridad absoluta en contextos de desastre.", "isCorrect": false },
+      { "letter": "B", "text": "Confrontar al lector con la dimensión emocional y moral del dilema ético del triaje.", "isCorrect": true },
+      { "letter": "C", "text": "Probar que la lógica utilitarista es éticamente inaceptable en cualquier circunstancia.", "isCorrect": false },
+      { "letter": "D", "text": "Sugerir que los protocolos de triaje deberían modificarse para incluir criterios de edad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "Del texto se puede inferir que la «ética del desastre» se distingue de la ética médica convencional en que:",
+    "explanation": "El texto establece que la ética del desastre «no ofrece respuestas limpias; solo dilemas que dejan cicatrices». A diferencia de la ética médica convencional, que opera con principios claros (autonomía, no maleficencia, justicia, beneficencia), la ética del desastre obliga a sacrificar unos principios para cumplir otros, sin que exista una respuesta correcta. La opción D captura esta distinción.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Carece de fundamento filosófico y se basa exclusivamente en criterios pragmáticos improvisados.", "isCorrect": false },
+      { "letter": "B", "text": "Prioriza el bienestar del equipo médico por encima del de los pacientes.", "isCorrect": false },
+      { "letter": "C", "text": "Ha sido consensuada por la comunidad médica internacional en protocolos vinculantes.", "isCorrect": false },
+      { "letter": "D", "text": "Opera en un terreno donde los principios éticos entran en conflicto entre sí y no existe una respuesta universalmente correcta.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Lea el siguiente texto.\n\n«La medicina de precisión promete reemplazar el paradigma del «talla única» por un enfoque individualizado que considera la composición genética, el microbioma, el estilo de vida y el entorno de cada paciente. En oncología, este enfoque ya ha producido resultados tangibles: terapias dirigidas como el imatinib, diseñado para atacar la mutación BCR-ABL específica de la leucemia mieloide crónica, han transformado una enfermedad mortal en una condición manejable a largo plazo. La farmacogenómica, por su parte, permite predecir qué pacientes metabolizarán un medicamento demasiado rápido o demasiado lento, ajustando la dosis antes de que se produzcan efectos adversos.\n\nSin embargo, la medicina de precisión también plantea preguntas incómodas. La primera es económica: las terapias personalizadas son extraordinariamente costosas. Un tratamiento con células CAR-T, diseñado a medida para cada paciente oncológico, puede superar los 400 000 dólares. ¿Quién pagará por esta medicina? Si solo los sistemas de salud de países ricos pueden ofrecerla, la medicina de precisión podría convertirse en la mayor fuente de inequidad sanitaria del siglo XXI.\n\nLa segunda pregunta es filosófica. Si la medicina puede predecir, a partir del genoma de un recién nacido, su predisposición a enfermedades como Alzheimer, esquizofrenia o cáncer de mama, ¿debe hacerlo? El derecho a saber coexiste con el derecho a no saber. Un diagnóstico predictivo puede motivar acciones preventivas, pero también puede condenar a una persona a vivir bajo la sombra de una enfermedad que quizá nunca se manifieste.»\n\n(Redacción Study2One)",
+    "questionText": "El texto menciona el imatinib con el propósito de:",
+    "explanation": "El autor presenta el imatinib inmediatamente después de afirmar que la medicina de precisión «ya ha producido resultados tangibles». La función del ejemplo es ilustrar un caso concreto en el que la terapia dirigida a una mutación específica transformó el pronóstico de una enfermedad. La opción B recoge esta función.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Comparar la eficacia de las terapias dirigidas con la de la quimioterapia convencional.", "isCorrect": false },
+      { "letter": "B", "text": "Ejemplificar un logro concreto de la medicina de precisión en el tratamiento del cáncer.", "isCorrect": true },
+      { "letter": "C", "text": "Argumentar que la leucemia mieloide crónica ya no constituye una amenaza para la salud pública.", "isCorrect": false },
+      { "letter": "D", "text": "Demostrar que la farmacogenómica es superior a las terapias con células CAR-T.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": null,
+    "questionText": "La expresión «la mayor fuente de inequidad sanitaria del siglo XXI» sugiere que, para el autor:",
+    "explanation": "El autor advierte que si las terapias personalizadas solo están al alcance de los países ricos, la medicina de precisión profundizaría la brecha sanitaria global en lugar de cerrarla. La expresión implica que la tecnología, sin equidad en el acceso, amplifica las desigualdades existentes.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La medicina de precisión es intrínsecamente injusta y debería ser abandonada.", "isCorrect": false },
+      { "letter": "B", "text": "Los avances tecnológicos en medicina, sin políticas de acceso equitativo, podrían ampliar la brecha entre ricos y pobres.", "isCorrect": true },
+      { "letter": "C", "text": "Los países de bajos ingresos no tienen interés en adoptar las terapias personalizadas.", "isCorrect": false },
+      { "letter": "D", "text": "La quimioterapia convencional sigue siendo más eficaz y accesible que las terapias dirigidas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "El dilema entre «el derecho a saber» y «el derecho a no saber» que plantea el tercer párrafo implica que:",
+    "explanation": "El texto presenta la predicción genómica como una capacidad que genera un dilema ético genuino: saber sobre una predisposición puede motivar la prevención, pero también puede generar ansiedad permanente sobre una enfermedad que quizá nunca se desarrolle. Ambas opciones (saber y no saber) tienen consecuencias legítimas, lo que hace que la decisión sea éticamente compleja.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "La medicina predictiva es éticamente inaceptable porque viola la autonomía del paciente.", "isCorrect": false },
+      { "letter": "B", "text": "Los diagnósticos predictivos deberían ser obligatorios para todos los recién nacidos.", "isCorrect": false },
+      { "letter": "C", "text": "La información genómica predictiva puede ser tanto una herramienta de prevención como una fuente de sufrimiento innecesario.", "isCorrect": true },
+      { "letter": "D", "text": "El derecho a no saber es siempre prioritario sobre el derecho a la información médica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": null,
+    "questionText": "El texto organiza su argumentación mediante una estructura que puede describirse como:",
+    "explanation": "El texto presenta primero los logros de la medicina de precisión (imatinib, farmacogenómica), luego plantea la objeción económica (costo, inequidad) y después la objeción filosófica (derecho a saber vs. no saber). Esta estructura de tesis-antítesis permite al lector apreciar tanto las promesas como los riesgos del paradigma.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Cronológica: narra la evolución de la medicina de precisión desde sus orígenes hasta el presente.", "isCorrect": false },
+      { "letter": "B", "text": "Tesis-antítesis: presenta los logros de la medicina de precisión y luego sus riesgos éticos y económicos.", "isCorrect": true },
+      { "letter": "C", "text": "Comparativa: contrasta la medicina de precisión con la medicina convencional punto por punto.", "isCorrect": false },
+      { "letter": "D", "text": "Inductiva: acumula casos particulares para llegar a una conclusión general al final del texto.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Lea el siguiente fragmento.\n\n«ANTÍGONA.— No fue Zeus el que satisfizo tales decretos, ni la Justicia que convive con los dioses de abajo estableció tales leyes entre los hombres. Tampoco pensaba yo que tus proclamas tuvieran tanto poder como para pasar por encima de las leyes no escritas e inquebrantables de los dioses. No son de hoy ni de ayer, sino de siempre, y nadie sabe de dónde surgieron. No iba yo a obtener castigo por ellas de parte de los dioses, por miedo a la voluntad de ningún hombre.\n\nQue iba a morir ya lo sabía —¿cómo no?—, aunque tú no lo hubieras decretado. Y si muero antes de tiempo, yo lo llamo ganancia. Pues quien, como yo, vive entre tantas desgracias, ¿cómo no va a obtener provecho al morir? Así que para mí no supone pena alguna alcanzar este destino. En cambio, si hubiera permitido que el cuerpo de un hijo de mi madre quedara insepulto, entonces sí que sufriría; pero por esto no sufro. Y si ahora te parece que obro como una necia, tal vez sea un necio el que me acusa de necedad.»\n\n(Sófocles, Antígona, ca. 442 a. C. — dominio público. Traducción adaptada)",
+    "questionText": "Cuando Antígona afirma que las leyes de los dioses «no son de hoy ni de ayer, sino de siempre», quiere decir que:",
+    "explanation": "Antígona establece una distinción entre las leyes humanas (temporales, cambiantes, promulgadas por gobernantes) y las leyes divinas (eternas, anteriores a cualquier decreto). Al decir que «no son de hoy ni de ayer, sino de siempre», afirma la eternidad y universalidad de la ley divina frente a la contingencia de la ley humana.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Las tradiciones religiosas antiguas han perdido vigencia en la sociedad contemporánea.", "isCorrect": false },
+      { "letter": "B", "text": "Los decretos de los gobernantes deben ser respetados por encima de cualquier costumbre.", "isCorrect": false },
+      { "letter": "C", "text": "Existen principios morales universales que trascienden las leyes dictadas por los gobernantes humanos.", "isCorrect": true },
+      { "letter": "D", "text": "Las leyes divinas fueron escritas en un pasado remoto y transmitidas oralmente a las generaciones siguientes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "La afirmación de Antígona «si muero antes de tiempo, yo lo llamo ganancia» revela que:",
+    "explanation": "Antígona vive rodeada de desgracias (la maldición de los Labdácidas: su padre Edipo, la guerra entre sus hermanos). Al decir que morir sería una «ganancia», revela que el sufrimiento acumulado hace que la muerte no le inspire temor, sino que la libere. Esta actitud refuerza su desafío a Creonte: no la detiene ni la amenaza de muerte.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Antígona desea la muerte como un acto de venganza contra Creonte.", "isCorrect": false },
+      { "letter": "B", "text": "El sufrimiento acumulado ha hecho que Antígona no tema la muerte, lo que fortalece su desafío.", "isCorrect": true },
+      { "letter": "C", "text": "Antígona considera que la vida terrenal carece de todo valor frente a la vida después de la muerte.", "isCorrect": false },
+      { "letter": "D", "text": "Sófocles introduce la idea de que los héroes trágicos deben morir jóvenes para alcanzar la gloria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "La frase final — «tal vez sea un necio el que me acusa de necedad» — constituye un recurso retórico que consiste en:",
+    "explanation": "Antígona devuelve la acusación de Creonte: si ella es necia por obedecer a los dioses, entonces Creonte es el verdadero necio por creer que sus decretos humanos están por encima de la ley divina. El recurso es la inversión del argumento del adversario, también conocido como retorsión: usar el mismo término del oponente para volverlo en su contra.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Aceptar humildemente la acusación de Creonte para ganar la simpatía del coro.", "isCorrect": false },
+      { "letter": "B", "text": "Devolver la acusación al propio acusador, invirtiendo la carga argumentativa (retorsión).", "isCorrect": true },
+      { "letter": "C", "text": "Reconocer que su decisión fue impulsiva y carente de reflexión racional.", "isCorrect": false },
+      { "letter": "D", "text": "Apelar a la compasión del público mediante una expresión de vulnerabilidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "El conflicto central del fragmento puede interpretarse como una tensión entre:",
+    "explanation": "El fragmento presenta a Antígona enfrentándose a Creonte: ella defiende el deber de enterrar a su hermano según la ley divina; él lo prohíbe mediante un decreto político. El conflicto esencial es entre la obediencia a principios morales que la persona considera superiores y la obediencia al poder del Estado. La opción C captura esta tensión fundamental.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La lealtad familiar y la ambición política personal de Antígona.", "isCorrect": false },
+      { "letter": "B", "text": "La religión politeísta griega y el racionalismo filosófico emergente.", "isCorrect": false },
+      { "letter": "C", "text": "La obediencia a la conciencia moral individual y la obediencia a la autoridad del Estado.", "isCorrect": true },
+      { "letter": "D", "text": "La tradición oral arcaica y la escritura como instrumento del poder legislativo.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Lea el siguiente fragmento.\n\n«Piensa en todos los médicos que fruncían las cejas sobre los enfermos y que ellos mismos han muerto. Piensa en todos los astrólogos que predijeron la muerte de otros como algo extraordinario. Piensa en todos los filósofos que discurrieron interminablemente sobre la muerte y la inmortalidad. Piensa en todos los guerreros que mataron a tantos. Piensa en todos los tiranos que ejercieron el poder de vida y muerte con terrible arrogancia, como si fueran inmortales. Piensa en ciudades enteras que han muerto, por así decirlo: Helice, Pompeya, Herculano y otras innumerables.\n\nRepasa también a todos los que tú has conocido, uno tras otro. Uno cerró los ojos de otro, luego fue tendido él mismo, y otro cerró los suyos; todo en un breve lapso de tiempo. En suma: mira siempre las cosas humanas como efímeras y sin valor. Lo que ayer era un embrión, mañana será momia o ceniza.\n\nPasa, pues, este instante de tiempo en armonía con la naturaleza y abandona la vida con serenidad, como una aceituna madura que cayera agradeciendo a la tierra que la produjo y dando gracias al árbol que la hizo crecer.»\n\n(Marco Aurelio, Meditaciones, IV, 48 — ca. 170 d. C. — dominio público. Traducción adaptada)",
+    "questionText": "Marco Aurelio enumera médicos, astrólogos, filósofos, guerreros y tiranos con el propósito de:",
+    "explanation": "La enumeración incluye figuras que, por su profesión o poder, podrían creerse superiores a la muerte (médicos que curan, astrólogos que predicen, guerreros que matan, tiranos que deciden sobre la vida). Al señalar que todos han muerto, Marco Aurelio demuestra que la muerte es universal e inevitable, sin importar el poder o el conocimiento.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "Criticar a las élites sociales romanas por su arrogancia y abuso de poder.", "isCorrect": false },
+      { "letter": "B", "text": "Demostrar que la muerte es universal e iguala a todas las personas, independientemente de su poder o saber.", "isCorrect": true },
+      { "letter": "C", "text": "Clasificar las profesiones según su utilidad social en el Imperio romano.", "isCorrect": false },
+      { "letter": "D", "text": "Recordar a los lectores la importancia de honrar a los muertos ilustres de la historia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": null,
+    "questionText": "La metáfora de la aceituna madura que cae agradeciendo a la tierra implica que, para Marco Aurelio:",
+    "explanation": "La aceituna madura cae naturalmente, sin resistencia, cuando ha completado su ciclo. No cae con violencia ni con amargura, sino con gratitud. Marco Aurelio sugiere que la muerte debe aceptarse con la misma naturalidad: como la culminación de un proceso vital, no como una tragedia, sino con serenidad y agradecimiento por la vida vivida.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "La muerte es un castigo divino que debe aceptarse con resignación pasiva.", "isCorrect": false },
+      { "letter": "B", "text": "La muerte debe aceptarse con serenidad y gratitud, como la culminación natural de la vida.", "isCorrect": true },
+      { "letter": "C", "text": "La agricultura era la actividad más noble del mundo romano y servía como modelo de vida.", "isCorrect": false },
+      { "letter": "D", "text": "Solo quienes han vivido una vida productiva merecen una muerte tranquila.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "La afirmación «lo que ayer era un embrión, mañana será momia o ceniza» puede considerarse una expresión del concepto estoico de:",
+    "explanation": "La frase comprime toda la existencia humana (embrión → momia/ceniza) en una transición brevísima («ayer... mañana»), subrayando la fugacidad de la vida. Este es un tema central del estoicismo: la impermanencia de todo lo humano, que invita a no aferrarse a lo transitorio. La opción A identifica correctamente este concepto.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "La impermanencia radical de la existencia humana y la fugacidad de la vida.", "isCorrect": true },
+      { "letter": "B", "text": "La superioridad del alma inmortal sobre el cuerpo material y perecedero.", "isCorrect": false },
+      { "letter": "C", "text": "El determinismo cósmico que niega la libertad individual del ser humano.", "isCorrect": false },
+      { "letter": "D", "text": "La reencarnación del alma en formas sucesivas de vida.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "Un lector contemporáneo podría objetar que la postura de Marco Aurelio:",
+    "explanation": "Marco Aurelio escribe desde la posición de un emperador romano que ha vivido plenamente. Su invitación a aceptar la muerte con serenidad presupone una vida vivida en condiciones de plenitud. Un lector crítico podría señalar que quienes mueren prematuramente por pobreza, enfermedad o violencia no tienen el privilegio de morir como «aceitunas maduras» que completaron su ciclo natural.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Es incompatible con cualquier forma de creencia religiosa moderna.", "isCorrect": false },
+      { "letter": "B", "text": "Ignora los avances médicos que han extendido significativamente la esperanza de vida.", "isCorrect": false },
+      { "letter": "C", "text": "Presupone una vida vivida en plenitud y no considera a quienes mueren prematuramente por injusticia o enfermedad.", "isCorrect": true },
+      { "letter": "D", "text": "Contradice los principios fundamentales de la filosofía estoica al valorar la vida terrenal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Lea el siguiente texto.\n\n«En septiembre de 1928, Alexander Fleming regresó a su laboratorio del Hospital St. Mary de Londres tras unas vacaciones de verano y encontró algo inesperado: una de sus placas de cultivo de estafilococos había sido contaminada por un hongo. Alrededor de la colonia fúngica, las bacterias habían desaparecido. Otro investigador habría desechado la placa; Fleming la observó con curiosidad y anotó que el hongo —luego identificado como Penicillium notatum— producía una sustancia capaz de destruir bacterias. La llamó penicilina.\n\nSin embargo, Fleming no logró aislar ni purificar la sustancia. Durante más de una década, la penicilina permaneció como una curiosidad de laboratorio sin aplicación clínica. Fue necesario que Howard Florey y Ernst Boris Chain, bioquímicos de la Universidad de Oxford, retomaran el trabajo de Fleming en 1939 para que la penicilina se convirtiera en un medicamento utilizable. Florey y Chain lograron producir penicilina en cantidades suficientes para los primeros ensayos clínicos, y los resultados fueron extraordinarios: infecciones que hasta entonces eran mortales —septicemias, neumonías bacterianas, heridas infectadas— respondían al tratamiento en cuestión de días.\n\nLa Segunda Guerra Mundial aceleró la producción industrial de penicilina. Para 1944, los laboratorios estadounidenses producían miles de millones de unidades mensuales, y el antibiótico se convirtió en un arma médica decisiva: se estima que salvó la vida de entre 12 y 15 % de los soldados heridos en combate. Los tres científicos recibieron el Premio Nobel de Fisiología o Medicina en 1945. Pero Fleming, con la lucidez que lo caracterizaba, advirtió en su discurso de aceptación que el uso inadecuado de la penicilina generaría bacterias resistentes. Hoy, casi un siglo después, la resistencia antimicrobiana es considerada una de las mayores amenazas para la salud global, confirmando la profecía de quien, por una casualidad afortunada y una mirada atenta, cambió la medicina para siempre.»\n\n(Redacción Study2One)",
+    "questionText": "Según el texto, Fleming no pudo llevar la penicilina a la aplicación clínica porque:",
+    "explanation": "El texto afirma de forma explícita que «Fleming no logró aislar ni purificar la sustancia» y que «la penicilina permaneció como una curiosidad de laboratorio sin aplicación clínica» hasta que Florey y Chain retomaron el trabajo. La opción D recoge esta información literal.",
+    "competency": "literal",
+    "options": [
+      { "letter": "A", "text": "La comunidad médica de su época rechazó el hallazgo por considerarlo un accidente sin valor científico.", "isCorrect": false },
+      { "letter": "B", "text": "Fleming carecía de la formación en bioquímica necesaria para comprender el mecanismo de acción del hongo.", "isCorrect": false },
+      { "letter": "C", "text": "Las autoridades sanitarias británicas prohibieron la experimentación con sustancias derivadas de hongos.", "isCorrect": false },
+      { "letter": "D", "text": "No consiguió aislar ni purificar la sustancia en cantidades suficientes para su uso médico.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": null,
+    "questionText": "La expresión «otro investigador habría desechado la placa» cumple la función de:",
+    "explanation": "El autor introduce una hipótesis contrafáctica para contrastar la reacción esperable (desechar una placa contaminada) con la reacción real de Fleming (observarla con curiosidad). Esta comparación resalta que el descubrimiento no fue solo producto del azar, sino también de la capacidad de Fleming para reconocer lo significativo en lo aparentemente trivial.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Criticar a los investigadores contemporáneos de Fleming por su falta de rigor metodológico.", "isCorrect": false },
+      { "letter": "B", "text": "Resaltar que el hallazgo de Fleming dependió tanto de la casualidad como de su capacidad de observación.", "isCorrect": true },
+      { "letter": "C", "text": "Demostrar que los descubrimientos científicos son siempre producto del azar y no del método.", "isCorrect": false },
+      { "letter": "D", "text": "Justificar que Fleming no publicara sus resultados inmediatamente después del descubrimiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "La advertencia de Fleming en su discurso del Nobel sobre la resistencia bacteriana permite inferir que:",
+    "explanation": "Fleming advirtió sobre un problema que tardaría décadas en manifestarse plenamente. Esta capacidad de prever las consecuencias negativas de un avance médico sugiere una comprensión profunda no solo de la biología de la penicilina, sino de cómo los seres humanos la utilizarían. La opción C captura esta inferencia.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Fleming se oponía a la producción industrial de penicilina y prefería restringir su uso a la investigación.", "isCorrect": false },
+      { "letter": "B", "text": "La resistencia antimicrobiana ya era un problema grave en 1945.", "isCorrect": false },
+      { "letter": "C", "text": "Fleming comprendía que la eficacia de un antibiótico depende de su uso racional y que el abuso generaría resistencia.", "isCorrect": true },
+      { "letter": "D", "text": "El comité del Nobel premió a Fleming a pesar de las reservas que él mismo expresó sobre la penicilina.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "La frase final — «por una casualidad afortunada y una mirada atenta» — sintetiza la tesis del texto sobre el descubrimiento científico, que puede formularse como:",
+    "explanation": "La frase condensa la doble naturaleza del descubrimiento de Fleming: el azar (la placa contaminada) y la observación (reconocer su importancia). Esta idea recorre todo el texto: la casualidad sola no produce ciencia; se necesita un observador preparado. Esta es la noción clásica de serendipia: hallazgo fortuito interpretado por una mente preparada.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "Los grandes descubrimientos médicos dependen exclusivamente de la suerte del investigador.", "isCorrect": false },
+      { "letter": "B", "text": "La ciencia avanza mediante la combinación de circunstancias fortuitas y la capacidad del investigador para interpretarlas.", "isCorrect": true },
+      { "letter": "C", "text": "El método científico es innecesario cuando el investigador posee una intuición natural excepcional.", "isCorrect": false },
+      { "letter": "D", "text": "Fleming fue el único responsable del desarrollo de la penicilina como medicamento clínico.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "El hecho de que la producción industrial de penicilina fuera impulsada por la Segunda Guerra Mundial sugiere que:",
+    "explanation": "El texto muestra que la penicilina existía desde 1928 pero su producción masiva no se logró hasta que la guerra creó una necesidad urgente de tratar heridos infectados. Esto sugiere que los conflictos bélicos, paradójicamente, pueden acelerar desarrollos médicos que en tiempos de paz habrían progresado más lentamente. La opción A captura esta inferencia.",
+    "competency": "inferencial",
+    "options": [
+      { "letter": "A", "text": "Las necesidades militares pueden acelerar el desarrollo de avances médicos que en tiempos de paz progresarían más lentamente.", "isCorrect": true },
+      { "letter": "B", "text": "La penicilina fue desarrollada originalmente como un arma biológica reconvertida en medicamento civil.", "isCorrect": false },
+      { "letter": "C", "text": "Los laboratorios estadounidenses tenían la capacidad de producir penicilina antes de la guerra pero carecían de motivación económica.", "isCorrect": false },
+      { "letter": "D", "text": "Florey y Chain habrían logrado la producción industrial sin la presión bélica si hubieran contado con más financiación académica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "¿Cuál de las siguientes afirmaciones representa una limitación argumentativa del texto?",
+    "explanation": "El texto presenta una narrativa heroica centrada en tres figuras (Fleming, Florey, Chain) y omite a los numerosos científicos, técnicos e ingenieros que participaron en la purificación, los ensayos clínicos y la producción industrial. También omite el papel de instituciones como el Departamento de Agricultura de Estados Unidos (laboratorio de Peoria) en la optimización del cultivo del hongo. Esta simplificación reduce un esfuerzo colectivo a una narrativa individual.",
+    "competency": "critico",
+    "options": [
+      { "letter": "A", "text": "No explica el mecanismo bioquímico mediante el cual la penicilina destruye las bacterias.", "isCorrect": false },
+      { "letter": "B", "text": "Reduce un esfuerzo científico colectivo a la narrativa de tres individuos, omitiendo a otros investigadores e instituciones clave.", "isCorrect": true },
+      { "letter": "C", "text": "Presenta la resistencia antimicrobiana como un problema futuro cuando en realidad ya está documentada.", "isCorrect": false },
+      { "letter": "D", "text": "Utiliza la expresión «casualidad afortunada» para desacreditar el método científico formal.", "isCorrect": false }
+    ]
+  }
+]

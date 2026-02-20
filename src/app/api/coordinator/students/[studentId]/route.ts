@@ -39,7 +39,11 @@ export async function GET(
           completionPercentage: true,
           completedAt: true,
           dailyContent: {
-            select: { dayNumber: true, title: true },
+            select: {
+              dayNumber: true,
+              title: true,
+              module: { select: { number: true } },
+            },
           },
         },
         orderBy: { dailyContent: { dayNumber: "asc" } },
@@ -129,14 +133,18 @@ export async function GET(
   const pendingPhotos = student.photoUploads.filter((p) => !p.isApproved && p.photoUrl);
   const approvedPhotos = student.photoUploads.filter((p) => p.isApproved);
 
-  // Module progress
+  // Module progress — use module-relative day numbers (1-based) and filter by module number
   const moduleProgress = MODULES_INFO.map((mod) => {
     const moduleDays = Array.from(
       { length: mod.totalDays },
-      (_, i) => mod.startDay + i
+      (_, i) => i + 1
     );
     const completedDays = moduleDays.filter((d) =>
-      completedAudio.some((a) => a.dailyContent.dayNumber === d)
+      completedAudio.some(
+        (a) =>
+          a.dailyContent.module.number === mod.number &&
+          a.dailyContent.dayNumber === d
+      )
     ).length;
 
     return {

@@ -9,6 +9,29 @@ export async function GET() {
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
+  // Find cohorts belonging to this coordinator
+  const coordinatorCohorts = await prisma.cohort.findMany({
+    where: { coordinatorId: session.user.id },
+    select: { id: true },
+  });
+  const cohortIds = coordinatorCohorts.map((c) => c.id);
+
+  // Base filter: approved students in coordinator's cohorts
+  const cohortStudentFilter = {
+    role: "STUDENT" as const,
+    enrollmentStatus: "APPROVED" as const,
+    cohortStudents: {
+      some: { cohortId: { in: cohortIds } },
+    },
+  };
+
+  // Get student IDs for this coordinator's cohorts (used in progress/quiz filters)
+  const cohortStudentRecords = await prisma.cohortStudent.findMany({
+    where: { cohortId: { in: cohortIds } },
+    select: { studentId: true },
+  });
+  const studentIds = Array.from(new Set(cohortStudentRecords.map((cs) => cs.studentId)));
+
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   const threeDaysAgo = new Date();
@@ -27,17 +50,30 @@ export async function GET() {
     studentsWithStreaks,
     moduleCompletionData,
   ] = await Promise.all([
-    // Total students
-    prisma.user.count({ where: { role: "STUDENT", enrollmentStatus: "APPROVED" } }),
-    // Pending enrollments
-    prisma.user.count({ where: { role: "STUDENT", enrollmentStatus: "PENDING" } }),
-    // Active today
-    prisma.streak.count({ where: { lastActivityDate: { gte: today } } }),
-    // Inactive 3+ days
+    // Total students in coordinator's cohorts
+    prisma.user.count({ where: cohortStudentFilter }),
+    // Pending enrollments (in coordinator's cohorts or unassigned)
     prisma.user.count({
       where: {
         role: "STUDENT",
-        enrollmentStatus: "APPROVED",
+        enrollmentStatus: "PENDING",
+        OR: [
+          { cohortStudents: { some: { cohortId: { in: cohortIds } } } },
+          { cohortStudents: { none: {} } },
+        ],
+      },
+    }),
+    // Active today (only coordinator's students)
+    prisma.streak.count({
+      where: {
+        lastActivityDate: { gte: today },
+        student: cohortStudentFilter,
+      },
+    }),
+    // Inactive 3+ days (only coordinator's students)
+    prisma.user.count({
+      where: {
+        ...cohortStudentFilter,
         streak: {
           OR: [
             { lastActivityDate: { lt: threeDaysAgo } },
@@ -46,30 +82,35 @@ export async function GET() {
         },
       },
     }),
-    // Audio progress grouped by student
+    // Audio progress grouped by student (only coordinator's students)
     prisma.audioProgress.groupBy({
       by: ["studentId"],
-      where: { isCompleted: true },
+      where: { isCompleted: true, studentId: { in: studentIds } },
       _count: { id: true },
     }),
-    // Recent quizzes for avg score
+    // Recent quizzes for avg score (only coordinator's students)
     prisma.quizAttempt.findMany({
+      where: { studentId: { in: studentIds } },
       take: 100,
       orderBy: { startedAt: "desc" },
       select: { score: true, totalQuestions: true },
     }),
-    // Avg audio playback speed
+    // Avg audio playback speed (only coordinator's students)
     prisma.audioProgress.aggregate({
       _avg: { playbackSpeed: true },
-      where: { playbackSpeed: { gt: 0 } },
+      where: { playbackSpeed: { gt: 0 }, studentId: { in: studentIds } },
     }),
-    // Photos pending approval
+    // Photos pending approval (only coordinator's students)
     prisma.photoUpload.count({
-      where: { isApproved: false, photoUrl: { not: null } },
+      where: {
+        isApproved: false,
+        photoUrl: { not: null },
+        studentId: { in: studentIds },
+      },
     }),
-    // Students with streak + progress info (for top/at-risk)
+    // Students with streak + progress info (for top/at-risk) — scoped to coordinator
     prisma.user.findMany({
-      where: { role: "STUDENT", enrollmentStatus: "APPROVED" },
+      where: cohortStudentFilter,
       select: {
         id: true,
         fullName: true,
@@ -89,10 +130,11 @@ export async function GET() {
         },
       },
     }),
-    // Module completion data
+    // Module completion data (only coordinator's students)
     prisma.audioProgress.findMany({
-      where: { isCompleted: true },
+      where: { isCompleted: true, studentId: { in: studentIds } },
       select: {
+        studentId: true,
         dailyContent: {
           select: {
             dayNumber: true,
@@ -191,10 +233,10 @@ export async function GET() {
     if (!moduleCompletionMap.has(modNum)) {
       moduleCompletionMap.set(modNum, new Set());
     }
-    // Use a unique key per student+day to avoid counting duplicates
+    // Use composite key student+day to properly count unique completions
     moduleCompletionMap
       .get(modNum)!
-      .add(`${ap.dailyContent.dayNumber}`);
+      .add(`${ap.studentId}_${ap.dailyContent.dayNumber}`);
   }
 
   const moduleProgress = MODULES_INFO.map((mod) => {

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
+import { getModuleForDay, getDayInModule, getStudentCurrentDay, TOTAL_DAYS } from "@/lib/student-day";
 import fs from "fs";
 import path from "path";
 
@@ -13,7 +14,24 @@ export async function POST(
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
-  const dayNumber = parseInt(params.dayId);
+  const globalDay = parseInt(params.dayId);
+  if (isNaN(globalDay) || globalDay < 1 || globalDay > TOTAL_DAYS) {
+    return NextResponse.json({ error: "Día inválido" }, { status: 400 });
+  }
+
+  // Future day access control (skip for coordinators/clients)
+  if (session.user.role === "STUDENT") {
+    const studentDayInfo = await getStudentCurrentDay(session.user.id);
+    if (studentDayInfo && globalDay > studentDayInfo.dayNumber) {
+      return NextResponse.json(
+        { error: "No tienes acceso a este día aún" },
+        { status: 403 }
+      );
+    }
+  }
+
+  const moduleInfo = getModuleForDay(globalDay);
+  const dayNumber = getDayInModule(globalDay);
 
   try {
     const formData = await req.formData();
@@ -34,9 +52,9 @@ export async function POST(
       return NextResponse.json({ error: "La imagen no debe superar 5MB" }, { status: 400 });
     }
 
-    // Find daily content
+    // Find daily content using correct module mapping
     const dailyContent = await prisma.dailyContent.findFirst({
-      where: { dayNumber },
+      where: { dayNumber, module: { number: moduleInfo.number } },
     });
 
     if (!dailyContent) {
@@ -93,10 +111,27 @@ export async function GET(
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
-  const dayNumber = parseInt(params.dayId);
+  const globalDay = parseInt(params.dayId);
+  if (isNaN(globalDay) || globalDay < 1 || globalDay > TOTAL_DAYS) {
+    return NextResponse.json({ photos: [] });
+  }
+
+  // Future day access control (skip for coordinators/clients)
+  if (session.user.role === "STUDENT") {
+    const studentDayInfo = await getStudentCurrentDay(session.user.id);
+    if (studentDayInfo && globalDay > studentDayInfo.dayNumber) {
+      return NextResponse.json(
+        { error: "No tienes acceso a este día aún" },
+        { status: 403 }
+      );
+    }
+  }
+
+  const moduleInfo = getModuleForDay(globalDay);
+  const dayInModule = getDayInModule(globalDay);
 
   const dailyContent = await prisma.dailyContent.findFirst({
-    where: { dayNumber },
+    where: { dayNumber: dayInModule, module: { number: moduleInfo.number } },
   });
 
   if (!dailyContent) {

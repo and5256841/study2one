@@ -22,7 +22,15 @@ npx prisma studio    # Browse DB via web UI
 
 Production build (as in render.yaml): `npm install && npx prisma generate && npm run build`
 
-Utility scripts in `/scripts/`: `seed-questions.mjs`, `seed-demo-data.mjs`, `generate-audio.mjs`, `upload-audios-cloudinary.mjs`, `seed-exam-days-module6.mjs`, `seed-exam-questions-module6.mjs`, `simulacros/seed-monthly-exams.mjs`.
+Utility scripts in `/scripts/`:
+- `upload-audios-cloudinary.mjs` — Upload MP3s to Cloudinary, seed modules/blocks/DailyContent
+- `seed-questions.mjs` / `seed-daily-questions.mjs` — Seed daily quiz questions
+- `validate-daily-questions.mjs` — Validate daily question JSON data
+- `seed-exam-days-module6.mjs` — Create DailyContent for Module 6 exam days (26-30)
+- `seed-exam-questions-module6.mjs` — Seed Module 6 exam questions
+- `seed-demo-data.mjs` / `seed-cohort-demo.mjs` / `seed-demo-full-access.mjs` / `seed-ecg-demo.mjs` — Demo data seeders
+- `simulacros/seed-monthly-exams.mjs` — Seed 6 monthly exams from JSON data files
+- `generate-audio.mjs` / `generar-audio-presentacion.mjs` — TTS audio generation
 
 There are no tests. No Jest, Vitest, or testing library is configured.
 
@@ -32,7 +40,7 @@ There are no tests. No Jest, Vitest, or testing library is configured.
 - **Prisma 5.22** ORM with PostgreSQL 16
 - **NextAuth v5 beta** (credentials provider, JWT sessions, `trustHost: true`)
 - **Tailwind CSS 3.4** for styling
-- **Zustand** for client state, **Zod** for validation
+- **Zod** for validation (client state uses React `useState` + `fetch()` directly — no Zustand/SWR/TanStack Query)
 - **Cloudinary** (audio CDN), **Resend** (email), **web-push** (notifications)
 - **jsPDF** + **qrcode.react** for certificate generation
 - Deployed on **Render.com**
@@ -65,7 +73,7 @@ NextAuth session is extended in `src/types/next-auth.d.ts` to include `id`, `rol
 
 ### Key API Routes
 
-56 endpoints total. See `README.md` for the complete API reference table.
+57 endpoints total. See `README.md` for the complete API reference table.
 
 Critical routes to understand:
 - `/api/day/[dayId]` — Comprehensive day data (title, audioUrl, summary, module info, student progress)
@@ -85,10 +93,11 @@ Critical routes to understand:
 - `cloudinary.ts` — Audio upload/retrieval (uses `resource_type: "video"` for audio — Cloudinary convention)
 - `exam-sounds.ts` — Web Audio API sounds for exam timer (warning at 5 min, alert at 1 min, time-up)
 - `push.ts` / `email.ts` / `message-templates.ts` — Push notifications (web-push VAPID), email (Resend), and message formatting
+- `generate-credential-pdf.ts` — PDF certificate generation with jsPDF + QR code
 
 ### Data Fetching Pattern
 
-Pages use `useState` + `fetch()` directly — no SWR or TanStack Query. Dynamic route params via `useParams()`.
+Pages use `useState` + `fetch()` directly. Dynamic route params via `useParams()`.
 
 ### Module-Day Mapping (src/lib/student-day.ts)
 
@@ -119,7 +128,7 @@ Core model relationships:
 - **Communication**: Announcement, EmailLog, PushSubscription, Notification
 - **Certificate**: Issued per student per cohort with unique verificationCode
 
-All table names use snake_case via `@@map()`. Field names use camelCase in Prisma, mapped to snake_case columns.
+35 models + 8 enums. All table names use snake_case via `@@map()`. Field names use camelCase in Prisma, mapped to snake_case columns.
 
 ## Day Page Behavior
 
@@ -188,6 +197,5 @@ Required (see render.yaml): `DATABASE_URL`, `NEXTAUTH_SECRET`, `NEXTAUTH_URL`, `
 
 - Path alias: `@/*` → `./src/*`. Always use `@/` imports.
 - DB naming: camelCase fields in Prisma mapped to snake_case columns via `@map()`. Table names mapped via `@@map()`.
-- Data fetching: Pages use `useState` + `fetch()` directly — no SWR or TanStack Query. Dynamic route params via `useParams()`.
 - Coordinator nav: 7 items — Panel, Alumnos, Simulacros, Matrículas, Anuncios, Exámenes, Mensuales.
 - Simulacro JSON data: `scripts/simulacros/data/simulacro-XX/` (8 JSON files per simulacro). Use «» guillemets instead of `"` in caseText to avoid parse errors.

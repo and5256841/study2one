@@ -1,0 +1,472 @@
+[
+  {
+    "dayNumber": 1,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "En la Parte 1 (Matching) del modulo de Ingles del Saber Pro, se presentan ocho palabras y cinco definiciones. El estudiante debe relacionar cada descripcion con la palabra correcta.",
+        "questionText": "En la Parte 1 del modulo de Ingles, si la descripcion dice «the way you feel when something good happens to you», cual palabra en ingles corresponde?",
+        "explanation": "La descripcion indica la emocion que sientes cuando algo bueno te ocurre, que es felicidad. En ingles, happy significa feliz. El ICFES nunca pone la definicion directa sino una descripcion contextual de la palabra.",
+        "competency": "A1",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Sad", "isCorrect": false },
+          { "letter": "B", "text": "Happy", "isCorrect": true },
+          { "letter": "C", "text": "Angry", "isCorrect": false },
+          { "letter": "D", "text": "Nervous", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El modulo de Ingles del Saber Pro tiene 55 preguntas distribuidas en 7 partes con niveles progresivos de dificultad.",
+        "questionText": "Segun la estructura del modulo de Ingles del Saber Pro, cuantas preguntas corresponden a los niveles basicos A1 y A2 (Partes 1, 2 y 3)?",
+        "explanation": "La Parte 1 tiene 5 preguntas (A1), la Parte 2 tiene 5 preguntas (A2) y la Parte 3 tiene 5 preguntas (A2). En total son 15 preguntas de nivel basico. Responder correctamente estas 15 preguntas es el primer objetivo estrategico.",
+        "competency": "A1",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "10 preguntas", "isCorrect": false },
+          { "letter": "B", "text": "15 preguntas", "isCorrect": true },
+          { "letter": "C", "text": "20 preguntas", "isCorrect": false },
+          { "letter": "D", "text": "25 preguntas", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "En la Parte 1, la categoria de Places in a City incluye palabras como hospital, library, stadium, market, pharmacy, museum, post office y restaurant.",
+        "questionText": "En ingles, la palabra «library» se refiere a:",
+        "explanation": "Library significa biblioteca, el lugar donde puedes encontrar libros y estudiar tranquilamente. Es importante no confundir library (biblioteca) con libreria (bookstore en ingles). Esta es una diferencia clasica entre cognados falsos del ingles y el espanol.",
+        "competency": "A1",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Una libreria donde compras libros", "isCorrect": false },
+          { "letter": "B", "text": "Una biblioteca donde encuentras libros y puedes estudiar", "isCorrect": true },
+          { "letter": "C", "text": "Un laboratorio de investigacion", "isCorrect": false },
+          { "letter": "D", "text": "Una oficina de correos", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 2,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un aviso en un hospital dice: «PLEASE TURN OFF YOUR MOBILE PHONE».",
+        "questionText": "Cual es la interpretacion correcta de este aviso?",
+        "explanation": "Turn off significa apagar completamente el dispositivo. No es lo mismo que poner en silencio (put on silent). El ICFES utiliza frecuentemente esta confusion entre turn off y put on silent como trampa en la Parte 2.",
+        "competency": "A2",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Debes poner tu telefono en modo silencioso", "isCorrect": false },
+          { "letter": "B", "text": "Debes apagar completamente tu telefono", "isCorrect": true },
+          { "letter": "C", "text": "Puedes usar tu telefono solo para emergencias", "isCorrect": false },
+          { "letter": "D", "text": "Debes entregar tu telefono al personal", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "Segun la estrategia para la Parte 2 (Signs and Notices), las opciones incorrectas en el Saber Pro cometen una de tres trampas. Cual de las siguientes NO es una de esas trampas?",
+        "explanation": "Las tres trampas clasicas de la Parte 2 son: (1) decir lo contrario del aviso, (2) anadir informacion que el aviso no tiene, y (3) confundir palabras con significados parecidos pero distintos. Usar vocabulario tecnico no es una trampa tipica de esta parte.",
+        "competency": "A2",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Decir lo contrario de lo que dice el aviso", "isCorrect": false },
+          { "letter": "B", "text": "Anadir informacion que el aviso no menciona", "isCorrect": false },
+          { "letter": "C", "text": "Usar vocabulario tecnico dificil de traducir", "isCorrect": true },
+          { "letter": "D", "text": "Confundir palabras con significados parecidos pero distintos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un aviso en una farmacia dice: «KEEP OUT OF REACH OF CHILDREN».",
+        "questionText": "Que significa este aviso?",
+        "explanation": "Keep out of reach of children significa mantener fuera del alcance de los ninos. Es un aviso comun en medicamentos y productos peligrosos. La estrategia es identificar la palabra clave (reach = alcance) y traducir literalmente sin anadir interpretacion propia.",
+        "competency": "A2",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Solo los ninos pueden usar este producto", "isCorrect": false },
+          { "letter": "B", "text": "Los ninos deben mantener el producto limpio", "isCorrect": false },
+          { "letter": "C", "text": "Mantener el producto fuera del alcance de los ninos", "isCorrect": true },
+          { "letter": "D", "text": "Solicitar ayuda de un adulto para abrir el producto", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 3,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Persona A dice: «My grandmother is in the hospital. She fell and broke her arm.»",
+        "questionText": "Cual es la respuesta mas apropiada de Persona B segun los patrones conversacionales de la Parte 3?",
+        "explanation": "Ante una expresion de preocupacion o malas noticias, la respuesta apropiada es mostrar empatia. El ICFES evalua si reconoces que ante malas noticias la respuesta correcta es empatia, no informacion ni juicios de valor.",
+        "competency": "A2",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Hospitals are very important for our community.", "isCorrect": false },
+          { "letter": "B", "text": "She should be more careful next time.", "isCorrect": false },
+          { "letter": "C", "text": "Oh no, I'm sorry to hear that. I hope she gets better soon.", "isCorrect": true },
+          { "letter": "D", "text": "My grandmother is also very old.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "En la Parte 3 del Saber Pro, las conversaciones evaluan la habilidad de reconocer funciones comunicativas.",
+        "questionText": "Cuando alguien pregunta «Do you mind if I open the window?», la respuesta «No, not at all» significa que:",
+        "explanation": "Do you mind? traducido literalmente es «Te molesta si...?». Responder «No, not at all» significa «No, para nada (me molesta)», lo que equivale a dar permiso. Esta construccion confunde a hablantes de espanol porque en espanol la logica de la respuesta es inversa. El ICFES usa esta trampa con frecuencia.",
+        "competency": "A2",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "La persona rechaza la solicitud y no da permiso", "isCorrect": false },
+          { "letter": "B", "text": "La persona da permiso para abrir la ventana", "isCorrect": true },
+          { "letter": "C", "text": "La persona no entendio la pregunta", "isCorrect": false },
+          { "letter": "D", "text": "La persona pide que cierren la ventana", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Persona A dice: «Excuse me, do you know where the nearest bank is?»",
+        "questionText": "Cual de las siguientes respuestas es coherente con la funcion comunicativa de la pregunta?",
+        "explanation": "La pregunta es de localizacion/direccion. La respuesta correcta debe dar indicaciones concretas. Las opciones que hablan del tema (dinero, bancos) pero no dan una direccion son incorrectas porque no responden la funcion comunicativa de la pregunta.",
+        "competency": "A2",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "I like money very much.", "isCorrect": false },
+          { "letter": "B", "text": "The bank is very important.", "isCorrect": false },
+          { "letter": "C", "text": "Yes, it's two blocks from here, on the right.", "isCorrect": true },
+          { "letter": "D", "text": "I don't have a bank account.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 4,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Completa la oracion: «She _____ to the university every morning at 7 a.m.»",
+        "questionText": "Cual es la forma verbal correcta para completar la oracion?",
+        "explanation": "El sujeto es she (tercera persona del singular) y la oracion describe una rutina habitual (every morning), lo que indica presente simple. En presente simple, la tercera persona del singular requiere -s o -es al final del verbo: she goes.",
+        "competency": "B1",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "go", "isCorrect": false },
+          { "letter": "B", "text": "goes", "isCorrect": true },
+          { "letter": "C", "text": "going", "isCorrect": false },
+          { "letter": "D", "text": "gone", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "En la Parte 4 (Read and Complete) se evaluan ocho categorias gramaticales frecuentes. Una de ellas son los conectores logicos.",
+        "questionText": "Cual es la diferencia principal entre «although» y «however» en ingles academico?",
+        "explanation": "Although va al inicio o en medio de una oracion compleja con coma (Although the treatment was effective, it had side effects). However va al inicio de una nueva oracion despues de punto (The treatment was effective. However, it had side effects). Ambos expresan contraste, pero se usan en posiciones sintacticas diferentes.",
+        "competency": "B1",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Although indica causa y however indica consecuencia", "isCorrect": false },
+          { "letter": "B", "text": "Although se usa dentro de una misma oracion, however inicia una oracion nueva", "isCorrect": true },
+          { "letter": "C", "text": "However es mas informal que although", "isCorrect": false },
+          { "letter": "D", "text": "Although solo se usa en textos cientificos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Completa la oracion: «The meeting is _____ Monday _____ 3 o'clock.»",
+        "questionText": "Cuales preposiciones completan correctamente la oracion?",
+        "explanation": "Para dias especificos se usa la preposicion on (on Monday). Para horas exactas se usa la preposicion at (at 3 o'clock). Estas son las reglas de preposiciones de tiempo que el ICFES evalua con frecuencia en la Parte 4.",
+        "competency": "B1",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "in / at", "isCorrect": false },
+          { "letter": "B", "text": "on / at", "isCorrect": true },
+          { "letter": "C", "text": "at / in", "isCorrect": false },
+          { "letter": "D", "text": "on / in", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 5,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun la estrategia de cuatro pasos para comprension lectora, cual es el primer paso antes de leer el texto completo?",
+        "explanation": "El primer paso es escanear las preguntas antes de leer el texto. Esto crea un mapa mental de lo que necesitas buscar, lo que permite una lectura mas dirigida y eficiente. No se leen las opciones todavia, solo las preguntas.",
+        "competency": "B1",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Leer el texto completo dos veces para comprenderlo bien", "isCorrect": false },
+          { "letter": "B", "text": "Escanear las preguntas rapidamente sin leer las opciones", "isCorrect": true },
+          { "letter": "C", "text": "Traducir el titulo del texto al espanol", "isCorrect": false },
+          { "letter": "D", "text": "Responder las preguntas mas faciles primero", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "En un texto de nivel B1 aparece la oracion: «The patients suffered from severe diarrhea after drinking contaminated water.»",
+        "questionText": "En este contexto, que significa la palabra «severe»?",
+        "explanation": "En el contexto de una enfermedad, severe modifica la gravedad de la condicion. Severe diarrhea significa diarrea grave o seria. La opcion serious (grave) es sinonimo de severe en contexto medico. No significa leve (mild), raro (rare) ni comun (common).",
+        "competency": "B1",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Mild (leve)", "isCorrect": false },
+          { "letter": "B", "text": "Serious (grave)", "isCorrect": true },
+          { "letter": "C", "text": "Rare (poco comun)", "isCorrect": false },
+          { "letter": "D", "text": "Common (frecuente)", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un texto de comprension lectora del Saber Pro habla de los beneficios y desafios del acceso al agua limpia.",
+        "questionText": "Para preguntas de idea principal, cual es la trampa mas frecuente del ICFES?",
+        "explanation": "La trampa mas frecuente en preguntas de idea principal es una opcion que captura solo una parte del texto. Si el texto habla de beneficios Y desafios, una opcion que solo menciona beneficios es incompleta. La respuesta correcta siempre captura el alcance total del texto.",
+        "competency": "B1",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Una opcion que captura solo un aspecto del texto, no el tema completo", "isCorrect": true },
+          { "letter": "B", "text": "Una opcion escrita en un ingles muy formal y dificil de entender", "isCorrect": false },
+          { "letter": "C", "text": "Una opcion que contradice directamente la primera oracion del texto", "isCorrect": false },
+          { "letter": "D", "text": "Una opcion que repite literalmente las palabras del titulo", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 6,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "La Parte 6 del Saber Pro (Reading Comprehension 2) tiene preguntas sobre referencia pronominal. En el texto aparece: «Healthcare experts recommend a hybrid approach. They believe that combining telemedicine with in-person visits is the best strategy.»",
+        "questionText": "En este fragmento, a que se refiere el pronombre «they»?",
+        "explanation": "Para preguntas de referencia pronominal, se busca el sustantivo mas cercano antes del pronombre que coincida en numero. They es un pronombre plural, y el sustantivo plural mas cercano es healthcare experts. La regla es: they siempre se refiere a un sustantivo plural.",
+        "competency": "B1",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Los pacientes que usan telemedicina", "isCorrect": false },
+          { "letter": "B", "text": "Los expertos en salud (healthcare experts)", "isCorrect": true },
+          { "letter": "C", "text": "Las visitas presenciales (in-person visits)", "isCorrect": false },
+          { "letter": "D", "text": "Los hospitales y clinicas", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "En la Parte 6, una de las habilidades evaluadas es identificar el tono del autor.",
+        "questionText": "Si un texto presenta beneficios y limitaciones de la telemedicina de forma equilibrada, sin defender una posicion especifica, cual es el tono del autor?",
+        "explanation": "Un texto que presenta ambos lados de un tema (beneficios y limitaciones) sin tomar partido es balanceado e informativo. No es critico (solo aspectos negativos), ni entusiasta (solo aspectos positivos), ni indiferente (sin profundidad).",
+        "competency": "B2",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Fuertemente critico y esceptico", "isCorrect": false },
+          { "letter": "B", "text": "Entusiasta y promotor", "isCorrect": false },
+          { "letter": "C", "text": "Balanceado e informativo", "isCorrect": true },
+          { "letter": "D", "text": "Indiferente y distante", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "En un texto academico aparece la oracion: «The telemedicine platform eliminates geographical barriers, allowing patients in remote areas to consult specialists.»",
+        "questionText": "En este contexto, que significa «eliminates»?",
+        "explanation": "En el contexto del texto, eliminates significa removes completely (elimina completamente). La telemedicina elimina las barreras geograficas, no solo las reduce. La opcion reduces slightly (reduce ligeramente) no captura el significado completo de la palabra.",
+        "competency": "B1",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Reduces slightly (reduce ligeramente)", "isCorrect": false },
+          { "letter": "B", "text": "Removes completely (elimina completamente)", "isCorrect": true },
+          { "letter": "C", "text": "Creates new (crea nuevas)", "isCorrect": false },
+          { "letter": "D", "text": "Identifies clearly (identifica claramente)", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 7,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "En que consiste la tecnica de Paragraph Mapping para la Parte 7 del Saber Pro?",
+        "explanation": "El Paragraph Mapping consiste en asignarle una etiqueta de una o dos palabras a cada parrafo antes de responder. Esto crea un mapa mental del texto que indica donde esta cada tipo de informacion, ahorrando tiempo al no tener que releer el texto completo para cada pregunta.",
+        "competency": "B2",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Subrayar todas las palabras desconocidas del texto", "isCorrect": false },
+          { "letter": "B", "text": "Traducir cada parrafo completamente al espanol", "isCorrect": false },
+          { "letter": "C", "text": "Asignar una etiqueta breve a cada parrafo para crear un mapa de contenido", "isCorrect": true },
+          { "letter": "D", "text": "Leer solo el primer y ultimo parrafo del texto", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un texto sobre inteligencia artificial en diagnostico medico tiene esta estructura: parrafos 1-2 presentan beneficios y evidencia, parrafo 3 introduce limitaciones eticas, parrafo 4 aborda responsabilidad legal, y parrafo 5 presenta una conclusion.",
+        "questionText": "Cual es la estructura argumentativa de este texto?",
+        "explanation": "El texto presenta argumentos a favor (parrafos 1-2), contraargumentos (parrafos 3-4), y una conclusion balanceada (parrafo 5). Esta estructura clasica se llama argumento con contraargumentos seguido de conclusion balanceada.",
+        "competency": "B2",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Narrativa cronologica de eventos historicos", "isCorrect": false },
+          { "letter": "B", "text": "Comparacion de dos temas sin conclusion", "isCorrect": false },
+          { "letter": "C", "text": "Argumento con contraargumentos seguido de conclusion balanceada", "isCorrect": true },
+          { "letter": "D", "text": "Problema y solucion sin evidencia de apoyo", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "En un texto de nivel B2 aparece la palabra «unprecedented». Sabes que el prefijo un- significa «no» o «opuesto» y que precedent se parece al espanol «precedente».",
+        "questionText": "Usando el conocimiento de prefijos, que significa «unprecedented»?",
+        "explanation": "El prefijo un- indica negacion o lo opuesto. Precedent (precedente) se refiere a algo que ha ocurrido antes. Por lo tanto, unprecedented significa sin precedente, es decir, algo que nunca ha sucedido antes. Dominar prefijos y sufijos permite deducir el significado de palabras desconocidas en textos de nivel B2.",
+        "competency": "B2",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Predecible, algo que se puede anticipar", "isCorrect": false },
+          { "letter": "B", "text": "Sin precedente, algo que nunca ha ocurrido antes", "isCorrect": true },
+          { "letter": "C", "text": "Anterior, algo que ocurrio en el pasado", "isCorrect": false },
+          { "letter": "D", "text": "Preparado, listo para ejecutarse", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 8,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "En un texto academico de salud aparece la frase: «Stress affects the immune system, and the effect of chronic stress can lead to serious health problems.»",
+        "questionText": "Cual es la diferencia entre «affect» y «effect» en ingles?",
+        "explanation": "Affect generalmente es un verbo (stress affects = el estres afecta). Effect generalmente es un sustantivo (the effect = el efecto). El acronimo RAVEN ayuda a recordar: Remember, Affect is a Verb, Effect is a Noun. El ICFES evalua esta diferencia con frecuencia.",
+        "competency": "B1",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Son sinonimos exactos y se pueden usar indistintamente", "isCorrect": false },
+          { "letter": "B", "text": "Affect es generalmente un verbo y effect es generalmente un sustantivo", "isCorrect": true },
+          { "letter": "C", "text": "Affect se usa solo en textos cientificos y effect en textos informales", "isCorrect": false },
+          { "letter": "D", "text": "Effect es un verbo y affect es un sustantivo", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un texto academico dice: «Researchers conducted a study to raise awareness about the risk factors of antibiotic resistance.»",
+        "questionText": "En este contexto, que significa la colocacion «raise awareness»?",
+        "explanation": "Raise awareness es una colocacion academica que significa generar conciencia publica o crear conocimiento sobre un tema. Raise en este contexto no significa criar ni levantar fisicamente, sino aumentar o generar. Las colocaciones academicas aparecen frecuentemente en textos de nivel B2.",
+        "competency": "B2",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Levantar pruebas cientificas", "isCorrect": false },
+          { "letter": "B", "text": "Generar conciencia publica sobre un tema", "isCorrect": true },
+          { "letter": "C", "text": "Aumentar los riesgos de una enfermedad", "isCorrect": false },
+          { "letter": "D", "text": "Criar ninos con conocimiento cientifico", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "En el vocabulario academico de alta frecuencia, hay palabras en ingles que son cognados del espanol (se parecen mucho a su equivalente).",
+        "questionText": "Cual de las siguientes palabras en ingles NO es un cognado directo del espanol?",
+        "explanation": "Research (investigacion) no se parece a su equivalente en espanol, a diferencia de analysis (analisis), evidence (evidencia) y hypothesis (hipotesis), que son cognados directos. Reconocer cognados permite leer textos de nivel B2 con mayor fluidez porque ya se tiene el vocabulario incorporado desde el espanol.",
+        "competency": "B1",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Analysis (analisis)", "isCorrect": false },
+          { "letter": "B", "text": "Evidence (evidencia)", "isCorrect": false },
+          { "letter": "C", "text": "Research (investigacion)", "isCorrect": true },
+          { "letter": "D", "text": "Hypothesis (hipotesis)", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 9,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "El Simulacro 1 del cuadernillo tiene 25 preguntas y el tiempo sugerido es 30 minutos, proporcional al examen real de 60 minutos para 55 preguntas.",
+        "questionText": "Segun la estrategia de distribucion del tiempo, cuanto tiempo se recomienda para las Partes 1, 2 y 3 (15 preguntas de nivel basico) en el examen real de 60 minutos?",
+        "explanation": "El plan de tiempo recomienda dedicar los primeros 10 minutos a las Partes 1, 2 y 3 juntas. Aunque son 15 preguntas, con las estrategias aprendidas deben resolverse rapidamente, dejando 5 minutos extra para las partes de lectura que los necesitan mas.",
+        "competency": "A2",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "5 minutos", "isCorrect": false },
+          { "letter": "B", "text": "10 minutos", "isCorrect": true },
+          { "letter": "C", "text": "15 minutos", "isCorrect": false },
+          { "letter": "D", "text": "20 minutos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "En el simulacro, un texto sobre educacion en linea tiene la oracion: «Online education _____ become increasingly popular in recent years.»",
+        "questionText": "Cual es la forma verbal correcta para completar esta oracion?",
+        "explanation": "La frase in recent years (en anos recientes) indica una accion que comenzo en el pasado y continua en el presente, lo que requiere present perfect. El sujeto online education es singular, por lo tanto necesita has (no have). La forma correcta es has become.",
+        "competency": "B1",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "have", "isCorrect": false },
+          { "letter": "B", "text": "has", "isCorrect": true },
+          { "letter": "C", "text": "had", "isCorrect": false },
+          { "letter": "D", "text": "having", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Despues de completar el Simulacro 1, el estudiante debe realizar una autoevaluacion identificando sus partes fuertes y debiles.",
+        "questionText": "Si un estudiante respondio correctamente todas las preguntas de las Partes 1-5 pero fallo en la mayoria de las Partes 6 y 7, que nivel MCER demuestra segun la interpretacion del simulacro?",
+        "explanation": "Las Partes 1-3 cubren niveles A1-A2, las Partes 4-5 cubren nivel B1. Si el estudiante maneja bien estas partes pero falla en las Partes 6 y 7 (nivel B1-B2), demuestra un nivel B1. El perfil por parte es mas informativo que el puntaje total para identificar areas de mejora.",
+        "competency": "B1",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Nivel A2", "isCorrect": false },
+          { "letter": "B", "text": "Nivel B1", "isCorrect": true },
+          { "letter": "C", "text": "Nivel B2", "isCorrect": false },
+          { "letter": "D", "text": "Nivel A1", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 10,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un aviso en un aeropuerto dice: «DELAYED — New Departure Time: 15:45».",
+        "questionText": "Cual es la interpretacion correcta de este aviso?",
+        "explanation": "Delayed significa retrasado. El aviso indica que la salida ha sido retrasada y la nueva hora de partida es las 3:45 de la tarde. Delayed NO significa cancelado (cancelled). Esta diferencia es una trampa clasica de la Parte 2 del Saber Pro.",
+        "competency": "A2",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "El vuelo fue cancelado y no habra nueva salida", "isCorrect": false },
+          { "letter": "B", "text": "La salida fue retrasada y ocurrira a las 3:45 p.m.", "isCorrect": true },
+          { "letter": "C", "text": "La puerta de embarque cambio al numero 15", "isCorrect": false },
+          { "letter": "D", "text": "El avion llego 45 minutos antes de lo programado", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "Segun la estrategia definitiva del Dia 10, cual es la regla de oro mas importante para el dia del examen de Ingles del Saber Pro?",
+        "explanation": "La regla mas importante es nunca dejar una pregunta sin responder. El Saber Pro no descuenta puntos por respuestas incorrectas, asi que adivinar siempre es mejor que dejar en blanco. Si no sabes, elimina opciones y elige entre las que quedan.",
+        "competency": "A1",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Leer el texto completo tres veces antes de responder", "isCorrect": false },
+          { "letter": "B", "text": "Nunca dejar una pregunta sin responder porque no se descuentan puntos", "isCorrect": true },
+          { "letter": "C", "text": "Responder las preguntas de la Parte 7 primero porque valen mas", "isCorrect": false },
+          { "letter": "D", "text": "Traducir cada palabra del texto antes de responder", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Las Partes 6 y 7 del modulo de Ingles representan un porcentaje significativo del puntaje total del modulo.",
+        "questionText": "Que porcentaje aproximado del modulo de Ingles del Saber Pro representan las Partes 6 y 7 combinadas (25 de 55 preguntas)?",
+        "explanation": "Las Partes 6 y 7 tienen 10 y 15 preguntas respectivamente, un total de 25 de 55, que equivale aproximadamente al 46% del modulo. Esto significa que casi la mitad del puntaje de ingles viene de los textos avanzados de comprension lectora, lo que hace critica la preparacion en esas partes.",
+        "competency": "B2",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Aproximadamente 27%", "isCorrect": false },
+          { "letter": "B", "text": "Aproximadamente 35%", "isCorrect": false },
+          { "letter": "C", "text": "Aproximadamente 46%", "isCorrect": true },
+          { "letter": "D", "text": "Aproximadamente 55%", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

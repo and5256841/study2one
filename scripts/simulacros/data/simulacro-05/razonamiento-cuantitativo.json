@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Un estudio comparó las tasas de utilización de atención primaria (consultas por cada 1.000 habitantes/año) en zonas urbanas y rurales de cinco departamentos colombianos:\n\n| Departamento | Urbano (tasa) | Rural (tasa) | Población urbana | Población rural |\n|-------------|--------------|-------------|-----------------|----------------|\n| Cundinamarca | 420 | 280 | 180.000 | 95.000 |\n| Boyacá | 390 | 310 | 120.000 | 110.000 |\n| Nariño | 350 | 240 | 100.000 | 130.000 |\n| Tolima | 410 | 270 | 140.000 | 85.000 |\n| Huila | 380 | 260 | 95.000 | 90.000 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál departamento presenta la menor brecha absoluta entre las tasas de utilización urbana y rural?",
+    "explanation": "Brechas absolutas: Cundinamarca: 420 − 280 = 140. Boyacá: 390 − 310 = 80. Nariño: 350 − 240 = 110. Tolima: 410 − 270 = 140. Huila: 380 − 260 = 120. Boyacá presenta la menor brecha absoluta con 80 consultas por cada 1.000 habitantes.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Cundinamarca, con una brecha de 140.", "isCorrect": false },
+      { "letter": "B", "text": "Boyacá, con una brecha de 80.", "isCorrect": true },
+      { "letter": "C", "text": "Nariño, con una brecha de 110.", "isCorrect": false },
+      { "letter": "D", "text": "Huila, con una brecha de 120.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "Con base en la tabla anterior, ¿cuántas consultas de atención primaria se realizan anualmente en la zona rural de Nariño?",
+    "explanation": "La tasa es 240 consultas por cada 1.000 habitantes y la población rural es 130.000. Consultas = (240 / 1.000) × 130.000 = 0,24 × 130.000 = 31.200 consultas anuales.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "24.000", "isCorrect": false },
+      { "letter": "B", "text": "31.200", "isCorrect": true },
+      { "letter": "C", "text": "35.000", "isCorrect": false },
+      { "letter": "D", "text": "45.500", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "Un funcionario de salud pública afirma: «Boyacá tiene el mejor acceso a salud rural porque su brecha urbano-rural es la menor». ¿Cuál evaluación es más adecuada?",
+    "explanation": "La menor brecha (80) indica que la diferencia entre tasas urbanas y rurales es la más pequeña, pero la tasa rural de Boyacá (310) es la más alta entre los cinco departamentos, lo cual apoya parcialmente la afirmación. Sin embargo, una mayor tasa de consultas no necesariamente indica mejor acceso: podría reflejar mayor carga de enfermedad. Se necesitan datos de oferta, distancia a centros de salud y calidad de atención para concluir sobre acceso.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta, porque la menor brecha siempre indica mejor acceso.", "isCorrect": false },
+      { "letter": "B", "text": "Es parcialmente válida: Boyacá tiene la menor brecha y la mayor tasa rural, pero la utilización alta puede reflejar mayor carga de enfermedad y no solo mejor acceso.", "isCorrect": true },
+      { "letter": "C", "text": "Es incorrecta porque la brecha debería medirse en términos porcentuales, no absolutos.", "isCorrect": false },
+      { "letter": "D", "text": "Es incorrecta porque Nariño tiene la mayor población rural y por lo tanto mejor acceso.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Una encuesta nacional de consumo de alcohol registró la prevalencia de consumo riesgoso (AUDIT ≥ 8) por grupo de edad y sexo en una muestra de 4.000 adultos:\n\n| Grupo de edad | Hombres (n) | Consumo riesgoso (%) | Mujeres (n) | Consumo riesgoso (%) |\n|--------------|------------|---------------------|------------|---------------------|\n| 18-29 años | 500 | 28 | 600 | 12 |\n| 30-44 años | 550 | 22 | 500 | 8 |\n| 45-59 años | 400 | 16 | 450 | 5 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuántos hombres de 18 a 29 años presentaron consumo riesgoso de alcohol?",
+    "explanation": "Hombres de 18-29 años = 500. Prevalencia de consumo riesgoso = 28 %. Casos: 500 × 0,28 = 140 hombres.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "100", "isCorrect": false },
+      { "letter": "B", "text": "120", "isCorrect": false },
+      { "letter": "C", "text": "140", "isCorrect": true },
+      { "letter": "D", "text": "168", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": null,
+    "questionText": "Con base en la tabla anterior, ¿cuál es la prevalencia general de consumo riesgoso de alcohol para el total de la muestra?",
+    "explanation": "Casos por grupo — Hombres: 18-29: 500×0,28=140; 30-44: 550×0,22=121; 45-59: 400×0,16=64. Total hombres: 325. Mujeres: 18-29: 600×0,12=72; 30-44: 500×0,08=40; 45-59: 450×0,05=22,5≈23. Total mujeres: 135. Total de casos: 325+135=460. Prevalencia general: 460/4.000 = 0,115 = 11,5 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "8,2 %", "isCorrect": false },
+      { "letter": "B", "text": "11,5 %", "isCorrect": true },
+      { "letter": "C", "text": "15,2 %", "isCorrect": false },
+      { "letter": "D", "text": "18,0 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "Un investigador concluye: «La razón hombre:mujer en consumo riesgoso se mantiene constante en todos los grupos de edad». ¿Es correcta esta afirmación?",
+    "explanation": "Razones hombre:mujer por grupo: 18-29: 28/12 = 2,33. 30-44: 22/8 = 2,75. 45-59: 16/5 = 3,20. La razón no es constante; aumenta con la edad, pasando de 2,33 en jóvenes a 3,20 en el grupo de 45-59 años. La brecha de género se amplía en los grupos de mayor edad.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta, porque en todos los grupos los hombres tienen mayor prevalencia que las mujeres.", "isCorrect": false },
+      { "letter": "B", "text": "Es incorrecta: la razón aumenta con la edad (de 2,3 a 3,2), indicando que la brecha de género se amplía en los grupos mayores.", "isCorrect": true },
+      { "letter": "C", "text": "Es correcta, porque la razón es aproximadamente 2:1 en todos los grupos.", "isCorrect": false },
+      { "letter": "D", "text": "No se puede determinar porque las muestras por grupo son de diferente tamaño.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Un hospital registró los errores de medicación durante un año, clasificados por turno de trabajo:\n\n| Turno | Horas del turno | Prescripciones totales | Errores detectados |\n|-------|----------------|----------------------|--------------------|\n| Mañana (7-13 h) | 6 | 12.400 | 62 |\n| Tarde (13-19 h) | 6 | 9.800 | 78 |\n| Noche (19-7 h) | 12 | 7.200 | 108 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál turno presenta la mayor tasa de errores por cada 1.000 prescripciones?",
+    "explanation": "Tasas por 1.000 prescripciones: Mañana: (62/12.400)×1.000 = 5,0. Tarde: (78/9.800)×1.000 = 7,96 ≈ 8,0. Noche: (108/7.200)×1.000 = 15,0. El turno de noche presenta la mayor tasa con 15,0 errores por cada 1.000 prescripciones.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Mañana, con 5,0 por cada 1.000 prescripciones.", "isCorrect": false },
+      { "letter": "B", "text": "Tarde, con 8,0 por cada 1.000 prescripciones.", "isCorrect": false },
+      { "letter": "C", "text": "Noche, con 15,0 por cada 1.000 prescripciones.", "isCorrect": true },
+      { "letter": "D", "text": "Todos los turnos tienen tasas similares.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "Si el hospital implementa un sistema de verificación electrónica que reduce los errores del turno nocturno en un 40 %, ¿cuántos errores anuales se evitarían en dicho turno?",
+    "explanation": "Errores del turno nocturno = 108. Reducción del 40 %: 108 × 0,40 = 43,2 ≈ 43 errores evitados.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "27", "isCorrect": false },
+      { "letter": "B", "text": "43", "isCorrect": true },
+      { "letter": "C", "text": "65", "isCorrect": false },
+      { "letter": "D", "text": "108", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": null,
+    "questionText": "Un jefe de enfermería argumenta: «El turno nocturno tiene más errores simplemente porque dura el doble de horas que los otros turnos». ¿Cuál evaluación es más adecuada?",
+    "explanation": "El turno nocturno dura 12 horas (el doble que los de 6 horas). Si la duración fuera la única explicación, la tasa de errores por hora debería ser similar en todos los turnos. Errores por hora: Mañana: 62/6 = 10,3; Tarde: 78/6 = 13,0; Noche: 108/12 = 9,0. Por hora, el turno nocturno no tiene más errores. Sin embargo, la tasa por prescripción (15,0 vs. 5,0 y 8,0) sí es mayor, lo que indica que hay otros factores (fatiga, menor supervisión) que aumentan el riesgo por prescripción.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta: al dividir por horas, el turno nocturno tiene la menor tasa de errores por hora.", "isCorrect": false },
+      { "letter": "B", "text": "Es incorrecta porque la tasa relevante es por prescripción, no por hora: el turno nocturno triplica la tasa de errores de la mañana por cada 1.000 prescripciones.", "isCorrect": true },
+      { "letter": "C", "text": "Es correcta porque 108 errores en 12 horas equivale proporcionalmente a 54 en 6 horas, similar a los otros turnos.", "isCorrect": false },
+      { "letter": "D", "text": "Es irrelevante porque los errores dependen exclusivamente del tipo de medicamento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Un estudio ecológico analizó la relación entre la concentración promedio anual de material particulado PM₂.₅ (μg/m³) y la tasa de hospitalización por enfermedades respiratorias (por cada 10.000 habitantes) en ocho ciudades colombianas:\n\n| Ciudad | PM₂.₅ (μg/m³) | Tasa de hospitalización |\n|--------|---------------|------------------------|\n| Ciudad A | 12 | 18 |\n| Ciudad B | 18 | 25 |\n| Ciudad C | 25 | 34 |\n| Ciudad D | 30 | 42 |\n| Ciudad E | 15 | 22 |\n| Ciudad F | 35 | 48 |\n| Ciudad G | 22 | 30 |\n| Ciudad H | 40 | 55 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la tendencia que se observa entre la concentración de PM₂.₅ y la tasa de hospitalización?",
+    "explanation": "A medida que aumenta la concentración de PM₂.₅, la tasa de hospitalización también aumenta de manera consistente: de 18 (con PM₂.₅ = 12) hasta 55 (con PM₂.₅ = 40). Esto sugiere una asociación positiva entre contaminación por material particulado y hospitalizaciones por enfermedad respiratoria.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "No se observa ninguna tendencia clara entre las dos variables.", "isCorrect": false },
+      { "letter": "B", "text": "Existe una asociación positiva: a mayor concentración de PM₂.₅, mayor tasa de hospitalización respiratoria.", "isCorrect": true },
+      { "letter": "C", "text": "Existe una asociación inversa: las ciudades más contaminadas tienen menores hospitalizaciones.", "isCorrect": false },
+      { "letter": "D", "text": "La relación solo es válida para ciudades con PM₂.₅ superior a 30 μg/m³.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "Si se ajusta un modelo lineal simple y = a + bx, donde x es la concentración de PM₂.₅ e y la tasa de hospitalización, el modelo estimado es y = 2 + 1,3x. ¿Cuál sería la tasa de hospitalización estimada para una ciudad con PM₂.₅ = 28 μg/m³?",
+    "explanation": "y = 2 + 1,3 × 28 = 2 + 36,4 = 38,4 hospitalizaciones por cada 10.000 habitantes.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "30,2", "isCorrect": false },
+      { "letter": "B", "text": "34,6", "isCorrect": false },
+      { "letter": "C", "text": "38,4", "isCorrect": true },
+      { "letter": "D", "text": "42,0", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Una tabla comparativa muestra el gasto en salud per cápita (en dólares PPA) y la esperanza de vida al nacer (años) en seis países:\n\n| País | Gasto per cápita (USD PPA) | Esperanza de vida (años) |\n|------|---------------------------|-------------------------|\n| País A | 1.200 | 74,2 |\n| País B | 2.500 | 78,5 |\n| País C | 4.800 | 81,3 |\n| País D | 6.200 | 82,1 |\n| País E | 9.500 | 79,8 |\n| País F | 11.000 | 78,4 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál afirmación describe correctamente la relación entre gasto en salud per cápita y esperanza de vida?",
+    "explanation": "Hasta el País D (6.200 USD), la esperanza de vida aumenta progresivamente (74,2 → 82,1). Sin embargo, los Países E y F, con gasto mucho mayor (9.500 y 11.000), tienen esperanza de vida menor que D (79,8 y 78,4 vs. 82,1). Esto indica rendimientos decrecientes: más gasto no siempre se traduce en mejor resultado.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "A mayor gasto, siempre mayor esperanza de vida de forma proporcional.", "isCorrect": false },
+      { "letter": "B", "text": "No existe ninguna relación entre las dos variables.", "isCorrect": false },
+      { "letter": "C", "text": "Hay una relación positiva hasta cierto nivel de gasto, pero los países con mayor gasto no necesariamente tienen la mayor esperanza de vida, lo que sugiere rendimientos decrecientes.", "isCorrect": true },
+      { "letter": "D", "text": "Los países con mayor gasto tienen menor esperanza de vida, lo que indica una relación inversa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "¿Cuál es la diferencia porcentual en gasto per cápita entre el País A y el País D?",
+    "explanation": "Diferencia absoluta: 6.200 − 1.200 = 5.000 USD. Diferencia porcentual respecto al País A: (5.000 / 1.200) × 100 = 416,7 %. El País D gasta aproximadamente 417 % más que el País A.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "Aproximadamente 217 %.", "isCorrect": false },
+      { "letter": "B", "text": "Aproximadamente 317 %.", "isCorrect": false },
+      { "letter": "C", "text": "Aproximadamente 417 %.", "isCorrect": true },
+      { "letter": "D", "text": "Aproximadamente 517 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Un estudio sobre lactancia materna evaluó la duración promedio de la lactancia materna exclusiva (en meses) según el nivel educativo de la madre en una muestra de 1.500 madres:\n\n| Nivel educativo | n | Duración promedio (meses) | Desviación estándar |\n|----------------|---|--------------------------|--------------------|\n| Primaria incompleta | 250 | 2,8 | 1,5 |\n| Primaria completa | 350 | 3,4 | 1,3 |\n| Secundaria completa | 450 | 4,2 | 1,1 |\n| Técnica/tecnológica | 280 | 4,8 | 1,0 |\n| Universitaria o más | 170 | 5,3 | 0,9 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la duración promedio ponderada de la lactancia materna exclusiva para toda la muestra?",
+    "explanation": "Promedio ponderado = (250×2,8 + 350×3,4 + 450×4,2 + 280×4,8 + 170×5,3) / 1.500 = (700 + 1.190 + 1.890 + 1.344 + 901) / 1.500 = 6.025 / 1.500 = 4,02 ≈ 4,0 meses.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "3,5 meses", "isCorrect": false },
+      { "letter": "B", "text": "4,0 meses", "isCorrect": true },
+      { "letter": "C", "text": "4,1 meses", "isCorrect": false },
+      { "letter": "D", "text": "4,5 meses", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "Con base en la tabla anterior, ¿cuál nivel educativo presenta la mayor variabilidad relativa en la duración de la lactancia?",
+    "explanation": "El coeficiente de variación (CV) mide la variabilidad relativa: CV = (DE / media) × 100. Primaria incompleta: (1,5/2,8)×100 = 53,6 %. Primaria completa: (1,3/3,4)×100 = 38,2 %. Secundaria: (1,1/4,2)×100 = 26,2 %. Técnica: (1,0/4,8)×100 = 20,8 %. Universitaria: (0,9/5,3)×100 = 17,0 %. El grupo de primaria incompleta tiene la mayor variabilidad relativa (53,6 %).",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Primaria incompleta, con un CV de 53,6 %.", "isCorrect": true },
+      { "letter": "B", "text": "Primaria completa, con un CV de 38,2 %.", "isCorrect": false },
+      { "letter": "C", "text": "Universitaria, porque tiene la menor desviación estándar.", "isCorrect": false },
+      { "letter": "D", "text": "Secundaria completa, porque es el grupo más numeroso.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": null,
+    "questionText": "Un funcionario de salud concluye: «Aumentar el nivel educativo de las madres es la única intervención necesaria para mejorar la lactancia materna exclusiva». ¿Cuál evaluación es más apropiada?",
+    "explanation": "Los datos muestran una clara asociación positiva entre nivel educativo y duración de la lactancia. Sin embargo, la educación es solo uno de múltiples factores; otros incluyen apoyo laboral (licencia de maternidad), apoyo familiar, consejería en lactancia, condiciones socioeconómicas y acceso a servicios de salud. Atribuir el efecto a una sola variable es una sobresimplificación.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta, porque la tabla muestra una relación dosis-respuesta clara.", "isCorrect": false },
+      { "letter": "B", "text": "Los datos muestran asociación entre educación y lactancia, pero la duración depende también de factores laborales, sociales y de servicios de salud, por lo que una sola intervención es insuficiente.", "isCorrect": true },
+      { "letter": "C", "text": "Es incorrecta porque la diferencia entre niveles educativos no es estadísticamente significativa.", "isCorrect": false },
+      { "letter": "D", "text": "Es correcta porque la educación es el principal determinante social de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "La siguiente tabla presenta las tasas de suicidio (por cada 100.000 habitantes) por grupo de edad en tres departamentos colombianos durante el último año:\n\n| Grupo de edad | Dpto. X | Dpto. Y | Dpto. Z |\n|--------------|--------|--------|--------|\n| 15-24 años | 8,2 | 5,1 | 12,4 |\n| 25-44 años | 6,5 | 7,3 | 9,8 |\n| 45-64 años | 9,0 | 8,6 | 7,2 |\n| 65 o más | 14,1 | 12,8 | 6,0 |\n\nPoblación total: Dpto. X = 800.000; Dpto. Y = 1.200.000; Dpto. Z = 500.000.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál departamento presenta la mayor tasa de suicidio en el grupo de 15 a 24 años?",
+    "explanation": "Tasas en 15-24 años: Dpto. X = 8,2; Dpto. Y = 5,1; Dpto. Z = 12,4 por cada 100.000 habitantes. El Departamento Z presenta la tasa más alta (12,4).",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Departamento X, con 8,2 por cada 100.000.", "isCorrect": false },
+      { "letter": "B", "text": "Departamento Y, con 5,1 por cada 100.000.", "isCorrect": false },
+      { "letter": "C", "text": "Departamento Z, con 12,4 por cada 100.000.", "isCorrect": true },
+      { "letter": "D", "text": "Los tres departamentos tienen tasas similares.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "Observando el comportamiento de las tasas por grupo de edad, ¿cuál departamento presenta un patrón diferente al de los otros dos?",
+    "explanation": "Departamentos X e Y muestran una tendencia creciente con la edad (las tasas más altas están en 65+: 14,1 y 12,8 respectivamente). El Departamento Z muestra lo contrario: las tasas disminuyen con la edad (de 12,4 en 15-24 a 6,0 en 65+). El Departamento Z tiene un patrón invertido, con las mayores tasas en los jóvenes.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Departamento X, porque tiene la tasa más alta en adultos mayores.", "isCorrect": false },
+      { "letter": "B", "text": "Departamento Y, porque sus tasas son las más bajas en general.", "isCorrect": false },
+      { "letter": "C", "text": "Departamento Z, porque sus tasas disminuyen con la edad, mientras que en X e Y las tasas aumentan.", "isCorrect": true },
+      { "letter": "D", "text": "Los tres departamentos muestran el mismo patrón de incremento con la edad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Una encuesta de salud reproductiva evaluó la prevalencia de uso de anticonceptivos por método en mujeres de 15 a 49 años, en una muestra de 3.000 mujeres en unión conyugal:\n\n| Método | Usuarias | Porcentaje |\n|--------|---------|------------|\n| Esterilización femenina | 900 | 30,0 |\n| DIU | 360 | 12,0 |\n| Inyectable | 480 | 16,0 |\n| Anticonceptivo oral | 270 | 9,0 |\n| Condón masculino | 210 | 7,0 |\n| Implante subdérmico | 180 | 6,0 |\n| Ningún método | 600 | 20,0 |\n| Total | 3.000 | 100,0 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la prevalencia total de uso de algún método anticonceptivo?",
+    "explanation": "El 20 % no usa ningún método. Por lo tanto, la prevalencia de uso de algún método = 100 % − 20 % = 80 %. En términos absolutos: 3.000 − 600 = 2.400 mujeres.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "70 %", "isCorrect": false },
+      { "letter": "B", "text": "75 %", "isCorrect": false },
+      { "letter": "C", "text": "80 %", "isCorrect": true },
+      { "letter": "D", "text": "85 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "Si se quisiera representar esta distribución en un gráfico circular, ¿cuál sería el ángulo central correspondiente al método inyectable?",
+    "explanation": "Ángulo = porcentaje × 360° / 100. Para el inyectable (16 %): 0,16 × 360° = 57,6°.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "43,2°", "isCorrect": false },
+      { "letter": "B", "text": "57,6°", "isCorrect": true },
+      { "letter": "C", "text": "64,8°", "isCorrect": false },
+      { "letter": "D", "text": "72,0°", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Un estudio comparó la proporción de recién nacidos con bajo peso al nacer (< 2.500 g) en hospitales ubicados a diferentes altitudes sobre el nivel del mar:\n\n| Altitud (m.s.n.m.) | Nacimientos | Bajo peso | Proporción |\n|-------------------|------------|-----------|------------|\n| 0 - 500 | 4.200 | 252 | 6,0 % |\n| 501 - 1.500 | 3.500 | 245 | 7,0 % |\n| 1.501 - 2.500 | 2.800 | 252 | 9,0 % |\n| 2.501 - 3.500 | 1.500 | 180 | 12,0 % |\n| > 3.500 | 600 | 96 | 16,0 % |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el riesgo relativo de bajo peso al nacer en altitudes superiores a 3.500 m.s.n.m. comparado con altitudes de 0 a 500 m.s.n.m.?",
+    "explanation": "Riesgo en > 3.500 m: 96/600 = 0,16 (16 %). Riesgo en 0-500 m: 252/4.200 = 0,06 (6 %). RR = 0,16 / 0,06 = 2,67. Los recién nacidos a altitudes mayores a 3.500 m tienen 2,67 veces más riesgo de bajo peso.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "1,50", "isCorrect": false },
+      { "letter": "B", "text": "2,00", "isCorrect": false },
+      { "letter": "C", "text": "2,67", "isCorrect": true },
+      { "letter": "D", "text": "3,20", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "¿Cuál es la proporción global de bajo peso al nacer considerando todos los niveles de altitud?",
+    "explanation": "Total de nacimientos: 4.200 + 3.500 + 2.800 + 1.500 + 600 = 12.600. Total de bajo peso: 252 + 245 + 252 + 180 + 96 = 1.025. Proporción global: 1.025 / 12.600 = 0,0813 = 8,1 %.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "7,2 %", "isCorrect": false },
+      { "letter": "B", "text": "8,1 %", "isCorrect": true },
+      { "letter": "C", "text": "10,0 %", "isCorrect": false },
+      { "letter": "D", "text": "11,5 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "Un investigador afirma: «La altitud es la causa directa del bajo peso al nacer, como lo demuestran estos datos». ¿Cuál evaluación es más apropiada?",
+    "explanation": "Los datos muestran una clara asociación dosis-respuesta entre altitud y bajo peso al nacer (de 6 % a 16 %). Sin embargo, este es un estudio ecológico y la altitud se asocia con otros factores confusores: menor acceso a servicios de salud, menor nivel socioeconómico, diferencias étnicas y nutricionales. La hipoxia crónica de altitud es un factor biológico plausible, pero los datos observacionales no prueban causalidad directa sin controlar confusores.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta, porque la relación dosis-respuesta prueba causalidad.", "isCorrect": false },
+      { "letter": "B", "text": "Los datos muestran una asociación clara, pero existen factores confusores (acceso a salud, nutrición, nivel socioeconómico) que impiden atribuir causalidad directa solo a la altitud.", "isCorrect": true },
+      { "letter": "C", "text": "Es incorrecta porque la diferencia entre 6 % y 16 % no es significativa.", "isCorrect": false },
+      { "letter": "D", "text": "Es correcta porque la hipoxia crónica de altitud es un mecanismo biológico probado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Un estudio de prevalencia de discapacidad por tipo y grupo de edad se realizó en una población de 50.000 personas:\n\n| Tipo de discapacidad | 0-17 años (n=15.000) | 18-59 años (n=25.000) | 60+ años (n=10.000) |\n|---------------------|---------------------|----------------------|--------------------|\n| Visual | 1,2 % | 3,5 % | 12,0 % |\n| Auditiva | 0,8 % | 2,0 % | 9,5 % |\n| Motora | 0,5 % | 2,8 % | 8,0 % |\n| Cognitiva | 2,0 % | 1,2 % | 5,5 % |\n\nNota: una persona puede tener más de un tipo de discapacidad.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuántas personas de 60 o más años presentan discapacidad visual?",
+    "explanation": "Personas de 60+ años = 10.000. Prevalencia de discapacidad visual en este grupo = 12,0 %. Casos: 10.000 × 0,12 = 1.200 personas.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "600", "isCorrect": false },
+      { "letter": "B", "text": "950", "isCorrect": false },
+      { "letter": "C", "text": "1.200", "isCorrect": true },
+      { "letter": "D", "text": "1.500", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "¿Cuál tipo de discapacidad presenta el patrón de distribución por edad más diferente respecto a los otros tres tipos?",
+    "explanation": "Las discapacidades visual, auditiva y motora comparten el mismo patrón: prevalencia baja en menores y creciente con la edad. La discapacidad cognitiva es diferente: tiene su mayor prevalencia relativa en menores de 18 años (2,0 %), baja en adultos (1,2 %) y vuelve a subir en adultos mayores (5,5 %). Es el único tipo donde el grupo más joven tiene mayor prevalencia que el grupo intermedio.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Visual, porque tiene la prevalencia más alta en mayores de 60.", "isCorrect": false },
+      { "letter": "B", "text": "Auditiva, porque su prevalencia aumenta de forma gradual.", "isCorrect": false },
+      { "letter": "C", "text": "Cognitiva, porque es la única cuya prevalencia en menores de 18 supera a la del grupo de 18-59 años.", "isCorrect": true },
+      { "letter": "D", "text": "Motora, porque afecta principalmente a personas en edad laboral.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Un estudio de salud oral midió el índice COP-D (dientes Cariados, Obturados y Perdidos) en niños de 12 años de tres niveles socioeconómicos en una ciudad:\n\n| Nivel socioeconómico | n | COP-D promedio | Desviación estándar | % con COP-D = 0 |\n|---------------------|---|---------------|--------------------|-----------------|\n| Alto (estratos 5-6) | 200 | 1,2 | 1,0 | 42 % |\n| Medio (estratos 3-4) | 350 | 2,8 | 1,5 | 18 % |\n| Bajo (estratos 1-2) | 450 | 4,5 | 2,0 | 8 % |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el COP-D promedio ponderado para el total de los 1.000 niños examinados?",
+    "explanation": "Promedio ponderado = (200×1,2 + 350×2,8 + 450×4,5) / 1.000 = (240 + 980 + 2.025) / 1.000 = 3.245 / 1.000 = 3,25.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "2,83", "isCorrect": false },
+      { "letter": "B", "text": "3,25", "isCorrect": true },
+      { "letter": "C", "text": "3,50", "isCorrect": false },
+      { "letter": "D", "text": "4,10", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": null,
+    "questionText": "¿Cuántos niños del nivel socioeconómico bajo tienen al menos un diente afectado (COP-D > 0)?",
+    "explanation": "En el nivel bajo, el 8 % tiene COP-D = 0 (libres de caries). Entonces, el 92 % tiene COP-D > 0: 450 × 0,92 = 414 niños con al menos un diente afectado.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "360", "isCorrect": false },
+      { "letter": "B", "text": "396", "isCorrect": false },
+      { "letter": "C", "text": "414", "isCorrect": true },
+      { "letter": "D", "text": "450", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "La OMS establece como meta un COP-D ≤ 3,0 a los 12 años. ¿Cuál evaluación es correcta respecto al cumplimiento de esta meta?",
+    "explanation": "COP-D promedio por nivel: Alto = 1,2 (cumple), Medio = 2,8 (cumple), Bajo = 4,5 (no cumple). El promedio general (3,25) tampoco cumple la meta. Solo los niveles alto y medio cumplen la meta de la OMS; el nivel bajo la supera en 1,5 puntos. La desigualdad socioeconómica es un determinante claro de la salud oral.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Todos los niveles cumplen la meta porque el COP-D promedio general es cercano a 3,0.", "isCorrect": false },
+      { "letter": "B", "text": "Solo el nivel alto cumple la meta; los niveles medio y bajo la superan.", "isCorrect": false },
+      { "letter": "C", "text": "Los niveles alto y medio cumplen la meta (1,2 y 2,8 respectivamente), pero el nivel bajo (4,5) la supera ampliamente, evidenciando inequidad en salud oral.", "isCorrect": true },
+      { "letter": "D", "text": "Ningún nivel cumple la meta porque el promedio ponderado (3,25) es mayor que 3,0.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Un hospital realizó un estudio sobre infecciones asociadas a la atención en salud (IAAS) clasificadas por tipo de sala durante un semestre:\n\n| Tipo de sala | Pacientes-día | IAAS nuevas | Tasa (por 1.000 pacientes-día) |\n|-------------|--------------|-------------|-------------------------------|\n| UCI adultos | 18.000 | 162 | 9,0 |\n| UCI neonatal | 12.000 | 132 | 11,0 |\n| Cirugía | 25.000 | 100 | 4,0 |\n| Medicina interna | 30.000 | 90 | 3,0 |\n| Gineco-obstetricia | 15.000 | 45 | 3,0 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál sala tiene la mayor tasa de infecciones asociadas a la atención en salud?",
+    "explanation": "Las tasas por 1.000 pacientes-día son: UCI adultos = 9,0; UCI neonatal = 11,0; Cirugía = 4,0; Medicina interna = 3,0; Gineco-obstetricia = 3,0. La UCI neonatal tiene la mayor tasa (11,0 por cada 1.000 pacientes-día).",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "UCI adultos, con 9,0 por cada 1.000 pacientes-día.", "isCorrect": false },
+      { "letter": "B", "text": "UCI neonatal, con 11,0 por cada 1.000 pacientes-día.", "isCorrect": true },
+      { "letter": "C", "text": "Cirugía, porque tiene el mayor número de pacientes-día.", "isCorrect": false },
+      { "letter": "D", "text": "Medicina interna, con 90 infecciones en total.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": null,
+    "questionText": "Si el hospital implementa un protocolo de higiene de manos que reduce las IAAS en un 25 % en todas las salas, ¿cuántas infecciones se evitarían en total durante un semestre similar?",
+    "explanation": "Total de IAAS actuales: 162 + 132 + 100 + 90 + 45 = 529. Reducción del 25 %: 529 × 0,25 = 132,25 ≈ 132 infecciones evitadas.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "105", "isCorrect": false },
+      { "letter": "B", "text": "132", "isCorrect": true },
+      { "letter": "C", "text": "159", "isCorrect": false },
+      { "letter": "D", "text": "265", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": null,
+    "questionText": "Un comité de infecciones propone priorizar la intervención solo en las UCI (adultos y neonatal) porque «allí ocurre la mayoría de las infecciones». ¿Cuál evaluación es más adecuada?",
+    "explanation": "Infecciones en UCI: 162 + 132 = 294. Total: 529. Porcentaje en UCI: 294/529 = 55,6 %. Las UCI sí concentran más de la mitad de las infecciones y tienen las tasas más altas (9,0 y 11,0). Sin embargo, las otras salas aportan 235 infecciones (44,4 %), un volumen considerable. Priorizar las UCI es razonable, pero no debe excluir intervenciones en otras áreas.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta: las UCI tienen el 100 % de las infecciones graves.", "isCorrect": false },
+      { "letter": "B", "text": "Las UCI concentran el 55,6 % de las infecciones y las tasas más altas, por lo que priorizarlas es razonable, pero las otras salas aportan un 44,4 % que no debe ignorarse.", "isCorrect": true },
+      { "letter": "C", "text": "Es incorrecta porque cirugía y medicina interna tienen más pacientes-día.", "isCorrect": false },
+      { "letter": "D", "text": "Es incorrecta porque gineco-obstetricia debería ser la prioridad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "La gráfica de barras muestra la tasa de suicidio (por cada 100.000 habitantes) por grupo de edad en un país durante el último año:\n\n• 10-14 años: 1,8\n• 15-19 años: 5,4\n• 20-24 años: 7,2\n• 25-34 años: 6,8\n• 35-44 años: 5,9\n• 45-54 años: 7,5\n• 55-64 años: 8,1\n• 65-74 años: 10,3\n• 75 o más: 14,6\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la razón de tasas entre el grupo de 75 o más años y el grupo de 15-19 años?",
+    "explanation": "Razón de tasas = tasa del grupo mayor / tasa del grupo menor = 14,6 / 5,4 = 2,70. El grupo de adultos mayores de 75+ tiene una tasa 2,7 veces mayor que la del grupo de 15-19 años.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "1,80", "isCorrect": false },
+      { "letter": "B", "text": "2,70", "isCorrect": true },
+      { "letter": "C", "text": "3,50", "isCorrect": false },
+      { "letter": "D", "text": "8,11", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "Un periodista titula: «El suicidio afecta principalmente a los jóvenes: la tasa se triplica entre los 10-14 y los 20-24 años». ¿Cuál evaluación es correcta?",
+    "explanation": "La tasa sí aumenta de 1,8 (10-14) a 7,2 (20-24), lo que representa un aumento de 7,2/1,8 = 4 veces, no el triple. Además, las tasas más altas no están en los jóvenes sino en los adultos mayores: 10,3 (65-74) y 14,6 (75+). El titular comete dos errores: subestima el aumento y omite que la mayor carga está en adultos mayores.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta, porque 7,2 es aproximadamente el triple de 1,8.", "isCorrect": false },
+      { "letter": "B", "text": "El aumento entre 10-14 y 20-24 es de 4 veces (no triple), y el titular omite que las tasas más altas corresponden a adultos mayores (65+ y 75+).", "isCorrect": true },
+      { "letter": "C", "text": "Es correcta porque la mayor preocupación de salud pública está en los jóvenes.", "isCorrect": false },
+      { "letter": "D", "text": "Es incorrecta únicamente porque el aumento correcto es del doble, no del triple.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Un estudio multicéntrico evaluó las tasas de infección de sitio quirúrgico (ISQ) en 4 tipos de cirugía durante un año:\n\n| Tipo de cirugía | Procedimientos | ISQ | Tasa ISQ (%) |\n|----------------|---------------|-----|-------------|\n| Cesárea | 2.400 | 72 | 3,0 |\n| Colecistectomía laparoscópica | 1.800 | 27 | 1,5 |\n| Herniorrafia | 1.200 | 30 | 2,5 |\n| Apendicectomía | 900 | 36 | 4,0 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Si se selecciona al azar un procedimiento que resultó en ISQ, ¿cuál es la probabilidad de que haya sido una cesárea?",
+    "explanation": "Total de ISQ: 72 + 27 + 30 + 36 = 165. Probabilidad de que sea cesárea: 72/165 = 0,4364 ≈ 43,6 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "3,0 %", "isCorrect": false },
+      { "letter": "B", "text": "21,8 %", "isCorrect": false },
+      { "letter": "C", "text": "43,6 %", "isCorrect": true },
+      { "letter": "D", "text": "50,0 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "El comité de vigilancia epidemiológica del hospital quiere reducir el número total de ISQ en un 20 % el próximo año, manteniendo el mismo volumen de procedimientos. Si decide intervenir solo en las cesáreas, ¿a qué tasa debería reducir la ISQ en cesáreas para lograr la meta global?",
+    "explanation": "Total ISQ actual: 165. Meta de reducción del 20 %: 165 × 0,20 = 33 infecciones menos. ISQ meta = 165 − 33 = 132. Las ISQ de los otros procedimientos se mantienen: 27 + 30 + 36 = 93. ISQ de cesáreas necesarias: 132 − 93 = 39. Tasa nueva en cesáreas: 39 / 2.400 = 0,01625 = 1,625 %. Aproximadamente 1,6 %.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "0,8 %", "isCorrect": false },
+      { "letter": "B", "text": "1,6 %", "isCorrect": true },
+      { "letter": "C", "text": "2,4 %", "isCorrect": false },
+      { "letter": "D", "text": "No es posible alcanzar la meta interviniendo solo en cesáreas.", "isCorrect": false }
+    ]
+  }
+]

@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Un hospital regional registró los tiempos de recuperación (en días) de pacientes hospitalizados por COVID-19 durante un trimestre, clasificados por grupo etario:\n\n| Grupo etario | Pacientes | Media de días | Desviación estándar |\n|-------------|-----------|---------------|--------------------|\n| 18-39 años  | 120       | 8             | 3                  |\n| 40-59 años  | 200       | 14            | 5                  |\n| 60-79 años  | 150       | 22            | 7                  |\n| 80 o más    | 30        | 31            | 9                  |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el tiempo promedio ponderado de recuperación para el total de pacientes?",
+    "explanation": "Promedio ponderado = (120×8 + 200×14 + 150×22 + 30×31) / (120+200+150+30) = (960 + 2.800 + 3.300 + 930) / 500 = 7.990 / 500 = 15,98 ≈ 16,0 días.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "14,2 días", "isCorrect": false },
+      { "letter": "B", "text": "16,0 días", "isCorrect": true },
+      { "letter": "C", "text": "18,8 días", "isCorrect": false },
+      { "letter": "D", "text": "21,5 días", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "Con base en la tabla anterior, ¿cuál grupo etario presenta mayor variabilidad relativa en los tiempos de recuperación?",
+    "explanation": "El coeficiente de variación (CV) mide la variabilidad relativa: CV = (desviación estándar / media) × 100. Para 18-39: (3/8)×100 = 37,5 %. Para 40-59: (5/14)×100 = 35,7 %. Para 60-79: (7/22)×100 = 31,8 %. Para 80+: (9/31)×100 = 29,0 %. El grupo de 18-39 años tiene el mayor CV (37,5 %), lo que indica mayor variabilidad relativa.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "18-39 años, con un coeficiente de variación de 37,5 %.", "isCorrect": true },
+      { "letter": "B", "text": "80 o más años, porque tiene la mayor desviación estándar.", "isCorrect": false },
+      { "letter": "C", "text": "40-59 años, porque es el grupo con más pacientes.", "isCorrect": false },
+      { "letter": "D", "text": "60-79 años, con un coeficiente de variación de 31,8 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "Si se selecciona al azar un paciente de la tabla, ¿cuál es la probabilidad de que pertenezca al grupo de 60 años o más?",
+    "explanation": "Pacientes de 60 o más = 150 + 30 = 180. Total = 500. Probabilidad = 180/500 = 0,36 = 36 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "6,0 %", "isCorrect": false },
+      { "letter": "B", "text": "30,0 %", "isCorrect": false },
+      { "letter": "C", "text": "36,0 %", "isCorrect": true },
+      { "letter": "D", "text": "40,0 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Un laboratorio de microbiología realizó un estudio sobre resistencia antibiótica en infecciones urinarias durante 2024. Se analizaron 800 muestras y se evaluó la sensibilidad a tres antibióticos:\n\n| Antibiótico      | Sensibles | Resistentes | Total |\n|-----------------|-----------|-------------|-------|\n| Ciprofloxacina   | 480       | 320         | 800   |\n| Amoxicilina      | 360       | 440         | 800   |\n| Nitrofurantoína  | 680       | 120         | 800   |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál antibiótico presenta la menor tasa de resistencia?",
+    "explanation": "Tasas de resistencia: Ciprofloxacina: 320/800 = 40 %. Amoxicilina: 440/800 = 55 %. Nitrofurantoína: 120/800 = 15 %. Nitrofurantoína tiene la menor tasa de resistencia con 15 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Ciprofloxacina, con 40 %.", "isCorrect": false },
+      { "letter": "B", "text": "Amoxicilina, con 55 %.", "isCorrect": false },
+      { "letter": "C", "text": "Nitrofurantoína, con 15 %.", "isCorrect": true },
+      { "letter": "D", "text": "Los tres antibióticos tienen tasas similares.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": null,
+    "questionText": "Si en 2023 la tasa de resistencia a ciprofloxacina era del 32 % y en 2024 subió al 40 %, ¿cuál fue el incremento relativo de la resistencia?",
+    "explanation": "Incremento absoluto: 40 % − 32 % = 8 puntos porcentuales. Incremento relativo: (8/32) × 100 = 25 %. La resistencia aumentó un 25 % respecto al valor de 2023.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "8 %", "isCorrect": false },
+      { "letter": "B", "text": "20 %", "isCorrect": false },
+      { "letter": "C", "text": "25 %", "isCorrect": true },
+      { "letter": "D", "text": "40 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "Un médico argumenta que se debe dejar de usar amoxicilina como tratamiento de primera línea porque «más de la mitad de las muestras son resistentes». Con base en la tabla, ¿cuál es la evaluación más adecuada de esta afirmación?",
+    "explanation": "La tasa de resistencia a amoxicilina es 440/800 = 55 %, lo cual confirma que más de la mitad son resistentes. Sin embargo, la decisión clínica debe considerar otros factores como el espectro antimicrobiano, efectos secundarios y guías locales. La afirmación sobre la resistencia es correcta, pero la conclusión terapéutica necesita más evidencia.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es incorrecta porque la tasa de resistencia no supera el 50 %.", "isCorrect": false },
+      { "letter": "B", "text": "Es correcta en el dato (55 % de resistencia), pero la decisión requiere considerar otros factores clínicos además de la resistencia.", "isCorrect": true },
+      { "letter": "C", "text": "Es irrelevante porque la resistencia antibiótica no afecta la elección del tratamiento.", "isCorrect": false },
+      { "letter": "D", "text": "Es incorrecta porque 440 muestras no representan la mayoría de 800.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Un centro de atención en salud mental registró el número de consultas mensuales de primera vez durante un año:\n\n| Mes  | Ene | Feb | Mar | Abr | May | Jun | Jul | Ago | Sep | Oct | Nov | Dic |\n|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|\n| Consultas | 48 | 52 | 61 | 58 | 65 | 72 | 68 | 74 | 80 | 78 | 85 | 70 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la mediana del número de consultas mensuales?",
+    "explanation": "Ordenando los 12 datos: 48, 52, 58, 61, 65, 68, 70, 72, 74, 78, 80, 85. Con 12 datos (par), la mediana es el promedio de los valores en las posiciones 6 y 7: (68 + 70) / 2 = 69.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "67,6", "isCorrect": false },
+      { "letter": "B", "text": "69,0", "isCorrect": true },
+      { "letter": "C", "text": "70,0", "isCorrect": false },
+      { "letter": "D", "text": "72,0", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "Observando la tendencia de los datos del centro de salud mental, ¿cuál afirmación describe mejor el comportamiento de las consultas?",
+    "explanation": "Las consultas van de 48 en enero a 85 en noviembre (con un descenso en diciembre a 70). La tendencia general es creciente: cada trimestre muestra valores superiores al anterior (T1 promedio ≈ 53,7; T2 ≈ 65,0; T3 ≈ 74,0; T4 ≈ 77,7). Aunque diciembre baja, la tendencia anual es claramente ascendente.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Las consultas se mantuvieron estables durante el año, con variaciones mínimas.", "isCorrect": false },
+      { "letter": "B", "text": "La tendencia general es creciente a lo largo del año, con un descenso puntual en diciembre.", "isCorrect": true },
+      { "letter": "C", "text": "La tendencia es decreciente porque diciembre tuvo menos consultas que noviembre.", "isCorrect": false },
+      { "letter": "D", "text": "No se puede determinar la tendencia con solo 12 datos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Una empresa de manufactura registró los accidentes laborales por tipo de lesión durante el último año:\n\n| Tipo de lesión         | Frecuencia | Días de incapacidad totales |\n|-----------------------|------------|----------------------------|\n| Cortes en manos        | 45         | 135                        |\n| Lumbalgias             | 30         | 360                        |\n| Quemaduras             | 15         | 120                        |\n| Caídas                 | 25         | 250                        |\n| Lesiones oculares      | 10         | 30                         |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál tipo de lesión genera el mayor promedio de días de incapacidad por evento?",
+    "explanation": "Promedio de días por evento: Cortes: 135/45 = 3,0. Lumbalgias: 360/30 = 12,0. Quemaduras: 120/15 = 8,0. Caídas: 250/25 = 10,0. Lesiones oculares: 30/10 = 3,0. Las lumbalgias generan el mayor promedio con 12 días por evento.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Cortes en manos, por ser los más frecuentes.", "isCorrect": false },
+      { "letter": "B", "text": "Caídas, con un promedio de 10 días por evento.", "isCorrect": false },
+      { "letter": "C", "text": "Lumbalgias, con un promedio de 12 días por evento.", "isCorrect": true },
+      { "letter": "D", "text": "Quemaduras, con un promedio de 8 días por evento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": null,
+    "questionText": "El área de salud ocupacional quiere priorizar intervenciones para reducir el impacto total de los accidentes. Considerando tanto la frecuencia como los días de incapacidad, ¿cuáles dos tipos de lesión deberían atenderse primero?",
+    "explanation": "Impacto total (días de incapacidad): Lumbalgias = 360 días (mayor impacto total). Caídas = 250 días (segundo mayor). Cortes = 135 días. Quemaduras = 120 días. Lesiones oculares = 30 días. Aunque los cortes son los más frecuentes (45 eventos), sus días de incapacidad totales (135) son menores que los de lumbalgias (360) y caídas (250). La priorización debe considerar el impacto total.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Cortes en manos y lesiones oculares, por ser las más frecuentes en conjunto.", "isCorrect": false },
+      { "letter": "B", "text": "Quemaduras y lesiones oculares, por ser las menos frecuentes y más prevenibles.", "isCorrect": false },
+      { "letter": "C", "text": "Lumbalgias y caídas, porque generan el mayor número total de días de incapacidad.", "isCorrect": true },
+      { "letter": "D", "text": "Cortes en manos y lumbalgias, porque son los dos tipos más frecuentes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "Un programa de tamizaje neonatal evaluó a 5.000 recién nacidos para hipotiroidismo congénito. La prueba de TSH neonatal tiene una sensibilidad del 98 % y una especificidad del 99,5 %. La prevalencia de hipotiroidismo congénito es de 1 por cada 2.500 nacidos vivos.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuántos recién nacidos con hipotiroidismo congénito se espera detectar correctamente con la prueba?",
+    "explanation": "Recién nacidos con hipotiroidismo: 5.000 / 2.500 = 2. Con sensibilidad del 98 %: 2 × 0,98 = 1,96 ≈ 2 recién nacidos detectados correctamente (verdaderos positivos). Dado que son solo 2 enfermos, la prueba detectaría prácticamente a ambos.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "1", "isCorrect": false },
+      { "letter": "B", "text": "2", "isCorrect": true },
+      { "letter": "C", "text": "5", "isCorrect": false },
+      { "letter": "D", "text": "49", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": null,
+    "questionText": "Con los datos anteriores, ¿cuántos falsos positivos se esperan al tamizar a los 5.000 recién nacidos?",
+    "explanation": "Recién nacidos sanos: 5.000 − 2 = 4.998. Especificidad = 99,5 %, por lo que el 0,5 % de los sanos tendrán un resultado falso positivo: 4.998 × 0,005 = 24,99 ≈ 25 falsos positivos.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "5", "isCorrect": false },
+      { "letter": "B", "text": "10", "isCorrect": false },
+      { "letter": "C", "text": "25", "isCorrect": true },
+      { "letter": "D", "text": "50", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "Con base en los resultados anteriores, ¿cuál es el valor predictivo positivo (VPP) aproximado de la prueba de tamizaje neonatal?",
+    "explanation": "Verdaderos positivos ≈ 2. Falsos positivos ≈ 25. Total de positivos = 2 + 25 = 27. VPP = 2/27 ≈ 0,074 = 7,4 %. Esto significa que de cada 100 resultados positivos, solo unos 7 corresponden a verdaderos casos de hipotiroidismo congénito.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "7,4 %", "isCorrect": true },
+      { "letter": "B", "text": "50,0 %", "isCorrect": false },
+      { "letter": "C", "text": "98,0 %", "isCorrect": false },
+      { "letter": "D", "text": "99,5 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Una planta de tratamiento de agua realiza controles de calidad diarios. La siguiente tabla muestra los resultados de turbidez (NTU) y coliformes totales (UFC/100 mL) durante una semana:\n\n| Día       | Turbidez (NTU) | Coliformes (UFC/100 mL) |\n|-----------|---------------|------------------------|\n| Lunes     | 0,8           | 0                      |\n| Martes    | 1,2           | 0                      |\n| Miércoles | 3,5           | 4                      |\n| Jueves    | 5,1           | 12                     |\n| Viernes   | 2,0           | 2                      |\n| Sábado    | 1,0           | 0                      |\n| Domingo   | 0,9           | 0                      |\n\nLímites permisibles: turbidez ≤ 2 NTU, coliformes = 0 UFC/100 mL.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿En cuántos días de la semana el agua NO cumplió simultáneamente ambos criterios de calidad?",
+    "explanation": "Para cumplir: turbidez ≤ 2 Y coliformes = 0. Lunes: 0,8 y 0 → cumple. Martes: 1,2 y 0 → cumple. Miércoles: 3,5 (>2) y 4 (>0) → NO cumple. Jueves: 5,1 (>2) y 12 (>0) → NO cumple. Viernes: 2,0 (≤2) y 2 (>0) → NO cumple. Sábado: 1,0 y 0 → cumple. Domingo: 0,9 y 0 → cumple. En 3 días no se cumplieron ambos criterios.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "1 día", "isCorrect": false },
+      { "letter": "B", "text": "2 días", "isCorrect": false },
+      { "letter": "C", "text": "3 días", "isCorrect": true },
+      { "letter": "D", "text": "4 días", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": null,
+    "questionText": "Según los datos de la planta de tratamiento, ¿cuál afirmación es correcta sobre la relación entre turbidez y coliformes?",
+    "explanation": "Observando los datos: cuando la turbidez es baja (≤ 2 NTU) los coliformes tienden a ser 0, y cuando la turbidez sube (3,5 y 5,1) los coliformes también aumentan (4 y 12). El viernes con turbidez = 2,0 tiene 2 coliformes. Hay una tendencia positiva: a mayor turbidez, más coliformes. Sin embargo, con 7 datos no se puede establecer causalidad, solo asociación.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "No existe ninguna relación entre turbidez y coliformes.", "isCorrect": false },
+      { "letter": "B", "text": "Los datos sugieren una asociación positiva: a mayor turbidez, mayor presencia de coliformes.", "isCorrect": true },
+      { "letter": "C", "text": "La alta turbidez causa directamente la aparición de coliformes en el agua.", "isCorrect": false },
+      { "letter": "D", "text": "La relación es inversamente proporcional: a mayor turbidez, menores coliformes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Un estudio epidemiológico comparó la prevalencia de diabetes tipo 2 en cuatro regiones de un país:\n\n| Región     | Población adulta | Casos de diabetes | Prevalencia |\n|-----------|-----------------|-------------------|-------------|\n| Andina    | 450.000         | 36.000            | 8,0 %       |\n| Caribe    | 320.000         | 35.200            | 11,0 %      |\n| Pacífica  | 280.000         | 19.600            | 7,0 %       |\n| Orinoquía | 150.000         | 10.500            | 7,0 %       |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál región aporta el mayor número absoluto de casos de diabetes al total nacional?",
+    "explanation": "Casos por región: Andina = 36.000, Caribe = 35.200, Pacífica = 19.600, Orinoquía = 10.500. La región Andina aporta el mayor número absoluto (36.000), aunque la Caribe tiene la mayor prevalencia (11,0 %).",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Caribe, porque tiene la mayor prevalencia.", "isCorrect": false },
+      { "letter": "B", "text": "Andina, con 36.000 casos.", "isCorrect": true },
+      { "letter": "C", "text": "Pacífica, porque su población es considerable.", "isCorrect": false },
+      { "letter": "D", "text": "No se puede determinar sin conocer la incidencia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "¿Cuál es la prevalencia general de diabetes tipo 2 para las cuatro regiones combinadas?",
+    "explanation": "Total de casos: 36.000 + 35.200 + 19.600 + 10.500 = 101.300. Total de población adulta: 450.000 + 320.000 + 280.000 + 150.000 = 1.200.000. Prevalencia general = (101.300 / 1.200.000) × 100 = 8,44 ≈ 8,4 %.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "7,5 %", "isCorrect": false },
+      { "letter": "B", "text": "8,3 %", "isCorrect": false },
+      { "letter": "C", "text": "8,4 %", "isCorrect": true },
+      { "letter": "D", "text": "9,0 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "Un funcionario de salud pública afirma: «La región Pacífica y la Orinoquía tienen la misma prevalencia, por lo tanto la carga de enfermedad es idéntica en ambas». ¿Cuál es la evaluación correcta de esta afirmación?",
+    "explanation": "Ambas regiones tienen prevalencia del 7,0 %, pero la Pacífica tiene 19.600 casos (población de 280.000) mientras que la Orinoquía tiene 10.500 casos (población de 150.000). La carga absoluta de enfermedad es casi el doble en la Pacífica. Prevalencia igual no implica la misma carga de enfermedad cuando las poblaciones son diferentes.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta, porque la prevalencia es la medida definitiva de carga de enfermedad.", "isCorrect": false },
+      { "letter": "B", "text": "Es incorrecta: aunque la prevalencia es igual, la Pacífica tiene casi el doble de casos absolutos por su mayor población.", "isCorrect": true },
+      { "letter": "C", "text": "Es correcta, porque ambas regiones necesitan los mismos recursos de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Es incorrecta porque la prevalencia en la Pacífica es realmente mayor que en la Orinoquía.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "El servicio de urgencias de un hospital midió los tiempos de espera (en minutos) de los pacientes clasificados por nivel de triage durante un mes:\n\n| Nivel de triage | Pacientes | Tiempo promedio | Percentil 25 | Percentil 75 |\n|----------------|-----------|----------------|--------------|---------------|\n| I (Resucitación) | 40      | 3              | 1            | 5             |\n| II (Emergencia)  | 180     | 18             | 10           | 25            |\n| III (Urgencia)   | 450     | 52             | 30           | 70            |\n| IV (Menos urgente) | 280   | 95             | 60           | 130           |\n| V (No urgente)   | 150     | 140            | 100          | 180           |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál nivel de triage tiene el mayor rango intercuartílico (IQR) en los tiempos de espera?",
+    "explanation": "IQR = Percentil 75 − Percentil 25. Nivel I: 5 − 1 = 4. Nivel II: 25 − 10 = 15. Nivel III: 70 − 30 = 40. Nivel IV: 130 − 60 = 70. Nivel V: 180 − 100 = 80. El nivel V (No urgente) tiene el mayor IQR con 80 minutos.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Nivel III, con un IQR de 40 minutos.", "isCorrect": false },
+      { "letter": "B", "text": "Nivel IV, con un IQR de 70 minutos.", "isCorrect": false },
+      { "letter": "C", "text": "Nivel V, con un IQR de 80 minutos.", "isCorrect": true },
+      { "letter": "D", "text": "Nivel II, con un IQR de 15 minutos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "El hospital estableció como meta que los pacientes de Nivel III (Urgencia) no esperen más de 60 minutos. Según los datos, ¿qué porcentaje aproximado de pacientes de Nivel III cumple esta meta?",
+    "explanation": "El percentil 75 del Nivel III es 70 minutos, lo que significa que el 75 % de los pacientes esperó 70 minutos o menos. El percentil 25 es 30 minutos. La meta es ≤ 60 minutos. Como 60 está entre el P25 (30) y el P75 (70), se puede estimar por interpolación lineal: la fracción entre P25 y P75 donde cae 60 es (60−30)/(70−30) = 30/40 = 0,75. Porcentaje ≈ 25 % + 0,75 × 50 % = 62,5 %. La estimación más cercana es aproximadamente el 63 %.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "Aproximadamente el 25 %.", "isCorrect": false },
+      { "letter": "B", "text": "Aproximadamente el 50 %.", "isCorrect": false },
+      { "letter": "C", "text": "Aproximadamente el 63 %.", "isCorrect": true },
+      { "letter": "D", "text": "Aproximadamente el 75 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "El banco de sangre de un hospital registró su inventario de unidades de glóbulos rojos por grupo sanguíneo durante cuatro semanas:\n\n| Semana | O+  | A+  | B+  | AB+ | O−  | A−  | B−  | AB− |\n|--------|-----|-----|-----|-----|-----|-----|-----|-----|\n| 1      | 120 | 80  | 35  | 10  | 25  | 15  | 8   | 3   |\n| 2      | 95  | 65  | 28  | 8   | 18  | 12  | 5   | 2   |\n| 3      | 80  | 55  | 22  | 6   | 12  | 8   | 4   | 1   |\n| 4      | 60  | 40  | 18  | 5   | 8   | 5   | 2   | 1   |\n\nNivel crítico: < 20 unidades para O+ y A+; < 10 unidades para los demás grupos.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿En la semana 4, cuántos grupos sanguíneos se encuentran en nivel crítico?",
+    "explanation": "Semana 4: O+ = 60 (≥20, OK). A+ = 40 (≥20, OK). B+ = 18 (≥10, OK). AB+ = 5 (<10, CRÍTICO). O− = 8 (<10, CRÍTICO). A− = 5 (<10, CRÍTICO). B− = 2 (<10, CRÍTICO). AB− = 1 (<10, CRÍTICO). Son 5 grupos en nivel crítico: AB+, O−, A−, B−, AB−.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "3 grupos", "isCorrect": false },
+      { "letter": "B", "text": "4 grupos", "isCorrect": false },
+      { "letter": "C", "text": "5 grupos", "isCorrect": true },
+      { "letter": "D", "text": "6 grupos", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": null,
+    "questionText": "Considerando el inventario total (todos los grupos) de las cuatro semanas, ¿cuál es el porcentaje de reducción del inventario entre la semana 1 y la semana 4?",
+    "explanation": "Inventario semana 1: 120+80+35+10+25+15+8+3 = 296. Inventario semana 4: 60+40+18+5+8+5+2+1 = 139. Reducción absoluta: 296 − 139 = 157. Porcentaje de reducción: (157/296) × 100 = 53,0 %.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "38,2 %", "isCorrect": false },
+      { "letter": "B", "text": "47,0 %", "isCorrect": false },
+      { "letter": "C", "text": "53,0 %", "isCorrect": true },
+      { "letter": "D", "text": "61,5 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Un programa de tamizaje de cáncer de mama registró la participación de mujeres entre 50 y 69 años en mamografías de detección temprana en cinco departamentos:\n\n| Departamento  | Mujeres elegibles | Mamografías realizadas | Casos detectados |\n|--------------|-------------------|----------------------|------------------|\n| Antioquia    | 18.000            | 10.800               | 54               |\n| Valle        | 14.000            | 7.000                | 42               |\n| Atlántico    | 9.000             | 5.400                | 22               |\n| Santander    | 7.500             | 5.250                | 32               |\n| Bolívar      | 6.500             | 2.600                | 10               |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál departamento tiene la mayor tasa de participación en el tamizaje?",
+    "explanation": "Tasas de participación: Antioquia: 10.800/18.000 = 60 %. Valle: 7.000/14.000 = 50 %. Atlántico: 5.400/9.000 = 60 %. Santander: 5.250/7.500 = 70 %. Bolívar: 2.600/6.500 = 40 %. Santander tiene la mayor tasa de participación con 70 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Antioquia, con 60 %.", "isCorrect": false },
+      { "letter": "B", "text": "Santander, con 70 %.", "isCorrect": true },
+      { "letter": "C", "text": "Atlántico, con 60 %.", "isCorrect": false },
+      { "letter": "D", "text": "Valle, con 50 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "¿Cuál departamento tiene la mayor tasa de detección de cáncer por cada 1.000 mamografías realizadas?",
+    "explanation": "Tasa de detección por 1.000 mamografías: Antioquia: (54/10.800)×1.000 = 5,0. Valle: (42/7.000)×1.000 = 6,0. Atlántico: (22/5.400)×1.000 = 4,1. Santander: (32/5.250)×1.000 = 6,1. Bolívar: (10/2.600)×1.000 = 3,8. Santander tiene la mayor tasa de detección con 6,1 por cada 1.000 mamografías.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Antioquia, con 5,0 por cada 1.000.", "isCorrect": false },
+      { "letter": "B", "text": "Valle, con 6,0 por cada 1.000.", "isCorrect": false },
+      { "letter": "C", "text": "Santander, con 6,1 por cada 1.000.", "isCorrect": true },
+      { "letter": "D", "text": "Bolívar, con 3,8 por cada 1.000.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "El programa quiere aumentar la cobertura nacional al 65 % de las mujeres elegibles. Si la población elegible total se mantiene, ¿cuántas mamografías adicionales se necesitan respecto a las ya realizadas?",
+    "explanation": "Total de mujeres elegibles: 18.000 + 14.000 + 9.000 + 7.500 + 6.500 = 55.000. Meta del 65 %: 55.000 × 0,65 = 35.750 mamografías. Mamografías ya realizadas: 10.800 + 7.000 + 5.400 + 5.250 + 2.600 = 31.050. Adicionales necesarias: 35.750 − 31.050 = 4.700.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "3.200", "isCorrect": false },
+      { "letter": "B", "text": "4.700", "isCorrect": true },
+      { "letter": "C", "text": "5.500", "isCorrect": false },
+      { "letter": "D", "text": "8.950", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Una IPS registró los motivos de consulta de urgencias durante un fin de semana, diferenciando entre adultos y menores de 18 años:\n\n| Motivo de consulta      | Adultos | Menores | Total |\n|------------------------|---------|---------|-------|\n| Trauma                 | 45      | 30      | 75    |\n| Dolor abdominal        | 60      | 25      | 85    |\n| Fiebre                 | 20      | 55      | 75    |\n| Dificultad respiratoria | 35     | 40      | 75    |\n| Otros                  | 40      | 50      | 90    |\n| Total                  | 200     | 200     | 400   |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Si se selecciona al azar un paciente menor de 18 años, ¿cuál es la probabilidad de que haya consultado por fiebre?",
+    "explanation": "Menores con fiebre = 55. Total de menores = 200. Probabilidad = 55/200 = 0,275 = 27,5 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "13,8 %", "isCorrect": false },
+      { "letter": "B", "text": "18,8 %", "isCorrect": false },
+      { "letter": "C", "text": "27,5 %", "isCorrect": true },
+      { "letter": "D", "text": "55,0 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": null,
+    "questionText": "Con base en la tabla anterior, ¿para cuál motivo de consulta la diferencia proporcional entre adultos y menores es mayor?",
+    "explanation": "Proporciones por grupo — Adultos: Trauma 45/200=22,5 %, Dolor abd. 60/200=30 %, Fiebre 20/200=10 %, Dif. resp. 35/200=17,5 %, Otros 40/200=20 %. Menores: Trauma 30/200=15 %, Dolor abd. 25/200=12,5 %, Fiebre 55/200=27,5 %, Dif. resp. 40/200=20 %, Otros 50/200=25 %. Diferencias absolutas: Trauma |22,5−15|=7,5. Dolor abd. |30−12,5|=17,5. Fiebre |10−27,5|=17,5. Dif. resp. |17,5−20|=2,5. Otros |20−25|=5. Dolor abdominal y fiebre tienen la mayor diferencia (17,5 pp cada uno), pero dolor abdominal predomina en adultos y fiebre en menores.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Trauma, porque afecta más a los adultos.", "isCorrect": false },
+      { "letter": "B", "text": "Dolor abdominal, que representa el 30 % en adultos pero solo el 12,5 % en menores.", "isCorrect": true },
+      { "letter": "C", "text": "Dificultad respiratoria, por ser similar en ambos grupos.", "isCorrect": false },
+      { "letter": "D", "text": "Otros, porque es la categoría con más pacientes en total.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Un diagrama de líneas muestra la evolución del número de consultas de salud mental por cada 10.000 habitantes en un municipio:\n\n• 2019: 32\n• 2020: 58\n• 2021: 75\n• 2022: 68\n• 2023: 72\n• 2024: 85\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿En qué período se produjo el mayor incremento porcentual en la tasa de consultas de salud mental?",
+    "explanation": "Incrementos porcentuales: 2019-2020: (58−32)/32 × 100 = 81,3 %. 2020-2021: (75−58)/58 × 100 = 29,3 %. 2021-2022: (68−75)/75 × 100 = −9,3 % (disminución). 2022-2023: (72−68)/68 × 100 = 5,9 %. 2023-2024: (85−72)/72 × 100 = 18,1 %. El mayor incremento porcentual fue de 2019 a 2020 con 81,3 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "De 2019 a 2020, con un incremento del 81,3 %.", "isCorrect": true },
+      { "letter": "B", "text": "De 2020 a 2021, con un incremento del 29,3 %.", "isCorrect": false },
+      { "letter": "C", "text": "De 2023 a 2024, con un incremento del 18,1 %.", "isCorrect": false },
+      { "letter": "D", "text": "De 2022 a 2023, con un incremento del 5,9 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "Un analista de salud pública concluye: «El aumento de consultas entre 2019 y 2020 demuestra que la pandemia de COVID-19 deterioró la salud mental de la población». ¿Cuál evaluación es más adecuada?",
+    "explanation": "El dato muestra una coincidencia temporal entre el inicio de la pandemia (2020) y el aumento de consultas (de 32 a 58). Sin embargo, un aumento en consultas puede deberse a mayor acceso, menos estigma, nuevos programas de detección, u otros factores. La correlación temporal no prueba causalidad. Se necesitarían estudios adicionales para atribuir el aumento exclusivamente a la pandemia.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta, porque el aumento fue del 81 % y coincide con la pandemia.", "isCorrect": false },
+      { "letter": "B", "text": "Los datos muestran coincidencia temporal, pero el aumento de consultas puede tener múltiples causas además de la pandemia.", "isCorrect": true },
+      { "letter": "C", "text": "Es incorrecta porque las consultas también aumentaron en otros años.", "isCorrect": false },
+      { "letter": "D", "text": "Es imposible analizar tendencias con solo 6 puntos de datos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Un estudio evaluó la presencia de enfermedades crónicas en trabajadores de tres sectores económicos. Los resultados se presentan como porcentajes del total de trabajadores examinados en cada sector:\n\n| Enfermedad crónica  | Sector salud (n=600) | Sector educación (n=500) | Sector construcción (n=400) |\n|--------------------|---------------------|-------------------------|----------------------------|\n| Hipertensión       | 18 %                | 15 %                    | 22 %                       |\n| Diabetes tipo 2    | 8 %                 | 10 %                    | 6 %                        |\n| Obesidad           | 25 %                | 28 %                    | 12 %                       |\n| Ninguna de las anteriores | 55 %         | 52 %                    | 64 %                       |\n\nNota: un trabajador puede tener más de una enfermedad.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuántos trabajadores del sector salud presentaron hipertensión?",
+    "explanation": "Trabajadores del sector salud = 600. Hipertensión = 18 % de 600 = 0,18 × 600 = 108 trabajadores.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "90", "isCorrect": false },
+      { "letter": "B", "text": "108", "isCorrect": true },
+      { "letter": "C", "text": "120", "isCorrect": false },
+      { "letter": "D", "text": "150", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": null,
+    "questionText": "¿En cuál sector hay el mayor número absoluto de trabajadores con obesidad?",
+    "explanation": "Sector salud: 600 × 0,25 = 150. Sector educación: 500 × 0,28 = 140. Sector construcción: 400 × 0,12 = 48. El sector salud tiene el mayor número absoluto de trabajadores con obesidad (150), aunque educación tiene mayor porcentaje (28 %).",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Sector educación, con 140 trabajadores.", "isCorrect": false },
+      { "letter": "B", "text": "Sector salud, con 150 trabajadores.", "isCorrect": true },
+      { "letter": "C", "text": "Sector construcción, con 48 trabajadores.", "isCorrect": false },
+      { "letter": "D", "text": "Sector educación, porque tiene el mayor porcentaje (28 %).", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "Un coordinador de salud ocupacional afirma: «El sector construcción es el más saludable porque tiene el mayor porcentaje de trabajadores sin enfermedades crónicas (64 %)». ¿Cuál evaluación es más apropiada?",
+    "explanation": "El sector construcción tiene el mayor porcentaje sin enfermedades crónicas (64 %), pero también la mayor prevalencia de hipertensión (22 %). Además, la población trabajadora en construcción tiende a ser más joven y con mayor actividad física, lo que podría explicar menores tasas de obesidad y diabetes sin que eso signifique mejor estado de salud integral. El menor porcentaje de enfermedades crónicas no es suficiente para concluir que es «el más saludable».",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta, porque el 64 % sin enfermedades crónicas es el indicador definitivo de salud.", "isCorrect": false },
+      { "letter": "B", "text": "Es parcialmente válida, pero el sector construcción tiene la mayor prevalencia de hipertensión (22 %), lo que matiza la conclusión.", "isCorrect": true },
+      { "letter": "C", "text": "Es incorrecta porque la salud solo se mide por la prevalencia de diabetes.", "isCorrect": false },
+      { "letter": "D", "text": "Es correcta porque todos los indicadores del sector construcción son mejores.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Un gráfico circular muestra la distribución de las causas de visita a urgencias pediátricas durante un mes (total: 1.200 visitas):\n\n• Infecciones respiratorias agudas: 35 %\n• Enfermedad diarreica aguda: 20 %\n• Trauma y accidentes: 18 %\n• Fiebre sin foco: 15 %\n• Otras causas: 12 %\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuántas visitas correspondieron a infecciones respiratorias agudas y enfermedad diarreica aguda en conjunto?",
+    "explanation": "Porcentaje combinado: 35 % + 20 % = 55 %. Visitas: 1.200 × 0,55 = 660 visitas.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "420", "isCorrect": false },
+      { "letter": "B", "text": "550", "isCorrect": false },
+      { "letter": "C", "text": "660", "isCorrect": true },
+      { "letter": "D", "text": "780", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "Si el hospital quiere representar los datos en un gráfico circular, ¿cuál es el ángulo central (en grados) correspondiente a «Trauma y accidentes»?",
+    "explanation": "Ángulo = porcentaje × 360° / 100. Para trauma y accidentes (18 %): 0,18 × 360° = 64,8°.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "18,0°", "isCorrect": false },
+      { "letter": "B", "text": "54,0°", "isCorrect": false },
+      { "letter": "C", "text": "64,8°", "isCorrect": true },
+      { "letter": "D", "text": "72,0°", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "El director del hospital propone una campaña preventiva enfocada en las dos causas más frecuentes. Si la campaña lograra reducir cada una en un 10 % respecto a sus valores actuales, ¿cuántas visitas menos se esperarían en un mes similar?",
+    "explanation": "Las dos causas más frecuentes son: Infecciones respiratorias agudas = 1.200 × 0,35 = 420, y Enfermedad diarreica aguda = 1.200 × 0,20 = 240. Reducción del 10 % en cada una: IRA: 420 × 0,10 = 42 visitas menos. EDA: 240 × 0,10 = 24 visitas menos. Total de reducción: 42 + 24 = 66 visitas menos.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "42 visitas", "isCorrect": false },
+      { "letter": "B", "text": "55 visitas", "isCorrect": false },
+      { "letter": "C", "text": "66 visitas", "isCorrect": true },
+      { "letter": "D", "text": "120 visitas", "isCorrect": false }
+    ]
+  }
+]

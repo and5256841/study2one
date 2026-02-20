@@ -1,0 +1,652 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "En Colombia, la Ley 769 de 2002 (Código Nacional de Tránsito) establece el uso obligatorio del casco para motociclistas y del cinturón de seguridad para todos los ocupantes de vehículos automotores. Un municipio del Meta reporta que el 65 % de las muertes en accidentes de tránsito corresponden a motociclistas sin casco. La secretaría de salud departamental propone una campaña integral que incluye: operativos de control policial, señalización vial mejorada, educación en colegios sobre seguridad vial y distribución de cascos certificados a mototaxistas.\n\n(Redacción Study2One)",
+    "questionText": "Dentro del modelo de Leavell y Clark, la exigencia del uso de casco y cinturón de seguridad se clasifica como:",
+    "explanation": "El uso de casco y cinturón de seguridad es prevención primaria (protección específica). Estas medidas actúan en el periodo prepatogénico de las lesiones por accidentes de tránsito: no evitan el accidente en sí, pero reducen la gravedad del trauma craneoencefálico (casco) y las lesiones toraco-abdominales (cinturón) cuando el accidente ocurre. Son medidas de protección específica porque se dirigen a prevenir un tipo concreto de daño (trauma) mediante una barrera física definida.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud vial porque beneficia a toda la población.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica contra trauma craneoencefálico y lesiones graves).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria porque se aplica después de que existe riesgo de accidente.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria porque busca reducir la mortalidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Un pediatra en Bogotá aplica la prueba de Denver II (Denver Developmental Screening Test) a un niño de 18 meses durante su control de crecimiento y desarrollo. La prueba evalúa cuatro dominios: motor grueso, motor fino-adaptativo, lenguaje y personal-social. El niño muestra retraso en el dominio de lenguaje (no dice ninguna palabra con significado) y es referido a terapia del lenguaje y valoración audiológica.\n\n(Redacción Study2One)",
+    "questionText": "La aplicación de la prueba de Denver II en controles de rutina corresponde a:",
+    "explanation": "La prueba de Denver II es un instrumento de tamizaje del desarrollo psicomotor. Es prevención secundaria (diagnóstico precoz) porque busca detectar retrasos del desarrollo en niños aparentemente sanos, durante la fase subclínica, cuando la intervención temprana tiene mayor impacto. El retraso del desarrollo ya está presente pero no ha sido identificado clínicamente sin la prueba. La referencia temprana a terapia permite actuar en el periodo crítico del neurodesarrollo.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria porque se aplica a niños sanos en control de rutina.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (tamizaje para detección precoz de retrasos del desarrollo).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria para rehabilitación del neurodesarrollo.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción del desarrollo infantil.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Un hospital materno-infantil en Cali implementa un programa de tamizaje de retinopatía del prematuro (ROP) para todos los recién nacidos con peso al nacer menor de 1500 g o edad gestacional menor de 32 semanas. Un oftalmólogo pediátrico realiza fondo de ojo indirecto entre las semanas 4 y 6 de vida postnatal. Los casos con ROP estadio 3 o superior reciben tratamiento con láser o antiangiogénicos intravítreos.\n\n(Redacción Study2One)",
+    "questionText": "El tamizaje de retinopatía del prematuro se clasifica dentro del modelo de Leavell y Clark como:",
+    "explanation": "El tamizaje de ROP es prevención secundaria (diagnóstico precoz y tratamiento oportuno). La retinopatía puede estar desarrollándose de forma asintomática en los prematuros de riesgo. El fondo de ojo busca detectar la enfermedad en estadios tempranos, cuando el tratamiento con láser puede prevenir la progresión a desprendimiento de retina y ceguera irreversible. Sin tamizaje, la enfermedad avanza silenciosamente hasta causar daño permanente. No es prevención primaria porque no evita la aparición de la ROP.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria porque se aplica a neonatos de alto riesgo antes de que aparezcan síntomas.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud visual neonatal.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención secundaria (detección precoz de retinopatía del prematuro en fase asintomática).", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria para limitar la ceguera neonatal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Un colegio público en Medellín implementa el programa «Entornos Escolares Protectores» con los siguientes componentes: talleres de habilidades socioemocionales con énfasis en resistencia a la presión de grupo, formación de pares educadores para liderazgo juvenil, actividades deportivas y artísticas extracurriculares, alianza con padres de familia para comunicación asertiva y charlas testimoniales de jóvenes recuperados de adicciones. El programa no se dirige a estudiantes con problemas de consumo sino a toda la comunidad escolar.\n\n(Redacción Study2One)",
+    "questionText": "Este programa escolar de prevención del consumo de alcohol en adolescentes es un ejemplo de:",
+    "explanation": "Este programa combina promoción de la salud y prevención primaria. Los talleres de habilidades socioemocionales y el liderazgo juvenil son promoción de la salud (fortalecen factores protectores generales, no se dirigen a una sustancia específica). Las charlas testimoniales y la formación específica en resistencia a la presión de grupo son prevención primaria (actúan sobre un riesgo específico: consumo de alcohol). Al dirigirse a toda la comunidad escolar sin enfocarse en estudiantes ya consumidores, el programa opera en el periodo prepatogénico.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención terciaria porque incluye testimonios de personas en recuperación.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria porque busca detectar adolescentes en riesgo.", "isCorrect": false },
+      { "letter": "C", "text": "Promoción de la salud (factores protectores) combinada con prevención primaria (resistencia a riesgos específicos).", "isCorrect": true },
+      { "letter": "D", "text": "Exclusivamente promoción de la salud porque se dirige a toda la población escolar.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Colombia adoptó en 2014 la estrategia de co-testing para tamizaje de cáncer cervicouterino en mujeres de 30 a 65 años: prueba de ADN para virus del papiloma humano (VPH) como prueba primaria, con citología (Papanicolaou) como prueba de triage en casos VPH positivos. Las mujeres con VPH positivo y citología anormal son remitidas a colposcopia. Las mujeres con VPH negativo repiten el tamizaje cada 5 años.\n\n(Redacción Study2One, con referencia a las guías colombianas de tamizaje cervicouterino)",
+    "questionText": "La estrategia de co-testing (VPH + Papanicolaou) para cáncer cervicouterino se clasifica como:",
+    "explanation": "El co-testing es prevención secundaria (diagnóstico precoz y tratamiento oportuno). La prueba de VPH detecta la presencia del agente causal antes de que se produzcan lesiones preneoplásicas avanzadas o cáncer invasor. La citología complementaria identifica cambios celulares tempranos. Ambas actúan en la fase subclínica de la historia natural del cáncer cervicouterino, permitiendo la intervención antes de la progresión a enfermedad invasora. No es prevención primaria (eso sería la vacunación contra VPH) ni promoción de la salud.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria porque detecta el virus antes de que cause cáncer.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (detección precoz de infección oncogénica y lesiones preneoplásicas).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria del cáncer cervicouterino.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud sexual y reproductiva.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "Una paciente de 68 años con osteoartritis severa de rodillas es atendida en un centro de rehabilitación en Bucaramanga. Su plan de manejo incluye: ejercicios isométricos de cuádriceps, hidroterapia en piscina temperada, educación sobre protección articular (evitar escaleras, usar bastón en mano contralateral), control del peso corporal, uso de plantillas ortopédicas y aplicación de calor local antes del ejercicio. El objetivo es mejorar la funcionalidad y reducir el dolor.\n\n(Redacción Study2One)",
+    "questionText": "El programa de rehabilitación para esta paciente con osteoartritis severa corresponde a:",
+    "explanation": "La rehabilitación de osteoartritis severa es prevención terciaria. La enfermedad degenerativa articular ya está establecida e irreversible (periodo patogénico avanzado). Las intervenciones buscan: limitar el daño (protección articular, control de peso para reducir carga mecánica), mejorar la funcionalidad (ejercicio, hidroterapia), reducir el dolor (calor local, plantillas) y prevenir mayor deterioro funcional. Corresponde a las funciones de «limitación del daño» y «rehabilitación» del tercer nivel de Leavell y Clark.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de la progresión articular.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria mediante detección temprana de artrosis.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (rehabilitación funcional y limitación del daño articular).", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la salud osteomuscular.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "En una vereda del Cauca, un equipo de rehabilitación basada en comunidad (RBC) capacita a agentes comunitarios de salud para identificar personas con discapacidad, enseñar ejercicios básicos de rehabilitación a las familias, adaptar ayudas técnicas con materiales locales (sillas de ruedas de bambú, bastones artesanales), facilitar la inclusión educativa de niños con discapacidad y vincular a las personas con discapacidad a proyectos productivos comunitarios. El equipo profesional visita la vereda mensualmente para supervisión.\n\n(Redacción Study2One, con referencia a la estrategia de RBC de la OMS)",
+    "questionText": "Este programa de rehabilitación basada en comunidad en un entorno rural corresponde a:",
+    "explanation": "La RBC en zonas rurales es prevención terciaria con enfoque comunitario. Las personas ya tienen discapacidad establecida (periodo patogénico avanzado o secuelas). Las intervenciones buscan: maximizar la funcionalidad con los recursos disponibles (ejercicios, ayudas técnicas artesanales), facilitar la participación social (inclusión educativa, proyectos productivos) y transferir capacidades a la comunidad (capacitación de agentes y familias). Es rehabilitación integral que se adapta al contexto rural, descentralizando la atención especializada.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud comunitaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria de discapacidad en zonas rurales.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (rehabilitación integral y reintegración social en la comunidad).", "isCorrect": true },
+      { "letter": "D", "text": "Prevención secundaria mediante detección de discapacidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Una empresa minera en Boyacá implementa un programa de conservación auditiva para sus trabajadores expuestos a ruido industrial superior a 85 dB(A). El programa incluye: medición periódica del nivel de ruido en las áreas de trabajo (dosimetría), instalación de barreras acústicas y encerramientos de máquinas ruidosas, uso obligatorio de protectores auditivos dobles (tapones + orejeras) en áreas críticas, rotación de turnos para limitar la exposición diaria, audiometría de control anual y capacitación sobre efectos del ruido en la salud.\n\n(Redacción Study2One, con referencia a la Resolución 0312 de 2019 del Ministerio del Trabajo)",
+    "questionText": "En este programa, las barreras acústicas, los protectores auditivos y la rotación de turnos se clasifican como:",
+    "explanation": "Las barreras acústicas, los protectores auditivos y la rotación de turnos son prevención primaria (protección específica). Actúan en el periodo prepatogénico de la hipoacusia inducida por ruido: las barreras reducen el ruido en la fuente, los protectores crean una barrera entre el agente (ruido) y el órgano receptor (oído), y la rotación limita el tiempo de exposición. Todas buscan evitar que el daño coclear ocurra. En contraste, la audiometría anual es prevención secundaria (detección precoz de pérdida auditiva subclínica).",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud auditiva laboral.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica contra el daño auditivo por ruido ocupacional).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria mediante monitoreo del nivel de ruido.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria para rehabilitación de trabajadores con hipoacusia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Una familia consulta al servicio de genética de un hospital universitario en Bogotá porque su hijo de 10 días de vida fue diagnosticado con fenilcetonuria (PKU) mediante tamizaje neonatal. El genetista explica que el manejo consiste en una dieta estricta baja en fenilalanina de por vida: fórmula láctea especial sin fenilalanina, restricción de proteínas de origen animal (carne, leche, huevos), uso de suplementos de tirosina y aminoácidos esenciales, y monitoreo mensual de niveles séricos de fenilalanina. El objetivo es mantener la fenilalanina en sangre por debajo de 6 mg/dL para prevenir el daño neurológico.\n\n(Redacción Study2One)",
+    "questionText": "El manejo dietético de la fenilcetonuria diagnosticada en el tamizaje neonatal corresponde a:",
+    "explanation": "El manejo dietético de la PKU es prevención terciaria (limitación del daño). La enfermedad genética ya existe y no se puede curar. La dieta baja en fenilalanina busca evitar que la acumulación del aminoácido cause daño neurológico irreversible (discapacidad intelectual). Es «limitación del daño» porque la intervención no elimina la enfermedad sino que controla sus consecuencias, previniendo las secuelas más graves. El tratamiento es de por vida y requiere monitoreo constante.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria porque se inicia antes de que aparezca daño neurológico.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria porque fue detectada por tamizaje.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (limitación del daño mediante control dietético de una enfermedad genética establecida).", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la nutrición neonatal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Una gestante de 28 semanas en Barranquilla presenta presión arterial de 150/95 mmHg y proteinuria de 300 mg/24h en su control prenatal. Su obstetra diagnostica hipertensión gestacional con criterios de preeclampsia y establece un plan de monitoreo intensivo: control de presión arterial domiciliario dos veces al día, conteo de movimientos fetales diarios, pruebas de laboratorio semanales (hemograma, creatinina, transaminasas, LDH, ácido úrico), ecografía Doppler de arteria umbilical quincenal, educación sobre señales de alarma (cefalea intensa, epigastralgia, visión borrosa) y plan de hospitalización inmediata si hay deterioro.\n\n(Redacción Study2One)",
+    "questionText": "El monitoreo intensivo de esta gestante con preeclampsia corresponde a:",
+    "explanation": "El monitoreo intensivo de la preeclampsia es prevención terciaria (limitación del daño). La enfermedad ya está diagnosticada (preeclampsia) y las intervenciones buscan: detectar oportunamente el deterioro para evitar complicaciones graves (eclampsia, síndrome HELLP, desprendimiento de placenta, muerte materna o fetal), mantener la gestación el mayor tiempo posible con seguridad y decidir el momento óptimo de la interrupción. No es prevención secundaria porque la enfermedad ya fue diagnosticada clínicamente, no está en fase subclínica.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de eclampsia.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria porque se monitorea una enfermedad ya diagnosticada.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (limitación del daño y vigilancia de complicaciones en preeclampsia establecida).", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la salud materna.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "Un centro de atención primaria en Pereira implementa el tamizaje de depresión en todos los pacientes adultos que acuden a consulta general, utilizando el cuestionario PHQ-9 (Patient Health Questionnaire-9). Los pacientes con puntuación entre 5 y 9 (depresión leve) reciben consejería y seguimiento en un mes. Los pacientes con puntuación ≥ 10 (depresión moderada a severa) son referidos a psicología y/o psiquiatría para evaluación diagnóstica y tratamiento.\n\n(Redacción Study2One, con referencia al PHQ-9 validado en español)",
+    "questionText": "El tamizaje de depresión con PHQ-9 en atención primaria se clasifica como:",
+    "explanation": "El tamizaje con PHQ-9 es prevención secundaria (diagnóstico precoz). Muchos pacientes con depresión en atención primaria no son diagnosticados porque no consultan específicamente por síntomas emocionales. El PHQ-9 detecta episodios depresivos en fase no reconocida, permitiendo iniciar tratamiento oportuno antes de que se presenten complicaciones como intentos de suicidio, discapacidad laboral o cronicidad. La enfermedad ya está presente pero no ha sido identificada sin la herramienta de tamizaje.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud mental en atención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria de trastornos depresivos.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención secundaria (detección precoz de depresión no diagnosticada mediante tamizaje).", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria para evitar recaídas depresivas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Una paciente de 52 años fue sometida a mastectomía radical con vaciamiento axilar por cáncer de mama estadio IIB hace 6 meses. Desarrolla linfedema del miembro superior derecho con un aumento de circunferencia de 4 cm respecto al brazo izquierdo. Su programa de manejo incluye: terapia descongestiva compleja (drenaje linfático manual + vendaje compresivo multicapa), ejercicios de bombeo linfático, uso de manga compresiva elástica durante el día, cuidados de la piel para prevenir celulitis y educación sobre precauciones (evitar venopunciones, tomar presión arterial o cargar peso con ese brazo).\n\n(Redacción Study2One)",
+    "questionText": "El manejo del linfedema post-mastectomía corresponde a:",
+    "explanation": "El manejo del linfedema es prevención terciaria (rehabilitación y limitación del daño). El linfedema es una secuela del tratamiento oncológico (vaciamiento axilar) y constituye una complicación crónica. Las intervenciones buscan: reducir el edema (terapia descongestiva), prevenir complicaciones (celulitis por mala higiene cutánea), mantener la funcionalidad del miembro y mejorar la calidad de vida. El linfedema no se cura pero se controla con manejo crónico. Es rehabilitación de una secuela del tratamiento de una enfermedad establecida.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria del linfedema.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria mediante detección temprana de complicaciones.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (rehabilitación y control de una secuela post-quirúrgica crónica).", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la salud del miembro superior.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Una alcaldía en el Valle del Cauca lanza la campaña «Pedalea Seguro» que incluye: distribución gratuita de cascos certificados a ciclistas, instalación de ciclovías protegidas separadas del tráfico vehicular, iluminación LED en cruces peligrosos, talleres comunitarios de mecánica básica de bicicleta y normas de circulación, y alianzas con empresas locales para estacionamientos seguros de bicicletas. La campaña busca promover la bicicleta como medio de transporte seguro y sostenible.\n\n(Redacción Study2One)",
+    "questionText": "La distribución de cascos certificados y las ciclovías protegidas de esta campaña se clasifican como:",
+    "explanation": "La distribución de cascos es prevención primaria (protección específica): el casco reduce la gravedad del trauma craneoencefálico en caso de accidente, actuando como barrera física contra un daño específico. Las ciclovías protegidas también son prevención primaria: separan al ciclista del tráfico vehicular, eliminando el factor de riesgo principal (colisión con vehículos). Aunque la campaña tiene un componente de promoción (fomentar el transporte activo y sostenible), las medidas centrales se dirigen a prevenir un evento adverso específico (lesiones en ciclistas).",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud mediante transporte activo y sostenible.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica contra lesiones en ciclistas).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria de accidentes de tránsito.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria para rehabilitación de ciclistas lesionados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Una clínica de sueño en Bogotá desarrolla un programa educativo comunitario llamado «Duerme Bien, Vive Mejor» dirigido a adultos con dificultades de sueño no diagnosticadas. El programa incluye: talleres sobre higiene del sueño (horarios regulares, evitar pantallas antes de dormir, control de la temperatura y oscuridad de la habitación, evitar cafeína después de las 14:00), técnicas de relajación muscular progresiva, espacios de discusión grupal sobre hábitos y estrés, y creación de un «plan personalizado de sueño» para cada participante. No se prescriben medicamentos.\n\n(Redacción Study2One)",
+    "questionText": "Este programa de higiene del sueño dirigido a la población general corresponde a:",
+    "explanation": "Este programa combina promoción de la salud y prevención primaria. La higiene del sueño como conjunto de hábitos para mejorar el bienestar general (no dirigido a una enfermedad específica) tiene componentes de promoción de la salud. Sin embargo, las recomendaciones específicas para evitar el insomnio y sus consecuencias (enfermedades cardiovasculares, metabólicas, mentales) constituyen prevención primaria. La distinción clave es que hay medidas concretas para evitar un trastorno (insomnio) actuando sobre factores de riesgo modificables en personas que aún no tienen diagnóstico.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención terciaria para tratamiento del insomnio crónico.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria mediante detección de trastornos del sueño.", "isCorrect": false },
+      { "letter": "C", "text": "Promoción de la salud (bienestar integral) combinada con prevención primaria (evitar trastornos del sueño).", "isCorrect": true },
+      { "letter": "D", "text": "Exclusivamente prevención terciaria porque los participantes ya tienen dificultades de sueño.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "Un programa de atención primaria en Manizales identifica a 200 adultos entre 40 y 65 años con prediabetes (glucemia en ayunas entre 100 y 125 mg/dL o HbA1c entre 5.7 % y 6.4 %). Se les ofrece un programa intensivo de cambio de estilo de vida durante 16 semanas que incluye: asesoría nutricional individualizada (reducción de carbohidratos refinados, aumento de fibra), programa de actividad física supervisada (150 min/semana), talleres de manejo del estrés y seguimiento trimestral de glucemia y peso corporal. La meta es pérdida de 5-7 % del peso corporal.\n\n(Redacción Study2One, con referencia al Diabetes Prevention Program del NIH)",
+    "questionText": "La intervención de cambio de estilo de vida en personas con prediabetes se clasifica como:",
+    "explanation": "La intervención en prediabetes es prevención primaria. Aunque la persona ya tiene una alteración metabólica (prediabetes), no tiene diabetes mellitus tipo 2 diagnosticada. La prediabetes es un factor de riesgo, no una enfermedad establecida. Las intervenciones buscan evitar la progresión a diabetes actuando en el periodo prepatogénico de la diabetes tipo 2. El estudio DPP demostró que los cambios de estilo de vida reducen el riesgo de diabetes en un 58 %. Se interviene sobre factores de riesgo modificables antes de que la enfermedad se establezca.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención secundaria porque la prediabetes ya es una enfermedad.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (intervención sobre factor de riesgo para evitar la diabetes tipo 2).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria para control metabólico.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud general.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "En un hospital de segundo nivel en Villavicencio, el protocolo de manejo activo del tercer periodo del parto incluye: administración de oxitocina 10 UI intramuscular inmediatamente después del nacimiento, tracción controlada del cordón umbilical y masaje uterino cada 15 minutos durante las primeras 2 horas posparto. El protocolo se aplica a todas las pacientes que tienen parto vaginal, independientemente de su nivel de riesgo.\n\n(Redacción Study2One, con referencia a las recomendaciones de la OMS para prevención de HPP)",
+    "questionText": "El manejo activo del tercer periodo del parto se clasifica como:",
+    "explanation": "El manejo activo del alumbramiento es prevención primaria (protección específica) contra la hemorragia posparto (HPP). Se aplica universalmente antes de que ocurra el sangrado excesivo, actuando en el periodo prepatogénico de la HPP. La oxitocina promueve la contracción uterina que comprime los vasos sanguíneos del lecho placentario, previniendo la atonía uterina, que es la causa principal de HPP. Esta intervención ha reducido la incidencia de HPP en más del 60 % según la evidencia. No es tratamiento de HPP sino prevención de su aparición.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (protección específica contra hemorragia posparto).", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria mediante detección temprana de sangrado.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria del choque hipovolémico.", "isCorrect": false },
+      { "letter": "D", "text": "Tratamiento de la hemorragia posparto.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Las autoridades sanitarias de Estados Unidos recomiendan el tamizaje de niveles de plomo en sangre para todos los niños de 1 y 2 años que viven en viviendas construidas antes de 1978 (cuando se prohibió la pintura con plomo) o que residen en áreas con riesgo conocido de exposición. Un programa similar en un municipio industrial colombiano tamiza a niños que viven cerca de fundidoras de baterías.\n\n(Redacción Study2One, con referencia a las recomendaciones del CDC sobre tamizaje de plomo)",
+    "questionText": "El tamizaje de plomo en sangre en niños de zonas de riesgo corresponde a:",
+    "explanation": "El tamizaje de plomo en sangre es prevención secundaria (diagnóstico precoz). Los niveles elevados de plomo en sangre pueden estar presentes sin síntomas clínicos aparentes en los niños (intoxicación subclínica). La prueba detecta la exposición y absorción del tóxico antes de que se produzcan efectos neurológicos irreversibles. La detección temprana permite: identificar y eliminar la fuente de exposición, realizar quelación si los niveles son muy altos y hacer seguimiento del neurodesarrollo. La enfermedad (intoxicación por plomo) ya está en curso aunque sea asintomática.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria porque se aplica a niños antes de que muestren síntomas.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (detección precoz de intoxicación subclínica por plomo).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria para limitar el daño neurológico.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud infantil.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Un programa de salud oral escolar en Cartagena aplica barniz de fluoruro (NaF al 5 %) a los dientes de todos los niños de 3 a 6 años en jardines infantiles y preescolares públicos. La aplicación se realiza cada 6 meses por higienistas orales capacitadas. El barniz libera fluoruro lentamente sobre el esmalte dental, promoviendo la remineralización y aumentando la resistencia al ataque ácido de las bacterias cariogénicas.\n\n(Redacción Study2One, con referencia a las guías de la AAPD sobre barniz de fluoruro)",
+    "questionText": "La aplicación de barniz de fluoruro en niños preescolares se clasifica como:",
+    "explanation": "El barniz de fluoruro es prevención primaria (protección específica) contra la caries dental. Se aplica sobre dientes sanos o con desmineralización incipiente (antes de que se forme la cavidad cariosa), actuando en el periodo prepatogénico. El mecanismo de acción es específico: el fluoruro se incorpora al esmalte formando fluorapatita, más resistente al ácido producido por las bacterias. Es una intervención dirigida a prevenir una enfermedad concreta (caries) mediante un agente protector definido, aplicado poblacionalmente.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud oral infantil.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (protección específica mediante fortalecimiento del esmalte dental).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria de lesiones cariosas incipientes.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria para evitar la pérdida dental.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Un hospital universitario en Cali implementa un protocolo de profilaxis de tromboembolismo venoso (TEV) para todos los pacientes hospitalizados. Al ingreso, se evalúa el riesgo con la escala de Padua. Los pacientes de alto riesgo (Padua ≥ 4) reciben: enoxaparina subcutánea 40 mg/día, medias de compresión graduada, deambulación temprana e hidratación adecuada. Los pacientes quirúrgicos reciben enoxaparina desde 12 horas antes de la cirugía. El protocolo se aplica a todos los servicios de hospitalización.\n\n(Redacción Study2One, con referencia a las guías ACCP sobre profilaxis de TEV)",
+    "questionText": "La profilaxis farmacológica y mecánica del tromboembolismo venoso en pacientes hospitalizados se clasifica como:",
+    "explanation": "La tromboprofilaxis hospitalaria es prevención primaria (protección específica). La trombosis venosa profunda y el embolismo pulmonar aún no han ocurrido en estos pacientes. Las intervenciones actúan en el periodo prepatogénico: la enoxaparina inhibe la cascada de coagulación, las medias de compresión mejoran el retorno venoso y la deambulación temprana previene la estasis venosa. Se dirigen a prevenir un evento tromboembólico específico en una población de riesgo definida (pacientes hospitalizados).",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (protección específica contra tromboembolismo venoso).", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria porque se usa una escala de riesgo para identificar pacientes.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria para tratamiento de trombosis venosa profunda.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la movilidad hospitalaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "Un programa de educación para pacientes asmáticos en un centro de salud de Ibagué entrega a cada paciente un «plan de acción del asma» personalizado por escrito. El plan incluye: zona verde (asma controlada: medicamento de mantenimiento, continuar actividad normal), zona amarilla (síntomas aumentan: duplicar corticosteroide inhalado, usar salbutamol de rescate, llamar al médico) y zona roja (crisis severa: salbutamol cada 20 minutos, prednisolona oral, ir a urgencias). Cada paciente recibe demostración de técnica inhalatoria con placebo.\n\n(Redacción Study2One)",
+    "questionText": "La educación con plan de acción del asma para pacientes ya diagnosticados corresponde a:",
+    "explanation": "El plan de acción del asma es prevención terciaria (limitación del daño). El paciente ya tiene asma diagnosticada (enfermedad crónica establecida). El plan busca: mantener el control de la enfermedad (zona verde), reconocer y tratar tempranamente las exacerbaciones (zona amarilla) y actuar adecuadamente en emergencias (zona roja). La educación en autocuidado es una estrategia de rehabilitación y limitación del daño que empodera al paciente para manejar su enfermedad crónica, reduciendo hospitalizaciones y mortalidad.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de crisis asmáticas.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria mediante detección temprana de exacerbaciones.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (limitación del daño y autocuidado en enfermedad crónica).", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la salud respiratoria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "Un municipio del Quindío implementa una campaña de seguridad vial enfocada en motociclistas. La campaña incluye: distribución de chalecos reflectivos, revisión técnico-mecánica gratuita de motos, talleres de conducción defensiva y simulacros de primeros auxilios para testigos de accidentes. El componente de talleres de conducción defensiva enseña a los motociclistas a anticipar riesgos, mantener distancia de seguridad y usar correctamente los espejos retrovisores.\n\n(Redacción Study2One)",
+    "questionText": "Los talleres de conducción defensiva y la distribución de chalecos reflectivos se clasifican, respectivamente, como:",
+    "explanation": "Los talleres de conducción defensiva son prevención primaria (educación sanitaria para evitar accidentes específicos): enseñan técnicas concretas para evitar colisiones. Los chalecos reflectivos son prevención primaria (protección específica): aumentan la visibilidad del motociclista, reduciendo el riesgo de ser golpeado por no ser visto. Ambos actúan en el periodo prepatogénico de las lesiones por accidentes de tránsito. No son promoción de la salud porque se dirigen a prevenir un evento adverso definido (accidente de moto) con medidas concretas.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Promoción de la movilidad segura; prevención terciaria de accidentes.", "isCorrect": false },
+      { "letter": "B", "text": "Ambos son prevención primaria: educación para evitar accidentes y protección específica para mejorar visibilidad.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria; prevención primaria.", "isCorrect": false },
+      { "letter": "D", "text": "Ambos son exclusivamente promoción de la salud vial.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "El escalonamiento de la prueba de Denver II incluye la evaluación de hitos del desarrollo en los cuatro dominios. Un pediatra en Villavicencio observa que un niño de 24 meses no camina solo, no dice «mamá» ni «papá» con intención, no señala objetos de interés y no imita gestos. La prueba arroja «sospechoso» en tres dominios. El pediatra remite al niño a neuropediatría, terapia ocupacional y fonoaudiología simultáneamente.\n\n(Redacción Study2One)",
+    "questionText": "La remisión temprana a terapia tras un tamizaje alterado del desarrollo busca principalmente:",
+    "explanation": "La intervención temprana tras un tamizaje de desarrollo alterado es prevención secundaria en su componente de «tratamiento oportuno». La alteración del neurodesarrollo ya está presente (periodo patogénico). La remisión busca iniciar terapias durante el periodo crítico de plasticidad cerebral (primeros 3 años de vida), cuando las intervenciones tienen mayor impacto. La detección precoz sin tratamiento oportuno no mejora el pronóstico; es la combinación de diagnóstico precoz + tratamiento oportuno lo que constituye la prevención secundaria efectiva.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Realizar promoción del desarrollo infantil.", "isCorrect": false },
+      { "letter": "B", "text": "Aplicar prevención primaria del retraso del desarrollo.", "isCorrect": false },
+      { "letter": "C", "text": "Completar la prevención secundaria con tratamiento oportuno durante el periodo crítico de plasticidad cerebral.", "isCorrect": true },
+      { "letter": "D", "text": "Implementar prevención terciaria para rehabilitación del daño neurológico establecido.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Un neonatólogo en un hospital de tercer nivel en Bogotá explica a los padres de un prematuro de 28 semanas y 1100 g que su bebé será incluido en el programa de tamizaje de ROP. Los padres preguntan: «Si ya sabemos que nuestro hijo es prematuro, ¿no sería mejor prevenir la retinopatía en vez de solo buscarla?» El neonatólogo explica que el control estricto de la saturación de oxígeno (mantenerla entre 90-95 %) es la principal medida para reducir la incidencia de ROP.\n\n(Redacción Study2One)",
+    "questionText": "El control estricto de la saturación de oxígeno en prematuros para evitar la retinopatía corresponde a:",
+    "explanation": "El control de saturación de oxígeno es prevención primaria (protección específica). La hiperoxia es un factor de riesgo conocido para el desarrollo de ROP. Mantener la saturación en un rango seguro (90-95 %) actúa en el periodo prepatogénico de la ROP, evitando que la exposición excesiva a oxígeno desencadene la vasoproliferación anormal retiniana. Es una medida dirigida a prevenir una enfermedad específica (ROP) controlando un factor de riesgo definido (hiperoxia). En contraste, el fondo de ojo de tamizaje es prevención secundaria.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud visual neonatal.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria de ROP.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención primaria (protección específica mediante control de un factor de riesgo conocido).", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria para limitar la ceguera.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Un colegio en Armenia implementa un programa escolar de prevención del consumo de alcohol en adolescentes basado en la evidencia. El programa consta de 12 sesiones semanales facilitadas por psicólogos e incluye: información sobre efectos del alcohol en el cerebro adolescente, entrenamiento en habilidades de rechazo, análisis de la influencia de la publicidad de alcohol, identificación de situaciones de riesgo social, role-playing de presión de grupo y desarrollo de un proyecto comunitario de vida saludable.\n\n(Redacción Study2One)",
+    "questionText": "¿Por qué este programa basado en habilidades es más efectivo que la mera transmisión de información sobre los riesgos del alcohol?",
+    "explanation": "Los programas basados únicamente en información sobre riesgos (modelo informativo) tienen evidencia limitada en la prevención del consumo de sustancias en adolescentes. Los programas que combinan información con entrenamiento en habilidades sociales (rechazo, toma de decisiones, pensamiento crítico ante publicidad) y participación activa (role-playing, proyectos comunitarios) son más efectivos porque actúan sobre los determinantes conductuales del consumo: presión de grupo, falta de habilidades de afrontamiento e influencia de medios. La promoción de la salud (factores protectores) potencia la prevención primaria (evitar el consumo).",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Porque la información sobre riesgos asusta a los adolescentes y eso los disuade.", "isCorrect": false },
+      { "letter": "B", "text": "Porque las habilidades de rechazo y el análisis crítico actúan sobre los determinantes conductuales del consumo, no solo sobre el conocimiento.", "isCorrect": true },
+      { "letter": "C", "text": "Porque la información sobre alcohol es irrelevante para los adolescentes.", "isCorrect": false },
+      { "letter": "D", "text": "Porque los programas de habilidades son más económicos que los informativos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Una empresa textil en Medellín tiene trabajadores expuestos a ruido continuo de 92 dB(A) durante turnos de 8 horas. El programa de salud ocupacional realiza audiometría tonal anual. Un trabajador de 35 años con 10 años de antigüedad presenta en su audiometría una caída de 30 dB en las frecuencias de 4000 y 6000 Hz bilateralmente, sin síntomas subjetivos de pérdida auditiva. El médico laboral lo reubica a un área con nivel de ruido menor a 80 dB(A).\n\n(Redacción Study2One)",
+    "questionText": "La audiometría que detectó la pérdida auditiva asintomática y la reubicación laboral posterior corresponden a:",
+    "explanation": "La audiometría periódica que detecta la pérdida auditiva en fase subclínica es prevención secundaria (diagnóstico precoz). La hipoacusia inducida por ruido ya se está desarrollando (caída en 4000-6000 Hz, patrón típico), pero el trabajador aún no percibe dificultad auditiva. La reubicación a un área de menor ruido es el «tratamiento oportuno» de la prevención secundaria: al interrumpir la exposición, se detiene la progresión del daño coclear antes de que afecte las frecuencias conversacionales.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria porque se interviene antes de que el trabajador tenga síntomas.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (detección precoz de hipoacusia subclínica y tratamiento oportuno con reubicación).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria para rehabilitación auditiva.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud auditiva laboral.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Un programa de salud materno-infantil en Sincelejo implementa el tamizaje de hipertensión gestacional mediante toma de presión arterial en cada control prenatal. A las gestantes con presión arterial ≥ 140/90 mmHg en dos tomas separadas por 4 horas se les realiza: proteinuria en 24 horas, hemograma, pruebas de función hepática y renal, y ecografía con Doppler de arterias uterinas. Las gestantes con diagnóstico confirmado de trastorno hipertensivo reciben manejo según la Guía de Práctica Clínica.\n\n(Redacción Study2One)",
+    "questionText": "El tamizaje de hipertensión gestacional en el control prenatal se clasifica como:",
+    "explanation": "El tamizaje de presión arterial en cada control prenatal es prevención secundaria (diagnóstico precoz). La hipertensión gestacional y la preeclampsia pueden estar presentes antes de que la gestante note síntomas. La toma de presión arterial detecta la elevación en fase asintomática, permitiendo iniciar estudios complementarios y tratamiento antes de que aparezcan complicaciones graves (eclampsia, síndrome HELLP). No es prevención primaria porque no evita la aparición de la hipertensión; la detecta tempranamente.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de preeclampsia.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (detección precoz de trastorno hipertensivo del embarazo).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria para manejo de la eclampsia.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud materna.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "La administración de aspirina a dosis baja (100-150 mg/día) a partir de la semana 12 de gestación está recomendada para mujeres con alto riesgo de preeclampsia (antecedente de preeclampsia previa, hipertensión crónica, diabetes pregestacional, embarazo gemelar o enfermedad renal). Un programa de control prenatal en Cúcuta identifica a las gestantes de riesgo y les prescribe aspirina desde el primer trimestre.\n\n(Redacción Study2One, con referencia a las recomendaciones de la ACOG sobre aspirina en preeclampsia)",
+    "questionText": "La prescripción de aspirina a dosis baja en gestantes de alto riesgo para prevenir la preeclampsia corresponde a:",
+    "explanation": "La aspirina profiláctica en gestantes de alto riesgo es prevención primaria (protección específica). La preeclampsia aún no ha ocurrido; la aspirina actúa en el periodo prepatogénico inhibiendo la producción de tromboxano A2, lo que mejora la perfusión placentaria y reduce el riesgo de desarrollar preeclampsia. Es una medida de protección específica porque se dirige a prevenir una enfermedad definida (preeclampsia) en una población de riesgo identificada, mediante un mecanismo farmacológico concreto.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (protección específica farmacológica contra preeclampsia).", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria porque se aplica a gestantes con factores de riesgo identificados.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria del síndrome HELLP.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud materna.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Un centro de salud mental en Pereira utiliza el PHQ-9 para hacer seguimiento de pacientes con depresión mayor en tratamiento con sertralina. Un paciente que inició con PHQ-9 de 22 (depresión severa) muestra, tras 8 semanas de tratamiento, una puntuación de 8 (síntomas residuales). El psiquiatra decide mantener el antidepresivo a la misma dosis durante al menos 6 meses más para prevenir recaída y programa control mensual.\n\n(Redacción Study2One)",
+    "questionText": "El uso del PHQ-9 para monitoreo de un paciente con depresión en tratamiento y la continuación del antidepresivo para prevenir recaída corresponden a:",
+    "explanation": "El monitoreo de un paciente ya diagnosticado y en tratamiento es prevención terciaria (limitación del daño). La depresión mayor ya fue diagnosticada (enfermedad establecida). El PHQ-9 aquí no funciona como tamizaje (prevención secundaria) sino como herramienta de seguimiento para evaluar respuesta al tratamiento y detectar recaídas. La continuación del antidepresivo busca mantener la remisión y prevenir recurrencias, que es una función de la prevención terciaria: limitar el daño de una enfermedad crónica recurrente.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención secundaria porque se usa un instrumento de tamizaje.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria de recaída depresiva.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (monitoreo y prevención de recurrencia en enfermedad crónica establecida).", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la salud mental.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Un programa de linfedema post-mastectomía en un hospital oncológico de Bogotá incluye un componente preventivo: antes de la cirugía, se educa a todas las pacientes que serán sometidas a vaciamiento axilar sobre medidas para reducir el riesgo de linfedema: evitar venopunciones en el brazo afectado, no cargar peso excesivo, usar guantes para jardinería, hidratar la piel diariamente y realizar ejercicios de drenaje linfático preventivos.\n\n(Redacción Study2One)",
+    "questionText": "La educación preoperatoria sobre prevención de linfedema en pacientes programadas para vaciamiento axilar corresponde a:",
+    "explanation": "La educación preoperatoria para prevenir el linfedema es prevención primaria (protección específica). El linfedema aún no ha ocurrido; las medidas buscan evitar que se desarrolle después de la cirugía. Se actúa en el periodo prepatogénico del linfedema (antes de la obstrucción linfática clínicamente significativa). Las recomendaciones son específicas para prevenir un evento concreto (linfedema) en una población de riesgo definida (pacientes con vaciamiento axilar). Esto contrasta con el manejo del linfedema ya establecido, que sería prevención terciaria.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria (protección específica contra desarrollo de linfedema post-quirúrgico).", "isCorrect": true },
+      { "letter": "B", "text": "Prevención secundaria mediante detección temprana de linfedema.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria para rehabilitación del miembro superior.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud en pacientes oncológicas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Una universidad colombiana implementa la campaña «Dormí Bien, Rendí Mejor» durante la semana de parciales. La campaña incluye: distribución de infografías sobre higiene del sueño en redes sociales, zona de «siesta reparadora» con hamacas en el campus, talleres de respiración 4-7-8 para conciliar el sueño, reducción de la iluminación artificial en bibliotecas después de las 21:00 y oferta de bebidas sin cafeína en las máquinas expendedoras nocturnas. La campaña busca mejorar el bienestar estudiantil durante un periodo de alto estrés.\n\n(Redacción Study2One)",
+    "questionText": "Esta campaña universitaria de sueño saludable es un ejemplo de:",
+    "explanation": "Esta campaña es promoción de la salud. Busca mejorar el bienestar integral de los estudiantes creando condiciones ambientales favorables para el descanso (iluminación reducida, zonas de siesta, bebidas sin cafeína) y desarrollando aptitudes personales (técnicas de relajación). No se dirige a diagnosticar ni prevenir una enfermedad específica (insomnio, trastorno del sueño) sino a promover el bienestar durante un periodo estresante. Corresponde a las áreas de Ottawa «crear entornos que apoyen la salud» y «desarrollar aptitudes personales».",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria de trastornos del sueño.", "isCorrect": false },
+      { "letter": "B", "text": "Promoción de la salud mediante entornos favorables y desarrollo de aptitudes personales.", "isCorrect": true },
+      { "letter": "C", "text": "Prevención secundaria del insomnio académico.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria del estrés crónico estudiantil.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Un programa de cribado de cáncer cervicouterino en un municipio rural del Tolima enfrenta baja cobertura. La secretaría de salud implementa estrategias innovadoras: autotoma vaginal de muestras para prueba de VPH (la mujer se toma la muestra en su hogar con kit entregado por promotora), navegadoras de pacientes que acompañan el proceso de referencia, y alianzas con líderes comunitarios y parteras para sensibilización. La cobertura aumenta del 30 % al 75 % en un año.\n\n(Redacción Study2One)",
+    "questionText": "¿Por qué la estrategia de autotoma mejora la cobertura del tamizaje cervicouterino en zonas rurales?",
+    "explanation": "La autotoma elimina barreras clave que reducen la cobertura del tamizaje cervicouterino en zonas rurales: la necesidad de acudir a un centro de salud (barrera geográfica), la realización de un examen ginecológico por un profesional (barrera cultural y de pudor), la disponibilidad limitada de personal capacitado (barrera de recurso humano) y los horarios de atención (barrera de tiempo). Al llevar la prueba al hogar de la mujer, se reduce la complejidad del proceso y se respeta la autonomía y privacidad. Es una innovación en prevención secundaria que mejora la accesibilidad del tamizaje.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Porque la autotoma es más sensible que la citología convencional.", "isCorrect": false },
+      { "letter": "B", "text": "Porque elimina barreras geográficas, culturales y de recurso humano, llevando el tamizaje al hogar.", "isCorrect": true },
+      { "letter": "C", "text": "Porque la autotoma reemplaza la necesidad de colposcopia.", "isCorrect": false },
+      { "letter": "D", "text": "Porque es una medida de prevención primaria más accesible que la vacunación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Un paciente de 70 años con osteoartritis de cadera fue sometido a reemplazo total de cadera hace 3 meses. Su programa de rehabilitación postoperatoria incluye: fisioterapia para fortalecimiento de abductores de cadera, entrenamiento de marcha con andador y luego con bastón, ejercicios de equilibrio, adaptaciones en el hogar (barras en el baño, elevador de inodoro, silla de ducha) y educación sobre precauciones para evitar luxación de la prótesis (no cruzar las piernas, no flexionar la cadera más de 90°).\n\n(Redacción Study2One)",
+    "questionText": "Este programa de rehabilitación postoperatoria integra:",
+    "explanation": "El programa combina prevención terciaria (rehabilitación) y prevención primaria (prevención de un nuevo evento). La fisioterapia, el entrenamiento de marcha y los ejercicios de equilibrio son prevención terciaria: rehabilitación funcional de una articulación reemplazada para recuperar la movilidad. Las adaptaciones en el hogar y la educación sobre precauciones para evitar luxación protésica son prevención primaria de un evento nuevo (luxación, caída). El programa muestra cómo la rehabilitación suele integrar la prevención de complicaciones secundarias.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Solo prevención primaria de luxación protésica.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención terciaria (rehabilitación funcional) y primaria (prevención de luxación y caídas).", "isCorrect": true },
+      { "letter": "C", "text": "Solo prevención secundaria mediante seguimiento postoperatorio.", "isCorrect": false },
+      { "letter": "D", "text": "Exclusivamente promoción de la movilidad del adulto mayor.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Un programa de prevención del consumo de alcohol en un colegio de Santa Marta incluye dos componentes: (1) Sesiones informativas sobre los efectos neurotóxicos del alcohol en el cerebro adolescente, con datos estadísticos sobre accidentes de tránsito y violencia asociados al consumo; (2) Talleres experienciales de habilidades para la vida: toma de decisiones, comunicación asertiva, resistencia a la presión de pares y construcción de un proyecto de vida saludable.\n\n(Redacción Study2One)",
+    "questionText": "El componente informativo y el componente de habilidades para la vida se clasifican, respectivamente, como:",
+    "explanation": "Las sesiones informativas sobre riesgos específicos del alcohol son prevención primaria: informan sobre un factor de riesgo concreto (consumo de alcohol) para evitar una consecuencia específica (accidentes, violencia, daño cerebral). Los talleres de habilidades para la vida son promoción de la salud: fortalecen competencias generales (toma de decisiones, comunicación, proyecto de vida) que protegen contra múltiples riesgos, no solo el alcohol. La Carta de Ottawa identifica «desarrollar aptitudes personales» como área de acción de la promoción.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Ambos son prevención primaria del consumo de alcohol.", "isCorrect": false },
+      { "letter": "B", "text": "Información sobre riesgos: prevención primaria; Habilidades para la vida: promoción de la salud.", "isCorrect": true },
+      { "letter": "C", "text": "Ambos son promoción de la salud porque se aplican en el entorno escolar.", "isCorrect": false },
+      { "letter": "D", "text": "Información: prevención secundaria; Habilidades: prevención terciaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Una secretaría de salud departamental implementa la administración de aspirina a dosis baja a gestantes con factores de riesgo de preeclampsia. Una estudiante de medicina pregunta: «Si la aspirina se da a una mujer que ya tiene un factor de riesgo (hipertensión crónica), ¿no sería prevención secundaria porque ya existe una condición previa?»\n\n(Redacción Study2One)",
+    "questionText": "¿Por qué la aspirina profiláctica en gestantes de riesgo es prevención primaria y no secundaria?",
+    "explanation": "La distinción clave es que la enfermedad que se busca prevenir (preeclampsia) aún no existe. La hipertensión crónica es un factor de riesgo para desarrollar preeclampsia, pero la preeclampsia es una entidad clínica diferente. La aspirina actúa en el periodo prepatogénico de la preeclampsia, antes de que aparezca la disfunción endotelial placentaria. La prevención secundaria requeriría que la preeclampsia ya estuviera presente en fase subclínica. Tener un factor de riesgo no equivale a tener la enfermedad en su historia natural.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Porque la aspirina es un medicamento de venta libre, no un tratamiento.", "isCorrect": false },
+      { "letter": "B", "text": "Porque la preeclampsia (enfermedad diana) aún no existe; tener un factor de riesgo no equivale a estar en el periodo patogénico.", "isCorrect": true },
+      { "letter": "C", "text": "Porque solo es prevención secundaria si se usa después de la semana 20.", "isCorrect": false },
+      { "letter": "D", "text": "Porque la prevención secundaria solo aplica a enfermedades infecciosas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "Un programa de intervención temprana en un municipio del Huila ofrece estimulación del desarrollo a lactantes identificados con factores de riesgo biológico (prematuridad, bajo peso al nacer, hipoxia perinatal) pero sin retraso detectable en la prueba de Denver II. El programa incluye: masaje infantil, estimulación multisensorial, ejercicios de motricidad gruesa y fina, juego interactivo con cuidadores y seguimiento mensual del neurodesarrollo. Los lactantes que desarrollan retraso durante el seguimiento son derivados a rehabilitación.\n\n(Redacción Study2One)",
+    "questionText": "La estimulación del desarrollo en lactantes con factores de riesgo pero sin retraso detectable corresponde a:",
+    "explanation": "Esta intervención es prevención primaria. Los lactantes tienen factores de riesgo (prematuridad, hipoxia) pero aún no presentan retraso del desarrollo (la prueba de Denver II es normal). Las actividades de estimulación buscan potenciar el neurodesarrollo y evitar que los factores de riesgo se traduzcan en retraso, actuando en el periodo prepatogénico. Si se detecta retraso durante el seguimiento, la derivación a rehabilitación sería entonces prevención secundaria (tratamiento oportuno). La distinción temporal es clave: sin retraso = primaria; con retraso detectado = secundaria.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Prevención secundaria porque los lactantes tienen factores de riesgo.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención primaria (estimulación para evitar el retraso en lactantes de riesgo sin alteración actual).", "isCorrect": true },
+      { "letter": "C", "text": "Prevención terciaria para rehabilitación temprana.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción del desarrollo infantil exclusivamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "Un programa comunitario de prevención de caries en un municipio del Chocó combina tres estrategias: (1) barniz de fluoruro semestral en todos los niños de preescolar, (2) educación sobre cepillado y dieta no cariogénica dirigida a padres y docentes, y (3) gestión ante la empresa de acueducto para fluorar el agua de consumo público del municipio.\n\n(Redacción Study2One)",
+    "questionText": "Las tres estrategias de este programa corresponden a:",
+    "explanation": "Las tres estrategias son prevención primaria (protección específica), pero con diferentes mecanismos y alcances. El barniz de fluoruro es protección específica individual (se aplica directamente sobre los dientes de cada niño). La educación sobre cepillado y dieta es prevención primaria educativa (enseña conductas protectoras contra una enfermedad específica: caries). La fluoración del agua es protección específica poblacional pasiva (toda la comunidad se beneficia sin acción individual). Todas actúan en el periodo prepatogénico de la caries dental.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Barniz: prevención secundaria; educación: promoción; fluoración: prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "Todas son prevención primaria con diferentes mecanismos: protección individual, educación específica y protección poblacional pasiva.", "isCorrect": true },
+      { "letter": "C", "text": "Todas son promoción de la salud oral.", "isCorrect": false },
+      { "letter": "D", "text": "Barniz: prevención terciaria; educación: prevención primaria; fluoración: promoción.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": "Un hospital de segundo nivel implementa la profilaxis de tromboembolismo venoso (TEV) según la escala de Padua. Un residente pregunta: «Si estamos evaluando el riesgo de TEV con una escala de puntuación, ¿no es esto prevención secundaria, como un tamizaje?» El internista supervisor explica la diferencia entre evaluación de riesgo y tamizaje diagnóstico.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la diferencia entre la evaluación de riesgo con la escala de Padua y el tamizaje diagnóstico de una enfermedad?",
+    "explanation": "La escala de Padua evalúa factores de riesgo (inmovilización, cirugía, cáncer, obesidad) para predecir la probabilidad de que ocurra un evento que AÚN NO HA SUCEDIDO (tromboembolismo). Es una herramienta de prevención primaria que estratifica el riesgo para decidir quién recibe profilaxis. En contraste, un tamizaje diagnóstico (prevención secundaria) busca detectar una enfermedad que YA EXISTE en fase subclínica (por ejemplo, un eco-Doppler para detectar TVP asintomática). La diferencia fundamental: la evaluación de riesgo predice; el tamizaje detecta.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "No hay diferencia; ambos son prevención secundaria.", "isCorrect": false },
+      { "letter": "B", "text": "La evaluación de riesgo predice un evento futuro (prevención primaria); el tamizaje detecta una enfermedad ya presente (prevención secundaria).", "isCorrect": true },
+      { "letter": "C", "text": "La evaluación de riesgo es promoción; el tamizaje es prevención terciaria.", "isCorrect": false },
+      { "letter": "D", "text": "Ambos son prevención primaria porque se aplican a personas sin síntomas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": "Un centro de salud en Pasto implementa un plan de acción del asma para un niño de 8 años con asma moderada persistente. El plan incluye: beclometasona inhalada 200 mcg/día como controlador, salbutamol de rescate, monitoreo domiciliario con flujómetro (peak flow), instrucciones escritas por zonas (verde-amarilla-roja) y cita de seguimiento cada 3 meses. La madre recibe entrenamiento en técnica inhalatoria con espaciador.\n\n(Redacción Study2One)",
+    "questionText": "¿Por qué el plan de acción del asma se clasifica como prevención terciaria y no como prevención primaria, si busca «prevenir» crisis asmáticas?",
+    "explanation": "Aunque el plan busca «prevenir» exacerbaciones, la enfermedad de base (asma) ya está diagnosticada y es crónica. El modelo de Leavell y Clark clasifica según la historia natural: el paciente ya está en el periodo patogénico (tiene inflamación crónica de las vías aéreas). Las intervenciones buscan limitar el daño (controlar la inflamación, prevenir remodelamiento bronquial) y mantener la funcionalidad (que el niño pueda hacer ejercicio y actividades normales). «Prevenir complicaciones de una enfermedad ya existente» es prevención terciaria, no primaria. La prevención primaria del asma sería evitar la sensibilización alérgica antes de que se desarrolle la enfermedad.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Porque «prevenir crisis» y «prevenir la enfermedad» son conceptos idénticos.", "isCorrect": false },
+      { "letter": "B", "text": "Porque el asma ya está diagnosticada y las intervenciones buscan limitar el daño de una enfermedad crónica establecida.", "isCorrect": true },
+      { "letter": "C", "text": "Porque solo es prevención terciaria si incluye hospitalización.", "isCorrect": false },
+      { "letter": "D", "text": "Porque el plan de acción es una medida educativa, y toda educación es prevención terciaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": "Un programa de prevención de lesiones por tránsito en un municipio del Tolima incluye: (1) señalización de zonas escolares con reductores de velocidad y semáforos peatonales, (2) campaña «Cero tolerancia al alcohol al volante» con alcoholimetrías aleatorias, (3) curso obligatorio de primeros auxilios para conductores que renuevan su licencia, y (4) exigencia de uso de casco certificado para motociclistas con sanción económica por incumplimiento.\n\n(Redacción Study2One)",
+    "questionText": "De las cuatro medidas, ¿cuáles son prevención primaria y cuáles podrían incluir elementos de otros niveles?",
+    "explanation": "Las medidas 1 (zonas escolares), 2 (alcoholimetrías) y 4 (casco obligatorio) son prevención primaria: actúan antes del accidente para evitarlo (infraestructura segura, eliminación de factor de riesgo «alcohol al volante», protección específica «casco»). La medida 3 (primeros auxilios) es mixta: si un conductor no ha presenciado un accidente, aprender primeros auxilios no previene la lesión sino que prepara para la atención inmediata post-evento, lo cual es limitación del daño (prevención terciaria). El programa combina predominantemente prevención primaria con un componente de preparación para la respuesta.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Las cuatro son prevención primaria.", "isCorrect": false },
+      { "letter": "B", "text": "1, 2 y 4 son prevención primaria; 3 prepara para atención post-evento (limitación del daño).", "isCorrect": true },
+      { "letter": "C", "text": "Todas son promoción de la seguridad vial.", "isCorrect": false },
+      { "letter": "D", "text": "1 y 2 son promoción; 3 y 4 son prevención secundaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": "Un programa de tamizaje de plomo en un barrio cercano a una antigua fundidora en Cartagena detecta que 15 niños tienen niveles de plomo en sangre entre 5 y 15 μg/dL (por encima del nivel de referencia del CDC de 3.5 μg/dL). La intervención incluye: evaluación ambiental de las viviendas para identificar fuentes de plomo (pintura, suelo contaminado), remediación ambiental (remoción de pintura con plomo, pavimentación de patios con suelo contaminado), asesoría nutricional (dieta rica en hierro, calcio y vitamina C que reduce la absorción de plomo) y seguimiento de niveles sanguíneos cada 3 meses.\n\n(Redacción Study2One)",
+    "questionText": "La remediación ambiental y la asesoría nutricional en niños con plomo elevado se clasifican como:",
+    "explanation": "La remediación ambiental (eliminar fuentes de plomo) en niños ya expuestos es prevención secundaria/terciaria: busca interrumpir la exposición continua (tratamiento oportuno) y evitar mayor acumulación del tóxico (limitación del daño). La asesoría nutricional (dieta rica en hierro y calcio) también es limitación del daño: reduce la absorción intestinal de plomo para minimizar el daño futuro. Aunque los niños no tienen síntomas clínicos, la intoxicación subclínica ya existe (niveles elevados de plomo). Las intervenciones buscan detener la progresión y evitar secuelas neurocognitivas.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria porque se eliminan fuentes de exposición.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria (interrumpir exposición) y terciaria (limitar daño en intoxicación subclínica establecida).", "isCorrect": true },
+      { "letter": "C", "text": "Exclusivamente promoción de la salud ambiental.", "isCorrect": false },
+      { "letter": "D", "text": "Prevención terciaria exclusivamente porque los niños ya están intoxicados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "Un municipio costero del Atlántico implementa una campaña de promoción del uso de casco en motociclistas. La campaña incluye: convenios con fabricantes para cascos a mitad de precio, distribución de cascos gratuitos a mototaxistas, talleres demostrativos con simulación de impacto (cascos con y sin certificación), alianzas con influenciadores locales para difusión en redes sociales, y operativos de tránsito con enfoque educativo (charla en vez de multa para la primera infracción).\n\n(Redacción Study2One)",
+    "questionText": "La diferencia fundamental entre la campaña de promoción del casco y la ley que obliga su uso es que:",
+    "explanation": "La ley de uso obligatorio de casco es una medida regulatoria de prevención primaria: impone la conducta protectora mediante sanción legal, actuando independientemente de la voluntad del individuo. La campaña de promoción del casco busca que las personas adopten voluntariamente el uso del casco mediante acceso económico, demostración de evidencia y norma social. Ambas son prevención primaria (protección específica contra trauma craneoencefálico), pero difieren en el mecanismo: regulación coercitiva vs. persuasión educativa y facilitación del acceso.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "La campaña es promoción de la salud y la ley es prevención terciaria.", "isCorrect": false },
+      { "letter": "B", "text": "Ambas son prevención primaria pero difieren en el mecanismo: la ley impone mediante regulación, la campaña persuade y facilita el acceso.", "isCorrect": true },
+      { "letter": "C", "text": "La campaña es prevención secundaria porque educa sobre el riesgo.", "isCorrect": false },
+      { "letter": "D", "text": "La ley es promoción de la salud porque beneficia a toda la población.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": "Un programa de prediabetes en un hospital de Cali sigue a 500 pacientes durante 3 años con el protocolo intensivo de cambio de estilo de vida (DPP). Al finalizar el seguimiento, el 42 % de los participantes logró la meta de pérdida de peso (≥ 5 %), y en ese grupo la incidencia de diabetes tipo 2 se redujo en un 58 % comparado con el grupo control que solo recibió recomendaciones generales. Un paciente pregunta: «Si yo ya tengo el azúcar alta, ¿no es demasiado tarde para prevenir?»\n\n(Redacción Study2One, con referencia al Diabetes Prevention Program, NEJM 2002)",
+    "questionText": "La respuesta correcta al paciente es:",
+    "explanation": "La prediabetes es un factor de riesgo cuantificable, no una enfermedad establecida. La diabetes tipo 2 se diagnostica con glucemia en ayunas ≥ 126 mg/dL o HbA1c ≥ 6.5 %; la prediabetes (100-125 mg/dL o HbA1c 5.7-6.4 %) indica resistencia a la insulina pero no cumple criterios diagnósticos de diabetes. En el modelo de Leavell y Clark, el paciente con prediabetes está en el periodo prepatogénico de la diabetes tipo 2: tiene factores de riesgo pero no la enfermedad. La intervención sobre estilo de vida es prevención primaria que puede revertir la trayectoria metabólica.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Es demasiado tarde; la prediabetes es el inicio de la diabetes y solo queda tratarla.", "isCorrect": false },
+      { "letter": "B", "text": "La prediabetes es un factor de riesgo, no una enfermedad establecida; los cambios de estilo de vida pueden evitar la progresión a diabetes.", "isCorrect": true },
+      { "letter": "C", "text": "La prevención solo funciona en personas con glucemia completamente normal.", "isCorrect": false },
+      { "letter": "D", "text": "La prediabetes es una enfermedad irreversible que requiere medicación de por vida.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": "Un servicio de obstetricia en Bucaramanga implementa el protocolo de manejo activo del tercer periodo del parto. La enfermera jefe observa que algunos médicos residentes omiten el masaje uterino posalumbramiento. Diseña un checklist de verificación y capacitación práctica. Tras la implementación, la tasa de hemorragia posparto disminuye del 12 % al 4 % en seis meses.\n\n(Redacción Study2One)",
+    "questionText": "La implementación de un checklist para garantizar el cumplimiento del manejo activo del alumbramiento es un ejemplo de:",
+    "explanation": "El checklist es una estrategia de mejoramiento de la calidad que asegura el cumplimiento de una intervención de prevención primaria (manejo activo del alumbramiento). No cambia el nivel de prevención de la intervención: sigue siendo prevención primaria (protección específica contra HPP). El checklist actúa como una barrera contra el error humano (omisión de pasos) y es análogo a los «bundles» de seguridad del paciente. La mejora en la adherencia al protocolo se traduce directamente en reducción de la incidencia de HPP.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Promoción de la salud materna institucional.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria mediante detección temprana de hemorragia.", "isCorrect": false },
+      { "letter": "C", "text": "Herramienta de calidad para mejorar la adherencia a una medida de prevención primaria.", "isCorrect": true },
+      { "letter": "D", "text": "Prevención terciaria del choque hemorrágico.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": "Un programa de tamizaje de plomo en sangre en un municipio colombiano detecta que un niño de 3 años tiene un nivel de 25 μg/dL. Se inicia terapia de quelación con succimer (DMSA) oral durante 19 días, se realiza evaluación neuropsicológica (que muestra coeficiente intelectual en el límite inferior de lo normal) y se programa seguimiento con neuropediatría. Simultáneamente, inspectores de salud ambiental identifican que la fuente de exposición es una fábrica informal de baterías a 100 metros de la vivienda.\n\n(Redacción Study2One)",
+    "questionText": "La terapia de quelación y el seguimiento neuropsicológico en este niño corresponden a:",
+    "explanation": "La quelación y el seguimiento neuropsicológico son prevención terciaria (limitación del daño y rehabilitación). La intoxicación por plomo ya causó acumulación significativa del metal (nivel alto) y posible afectación neurocognitiva (CI limítrofe). La quelación busca reducir la carga corporal de plomo para limitar el daño adicional. La evaluación neuropsicológica y el seguimiento neuropediátrico buscan identificar y rehabilitar las secuelas cognitivas. La identificación de la fuente (fábrica de baterías) permite una intervención ambiental que previene exposición futura (prevención primaria para otros niños).",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Prevención primaria porque se elimina el tóxico del organismo.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención secundaria porque se detectó por tamizaje.", "isCorrect": false },
+      { "letter": "C", "text": "Prevención terciaria (limitación del daño por intoxicación establecida y seguimiento de secuelas).", "isCorrect": true },
+      { "letter": "D", "text": "Promoción de la salud infantil.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": "Un paciente de 55 años con prediabetes (HbA1c 6.2 %) y un paciente de 55 años con diabetes tipo 2 recién diagnosticada (HbA1c 7.1 %) reciben recomendaciones idénticas de cambio de estilo de vida: dieta mediterránea, 150 minutos de ejercicio aeróbico semanal, pérdida de peso del 5-7 % y reducción del estrés. Sin embargo, según Leavell y Clark, estas recomendaciones se clasifican en niveles de prevención diferentes.\n\n(Redacción Study2One)",
+    "questionText": "¿Cómo se clasifican las mismas recomendaciones de estilo de vida en estos dos pacientes?",
+    "explanation": "En el paciente con prediabetes, las recomendaciones son prevención primaria: la diabetes tipo 2 aún no existe y se busca evitar su aparición (periodo prepatogénico). En el paciente con diabetes diagnosticada, las mismas recomendaciones son prevención terciaria: la enfermedad ya está establecida y los cambios de estilo de vida buscan controlar la glucemia, prevenir complicaciones y mejorar la calidad de vida (limitación del daño). Este ejemplo muestra que la misma intervención puede clasificarse en diferentes niveles según la posición del paciente en la historia natural de la enfermedad.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Ambos son prevención primaria porque las recomendaciones son idénticas.", "isCorrect": false },
+      { "letter": "B", "text": "Prediabetes: prevención primaria (evitar la enfermedad); Diabetes diagnosticada: prevención terciaria (controlar la enfermedad existente).", "isCorrect": true },
+      { "letter": "C", "text": "Ambos son prevención terciaria porque ambos tienen alteración metabólica.", "isCorrect": false },
+      { "letter": "D", "text": "Ambos son promoción de la salud porque son recomendaciones generales de estilo de vida.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "Una enfermera de rehabilitación en Bogotá atiende a una paciente de 48 años con linfedema crónico del brazo derecho estadio II (con fibrosis subcutánea) post-mastectomía realizada hace 2 años. La paciente ha experimentado tres episodios de celulitis en el último año. La enfermera implementa: terapia descongestiva compleja de mantenimiento (drenaje linfático manual semanal + manga compresiva clase II), educación reforzada sobre cuidados de la piel (hidratación, evitar heridas, usar guantes para lavar platos) y protocolo de antibioticoterapia temprana ante cualquier signo de celulitis.\n\n(Redacción Study2One)",
+    "questionText": "El manejo de esta paciente con linfedema crónico y celulitis recurrente integra:",
+    "explanation": "El programa integra múltiples niveles sobre diferentes eventos. La terapia descongestiva y la manga compresiva son prevención terciaria del linfedema (rehabilitación y control de una secuela crónica). Los cuidados de la piel y el uso de guantes son prevención primaria de celulitis (evitar un nuevo evento infeccioso actuando sobre factores de riesgo). El protocolo de antibioticoterapia temprana ante signos de celulitis es prevención secundaria (tratamiento oportuno de una infección detectada en fase inicial). Un mismo paciente puede requerir los tres niveles simultáneamente para diferentes condiciones.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Solo prevención terciaria del linfedema.", "isCorrect": false },
+      { "letter": "B", "text": "Prevención terciaria del linfedema, primaria de celulitis (cuidados piel) y secundaria de celulitis (tratamiento temprano).", "isCorrect": true },
+      { "letter": "C", "text": "Solo prevención primaria porque todas las medidas buscan evitar complicaciones.", "isCorrect": false },
+      { "letter": "D", "text": "Promoción de la salud del sistema linfático.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": "Una empresa siderúrgica en Boyacá realiza monitoreo de ruido ambiental y encuentra que el área de laminación tiene niveles de 98 dB(A). El programa de conservación auditiva incluye: encerramiento acústico de la laminadora (reduce el ruido a 82 dB), protectores auditivos tipo orejera para los trabajadores del área mientras se completa el encerramiento, audiometría basal al ingreso y anual para todos los trabajadores expuestos, y capacitación sobre los efectos del ruido y el uso correcto de protectores.\n\n(Redacción Study2One)",
+    "questionText": "En la jerarquía de controles de riesgos ocupacionales, ¿por qué el encerramiento acústico es preferible al uso de protectores auditivos individuales?",
+    "explanation": "Según la jerarquía de controles ocupacionales (eliminación > sustitución > controles de ingeniería > controles administrativos > EPP), los controles de ingeniería (como el encerramiento acústico) son superiores a los equipos de protección personal (orejeras) porque: actúan sobre la fuente del riesgo (no dependen de la conducta individual), protegen a todos los trabajadores del área simultáneamente, no requieren uso correcto ni constante, y su efectividad no se reduce por factores humanos (incomodidad, olvido). Los EPP son la última línea de defensa y dependen de la adherencia individual.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Porque el encerramiento es más económico que comprar protectores para todos.", "isCorrect": false },
+      { "letter": "B", "text": "Porque actúa sobre la fuente del riesgo, protege a todos sin depender de la conducta individual y no se reduce por factores humanos.", "isCorrect": true },
+      { "letter": "C", "text": "Porque los protectores auditivos no reducen el ruido.", "isCorrect": false },
+      { "letter": "D", "text": "Porque el encerramiento es una medida de prevención terciaria más efectiva.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": "Un centro de rehabilitación cardíaca en Cali atiende a un paciente de 58 años post-infarto agudo de miocardio (IAM) con fracción de eyección del 40 %. El programa incluye: ejercicio aeróbico supervisado progresivo (caminadora, bicicleta estática), entrenamiento de fuerza de baja intensidad, educación sobre dieta cardiosaludable (DASH), apoyo psicológico para depresión post-IAM, consejería para cesación tabáquica y titulación de medicamentos (betabloqueador, IECA, estatina, aspirina).\n\n(Redacción Study2One)",
+    "questionText": "En este paciente post-IAM, la cesación tabáquica tiene una clasificación especial en Leavell y Clark porque:",
+    "explanation": "En un paciente post-IAM, la cesación tabáquica cumple una doble función: es prevención terciaria del IAM (el evento ya ocurrió y se busca prevenir un segundo infarto limitando los factores que contribuyen a la progresión de la aterosclerosis) y prevención primaria de cáncer de pulmón y EPOC (enfermedades que aún no existen). Una misma intervención puede actuar en diferentes niveles de prevención simultáneamente según la enfermedad que se considere. En el contexto de la rehabilitación cardíaca, predomina su papel como prevención terciaria cardiovascular.",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "Es siempre prevención primaria, independientemente del contexto clínico.", "isCorrect": false },
+      { "letter": "B", "text": "Es prevención terciaria cardiovascular (prevenir recurrencia) y simultáneamente prevención primaria de cáncer y EPOC.", "isCorrect": true },
+      { "letter": "C", "text": "Es prevención secundaria porque el paciente ya tiene enfermedad cardiovascular.", "isCorrect": false },
+      { "letter": "D", "text": "Es exclusivamente promoción de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": "Clasifique las siguientes intervenciones según el nivel de prevención de Leavell y Clark:\n\nA) Barniz de fluoruro en preescolares\nB) Tamizaje de depresión con PHQ-9 en atención primaria\nC) Plan de acción del asma en paciente diagnosticado\nD) Manejo activo del tercer periodo del parto\nE) Rehabilitación de linfedema post-mastectomía\n\n(Redacción Study2One)",
+    "questionText": "La clasificación correcta de estas cinco intervenciones es:",
+    "explanation": "A) Barniz de fluoruro: prevención primaria (protección específica contra caries, periodo prepatogénico). B) PHQ-9 en atención primaria: prevención secundaria (tamizaje para detección precoz de depresión no diagnosticada). C) Plan de acción del asma: prevención terciaria (limitación del daño en enfermedad crónica establecida). D) Manejo activo del alumbramiento: prevención primaria (protección específica contra HPP, antes de que ocurra). E) Rehabilitación de linfedema: prevención terciaria (rehabilitación de secuela post-quirúrgica crónica).",
+    "competency": "niveles_leavell_clark",
+    "options": [
+      { "letter": "A", "text": "A=primaria, B=secundaria, C=terciaria, D=primaria, E=terciaria.", "isCorrect": true },
+      { "letter": "B", "text": "Todas son prevención primaria porque buscan evitar complicaciones.", "isCorrect": false },
+      { "letter": "C", "text": "A=promoción, B=primaria, C=secundaria, D=terciaria, E=promoción.", "isCorrect": false },
+      { "letter": "D", "text": "A=secundaria, B=terciaria, C=primaria, D=secundaria, E=primaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": "Un sistema de salud departamental analiza su inversión en prevención y encuentra que destina el 80 % del presupuesto a atención curativa y rehabilitación, el 15 % a prevención secundaria (tamizajes) y solo el 5 % a prevención primaria y promoción de la salud. Un consultor de salud pública recomienda rebalancear la inversión hacia los niveles más tempranos de intervención.\n\n(Redacción Study2One)",
+    "questionText": "La recomendación de invertir más en prevención primaria y promoción se fundamenta en que:",
+    "explanation": "Los niveles más tempranos de intervención (promoción y prevención primaria) son más costo-efectivos porque: actúan antes de que la enfermedad cause sufrimiento y discapacidad, benefician a poblaciones completas (no solo a enfermos diagnosticados), evitan los costos exponenciales del tratamiento y la rehabilitación, y abordan los determinantes de la salud (condiciones sociales, ambientales, conductuales) que generan múltiples enfermedades. Un peso invertido en prevención primaria ahorra múltiples pesos en atención curativa. Sin embargo, no se trata de eliminar la atención curativa sino de lograr un balance más equitativo entre niveles.",
+    "competency": "promocion_vs_prevencion",
+    "options": [
+      { "letter": "A", "text": "Porque la atención curativa y la rehabilitación son ineficaces y deberían eliminarse.", "isCorrect": false },
+      { "letter": "B", "text": "Porque las intervenciones tempranas son más costo-efectivas, benefician a poblaciones completas y actúan sobre los determinantes de la enfermedad.", "isCorrect": true },
+      { "letter": "C", "text": "Porque la OMS prohíbe invertir más del 50 % en atención curativa.", "isCorrect": false },
+      { "letter": "D", "text": "Porque los tamizajes son más importantes que el tratamiento en todos los casos.", "isCorrect": false }
+    ]
+  }
+]

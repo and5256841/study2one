@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "El sistema de vigilancia epidemiológica de un país registró los eventos supuestamente atribuibles a vacunación e inmunización (ESAVI) durante una campaña masiva de vacunación contra influenza en 2024:\n\n| Tipo de ESAVI | Casos reportados | Total de dosis aplicadas |\n|---------------|-----------------|-------------------------|\n| Dolor local   | 4.200           | 600.000                 |\n| Fiebre leve   | 1.800           | 600.000                 |\n| Cefalea       | 1.200           | 600.000                 |\n| Reacción alérgica leve | 180    | 600.000                 |\n| Anafilaxia    | 6               | 600.000                 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la tasa de ESAVI por cada 10.000 dosis aplicadas para el dolor local?",
+    "explanation": "Tasa de dolor local = (4.200 / 600.000) × 10.000 = 70 por cada 10.000 dosis.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "42 por cada 10.000 dosis", "isCorrect": false },
+      { "letter": "B", "text": "70 por cada 10.000 dosis", "isCorrect": true },
+      { "letter": "C", "text": "7 por cada 10.000 dosis", "isCorrect": false },
+      { "letter": "D", "text": "700 por cada 10.000 dosis", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "Con base en la tabla de ESAVI, ¿cuál es la tasa de anafilaxia por cada 100.000 dosis aplicadas?",
+    "explanation": "Tasa de anafilaxia = (6 / 600.000) × 100.000 = 1,0 por cada 100.000 dosis.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "0,1 por cada 100.000 dosis", "isCorrect": false },
+      { "letter": "B", "text": "0,6 por cada 100.000 dosis", "isCorrect": false },
+      { "letter": "C", "text": "1,0 por cada 100.000 dosis", "isCorrect": true },
+      { "letter": "D", "text": "6,0 por cada 100.000 dosis", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": null,
+    "questionText": "Un funcionario de salud pública afirma que «la vacuna es insegura porque se reportaron más de 7.000 ESAVI». Con base en los datos de la tabla, ¿cuál es la evaluación más adecuada de esta afirmación?",
+    "explanation": "Total de ESAVI = 4.200 + 1.800 + 1.200 + 180 + 6 = 7.386. Sin embargo, la tasa total es 7.386/600.000 = 1,23 %, y la gran mayoría (97 %) fueron eventos leves (dolor local, fiebre, cefalea). Los eventos graves (anafilaxia) representan solo 6 de 600.000 dosis. La cifra absoluta sin contexto de la tasa y la severidad es engañosa.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta porque 7.386 casos es un número elevado que demuestra inseguridad.", "isCorrect": false },
+      { "letter": "B", "text": "Es engañosa porque no considera que la tasa global de ESAVI es de 1,23 % y que el 97 % de los eventos fueron leves.", "isCorrect": true },
+      { "letter": "C", "text": "Es incorrecta porque no hubo ningún caso de anafilaxia.", "isCorrect": false },
+      { "letter": "D", "text": "Es irrelevante porque los ESAVI no tienen relación con la seguridad vacunal.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Un registro oncológico compiló las tasas de supervivencia a 5 años (en porcentaje) para cáncer de mama según el estadio al momento del diagnóstico, en dos períodos:\n\n| Estadio al diagnóstico | 2010-2014 | 2015-2019 |\n|------------------------|-----------|-----------|\n| Estadio I              | 88 %      | 93 %      |\n| Estadio II             | 72 %      | 79 %      |\n| Estadio III            | 48 %      | 55 %      |\n| Estadio IV             | 15 %      | 20 %      |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿En cuál estadio se observó el mayor incremento absoluto en la tasa de supervivencia a 5 años entre los dos períodos?",
+    "explanation": "Incrementos absolutos: Estadio I: 93 − 88 = 5 pp. Estadio II: 79 − 72 = 7 pp. Estadio III: 55 − 48 = 7 pp. Estadio IV: 20 − 15 = 5 pp. Los estadios II y III comparten el mayor incremento absoluto (7 puntos porcentuales).",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Estadio I, con un aumento de 5 puntos porcentuales.", "isCorrect": false },
+      { "letter": "B", "text": "Estadio II, con un aumento de 7 puntos porcentuales.", "isCorrect": true },
+      { "letter": "C", "text": "Estadio III, con un aumento de 3 puntos porcentuales.", "isCorrect": false },
+      { "letter": "D", "text": "Estadio IV, con un aumento de 10 puntos porcentuales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": null,
+    "questionText": "¿En cuál estadio se produjo el mayor incremento relativo de la tasa de supervivencia a 5 años entre los dos períodos?",
+    "explanation": "Incremento relativo = (incremento absoluto / valor inicial) × 100. Estadio I: (5/88)×100 = 5,7 %. Estadio II: (7/72)×100 = 9,7 %. Estadio III: (7/48)×100 = 14,6 %. Estadio IV: (5/15)×100 = 33,3 %. El estadio IV tiene el mayor incremento relativo (33,3 %).",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "Estadio I, con un incremento relativo de 5,7 %.", "isCorrect": false },
+      { "letter": "B", "text": "Estadio II, con un incremento relativo de 9,7 %.", "isCorrect": false },
+      { "letter": "C", "text": "Estadio III, con un incremento relativo de 14,6 %.", "isCorrect": false },
+      { "letter": "D", "text": "Estadio IV, con un incremento relativo de 33,3 %.", "isCorrect": true }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": null,
+    "questionText": "Un investigador concluye que «dado que la supervivencia en estadio IV mejoró más que en cualquier otro estadio, los recursos se deben priorizar en el tratamiento de casos avanzados». ¿Cuál es la evaluación más acertada?",
+    "explanation": "Si bien el incremento relativo en estadio IV fue el mayor (33,3 %), la supervivencia sigue siendo baja (20 %). En contraste, la detección temprana (estadios I y II) ofrece tasas de supervivencia de 93 % y 79 %. Priorizar solo el tratamiento de estadios avanzados ignora que la prevención y el diagnóstico temprano producen resultados clínicos mucho más favorables.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta porque el estadio IV mostró la mayor mejora relativa.", "isCorrect": false },
+      { "letter": "B", "text": "Es parcialmente válida, pero ignora que la supervivencia en estadio IV sigue siendo baja (20 %) y que invertir en detección temprana puede tener mayor impacto poblacional.", "isCorrect": true },
+      { "letter": "C", "text": "Es incorrecta porque la supervivencia en estadio IV no mejoró.", "isCorrect": false },
+      { "letter": "D", "text": "Es correcta porque todos los recursos deben destinarse a pacientes terminales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Un informe de la Organización Mundial de la Salud comparó el gasto en salud mental como porcentaje del presupuesto total de salud en cinco países de América Latina:\n\n| País | Presupuesto de salud (millones USD) | % destinado a salud mental | Población (millones) |\n|------|-------------------------------------|---------------------------|---------------------|\n| País A | 12.000 | 2,1 % | 50 |\n| País B | 8.500 | 3,5 % | 32 |\n| País C | 5.200 | 1,8 % | 18 |\n| País D | 15.000 | 1,2 % | 45 |\n| País E | 3.800 | 4,0 % | 11 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál país destina el mayor monto absoluto a salud mental?",
+    "explanation": "Monto absoluto destinado a salud mental: País A: 12.000 × 0,021 = 252 millones. País B: 8.500 × 0,035 = 297,5 millones. País C: 5.200 × 0,018 = 93,6 millones. País D: 15.000 × 0,012 = 180 millones. País E: 3.800 × 0,040 = 152 millones. El País B destina el mayor monto absoluto (297,5 millones).",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "País A, con 252 millones de USD.", "isCorrect": false },
+      { "letter": "B", "text": "País B, con 297,5 millones de USD.", "isCorrect": true },
+      { "letter": "C", "text": "País D, con 180 millones de USD.", "isCorrect": false },
+      { "letter": "D", "text": "País E, con 152 millones de USD.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "¿Cuál país invierte más en salud mental por habitante (gasto per cápita)?",
+    "explanation": "Gasto per cápita en salud mental: País A: 252/50 = 5,04 USD. País B: 297,5/32 = 9,30 USD. País C: 93,6/18 = 5,20 USD. País D: 180/45 = 4,00 USD. País E: 152/11 = 13,82 USD. El País E tiene el mayor gasto per cápita en salud mental (13,82 USD).",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "País B, con 9,30 USD per cápita.", "isCorrect": false },
+      { "letter": "B", "text": "País E, con 13,82 USD per cápita.", "isCorrect": true },
+      { "letter": "C", "text": "País A, con 5,04 USD per cápita.", "isCorrect": false },
+      { "letter": "D", "text": "País D, con 4,00 USD per cápita.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Un comité de control de infecciones monitoreó el consumo de antimicrobianos en un hospital durante 6 meses, expresado en dosis diarias definidas (DDD) por cada 1.000 habitantes-día:\n\n| Mes | Ene | Feb | Mar | Abr | May | Jun |\n|-----|-----|-----|-----|-----|-----|-----|\n| DDD/1.000 hab-día | 22,4 | 24,1 | 26,8 | 25,3 | 28,5 | 30,2 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es el incremento porcentual del consumo de antimicrobianos entre enero y junio?",
+    "explanation": "Incremento porcentual = ((30,2 − 22,4) / 22,4) × 100 = (7,8 / 22,4) × 100 = 34,8 %.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "25,0 %", "isCorrect": false },
+      { "letter": "B", "text": "30,2 %", "isCorrect": false },
+      { "letter": "C", "text": "34,8 %", "isCorrect": true },
+      { "letter": "D", "text": "7,8 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": null,
+    "questionText": "¿Cuál es la media aritmética del consumo mensual de antimicrobianos durante el semestre?",
+    "explanation": "Media = (22,4 + 24,1 + 26,8 + 25,3 + 28,5 + 30,2) / 6 = 157,3 / 6 = 26,22 DDD/1.000 hab-día.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "24,80 DDD/1.000 hab-día", "isCorrect": false },
+      { "letter": "B", "text": "26,05 DDD/1.000 hab-día", "isCorrect": false },
+      { "letter": "C", "text": "26,22 DDD/1.000 hab-día", "isCorrect": true },
+      { "letter": "D", "text": "27,50 DDD/1.000 hab-día", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": null,
+    "questionText": "El comité concluye que «el aumento sostenido en el consumo de antimicrobianos se debe exclusivamente a un brote infeccioso». ¿Cuál evaluación es más apropiada?",
+    "explanation": "Aunque la tendencia creciente es evidente, atribuirla exclusivamente a un brote infeccioso es una conclusión precipitada. El aumento puede deberse a múltiples factores: prescripción inadecuada, aumento de cirugías electivas, cambio en la casuística hospitalaria o incluso errores de registro. Se necesitarían datos complementarios (diagnósticos, cultivos) para confirmar la causa.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta porque el aumento continuo solo puede explicarse por un brote.", "isCorrect": false },
+      { "letter": "B", "text": "Es incorrecta porque el consumo de antimicrobianos no aumentó.", "isCorrect": false },
+      { "letter": "C", "text": "Es insuficiente porque el aumento puede deberse a múltiples factores y se requieren datos adicionales para identificar la causa.", "isCorrect": true },
+      { "letter": "D", "text": "Es correcta porque un aumento de 34,8 % siempre indica un brote infeccioso.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Un estudio sobre obesidad infantil midió el índice de masa corporal (IMC) promedio en niños de 6 a 12 años en una ciudad colombiana entre 2015 y 2024:\n\n| Año  | IMC promedio (niños) | IMC promedio (niñas) |\n|------|---------------------|---------------------|\n| 2015 | 17,2                | 16,8                |\n| 2017 | 17,8                | 17,3                |\n| 2019 | 18,5                | 17,9                |\n| 2021 | 19,4                | 18,6                |\n| 2024 | 20,1                | 19,3                |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál fue el incremento absoluto del IMC promedio en niños entre 2015 y 2024?",
+    "explanation": "Incremento absoluto en niños = 20,1 − 17,2 = 2,9 puntos de IMC.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "2,5 puntos de IMC", "isCorrect": false },
+      { "letter": "B", "text": "2,9 puntos de IMC", "isCorrect": true },
+      { "letter": "C", "text": "3,3 puntos de IMC", "isCorrect": false },
+      { "letter": "D", "text": "1,9 puntos de IMC", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": null,
+    "questionText": "Si la tendencia lineal observada entre 2015 y 2024 se mantuviera para los niños, ¿cuál sería el IMC promedio estimado para 2027?",
+    "explanation": "Entre 2015 y 2024 (9 años), el IMC de niños aumentó de 17,2 a 20,1, es decir 2,9 puntos en 9 años. Tasa anual = 2,9/9 ≈ 0,322 puntos/año. De 2024 a 2027 son 3 años: 20,1 + 3 × 0,322 = 20,1 + 0,97 ≈ 21,1.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "20,5", "isCorrect": false },
+      { "letter": "B", "text": "21,1", "isCorrect": true },
+      { "letter": "C", "text": "22,0", "isCorrect": false },
+      { "letter": "D", "text": "19,8", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": null,
+    "questionText": "¿En cuál bienio se observó el mayor incremento del IMC promedio en niñas?",
+    "explanation": "Incrementos bienales en niñas: 2015-2017: 17,3 − 16,8 = 0,5. 2017-2019: 17,9 − 17,3 = 0,6. 2019-2021: 18,6 − 17,9 = 0,7. 2021-2024 (3 años): 19,3 − 18,6 = 0,7. El mayor incremento en un período bienal fue 0,7, correspondiente a 2019-2021.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "2015-2017, con 0,5 puntos.", "isCorrect": false },
+      { "letter": "B", "text": "2017-2019, con 0,6 puntos.", "isCorrect": false },
+      { "letter": "C", "text": "2019-2021, con 0,7 puntos.", "isCorrect": true },
+      { "letter": "D", "text": "2015-2017, con 0,8 puntos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "Un hospital de tercer nivel analizó las tasas de reingreso hospitalario a 30 días según diagnóstico principal en 2024:\n\n| Diagnóstico principal | Egresos totales | Reingresos a 30 días |\n|----------------------|----------------|---------------------|\n| Insuficiencia cardíaca | 420 | 84 |\n| EPOC exacerbado | 310 | 56 |\n| Neumonía | 280 | 31 |\n| Infección urinaria | 200 | 18 |\n| Diabetes descompensada | 350 | 63 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál diagnóstico presenta la mayor tasa de reingreso a 30 días?",
+    "explanation": "Tasas de reingreso: Insuficiencia cardíaca: (84/420)×100 = 20,0 %. EPOC: (56/310)×100 = 18,1 %. Neumonía: (31/280)×100 = 11,1 %. Infección urinaria: (18/200)×100 = 9,0 %. Diabetes: (63/350)×100 = 18,0 %. La insuficiencia cardíaca tiene la mayor tasa de reingreso (20,0 %).",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "EPOC exacerbado, con 18,1 %.", "isCorrect": false },
+      { "letter": "B", "text": "Insuficiencia cardíaca, con 20,0 %.", "isCorrect": true },
+      { "letter": "C", "text": "Diabetes descompensada, con 18,0 %.", "isCorrect": false },
+      { "letter": "D", "text": "Neumonía, con 11,1 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": null,
+    "questionText": "¿Cuál es la tasa global de reingreso a 30 días del hospital considerando todos los diagnósticos?",
+    "explanation": "Total de reingresos = 84 + 56 + 31 + 18 + 63 = 252. Total de egresos = 420 + 310 + 280 + 200 + 350 = 1.560. Tasa global = (252/1.560) × 100 = 16,2 %.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "12,5 %", "isCorrect": false },
+      { "letter": "B", "text": "14,8 %", "isCorrect": false },
+      { "letter": "C", "text": "16,2 %", "isCorrect": true },
+      { "letter": "D", "text": "18,0 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "El director médico propone que «se debe intervenir prioritariamente la neumonía porque representa el diagnóstico con menor tasa de reingreso, lo que significa que el hospital ya maneja bien los demás diagnósticos». ¿Cuál evaluación es más adecuada?",
+    "explanation": "La lógica del director es contradictoria. Si la neumonía tiene la menor tasa de reingreso (11,1 %), eso sugiere que su manejo ya es relativamente exitoso. Los diagnósticos con mayores tasas de reingreso (insuficiencia cardíaca 20 %, EPOC 18,1 %, diabetes 18 %) deberían ser prioritarios para reducir reingresos. Intervenir donde la tasa ya es baja tendría menor impacto.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta porque se debe mejorar lo que ya funciona bien.", "isCorrect": false },
+      { "letter": "B", "text": "Es incorrecta en su razonamiento: los diagnósticos con tasas de reingreso más altas (como insuficiencia cardíaca y EPOC) deberían ser la prioridad.", "isCorrect": true },
+      { "letter": "C", "text": "Es correcta porque la neumonía tiene más egresos que la infección urinaria.", "isCorrect": false },
+      { "letter": "D", "text": "Es incorrecta porque todos los diagnósticos tienen la misma tasa de reingreso.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": "Un estudio sobre densidad de talento humano en salud recopiló el número de médicos por cada 10.000 habitantes en seis departamentos de Colombia:\n\n| Departamento | Médicos por 10.000 hab. | Población (miles) |\n|-------------|------------------------|-------------------|\n| Bogotá D.C. | 28,5 | 7.900 |\n| Antioquia   | 19,2 | 6.800 |\n| Valle       | 17,8 | 4.600 |\n| Santander   | 15,4 | 2.100 |\n| Nariño      | 8,6  | 1.800 |\n| Chocó       | 4,2  | 520   |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuántos médicos tiene aproximadamente el departamento de Santander?",
+    "explanation": "Médicos = (15,4 / 10.000) × 2.100.000 = 15,4 × 210 = 3.234 médicos.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "Aproximadamente 2.100", "isCorrect": false },
+      { "letter": "B", "text": "Aproximadamente 3.234", "isCorrect": true },
+      { "letter": "C", "text": "Aproximadamente 4.500", "isCorrect": false },
+      { "letter": "D", "text": "Aproximadamente 1.540", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": null,
+    "questionText": "La razón entre la densidad médica de Bogotá y la de Chocó es:",
+    "explanation": "Razón = 28,5 / 4,2 = 6,8. Bogotá tiene aproximadamente 6,8 veces más médicos por cada 10.000 habitantes que Chocó.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "3,3 veces", "isCorrect": false },
+      { "letter": "B", "text": "5,0 veces", "isCorrect": false },
+      { "letter": "C", "text": "6,8 veces", "isCorrect": true },
+      { "letter": "D", "text": "24,3 veces", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "Una comparación internacional del gasto de bolsillo en salud como porcentaje del gasto total en salud mostró los siguientes datos para 2023:\n\n| País | Gasto total en salud per cápita (USD) | % gasto de bolsillo |\n|------|--------------------------------------|--------------------|\n| País W | 1.200 | 15 % |\n| País X | 900   | 35 % |\n| País Y | 650   | 48 % |\n| País Z | 1.500 | 12 % |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál país tiene el mayor gasto de bolsillo per cápita en términos absolutos?",
+    "explanation": "Gasto de bolsillo per cápita: País W: 1.200 × 0,15 = 180 USD. País X: 900 × 0,35 = 315 USD. País Y: 650 × 0,48 = 312 USD. País Z: 1.500 × 0,12 = 180 USD. El País X tiene el mayor gasto de bolsillo per cápita (315 USD).",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "País W, con 180 USD.", "isCorrect": false },
+      { "letter": "B", "text": "País X, con 315 USD.", "isCorrect": true },
+      { "letter": "C", "text": "País Y, con 312 USD.", "isCorrect": false },
+      { "letter": "D", "text": "País Z, con 180 USD.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": null,
+    "questionText": "Un analista afirma que «el País Y tiene la peor protección financiera en salud porque tiene el mayor porcentaje de gasto de bolsillo». ¿Cuál evaluación es más adecuada?",
+    "explanation": "El País Y tiene el mayor porcentaje de gasto de bolsillo (48 %), lo cual es un indicador válido de menor protección financiera. Sin embargo, en términos absolutos, el País X gasta más de bolsillo per cápita (315 vs. 312 USD). La protección financiera depende de ambos indicadores y también del ingreso de la población. El porcentaje alto sí sugiere vulnerabilidad, pero la conclusión debe considerar el contexto socioeconómico completo.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es completamente correcta porque el porcentaje de gasto de bolsillo es el único indicador relevante.", "isCorrect": false },
+      { "letter": "B", "text": "Es razonable como indicador, pero la protección financiera también depende del gasto absoluto y del ingreso de la población.", "isCorrect": true },
+      { "letter": "C", "text": "Es incorrecta porque el País Z gasta más de bolsillo.", "isCorrect": false },
+      { "letter": "D", "text": "Es incorrecta porque el gasto de bolsillo no tiene relación con la protección financiera.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Un hospital materno-infantil registró la mortalidad perinatal según categoría de peso al nacer durante 2024:\n\n| Peso al nacer (g) | Nacidos vivos | Muertes perinatales |\n|-------------------|--------------|--------------------|\n| < 1.000           | 35           | 18                 |\n| 1.000 – 1.499     | 80           | 16                 |\n| 1.500 – 2.499     | 320          | 22                 |\n| 2.500 – 3.999     | 2.800        | 14                 |\n| ≥ 4.000           | 165          | 5                  |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la tasa de mortalidad perinatal (por cada 1.000 nacidos vivos) en la categoría de peso inferior a 1.000 g?",
+    "explanation": "Tasa = (18 / 35) × 1.000 = 514,3 por cada 1.000 nacidos vivos.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "180,0 por 1.000", "isCorrect": false },
+      { "letter": "B", "text": "350,0 por 1.000", "isCorrect": false },
+      { "letter": "C", "text": "514,3 por 1.000", "isCorrect": true },
+      { "letter": "D", "text": "51,4 por 1.000", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "¿Cuál es la tasa global de mortalidad perinatal del hospital?",
+    "explanation": "Total de muertes = 18 + 16 + 22 + 14 + 5 = 75. Total de nacidos vivos = 35 + 80 + 320 + 2.800 + 165 = 3.400. Tasa global = (75 / 3.400) × 1.000 = 22,1 por cada 1.000 nacidos vivos.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "15,0 por 1.000", "isCorrect": false },
+      { "letter": "B", "text": "22,1 por 1.000", "isCorrect": true },
+      { "letter": "C", "text": "30,3 por 1.000", "isCorrect": false },
+      { "letter": "D", "text": "75,0 por 1.000", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Un estudio sobre lactancia materna exclusiva hasta los 6 meses recopiló datos según nivel socioeconómico (NSE) en una región colombiana:\n\n| Nivel socioeconómico | Madres encuestadas | Lactancia exclusiva 6 meses |\n|---------------------|-------------------|----------------------------|\n| NSE 1 (bajo)        | 450               | 189                        |\n| NSE 2               | 380               | 137                        |\n| NSE 3               | 320               | 96                         |\n| NSE 4               | 200               | 48                         |\n| NSE 5-6 (alto)      | 150               | 27                         |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la prevalencia de lactancia materna exclusiva en el NSE 1?",
+    "explanation": "Prevalencia NSE 1 = (189 / 450) × 100 = 42,0 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "36,1 %", "isCorrect": false },
+      { "letter": "B", "text": "42,0 %", "isCorrect": true },
+      { "letter": "C", "text": "48,5 %", "isCorrect": false },
+      { "letter": "D", "text": "30,0 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": null,
+    "questionText": "Al comparar la prevalencia de lactancia materna exclusiva entre el NSE 1 y el NSE 5-6, la razón de prevalencias es aproximadamente:",
+    "explanation": "Prevalencia NSE 1 = 189/450 = 42,0 %. Prevalencia NSE 5-6 = 27/150 = 18,0 %. Razón de prevalencias = 42,0 / 18,0 = 2,33. Las madres de NSE 1 tienen 2,3 veces más probabilidad de practicar lactancia exclusiva.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "1,5", "isCorrect": false },
+      { "letter": "B", "text": "2,3", "isCorrect": true },
+      { "letter": "C", "text": "3,0", "isCorrect": false },
+      { "letter": "D", "text": "7,0", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "Un funcionario de salud concluye que «las mujeres de nivel socioeconómico alto no practican la lactancia materna porque no les interesa la salud de sus hijos». ¿Cuál evaluación es más apropiada?",
+    "explanation": "La menor prevalencia de lactancia exclusiva en NSE altos puede deberse a múltiples factores: retorno temprano al trabajo, disponibilidad de fórmulas, menor redes de apoyo comunitario para la lactancia, diferencias culturales, entre otros. Atribuirlo a «falta de interés en la salud de sus hijos» es una generalización injustificada que ignora los determinantes sociales y económicos del comportamiento.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta porque los datos muestran menor lactancia en NSE altos.", "isCorrect": false },
+      { "letter": "B", "text": "Es una generalización injustificada; la menor prevalencia puede explicarse por factores laborales, culturales y de acceso a sustitutos, no por desinterés.", "isCorrect": true },
+      { "letter": "C", "text": "Es correcta porque la lactancia es un indicador directo del interés materno.", "isCorrect": false },
+      { "letter": "D", "text": "Es incorrecta porque no hay diferencia en las tasas de lactancia entre niveles socioeconómicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Un estudio comparó los desenlaces de cesáreas de emergencia versus cesáreas programadas en un hospital de alta complejidad durante 2024:\n\n| Variable | Cesárea de emergencia (n = 240) | Cesárea programada (n = 360) |\n|----------|-------------------------------|-----------------------------|\n| Infección de herida quirúrgica | 36 | 18 |\n| Hemorragia postparto | 24 | 11 |\n| Estancia > 5 días | 60 | 29 |\n| Ingreso neonatal a UCI | 48 | 22 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál es la tasa de infección de herida quirúrgica en cesáreas de emergencia?",
+    "explanation": "Tasa de infección en cesárea de emergencia = (36 / 240) × 100 = 15,0 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "7,5 %", "isCorrect": false },
+      { "letter": "B", "text": "10,0 %", "isCorrect": false },
+      { "letter": "C", "text": "15,0 %", "isCorrect": true },
+      { "letter": "D", "text": "36,0 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "¿Cuántas veces es más probable la hemorragia postparto en una cesárea de emergencia que en una programada?",
+    "explanation": "Tasa hemorragia en emergencia = 24/240 = 10,0 %. Tasa hemorragia en programada = 11/360 = 3,06 %. Razón = 10,0 / 3,06 = 3,27. La hemorragia es aproximadamente 3,3 veces más probable en cesárea de emergencia.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "1,5 veces", "isCorrect": false },
+      { "letter": "B", "text": "2,2 veces", "isCorrect": false },
+      { "letter": "C", "text": "3,3 veces", "isCorrect": true },
+      { "letter": "D", "text": "5,0 veces", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "Un residente argumenta que «los datos demuestran que las cesáreas programadas son siempre preferibles a las de emergencia». ¿Cuál es la evaluación más pertinente?",
+    "explanation": "Los datos muestran que las cesáreas de emergencia tienen peores desenlaces en todos los indicadores medidos. Sin embargo, las cesáreas de emergencia se realizan por indicaciones clínicas urgentes (sufrimiento fetal, desprendimiento de placenta, prolapso de cordón) donde no hay opción de programación. Las diferencias también pueden reflejar que las emergencias ocurren en pacientes con condiciones más complejas. Comparar ambas sin considerar la indicación clínica es inadecuado.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta porque todos los indicadores son mejores en cesáreas programadas.", "isCorrect": false },
+      { "letter": "B", "text": "Es inadecuada porque las cesáreas de emergencia responden a indicaciones clínicas urgentes donde la programación no es posible, y los peores desenlaces pueden reflejar mayor complejidad clínica.", "isCorrect": true },
+      { "letter": "C", "text": "Es incorrecta porque las cesáreas de emergencia tienen mejores resultados neonatales.", "isCorrect": false },
+      { "letter": "D", "text": "Es correcta porque se deberían programar todas las cesáreas con anticipación.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Un laboratorio de virología registró la distribución de serotipos de dengue en muestras positivas analizadas entre 2019 y 2024:\n\n| Año  | DENV-1 | DENV-2 | DENV-3 | DENV-4 | Total muestras positivas |\n|------|--------|--------|--------|--------|-------------------------|\n| 2019 | 85     | 120    | 40     | 15     | 260                     |\n| 2020 | 60     | 95     | 55     | 10     | 220                     |\n| 2021 | 45     | 50     | 110    | 15     | 220                     |\n| 2022 | 70     | 40     | 140    | 30     | 280                     |\n| 2023 | 100    | 35     | 85     | 60     | 280                     |\n| 2024 | 130    | 55     | 60     | 95     | 340                     |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál serotipo fue predominante en 2021?",
+    "explanation": "En 2021: DENV-1 = 45, DENV-2 = 50, DENV-3 = 110, DENV-4 = 15. El serotipo predominante fue DENV-3 con 110 muestras (50 % del total).",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "DENV-1", "isCorrect": false },
+      { "letter": "B", "text": "DENV-2", "isCorrect": false },
+      { "letter": "C", "text": "DENV-3", "isCorrect": true },
+      { "letter": "D", "text": "DENV-4", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": null,
+    "questionText": "¿Cuál fue el porcentaje de participación de DENV-4 en el total de muestras positivas de 2024?",
+    "explanation": "Participación DENV-4 en 2024 = (95 / 340) × 100 = 27,9 %.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "17,6 %", "isCorrect": false },
+      { "letter": "B", "text": "21,4 %", "isCorrect": false },
+      { "letter": "C", "text": "27,9 %", "isCorrect": true },
+      { "letter": "D", "text": "38,2 %", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "Considerando que en 2019 DENV-2 representaba el 46,2 % de las muestras y en 2024 bajó al 16,2 %, ¿cuál es la reducción absoluta en puntos porcentuales?",
+    "explanation": "DENV-2 en 2019: (120/260)×100 = 46,2 %. DENV-2 en 2024: (55/340)×100 = 16,2 %. Reducción absoluta = 46,2 − 16,2 = 30,0 puntos porcentuales.",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "20,0 puntos porcentuales", "isCorrect": false },
+      { "letter": "B", "text": "25,5 puntos porcentuales", "isCorrect": false },
+      { "letter": "C", "text": "30,0 puntos porcentuales", "isCorrect": true },
+      { "letter": "D", "text": "65,0 puntos porcentuales", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "Un epidemiólogo señala que «el aumento de DENV-4 entre 2019 y 2024 representa un riesgo para la población porque implica exposición a un serotipo al que probablemente tiene menor inmunidad colectiva». ¿Cuál evaluación es más adecuada?",
+    "explanation": "DENV-4 pasó de 15 casos (5,8 %) en 2019 a 95 casos (27,9 %) en 2024, un incremento importante. El argumento del epidemiólogo es válido: la circulación creciente de un serotipo previamente poco frecuente sugiere que la población tiene menor inmunidad específica contra DENV-4, lo que puede aumentar el riesgo de casos graves, especialmente en personas previamente infectadas con otros serotipos (riesgo de dengue grave por infección secundaria heterotípica).",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es incorrecta porque DENV-4 no aumentó significativamente.", "isCorrect": false },
+      { "letter": "B", "text": "Es válida: el aumento de un serotipo previamente poco frecuente sugiere menor inmunidad colectiva y mayor riesgo de formas graves, especialmente por infección secundaria heterotípica.", "isCorrect": true },
+      { "letter": "C", "text": "Es irrelevante porque los serotipos de dengue no afectan la gravedad de la enfermedad.", "isCorrect": false },
+      { "letter": "D", "text": "Es incorrecta porque la inmunidad contra un serotipo protege contra todos los demás.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Una encuesta nacional de nutrición evaluó la prevalencia de sobrepeso y obesidad (IMC ≥ 25) en niños de 5 a 17 años por región en 2024:\n\n| Región | Niños evaluados | Con sobrepeso/obesidad |\n|--------|----------------|----------------------|\n| Caribe | 2.400 | 720 |\n| Andina | 3.200 | 832 |\n| Pacífica | 1.800 | 378 |\n| Orinoquía-Amazonía | 900 | 171 |\n| Bogotá | 1.700 | 544 |\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "¿Cuál región presenta la mayor prevalencia de sobrepeso/obesidad infantil?",
+    "explanation": "Prevalencias: Caribe: (720/2.400)×100 = 30,0 %. Andina: (832/3.200)×100 = 26,0 %. Pacífica: (378/1.800)×100 = 21,0 %. Orinoquía-Amazonía: (171/900)×100 = 19,0 %. Bogotá: (544/1.700)×100 = 32,0 %. Bogotá tiene la mayor prevalencia (32,0 %).",
+    "competency": "interpretacion_y_representacion",
+    "options": [
+      { "letter": "A", "text": "Caribe, con 30,0 %.", "isCorrect": false },
+      { "letter": "B", "text": "Andina, con 26,0 %.", "isCorrect": false },
+      { "letter": "C", "text": "Bogotá, con 32,0 %.", "isCorrect": true },
+      { "letter": "D", "text": "Orinoquía-Amazonía, con 19,0 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "¿Cuál es la prevalencia nacional ponderada de sobrepeso/obesidad infantil considerando todas las regiones?",
+    "explanation": "Total con sobrepeso/obesidad = 720 + 832 + 378 + 171 + 544 = 2.645. Total evaluados = 2.400 + 3.200 + 1.800 + 900 + 1.700 = 10.000. Prevalencia nacional = (2.645 / 10.000) × 100 = 26,5 %.",
+    "competency": "formulacion_y_ejecucion",
+    "options": [
+      { "letter": "A", "text": "22,0 %", "isCorrect": false },
+      { "letter": "B", "text": "26,5 %", "isCorrect": true },
+      { "letter": "C", "text": "30,0 %", "isCorrect": false },
+      { "letter": "D", "text": "32,0 %", "isCorrect": false }
+    ]
+  }
+]

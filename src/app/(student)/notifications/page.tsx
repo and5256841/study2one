@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 interface Notification {
   id: string;
@@ -61,6 +62,9 @@ export default function NotificationsPage() {
   if (loading) {
     return (
       <div className="px-4 py-6 space-y-3">
+        <Link href="/dashboard" className="text-xs text-gray-500 hover:text-gray-300 transition-colors">
+          ← Volver al inicio
+        </Link>
         <h2 className="text-xl font-bold">Notificaciones</h2>
         {[1, 2, 3].map((i) => (
           <div key={i} className="h-20 bg-white/5 rounded-xl animate-pulse" />
@@ -73,6 +77,9 @@ export default function NotificationsPage() {
 
   return (
     <div className="px-4 py-6 space-y-4 pb-32 max-w-2xl mx-auto">
+      <Link href="/dashboard" className="text-xs text-gray-500 hover:text-gray-300 transition-colors">
+        ← Volver al inicio
+      </Link>
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-xl font-bold">Notificaciones</h2>

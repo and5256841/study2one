@@ -10,6 +10,13 @@ export async function GET() {
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
+  if (session.user.role !== "STUDENT") {
+    return NextResponse.json(
+      { error: "Solo estudiantes pueden acceder a simulacros" },
+      { status: 403 }
+    );
+  }
+
   const [exams, manualUnlocks, completedAudioDays] = await Promise.all([
     prisma.monthlyExam.findMany({
       orderBy: { number: "asc" },

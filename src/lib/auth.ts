@@ -20,8 +20,10 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           return null;
         }
 
+        const normalizedEmail = (credentials.email as string).toLowerCase().trim();
+
         const user = await prisma.user.findUnique({
-          where: { email: credentials.email as string },
+          where: { email: normalizedEmail },
         });
 
         if (!user || !user.passwordHash) {
@@ -37,8 +39,9 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           return null;
         }
 
+        // Non-approved students cannot log in; return null (login page will check status separately)
         if (user.enrollmentStatus !== "APPROVED" && user.role === "STUDENT") {
-          throw new Error("PENDING_APPROVAL");
+          return null;
         }
 
         return {

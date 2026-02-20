@@ -29,7 +29,10 @@ export async function GET(req: NextRequest) {
       ...s,
       daysCompleted: s.audioProgress.length,
       quizAvg: s.quizAttempts.length > 0
-        ? Math.round(s.quizAttempts.reduce((sum, q) => sum + q.score, 0) / s.quizAttempts.length * 100 / 3)
+        ? Math.round(
+            (s.quizAttempts.reduce((sum, q) => sum + q.score, 0) /
+              s.quizAttempts.reduce((sum, q) => sum + q.totalQuestions, 0)) * 100
+          )
         : 0,
       score: s.audioProgress.length * 10 + s.quizAttempts.length * 5 + (s.streak?.currentStreak || 0) * 3,
     }))

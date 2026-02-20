@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "En Colombia, la Resolución 8430 de 1993 del Ministerio de Salud establece las normas científicas, técnicas y administrativas para la investigación en salud. Todo estudio que involucre seres humanos debe contar con la aprobación de un comité de ética en investigación. Un hospital universitario de Bogotá recibe una propuesta de un laboratorio farmacéutico para probar un nuevo medicamento en pacientes con hipertensión arterial. El comité de bioética del hospital debe evaluar la propuesta antes de cualquier intervención.\n\n(Redacción Study2One, con referencia a la Resolución 8430 de 1993)",
+    "questionText": "¿Cuál es la función principal del comité de bioética al evaluar esta propuesta de investigación?",
+    "explanation": "Los comités de bioética en investigación tienen como función principal proteger los derechos, la seguridad y el bienestar de los sujetos de investigación. Evalúan la validez científica del estudio, la relación riesgo-beneficio, el consentimiento informado y la selección equitativa de los participantes. No se limitan a verificar el presupuesto ni a aprobar automáticamente estudios financiados por laboratorios.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Verificar que el laboratorio farmacéutico tenga suficiente presupuesto para financiar el estudio.", "isCorrect": false },
+      { "letter": "B", "text": "Proteger los derechos, la seguridad y el bienestar de los participantes en la investigación.", "isCorrect": true },
+      { "letter": "C", "text": "Garantizar que el hospital reciba un beneficio económico por participar en el estudio.", "isCorrect": false },
+      { "letter": "D", "text": "Aprobar automáticamente cualquier estudio que cuente con financiación internacional.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": null,
+    "questionText": "Si el comité de bioética descubre que el consentimiento informado del estudio no menciona los posibles efectos adversos del medicamento, ¿qué debe hacer?",
+    "explanation": "Un consentimiento informado que omite los riesgos conocidos o posibles del procedimiento no cumple con los requisitos éticos ni legales. El comité debe exigir que se incluya toda la información relevante sobre efectos adversos antes de aprobar el estudio. Esto se fundamenta en el principio de autonomía del paciente y en la Resolución 8430 de 1993, que exige información completa sobre riesgos.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Aprobar el estudio y solicitar que los efectos adversos se comuniquen verbalmente a los participantes.", "isCorrect": false },
+      { "letter": "B", "text": "Rechazar la propuesta hasta que el consentimiento informado incluya información completa sobre los efectos adversos.", "isCorrect": true },
+      { "letter": "C", "text": "Aprobar el estudio porque los efectos adversos son responsabilidad exclusiva del laboratorio.", "isCorrect": false },
+      { "letter": "D", "text": "Solicitar al laboratorio que financie un seguro para los participantes sin modificar el consentimiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Un paciente de 45 años, diagnosticado con diabetes tipo 2, acude a consulta con su médico de familia. Tras revisar los resultados de laboratorio, el médico recomienda iniciar tratamiento con insulina. El paciente, quien se ha informado ampliamente sobre su condición, expresa que prefiere intentar primero un cambio radical de dieta y ejercicio durante tres meses antes de iniciar insulina. El médico, aunque considera que la insulina es la mejor opción clínica, reconoce que la propuesta del paciente no implica un riesgo inmediato para su vida.\n\n(Redacción Study2One)",
+    "questionText": "Desde el principio de autonomía del paciente, ¿cuál debería ser la conducta del médico?",
+    "explanation": "El principio de autonomía del paciente reconoce su derecho a tomar decisiones informadas sobre su tratamiento, siempre que sea competente y comprenda las consecuencias. Cuando no hay riesgo vital inmediato, el médico debe respetar la decisión del paciente, documentar el acuerdo, establecer metas claras y programar seguimiento. Imponer un tratamiento sin riesgo vital inminente vulneraría la autonomía del paciente.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Insistir en que el paciente inicie insulina de inmediato porque el médico tiene mayor conocimiento clínico.", "isCorrect": false },
+      { "letter": "B", "text": "Respetar la decisión del paciente, establecer metas claras de control glucémico y programar seguimiento en tres meses.", "isCorrect": true },
+      { "letter": "C", "text": "Negarse a continuar la atención del paciente por no seguir la recomendación médica.", "isCorrect": false },
+      { "letter": "D", "text": "Contactar a los familiares del paciente para que lo convenzan de iniciar insulina.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "La Ley 1164 de 2007 regula el talento humano en salud en Colombia. Entre sus disposiciones, establece que los profesionales de salud tienen derecho a condiciones laborales dignas, a la seguridad en el ejercicio de su profesión y a la protección contra la violencia en el lugar de trabajo. Sin embargo, un informe del Colegio Médico Colombiano reporta que el 60 % de los médicos de urgencias han sufrido algún tipo de agresión verbal o física por parte de pacientes o sus familiares.\n\n(Redacción Study2One, con referencia a la Ley 1164 de 2007)",
+    "questionText": "Según la normativa colombiana, ¿cuál afirmación es correcta respecto a los derechos de los trabajadores de salud?",
+    "explanation": "La Ley 1164 de 2007 y la Ley 1438 de 2011 reconocen que los profesionales de salud tienen derechos laborales que incluyen condiciones dignas de trabajo, protección contra la violencia y seguridad en el ejercicio profesional. Estos derechos no son incompatibles con el deber de atender pacientes; por el contrario, un profesional protegido brinda mejor atención. La violencia contra personal de salud está sancionada penalmente (Ley 1751 de 2015, art. 10).",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Los profesionales de salud deben tolerar agresiones porque su deber es atender a los pacientes sin importar las circunstancias.", "isCorrect": false },
+      { "letter": "B", "text": "Solo los médicos tienen derecho a protección; el personal de enfermería y auxiliares no están cubiertos.", "isCorrect": false },
+      { "letter": "C", "text": "Los profesionales de salud tienen derecho a condiciones dignas, seguridad laboral y protección contra la violencia en su lugar de trabajo.", "isCorrect": true },
+      { "letter": "D", "text": "La protección contra la violencia laboral solo aplica en hospitales públicos, no en clínicas privadas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Un cirujano realiza una operación de rodilla en el paciente equivocado debido a un error en la identificación del paciente en el quirófano. El hospital no tenía implementado el protocolo de seguridad quirúrgica recomendado por la Organización Mundial de la Salud (lista de verificación de cirugía segura). El paciente operado erróneamente sufre complicaciones posoperatorias.\n\n(Redacción Study2One)",
+    "questionText": "En este caso, la responsabilidad por el error recae en:",
+    "explanation": "La negligencia médica no siempre es exclusivamente individual. Cuando un hospital no implementa protocolos de seguridad estándar (como la lista de verificación quirúrgica de la OMS), la institución comparte la responsabilidad por los eventos adversos. En Colombia, la Ley 1438 de 2011 y la Política de Seguridad del Paciente (Resolución 2003 de 2014) establecen que las instituciones deben implementar sistemas de seguridad. La responsabilidad es tanto del cirujano (por no verificar) como del hospital (por no tener protocolos).",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Exclusivamente el cirujano, porque él es quien realiza la intervención.", "isCorrect": false },
+      { "letter": "B", "text": "El paciente, por no haber verificado su propia identidad antes de la cirugía.", "isCorrect": false },
+      { "letter": "C", "text": "Tanto el cirujano como el hospital, por no implementar los protocolos de seguridad quirúrgica.", "isCorrect": true },
+      { "letter": "D", "text": "Exclusivamente el hospital, porque el cirujano solo sigue órdenes institucionales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "La Ley 1805 de 2016 establece que en Colombia toda persona es considerada donante de órganos y tejidos a menos que haya expresado en vida su voluntad de no serlo. Esta ley se conoce como la «presunción legal de donación». Un paciente de 30 años fallece en un accidente de tránsito y sus órganos son compatibles para trasplante. La familia se opone a la donación argumentando razones religiosas, pero el paciente nunca expresó oposición a la donación.\n\n(Redacción Study2One, con referencia a la Ley 1805 de 2016)",
+    "questionText": "Según la legislación colombiana vigente, ¿qué debe ocurrir en este caso?",
+    "explanation": "La Ley 1805 de 2016 establece la presunción legal de donación: si la persona no expresó en vida su oposición (mediante documento ante notario o ante dos testigos), se presume donante. La oposición de la familia no es suficiente para impedir la donación si el fallecido no dejó constancia de su negativa. Esta ley buscó aumentar la disponibilidad de órganos frente a las largas listas de espera en Colombia.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Se debe respetar la oposición de la familia porque son los representantes legales del fallecido.", "isCorrect": false },
+      { "letter": "B", "text": "Se debe proceder con la donación porque el fallecido no expresó oposición en vida, según la presunción legal de donación.", "isCorrect": true },
+      { "letter": "C", "text": "Se debe esperar a que un juez autorice la donación mediante una orden judicial.", "isCorrect": false },
+      { "letter": "D", "text": "Se debe cancelar la donación porque las creencias religiosas de la familia prevalecen sobre la ley.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": null,
+    "questionText": "Desde una perspectiva ética, ¿cuál es la principal tensión que plantea la presunción legal de donación de órganos?",
+    "explanation": "La presunción legal de donación genera una tensión entre dos valores legítimos: por un lado, el principio de solidaridad y el derecho a la vida de quienes esperan un trasplante; por otro, el respeto a la autonomía individual, que incluye el derecho a decidir sobre el propio cuerpo, incluso después de la muerte. Quienes defienden la presunción argumentan que salvar vidas es prioritario; quienes la cuestionan señalan que asumir el consentimiento sin una manifestación explícita puede vulnerar la libertad individual.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La tensión entre el ahorro de costos hospitalarios y la inversión en trasplantes.", "isCorrect": false },
+      { "letter": "B", "text": "La tensión entre el principio de solidaridad para salvar vidas y el respeto a la autonomía individual sobre el propio cuerpo.", "isCorrect": true },
+      { "letter": "C", "text": "La tensión entre los intereses comerciales de los hospitales y los derechos de los pacientes.", "isCorrect": false },
+      { "letter": "D", "text": "La tensión entre la medicina moderna y las prácticas tradicionales de los pueblos indígenas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "El INVIMA (Instituto Nacional de Vigilancia de Medicamentos y Alimentos) es la entidad encargada de otorgar el registro sanitario a los medicamentos en Colombia. Para que un medicamento nuevo sea aprobado, debe demostrar seguridad, eficacia y calidad a través de estudios clínicos. Sin embargo, un grupo de pacientes con una enfermedad rara solicita que se autorice el uso de un medicamento experimental que aún no ha completado todas las fases de investigación clínica, argumentando que no existe otra alternativa terapéutica.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál mecanismo regulatorio permite en Colombia el acceso a medicamentos no aprobados en situaciones excepcionales?",
+    "explanation": "En Colombia, el Decreto 481 de 2004 y normativas posteriores contemplan el «uso compasivo» o «acceso expandido» a medicamentos que no cuentan con registro sanitario cuando no existe alternativa terapéutica y el paciente enfrenta una enfermedad grave o potencialmente mortal. Este mecanismo requiere autorización del INVIMA, consentimiento informado del paciente y supervisión médica. No es una aprobación general del medicamento, sino un acceso excepcional caso por caso.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "La importación directa del medicamento por parte del paciente sin autorización del INVIMA.", "isCorrect": false },
+      { "letter": "B", "text": "El uso compasivo o acceso expandido, que permite el acceso excepcional bajo supervisión médica y autorización del INVIMA.", "isCorrect": true },
+      { "letter": "C", "text": "La aprobación automática de cualquier medicamento solicitado por un grupo de pacientes.", "isCorrect": false },
+      { "letter": "D", "text": "La prescripción libre del medicamento por parte de cualquier médico sin necesidad de registro sanitario.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Un hospital público implementa un sistema de historia clínica electrónica que almacena la información médica de todos sus pacientes en servidores digitales. Un empleado administrativo del hospital accede a la historia clínica de una figura pública para filtrar información sobre su diagnóstico a un medio de comunicación. La Ley 1581 de 2012 (Ley de Protección de Datos Personales) y la Ley 23 de 1981 (Ley de Ética Médica) regulan el manejo de esta información.\n\n(Redacción Study2One, con referencia a la Ley 1581 de 2012 y la Ley 23 de 1981)",
+    "questionText": "¿Por qué los datos de salud reciben una protección especial en la legislación colombiana?",
+    "explanation": "La Ley 1581 de 2012 clasifica los datos de salud como «datos sensibles», categoría que recibe la máxima protección legal. Esto se debe a que su divulgación puede generar discriminación, estigmatización y afectación grave de la dignidad e intimidad de la persona. El tratamiento de datos sensibles requiere autorización expresa del titular y solo puede realizarse para fines específicos. La historia clínica es un documento privado sometido a reserva (Resolución 1995 de 1999).",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Porque los datos de salud solo interesan al paciente y al médico tratante, sin relevancia social.", "isCorrect": false },
+      { "letter": "B", "text": "Porque son datos sensibles cuya divulgación puede generar discriminación, estigmatización y vulneración de la dignidad e intimidad.", "isCorrect": true },
+      { "letter": "C", "text": "Porque los hospitales necesitan proteger su reputación institucional frente a posibles demandas.", "isCorrect": false },
+      { "letter": "D", "text": "Porque la ley solo protege los datos de figuras públicas, no los de ciudadanos comunes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": null,
+    "questionText": "¿Qué consecuencias legales puede enfrentar el empleado administrativo que filtró la información médica de la figura pública?",
+    "explanation": "El acceso no autorizado a la historia clínica y la divulgación de datos sensibles puede generar consecuencias en múltiples ámbitos: sanciones disciplinarias (despido), sanciones administrativas de la Superintendencia de Industria y Comercio (multas por violación de la Ley 1581 de 2012), responsabilidad civil (indemnización por daños) e incluso responsabilidad penal si se configura el delito de violación de datos personales (art. 269F del Código Penal). No es una simple falta administrativa.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Ninguna, porque la información de figuras públicas es de interés general.", "isCorrect": false },
+      { "letter": "B", "text": "Solo una amonestación verbal por parte del jefe de recursos humanos.", "isCorrect": false },
+      { "letter": "C", "text": "Sanciones disciplinarias, administrativas, civiles y posiblemente penales por violación de datos personales sensibles.", "isCorrect": true },
+      { "letter": "D", "text": "Solo el hospital es responsable; el empleado no tiene responsabilidad individual.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "En Colombia, el Código de Infancia y Adolescencia (Ley 1098 de 2006) establece el principio del «interés superior del niño», según el cual en cualquier decisión que afecte a un menor de edad, debe priorizarse su bienestar por encima de cualquier otra consideración. Un niño de 8 años es llevado a urgencias con quemaduras graves. Sus padres, pertenecientes a una comunidad religiosa, se niegan a autorizar una transfusión sanguínea que los médicos consideran necesaria para salvar la vida del menor.\n\n(Redacción Study2One, con referencia a la Ley 1098 de 2006)",
+    "questionText": "Según el principio del interés superior del niño, ¿qué debe hacer el equipo médico?",
+    "explanation": "Cuando la vida de un menor está en riesgo inminente, el interés superior del niño prevalece sobre las decisiones de los padres, incluso cuando estas se basan en convicciones religiosas. La Corte Constitucional colombiana (Sentencia T-411 de 1994 y otras) ha establecido que la autonomía parental tiene límites cuando se pone en peligro la vida o la integridad del menor. El equipo médico puede solicitar autorización judicial de emergencia o actuar directamente para proteger la vida del niño.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Respetar la decisión de los padres porque son los representantes legales del menor.", "isCorrect": false },
+      { "letter": "B", "text": "Esperar a que los padres cambien de opinión mientras el niño recibe tratamiento alternativo.", "isCorrect": false },
+      { "letter": "C", "text": "Proceder con la transfusión para proteger la vida del menor, solicitando autorización judicial si es necesario, ya que el interés superior del niño prevalece.", "isCorrect": true },
+      { "letter": "D", "text": "Remitir al niño a otro hospital que comparta las creencias religiosas de la familia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "La Ley 1251 de 2008 establece normas para la protección, promoción y defensa de los derechos de los adultos mayores en Colombia. Un ancianato privado en Bucaramanga alberga a 40 adultos mayores en condiciones de hacinamiento: habitaciones para dos personas son compartidas por cinco, la alimentación es deficiente, no hay personal médico de planta y los residentes no reciben visitas porque la administración las restringe «por seguridad».\n\n(Redacción Study2One, con referencia a la Ley 1251 de 2008)",
+    "questionText": "Las condiciones descritas en el ancianato constituyen una vulneración de:",
+    "explanation": "Las condiciones descritas vulneran múltiples derechos de los adultos mayores reconocidos en la Ley 1251 de 2008 y en la Constitución: el derecho a la dignidad (hacinamiento), a la alimentación adecuada, a la salud (sin personal médico), a la vida familiar y social (restricción de visitas) y a condiciones de vida digna. La restricción de visitas también vulnera la libertad y los lazos afectivos, constituyendo potencialmente un trato inhumano.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Solo del derecho a la salud, porque no hay personal médico.", "isCorrect": false },
+      { "letter": "B", "text": "De los derechos a la dignidad, la alimentación adecuada, la salud, la vida familiar y las condiciones de vida digna.", "isCorrect": true },
+      { "letter": "C", "text": "Solo del derecho a la libertad, porque se restringen las visitas.", "isCorrect": false },
+      { "letter": "D", "text": "De ningún derecho, porque el ancianato es una institución privada y puede establecer sus propias normas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "En un municipio del departamento de Nariño, las autoridades sanitarias detectan un aumento significativo de casos de violencia de género. El 70 % de las mujeres atendidas en urgencias por lesiones físicas reportan que la agresión fue perpetrada por su pareja o expareja. El hospital local ha implementado una ruta de atención, pero muchas mujeres abandonan el proceso por miedo a represalias, dependencia económica del agresor y falta de apoyo institucional.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Desde el enfoque de determinantes sociales, ¿cuál estrategia sería más efectiva para abordar esta problemática?",
+    "explanation": "La violencia de género es un problema multifactorial con raíces en la desigualdad económica, las normas culturales machistas, la impunidad y la falta de redes de apoyo. Una intervención efectiva debe abordar estos determinantes estructurales: empoderamiento económico de las mujeres, educación en equidad de género, fortalecimiento de la justicia y creación de redes de apoyo comunitario. Las intervenciones aisladas (solo atención médica, solo campañas, solo sanción penal) son insuficientes cuando los determinantes son múltiples.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Aumentar las penas para los agresores como única medida disuasoria.", "isCorrect": false },
+      { "letter": "B", "text": "Realizar campañas publicitarias en redes sociales sobre la violencia de género.", "isCorrect": false },
+      { "letter": "C", "text": "Implementar un programa integral que combine empoderamiento económico, educación en equidad de género, acceso efectivo a justicia y redes de apoyo comunitario.", "isCorrect": true },
+      { "letter": "D", "text": "Capacitar exclusivamente al personal de urgencias para mejorar la atención clínica de las víctimas.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Una familia de migrantes venezolanos llega a una ciudad colombiana. La madre presenta un embarazo de alto riesgo y requiere atención médica urgente. Al acudir al hospital, le informan que no puede ser atendida porque no tiene documento de identidad colombiano ni afiliación al sistema de salud. La familia no cuenta con recursos económicos.\n\n(Redacción Study2One)",
+    "questionText": "Según la legislación colombiana y el derecho internacional, ¿cuál es la obligación del hospital?",
+    "explanation": "En Colombia, el Decreto 866 de 2017 y la Resolución 3015 de 2017 (entre otras normas) establecen que la atención de urgencias no puede condicionarse a la presentación de documentos, capacidad de pago o estatus migratorio. Además, la Constitución (art. 49) y la Ley 1751 de 2015 reconocen que la atención de urgencias es un derecho fundamental de toda persona en territorio colombiano. Un embarazo de alto riesgo constituye una urgencia vital. Los tratados internacionales de derechos humanos también protegen el derecho a la salud independientemente de la nacionalidad.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Remitir a la paciente al consulado de Venezuela para que gestione su atención médica.", "isCorrect": false },
+      { "letter": "B", "text": "Atender la urgencia sin exigir documentos ni pago previo, ya que la atención de urgencias es un derecho fundamental independiente del estatus migratorio.", "isCorrect": true },
+      { "letter": "C", "text": "Atenderla solo si firma un compromiso de pago posterior por los servicios recibidos.", "isCorrect": false },
+      { "letter": "D", "text": "Negar la atención porque los servicios de salud colombianos son exclusivamente para ciudadanos colombianos y extranjeros afiliados.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "La Ley 1751 de 2015 establece que los usuarios tienen el derecho a participar en las decisiones del sistema de salud que los afecten, a través de los mecanismos de participación ciudadana establecidos por la ley. En un municipio de Antioquia, la administración local decide cerrar el único centro de salud de una vereda para «optimizar recursos», trasladando los servicios a la cabecera municipal ubicada a dos horas de distancia. Los habitantes de la vereda no fueron consultados.\n\n(Redacción Study2One, con referencia a la Ley 1751 de 2015)",
+    "questionText": "La decisión del municipio vulnera el derecho de la comunidad a:",
+    "explanation": "La participación comunitaria en las decisiones de salud es un derecho reconocido por la Ley 1751 de 2015 (art. 12) y por la Ley 134 de 1994 (mecanismos de participación ciudadana). Las decisiones que afectan el acceso a servicios de salud de una comunidad deben incluir la consulta previa a los afectados. Además, cerrar el único centro de salud de una vereda sin alternativa viable vulnera la accesibilidad geográfica al derecho a la salud.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Elegir libremente a sus médicos tratantes.", "isCorrect": false },
+      { "letter": "B", "text": "La participación en las decisiones del sistema de salud que los afectan directamente.", "isCorrect": true },
+      { "letter": "C", "text": "Recibir atención exclusivamente en la cabecera municipal.", "isCorrect": false },
+      { "letter": "D", "text": "Solicitar la construcción de un hospital de alta complejidad en la vereda.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Un hospital universitario de Cali implementa un programa de «rendición de cuentas social» en el que publica trimestralmente indicadores de calidad: tiempos de espera, tasas de infección hospitalaria, mortalidad quirúrgica y satisfacción de los usuarios. La información está disponible en la página web del hospital y en carteleras visibles para los pacientes. Algunos médicos se oponen argumentando que la publicación de estos datos puede dañar la reputación del hospital.\n\n(Redacción Study2One)",
+    "questionText": "La rendición de cuentas social en salud se fundamenta en:",
+    "explanation": "La rendición de cuentas social es un mecanismo de transparencia que permite a la ciudadanía conocer cómo se utilizan los recursos públicos y cuál es la calidad de los servicios. Se fundamenta en el derecho al acceso a la información (art. 74 de la Constitución), el principio de transparencia en la gestión pública y el empoderamiento de los usuarios como sujetos activos del sistema de salud. Lejos de dañar la reputación, promueve la mejora continua y la confianza institucional.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La obligación de los hospitales de competir por pacientes mediante estrategias de mercadeo.", "isCorrect": false },
+      { "letter": "B", "text": "El derecho ciudadano a la información, la transparencia en la gestión pública y el empoderamiento de los usuarios.", "isCorrect": true },
+      { "letter": "C", "text": "La necesidad de sancionar públicamente a los hospitales con peores indicadores.", "isCorrect": false },
+      { "letter": "D", "text": "La obligación legal de publicar información solo cuando los indicadores son favorables.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Durante una emergencia sanitaria por un brote de cólera en una zona costera de Colombia, el gobierno nacional declara el estado de emergencia sanitaria y ordena la cuarentena obligatoria de las poblaciones afectadas, la restricción de la libre circulación y la vacunación masiva obligatoria. Algunos habitantes se oponen argumentando que estas medidas restringen sus libertades individuales.\n\n(Redacción Study2One)",
+    "questionText": "¿Bajo qué principio constitucional se justifican las restricciones a las libertades individuales durante una emergencia de salud pública?",
+    "explanation": "La Constitución colombiana (art. 215) permite la declaratoria de estado de emergencia cuando se presenten hechos que perturben o amenacen perturbar el orden social. En emergencias de salud pública, el interés general (proteger la vida y la salud de la colectividad) puede justificar restricciones temporales y proporcionadas a las libertades individuales. Este principio se conoce como la prevalencia del interés general (art. 1 de la Constitución). Sin embargo, las restricciones deben ser necesarias, proporcionales y temporales.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El principio de libre empresa, que permite al gobierno regular la actividad económica.", "isCorrect": false },
+      { "letter": "B", "text": "El principio de prevalencia del interés general sobre el particular, que justifica restricciones temporales y proporcionadas para proteger la salud colectiva.", "isCorrect": true },
+      { "letter": "C", "text": "El principio de subsidiariedad, que obliga a los ciudadanos a obedecer cualquier orden del gobierno sin cuestionarla.", "isCorrect": false },
+      { "letter": "D", "text": "No existe justificación constitucional; las libertades individuales son absolutas e inviolables en todo momento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "¿Cuál es el límite que debe respetar el gobierno al implementar medidas de emergencia sanitaria que restrinjan derechos fundamentales?",
+    "explanation": "Según la jurisprudencia de la Corte Constitucional y los estándares internacionales (Principios de Siracusa), las restricciones a derechos fundamentales durante emergencias deben cumplir tres requisitos: necesidad (que no exista alternativa menos restrictiva), proporcionalidad (que la medida sea adecuada al fin perseguido) y temporalidad (que dure solo lo necesario). El gobierno no puede suspender derechos intangibles (vida, integridad, habeas corpus) ni mantener restricciones indefinidamente.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "No hay límite; durante una emergencia el gobierno puede restringir cualquier derecho sin condiciones.", "isCorrect": false },
+      { "letter": "B", "text": "Las medidas deben ser necesarias, proporcionadas y temporales, sin suspender derechos intangibles.", "isCorrect": true },
+      { "letter": "C", "text": "Solo pueden restringirse los derechos de los ciudadanos que se opongan a las medidas.", "isCorrect": false },
+      { "letter": "D", "text": "Las restricciones solo aplican a los menores de edad y a los adultos mayores.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Un médico recién graduado es asignado a un centro de salud rural en el departamento del Guaviare. La comunidad local es predominantemente indígena (pueblo Nukak Makú) y utiliza prácticas de medicina tradicional. El médico observa que un «jaibaná» (sabedor tradicional) trata a un niño con fiebre alta mediante rituales y plantas medicinales. El médico considera que el niño necesita tratamiento con antibióticos.\n\n(Redacción Study2One)",
+    "questionText": "Desde el enfoque de competencia cultural en salud, ¿cuál sería la conducta más adecuada del médico?",
+    "explanation": "La competencia cultural en salud implica la capacidad del profesional de interactuar respetuosamente con personas de diferentes culturas, reconociendo sus saberes sin renunciar al rigor científico. El enfoque intercultural (reconocido en la Ley 1751 de 2015 y el Convenio 169 de la OIT) busca el diálogo entre sistemas de conocimiento. El médico debe respetar las prácticas culturales, dialogar con el sabedor tradicional y ofrecer tratamiento complementario si es clínicamente necesario, sin imposición.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Interrumpir el ritual y administrar antibióticos de inmediato, ya que la medicina occidental es superior.", "isCorrect": false },
+      { "letter": "B", "text": "Dialogar respetuosamente con el jaibaná y la familia, explicar la necesidad clínica del antibiótico y buscar un tratamiento complementario que respete ambas tradiciones.", "isCorrect": true },
+      { "letter": "C", "text": "No intervenir en absoluto y dejar que el jaibaná maneje el caso, para no generar conflictos culturales.", "isCorrect": false },
+      { "letter": "D", "text": "Denunciar al jaibaná ante las autoridades sanitarias por ejercicio ilegal de la medicina.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "Un hospital público recibe una donación de equipos médicos de alta tecnología (un tomógrafo y un equipo de resonancia magnética) de una organización internacional. Sin embargo, el hospital no cuenta con personal capacitado para operarlos, no tiene el espacio físico adecuado ni el presupuesto para su mantenimiento. Los equipos permanecen almacenados sin uso durante dos años mientras la comunidad carece de servicios básicos como consulta externa y laboratorio clínico.\n\n(Redacción Study2One)",
+    "questionText": "Esta situación ilustra una falla en:",
+    "explanation": "La planificación en salud requiere que las inversiones (incluyendo donaciones) se ajusten a las necesidades reales y a la capacidad instalada de la institución. Recibir tecnología sin personal, infraestructura ni presupuesto para operarla es un ejemplo de mala planificación que desperdicia recursos mientras necesidades básicas quedan sin atender. Un análisis sistémico habría priorizado fortalecer los servicios primarios antes de incorporar alta tecnología.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "La generosidad de la organización internacional al donar equipos innecesarios.", "isCorrect": false },
+      { "letter": "B", "text": "La planificación y priorización de recursos en salud, al aceptar tecnología sin capacidad para operarla mientras faltan servicios básicos.", "isCorrect": true },
+      { "letter": "C", "text": "La formación de los profesionales de salud, que deberían saber operar cualquier equipo.", "isCorrect": false },
+      { "letter": "D", "text": "La normativa colombiana, que prohíbe la donación de equipos médicos internacionales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "La Ley 1566 de 2012 reconoce el consumo de sustancias psicoactivas como un asunto de salud pública y establece que las personas con trastornos por consumo de sustancias tienen derecho a recibir atención integral en salud. En un centro de rehabilitación privado en Medellín, los pacientes son sometidos a «terapias» que incluyen castigos físicos, aislamiento prolongado y humillación pública como método de «rehabilitación».\n\n(Redacción Study2One, con referencia a la Ley 1566 de 2012)",
+    "questionText": "Las prácticas descritas en el centro de rehabilitación:",
+    "explanation": "La Ley 1566 de 2012 establece que la atención a personas con trastornos por consumo de sustancias debe basarse en evidencia científica y respetar los derechos humanos. Los castigos físicos, el aislamiento prolongado y la humillación constituyen tratos crueles, inhumanos y degradantes, prohibidos por la Constitución (art. 12) y los tratados internacionales. Estos métodos no tienen sustento científico y pueden agravar la condición de los pacientes.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Son aceptables si los pacientes firmaron un consentimiento informado al ingresar.", "isCorrect": false },
+      { "letter": "B", "text": "Son métodos alternativos válidos reconocidos por la medicina tradicional colombiana.", "isCorrect": false },
+      { "letter": "C", "text": "Constituyen tratos crueles e inhumanos que violan los derechos fundamentales de los pacientes y carecen de sustento científico.", "isCorrect": true },
+      { "letter": "D", "text": "Son necesarias porque los métodos convencionales de rehabilitación no funcionan con todos los pacientes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "En un debate legislativo sobre la regulación del cannabis medicinal en Colombia, se presentan tres posiciones:\n\nPosición A: «El cannabis medicinal debe estar completamente prohibido porque es una droga que genera adicción y su legalización envía un mensaje permisivo a los jóvenes.»\n\nPosición B: «El cannabis medicinal debe regularse estrictamente, permitiendo su uso bajo prescripción médica y con control del INVIMA, basándose en la evidencia científica de sus beneficios terapéuticos para ciertas condiciones.»\n\nPosición C: «El cannabis debe legalizarse completamente sin restricciones, ya que cada persona debe tener libertad para decidir qué consumir.»\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál posición representa mejor el equilibrio entre el derecho a la salud, la evidencia científica y la responsabilidad regulatoria del Estado?",
+    "explanation": "La posición B representa un enfoque equilibrado que reconoce: (1) la evidencia científica sobre los beneficios terapéuticos del cannabis para ciertas condiciones (dolor crónico, epilepsia refractaria, náuseas por quimioterapia); (2) la necesidad de regulación estricta para garantizar seguridad y calidad; (3) el rol del Estado como garante de la salud pública. Colombia ya adoptó este enfoque con la Ley 1787 de 2016 y el Decreto 613 de 2017. La posición A ignora la evidencia; la C desconoce los riesgos para la salud pública.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La posición A, porque la prohibición total es la forma más segura de proteger la salud pública.", "isCorrect": false },
+      { "letter": "B", "text": "La posición B, porque equilibra la evidencia científica, los derechos del paciente y la regulación responsable.", "isCorrect": true },
+      { "letter": "C", "text": "La posición C, porque la libertad individual es un derecho absoluto que no admite restricciones.", "isCorrect": false },
+      { "letter": "D", "text": "Ninguna posición es válida; el debate sobre cannabis no corresponde al ámbito de la salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "Una niña de 12 años es llevada a consulta por su madre. Durante la atención, el médico sospecha que la niña es víctima de abuso sexual. Al preguntar en privado, la niña confirma los hechos pero suplica al médico que no diga nada porque tiene miedo de las consecuencias. La madre no parece estar al tanto de la situación.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la obligación legal del médico en esta situación?",
+    "explanation": "En Colombia, la Ley 1098 de 2006 (Código de Infancia y Adolescencia, art. 44) establece que los profesionales de salud tienen la obligación de reportar cualquier sospecha de abuso contra menores ante las autoridades competentes (ICBF, Fiscalía, Comisaría de Familia). Esta es una obligación legal imperativa que no admite excepciones, ni siquiera a solicitud de la víctima. El interés superior del niño y su protección integral prevalecen sobre la solicitud de confidencialidad. No reportar constituye una omisión sancionable.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Respetar la solicitud de la niña y mantener la confidencialidad absoluta.", "isCorrect": false },
+      { "letter": "B", "text": "Informar únicamente a la madre y dejar que ella decida si denuncia.", "isCorrect": false },
+      { "letter": "C", "text": "Reportar obligatoriamente ante las autoridades competentes (ICBF, Fiscalía o Comisaría de Familia), ya que la protección del menor prevalece.", "isCorrect": true },
+      { "letter": "D", "text": "Esperar a tener pruebas concluyentes antes de realizar cualquier reporte.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Un municipio del Tolima enfrenta simultáneamente tres problemas de salud pública: un brote de dengue, un aumento de desnutrición infantil y una alta prevalencia de hipertensión arterial en adultos. El presupuesto municipal de salud solo permite atender integralmente una de estas problemáticas. El alcalde debe priorizar.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál criterio de priorización es más coherente con los principios de salud pública?",
+    "explanation": "En salud pública, la priorización de recursos debe considerar múltiples criterios: magnitud del problema (a cuántas personas afecta), gravedad (mortalidad y morbilidad), vulnerabilidad de la población afectada, costo-efectividad de la intervención y potencial epidémico. No se puede decidir solo por costos, ni por presión política, ni atendiendo únicamente al grupo más numeroso. Un análisis integral permite asignar recursos donde generen mayor impacto en salud.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Atender solo la hipertensión porque afecta a los adultos que son la fuerza productiva del municipio.", "isCorrect": false },
+      { "letter": "B", "text": "Atender solo el dengue porque los brotes epidémicos generan más cobertura mediática.", "isCorrect": false },
+      { "letter": "C", "text": "Realizar un análisis de magnitud, gravedad, vulnerabilidad y costo-efectividad para asignar recursos donde generen mayor impacto en salud.", "isCorrect": true },
+      { "letter": "D", "text": "Dividir el presupuesto en tres partes iguales sin importar la gravedad de cada problema.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Una universidad colombiana implementa un programa de formación en bioética para sus estudiantes de ciencias de la salud. El programa incluye el análisis de dilemas éticos, la discusión de casos reales (anonimizados) y la participación en comités de ética simulados. Un grupo de estudiantes cuestiona la utilidad del programa argumentando que «la ética se aprende en la práctica, no en el aula».\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál argumento respalda mejor la importancia de la formación en bioética dentro del currículo de ciencias de la salud?",
+    "explanation": "La bioética como disciplina académica proporciona marcos conceptuales, principios y metodologías para el análisis sistemático de dilemas éticos que los profesionales enfrentarán en su práctica. Sin formación estructurada, las decisiones éticas quedan libradas a la intuición personal, las presiones institucionales o la costumbre, lo cual puede llevar a vulneraciones de derechos. La Ley 1164 de 2007 incluye la ética como componente obligatorio de la formación del talento humano en salud.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La bioética es un requisito legal pero no tiene aplicación práctica real en la atención en salud.", "isCorrect": false },
+      { "letter": "B", "text": "La formación en bioética proporciona marcos conceptuales y herramientas para tomar decisiones éticas fundamentadas, evitando que estas dependan solo de la intuición personal.", "isCorrect": true },
+      { "letter": "C", "text": "La bioética solo es útil para los médicos; otros profesionales de salud no necesitan esta formación.", "isCorrect": false },
+      { "letter": "D", "text": "La bioética se reduce a memorizar códigos y leyes, sin relación con la práctica clínica.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Un hospital de segundo nivel en el departamento del Cesar detecta que tres pacientes han fallecido en las últimas dos semanas por una infección hospitalaria con una bacteria multirresistente. El comité de infecciones hospitalarias investiga y descubre que el personal de limpieza no estaba siguiendo los protocolos de desinfección por falta de capacitación, que los dispensadores de gel antibacterial estaban vacíos y que no se realizaba vigilancia microbiológica periódica.\n\n(Redacción Study2One)",
+    "questionText": "Este caso ilustra una falla en:",
+    "explanation": "La seguridad del paciente es un componente esencial de la calidad en salud. Las infecciones asociadas a la atención en salud (IAAS) son prevenibles mediante protocolos de higiene, capacitación del personal, vigilancia epidemiológica y dotación adecuada. Las fallas descritas reflejan un problema sistémico de gestión de la calidad: no es culpa de un solo individuo, sino de la ausencia de procesos institucionales de prevención y control. La Política de Seguridad del Paciente del Ministerio de Salud aborda directamente estas situaciones.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "La responsabilidad individual del personal de limpieza, que debería saber desinfectar sin capacitación.", "isCorrect": false },
+      { "letter": "B", "text": "La gestión integral de la seguridad del paciente, incluyendo capacitación, dotación, vigilancia y protocolos institucionales.", "isCorrect": true },
+      { "letter": "C", "text": "La selección genética de las bacterias, que es un fenómeno natural imposible de prevenir.", "isCorrect": false },
+      { "letter": "D", "text": "La mala suerte de los pacientes, ya que las infecciones hospitalarias son inevitables.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "En Colombia, el artículo 48 de la Constitución Política establece que la seguridad social es un servicio público de carácter obligatorio, dirigido, coordinado y controlado por el Estado. El artículo 49 complementa que la atención de la salud y el saneamiento ambiental son servicios públicos a cargo del Estado, con participación del sector privado. Un grupo de ciudadanos propone que la salud sea exclusivamente estatal, sin participación privada.\n\n(Redacción Study2One, con referencia a los artículos 48 y 49 de la Constitución de 1991)",
+    "questionText": "Según el modelo constitucional colombiano, ¿cuál es el rol del sector privado en el sistema de salud?",
+    "explanation": "La Constitución colombiana establece un modelo mixto en el que el Estado dirige, coordina y controla el sistema de salud, pero permite la participación del sector privado en la prestación de servicios. Esto no significa que el Estado delegue su responsabilidad; por el contrario, mantiene la obligación de garantizar el derecho a la salud. La Ley 100 de 1993 y la Ley 1751 de 2015 desarrollan este modelo de participación público-privada bajo regulación estatal.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "La Constitución prohíbe cualquier participación del sector privado en la salud.", "isCorrect": false },
+      { "letter": "B", "text": "El sector privado reemplaza al Estado en la prestación de servicios de salud.", "isCorrect": false },
+      { "letter": "C", "text": "El sector privado puede participar en la prestación de servicios de salud, pero bajo la dirección, coordinación y control del Estado.", "isCorrect": true },
+      { "letter": "D", "text": "El sector privado solo puede participar en la venta de medicamentos, no en la prestación de servicios.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Una profesional de enfermería que trabaja en el servicio de urgencias de un hospital público ha completado 36 horas continuas de turno debido a la falta de personal. Durante la atención de un paciente, comete un error al administrar un medicamento en dosis incorrecta. El paciente sufre una reacción adversa grave.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva de los derechos de los trabajadores de salud y la seguridad del paciente, ¿cuál es el análisis más adecuado de esta situación?",
+    "explanation": "La fatiga por jornadas laborales excesivas es un factor de riesgo reconocido para errores médicos. La OMS y la normativa laboral colombiana establecen límites a las jornadas de trabajo precisamente para proteger tanto al trabajador como al paciente. El análisis debe considerar las condiciones sistémicas (falta de personal, jornadas excesivas) como causa raíz del error, sin excluir la responsabilidad individual. Un enfoque justo reconoce que el error ocurrió en un contexto que lo propiciaba.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La responsabilidad es exclusivamente de la enfermera, que debió negarse a continuar trabajando.", "isCorrect": false },
+      { "letter": "B", "text": "El error se debe analizar considerando las condiciones laborales (jornada excesiva, falta de personal) como factores contribuyentes, sin excluir la responsabilidad individual.", "isCorrect": true },
+      { "letter": "C", "text": "La responsabilidad es exclusivamente del hospital; la enfermera no tiene ninguna responsabilidad porque estaba cansada.", "isCorrect": false },
+      { "letter": "D", "text": "No existe relación entre las horas de trabajo y los errores médicos; se trata de incompetencia profesional.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "La Ley 1751 de 2015 establece en su artículo 6 que el derecho fundamental a la salud incluye el acceso a los servicios de salud de manera oportuna, eficaz y con calidad. En un municipio de Boyacá, los pacientes con enfermedades crónicas (diabetes, hipertensión) deben esperar hasta 4 meses para una cita con el médico general y hasta 8 meses para una cita con el especialista. Varios pacientes han presentado complicaciones graves durante la espera.\n\n(Redacción Study2One, con referencia a la Ley 1751 de 2015)",
+    "questionText": "Las demoras descritas constituyen una vulneración del componente de:",
+    "explanation": "La oportunidad es uno de los componentes esenciales del derecho a la salud reconocidos en la Ley 1751 de 2015. Se refiere a que los servicios de salud deben prestarse sin demoras injustificadas. Esperas de 4 a 8 meses para pacientes crónicos que requieren seguimiento regular no son oportunas y pueden generar complicaciones prevenibles, lo cual vulnera también el componente de calidad. La Resolución 256 de 2016 establece indicadores de oportunidad que las EPS deben cumplir.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Aceptabilidad, porque los pacientes no están conformes con el servicio.", "isCorrect": false },
+      { "letter": "B", "text": "Oportunidad en la prestación de servicios de salud, al generar demoras injustificadas que causan complicaciones prevenibles.", "isCorrect": true },
+      { "letter": "C", "text": "Disponibilidad, porque no hay suficientes hospitales en el municipio.", "isCorrect": false },
+      { "letter": "D", "text": "Sostenibilidad financiera, porque el sistema no tiene recursos para contratar más médicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Un grupo de estudiantes de medicina realiza una investigación sobre las barreras de acceso a servicios de salud mental en una comunidad LGBTIQ+ de Barranquilla. Los resultados revelan que el 45 % de las personas entrevistadas evitan buscar atención en salud mental por temor a ser discriminadas o juzgadas por los profesionales de salud. El 30 % reporta haber experimentado comentarios despectivos de profesionales durante consultas previas.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Esta situación evidencia una barrera de acceso relacionada con:",
+    "explanation": "La aceptabilidad es uno de los cuatro componentes de la accesibilidad en salud (junto con no discriminación, accesibilidad física y económica). Se refiere a que los servicios de salud deben ser respetuosos de la ética médica, culturalmente apropiados y sensibles a las necesidades de género, edad y orientación sexual. Cuando los profesionales de salud discriminan o juzgan a los pacientes por su orientación sexual o identidad de género, generan una barrera de aceptabilidad que disuade a las personas de buscar atención.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La accesibilidad económica, porque los servicios de salud mental son costosos.", "isCorrect": false },
+      { "letter": "B", "text": "La aceptabilidad cultural y el respeto a la diversidad, que generan una barrera de discriminación en la atención en salud.", "isCorrect": true },
+      { "letter": "C", "text": "La accesibilidad geográfica, porque los centros de salud están lejos.", "isCorrect": false },
+      { "letter": "D", "text": "La disponibilidad de profesionales especializados en salud mental.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "Un programa de salud pública implementa visitas domiciliarias a familias con niños menores de 5 años en un barrio vulnerable de Cartagena. El programa incluye: control de crecimiento y desarrollo, educación nutricional, verificación de esquemas de vacunación, detección de signos de maltrato infantil y conexión con servicios sociales (subsidios de alimentación, acceso a educación). El programa ha reducido la desnutrición infantil en un 40 % y la mortalidad infantil en un 25 % en tres años.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "El éxito de este programa se explica principalmente porque:",
+    "explanation": "El programa integra intervenciones de salud (vacunación, control de crecimiento) con acciones sobre determinantes sociales (nutrición, educación, protección contra maltrato, acceso a servicios sociales). Este enfoque intersectorial actúa sobre múltiples causas de la mortalidad y la desnutrición infantil simultáneamente, generando un impacto mayor que cualquier intervención aislada. Es coherente con la estrategia de Atención Primaria en Salud y el enfoque de determinantes sociales.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Se asignaron más médicos especialistas al barrio para atender a los niños enfermos.", "isCorrect": false },
+      { "letter": "B", "text": "Integra intervenciones de salud con acciones sobre determinantes sociales, abordando múltiples causas simultáneamente.", "isCorrect": true },
+      { "letter": "C", "text": "Se construyó un hospital de alta complejidad exclusivo para los niños del barrio.", "isCorrect": false },
+      { "letter": "D", "text": "Se distribuyeron únicamente suplementos vitamínicos a las familias beneficiarias.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Un médico especialista en cardiología atiende a un paciente de escasos recursos que requiere una cirugía cardíaca urgente. El paciente está afiliado al régimen subsidiado y su EPS ha autorizado el procedimiento en un hospital público. Sin embargo, el cardiólogo le recomienda al paciente que se realice la cirugía en su clínica privada, sugiriéndole que interponga una tutela para que la EPS pague el procedimiento allí, a un costo significativamente mayor.\n\n(Redacción Study2One)",
+    "questionText": "La conducta del cardiólogo es éticamente cuestionable porque:",
+    "explanation": "El médico tiene un deber ético de actuar en el mejor interés del paciente, no en el suyo propio. Cuando un procedimiento ya está autorizado en un hospital adecuado, recomendar el traslado a la clínica privada del propio médico (a mayor costo para el sistema) constituye un conflicto de intereses: el médico busca beneficiarse económicamente a costa del sistema de salud. Esto vulnera los principios de beneficencia (actuar en interés del paciente) y justicia (uso racional de los recursos).",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es legítima porque el médico tiene derecho a recomendar la mejor institución para el procedimiento.", "isCorrect": false },
+      { "letter": "B", "text": "Genera un conflicto de intereses al priorizar su beneficio económico personal sobre el interés del paciente y el uso racional de los recursos del sistema.", "isCorrect": true },
+      { "letter": "C", "text": "Es correcta porque las clínicas privadas siempre ofrecen mejor calidad que los hospitales públicos.", "isCorrect": false },
+      { "letter": "D", "text": "Es irrelevante éticamente porque el paciente puede elegir libremente dónde atenderse.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "La Resolución 4343 de 2012 del Ministerio de Salud y Protección Social regula la prestación de servicios de salud a las personas privadas de la libertad en Colombia. Un interno de una cárcel en el departamento del Meta presenta síntomas compatibles con tuberculosis pulmonar. El centro penitenciario no cuenta con servicio médico y la EPS asignada tarda semanas en autorizar la remisión a un hospital externo.\n\n(Redacción Study2One, con referencia a la Resolución 4343 de 2012)",
+    "questionText": "La demora en la atención del interno vulnera:",
+    "explanation": "Las personas privadas de la libertad conservan todos sus derechos fundamentales que no sean expresamente restringidos por la condena (la libertad de locomoción, por ejemplo). El derecho a la salud no se suspende por la privación de la libertad. La Corte Constitucional (Sentencia T-388 de 2013 y T-762 de 2015) ha declarado el estado de cosas inconstitucional en las cárceles colombianas, entre otros motivos, por las graves deficiencias en la atención en salud. La tuberculosis, además, es una enfermedad de interés en salud pública que requiere tratamiento oportuno para evitar la transmisión.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Ningún derecho, porque los reclusos pierden todos sus derechos al ingresar a la cárcel.", "isCorrect": false },
+      { "letter": "B", "text": "Su derecho fundamental a la salud y a la dignidad humana, que no se suspenden por la privación de la libertad.", "isCorrect": true },
+      { "letter": "C", "text": "Solo su derecho a la recreación, porque la salud no es prioritaria en el contexto carcelario.", "isCorrect": false },
+      { "letter": "D", "text": "El derecho a la libertad, porque debería ser liberado para poder atenderse.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "En un municipio de Cundinamarca se presentan dos propuestas para mejorar la salud materno-infantil:\n\nPropuesta 1: Construir una unidad de cuidados intensivos neonatales en el hospital local para atender a los recién nacidos con complicaciones.\n\nPropuesta 2: Fortalecer el programa de controles prenatales, capacitar a las parteras tradicionales en signos de alarma, mejorar las vías de acceso para las ambulancias y crear una casa materna donde las gestantes de alto riesgo de zonas rurales puedan alojarse antes del parto.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva de la Atención Primaria en Salud, ¿cuál propuesta tendría mayor impacto poblacional y por qué?",
+    "explanation": "La propuesta 2 actúa sobre los determinantes de la mortalidad materno-infantil antes de que ocurran las complicaciones: controles prenatales adecuados, detección temprana de riesgos, acceso oportuno a atención y alojamiento para gestantes de alto riesgo. Este enfoque preventivo y comunitario, propio de la APS, tiene mayor impacto poblacional porque reduce las complicaciones en lugar de solo tratarlas cuando ya ocurren. La propuesta 1 es necesaria como complemento, pero no como estrategia primaria.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "La propuesta 1, porque la tecnología de cuidados intensivos es la respuesta más efectiva a la mortalidad neonatal.", "isCorrect": false },
+      { "letter": "B", "text": "La propuesta 2, porque actúa preventivamente sobre las causas de las complicaciones materno-infantiles y es coherente con el enfoque de APS.", "isCorrect": true },
+      { "letter": "C", "text": "Ambas son equivalentes; el impacto sería el mismo independientemente de la propuesta elegida.", "isCorrect": false },
+      { "letter": "D", "text": "Ninguna es adecuada; la salud materno-infantil solo mejora con más médicos especialistas en el municipio.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "La Ley 1616 de 2013 (Ley de Salud Mental) establece que la salud mental es un derecho fundamental y de interés prioritario en salud pública. Establece que la atención en salud mental debe integrarse en la atención primaria, priorizando la prevención, la detección temprana y la rehabilitación con base comunitaria. Un estudio en tres ciudades colombianas revela que:\n\n• El 65 % de las personas con trastornos mentales no reciben ningún tipo de atención.\n• El tiempo promedio entre el inicio de los síntomas y el primer contacto con un profesional de salud mental es de 7 años.\n• Solo el 12 % de los centros de salud de primer nivel cuentan con profesionales de salud mental.\n\n(Datos ficticios basados en tendencias reales — Redacción Study2One, con referencia a la Ley 1616 de 2013)",
+    "questionText": "Los datos presentados evidencian que, a pesar de contar con un marco legal favorable, la implementación de la política de salud mental en Colombia enfrenta:",
+    "explanation": "Los datos muestran una brecha significativa entre la norma (Ley 1616 de 2013, que reconoce la salud mental como derecho fundamental y prioridad) y la realidad (65 % sin atención, 7 años de demora, solo 12 % de centros con profesionales). Esta brecha de implementación se manifiesta como barreras de acceso estructurales: insuficiencia de talento humano en salud mental, falta de integración en la APS, estigma social y déficit presupuestal. Tener una buena ley no garantiza automáticamente su cumplimiento si no hay inversión, capacitación y voluntad política para implementarla.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Una brecha significativa entre la norma y su implementación real, con barreras de acceso estructurales como la falta de talento humano y la escasa integración en la APS.", "isCorrect": true },
+      { "letter": "B", "text": "Un problema exclusivamente de los pacientes, quienes no buscan ayuda a pesar de tener servicios disponibles.", "isCorrect": false },
+      { "letter": "C", "text": "La demostración de que las leyes de salud mental son innecesarias porque no cambian la realidad.", "isCorrect": false },
+      { "letter": "D", "text": "Un éxito parcial, ya que la ley ha resuelto la mayoría de los problemas de salud mental en el país.", "isCorrect": false }
+    ]
+  }
+]

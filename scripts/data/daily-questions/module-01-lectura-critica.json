@@ -1,0 +1,707 @@
+[
+  {
+    "dayNumber": 1,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun el audio del Dia 1, ¿cuantas preguntas de seleccion multiple tiene el modulo de Lectura Critica del Saber Pro?",
+        "explanation": "El audio indica explicitamente que el modulo de Lectura Critica del Saber Pro tiene 35 preguntas de seleccion multiple con unica respuesta, distribuidas en aproximadamente 8 textos.",
+        "competency": "literal",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "25 preguntas", "isCorrect": false },
+          { "letter": "B", "text": "35 preguntas", "isCorrect": true },
+          { "letter": "C", "text": "40 preguntas", "isCorrect": false },
+          { "letter": "D", "text": "30 preguntas", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El modelo de Kintsch (1998) propone tres representaciones textuales que el ICFES utiliza para estructurar la prueba de Lectura Critica: la representacion de la superficie, la base del texto y el modelo situacional.",
+        "questionText": "Segun lo explicado en el Dia 1, ¿a que nivel de comprension corresponden las preguntas que evaluan la «base del texto» en el modelo de Kintsch?",
+        "explanation": "El audio explica que las preguntas literales evaluan la representacion de la superficie, las preguntas inferenciales evaluan la base del texto (la red de ideas expresadas e implicadas), y las preguntas criticas evaluan el modelo situacional.",
+        "competency": "inferencial",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Nivel literal", "isCorrect": false },
+          { "letter": "B", "text": "Nivel critico", "isCorrect": false },
+          { "letter": "C", "text": "Nivel inferencial", "isCorrect": true },
+          { "letter": "D", "text": "Nivel interpretativo", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "En el audio del Dia 1 se presenta el siguiente fragmento: «La dolencia que afecta a millones de personas en el mundo requiere atencion urgente de los sistemas de salud.» La pregunta pide reemplazar «dolencia» sin cambiar el sentido.",
+        "questionText": "¿Por que la opcion «sindrome» no es correcta como reemplazo de «dolencia» en ese fragmento?",
+        "explanation": "El audio explica que «sindrome» es demasiado tecnica y especifica: un sindrome es un conjunto de sintomas y signos que tiende a presentarse juntos, no es equivalente a «dolencia» en sentido general. La respuesta correcta es «enfermedad» porque captura el significado general sin anadir informacion que el texto no tiene.",
+        "competency": "critico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Porque «sindrome» implica una condicion cronica que no se menciona en el texto", "isCorrect": false },
+          { "letter": "B", "text": "Porque «sindrome» es un termino demasiado tecnico y especifico que no equivale al sentido general de «dolencia»", "isCorrect": true },
+          { "letter": "C", "text": "Porque «sindrome» solo se aplica a enfermedades mentales", "isCorrect": false },
+          { "letter": "D", "text": "Porque «sindrome» es un sinonimo exacto de «pandemia»", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 2,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun el Dia 2, ¿cual es la distribucion porcentual de las tres afirmaciones del ICFES en el examen de Lectura Critica?",
+        "explanation": "El audio del Dia 2 indica que la Afirmacion 1 (literal) representa el 26%, la Afirmacion 2 (inferencial) el 40%, y la Afirmacion 3 (critico) el 34% del examen.",
+        "competency": "literal",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "30% literal, 40% inferencial, 30% critico", "isCorrect": false },
+          { "letter": "B", "text": "26% literal, 40% inferencial, 34% critico", "isCorrect": true },
+          { "letter": "C", "text": "33% literal, 33% inferencial, 34% critico", "isCorrect": false },
+          { "letter": "D", "text": "20% literal, 45% inferencial, 35% critico", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El Dia 2 presenta un texto sobre resistencia bacteriana: «El uso excesivo e inadecuado de antibioticos ha provocado el surgimiento de bacterias resistentes. Esta situacion representa un riesgo grave para la salud publica. Es urgente implementar programas de uso racional de antibioticos.»",
+        "questionText": "Segun la explicacion del Dia 2, ¿que diferencia fundamental existe entre una pregunta de Afirmacion 1 y una de Afirmacion 2 sobre este mismo texto?",
+        "explanation": "El audio explica que la Afirmacion 1 pide senalar informacion explicita (localizar lo que dice el texto), mientras que la Afirmacion 2 pide sintetizar e integrar la informacion del texto completo para construir un significado global, como la idea principal.",
+        "competency": "inferencial",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "La Afirmacion 1 pide localizar informacion explicita; la Afirmacion 2 pide construir una sintesis del texto completo", "isCorrect": true },
+          { "letter": "B", "text": "La Afirmacion 1 evalua vocabulario; la Afirmacion 2 evalua gramatica", "isCorrect": false },
+          { "letter": "C", "text": "La Afirmacion 1 usa textos cortos; la Afirmacion 2 usa textos largos", "isCorrect": false },
+          { "letter": "D", "text": "La Afirmacion 1 es mas dificil que la Afirmacion 2", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "¿Cuantas evidencias especificas componen en total el sistema de afirmaciones del ICFES para Lectura Critica, segun lo explicado en el Dia 2?",
+        "explanation": "El audio del Dia 2 explica que hay 3 afirmaciones y 12 evidencias en total (4 evidencias por cada afirmacion). Cada una de las 35 preguntas del examen esta disenada para evaluar una evidencia especifica.",
+        "competency": "literal",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "9 evidencias", "isCorrect": false },
+          { "letter": "B", "text": "15 evidencias", "isCorrect": false },
+          { "letter": "C", "text": "12 evidencias", "isCorrect": true },
+          { "letter": "D", "text": "6 evidencias", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 3,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "¿Cuales son los tres pasos de la tecnica de «reemplazo contextual» ensenada en el Dia 3?",
+        "explanation": "El audio del Dia 3 presenta la tecnica en tres pasos: (1) leer la oracion completa donde aparece la palabra, (2) reemplazar la palabra con cada opcion de respuesta en esa oracion, y (3) elegir la opcion que al reemplazar no altera el sentido.",
+        "competency": "literal",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Buscar en el diccionario, elegir el sinonimo mas comun, verificar la gramatica", "isCorrect": false },
+          { "letter": "B", "text": "Leer la oracion completa, reemplazar la palabra con cada opcion, elegir la que no cambia el sentido", "isCorrect": true },
+          { "letter": "C", "text": "Subrayar la palabra, definirla mentalmente, comparar con las opciones", "isCorrect": false },
+          { "letter": "D", "text": "Leer el parrafo completo, eliminar opciones por descarte, elegir la mas tecnica", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El Dia 3 presenta el siguiente ejercicio: «El estudio clinico arrojo resultados inesperados que modificaron el protocolo de tratamiento.» Las opciones para reemplazar «arrojo» son: A. lanzo, B. produjo, C. expulso, D. tiro.",
+        "questionText": "¿Por que «lanzo» no es la respuesta correcta a pesar de ser un sinonimo general de «arrojo»?",
+        "explanation": "El audio explica que aunque «arrojo» y «lanzo» son sinonimos en el uso cotidiano, en el contexto cientifico «lanzo» tiene una connotacion fisica que no corresponde a «producir resultados de un estudio». El reemplazo contextual demuestra que solo «produjo» encaja en el contexto cientifico sin alterar el sentido.",
+        "competency": "critico",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Porque «lanzo» es una palabra informal que no se usa en textos academicos", "isCorrect": false },
+          { "letter": "B", "text": "Porque «lanzo» tiene una connotacion fisica que no corresponde al contexto cientifico de producir resultados", "isCorrect": true },
+          { "letter": "C", "text": "Porque «lanzo» solo se aplica a objetos deportivos", "isCorrect": false },
+          { "letter": "D", "text": "Porque «lanzo» y «arrojo» no son sinonimos en ningun contexto", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Segun el Dia 3, ¿que es la paronimia y por que es relevante para el examen de Lectura Critica?",
+        "explanation": "El audio explica que la paronimia se refiere a palabras que se parecen a otras palabras pero tienen significados distintos (como «prescribir» y «proscribir»). Es relevante porque el ICFES puede usar palabras paronimas como opciones de respuesta para confundir al estudiante que no lee con atencion.",
+        "competency": "inferencial",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Son palabras con significados identicos; el ICFES las usa como distractores gramaticales", "isCorrect": false },
+          { "letter": "B", "text": "Son palabras que se pronuncian igual; el ICFES las usa para evaluar ortografia", "isCorrect": false },
+          { "letter": "C", "text": "Son palabras que se parecen pero tienen significados distintos; el ICFES puede usarlas para confundir al estudiante desprevenido", "isCorrect": true },
+          { "letter": "D", "text": "Son palabras tecnicas exclusivas del campo medico; el ICFES las usa para evaluar conocimientos clinicos", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 4,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun el Dia 4, ¿cuales son los cinco tipos de elementos que se deben subrayar con la tecnica de «subrayado selectivo»?",
+        "explanation": "El audio presenta cinco tipos de elementos para subrayar: (1) definiciones, (2) datos especificos (nombres, fechas, cifras), (3) afirmaciones del autor, (4) ejemplos, y (5) causas y consecuencias.",
+        "competency": "literal",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Verbos, sustantivos, adjetivos, adverbios y conectores", "isCorrect": false },
+          { "letter": "B", "text": "Titulos, subtitulos, citas, referencias y notas al pie", "isCorrect": false },
+          { "letter": "C", "text": "Definiciones, datos especificos, afirmaciones del autor, ejemplos, y causas y consecuencias", "isCorrect": true },
+          { "letter": "D", "text": "Ideas principales, ideas secundarias, conclusiones, hipotesis y tesis", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El Dia 4 presenta este fragmento: «Las vacunas han demostrado ser el avance mas efectivo en la historia de la medicina para prevenir enfermedades infecciosas. Sin embargo, en los ultimos anos ha surgido un movimiento de rechazo a la vacunacion basado en informacion erronea.»",
+        "questionText": "¿Que funcion cumple el conector «Sin embargo» en este fragmento?",
+        "explanation": "El audio del Dia 4 clasifica «Sin embargo» como un conector de contraste u oposicion. Su funcion es introducir una idea que contrasta con la anterior: la primera oracion presenta la efectividad de las vacunas, y «Sin embargo» introduce la idea opuesta del movimiento antivacunas.",
+        "competency": "literal",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Agregar una idea que complementa la anterior", "isCorrect": false },
+          { "letter": "B", "text": "Introducir una idea que contrasta con la anterior", "isCorrect": true },
+          { "letter": "C", "text": "Ejemplificar lo dicho anteriormente", "isCorrect": false },
+          { "letter": "D", "text": "Concluir el argumento presentado", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "El Dia 4 menciona los conectores epistemicos que expresan el grado de certeza del autor. Por ejemplo: «esta demostrado que» indica alta certeza, «se sugiere que» indica menor certeza, y «se especula que» indica baja certeza.",
+        "questionText": "¿Por que es importante reconocer los conectores epistemicos cuando se lee un texto en el Saber Pro?",
+        "explanation": "El audio explica que cuando el examen pregunta sobre el grado de certeza con que el autor afirma algo, los marcadores epistemicos son la clave para determinar si el autor presenta informacion como comprobada, probable o especulativa.",
+        "competency": "inferencial",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Porque permiten determinar el grado de certeza con que el autor afirma algo en el texto", "isCorrect": true },
+          { "letter": "B", "text": "Porque indican la estructura gramatical de las oraciones del texto", "isCorrect": false },
+          { "letter": "C", "text": "Porque revelan si el texto es cientifico o literario", "isCorrect": false },
+          { "letter": "D", "text": "Porque son la clave para identificar la idea principal del texto", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 5,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun el Dia 5, ¿cuales son los cinco pasos de la estrategia para leer textos discontinuos como tablas y graficos?",
+        "explanation": "El audio presenta cinco pasos: (1) identificar el titulo o tema, (2) leer los encabezados y los ejes, (3) identificar las unidades de medida, (4) buscar patrones, y (5) leer las notas al pie.",
+        "competency": "literal",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Leer el titulo, ver los colores, contar las barras, sumar los valores, sacar conclusiones", "isCorrect": false },
+          { "letter": "B", "text": "Identificar el titulo, leer encabezados y ejes, identificar unidades de medida, buscar patrones, leer notas al pie", "isCorrect": true },
+          { "letter": "C", "text": "Contar filas, contar columnas, sumar totales, calcular promedios, comparar valores", "isCorrect": false },
+          { "letter": "D", "text": "Leer de izquierda a derecha, subrayar datos, buscar maximos y minimos, anotar tendencias, escribir conclusiones", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El Dia 5 menciona que en el ejercicio de integracion sobre telemedicina, una de las opciones de respuesta es: «El texto no proporciona esta informacion.»",
+        "questionText": "Segun el audio, ¿cual es el riesgo de la opcion «El texto no proporciona esta informacion» en preguntas de informacion explicita?",
+        "explanation": "El audio advierte que la trampa es elegir esa opcion por pereza, porque no se encontro el dato rapidamente. Antes de marcarla, hay que asegurarse de haber buscado el dato en el texto con suficiente cuidado. Muchos estudiantes pierden preguntas por elegirla sin haber buscado correctamente.",
+        "competency": "critico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Nunca es la respuesta correcta, asi que siempre debe descartarse", "isCorrect": false },
+          { "letter": "B", "text": "Siempre es la respuesta correcta cuando el dato no aparece en el primer parrafo", "isCorrect": false },
+          { "letter": "C", "text": "El riesgo es elegirla por pereza sin haber buscado el dato con suficiente cuidado en todo el texto", "isCorrect": true },
+          { "letter": "D", "text": "Solo es valida cuando el texto tiene menos de tres parrafos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "En el ejercicio de integracion del Dia 5, el texto de telemedicina usa la expresion «De hecho» para conectar ideas.",
+        "questionText": "Segun lo aprendido en la Semana 1, ¿que funcion cumple el conector «De hecho» en un texto?",
+        "explanation": "El audio del Dia 5 explica que «De hecho» es un conector de enfasis y refuerzo. Se usa para anadir evidencia o un ejemplo que confirma y fortalece lo que se acaba de decir. No contradice, no concluye ni presenta una causa: respalda.",
+        "competency": "literal",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Contradecir lo dicho anteriormente", "isCorrect": false },
+          { "letter": "B", "text": "Proporcionar evidencia que respalda lo anterior", "isCorrect": true },
+          { "letter": "C", "text": "Introducir una conclusion final", "isCorrect": false },
+          { "letter": "D", "text": "Presentar una causa de lo mencionado", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 6,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun el Dia 6, ¿cual es la diferencia entre el «tema», la «idea principal» y la «tesis» de un texto?",
+        "explanation": "El audio explica que el tema es el asunto del que habla el texto (frase nominal breve), la idea principal es la afirmacion mas importante sobre ese tema (oracion completa), y la tesis es la posicion o argumento central que el autor defiende.",
+        "competency": "literal",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Son tres formas distintas de nombrar lo mismo: el contenido del texto", "isCorrect": false },
+          { "letter": "B", "text": "El tema es el asunto general, la idea principal es la afirmacion central sobre ese tema, y la tesis es la posicion que el autor defiende", "isCorrect": true },
+          { "letter": "C", "text": "El tema es el titulo, la idea principal es el primer parrafo, y la tesis es el ultimo parrafo", "isCorrect": false },
+          { "letter": "D", "text": "El tema y la tesis son lo mismo, y la idea principal es un resumen del texto", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El Dia 6 presenta un texto sobre inteligencia artificial en medicina, con la siguiente pregunta: «¿Cual es la idea principal del texto?» Las opciones incluyen: A. La IA puede detectar tumores mejor que los medicos. B. Los medicos seran reemplazados por sistemas de IA. C. La IA transformara la medicina mediante la colaboracion con los medicos, no reemplazandolos. D. La empatia es la caracteristica mas importante de un medico.",
+        "questionText": "¿Por que la opcion B es incorrecta segun el analisis del Dia 6?",
+        "explanation": "El audio explica que la opcion B «contradice la posicion del autor» porque el texto afirma que la IA no reemplazara a los medicos. Elegir B seria confundir la posicion que el texto refuta con la posicion del autor. La respuesta correcta es C, que captura la posicion real del texto.",
+        "competency": "critico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Porque es una idea demasiado especifica que solo describe un parrafo del texto", "isCorrect": false },
+          { "letter": "B", "text": "Porque invierte la posicion del autor: el texto dice que la IA no reemplazara a los medicos, sino que colaborara con ellos", "isCorrect": true },
+          { "letter": "C", "text": "Porque el texto no menciona en ningun momento a los sistemas de IA", "isCorrect": false },
+          { "letter": "D", "text": "Porque la opcion B es una generalizacion apresurada", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "¿Cuales son los tres pasos de la tecnica de «sintesis progresiva» que ensena el Dia 6 para identificar la idea principal?",
+        "explanation": "El audio del Dia 6 presenta tres pasos: (1) leer el primer parrafo (generalmente introduce el tema y la tesis), (2) leer el ultimo parrafo (generalmente cierra y sintetiza), y (3) construir una sintesis que capture lo esencial del texto a partir de esos dos parrafos.",
+        "competency": "literal",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Leer el primer parrafo, leer el ultimo parrafo, construir una sintesis a partir de ambos", "isCorrect": true },
+          { "letter": "B", "text": "Subrayar las ideas principales, eliminar las secundarias, resumir en una oracion", "isCorrect": false },
+          { "letter": "C", "text": "Leer todo el texto, identificar el parrafo mas largo, extraer su oracion central", "isCorrect": false },
+          { "letter": "D", "text": "Buscar la palabra clave, localizar el parrafo donde aparece, copiar esa oracion", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 7,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun el Dia 7, ¿cuales son los cuatro tipos principales de voces que pueden aparecer en un texto?",
+        "explanation": "El audio identifica: (1) la voz del autor (posicion central que defiende), (2) las voces citadas (posiciones de otros reproducidas explicitamente), (3) las voces ajenas no citadas (posiciones de grupos presentadas para luego refutarlas), y (4) el conocimiento compartido (ideas que el autor asume que el lector ya conoce).",
+        "competency": "literal",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Voz narrativa, voz lirica, voz dramatica y voz argumentativa", "isCorrect": false },
+          { "letter": "B", "text": "Voz del autor, voces citadas, voces ajenas no citadas, y conocimiento compartido", "isCorrect": true },
+          { "letter": "C", "text": "Voz del protagonista, voz del antagonista, voz del narrador y voz del lector", "isCorrect": false },
+          { "letter": "D", "text": "Voz activa, voz pasiva, voz reflexiva y voz reciproca", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El Dia 7 explica la estructura de concesion-refutacion con la forma: «Es cierto que X, pero Y.» Ejemplo: «Es cierto que el mercado libre puede reducir algunos costos en salud, pero la salud es un bien demasiado esencial para dejarlo completamente al mercado.»",
+        "questionText": "Segun la regla ensenada en el Dia 7, ¿donde se encuentra la posicion real del autor en una estructura de concesion-refutacion?",
+        "explanation": "El audio del Dia 7 establece una regla clara: lo que viene despues del «pero» o del «sin embargo» es siempre la posicion real del autor. La primera parte (antes del «pero») es la concesion al punto de vista contrario.",
+        "competency": "inferencial",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "En la primera parte, antes del «pero», porque es lo que el autor reconoce como verdadero", "isCorrect": false },
+          { "letter": "B", "text": "Despues del «pero» o del «sin embargo», porque ahi el autor presenta su propio argumento", "isCorrect": true },
+          { "letter": "C", "text": "En ambas partes por igual, porque el autor esta de acuerdo con ambas ideas", "isCorrect": false },
+          { "letter": "D", "text": "En ninguna de las dos partes, porque la estructura concesion-refutacion solo presenta voces ajenas", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "El Dia 7 presenta un texto sobre salud como bien de mercado o derecho del Estado. La pregunta es: «¿Cual es la posicion del autor?» Las opciones incluyen ideas como que el mercado libre es el mejor mecanismo, que la competencia mejora la calidad, que la salud es un derecho que el Estado debe garantizar, y que los economistas neoliberales tienen razon.",
+        "questionText": "¿Cual es el error mas frecuente que cometen los estudiantes en preguntas sobre la posicion del autor, segun el Dia 7?",
+        "explanation": "El audio explica que el error mas frecuente es elegir opciones que corresponden a la posicion que el autor cita y luego refuta, no a la que defiende. Las ideas de las voces ajenas si aparecen en el texto, pero el error es no distinguir que voz las presenta.",
+        "competency": "critico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Elegir la opcion mas larga porque parece mas completa", "isCorrect": false },
+          { "letter": "B", "text": "Elegir la primera idea que aparece en el texto porque asumen que es la del autor", "isCorrect": false },
+          { "letter": "C", "text": "Confundir la posicion que el autor cita para refutar con la posicion que el autor defiende", "isCorrect": true },
+          { "letter": "D", "text": "Elegir siempre la opcion que contiene la palabra «sin embargo»", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 8,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "¿Cuales son los seis tipos principales de relaciones entre partes de un texto que presenta el Dia 8?",
+        "explanation": "El audio del Dia 8 presenta seis tipos: causa-efecto, problema-solucion, argumento-ejemplo, tesis-contraargumento, generalizacion-detalle, y comparacion o contraste.",
+        "competency": "literal",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Introduccion-desarrollo, nudo-desenlace, tesis-antitesis, premisa-conclusion, hipotesis-verificacion, analogia-diferencia", "isCorrect": false },
+          { "letter": "B", "text": "Causa-efecto, problema-solucion, argumento-ejemplo, tesis-contraargumento, generalizacion-detalle, y comparacion-contraste", "isCorrect": true },
+          { "letter": "C", "text": "Adicion, oposicion, consecuencia, condicion, concesion y ejemplificacion", "isCorrect": false },
+          { "letter": "D", "text": "Cronologica, espacial, logica, tematica, comparativa y descriptiva", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El Dia 8 explica la tecnica de «mapeo relacional»: antes de leer las preguntas, se hace un mapa mental del texto identificando la funcion de cada parrafo con una etiqueta breve. Ejemplo: «P1: introduce el problema», «P2: da evidencia del problema», «P3: propone soluciones».",
+        "questionText": "¿Cual es la principal ventaja del mapeo relacional segun lo explicado en el Dia 8?",
+        "explanation": "El audio explica que con el mapeo, cuando preguntan la relacion entre dos parrafos, ya se tiene la respuesta preparada. Se ahorra tiempo porque no hay que releer el texto para cada pregunta sobre relaciones entre partes.",
+        "competency": "inferencial",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Permite memorizar el texto completo para responder sin volver a leerlo", "isCorrect": false },
+          { "letter": "B", "text": "Permite tener la funcion de cada parrafo identificada antes de leer las preguntas, agilizando las respuestas", "isCorrect": true },
+          { "letter": "C", "text": "Permite identificar el vocabulario tecnico del texto", "isCorrect": false },
+          { "letter": "D", "text": "Permite predecir las preguntas que hara el examen", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "El Dia 8 senala un error frecuente: confundir la relacion de argumento-ejemplo con la relacion de causa-efecto. Da este caso: «Los estudios epidemiologicos han documentado una relacion consistente entre sedentarismo y enfermedades cardiovasculares. En una cohorte de diez mil adultos seguida durante veinte anos, quienes no realizaban actividad fisica regular tenian el doble de probabilidad de sufrir un evento cardiovascular.»",
+        "questionText": "¿Que tipo de relacion existe entre estas dos partes del texto y por que no es causa-efecto?",
+        "explanation": "El audio explica que la relacion es argumento-ejemplo: el primer parrafo hace la afirmacion general y el segundo da un ejemplo de un estudio especifico que la ilustra. No es causa-efecto porque el segundo parrafo no explica por que ocurre la relacion entre sedentarismo y enfermedad cardiovascular; simplemente la ilustra con datos concretos.",
+        "competency": "critico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Es causa-efecto porque el sedentarismo causa enfermedades cardiovasculares", "isCorrect": false },
+          { "letter": "B", "text": "Es comparacion-contraste porque compara personas activas con personas sedentarias", "isCorrect": false },
+          { "letter": "C", "text": "Es argumento-ejemplo porque el segundo parrafo ilustra la afirmacion general del primero con un estudio concreto, sin explicar por que ocurre la relacion", "isCorrect": true },
+          { "letter": "D", "text": "Es problema-solucion porque el primer parrafo presenta el problema y el segundo la solucion", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 9,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "¿Cuales son los tres modelos mas frecuentes de estructura textual en el Saber Pro segun el Dia 9?",
+        "explanation": "El audio del Dia 9 identifica los tres modelos mas frecuentes como: el modelo deductivo (de lo general a lo particular: tesis primero, argumentos despues), el modelo inductivo (de lo particular a lo general: datos primero, conclusion al final), y el modelo de problema-solucion.",
+        "competency": "literal",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Narrativo, descriptivo y expositivo", "isCorrect": false },
+          { "letter": "B", "text": "Deductivo, inductivo y problema-solucion", "isCorrect": true },
+          { "letter": "C", "text": "Argumentativo, informativo y literario", "isCorrect": false },
+          { "letter": "D", "text": "Comparativo, cronologico y analitico", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El Dia 9 describe cuatro estrategias argumentativas que los autores usan dentro de los modelos de estructura textual.",
+        "questionText": "¿Cuales son las cuatro estrategias argumentativas principales identificadas en el Dia 9?",
+        "explanation": "El audio presenta: (1) enumeracion de argumentos (marcadores como «en primer lugar», «ademas»), (2) estrategia de autoridad (citar expertos o instituciones), (3) estrategia de evidencia estadistica (datos cuantitativos), y (4) estrategia de concesion-refutacion (reconocer objeciones antes de superarlas).",
+        "competency": "literal",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Narracion, descripcion, exposicion y argumentacion", "isCorrect": false },
+          { "letter": "B", "text": "Induccion, deduccion, analogia y contraejemplo", "isCorrect": false },
+          { "letter": "C", "text": "Enumeracion de argumentos, autoridad, evidencia estadistica y concesion-refutacion", "isCorrect": true },
+          { "letter": "D", "text": "Causa-efecto, comparacion, ejemplificacion y definicion", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "El Dia 9 propone una estrategia para identificar si un texto es deductivo o inductivo: leer el primer y ultimo parrafo. Si el primer parrafo enuncia la tesis y el ultimo la reitera, es deductivo. Si la tesis aparece solo al final, es inductivo.",
+        "questionText": "Si un texto comienza presentando datos estadisticos sobre mortalidad infantil en varios paises y solo en el ultimo parrafo formula la conclusion de que los programas de vacunacion son fundamentales, ¿que modelo estructural tiene este texto segun los criterios del Dia 9?",
+        "explanation": "Segun los criterios del audio, si la tesis o conclusion aparece solo al final y el texto comienza con datos particulares, el modelo es inductivo: va de lo particular a lo general. El texto presenta evidencia primero y llega a una conclusion al final.",
+        "competency": "inferencial",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Modelo deductivo, porque presenta datos que respaldan una tesis", "isCorrect": false },
+          { "letter": "B", "text": "Modelo de problema-solucion, porque los datos revelan un problema", "isCorrect": false },
+          { "letter": "C", "text": "Modelo inductivo, porque parte de datos particulares y la conclusion general aparece solo al final", "isCorrect": true },
+          { "letter": "D", "text": "Modelo comparativo, porque compara datos de varios paises", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 10,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "El Dia 10 presenta un texto sobre medicina personalizada con la siguiente pregunta: «¿Cual de las siguientes afirmaciones representa la voz de personas diferentes al autor?» Las opciones son: A. «La medicina personalizada promete revolucionar el tratamiento», B. «Los defensores de la medicina personalizada senalan sus multiples beneficios», C. «El sistema de salud debe prepararse para esta transformacion», D. «Las tecnologias de secuenciacion se abaratan rapidamente.»",
+        "questionText": "¿Por que la opcion B es la correcta como voz ajena al autor?",
+        "explanation": "El audio explica que el marcador «los defensores» indica que es la posicion de otros, no del autor. Las opciones A, C y D son afirmaciones que el autor hace en su propio nombre. La clave esta en reconocer los marcadores linguisticos que senalan voces ajenas.",
+        "competency": "inferencial",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Porque usa comillas, lo que siempre indica una cita textual de otro autor", "isCorrect": false },
+          { "letter": "B", "text": "Porque el marcador «los defensores» senala explicitamente que es la posicion de otros, no del autor del texto", "isCorrect": true },
+          { "letter": "C", "text": "Porque es la unica opcion que menciona beneficios, y el autor solo habla de desafios", "isCorrect": false },
+          { "letter": "D", "text": "Porque es la oracion mas larga del texto y eso indica una voz secundaria", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": null,
+        "questionText": "Segun el Dia 10, ¿cuales son las cuatro competencias inferenciales que se repasan como cierre de la Semana 2?",
+        "explanation": "El audio enumera las cuatro competencias: (1) identificar la idea principal y la tesis, (2) identificar las voces en el texto y distinguir la posicion del autor, (3) comprender las relaciones entre partes del texto, y (4) reconocer la estructura y organizacion global del texto.",
+        "competency": "literal",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Vocabulario, conectores, informacion explicita y textos discontinuos", "isCorrect": false },
+          { "letter": "B", "text": "Supuestos, falacias, retorica y contexto comunicativo", "isCorrect": false },
+          { "letter": "C", "text": "Idea principal y tesis, voces en el texto, relaciones entre partes, y estructura global", "isCorrect": true },
+          { "letter": "D", "text": "Causa-efecto, comparacion, ejemplificacion y cronologia", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "En el ejercicio integrador del Dia 10, el texto de medicina personalizada presenta argumentos a favor y objeciones, y termina con la posicion del autor. La pregunta sobre estructura pide identificar como esta organizado el texto.",
+        "questionText": "Segun el analisis del Dia 10, ¿cual es la organizacion del texto sobre medicina personalizada?",
+        "explanation": "El audio explica que la organizacion es: definicion, argumentos a favor, objeciones, posicion del autor. Es un modelo deductivo modificado con estructura de tesis, desarrollo con contraargumentos y conclusion. La respuesta correcta del ejercicio es: «Definicion, argumentos a favor, objeciones, posicion del autor.»",
+        "competency": "inferencial",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Problema, causas, soluciones y conclusion", "isCorrect": false },
+          { "letter": "B", "text": "Definicion, argumentos a favor, objeciones y posicion del autor", "isCorrect": true },
+          { "letter": "C", "text": "Comparacion de dos posturas opuestas sin tomar partido", "isCorrect": false },
+          { "letter": "D", "text": "Narracion cronologica del desarrollo de la medicina personalizada", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 11,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun el Dia 11, ¿cuales son los cuatro pasos de la tecnica para identificar supuestos implicitos en un argumento?",
+        "explanation": "El audio presenta cuatro pasos: (1) identificar la conclusion del argumento, (2) identificar las premisas explicitas, (3) preguntarse que debe ser verdad para que la conclusion se siga de las premisas, y (4) comparar ese «eslabon faltante» con las opciones de respuesta.",
+        "competency": "literal",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Leer el argumento, buscar la falacia, identificar el sesgo, elegir la opcion correcta", "isCorrect": false },
+          { "letter": "B", "text": "Identificar la conclusion, identificar las premisas, preguntarse que debe ser verdad para que funcione, comparar con las opciones", "isCorrect": true },
+          { "letter": "C", "text": "Subrayar las palabras clave, buscar definiciones, eliminar opciones falsas, elegir la mas logica", "isCorrect": false },
+          { "letter": "D", "text": "Clasificar el tipo de texto, identificar la tesis, analizar los contraargumentos, sintetizar la conclusion", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El Dia 11 presenta este argumento: «La publicidad de alimentos ultraprocesados dirigida a ninos deberia regularse porque la obesidad infantil esta aumentando.» La pregunta pide identificar el supuesto implicito.",
+        "questionText": "¿Cual es el supuesto implicito de este argumento y por que la opcion «Los alimentos ultraprocesados son la unica causa de obesidad infantil» no es correcta?",
+        "explanation": "El audio explica que el supuesto correcto es que «la publicidad influye significativamente en los habitos alimenticios de los ninos» (el eslabon que conecta publicidad con obesidad). La opcion de «unica causa» es incorrecta porque es demasiado fuerte: el argumento no necesita asumir que es la unica causa; puede haber otras causas y aun asi ser valido regular la publicidad.",
+        "competency": "critico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "El supuesto es que la publicidad influye en los habitos de los ninos; «unica causa» es incorrecto porque el argumento funciona aun habiendo otras causas", "isCorrect": true },
+          { "letter": "B", "text": "El supuesto es que el gobierno tiene autoridad para regular; «unica causa» es incorrecto porque es una afirmacion de opinion", "isCorrect": false },
+          { "letter": "C", "text": "El supuesto es que la obesidad infantil es un problema grave; «unica causa» es incorrecto porque es un dato empirico", "isCorrect": false },
+          { "letter": "D", "text": "El supuesto es que los padres no pueden controlar lo que comen sus hijos; «unica causa» es incorrecto porque es irrelevante", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Segun el Dia 11, ¿cuales son los cuatro tipos comunes de supuestos implicitos que aparecen en el Saber Pro?",
+        "explanation": "El audio enumera cuatro tipos: (1) supuestos causales (asumir que X causa Y), (2) supuestos valorativos (asumir que algo es bueno o importante sin argumentarlo), (3) supuestos de generalizacion (asumir que lo que vale para un caso vale para todos), y (4) supuestos de comparabilidad (asumir que dos situaciones son suficientemente similares).",
+        "competency": "literal",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Supuestos logicos, supuestos gramaticales, supuestos contextuales y supuestos tematicos", "isCorrect": false },
+          { "letter": "B", "text": "Supuestos causales, valorativos, de generalizacion y de comparabilidad", "isCorrect": true },
+          { "letter": "C", "text": "Supuestos explicitos, implicitos, ocultos y evidentes", "isCorrect": false },
+          { "letter": "D", "text": "Supuestos cientificos, filosoficos, eticos y politicos", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 12,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun el Dia 12, ¿cuales son los cuatro criterios para evaluar la validez de un argumento?",
+        "explanation": "El audio presenta cuatro criterios: (1) relevancia (las premisas deben ser relevantes para la conclusion), (2) suficiencia (las premisas deben ser suficientes para sostener la conclusion), (3) aceptabilidad (las premisas deben ser verdaderas o plausibles), y (4) consistencia (las premisas no deben contradecirse entre si ni con la conclusion).",
+        "competency": "literal",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Claridad, brevedad, originalidad y coherencia", "isCorrect": false },
+          { "letter": "B", "text": "Relevancia, suficiencia, aceptabilidad y consistencia", "isCorrect": true },
+          { "letter": "C", "text": "Logica, evidencia, autoridad y emocion", "isCorrect": false },
+          { "letter": "D", "text": "Objetividad, neutralidad, imparcialidad y exactitud", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El Dia 12 analiza este argumento: «La telemedicina es efectiva porque los pacientes reportan alta satisfaccion con las consultas virtuales.» La pregunta pide identificar la objecion mas poderosa.",
+        "questionText": "¿Por que la objecion «la satisfaccion del paciente no equivale a efectividad clinica» es la mas poderosa contra este argumento?",
+        "explanation": "El audio explica que el argumento usa satisfaccion del paciente como evidencia de efectividad clinica, pero estas son cosas diferentes: un paciente puede estar satisfecho con una consulta que no resolvio su problema. La evidencia presentada (satisfaccion) no es una medida valida de lo que intenta demostrar (efectividad). Esa es la debilidad central.",
+        "competency": "critico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Porque demuestra que la telemedicina es una tecnologia nueva e inestable", "isCorrect": false },
+          { "letter": "B", "text": "Porque ataca directamente la conexion entre la evidencia presentada (satisfaccion) y lo que intenta demostrar (efectividad), mostrando que no son equivalentes", "isCorrect": true },
+          { "letter": "C", "text": "Porque revela que los estudios sobre telemedicina son poco confiables", "isCorrect": false },
+          { "letter": "D", "text": "Porque muestra que los medicos prefieren las consultas presenciales", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "El Dia 12 presenta varias falacias. Una de ellas es la «pendiente resbaladiza», ilustrada con este ejemplo: «Si permitimos que los medicos trabajen cuatro dias a la semana, pronto dejaran de trabajar del todo y el sistema de salud colapsara.»",
+        "questionText": "¿Que caracteriza a la falacia de pendiente resbaladiza segun la explicacion del Dia 12?",
+        "explanation": "El audio define la pendiente resbaladiza como argumentar que aceptar una medida pequena llevara inevitablemente a consecuencias extremas, sin justificar por que se daria esa cadena de consecuencias. La cadena causal entre la medida inicial y las consecuencias extremas no esta justificada.",
+        "competency": "inferencial",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Argumentar que algo es verdad porque la mayoria de la gente lo cree", "isCorrect": false },
+          { "letter": "B", "text": "Atacar a quien hace el argumento en lugar de al argumento mismo", "isCorrect": false },
+          { "letter": "C", "text": "Argumentar que una medida pequena llevara inevitablemente a consecuencias extremas sin justificar la cadena de consecuencias", "isCorrect": true },
+          { "letter": "D", "text": "Sacar una conclusion general a partir de un numero insuficiente de casos", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 13,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun el Dia 13, ¿cuales son las principales estrategias retoricas que los autores usan para persuadir al lector?",
+        "explanation": "El audio del Dia 13 presenta: apelacion a la emocion, apelacion a la autoridad, apelacion a la tradicion, pregunta retorica, contraste dramatico y enumeracion abrumadora.",
+        "competency": "literal",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Definicion, ejemplificacion, clasificacion y comparacion", "isCorrect": false },
+          { "letter": "B", "text": "Apelacion a la emocion, apelacion a la autoridad, apelacion a la tradicion, pregunta retorica, contraste dramatico y enumeracion abrumadora", "isCorrect": true },
+          { "letter": "C", "text": "Induccion, deduccion, analogia y silogismo", "isCorrect": false },
+          { "letter": "D", "text": "Narracion, descripcion, exposicion y argumentacion", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El Dia 13 analiza este fragmento: «¿Vamos a permitir que la industria farmaceutica siga lucrando con la enfermedad de nuestros hijos? El sesenta por ciento de los medicamentos mas vendidos no tienen evidencia solida de eficacia. Mientras las empresas acumulan ganancias millonarias, los mas vulnerables de nuestra sociedad siguen sin acceso a tratamientos dignos.»",
+        "questionText": "¿Que funcion cumple la pregunta retorica «¿Vamos a permitir...?» en este fragmento segun el analisis del Dia 13?",
+        "explanation": "El audio explica que la pregunta retorica presume la respuesta negativa (no, por supuesto) y crea acuerdo emocional sin dar argumentos. Es una estrategia que hace una pregunta cuya respuesta se da por obvia para crear una posicion sin argumentarla directamente.",
+        "competency": "inferencial",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Solicitar una respuesta directa del lector para iniciar un dialogo argumentativo", "isCorrect": false },
+          { "letter": "B", "text": "Presentar una duda genuina del autor sobre el tema para mostrar objetividad", "isCorrect": false },
+          { "letter": "C", "text": "Presumir una respuesta negativa obvia para crear acuerdo emocional sin argumentar directamente", "isCorrect": true },
+          { "letter": "D", "text": "Introducir un contraargumento que el autor luego refutara en el siguiente parrafo", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "El Dia 13 explica que el mismo fenomeno se puede describir con lenguaje cargado positiva o negativamente. Ejemplo: un mismo proceso puede llamarse «racionamiento» (connotacion negativa) o «priorizacion» (connotacion mas neutra).",
+        "questionText": "Segun el Dia 13, ¿que es el «sesgo de encuadre» y como afecta la presentacion de informacion en un texto?",
+        "explanation": "El audio define el sesgo de encuadre como la manera en que se presenta un problema. Un mismo fenomeno puede presentarse de formas completamente diferentes que generan percepciones distintas. Identificar el encuadre es parte del analisis critico porque revela las decisiones retorias del autor.",
+        "competency": "critico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Es cuando el autor omite datos que contradicen su posicion para que el lector solo vea informacion favorable", "isCorrect": false },
+          { "letter": "B", "text": "Es la manera en que se presenta un problema, haciendo que un mismo fenomeno genere percepciones distintas segun como se describe", "isCorrect": true },
+          { "letter": "C", "text": "Es cuando el autor atribuye caracteristicas positivas a su grupo y negativas a los demas", "isCorrect": false },
+          { "letter": "D", "text": "Es cuando el autor usa datos estadisticos para dar apariencia de objetividad a un argumento debil", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 14,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": null,
+        "questionText": "Segun el Dia 14, ¿cuales son los tres propositos fundamentales que puede tener un texto en el Saber Pro?",
+        "explanation": "El audio del Dia 14 identifica tres propositos fundamentales: informar (presentar informacion sin tomar posicion ni persuadir), persuadir (defender una posicion y convencer al lector), y narrar (contar una historia o describir una secuencia de eventos).",
+        "competency": "literal",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Informar, persuadir y narrar", "isCorrect": true },
+          { "letter": "B", "text": "Argumentar, describir y explicar", "isCorrect": false },
+          { "letter": "C", "text": "Educar, entretener y conmover", "isCorrect": false },
+          { "letter": "D", "text": "Analizar, sintetizar y evaluar", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "El Dia 14 presenta un texto sobre autonomia del paciente que defiende que los pacientes tienen derecho a tomar decisiones informadas sobre su tratamiento, siempre que sean competentes y hayan recibido informacion adecuada. La pregunta es: «Siguiendo la logica del texto, ¿que posicion tomaria el autor frente a un paciente que rechaza una transfusion de sangre por motivos religiosos?»",
+        "questionText": "¿Cual es la estrategia correcta para responder preguntas de «aplicacion a otros contextos» segun el Dia 14?",
+        "explanation": "El audio explica que la clave es extraer el principio abstracto del texto (no el contenido concreto) y aplicarlo a la situacion nueva. En este caso, el principio es: las decisiones autonomas de personas competentes e informadas deben respetarse. Se aplica ese principio al caso nuevo.",
+        "competency": "inferencial",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Buscar si el texto menciona exactamente la situacion nueva y copiar lo que dice", "isCorrect": false },
+          { "letter": "B", "text": "Extraer el principio abstracto del texto y aplicarlo a la situacion nueva que plantea la pregunta", "isCorrect": true },
+          { "letter": "C", "text": "Responder segun lo que uno haria personalmente en esa situacion", "isCorrect": false },
+          { "letter": "D", "text": "Elegir la opcion que tenga las mismas palabras clave que el texto original", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "El Dia 14 presenta un ejercicio sobre consentimiento informado. El texto defiende que el consentimiento valido requiere que el paciente entienda realmente lo que esta autorizando. Se pregunta en que situacion el consentimiento seria invalido.",
+        "questionText": "¿Por que un paciente que firma un documento en terminos medicos complejos sin explicacion adicional representa un consentimiento invalido segun la logica del texto?",
+        "explanation": "El audio explica que el principio del texto es que el consentimiento requiere comprension real. Un documento en terminos medicos complejos que el paciente firma sin explicacion no garantiza comprension real, por lo tanto viola el principio central del argumento del texto.",
+        "competency": "critico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Porque el paciente no tiene derecho legal a firmar documentos medicos sin un abogado presente", "isCorrect": false },
+          { "letter": "B", "text": "Porque los terminos medicos complejos son ilegales en documentos de consentimiento", "isCorrect": false },
+          { "letter": "C", "text": "Porque firmar sin comprender realmente lo que se autoriza viola el principio de que el consentimiento requiere comprension real", "isCorrect": true },
+          { "letter": "D", "text": "Porque el medico esta obligado a leer en voz alta todo documento antes de que el paciente firme", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 15,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "En el simulacro del Dia 15, el Texto 1 sobre medicina basada en evidencia incluye la pregunta: «¿Cual es la posicion del autor frente a la MBE?» La respuesta correcta es: «La considera un avance que debe perfeccionarse.»",
+        "questionText": "¿Por que la opcion «La acepta sin ninguna reserva» es incorrecta para describir la posicion del autor sobre la MBE?",
+        "explanation": "El audio explica que el texto presenta la MBE como un avance significativo pero tambien reconoce sus criticas y limitaciones. La posicion del autor es matizada, no de aceptacion acritica. La opcion «La acepta sin ninguna reserva» ignora las criticas que el texto si presenta.",
+        "competency": "inferencial",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Porque el autor rechaza completamente la MBE en el ultimo parrafo", "isCorrect": false },
+          { "letter": "B", "text": "Porque el texto presenta criticas y limitaciones de la MBE, lo cual muestra una posicion matizada, no de aceptacion acritica", "isCorrect": true },
+          { "letter": "C", "text": "Porque el autor propone abandonar la MBE por metodos tradicionales", "isCorrect": false },
+          { "letter": "D", "text": "Porque la MBE no se menciona en el texto sino como referencia historica", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "En el simulacro del Dia 15, el Texto 3 sobre autonomia del paciente incluye la pregunta: «¿En cual de las siguientes situaciones seria legitimo limitar la autonomia del paciente?» La respuesta correcta es: «Un paciente con tuberculosis activa rechaza el tratamiento.»",
+        "questionText": "¿Cual es el principio del texto que justifica limitar la autonomia del paciente en el caso de la tuberculosis activa?",
+        "explanation": "El audio explica que el texto reconoce que la autonomia del paciente tiene limites cuando sus decisiones representan un riesgo significativo para terceros. Un paciente con tuberculosis activa que rechaza el tratamiento pone en riesgo a otras personas por contagio, a diferencia de las otras opciones que solo afectan al propio paciente.",
+        "competency": "critico",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "El principio de que el medico siempre sabe que es mejor para el paciente", "isCorrect": false },
+          { "letter": "B", "text": "El principio de que las enfermedades infecciosas siempre deben tratarse obligatoriamente", "isCorrect": false },
+          { "letter": "C", "text": "El principio de que la autonomia tiene limites cuando las decisiones del paciente representan un riesgo significativo para terceros", "isCorrect": true },
+          { "letter": "D", "text": "El principio de que los pacientes con enfermedades graves no pueden tomar decisiones autonomas", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": null,
+        "questionText": "Segun el cierre del Dia 15, ¿cuales son las seis tecnicas especificas que se aprendieron a lo largo de las tres semanas del modulo de Lectura Critica?",
+        "explanation": "El audio del Dia 15 enumera las seis tecnicas: (1) reemplazo contextual para vocabulario, (2) subrayado selectivo para informacion explicita, (3) sintesis progresiva para idea principal, (4) mapeo relacional para relaciones entre partes, (5) tecnica de cuatro pasos para supuestos implicitos, y (6) analisis retorico para estrategias de persuasion.",
+        "competency": "literal",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Lectura rapida, memorizacion, eliminacion, deduccion, comparacion y sintesis", "isCorrect": false },
+          { "letter": "B", "text": "Reemplazo contextual, subrayado selectivo, sintesis progresiva, mapeo relacional, tecnica de cuatro pasos para supuestos, y analisis retorico", "isCorrect": true },
+          { "letter": "C", "text": "Skimming, scanning, parafrasis, resumen, esquema y mapa conceptual", "isCorrect": false },
+          { "letter": "D", "text": "Prelectura, lectura activa, relectura, anotacion, discusion y escritura critica", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

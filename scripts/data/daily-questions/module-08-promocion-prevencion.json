@@ -1,0 +1,707 @@
+[
+  {
+    "dayNumber": 1,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un municipio implementa un programa de actividad física comunitaria abierto a toda la población sin distinción de condición de salud previa. El programa incluye caminatas grupales, clases de aeróbicos en el parque y torneos deportivos barriales.",
+        "questionText": "Según la distinción entre promoción de la salud y prevención de la enfermedad, ¿cómo se clasifica esta intervención?",
+        "explanation": "Es promoción de la salud porque se dirige a toda la población sin distinción de riesgo y busca mejorar el bienestar general, no prevenir una enfermedad específica. Si estuviera dirigida a pacientes con riesgo cardiovascular identificado, sería prevención primaria.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Prevención primaria cardiovascular porque el ejercicio reduce el riesgo de infarto", "isCorrect": false },
+          { "letter": "B", "text": "Promoción de la salud porque actúa sobre toda la población sin distinción de riesgo específico", "isCorrect": true },
+          { "letter": "C", "text": "Prevención secundaria porque detecta personas sedentarias", "isCorrect": false },
+          { "letter": "D", "text": "Prevención terciaria porque rehabilita a personas con enfermedades crónicas", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Una enfermera realiza una charla a gestantes sobre los signos de alarma del embarazo: sangrado vaginal, cefalea intensa, edema de manos y cara, y disminución de movimientos fetales.",
+        "questionText": "¿A qué nivel de prevención corresponde esta intervención y por qué?",
+        "explanation": "Es prevención secundaria porque busca que la gestante detecte tempranamente complicaciones (preeclampsia, hemorragia) en una población con riesgo específico (el embarazo). No es promoción porque se dirige a un grupo con riesgo identificado y busca detectar complicaciones concretas.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Promoción de la salud porque educa a la gestante", "isCorrect": false },
+          { "letter": "B", "text": "Prevención primaria porque actúa antes de la enfermedad", "isCorrect": false },
+          { "letter": "C", "text": "Prevención secundaria porque busca la detección temprana de complicaciones en una persona con riesgo específico", "isCorrect": true },
+          { "letter": "D", "text": "Prevención terciaria porque limita el daño durante el embarazo", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un concejo municipal aprueba una política que prohíbe la venta de comida chatarra en las tiendas escolares y promueve la oferta de frutas y verduras locales a precios subsidiados.",
+        "questionText": "Según la Carta de Ottawa de 1986, ¿cuáles áreas de acción se activan con esta intervención?",
+        "explanation": "Se activan dos áreas: la elaboración de políticas públicas saludables (la regulación municipal de venta de alimentos) y la creación de entornos favorables (los colegios pasan a ser ambientes donde la opción saludable es la disponible). No se trata solo de educación individual.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Solo aptitudes personales porque los niños aprenden a comer mejor", "isCorrect": false },
+          { "letter": "B", "text": "Políticas públicas saludables y creación de entornos favorables", "isCorrect": true },
+          { "letter": "C", "text": "Solo reorientación de los servicios de salud", "isCorrect": false },
+          { "letter": "D", "text": "Fortalecimiento de la acción comunitaria exclusivamente", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 2,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una secretaría de salud organiza una jornada de vacunación contra influenza para adultos mayores de 65 años en hogares geriátricos del municipio.",
+        "questionText": "¿A qué nivel de prevención y componente corresponde esta intervención según el modelo de Leavell y Clark?",
+        "explanation": "La vacunación es protección específica, componente de la prevención primaria. Actúa en el período prepatogénico: los adultos mayores están sanos y la vacuna genera inmunidad antes de que el virus los infecte. No es detección temprana ni rehabilitación.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Prevención primaria, protección específica", "isCorrect": true },
+          { "letter": "B", "text": "Prevención secundaria, diagnóstico precoz", "isCorrect": false },
+          { "letter": "C", "text": "Prevención terciaria, limitación del daño", "isCorrect": false },
+          { "letter": "D", "text": "Prevención primaria, promoción de la salud", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un médico de familia programa seguimiento trimestral a sus pacientes diabéticos: control de hemoglobina glicosilada, evaluación de fondo de ojo y revisión de pies para detectar úlceras incipientes.",
+        "questionText": "¿A qué nivel de prevención corresponde este seguimiento?",
+        "explanation": "Es prevención terciaria (limitación del daño) porque la diabetes ya está establecida y el objetivo es evitar complicaciones como retinopatía, nefropatía y pie diabético. No es detección temprana porque la enfermedad ya está diagnosticada.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Prevención primaria porque se toman medidas antes de que aparezcan las complicaciones", "isCorrect": false },
+          { "letter": "B", "text": "Prevención secundaria porque se detectan complicaciones tempranamente", "isCorrect": false },
+          { "letter": "C", "text": "Prevención terciaria porque limita el daño de una enfermedad ya establecida", "isCorrect": true },
+          { "letter": "D", "text": "Promoción de la salud porque mejora la calidad de vida del paciente", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un programa de detección temprana de cáncer colorrectal aplica la prueba de sangre oculta en heces a personas mayores de 50 años asintomáticas. Quienes resultan positivos son referidos a colonoscopia confirmatoria.",
+        "questionText": "¿En qué período de la historia natural de la enfermedad actúa esta intervención y cuál es su nivel de prevención?",
+        "explanation": "Actúa en el período patogénico subclínico: la enfermedad puede existir sin síntomas y el tamizaje busca detectarla antes de que se manifieste clínicamente. Es prevención secundaria mediante diagnóstico precoz. Un resultado positivo no es diagnóstico, sino indicación de prueba confirmatoria.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Período prepatogénico, prevención primaria", "isCorrect": false },
+          { "letter": "B", "text": "Período patogénico subclínico, prevención secundaria", "isCorrect": true },
+          { "letter": "C", "text": "Período patogénico clínico, prevención terciaria", "isCorrect": false },
+          { "letter": "D", "text": "Período de secuelas, rehabilitación", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 3,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una mujer de 45 años, obesa, sedentaria, con antecedente familiar de diabetes tipo 2 y dieta alta en carbohidratos simples acude a consulta de control.",
+        "questionText": "Al clasificar sus factores de riesgo, ¿cuál de las siguientes afirmaciones es correcta?",
+        "explanation": "La obesidad, el sedentarismo y la dieta inadecuada son factores modificables porque la persona puede cambiar su estilo de vida con intervención. El antecedente familiar de diabetes es un factor no modificable (genético). La obesidad NO es no modificable aunque tenga componente genético: es modificable con intervención.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "La obesidad es un factor no modificable porque tiene componente genético", "isCorrect": false },
+          { "letter": "B", "text": "Todos los factores son modificables con intervención adecuada", "isCorrect": false },
+          { "letter": "C", "text": "Los factores modificables son obesidad, sedentarismo y dieta; el no modificable es el antecedente familiar", "isCorrect": true },
+          { "letter": "D", "text": "El antecedente familiar es modificable con prevención secundaria", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "En una comunidad rural colombiana con alta tasa de embarazo adolescente, el equipo de salud diseña una intervención preventiva integral.",
+        "questionText": "Según la Resolución 3280 de 2018, ¿cuál combinación de estrategias es la más adecuada para abordar este problema?",
+        "explanation": "La estrategia que el ICFES prioriza es la educación sexual integral (que incluye derechos sexuales y reproductivos, no solo biología) junto con el acceso a métodos anticonceptivos. La distribución de anticonceptivos sin educación es insuficiente, y la abstinencia como única estrategia no ha mostrado efectividad.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Distribución masiva de anticonceptivos sin componente educativo", "isCorrect": false },
+          { "letter": "B", "text": "Educación sexual integral con enfoque de derechos más acceso a métodos anticonceptivos", "isCorrect": true },
+          { "letter": "C", "text": "Charlas sobre abstinencia como única estrategia preventiva", "isCorrect": false },
+          { "letter": "D", "text": "Tamizaje de embarazo con prueba de gonadotropina coriónica a todas las adolescentes", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un adolescente de 15 años en un barrio vulnerable presenta múltiples factores de riesgo: consumo de alcohol, deserción escolar, violencia intrafamiliar y grupo de pares con consumo de sustancias. El equipo de salud busca identificar un factor protector prioritario.",
+        "questionText": "Según el enfoque del curso de vida de la Resolución 3280, ¿cuál es el factor protector más reconocido para esta etapa?",
+        "explanation": "La actividad física y el deporte comunitario son factores protectores muy reconocidos por el ICFES para la adolescencia. Además, los talleres de habilidades para la vida (toma de decisiones, manejo de emociones, resolución de conflictos) y las redes de apoyo son protectores clave para esta etapa.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Prescripción farmacológica de ansiolíticos para controlar la conducta", "isCorrect": false },
+          { "letter": "B", "text": "Aislamiento del adolescente de su grupo de pares", "isCorrect": false },
+          { "letter": "C", "text": "Actividad física, deporte comunitario y habilidades para la vida", "isCorrect": true },
+          { "letter": "D", "text": "Internación en institución de rehabilitación por consumo de alcohol", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 4,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "En un municipio endémico de dengue, la secretaría de salud ordena la eliminación de criaderos de mosquitos: llantas viejas, tanques sin tapa y floreros con agua estancada.",
+        "questionText": "Según la cadena epidemiológica, ¿sobre cuál eslabón actúa esta intervención?",
+        "explanation": "La eliminación de criaderos actúa sobre el reservorio del vector (los sitios donde el mosquito se reproduce). No actúa sobre el agente (el virus del dengue) ni sobre el huésped. El vector Aedes aegypti necesita agua estancada para su ciclo larvario, y eliminar esos sitios corta la cadena en el reservorio.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Agente causal, porque elimina el virus del dengue", "isCorrect": false },
+          { "letter": "B", "text": "Reservorio, porque elimina los sitios de reproducción del vector", "isCorrect": true },
+          { "letter": "C", "text": "Huésped susceptible, porque protege a las personas", "isCorrect": false },
+          { "letter": "D", "text": "Puerta de entrada, porque impide la picadura del mosquito", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un niño de 4 meses asiste a consulta de crecimiento y desarrollo. Ya tiene BCG y hepatitis B al nacer, y primera dosis de pentavalente, polio inyectable (IPV), rotavirus y neumococo conjugada a los 2 meses.",
+        "questionText": "Según el esquema del PAI colombiano, ¿cuáles vacunas corresponden en esta consulta de 4 meses?",
+        "explanation": "A los 4 meses corresponde la segunda dosis de pentavalente, la segunda dosis de polio (ahora oral OPV), la segunda dosis de rotavirus y la segunda dosis de neumococo conjugada. La polio a los 2 meses es inyectable (IPV) y a partir de los 4 meses se usa oral (OPV).",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Segunda dosis de BCG, pentavalente y fiebre amarilla", "isCorrect": false },
+          { "letter": "B", "text": "Segunda dosis de pentavalente, polio oral (OPV), rotavirus y neumococo conjugada", "isCorrect": true },
+          { "letter": "C", "text": "Triple viral, varicela y hepatitis A", "isCorrect": false },
+          { "letter": "D", "text": "Tercera dosis de pentavalente, polio y refuerzo de BCG", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "En una zona rural de Colombia, un brote de enfermedad diarreica aguda afecta principalmente a menores de 5 años. La investigación epidemiológica encuentra que las familias afectadas consumen agua de un arroyo sin tratamiento.",
+        "questionText": "¿Cuál es la intervención de prevención primaria más efectiva para prevenir nuevos casos de EDA en esta comunidad?",
+        "explanation": "El agua segura (hervir o clorar) es la intervención de prevención primaria más efectiva para EDA porque actúa directamente sobre la vía de transmisión y el reservorio. La lactancia materna exclusiva protege a los menores de 6 meses, pero la medida comunitaria de mayor impacto es el acceso a agua segura y saneamiento básico.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Tratamiento con sales de rehidratación oral para todos los niños del municipio", "isCorrect": false },
+          { "letter": "B", "text": "Acceso a agua segura mediante cloración o hervido del agua de consumo", "isCorrect": true },
+          { "letter": "C", "text": "Coprocultivo masivo para identificar el agente etiológico", "isCorrect": false },
+          { "letter": "D", "text": "Hospitalización preventiva de todos los menores de 5 años", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 5,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un programa de tamizaje aplica una prueba rápida de VIH a 1.000 gestantes. De las 50 verdaderamente positivas, la prueba detecta correctamente a 48. De las 950 verdaderamente negativas, da resultado correcto en 920.",
+        "questionText": "¿Cuál es la sensibilidad de esta prueba de tamizaje?",
+        "explanation": "La sensibilidad mide la capacidad de detectar enfermos: verdaderos positivos / (verdaderos positivos + falsos negativos) = 48 / (48 + 2) = 48/50 = 96%. La prueba deja sin detectar a 2 gestantes positivas (falsos negativos). En tamizaje se prioriza alta sensibilidad para no dejar escapar enfermos.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "92%", "isCorrect": false },
+          { "letter": "B", "text": "96%", "isCorrect": true },
+          { "letter": "C", "text": "98%", "isCorrect": false },
+          { "letter": "D", "text": "90%", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Una mujer de 52 años sin antecedentes familiares relevantes, con última citología cervicouterina normal hace 2 años, acude a consulta de control. No se le ha realizado mamografía previamente.",
+        "questionText": "Según la Resolución 3280 de 2018, ¿cuáles tamizajes deben realizarse en esta consulta?",
+        "explanation": "A los 52 años, la Resolución 3280 establece: mamografía bilateral (primera vez, por tener entre 50-69 años), sangre oculta en heces (por tener más de 50 años para tamizaje de cáncer colorrectal), y verificación de próxima citología o prueba de VPH. La RPMS establece un paquete integrado por curso de vida, no un solo tamizaje.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Solo mamografía bilateral porque es la primera vez", "isCorrect": false },
+          { "letter": "B", "text": "Mamografía bilateral, sangre oculta en heces y verificación de citología o prueba de VPH", "isCorrect": true },
+          { "letter": "C", "text": "Solo citología cervicouterina porque la anterior fue hace 2 años", "isCorrect": false },
+          { "letter": "D", "text": "Colonoscopia diagnóstica inmediata y mamografía bilateral", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un recién nacido de 3 días de vida presenta TSH elevada en la prueba de tamizaje neonatal tomada en talón.",
+        "questionText": "Según el protocolo de tamizaje neonatal, ¿cuál es la conducta correcta ante este resultado?",
+        "explanation": "Ante TSH elevada en tamizaje neonatal se debe solicitar T4 libre confirmatoria e iniciar levotiroxina de inmediato sin esperar el resultado confirmatorio. La urgencia del diagnóstico lo justifica: el hipotiroidismo congénito es la causa más frecuente de discapacidad intelectual prevenible, y el retraso en el tratamiento produce daño irreversible.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Repetir la TSH en 2 semanas para confirmar antes de actuar", "isCorrect": false },
+          { "letter": "B", "text": "Solicitar T4 libre confirmatoria e iniciar levotiroxina de inmediato sin esperar el resultado", "isCorrect": true },
+          { "letter": "C", "text": "Remitir a endocrinología pediátrica y esperar la cita para iniciar tratamiento", "isCorrect": false },
+          { "letter": "D", "text": "Tranquilizar a la madre porque la TSH puede estar transitoriamente elevada", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 6,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un municipio implementa simultáneamente ciclovías los domingos, regulación de comida chatarra en colegios, talleres de alimentación saludable para familias y fortalecimiento de comités comunitarios de salud.",
+        "questionText": "¿Cómo se clasifica esta intervención según la Carta de Ottawa?",
+        "explanation": "Es promoción de la salud completa porque activa múltiples áreas de acción de Ottawa: entornos favorables (ciclovías), políticas públicas saludables (regulación de alimentos), aptitudes personales (talleres) y acción comunitaria (comités). Una intervención que solo usa charlas sería solo educación para la salud, no promoción completa.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Educación para la salud porque incluye talleres informativos", "isCorrect": false },
+          { "letter": "B", "text": "Prevención primaria específica porque reduce factores de riesgo cardiovascular", "isCorrect": false },
+          { "letter": "C", "text": "Promoción de la salud con múltiples áreas de acción de Ottawa", "isCorrect": true },
+          { "letter": "D", "text": "Plan de Intervenciones Colectivas exclusivamente", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un paciente de 50 años, fumador de 30 años, acude a consulta. Cuando el médico le pregunta si ha pensado en dejar de fumar, responde: «Sé que fumar me hace daño, lo he pensado mucho, pero todavía no me siento capaz de intentarlo».",
+        "questionText": "Según el Modelo Transteórico de Prochaska y DiClemente, ¿en qué etapa de cambio se encuentra este paciente?",
+        "explanation": "Está en contemplación: reconoce el problema («sé que me hace daño»), piensa en cambiar («lo he pensado mucho»), pero no está listo para actuar («no me siento capaz»). En precontemplación no reconocería el problema. En preparación ya tendría un plan concreto. En acción ya habría dejado de fumar.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Precontemplación, porque aún no ha dejado de fumar", "isCorrect": false },
+          { "letter": "B", "text": "Contemplación, porque reconoce el problema pero no está listo para actuar", "isCorrect": true },
+          { "letter": "C", "text": "Preparación, porque ha pensado mucho en el tema", "isCorrect": false },
+          { "letter": "D", "text": "Acción, porque ya está en consulta médica", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Una ONG implementa un programa de nutrición infantil en un municipio con alta desnutrición crónica. La intervención consiste únicamente en charlas educativas sobre alimentación balanceada dirigidas a las madres.",
+        "questionText": "¿Cuál es la principal limitación de esta intervención según el marco conceptual de la Carta de Ottawa?",
+        "explanation": "La limitación es que se reduce a una sola área de acción de Ottawa (aptitudes personales) sin abordar los determinantes estructurales como la pobreza, el acceso a alimentos y los entornos. Esto es educación para la salud, no promoción de la salud completa. La promoción requiere también políticas, entornos favorables y acción comunitaria.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "No tiene limitación porque la educación es la estrategia más efectiva", "isCorrect": false },
+          { "letter": "B", "text": "La limitación es que no incluye entrega de alimentos directamente", "isCorrect": false },
+          { "letter": "C", "text": "Se limita a aptitudes personales sin abordar determinantes estructurales como pobreza, acceso a alimentos y entornos", "isCorrect": true },
+          { "letter": "D", "text": "La limitación es que debería dirigirse a los padres y no a las madres", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 7,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un hospital necesita capacitar a madres lactantes sobre la técnica correcta de amamantamiento, incluyendo el agarre del pezón y las posiciones de lactancia.",
+        "questionText": "¿Cuál es la técnica educativa más adecuada para este objetivo?",
+        "explanation": "El taller con demostración práctica es la técnica indicada cuando el objetivo es que el grupo aprenda una habilidad y la practique. La madre aprende y practica el agarre correcto con supervisión. Una charla informativa solo transmite información teórica sin la práctica necesaria. Un folleto es insuficiente para enseñar una habilidad psicomotriz.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Charla informativa sobre los beneficios de la lactancia materna", "isCorrect": false },
+          { "letter": "B", "text": "Taller con demostración práctica de técnica de lactancia", "isCorrect": true },
+          { "letter": "C", "text": "Distribución de folletos ilustrados sobre posiciones de lactancia", "isCorrect": false },
+          { "letter": "D", "text": "Grupo focal para explorar las creencias sobre lactancia", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Una trabajadora social atiende a un paciente con diabetes que dice: «Sé que debo cambiar mi alimentación, pero me resulta muy difícil dejar las comidas que me gustan. No estoy seguro de poder hacerlo».",
+        "questionText": "¿Cuál es la técnica educativa más adecuada para esta situación?",
+        "explanation": "La entrevista motivacional es la técnica indicada cuando el paciente está en etapa de contemplación (reconoce el problema pero tiene ambivalencia). El profesional no da instrucciones ni juzga, sino que guía al paciente a explorar sus propias motivaciones para el cambio. Una charla instructiva no resuelve la ambivalencia.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Charla informativa sobre las complicaciones de la diabetes", "isCorrect": false },
+          { "letter": "B", "text": "Entrevista motivacional para explorar la ambivalencia ante el cambio", "isCorrect": true },
+          { "letter": "C", "text": "Consejería genética sobre predisposición a diabetes", "isCorrect": false },
+          { "letter": "D", "text": "Grupo focal con otros pacientes diabéticos", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Una secretaría de salud diseña una campaña contra el dengue que combina cuñas radiales sobre eliminación de criaderos, talleres comunitarios sobre el ciclo del mosquito, y materiales educativos culturalmente adaptados a las comunidades indígenas del municipio.",
+        "questionText": "¿A cuál estrategia corresponde esta intervención?",
+        "explanation": "Es una estrategia IEC (Información, Educación y Comunicación) porque combina los tres componentes: información masiva (cuñas radiales), educación interpersonal (talleres comunitarios) y comunicación culturalmente adaptada (materiales para comunidades indígenas). La IEC integra lo masivo con lo interpersonal en mensajes coherentes para la población objetivo.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Mercadeo social porque usa segmentación de audiencia", "isCorrect": false },
+          { "letter": "B", "text": "Educación para la salud porque solo transmite información", "isCorrect": false },
+          { "letter": "C", "text": "Estrategia IEC porque combina información masiva, educación interpersonal y comunicación culturalmente adaptada", "isCorrect": true },
+          { "letter": "D", "text": "Consejería comunitaria porque trabaja directamente con las familias", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 8,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una costurera de 48 años consulta por dolor y adormecimiento bilateral en las manos después de 20 años de trabajo continuo con máquina de coser industrial. La electromiografía confirma síndrome de túnel del carpo bilateral.",
+        "questionText": "¿A cuál tipo de riesgo laboral corresponde esta enfermedad?",
+        "explanation": "El síndrome de túnel del carpo es una enfermedad laboral por riesgo biomecánico (ergonómico), causada por movimientos repetitivos de las manos durante años. No es riesgo físico (que incluye ruido, temperatura, radiación) ni riesgo mecánico (que causa trauma agudo por contacto). La distinción biomecánico vs. físico es la más confundida en el ICFES.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Riesgo físico por exposición a vibraciones de la máquina", "isCorrect": false },
+          { "letter": "B", "text": "Riesgo biomecánico por movimientos repetitivos de las manos", "isCorrect": true },
+          { "letter": "C", "text": "Riesgo mecánico por uso de maquinaria industrial", "isCorrect": false },
+          { "letter": "D", "text": "Riesgo psicosocial por estrés laboral crónico", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Una empresa de construcción reporta un aumento de accidentes laborales en el último trimestre. El gerente general quiere delegar la responsabilidad del Sistema de Gestión de Seguridad y Salud en el Trabajo a la ARL contratada.",
+        "questionText": "Según el Decreto 1072 de 2015, ¿es correcta esta decisión?",
+        "explanation": "No es correcta. El Decreto 1072 establece que el empleador es el responsable principal del diseño, implementación y financiación del SG-SST. La ARL asesora técnicamente y cubre contingencias, pero no diseña ni implementa el sistema. El COPASST investiga accidentes y propone medidas. La responsabilidad no es delegable a la ARL.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Sí, porque la ARL es la entidad técnica encargada del SG-SST", "isCorrect": false },
+          { "letter": "B", "text": "No, porque el responsable del diseño e implementación del SG-SST es el empleador", "isCorrect": true },
+          { "letter": "C", "text": "Sí, porque la ARL tiene la obligación legal de ejecutar el SG-SST", "isCorrect": false },
+          { "letter": "D", "text": "No, porque quien debe implementarlo es exclusivamente el COPASST", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un trabajador de aeropuerto lleva 12 años expuesto al ruido de los motores de los aviones sin usar protección auditiva adecuada. La audiometría muestra hipoacusia neurosensorial bilateral.",
+        "questionText": "¿A cuál tipo de riesgo laboral corresponde esta enfermedad y cuál órgano investiga el caso?",
+        "explanation": "La hipoacusia por ruido es una enfermedad laboral por riesgo físico (el ruido es energía sonora). El órgano que investiga accidentes y enfermedades laborales y propone medidas preventivas dentro de la empresa es el COPASST (Comité Paritario de Seguridad y Salud en el Trabajo), organismo bipartito con representantes del empleador y los trabajadores.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Riesgo biomecánico. Investiga la ARL exclusivamente", "isCorrect": false },
+          { "letter": "B", "text": "Riesgo químico. Investiga el Ministerio de Trabajo", "isCorrect": false },
+          { "letter": "C", "text": "Riesgo físico. Investiga el COPASST como organismo bipartito de la empresa", "isCorrect": true },
+          { "letter": "D", "text": "Riesgo mecánico. Investiga el empleador sin participación de trabajadores", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 9,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Durante una cirugía de emergencia se generan los siguientes residuos: gasas empapadas en sangre, una jeringa con aguja usada, un frasco de vidrio vacío de antibiótico y el empaque plástico de la solución salina.",
+        "questionText": "Según el Decreto 351 de 2014, ¿cuál es la clasificación correcta de estos residuos hospitalarios?",
+        "explanation": "Las gasas con sangre van en bolsa roja (residuos infecciosos por contacto con sangre). La jeringa con aguja va en el guardián (cortopunzantes nunca van en bolsa roja). El frasco de vidrio vacío y limpio va en verde (no tuvo contacto con fluidos del paciente). El empaque plástico limpio va en verde. Lo que determina la clasificación es el contacto real con sangre o fluidos, no el lugar donde se generó.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Todo en bolsa roja porque se generó en cirugía", "isCorrect": false },
+          { "letter": "B", "text": "Gasas en roja, jeringa con aguja en guardián, frasco de vidrio y empaque plástico en verde", "isCorrect": true },
+          { "letter": "C", "text": "Gasas y jeringa en roja, frasco y empaque en verde", "isCorrect": false },
+          { "letter": "D", "text": "Todo en el guardián porque son residuos de una cirugía con riesgo biológico", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un estudiante de medicina sufre un pinchazo accidental con una aguja hueca usada en un paciente cuyo estado serológico de VIH es desconocido.",
+        "questionText": "¿Cuál es la primera acción que debe realizar según el protocolo de accidente biológico?",
+        "explanation": "El primer paso del protocolo es siempre lavar inmediatamente la zona del pinchazo con agua y jabón abundante. Esto reduce la carga viral en el punto de entrada. No se debe exprimir la herida ni succionar. Luego se notifica, se toman pruebas basales y se evalúa profilaxis antirretroviral (idealmente en las primeras 2 horas, máximo 72 horas).",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Solicitar inmediatamente la prueba de VIH al paciente fuente", "isCorrect": false },
+          { "letter": "B", "text": "Notificar al comité de infecciones de la institución", "isCorrect": false },
+          { "letter": "C", "text": "Lavar la zona del pinchazo con agua y jabón abundante", "isCorrect": true },
+          { "letter": "D", "text": "Exprimir la herida para sacar la sangre contaminada", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un instrumentador quirúrgico necesita reprocesar pinzas de disección que se usaron en una cirugía abdominal para el siguiente procedimiento quirúrgico.",
+        "questionText": "¿Cuál es el nivel de reprocesamiento adecuado para este instrumental?",
+        "explanation": "Las pinzas de disección son instrumental quirúrgico crítico porque penetran tejido estéril. El reprocesamiento adecuado es esterilización en autoclave (calor húmedo a presión), que elimina todos los microorganismos incluyendo esporas. La desinfección de alto nivel es para equipos semicríticos (contacto con mucosas pero sin penetración). El alcohol 70% es solo para superficies.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Desinfección de alto nivel con glutaraldehído", "isCorrect": false },
+          { "letter": "B", "text": "Esterilización en autoclave porque es equipo crítico que penetra tejido estéril", "isCorrect": true },
+          { "letter": "C", "text": "Desinfección de nivel intermedio con alcohol al 70%", "isCorrect": false },
+          { "letter": "D", "text": "Lavado con jabón enzimático y secado al aire es suficiente", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 10,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una EPS identifica que el 30% de sus gestantes afiliadas no ha asistido al primer control prenatal en las primeras 12 semanas de gestación, como establece la Resolución 3280.",
+        "questionText": "¿Cuál es la estrategia normativa más adecuada para vincular a estas gestantes?",
+        "explanation": "La demanda inducida es la búsqueda activa de afiliados que no han usado los servicios preventivos que les corresponden. La EPS debe contactar activamente a cada gestante mediante llamada telefónica, visita domiciliaria o mensaje de texto para programar su cita. Es una obligación legal de las EPS, no pueden esperar pasivamente.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Publicar el cronograma de controles prenatales en la página web de la EPS", "isCorrect": false },
+          { "letter": "B", "text": "Esperar a que las gestantes soliciten la cita por iniciativa propia", "isCorrect": false },
+          { "letter": "C", "text": "Demanda inducida mediante búsqueda activa con llamada telefónica o visita domiciliaria", "isCorrect": true },
+          { "letter": "D", "text": "Remitir el listado a la secretaría de salud para que las convoque mediante el PIC", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Una IPS realiza citologías cervicouterinas a sus afiliadas mayores de 25 años como parte de su programa de detección temprana. La secretaría de salud del municipio realiza jornadas de citología gratuita en barrios vulnerables para todas las mujeres residentes sin importar su afiliación.",
+        "questionText": "¿Cómo se clasifica cada intervención según la normatividad colombiana?",
+        "explanation": "La IPS actúa para sus afiliadas específicas dentro del marco de la EPS: es la RPMS (Ruta de Promoción y Mantenimiento de la Salud), intervención individual por curso de vida según la Resolución 3280. La secretaría actúa para toda la población sin discriminar afiliación: es el PIC (Plan de Intervenciones Colectivas) según la Resolución 518.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Ambas son RPMS ejecutadas por actores distintos del sistema", "isCorrect": false },
+          { "letter": "B", "text": "La IPS ejecuta RPMS (individual) y la secretaría ejecuta PIC (colectivo y poblacional)", "isCorrect": true },
+          { "letter": "C", "text": "Ambas son PIC porque realizan la misma intervención de tamizaje", "isCorrect": false },
+          { "letter": "D", "text": "La IPS ejecuta PIC y la secretaría ejecuta RPMS", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un médico familiar clasifica las siguientes intervenciones realizadas en una consulta: aplicar la vacuna contra influenza, realizar citología cervicovaginal e iniciar antihipertensivos en un paciente recién diagnosticado.",
+        "questionText": "¿Cuál es la clasificación correcta de estas tres intervenciones según los niveles de prevención?",
+        "explanation": "La vacuna es protección específica (prevención primaria) porque actúa antes de que empiece la enfermedad. La citología es detección temprana (prevención secundaria) porque busca enfermedad subclínica. Los antihipertensivos en un recién diagnosticado son tratamiento oportuno (también prevención secundaria) porque la enfermedad existe pero se trata antes de complicaciones.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Las tres son prevención primaria porque se realizan en una consulta de control", "isCorrect": false },
+          { "letter": "B", "text": "Vacuna: prevención primaria. Citología: prevención secundaria. Antihipertensivos: prevención terciaria", "isCorrect": false },
+          { "letter": "C", "text": "Vacuna: prevención primaria (protección específica). Citología: prevención secundaria (detección temprana). Antihipertensivos: prevención secundaria (tratamiento oportuno)", "isCorrect": true },
+          { "letter": "D", "text": "Vacuna: promoción de la salud. Citología: protección específica. Antihipertensivos: limitación del daño", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 11,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un municipio registra que el 15% de sus habitantes mayores de 40 años tiene hipertensión arterial diagnosticada. Se estima que por cada caso conocido existen dos casos no diagnosticados.",
+        "questionText": "¿Cuál es la estrategia de prevención más adecuada para los casos no diagnosticados?",
+        "explanation": "Los casos no diagnosticados son personas con enfermedad subclínica (hipertensión asintomática). La intervención correcta es la detección temprana mediante tamizaje de presión arterial (prevención secundaria). La rehabilitación cardiovascular es para daño establecido (terciaria). La educación en colegios es prevención primaria que no resuelve los casos ocultos existentes.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Programa de rehabilitación cardiovascular para todos los mayores de 40 años", "isCorrect": false },
+          { "letter": "B", "text": "Tamizaje de presión arterial en mayores de 40 años para detectar casos ocultos", "isCorrect": true },
+          { "letter": "C", "text": "Educación sobre alimentación saludable en colegios del municipio", "isCorrect": false },
+          { "letter": "D", "text": "Tratamiento antihipertensivo preventivo para todos los mayores de 40 años", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un estudio evalúa una prueba de tamizaje para cáncer colorrectal en 1.000 personas: 200 con cáncer confirmado y 800 sin cáncer. La prueba identifica correctamente a 180 de los 200 con cáncer y clasifica correctamente a 720 de los 800 sin cáncer.",
+        "questionText": "¿Cuál es la sensibilidad de esta prueba?",
+        "explanation": "Sensibilidad = verdaderos positivos / (verdaderos positivos + falsos negativos) = 180 / (180 + 20) = 180/200 = 90%. La prueba detecta al 90% de los enfermos y deja escapar al 10% (falsos negativos). Para tamizaje, se necesita alta sensibilidad para no dejar pasar casos de enfermedad.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "80%", "isCorrect": false },
+          { "letter": "B", "text": "90%", "isCorrect": true },
+          { "letter": "C", "text": "72%", "isCorrect": false },
+          { "letter": "D", "text": "95%", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Una enfermera aplica la vacuna de hepatitis B a un recién nacido dentro de las primeras 12 horas de vida según el esquema del PAI colombiano.",
+        "questionText": "¿A qué nivel de prevención corresponde y cuál es la estrategia específica?",
+        "explanation": "La vacunación es protección específica dentro de la prevención primaria. Actúa en el período prepatogénico: el recién nacido está sano y la vacuna genera inmunidad activa antes del contacto con el virus. No es detección temprana (secundaria) porque no hay enfermedad que detectar. No es promoción de la salud porque vacunar no es educación ni empoderamiento comunitario.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Prevención primaria, protección específica", "isCorrect": true },
+          { "letter": "B", "text": "Prevención secundaria, detección temprana de hepatitis B neonatal", "isCorrect": false },
+          { "letter": "C", "text": "Prevención primaria, promoción de la salud", "isCorrect": false },
+          { "letter": "D", "text": "Prevención terciaria, rehabilitación hepática", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 12,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una secretaría de salud departamental implementa una intervención con cuatro componentes: cuñas radiales sobre alimentación saludable, talleres de habilidades culinarias para madres, formación de comités de vigilancia alimentaria en barrios, y gestión ante el municipio para regular la venta de alimentos ultraprocesados en tiendas escolares.",
+        "questionText": "¿A cuál estrategia corresponde esta intervención?",
+        "explanation": "Es promoción de la salud con múltiples áreas de Ottawa. Las cuñas son aptitudes personales (información). Los talleres son aptitudes personales (habilidades). Los comités son fortalecimiento de la acción comunitaria. La gestión normativa es construcción de políticas públicas saludables. No es solo educación para la salud porque toca determinantes estructurales.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Educación para la salud porque incluye talleres y cuñas informativas", "isCorrect": false },
+          { "letter": "B", "text": "Prevención primaria específica contra la obesidad infantil", "isCorrect": false },
+          { "letter": "C", "text": "Promoción de la salud con múltiples áreas de acción de la Carta de Ottawa", "isCorrect": true },
+          { "letter": "D", "text": "Plan de Intervenciones Colectivas sin componente de promoción", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un operario de una planta de procesamiento de carne lleva 8 años cortando piezas con cuchillo durante 8 horas diarias en una cámara frigorífica a 4°C. Desarrolla dolor bilateral en muñecas y pérdida de fuerza en las manos.",
+        "questionText": "¿Cuál es el tipo de riesgo laboral predominante y la enfermedad más probable?",
+        "explanation": "Es riesgo biomecánico por movimientos repetitivos de corte durante años, que causa síndrome de túnel del carpo bilateral. El frío de la cámara es un riesgo físico presente, pero el cuadro clínico descrito (dolor bilateral en muñecas, pérdida de fuerza) corresponde a compresión del nervio mediano por movimiento repetitivo, no a hipotermia.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Riesgo físico por exposición al frío; hipotermia laboral crónica", "isCorrect": false },
+          { "letter": "B", "text": "Riesgo biomecánico por movimientos repetitivos; síndrome de túnel del carpo bilateral", "isCorrect": true },
+          { "letter": "C", "text": "Riesgo mecánico por uso de cuchillo; trauma agudo en manos", "isCorrect": false },
+          { "letter": "D", "text": "Riesgo químico por desinfectantes de la planta; dermatitis de contacto", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Una auxiliar de enfermería sufre un pinchazo accidental con aguja usada durante una jornada de vacunación rural. El estado serológico del paciente fuente es desconocido.",
+        "questionText": "¿Cuál es el orden correcto de los tres primeros pasos del protocolo de accidente biológico?",
+        "explanation": "El protocolo establece: primero, lavar con agua y jabón abundante (reduce la carga viral). Segundo, notificar al superior inmediato y al comité de infecciones. Tercero, tomar pruebas basales al trabajador expuesto (VIH, hepatitis B y C) y al paciente fuente. La profilaxis antirretroviral es el cuarto paso, evaluando el riesgo.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Notificar, tomar pruebas, lavar la herida", "isCorrect": false },
+          { "letter": "B", "text": "Lavar con agua y jabón, notificar al superior y comité, tomar pruebas basales", "isCorrect": true },
+          { "letter": "C", "text": "Tomar pruebas al paciente fuente, lavar la herida, iniciar antirretrovirales", "isCorrect": false },
+          { "letter": "D", "text": "Iniciar profilaxis antirretroviral, lavar la herida, notificar", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 13,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una alcaldía rural implementa cuatro acciones simultáneas: instalación de acueductos veredales, campañas radiales sobre higiene del agua, formación de fontaneros comunitarios para mantenimiento de los sistemas, y gestión ante el departamento para normas de calidad del agua potable.",
+        "questionText": "Según la Carta de Ottawa, ¿cuántas áreas de acción están activas en esta intervención?",
+        "explanation": "Cuatro áreas: la instalación de acueductos es entornos favorables. Las campañas radiales son aptitudes personales. La formación de fontaneros comunitarios es acción comunitaria (la comunidad gestiona sus propios recursos). La gestión ante el departamento para normas es políticas públicas saludables. Cuatro áreas de Ottawa activadas simultáneamente.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Una: aptitudes personales solamente", "isCorrect": false },
+          { "letter": "B", "text": "Dos: entornos favorables y aptitudes personales", "isCorrect": false },
+          { "letter": "C", "text": "Tres: entornos, acción comunitaria y aptitudes personales", "isCorrect": false },
+          { "letter": "D", "text": "Cuatro: entornos favorables, acción comunitaria, aptitudes personales y políticas públicas saludables", "isCorrect": true }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un brote de enfermedad diarreica aguda afecta a 40 niños de una escuela en 48 horas. El equipo epidemiológico confirma que todos los casos consumieron agua del tanque comunitario contaminado.",
+        "questionText": "Para controlar el brote de fuente común, ¿cuál es la intervención prioritaria?",
+        "explanation": "En un brote de fuente común (todos los casos relacionados con la misma fuente), la intervención prioritaria es actuar sobre la vía de transmisión: clorar y sellar el tanque contaminado. Esto corta la cadena para todos simultáneamente y previene nuevos casos. Tratar a los enfermos es necesario pero no corta el brote mientras el tanque siga contaminado.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Administrar sales de rehidratación oral a todos los niños enfermos", "isCorrect": false },
+          { "letter": "B", "text": "Clorar y sellar el tanque de agua contaminado para cortar la fuente", "isCorrect": true },
+          { "letter": "C", "text": "Identificar el microorganismo causal mediante coprocultivo urgente", "isCorrect": false },
+          { "letter": "D", "text": "Cerrar la escuela hasta que se resuelva el brote", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Una auxiliar de enfermería debe reprocesar un laringoscopio después de una intubación orotraqueal para utilizarlo en el siguiente procedimiento.",
+        "questionText": "¿Cuál es el nivel de reprocesamiento adecuado para este equipo?",
+        "explanation": "El laringoscopio es un equipo semicrítico: contacta mucosas de la cavidad oral y la glotis pero no penetra tejido estéril. El reprocesamiento adecuado es desinfección de alto nivel (como glutaraldehído). La esterilización en autoclave es para equipos críticos que penetran tejido estéril. El alcohol 70% es para superficies, insuficiente para equipos semicríticos.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Esterilización en autoclave porque contactó vías respiratorias", "isCorrect": false },
+          { "letter": "B", "text": "Desinfección de alto nivel porque es equipo semicrítico que contacta mucosas sin penetrar tejido estéril", "isCorrect": true },
+          { "letter": "C", "text": "Desinfección intermedia con alcohol al 70% porque es un equipo de uso externo", "isCorrect": false },
+          { "letter": "D", "text": "Lavado con jabón enzimático únicamente", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 14,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Un municipio tiene mortalidad infantil de 18 por mil nacidos vivos (promedio nacional: 12). Las causas: 60% enfermedades inmunoprevenibles, 25% desnutrición y 15% infecciones respiratorias agudas.",
+        "questionText": "¿Cuál combinación de estrategias de prevención primaria aborda simultáneamente las tres causas principales?",
+        "explanation": "Vacunación PAI (protección específica contra enfermedades inmunoprevenibles, 60% de las muertes), suplementación con micronutrientes (previene desnutrición antes de que se instale) y lavado de manos (reduce transmisión de IRA y EDA). Las tres son prevención primaria. La opción B incluye tratamiento y rehabilitación, que son prevención secundaria y terciaria.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Vacunación PAI, suplementación con micronutrientes y campaña de lavado de manos", "isCorrect": true },
+          { "letter": "B", "text": "Tratamiento antibiótico comunitario, rehabilitación nutricional y tamizaje de anticuerpos", "isCorrect": false },
+          { "letter": "C", "text": "Educación en higiene personal, consulta de urgencias por fiebre y vigilancia epidemiológica", "isCorrect": false },
+          { "letter": "D", "text": "Fumigación del municipio, distribución de toldillos y control de calidad del agua", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un trabajador de la construcción lleva 15 años operando una compactadora de suelo que vibra intensamente. Presenta dolor lumbar crónico, hipoacusia bilateral e historial de fenómeno de Raynaud en las manos.",
+        "questionText": "¿Cuántos tipos de riesgo laboral están presentes en este caso?",
+        "explanation": "Dos tipos: riesgo físico (la hipoacusia bilateral por ruido y el fenómeno de Raynaud por vibración segmentaria son causados por energía física) y riesgo biomecánico (el dolor lumbar crónico por vibraciones transmitidas a la columna y la postura al operar el equipo es daño musculoesquelético acumulativo). No es riesgo mecánico porque no hay trauma agudo.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "HARD",
+        "options": [
+          { "letter": "A", "text": "Uno: riesgo físico por vibración que explica todas las condiciones", "isCorrect": false },
+          { "letter": "B", "text": "Dos: riesgo físico (hipoacusia y Raynaud) y riesgo biomecánico (dolor lumbar crónico)", "isCorrect": true },
+          { "letter": "C", "text": "Tres: riesgo físico, biomecánico y mecánico", "isCorrect": false },
+          { "letter": "D", "text": "No corresponde a riesgo laboral porque las condiciones son degenerativas por edad", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un médico de IPS recibe a una mujer de 55 años sin antecedentes de enfermedades que llega por primera vez a consulta de control de salud.",
+        "questionText": "Según la Resolución 3280 de 2018 y la RPMS, ¿cuáles intervenciones de tamizaje deben ofrecerse en esta consulta?",
+        "explanation": "A los 55 años la Resolución 3280 establece: prueba de VPH para cáncer de cuello uterino (entre 30-65 años), mamografía bilateral (entre 50-69 años), tamizaje de presión arterial y glucemia en ayunas (riesgo cardiovascular y metabólico), sangre oculta en heces (cáncer colorrectal, mayores de 50), y evaluación nutricional. La RPMS integra múltiples intervenciones por curso de vida.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Solo toma de presión arterial y glucemia en ayunas", "isCorrect": false },
+          { "letter": "B", "text": "Prueba de VPH o citología, mamografía, presión arterial, glucemia, sangre oculta en heces y evaluación nutricional", "isCorrect": true },
+          { "letter": "C", "text": "Colonoscopia diagnóstica y mamografía solamente", "isCorrect": false },
+          { "letter": "D", "text": "Solo evaluación de riesgo cardiovascular porque es la causa principal de mortalidad", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "dayNumber": 15,
+    "questions": [
+      {
+        "questionOrder": 1,
+        "caseText": "Una comunidad presenta un brote de dengue. El equipo de salud implementa tres intervenciones simultáneas: fumigación con adulticida, distribución de toldillos impregnados con insecticida y eliminación de criaderos de agua estancada casa a casa.",
+        "questionText": "Según la cadena epidemiológica, ¿en cuáles eslabones actúan estas tres intervenciones combinadas?",
+        "explanation": "La fumigación actúa sobre el agente/vector (elimina el mosquito adulto Aedes aegypti). La eliminación de criaderos actúa sobre el reservorio (impide la reproducción del vector). Los toldillos actúan sobre el huésped (crean barrera física contra la picadura). Tres intervenciones que actúan sobre tres eslabones distintos, lo que fortalece la estrategia al cubrir múltiples puntos de la cadena.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "Solo en la vía de transmisión", "isCorrect": false },
+          { "letter": "B", "text": "Agente, vía de transmisión y puerta de entrada solamente", "isCorrect": false },
+          { "letter": "C", "text": "Agente (fumigación), reservorio (criaderos) y huésped (toldillos)", "isCorrect": true },
+          { "letter": "D", "text": "Solo en el huésped susceptible", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 2,
+        "caseText": "Un hospital identifica aumento de infecciones nosocomiales por bacterias multirresistentes. El comité de infecciones encuentra baja adherencia al lavado de manos entre paciente y paciente por parte del personal de salud.",
+        "questionText": "¿Cuál es la medida más efectiva para mejorar la adherencia a la higiene de manos?",
+        "explanation": "La instalación de dispensadores de alcohol en gel en puntos de atención (entrada de habitaciones, al lado de cada cama) combinada con auditorías de adherencia y retroalimentación al personal es la estrategia más eficaz demostrada. La higiene de manos es la precaución estándar más importante para prevenir transmisión cruzada entre pacientes.",
+        "competency": "niveles_leavell_clark",
+        "difficulty": "EASY",
+        "options": [
+          { "letter": "A", "text": "Proveer guantes desechables a todo el personal como alternativa al lavado de manos", "isCorrect": false },
+          { "letter": "B", "text": "Instalar dispensadores de alcohol en gel en puntos de atención con auditoría de adherencia", "isCorrect": true },
+          { "letter": "C", "text": "Publicar afiches recordatorios de lavado de manos en los baños del hospital", "isCorrect": false },
+          { "letter": "D", "text": "Realizar una charla informativa anual sobre precauciones estándar", "isCorrect": false }
+        ]
+      },
+      {
+        "questionOrder": 3,
+        "caseText": "Un coordinador de programa de salud revisa los cuatro errores más frecuentes de los estudiantes en el módulo de Promoción y Prevención del ICFES.",
+        "questionText": "¿Cuál de las siguientes afirmaciones refleja un error conceptual frecuente en este módulo?",
+        "explanation": "Confundir educación para la salud con promoción de la salud es el error más frecuente. La educación para la salud es solo una técnica (área de aptitudes personales), mientras que la promoción abarca también políticas, entornos, acción comunitaria y reorientación de servicios. Otros errores frecuentes: confundir RPMS con PIC, invertir el protocolo de accidente biológico, y clasificar como riesgo físico lo que es biomecánico.",
+        "competency": "promocion_vs_prevencion",
+        "difficulty": "MEDIUM",
+        "options": [
+          { "letter": "A", "text": "La promoción de la salud y la educación para la salud son sinónimos intercambiables", "isCorrect": true },
+          { "letter": "B", "text": "La prevención primaria actúa en el período prepatogénico", "isCorrect": false },
+          { "letter": "C", "text": "El empleador es el responsable del diseño del SG-SST", "isCorrect": false },
+          { "letter": "D", "text": "El tamizaje prioriza la sensibilidad para no dejar escapar enfermos", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

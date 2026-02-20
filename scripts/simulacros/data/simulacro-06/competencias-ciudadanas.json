@@ -1,0 +1,457 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "Un hospital universitario implementa un sistema de inteligencia artificial (IA) que recomienda tratamientos oncológicos basándose en miles de historias clínicas. Un paciente recibe una recomendación de quimioterapia agresiva generada por el algoritmo. El oncólogo tratante tiene dudas sobre la recomendación, pero el comité directivo del hospital presiona para seguir las sugerencias de la IA argumentando que «el sistema tiene una tasa de acierto del 92 %».\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva de la responsabilidad médica, ¿quién debe responder si el tratamiento recomendado por la IA causa un daño al paciente?",
+    "explanation": "La responsabilidad clínica recae sobre el profesional que toma la decisión final. Un algoritmo de IA es una herramienta de apoyo, no un agente con responsabilidad legal. El médico tratante debe ejercer su juicio clínico y no delegar su responsabilidad en un sistema automatizado. El Código de Ética Médica colombiano (Ley 23 de 1981) establece la responsabilidad personal del profesional.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La empresa desarrolladora de la IA, porque diseñó el algoritmo defectuoso.", "isCorrect": false },
+      { "letter": "B", "text": "El médico tratante, porque la decisión clínica final es su responsabilidad profesional.", "isCorrect": true },
+      { "letter": "C", "text": "El comité directivo del hospital, porque obligó a seguir la recomendación.", "isCorrect": false },
+      { "letter": "D", "text": "Nadie, porque seguir una recomendación basada en datos estadísticos exime de culpa.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "En un centro de salud rural, se implementa un sistema de triaje automatizado con IA que clasifica la urgencia de los pacientes según sus síntomas. Se descubre que el algoritmo fue entrenado con datos predominantemente de población urbana, y que sistemáticamente subvalora los síntomas de enfermedades tropicales prevalentes en la zona rural.\n\n(Redacción Study2One)",
+    "questionText": "Este caso ilustra un problema ético de la IA en salud conocido como:",
+    "explanation": "El sesgo algorítmico ocurre cuando los datos de entrenamiento de un sistema de IA no representan adecuadamente a toda la población que será atendida. Si el algoritmo fue entrenado con datos urbanos, puede discriminar a pacientes rurales con patologías diferentes. Esto no es un error técnico menor, sino un problema estructural de equidad que refleja cómo la perspectiva de poblaciones marginadas queda excluida en el diseño tecnológico.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Obsolescencia tecnológica, porque el sistema necesita actualizarse.", "isCorrect": false },
+      { "letter": "B", "text": "Sesgo algorítmico, porque los datos de entrenamiento no representan a la población atendida.", "isCorrect": true },
+      { "letter": "C", "text": "Falta de capacitación del personal que opera el sistema.", "isCorrect": false },
+      { "letter": "D", "text": "Error de programación que puede corregirse con una actualización de software.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Una empresa aseguradora en Colombia solicita a sus afiliados realizarse pruebas genéticas como requisito para la renovación del seguro de salud. Con base en los resultados, la aseguradora aumenta las primas a quienes presentan predisposición genética a enfermedades crónicas como diabetes tipo 2 o cáncer de mama.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál derecho fundamental se vulnera con esta práctica?",
+    "explanation": "Utilizar información genética para discriminar en el acceso a seguros de salud vulnera el derecho a la igualdad y no discriminación. La predisposición genética no equivale a enfermedad; penalizar a las personas por su constitución genética es una forma de discriminación basada en características inherentes, análoga a discriminar por raza o sexo. Instrumentos internacionales como la Declaración Universal sobre el Genoma Humano y los Derechos Humanos (UNESCO, 1997) prohíben esta práctica.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "El derecho a la intimidad del historial médico.", "isCorrect": false },
+      { "letter": "B", "text": "El derecho a la igualdad y no discriminación por condiciones genéticas.", "isCorrect": true },
+      { "letter": "C", "text": "El derecho a la libre empresa de la aseguradora.", "isCorrect": false },
+      { "letter": "D", "text": "El derecho a la información del consumidor.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Un joven profesional de la salud descubre que tiene una mutación en el gen BRCA1, asociada a mayor riesgo de cáncer. Al postularse para un empleo en un hospital privado, le exigen un examen genético preocupacional. Con base en el resultado, el hospital decide no contratarlo argumentando «riesgo futuro de incapacidades prolongadas».\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál argumento es más sólido para impugnar la decisión del hospital?",
+    "explanation": "La discriminación laboral por predisposición genética viola el principio de igualdad en el acceso al trabajo. Una predisposición genética no es una enfermedad actual ni implica incapacidad laboral. La Constitución colombiana (art. 25 y 53) protege el derecho al trabajo sin discriminación. Además, la OIT y múltiples legislaciones internacionales prohíben usar información genética para decisiones laborales.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El hospital tiene derecho a proteger su productividad seleccionando empleados saludables.", "isCorrect": false },
+      { "letter": "B", "text": "La predisposición genética no es una enfermedad actual y usarla como criterio de exclusión laboral constituye discriminación.", "isCorrect": true },
+      { "letter": "C", "text": "El candidato debería haber ocultado su resultado genético durante el proceso de selección.", "isCorrect": false },
+      { "letter": "D", "text": "Los exámenes genéticos preocupacionales son válidos si están incluidos en el reglamento interno del hospital.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "En Colombia, una pareja de escasos recursos solicita acceso a fertilización in vitro (FIV) a través de su EPS. La EPS niega el procedimiento argumentando que no está incluido en el plan de beneficios y que la infertilidad no es una enfermedad que amenace la vida. La pareja interpone una acción de tutela.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál principio jurídico podría sustentar la protección del acceso a la FIV como derecho?",
+    "explanation": "La Corte Constitucional colombiana ha reconocido que los derechos reproductivos hacen parte de los derechos fundamentales a la dignidad humana, la autonomía y la familia. La Sentencia T-274 de 2015, entre otras, establece que negar tratamientos de fertilidad puede vulnerar el derecho a conformar una familia. El argumento se fundamenta en los derechos reproductivos como componente de la dignidad humana, no en la clasificación de la infertilidad como enfermedad mortal.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El principio de sostenibilidad fiscal, que limita los servicios a los estrictamente vitales.", "isCorrect": false },
+      { "letter": "B", "text": "El derecho a la libre empresa de las clínicas de fertilidad.", "isCorrect": false },
+      { "letter": "C", "text": "Los derechos reproductivos como componente de la dignidad humana y el derecho a conformar una familia.", "isCorrect": true },
+      { "letter": "D", "text": "El principio de progresividad, que obliga a esperar hasta que el Estado tenga recursos suficientes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "Una pareja acude a una clínica de reproducción asistida y solicita selección de embriones por sexo. La clínica se niega, pero la pareja argumenta que en su cultura es tradición tener un hijo varón como primogénito. Otra pareja solicita selección de embriones para evitar la transmisión de una enfermedad genética ligada al cromosoma X.\n\n(Redacción Study2One)",
+    "questionText": "La diferencia ética entre ambas solicitudes radica en que:",
+    "explanation": "La selección genética con fines terapéuticos (evitar una enfermedad grave) tiene una justificación ética basada en el principio de beneficencia y la prevención de sufrimiento. La selección por preferencia de sexo sin razón médica plantea problemas de discriminación de género y eugenesia social. La distinción no está en la técnica sino en la finalidad: prevenir enfermedad vs. imponer preferencias culturales sobre el sexo.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Ambas solicitudes son éticamente equivalentes porque usan la misma técnica.", "isCorrect": false },
+      { "letter": "B", "text": "La selección por sexo es válida si responde a una tradición cultural reconocida.", "isCorrect": false },
+      { "letter": "C", "text": "La selección para evitar enfermedad genética tiene justificación terapéutica; la selección por preferencia de sexo no tiene fundamento médico y puede constituir discriminación.", "isCorrect": true },
+      { "letter": "D", "text": "Ninguna de las dos es ética porque toda selección de embriones es moralmente inaceptable.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Un paciente con trastorno bipolar en fase maníaca es llevado por su familia a urgencias. El paciente se niega a ser hospitalizado, pero presenta conductas de riesgo: ha regalado todos sus ahorros, no ha dormido en 5 días y amenaza con autolesionarse. El psiquiatra de turno considera la hospitalización involuntaria.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál de las siguientes condiciones justifica éticamente la hospitalización psiquiátrica involuntaria?",
+    "explanation": "La hospitalización psiquiátrica involuntaria se justifica éticamente cuando existe riesgo inminente para la vida del paciente o de terceros, y el paciente no tiene capacidad de decisión autónoma en ese momento debido a su condición. La Ley 1616 de 2013 (Ley de Salud Mental) en Colombia establece criterios estrictos: peligro inminente, evaluación por profesional competente y revisión judicial posterior. No es suficiente que la familia lo solicite ni que el paciente sea «difícil de manejar».",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Que la familia solicite la hospitalización porque no puede manejar al paciente en casa.", "isCorrect": false },
+      { "letter": "B", "text": "Que exista riesgo inminente para la vida del paciente o de terceros y que la capacidad de decisión autónoma esté comprometida.", "isCorrect": true },
+      { "letter": "C", "text": "Que el paciente tenga un diagnóstico psiquiátrico previo, independientemente de su estado actual.", "isCorrect": false },
+      { "letter": "D", "text": "Que el psiquiatra considere que el tratamiento ambulatorio es menos eficiente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": null,
+    "questionText": "La Ley 1616 de 2013 (Ley de Salud Mental) en Colombia establece que la hospitalización involuntaria debe ser revisada por un juez dentro de las primeras 24 horas. ¿Cuál es el propósito principal de esta revisión judicial?",
+    "explanation": "La revisión judicial busca proteger los derechos fundamentales del paciente, especialmente la libertad personal. Al tratarse de una privación de la libertad (aunque sea con fines terapéuticos), el control judicial garantiza que la hospitalización no sea arbitraria, que se cumplan los criterios legales y que se respete la dignidad del paciente. Es una garantía del debido proceso aplicada al ámbito de la salud mental.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Verificar que el hospital tenga disponibilidad de camas para el paciente.", "isCorrect": false },
+      { "letter": "B", "text": "Garantizar que la privación de la libertad del paciente no sea arbitraria y que se protejan sus derechos fundamentales.", "isCorrect": true },
+      { "letter": "C", "text": "Autorizar el cobro de los gastos de hospitalización a la EPS del paciente.", "isCorrect": false },
+      { "letter": "D", "text": "Determinar si el paciente debe ser trasladado a un centro penitenciario.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Durante la pandemia de COVID-19, varios países en desarrollo solicitaron a la Organización Mundial del Comercio (OMC) una exención temporal de las patentes de vacunas bajo el Acuerdo sobre los ADPIC (TRIPS). Las farmacéuticas se opusieron argumentando que las patentes son necesarias para financiar la investigación y desarrollo.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál argumento ético respalda la exención temporal de patentes en contexto de pandemia?",
+    "explanation": "En una emergencia sanitaria global, el derecho a la vida y a la salud prevalece sobre los derechos de propiedad intelectual. El propio Acuerdo ADPIC (art. 31 y Declaración de Doha de 2001) contempla flexibilidades para emergencias de salud pública. El argumento ético se basa en que cuando millones de vidas están en riesgo, las barreras comerciales a medicamentos esenciales son moralmente insostenibles.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Las farmacéuticas ya obtuvieron ganancias suficientes y no necesitan más protección.", "isCorrect": false },
+      { "letter": "B", "text": "En una emergencia sanitaria global, el derecho a la vida y a la salud prevalece sobre los derechos de propiedad intelectual.", "isCorrect": true },
+      { "letter": "C", "text": "Las patentes farmacéuticas son siempre injustas porque la salud no debe generar lucro.", "isCorrect": false },
+      { "letter": "D", "text": "Los países en desarrollo no tienen capacidad de producir vacunas, por lo que la exención es irrelevante.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Tras la exención temporal de patentes de vacunas COVID-19, se observaron los siguientes fenómenos: (1) India y Sudáfrica aumentaron su producción de vacunas genéricas; (2) algunas farmacéuticas redujeron su inversión en I+D para nuevos patógenos; (3) la cobertura de vacunación en África subsahariana pasó del 8 % al 35 % en 18 meses.\n\n(Datos ficticios basados en tendencias reales — Redacción Study2One)",
+    "questionText": "Este escenario refleja una tensión entre:",
+    "explanation": "La exención de patentes genera un dilema sistémico: mejora el acceso inmediato a medicamentos (equidad en salud), pero puede desincentivar la inversión futura en investigación (innovación farmacéutica). Ambos objetivos son legítimos y necesarios. La clave está en encontrar mecanismos que equilibren acceso e innovación, como fondos públicos de investigación o licencias obligatorias con compensación.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "La soberanía nacional y las obligaciones comerciales internacionales.", "isCorrect": false },
+      { "letter": "B", "text": "La equidad en el acceso a la salud y los incentivos para la innovación farmacéutica.", "isCorrect": true },
+      { "letter": "C", "text": "Los intereses de los países desarrollados y los de los países en desarrollo.", "isCorrect": false },
+      { "letter": "D", "text": "La medicina tradicional y la medicina basada en evidencia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "Una influencer de redes sociales con 2 millones de seguidores publica un video afirmando que el dióxido de cloro cura diversas enfermedades, incluyendo cáncer y diabetes. Varios de sus seguidores abandonan sus tratamientos médicos convencionales. Las autoridades sanitarias colombianas emiten una alerta, pero el video sigue circulando.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva de la salud pública, ¿cuál es la medida más adecuada para abordar esta situación?",
+    "explanation": "La regulación de la desinformación en salud requiere un enfoque integral que combine sanciones por promoción de productos peligrosos con estrategias de alfabetización en salud. Prohibir todo contenido de salud en redes sería desproporcionado y violatorio de la libertad de expresión. Responsabilizar solo a los seguidores ignora la asimetría de poder e influencia. El enfoque adecuado combina regulación proporcional con educación.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Prohibir todo contenido sobre salud en redes sociales para evitar la desinformación.", "isCorrect": false },
+      { "letter": "B", "text": "No intervenir porque la libertad de expresión protege cualquier opinión sobre salud.", "isCorrect": false },
+      { "letter": "C", "text": "Sancionar la promoción de sustancias peligrosas y fortalecer la alfabetización en salud de la población.", "isCorrect": true },
+      { "letter": "D", "text": "Responsabilizar exclusivamente a los seguidores por creer en información no verificada.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Un grupo de padres en Colombia crea una página web que promueve el uso de tratamientos «naturales» para el autismo, incluyendo quelación y dietas restrictivas sin evidencia científica. Simultáneamente, una ONG médica crea una campaña informativa en las mismas plataformas con información basada en evidencia.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál principio ético se debe priorizar al regular este tipo de contenidos en redes sociales?",
+    "explanation": "El principio de proporcionalidad exige que las restricciones a la libertad de expresión sean necesarias, adecuadas y proporcionadas al fin perseguido (proteger la salud pública). No se trata de censurar toda opinión alternativa, sino de evitar que la desinformación cause daño real, especialmente en poblaciones vulnerables como niños con discapacidades. La regulación debe ser proporcionada: más estricta cuando hay riesgo de daño, más laxa cuando se trata de debate legítimo.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La libertad de expresión absoluta, que permite publicar cualquier contenido sin restricción.", "isCorrect": false },
+      { "letter": "B", "text": "La censura total de contenidos que contradigan la posición oficial de los ministerios de salud.", "isCorrect": false },
+      { "letter": "C", "text": "La proporcionalidad: restringir contenidos que representen riesgo de daño demostrable, sin censurar el debate legítimo.", "isCorrect": true },
+      { "letter": "D", "text": "La neutralidad de las plataformas, que no deben intervenir en ningún contenido.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Un país centroamericano desarrolla un programa para atraer médicos especialistas colombianos ofreciendo salarios cuatro veces superiores a los que reciben en Colombia. En dos años, 120 anestesiólogos y 85 cirujanos emigran, dejando vacantes críticas en hospitales públicos colombianos.\n\n(Datos ficticios — Redacción Study2One)",
+    "questionText": "Este fenómeno se conoce como:",
+    "explanation": "La «fuga de cerebros» (brain drain) en el sector salud ocurre cuando profesionales altamente calificados emigran a países que ofrecen mejores condiciones, dejando vacíos en sus países de origen. La OMS ha reconocido este problema y adoptó el Código de Prácticas sobre Contratación Internacional de Personal de Salud (2010). No es turismo médico (que implica pacientes que viajan) ni transferencia tecnológica (que implica conocimiento, no personas).",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Turismo médico inverso.", "isCorrect": false },
+      { "letter": "B", "text": "Fuga de cerebros (brain drain) en el sector salud.", "isCorrect": true },
+      { "letter": "C", "text": "Transferencia tecnológica bilateral.", "isCorrect": false },
+      { "letter": "D", "text": "Cooperación internacional en salud.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Colombia se ha convertido en un destino popular para el turismo médico, especialmente en cirugía estética. Un hospital privado en Bogotá destina el 70 % de sus quirófanos a pacientes internacionales de alto poder adquisitivo, mientras los pacientes locales del régimen subsidiado enfrentan listas de espera de hasta 8 meses para cirugías programadas.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el principal dilema ético que plantea esta situación?",
+    "explanation": "El turismo médico genera ingresos económicos, pero cuando los recursos hospitalarios (quirófanos, especialistas, camas) se destinan prioritariamente a pacientes internacionales con capacidad de pago, se reduce la disponibilidad para la población local. Esto plantea un conflicto entre el beneficio económico y el derecho a la salud de los ciudadanos, especialmente los más vulnerables que dependen del sistema público.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La falta de regulación de la cirugía estética en Colombia.", "isCorrect": false },
+      { "letter": "B", "text": "La tensión entre el beneficio económico del turismo médico y la garantía del derecho a la salud de la población local.", "isCorrect": true },
+      { "letter": "C", "text": "La competencia desleal entre hospitales privados y públicos.", "isCorrect": false },
+      { "letter": "D", "text": "La calidad inferior de los servicios ofrecidos a pacientes internacionales.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "Las sanciones económicas impuestas por un bloque de países contra una nación en conflicto incluyen restricciones a la importación de medicamentos, equipos médicos y suministros de laboratorio. Como consecuencia, la mortalidad infantil en ese país aumenta un 40 % en dos años. Organizaciones humanitarias solicitan una exención sanitaria.\n\n(Datos ficticios basados en situaciones reales — Redacción Study2One)",
+    "questionText": "¿Cuál fundamento del derecho internacional respalda la solicitud de exención humanitaria?",
+    "explanation": "El derecho internacional humanitario y el derecho a la salud (art. 12 del Pacto Internacional de Derechos Económicos, Sociales y Culturales) establecen que los bienes esenciales para la supervivencia de la población civil no deben ser objeto de restricciones, incluso en contextos de sanciones. Las Resoluciones del Consejo de Seguridad de la ONU han reconocido la necesidad de exenciones humanitarias para evitar que las sanciones causen sufrimiento desproporcionado a la población civil.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "El principio de soberanía nacional, que impide la injerencia en asuntos internos.", "isCorrect": false },
+      { "letter": "B", "text": "El derecho internacional humanitario, que protege el acceso de la población civil a bienes esenciales para la salud.", "isCorrect": true },
+      { "letter": "C", "text": "El principio de reciprocidad comercial entre naciones.", "isCorrect": false },
+      { "letter": "D", "text": "La Declaración Universal de los Derechos del Consumidor.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "Un país bajo sanciones económicas logra negociar un «corredor humanitario» para la importación de medicamentos esenciales. Sin embargo, las sanciones financieras dificultan los pagos internacionales, y los proveedores farmacéuticos se niegan a vender por temor a sanciones secundarias. Los hospitales del país comienzan a quedarse sin antibióticos e insulina.\n\n(Redacción Study2One)",
+    "questionText": "Este caso demuestra que:",
+    "explanation": "Las sanciones económicas tienen efectos sistémicos que van más allá de su alcance declarado. Aunque existan exenciones humanitarias formales, las restricciones financieras crean un efecto disuasorio (over-compliance) que impide en la práctica el flujo de bienes esenciales. Esto muestra que las buenas intenciones normativas no siempre se traducen en resultados efectivos si no se abordan los mecanismos prácticos de implementación.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Las sanciones económicas son siempre efectivas para lograr cambios políticos.", "isCorrect": false },
+      { "letter": "B", "text": "Las exenciones humanitarias en el papel no garantizan el acceso real a medicamentos si las restricciones financieras las hacen inoperantes.", "isCorrect": true },
+      { "letter": "C", "text": "Los proveedores farmacéuticos son los únicos responsables del desabastecimiento.", "isCorrect": false },
+      { "letter": "D", "text": "Los países sancionados deben producir todos sus medicamentos localmente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": "Un sistema de blockchain se implementa en un país para que los pacientes controlen quién accede a su historia clínica electrónica. Cada paciente tiene una «llave digital» que autoriza o revoca el acceso. Un investigador universitario solicita acceso a miles de historias clínicas anonimizadas para un estudio epidemiológico sobre diabetes, pero el sistema requiere el consentimiento individual de cada paciente.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es la principal tensión ética que plantea este sistema de soberanía de datos en salud?",
+    "explanation": "La soberanía de datos de salud mediante blockchain empodera al paciente al darle control total sobre su información. Sin embargo, cuando el consentimiento individual se exige para investigaciones con datos anonimizados de interés público, puede obstaculizar estudios epidemiológicos que benefician a toda la población. La tensión está entre maximizar la autonomía individual sobre los datos y facilitar la investigación para el bien común.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "El alto costo de la tecnología blockchain, que excluye a hospitales públicos.", "isCorrect": false },
+      { "letter": "B", "text": "La tensión entre el control individual de los datos de salud y la necesidad de investigación epidemiológica para el bien común.", "isCorrect": true },
+      { "letter": "C", "text": "La vulnerabilidad del sistema blockchain ante ataques informáticos.", "isCorrect": false },
+      { "letter": "D", "text": "La imposibilidad técnica de anonimizar datos de salud de manera efectiva.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "El concepto de «soberanía de datos en salud» implica que:",
+    "explanation": "La soberanía de datos en salud es un principio que reconoce al paciente como titular y controlador de su información médica. No significa que los datos no puedan compartirse, sino que el paciente decide con quién, cuándo y para qué se comparten. Esto se contrapone al modelo tradicional donde las instituciones de salud son las «dueñas» de las historias clínicas. Las tecnologías como blockchain facilitan este control descentralizado.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Los datos de salud pertenecen exclusivamente al Estado y solo él puede administrarlos.", "isCorrect": false },
+      { "letter": "B", "text": "Los hospitales y las EPS son propietarios de las historias clínicas de sus pacientes.", "isCorrect": false },
+      { "letter": "C", "text": "Las personas tienen el derecho de controlar quién accede a su información de salud y con qué propósito.", "isCorrect": true },
+      { "letter": "D", "text": "Los datos de salud no pueden compartirse bajo ninguna circunstancia.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "En Colombia, una persona transgénero solicita a su EPS la cobertura de terapia hormonal y cirugía de reasignación de sexo. La EPS niega el procedimiento argumentando que se trata de un procedimiento «estético» no incluido en el plan de beneficios. La persona interpone una acción de tutela.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál argumento jurídico respalda la solicitud de cobertura del tratamiento?",
+    "explanation": "La Corte Constitucional colombiana (Sentencias T-771 de 2013 y T-099 de 2015, entre otras) ha reconocido que la atención en salud para personas transgénero no es estética sino necesaria para su bienestar integral. Los procedimientos de afirmación de género están vinculados al derecho a la identidad, la dignidad humana y la salud mental. Clasificarlos como «estéticos» desconoce la evidencia médica y las normas internacionales de derechos humanos.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El derecho a la salud incluye la atención integral que garantice la identidad de género y la dignidad humana.", "isCorrect": true },
+      { "letter": "B", "text": "Todo procedimiento quirúrgico solicitado por un paciente debe ser cubierto por la EPS sin excepción.", "isCorrect": false },
+      { "letter": "C", "text": "La cirugía de reasignación es un procedimiento estético que debería financiarse con recursos propios.", "isCorrect": false },
+      { "letter": "D", "text": "La EPS solo debe cubrir procedimientos que salven la vida del paciente de forma inmediata.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": "Un hospital público se niega a utilizar el nombre y los pronombres elegidos por un paciente transgénero en su historia clínica, argumentando que «el sistema solo permite el nombre registrado en la cédula». El paciente reporta que esta práctica le genera angustia y que ha dejado de asistir a consultas médicas.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva de los derechos humanos, esta práctica del hospital:",
+    "explanation": "El derecho a la identidad de género es un derecho fundamental reconocido por la Corte Constitucional colombiana y los Principios de Yogyakarta. No respetar el nombre elegido por una persona transgénero constituye una barrera de acceso a la salud que puede causar que la persona evite el sistema de salud, agravando su situación. La barrera no es solo técnica (el sistema informático) sino cultural e institucional.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Es correcta porque los sistemas médicos deben usar solo datos legales verificados.", "isCorrect": false },
+      { "letter": "B", "text": "Es un asunto meramente administrativo que no afecta la calidad de la atención médica.", "isCorrect": false },
+      { "letter": "C", "text": "Constituye una barrera de acceso a la salud que vulnera el derecho a la identidad y puede disuadir al paciente de buscar atención médica.", "isCorrect": true },
+      { "letter": "D", "text": "Es aceptable mientras el hospital ofrezca atención médica técnicamente competente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": "En una zona rural de Colombia donde se practica la ganadería extensiva, se detecta un brote de leptospirosis. La investigación epidemiológica revela que la enfermedad se transmitió de ganado a humanos a través de agua contaminada con orina animal. Los ganaderos se oponen a las medidas de control porque afectan su producción.\n\n(Redacción Study2One)",
+    "questionText": "Este caso ilustra la necesidad del enfoque «Una Salud» (One Health) porque:",
+    "explanation": "El enfoque One Health reconoce la interdependencia entre la salud humana, animal y ambiental. La leptospirosis es un ejemplo clásico de enfermedad zoonótica donde la salud del ganado, la gestión ambiental del agua y la salud humana están directamente conectadas. Abordar el problema solo desde la perspectiva humana (tratar enfermos) o solo veterinaria (vacunar ganado) es insuficiente: se requiere una intervención coordinada que integre las tres dimensiones.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "La prevención de enfermedades zoonóticas requiere la integración coordinada de la salud humana, animal y ambiental.", "isCorrect": true },
+      { "letter": "B", "text": "Las enfermedades en animales solo afectan a los veterinarios y no son relevantes para la salud pública.", "isCorrect": false },
+      { "letter": "C", "text": "La solución consiste exclusivamente en prohibir la ganadería en zonas rurales.", "isCorrect": false },
+      { "letter": "D", "text": "Las enfermedades zoonóticas solo se controlan con vacunación masiva de humanos.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Un nuevo virus con potencial pandémico se detecta en murciélagos de una región deforestada del Amazonas colombiano. Científicos advierten que la deforestación aumenta el contacto entre fauna silvestre y humanos, incrementando el riesgo de salto zoonótico. El gobierno evalúa restringir la expansión agrícola en la zona, pero las comunidades locales dependen de la agricultura para su subsistencia.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál perspectiva refleja mejor la complejidad de esta situación?",
+    "explanation": "La gobernanza One Health reconoce que la prevención de pandemias zoonóticas no puede lograrse solo con medidas sanitarias o solo con restricciones ambientales. Es necesario integrar la perspectiva ecológica (conservación de ecosistemas), económica (alternativas de subsistencia para las comunidades) y sanitaria (vigilancia epidemiológica). La complejidad radica en que la seguridad sanitaria global depende de decisiones locales sobre uso del suelo.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La deforestación debe permitirse porque la seguridad alimentaria es más importante que los riesgos sanitarios.", "isCorrect": false },
+      { "letter": "B", "text": "La prevención de pandemias requiere integrar conservación ambiental, alternativas económicas para las comunidades y vigilancia epidemiológica.", "isCorrect": true },
+      { "letter": "C", "text": "El riesgo de pandemia es exagerado y no justifica limitar las actividades económicas.", "isCorrect": false },
+      { "letter": "D", "text": "La solución es reubicar a las comunidades rurales en zonas urbanas para eliminar el contacto con fauna silvestre.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": "En varias comunidades indígenas de Colombia, los promotores de salud comunitarios (también llamados «agentes comunitarios de salud») son el primer y a veces único contacto con el sistema de salud. Estos promotores carecen de reconocimiento legal formal, no tienen vinculación laboral estable ni acceso a seguridad social, y su formación varía ampliamente.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el principal argumento a favor del reconocimiento legal de los promotores comunitarios de salud?",
+    "explanation": "El reconocimiento legal de los promotores comunitarios de salud es fundamental para garantizar la calidad y sostenibilidad de la atención primaria en salud (APS). Sin reconocimiento legal: (1) no hay estándares mínimos de formación, (2) los promotores carecen de derechos laborales, (3) no existe supervisión ni rendición de cuentas, y (4) los programas dependen de voluntariado insostenible. La OMS recomienda la integración formal de estos trabajadores en los sistemas de salud.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Permitir que los promotores receten medicamentos sin supervisión médica.", "isCorrect": false },
+      { "letter": "B", "text": "Garantizar estándares de formación, derechos laborales y supervisión que mejoren la calidad y sostenibilidad de la atención primaria.", "isCorrect": true },
+      { "letter": "C", "text": "Reemplazar a los médicos en zonas rurales para reducir costos del sistema de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Controlar políticamente a las comunidades indígenas a través de los promotores.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": "Una promotora de salud comunitaria en el Chocó detecta que varias mujeres embarazadas de su comunidad presentan síntomas de preeclampsia. Intenta remitirlas al hospital más cercano, pero este queda a 6 horas en lancha y no hay ambulancia fluvial disponible. La promotora administra un antihipertensivo básico que tiene en su botiquín, aunque no está legalmente autorizada para prescribir medicamentos.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva ética, la acción de la promotora:",
+    "explanation": "El principio de beneficencia y la situación de emergencia justifican la acción de la promotora cuando no hay alternativa razonable para proteger la vida de las pacientes. Sin embargo, este caso también expone una falla estructural: la ausencia de protocolos claros y de medios de transporte para emergencias en zonas remotas. La solución no es castigar a la promotora sino crear marcos legales que autoricen acciones de emergencia y garanticen la infraestructura necesaria.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Es completamente ilegal y debe ser sancionada disciplinariamente.", "isCorrect": false },
+      { "letter": "B", "text": "Es éticamente justificable por el estado de necesidad, pero evidencia la falta de protocolos y recursos para emergencias en zonas remotas.", "isCorrect": true },
+      { "letter": "C", "text": "Es correcta porque los promotores comunitarios pueden prescribir cualquier medicamento.", "isCorrect": false },
+      { "letter": "D", "text": "Es incorrecta porque debió esperar a que un médico llegara para atender a las pacientes.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Un fabricante de implantes de cadera comercializa un dispositivo que no ha completado todos los ensayos clínicos exigidos por la agencia reguladora. Mediante un acuerdo con una entidad certificadora privada, logra obtener un «sello de aprobación rápida». Tres años después, se reportan 450 casos de fallo del implante que requieren cirugía de revisión.\n\n(Redacción Study2One)",
+    "questionText": "Este caso evidencia una falla en:",
+    "explanation": "La regulación de dispositivos médicos busca garantizar la seguridad del paciente antes de que los productos lleguen al mercado. Cuando las entidades reguladoras ceden a presiones comerciales o delegan la certificación sin supervisión rigurosa, se compromete la seguridad del paciente. El INVIMA en Colombia y agencias como la FDA tienen la responsabilidad de mantener estándares de aprobación independientes y basados en evidencia.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "La responsabilidad de los cirujanos que implantaron el dispositivo sin verificar su certificación.", "isCorrect": false },
+      { "letter": "B", "text": "El sistema de regulación y vigilancia de dispositivos médicos, que no garantizó la seguridad del producto antes de su comercialización.", "isCorrect": true },
+      { "letter": "C", "text": "Los pacientes, que debieron investigar la seguridad del implante antes de aceptar la cirugía.", "isCorrect": false },
+      { "letter": "D", "text": "El sistema de salud, que debería usar solo dispositivos fabricados nacionalmente.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": "Colombia adopta una nueva regulación que exige el registro y la trazabilidad de todos los dispositivos médicos implantables (prótesis, marcapasos, stents) mediante un código único. Esto permite rastrear cada dispositivo desde su fabricación hasta el paciente que lo porta.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál es el principal beneficio de este sistema de trazabilidad para la seguridad del paciente?",
+    "explanation": "La trazabilidad de dispositivos médicos permite identificar y contactar rápidamente a todos los pacientes afectados cuando se detecta un defecto o una alerta de seguridad. Sin trazabilidad, un retiro del mercado (recall) no llega a los pacientes que ya tienen el dispositivo implantado. Este sistema también facilita la farmacovigilancia pasiva y activa de dispositivos médicos.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "Reducir los costos de importación de dispositivos médicos.", "isCorrect": false },
+      { "letter": "B", "text": "Permitir identificar y contactar rápidamente a los pacientes afectados en caso de un defecto o alerta de seguridad.", "isCorrect": true },
+      { "letter": "C", "text": "Facilitar el cobro de impuestos a los fabricantes de dispositivos.", "isCorrect": false },
+      { "letter": "D", "text": "Impedir que los pacientes cambien de EPS mientras tengan un dispositivo implantado.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Durante una cirugía, un cirujano comete un error que causa una complicación grave al paciente. El hospital tiene una política de «cultura justa» que incentiva el reporte de errores sin sanción punitiva, pero el paciente nunca es informado del error. Cuando el paciente pregunta por la complicación, se le dice que fue una «reacción inesperada del organismo».\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál derecho del paciente se vulnera en esta situación?",
+    "explanation": "El derecho a la información sobre errores médicos (disclosure) es un componente del consentimiento informado y del derecho a la verdad. La Ley 23 de 1981 (Código de Ética Médica) y la Ley 1751 de 2015 reconocen el derecho del paciente a recibir información veraz sobre su atención. Una «cultura justa» busca mejorar la seguridad del sistema, pero no excluye la obligación de informar al paciente. Ocultar un error es diferente de no sancionar al profesional que lo reporta.",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "El derecho a la confidencialidad de su historia clínica.", "isCorrect": false },
+      { "letter": "B", "text": "El derecho a recibir información veraz sobre los errores ocurridos durante su atención médica.", "isCorrect": true },
+      { "letter": "C", "text": "El derecho a elegir libremente a su médico tratante.", "isCorrect": false },
+      { "letter": "D", "text": "El derecho a una segunda opinión médica antes de cualquier procedimiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": "Un hospital implementa un sistema de reporte obligatorio de errores médicos y «casi-errores» (near misses). En el primer año, los reportes aumentan un 300 %. El director del hospital se alarma y quiere usar los datos para sancionar a los profesionales con más reportes.\n\n(Redacción Study2One)",
+    "questionText": "Usar los reportes de errores para sancionar a los profesionales que más reportan probablemente causaría:",
+    "explanation": "Los sistemas de reporte de errores funcionan cuando existe confianza en que la información se usará para mejorar procesos, no para castigar. Si los reportes se usan como herramienta punitiva, los profesionales dejarán de reportar (subregistro), y los errores seguirán ocurriendo pero sin ser detectados. La evidencia en seguridad del paciente muestra que los sistemas punitivos producen ocultamiento, mientras que los sistemas de «cultura justa» promueven la transparencia y la mejora continua.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Una mejora inmediata en la seguridad del paciente por el efecto disuasorio de las sanciones.", "isCorrect": false },
+      { "letter": "B", "text": "Una disminución del reporte de errores por temor a sanciones, manteniendo los riesgos ocultos.", "isCorrect": true },
+      { "letter": "C", "text": "Un aumento de la calidad técnica de los profesionales sancionados.", "isCorrect": false },
+      { "letter": "D", "text": "Una reducción real de los errores médicos en el hospital.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": "Una isla del Pacífico colombiano experimenta inundaciones cada vez más frecuentes debido al aumento del nivel del mar. La comunidad de 3 000 habitantes enfrenta brotes recurrentes de enfermedades transmitidas por agua (cólera, hepatitis A) y un aumento en las enfermedades respiratorias por humedad. Las autoridades plantean la reubicación de la comunidad en tierra firme.\n\n(Redacción Study2One)",
+    "questionText": "Desde la perspectiva de la preparación del sistema de salud ante la migración climática, ¿cuál es la medida más integral?",
+    "explanation": "La migración climática y la salud requieren una respuesta que va más allá de la atención de emergencia. La reubicación implica garantizar acceso a servicios de salud en el nuevo territorio, atención en salud mental (trauma, duelo por pérdida del territorio), adaptación de los programas de salud pública a las condiciones del nuevo entorno, y respeto por las prácticas culturales de salud de la comunidad. Una respuesta exclusivamente médica o exclusivamente logística es insuficiente.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Construir un hospital de alta complejidad en la isla para atender las enfermedades.", "isCorrect": false },
+      { "letter": "B", "text": "Planificar la reubicación garantizando acceso a servicios de salud, atención psicosocial y adaptación cultural en el nuevo territorio.", "isCorrect": true },
+      { "letter": "C", "text": "Enviar brigadas médicas de emergencia cada vez que ocurra una inundación.", "isCorrect": false },
+      { "letter": "D", "text": "Recomendar a los habitantes que migren individualmente a ciudades con mejor infraestructura.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": "Un estudio proyecta que para 2050, la migración climática en Colombia desplazará a 1,2 millones de personas de zonas costeras e insulares. Los municipios receptores, en su mayoría ciudades intermedias del interior, ya enfrentan déficit de médicos y camas hospitalarias.\n\n(Datos ficticios basados en proyecciones reales — Redacción Study2One)",
+    "questionText": "¿Cuál enfoque de planificación sanitaria es más adecuado para esta situación?",
+    "explanation": "La migración climática es un fenómeno predecible a largo plazo, lo que permite planificación anticipada. El enfoque reactivo (atender cuando lleguen) es insuficiente porque los sistemas de salud ya están sobrecargados. El enfoque prospectivo integra proyecciones demográficas con planificación de infraestructura sanitaria, formación de talento humano y sistemas de vigilancia epidemiológica adaptados a las nuevas realidades poblacionales.",
+    "competency": "sistemico",
+    "options": [
+      { "letter": "A", "text": "Esperar a que la migración ocurra y luego ampliar los servicios de salud según la demanda.", "isCorrect": false },
+      { "letter": "B", "text": "Prohibir la migración climática para proteger los sistemas de salud de los municipios receptores.", "isCorrect": false },
+      { "letter": "C", "text": "Integrar las proyecciones de migración climática en la planificación de infraestructura sanitaria, talento humano y vigilancia epidemiológica de los municipios receptores.", "isCorrect": true },
+      { "letter": "D", "text": "Crear campos de refugiados climáticos con servicios de salud independientes del sistema nacional.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "En un debate legislativo en Colombia, se discute un proyecto de ley para regular la publicidad de alimentos ultraprocesados dirigida a niños. La industria alimentaria argumenta que la regulación viola la libre empresa. Las asociaciones de pediatras y nutricionistas argumentan que la publicidad engañosa contribuye a la epidemia de obesidad infantil.\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál principio constitucional prevalece en este debate?",
+    "explanation": "La Constitución colombiana (art. 44) establece que los derechos de los niños prevalecen sobre los derechos de los demás. Cuando existe un conflicto entre la libre empresa (art. 333) y la protección de la salud de los niños, la jurisprudencia constitucional colombiana ha establecido que la salud de los menores es un derecho fundamental prevalente. Además, la libre empresa tiene límites cuando colisiona con el interés público y la salud pública (art. 333: «la libre competencia económica es un derecho de todos que supone responsabilidades»).",
+    "competency": "argumentacion",
+    "options": [
+      { "letter": "A", "text": "La libre empresa, porque las empresas tienen derecho a publicitar sus productos.", "isCorrect": false },
+      { "letter": "B", "text": "La prevalencia de los derechos de los niños, incluida su salud, sobre la libertad comercial.", "isCorrect": true },
+      { "letter": "C", "text": "La libertad de información del consumidor, que le permite elegir qué comprar.", "isCorrect": false },
+      { "letter": "D", "text": "La libertad de prensa de los medios que transmiten la publicidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": "Un paciente es sometido a una cirugía en un hospital público. Durante el procedimiento se utiliza una prótesis articular. Un mes después, la prótesis falla y el paciente requiere una nueva intervención. Al investigar, se descubre que la prótesis carecía de registro INVIMA vigente y que el hospital la adquirió a un proveedor no autorizado para reducir costos.\n\n(Redacción Study2One)",
+    "questionText": "¿Qué mecanismo jurídico puede utilizar el paciente para exigir reparación?",
+    "explanation": "La acción de reparación directa (ante la jurisdicción contencioso-administrativa) permite al paciente demandar al Estado (hospital público) por los daños causados por una falla en el servicio. La adquisición de dispositivos sin registro INVIMA constituye una falla objetiva del servicio de salud. Adicionalmente, podrían existir acciones penales contra los funcionarios responsables. La tutela protege derechos fundamentales pero no otorga reparación económica directamente.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "Una acción de tutela para solicitar indemnización económica.", "isCorrect": false },
+      { "letter": "B", "text": "Una acción de reparación directa contra el hospital por falla del servicio.", "isCorrect": true },
+      { "letter": "C", "text": "Una denuncia ante la Superintendencia de Industria y Comercio por publicidad engañosa.", "isCorrect": false },
+      { "letter": "D", "text": "Un derecho de petición al Ministerio de Salud para solicitar la indemnización.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": "Dos posiciones se confrontan en un foro sobre gobernanza de salud digital:\n\nPosición A: «Los datos de salud de los ciudadanos deben estar centralizados en una base estatal porque esto facilita la investigación, la vigilancia epidemiológica y la toma de decisiones en salud pública.»\n\nPosición B: «Los datos de salud deben ser descentralizados y controlados por cada individuo mediante tecnologías como blockchain, porque la centralización expone a toda la población a violaciones masivas de privacidad.»\n\n(Redacción Study2One)",
+    "questionText": "¿Cuál afirmación refleja mejor la complejidad del debate?",
+    "explanation": "Ambas posiciones tienen méritos legítimos: la centralización facilita funciones de salud pública (vigilancia, investigación, planificación), mientras que la descentralización protege la privacidad individual. La complejidad radica en que ambos objetivos son importantes y parcialmente contradictorios. La solución óptima probablemente combina elementos de ambos enfoques (arquitectura híbrida con gobernanza clara sobre quién accede a qué y para qué).",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "La posición A es correcta porque la salud pública siempre está por encima de la privacidad individual.", "isCorrect": false },
+      { "letter": "B", "text": "La posición B es correcta porque ninguna entidad estatal es confiable para manejar datos de salud.", "isCorrect": false },
+      { "letter": "C", "text": "Ambas posiciones revelan una tensión real entre la eficacia de la salud pública y la protección de la privacidad individual, que requiere una gobernanza equilibrada.", "isCorrect": true },
+      { "letter": "D", "text": "El debate es irrelevante porque los datos de salud no tienen valor fuera del contexto clínico.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": "Un municipio costero de Colombia recibe cada año a 200 familias desplazadas por la erosión costera y las inundaciones. El centro de salud local, diseñado para 5 000 habitantes, ahora atiende a 8 000. Los migrantes climáticos presentan altas tasas de estrés postraumático, desnutrición infantil y enfermedades diarreicas. El personal de salud, compuesto por un médico y dos enfermeros, reporta agotamiento profesional.\n\n(Redacción Study2One)",
+    "questionText": "Este caso ilustra la interacción entre múltiples determinantes que afectan la salud. ¿Cuál enfoque es más adecuado para abordar esta crisis?",
+    "explanation": "Los determinantes sociales de la salud (pobreza, desplazamiento, inseguridad alimentaria, trauma) interactúan y se refuerzan mutuamente. Un enfoque exclusivamente biomédico (más médicos y medicamentos) es insuficiente. Se requiere un abordaje intersectorial que integre vivienda, seguridad alimentaria, salud mental, agua potable y fortalecimiento del personal de salud. La acción coordinada de múltiples sectores (salud, vivienda, protección social, ambiente) es el enfoque de determinantes sociales de la salud promovido por la OMS.",
+    "competency": "multiperspectivismo",
+    "options": [
+      { "letter": "A", "text": "Aumentar el número de médicos en el centro de salud para reducir las listas de espera.", "isCorrect": false },
+      { "letter": "B", "text": "Un abordaje intersectorial que integre vivienda, seguridad alimentaria, salud mental, agua potable y fortalecimiento del talento humano en salud.", "isCorrect": true },
+      { "letter": "C", "text": "Trasladar a los migrantes climáticos a grandes ciudades donde hay más infraestructura de salud.", "isCorrect": false },
+      { "letter": "D", "text": "Enfocar todos los recursos en la atención de urgencias y emergencias.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": "Un estudio internacional revela que el 60 % de las enfermedades infecciosas emergentes en los últimos 30 años son zoonóticas, y que la mayoría se originan en zonas de alta deforestación y comercio de fauna silvestre. Colombia, como uno de los países más biodiversos del mundo, enfrenta riesgos particulares. El Ministerio de Salud, el Ministerio de Ambiente y el Instituto Colombiano Agropecuario (ICA) discuten una estrategia conjunta.\n\n(Redacción Study2One)",
+    "questionText": "La gobernanza One Health requiere que la prevención de enfermedades zoonóticas emergentes se aborde mediante:",
+    "explanation": "La gobernanza One Health es un enfoque colaborativo, multisectorial y transdisciplinario que reconoce que la salud óptima de las personas, los animales y el medio ambiente están interconectados. No basta con que cada ministerio actúe por separado. La coordinación interinstitucional entre salud humana (MinSalud), salud animal (ICA) y salud ambiental (MinAmbiente) es esencial para la vigilancia, prevención y respuesta ante enfermedades zoonóticas. Este enfoque fue formalizado por la alianza cuatripartita OMS-FAO-OMSA-PNUMA en 2022.",
+    "competency": "conocimiento",
+    "options": [
+      { "letter": "A", "text": "La acción exclusiva del Ministerio de Salud, que es el único responsable de las enfermedades infecciosas.", "isCorrect": false },
+      { "letter": "B", "text": "La prohibición total del contacto entre humanos y animales silvestres.", "isCorrect": false },
+      { "letter": "C", "text": "La coordinación interinstitucional entre los sectores de salud humana, salud animal y medio ambiente para vigilancia, prevención y respuesta integrada.", "isCorrect": true },
+      { "letter": "D", "text": "La creación de un nuevo ministerio que reemplace a los tres existentes.", "isCorrect": false }
+    ]
+  }
+]

@@ -162,6 +162,7 @@ model CohortStudent {
   student   User     @relation(fields: [studentId], references: [id])
 
   @@id([cohortId, studentId])
+  @@index([studentId])
   @@map("cohort_students")
 }
 
@@ -293,6 +294,8 @@ model QuizAttempt {
   dailyContent   DailyContent @relation(fields: [dailyContentId], references: [id])
   answers        QuizAnswer[]
 
+  @@index([studentId])
+  @@index([studentId, dailyContentId])
   @@map("quiz_attempts")
 }
 
@@ -327,6 +330,7 @@ model PhotoUpload {
   dailyContent   DailyContent @relation(fields: [dailyContentId], references: [id])
   approvedBy     User?        @relation("ApprovedPhotos", fields: [approvedById], references: [id])
 
+  @@index([studentId, dailyContentId])
   @@map("photo_uploads")
 }
 
@@ -342,6 +346,7 @@ model WritingSubmission {
   student          User         @relation(fields: [studentId], references: [id])
   dailyContent     DailyContent @relation(fields: [dailyContentId], references: [id])
 
+  @@index([studentId, dailyContentId])
   @@map("writing_submissions")
 }
 
@@ -460,6 +465,7 @@ model Announcement {
   cohort    Cohort   @relation(fields: [cohortId], references: [id])
   author    User     @relation(fields: [authorId], references: [id])
 
+  @@index([cohortId, createdAt])
   @@map("announcements")
 }
 
@@ -487,6 +493,7 @@ model PushSubscription {
 
   user      User     @relation(fields: [userId], references: [id])
 
+  @@index([userId])
   @@map("push_subscriptions")
 }
 
@@ -504,6 +511,8 @@ model Notification {
   user        User             @relation(fields: [userId], references: [id])
   sender      User?            @relation("SentNotifications", fields: [senderId], references: [id])
 
+  @@index([userId, isRead])
+  @@index([userId, createdAt])
   @@map("notifications")
 }
 

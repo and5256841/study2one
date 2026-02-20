@@ -60,14 +60,15 @@ export async function GET() {
 
   // Quiz stats
   const totalQuizzes = user.quizAttempts.length;
-  const passedQuizzes = user.quizAttempts.filter((q) => q.score >= 2).length;
+  const passedQuizzes = user.quizAttempts.filter(
+    (q) => q.score >= Math.ceil(q.totalQuestions * 0.67)
+  ).length;
   const failedQuizzes = totalQuizzes - passedQuizzes;
   const avgScore =
     totalQuizzes > 0
       ? Math.round(
           (user.quizAttempts.reduce((sum, q) => sum + q.score, 0) /
-            totalQuizzes /
-            3) *
+            user.quizAttempts.reduce((sum, q) => sum + q.totalQuestions, 0)) *
             100
         )
       : 0;

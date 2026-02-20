@@ -4,15 +4,17 @@ import { prisma } from "@/lib/prisma";
 
 export async function POST(req: NextRequest) {
   try {
-    const { fullName, email, documentId, password, phone, university, cohortId } =
+    const { fullName, email: rawEmail, documentId, password, phone, university, cohortId } =
       await req.json();
 
-    if (!fullName || !email || !documentId || !password) {
+    if (!fullName || !rawEmail || !documentId || !password) {
       return NextResponse.json(
         { error: "Campos obligatorios: nombre, email, documento, contraseña" },
         { status: 400 }
       );
     }
+
+    const email = rawEmail.toLowerCase().trim();
 
     if (password.length < 6) {
       return NextResponse.json(
@@ -31,34 +33,39 @@ export async function POST(req: NextRequest) {
 
     const passwordHash = await bcrypt.hash(password, 12);
 
-    const user = await prisma.user.create({
-      data: {
-        fullName,
-        email,
-        documentId,
-        passwordHash,
-        phone: phone || null,
-        university: university || null,
-        role: "STUDENT",
-        enrollmentStatus: "PENDING",
-        enrolledAt: new Date(),
-      },
-    });
-
-    // If cohortId provided (from QR), link student to cohort
-    if (cohortId) {
-      const cohort = await prisma.cohort.findUnique({
-        where: { id: cohortId },
+    // Wrap user creation and cohort linking in a transaction
+    const user = await prisma.$transaction(async (tx) => {
+      const newUser = await tx.user.create({
+        data: {
+          fullName,
+          email,
+          documentId,
+          passwordHash,
+          phone: phone || null,
+          university: university || null,
+          role: "STUDENT",
+          enrollmentStatus: "PENDING",
+          enrolledAt: new Date(),
+        },
       });
-      if (cohort && cohort.isActive) {
-        await prisma.cohortStudent.create({
-          data: {
-            cohortId: cohort.id,
-            studentId: user.id,
-          },
+
+      // If cohortId provided (from QR), link student to cohort
+      if (cohortId) {
+        const cohort = await tx.cohort.findUnique({
+          where: { id: cohortId },
         });
+        if (cohort && cohort.isActive) {
+          await tx.cohortStudent.create({
+            data: {
+              cohortId: cohort.id,
+              studentId: newUser.id,
+            },
+          });
+        }
       }
-    }
+
+      return newUser;
+    });
 
     return NextResponse.json(
       { message: "Registro exitoso. Pendiente de aprobación.", userId: user.id },

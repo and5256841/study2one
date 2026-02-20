@@ -1,0 +1,1597 @@
+[
+  {
+    "questionOrder": 1,
+    "caseText": "PART 1: Photographs (Questions 1-5)\nLevel: A1-A2\n\nLook at the description of the photograph and choose the sentence that best describes it.\n\nPhotograph description: A laboratory technician wearing a white coat and blue gloves is looking through a microscope. Several test tubes filled with colored liquids are arranged in a rack on the table beside her.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The description shows a lab technician using a microscope with test tubes nearby. Option A correctly identifies the person, the action, and the setting. Option B says she is washing equipment. Option C describes a doctor, not a technician. Option D mentions a pharmacy, which is incorrect.",
+    "competency": "A1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A laboratory technician is examining a sample under a microscope.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "A nurse is washing medical equipment in a sink.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "A doctor is writing a prescription at a desk.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "A pharmacist is organizing bottles on a shelf.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 2,
+    "caseText": "Photograph description: A radiology room with a large X-ray machine. A patient is standing with his chest against a flat panel while a radiologist behind a glass window presses a button on the control panel.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The scene shows a patient positioned for a chest X-ray with the radiologist operating the machine from behind protective glass. Option C accurately describes this. Option A says the patient is lying down. Option B describes an MRI. Option D says the radiologist is in the same room as the patient.",
+    "competency": "A1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A patient is lying on a bed while a nurse takes his blood pressure.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "A patient is inside an MRI machine in a dark room.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "A patient is standing for an X-ray while the radiologist operates the machine from behind a window.",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "A radiologist is standing next to the patient and explaining the results.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 3,
+    "caseText": "Photograph description: A physiotherapy clinic with exercise mats on the floor. A physiotherapist is helping an elderly man stretch his right leg while the man holds onto a parallel bar for balance.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The photograph shows a physiotherapy session where a therapist assists an elderly patient with a leg stretch. Option B correctly identifies all key elements. Option A says the man is exercising alone. Option C describes a surgery scene. Option D mentions a wheelchair, which is not in the description.",
+    "competency": "A1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "An old man is exercising alone in a gym.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "A physiotherapist is helping an elderly patient stretch his leg.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "A surgeon is examining a patient's knee before an operation.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "A nurse is pushing an elderly man in a wheelchair.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 4,
+    "caseText": "Photograph description: A dental clinic with a patient sitting in a dental chair with his mouth open. The dentist, wearing a mask and magnifying glasses, is using a small mirror to examine the patient's teeth. A dental assistant stands nearby holding a suction tool.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The description shows a dental examination in progress with a dentist, a patient, and an assistant. Option D captures the scene accurately. Option A says the dentist is cleaning the teeth, not examining. Option B says there is no assistant. Option C describes a different procedure (extraction).",
+    "competency": "A1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A dentist is cleaning a patient's teeth with an electric brush.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "A dentist is working alone in an empty clinic.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "A dentist is pulling out a tooth while the patient is asleep.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "A dentist is examining a patient's teeth while an assistant stands nearby.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionOrder": 5,
+    "caseText": "Photograph description: An outdoor vaccination campaign in a rural area. Several health workers in blue vests are sitting at folding tables under a large tent. A long line of mothers with young children waits to be attended. One health worker is administering a vaccine to a baby held by its mother.\n\n(Original content — Study2One)",
+    "questionText": "Which sentence best describes the photograph?",
+    "explanation": "The scene depicts an outdoor vaccination campaign with health workers vaccinating children. Option A accurately describes the setting and activity. Option B says it is inside a hospital. Option C says doctors are giving food. Option D describes a blood donation event.",
+    "competency": "A1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Health workers are vaccinating children at an outdoor campaign in a rural area.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Nurses are giving injections to patients inside a hospital.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Doctors are giving food to families at a community center.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "People are donating blood at a mobile blood bank.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 6,
+    "caseText": "PART 2: Short conversations (Questions 6-15)\nLevel: A2\n\nRead the short conversation and answer the question.\n\nPatient: Good morning. I was told I need to see the dietitian about my cholesterol levels.\nDietitian: Good morning! Yes, Dr. Herrera referred you. Let me look at your file. I see your LDL cholesterol is quite high.\nPatient: Is that the bad one?\nDietitian: That's right. We need to reduce your intake of saturated fats. I'll prepare a meal plan for you.\nPatient: Will I have to stop eating meat completely?\nDietitian: No, not completely. But we'll switch to leaner cuts and increase your fish and vegetable intake.\n\n(Original content — Study2One)",
+    "questionText": "Why is the patient visiting the dietitian?",
+    "explanation": "The patient says they need to see the dietitian about their cholesterol levels, and the dietitian confirms that their LDL cholesterol is high. Option B correctly identifies the reason for the visit.",
+    "competency": "A1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To get a prescription for cholesterol medication.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "To get dietary advice because of high cholesterol.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "To schedule a blood test for cholesterol.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "To complain about the food at the hospital.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 7,
+    "caseText": "Patient: Good morning. I was told I need to see the dietitian about my cholesterol levels.\nDietitian: Good morning! Yes, Dr. Herrera referred you. Let me look at your file. I see your LDL cholesterol is quite high.\nPatient: Is that the bad one?\nDietitian: That's right. We need to reduce your intake of saturated fats. I'll prepare a meal plan for you.\nPatient: Will I have to stop eating meat completely?\nDietitian: No, not completely. But we'll switch to leaner cuts and increase your fish and vegetable intake.\n\n(Original content — Study2One)",
+    "questionText": "What does the dietitian recommend regarding meat?",
+    "explanation": "The dietitian says: 'No, not completely. But we'll switch to leaner cuts and increase your fish and vegetable intake.' This means the patient can still eat meat but should choose leaner options. Option C captures this advice.",
+    "competency": "A2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The patient must stop eating all types of meat.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "The patient should eat more red meat for protein.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "The patient should eat leaner meat and more fish and vegetables.",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "The patient can continue eating the same amount of meat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 8,
+    "caseText": "Doctor: Mr. Gutiérrez, I have the results from your blood work.\nPatient: Is everything okay?\nDoctor: Most things look fine. However, your blood sugar levels are a bit higher than normal.\nPatient: Does that mean I have diabetes?\nDoctor: Not necessarily. It could be prediabetes. I'd like you to do a fasting glucose test next week to confirm.\nPatient: Do I need to do anything special before the test?\nDoctor: Yes, don't eat or drink anything except water for at least eight hours before.\n\n(Original content — Study2One)",
+    "questionText": "What does the doctor want the patient to do next?",
+    "explanation": "The doctor says: 'I'd like you to do a fasting glucose test next week to confirm.' Option A correctly identifies the next step. Option B (start medication) is premature. Option C (eat more sugar) is the opposite advice. Option D (come back in a month) is incorrect.",
+    "competency": "A2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Come back for a fasting glucose test next week.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Start taking diabetes medication immediately.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Eat more sugar to balance his blood levels.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Come back for a checkup in one month.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 9,
+    "caseText": "Dispatcher: 911, what is your emergency?\nCaller: My father just collapsed! He was sitting at the table and suddenly fell to the floor. He's not responding!\nDispatcher: Is he breathing?\nCaller: I… I think so. Yes, his chest is moving.\nDispatcher: Okay, I'm sending an ambulance right now. Keep him lying on his back and don't move him. Stay on the line with me.\nCaller: Please hurry!\n\n(Original content — Study2One)",
+    "questionText": "What happened to the caller's father?",
+    "explanation": "The caller says: 'My father just collapsed! He was sitting at the table and suddenly fell to the floor. He's not responding!' Option D accurately describes the situation. Option A says he choked on food, which is not mentioned. Option B says he cut himself. Option C says he had chest pain but remained conscious.",
+    "competency": "A1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "He choked on his food during dinner.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "He cut himself with a knife in the kitchen.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "He felt chest pain but remained conscious.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "He collapsed suddenly and is not responding.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionOrder": 10,
+    "caseText": "Dispatcher: 911, what is your emergency?\nCaller: My father just collapsed! He was sitting at the table and suddenly fell to the floor. He's not responding!\nDispatcher: Is he breathing?\nCaller: I… I think so. Yes, his chest is moving.\nDispatcher: Okay, I'm sending an ambulance right now. Keep him lying on his back and don't move him. Stay on the line with me.\nCaller: Please hurry!\n\n(Original content — Study2One)",
+    "questionText": "What does the dispatcher tell the caller to do?",
+    "explanation": "The dispatcher says: 'Keep him lying on his back and don't move him. Stay on the line with me.' Option B matches these instructions. Option A says to give CPR, which was not instructed. Option C says to drive to the hospital. Option D says to give him water.",
+    "competency": "A2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Start CPR immediately.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Keep him on his back, don't move him, and stay on the line.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "Drive him to the nearest hospital.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Give him water and wait for help.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 11,
+    "caseText": "Receptionist: Good morning, welcome to the Mental Health Center. How can I help you?\nPatient: Hi, I'd like to schedule a first appointment with a psychologist. My doctor recommended it.\nReceptionist: Of course. Have you been referred by a specific doctor?\nPatient: Yes, Dr. Morales. She said I should come for anxiety and sleep problems.\nReceptionist: I see. Our earliest available appointment is next Thursday at 3 p.m. Would that work for you?\nPatient: Yes, that's fine. What do I need to bring?\nReceptionist: Just your ID and the referral letter from Dr. Morales.\n\n(Original content — Study2One)",
+    "questionText": "Why does the patient want to see a psychologist?",
+    "explanation": "The patient says: 'She said I should come for anxiety and sleep problems.' Option C identifies both reasons. Option A mentions only depression. Option B says for a routine checkup. Option D says for medication.",
+    "competency": "A2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Because the patient is suffering from depression.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "For a routine mental health checkup.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Because the patient has anxiety and sleep problems.",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "To get a prescription for sleeping pills.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 12,
+    "caseText": "Patient: Hello, I'm here to renew my prescription for blood pressure medication.\nPharmacist: Good morning. Can I see your previous prescription, please?\nPatient: Here it is. Dr. Vargas prescribed it three months ago.\nPharmacist: I see. Unfortunately, this prescription has expired. You'll need to get a new one from your doctor.\nPatient: Oh, but I'm running out of pills. Can't you give me just a few to last until my appointment?\nPharmacist: I'm sorry, but I can't dispense medication without a valid prescription. I'd recommend calling your doctor's office to request an urgent renewal.\n\n(Original content — Study2One)",
+    "questionText": "Why can't the pharmacist give the patient medication?",
+    "explanation": "The pharmacist says: 'this prescription has expired' and 'I can't dispense medication without a valid prescription.' Option A correctly explains the reason. Option B says the medicine is out of stock. Option C says the patient needs a different medicine. Option D says the pharmacy is closing.",
+    "competency": "A2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Because the patient's prescription has expired.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Because the medicine is out of stock.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Because the patient needs a different medication.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Because the pharmacy is about to close.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 13,
+    "caseText": "Patient: Hello, I'm here to renew my prescription for blood pressure medication.\nPharmacist: Good morning. Can I see your previous prescription, please?\nPatient: Here it is. Dr. Vargas prescribed it three months ago.\nPharmacist: I see. Unfortunately, this prescription has expired. You'll need to get a new one from your doctor.\nPatient: Oh, but I'm running out of pills. Can't you give me just a few to last until my appointment?\nPharmacist: I'm sorry, but I can't dispense medication without a valid prescription. I'd recommend calling your doctor's office to request an urgent renewal.\n\n(Original content — Study2One)",
+    "questionText": "What does the pharmacist suggest the patient should do?",
+    "explanation": "The pharmacist says: 'I'd recommend calling your doctor's office to request an urgent renewal.' Option D matches this suggestion. Option A says go to the emergency room. Option B says buy the medicine online. Option C says wait until the prescription renews itself.",
+    "competency": "A2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Go to the emergency room for medication.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Buy the medicine from an online pharmacy.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Wait until the old prescription becomes valid again.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Call the doctor's office and ask for an urgent prescription renewal.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionOrder": 14,
+    "caseText": "Nurse: Good afternoon, Mrs. Salazar. I need to take some information before your consultation.\nPatient: Of course.\nNurse: Are you currently taking any medications?\nPatient: Yes, I take metformin for my diabetes and lisinopril for blood pressure.\nNurse: Any allergies?\nPatient: I'm allergic to penicillin. I get a rash.\nNurse: Thank you. And when was your last visit to this clinic?\nPatient: About six months ago, in August.\n\n(Original content — Study2One)",
+    "questionText": "What happens when the patient takes penicillin?",
+    "explanation": "The patient says: 'I'm allergic to penicillin. I get a rash.' Option B correctly identifies the allergic reaction. Option A says she gets a headache. Option C says she feels dizzy. Option D says nothing happens.",
+    "competency": "A2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "She gets a headache.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "She gets a rash on her skin.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "She feels dizzy and nauseous.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Nothing happens; she is not allergic.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 15,
+    "caseText": "Nurse: Good afternoon, Mrs. Salazar. I need to take some information before your consultation.\nPatient: Of course.\nNurse: Are you currently taking any medications?\nPatient: Yes, I take metformin for my diabetes and lisinopril for blood pressure.\nNurse: Any allergies?\nPatient: I'm allergic to penicillin. I get a rash.\nNurse: Thank you. And when was your last visit to this clinic?\nPatient: About six months ago, in August.\n\n(Original content — Study2One)",
+    "questionText": "How many medications is the patient currently taking?",
+    "explanation": "The patient mentions two medications: metformin (for diabetes) and lisinopril (for blood pressure). Option B is correct. The patient does not mention any other medications.",
+    "competency": "A1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "One.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Two.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "Three.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "None.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 16,
+    "caseText": "PART 3: Short texts (Questions 16-30)\nLevel: B1\n\nRead the following text and answer the questions.\n\nText 1:\n\nThe Colombian Ministry of Health has launched a national campaign to reduce sugar consumption among young adults aged 18 to 30. The campaign, called «Sweet Moderation,» uses social media influencers and university health fairs to spread its message. According to the ministry, excessive sugar intake is linked to rising rates of obesity, type 2 diabetes, and dental problems in this age group.\n\nThe campaign recommends limiting added sugar to no more than 25 grams per day — roughly six teaspoons. It also encourages consumers to read nutrition labels carefully, since many processed foods contain hidden sugars under names like high-fructose corn syrup, maltose, and dextrose. Early results show that awareness of daily sugar limits has increased by 35% in cities where the campaign has been active for more than three months.\n\n(Original content — Study2One)",
+    "questionText": "What is the main goal of the «Sweet Moderation» campaign?",
+    "explanation": "The text says the ministry launched a campaign 'to reduce sugar consumption among young adults aged 18 to 30.' Option A correctly identifies the main goal. Option B says to ban sugary drinks. Option C says to promote exercise. Option D says to sell sugar-free products.",
+    "competency": "A2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To reduce sugar consumption among young adults.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "To ban all sugary drinks in Colombia.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "To promote physical exercise in universities.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "To sell sugar-free products at health fairs.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 17,
+    "caseText": null,
+    "questionText": "According to the text, how much added sugar per day does the campaign recommend?",
+    "explanation": "The text states: 'limiting added sugar to no more than 25 grams per day — roughly six teaspoons.' Option C matches this figure. Option A says 10 grams, Option B says 50 grams, and Option D says 100 grams.",
+    "competency": "A2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "No more than 10 grams.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "No more than 50 grams.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "No more than 25 grams.",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "No more than 100 grams.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 18,
+    "caseText": null,
+    "questionText": "Why does the campaign encourage reading nutrition labels?",
+    "explanation": "The text explains: 'many processed foods contain hidden sugars under names like high-fructose corn syrup, maltose, and dextrose.' Option B captures this reason. Option A says labels show calorie counts (not the main reason here). Option C says labels tell you where products are made. Option D says labels list exercise recommendations.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To check the total number of calories in each food.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Because many processed foods contain hidden sugars with different names.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "To find out which country the food was produced in.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Because labels contain exercise recommendations.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 19,
+    "caseText": "Text 2:\n\nSt. Mary's General Hospital has updated its visitor policy effective March 1, 2026. Under the new guidelines, each patient may receive a maximum of two visitors per day during visiting hours (2:00 p.m. to 7:00 p.m.). Visitors must check in at the front desk, show a valid photo ID, and receive a visitor badge before entering patient areas.\n\nChildren under 12 are not permitted in the intensive care unit (ICU) or the neonatal ward. All visitors must sanitize their hands upon entering and leaving patient rooms. Visitors who show symptoms of illness — such as cough, fever, or runny nose — will be asked to postpone their visit. These measures are designed to protect patients, especially those with weakened immune systems, from hospital-acquired infections.\n\n(Original content — Study2One)",
+    "questionText": "What must visitors do before entering patient areas?",
+    "explanation": "The text states: 'Visitors must check in at the front desk, show a valid photo ID, and receive a visitor badge before entering patient areas.' Option D lists these requirements. Option A says only sign a form. Option B says pay a fee. Option C says call ahead.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sign a consent form and pay a fee.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Pay a visitor fee at the entrance.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Call the hospital at least one hour before arriving.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Check in at the front desk, show ID, and get a visitor badge.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionOrder": 20,
+    "caseText": null,
+    "questionText": "Who is NOT allowed to visit the ICU?",
+    "explanation": "The text states: 'Children under 12 are not permitted in the intensive care unit (ICU) or the neonatal ward.' Option A correctly identifies this restriction. Option B says elderly visitors. Option C says visitors without medical training. Option D says all family members.",
+    "competency": "A2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Children under 12 years old.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Visitors over 65 years old.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Visitors without medical training.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "All family members.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 21,
+    "caseText": null,
+    "questionText": "What is the main reason for the new visitor restrictions?",
+    "explanation": "The last sentence states: 'These measures are designed to protect patients, especially those with weakened immune systems, from hospital-acquired infections.' Option C correctly identifies the purpose. Option A says to reduce noise. Option B says to save money. Option D says to give doctors more time.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To reduce noise levels in the hospital.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "To save money on hospital operations.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "To protect patients from hospital-acquired infections.",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "To give doctors more time with each patient.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 22,
+    "caseText": "Text 3:\n\nA recent study published in The Lancet Digital Health found that wearable health devices — such as smartwatches and fitness trackers — can detect irregular heart rhythms with up to 94% accuracy. Researchers at three universities in Europe collected data from 12,000 participants who wore monitoring devices for six months.\n\nThe study found that the devices were particularly effective at identifying atrial fibrillation (AFib), a common heart condition that increases the risk of stroke. Participants whose devices detected irregular rhythms were referred to cardiologists, and 78% of those referrals resulted in a confirmed diagnosis.\n\nHowever, the researchers cautioned that wearable devices should not replace regular medical checkups. False positives — cases where the device signals a problem that does not actually exist — caused unnecessary anxiety in approximately 15% of participants. The authors recommend that wearable data be used as a complementary tool alongside professional medical evaluation.\n\n(Original content — Study2One)",
+    "questionText": "What did the study find about wearable health devices?",
+    "explanation": "The text states that wearable devices 'can detect irregular heart rhythms with up to 94% accuracy.' Option B correctly identifies this finding. Option A says they can replace doctors. Option C says they are not effective. Option D says they only work for young people.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "They can completely replace visits to the cardiologist.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "They can detect irregular heart rhythms with high accuracy.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "They are not effective at detecting any heart conditions.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "They only work accurately for people under 30.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 23,
+    "caseText": null,
+    "questionText": "What is a 'false positive' according to the text?",
+    "explanation": "The text defines false positives as 'cases where the device signals a problem that does not actually exist.' Option A matches this definition. Option B describes a false negative. Option C describes a true positive. Option D describes a device malfunction.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "When the device detects a problem that is not actually there.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "When the device fails to detect a real problem.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "When the device correctly identifies a heart condition.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "When the device stops working during monitoring.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 24,
+    "caseText": null,
+    "questionText": "What do the researchers recommend about wearable devices?",
+    "explanation": "The text states: 'wearable data be used as a complementary tool alongside professional medical evaluation.' Option D captures this recommendation. Option A says replace checkups. Option B says only use them in hospitals. Option C says stop using them entirely.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "They should replace regular medical checkups.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "They should only be used inside hospitals.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "People should stop using them because of false positives.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "They should be used as a complementary tool alongside medical checkups.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionOrder": 25,
+    "caseText": "Text 4:\n\nResearchers at the University of São Paulo have developed a low-cost diagnostic test for dengue fever that provides results in under 30 minutes. The test, which uses a small blood sample from a finger prick, can distinguish between dengue and other mosquito-borne diseases such as Zika and chikungunya.\n\nTraditional laboratory tests for dengue take 24 to 48 hours and require specialized equipment. The new test costs approximately $2 per unit, making it accessible for use in remote communities and field clinics where resources are limited. In clinical trials involving 5,000 patients across Brazil and Colombia, the test showed 91% sensitivity and 96% specificity.\n\nThe researchers hope the test will be approved for widespread use by regional health authorities by the end of 2026. If adopted, it could significantly reduce the time between symptom onset and treatment, potentially saving thousands of lives during outbreak seasons.\n\n(Original content — Study2One)",
+    "questionText": "What is the main advantage of the new dengue test compared to traditional tests?",
+    "explanation": "The text highlights that the new test 'provides results in under 30 minutes' while traditional tests 'take 24 to 48 hours,' and costs approximately $2. Option A captures the speed and cost advantages. Option B says it is more accurate (not the main point). Option C says it detects all diseases. Option D says it does not need a blood sample.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It is faster and much cheaper than traditional laboratory tests.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "It is more accurate than any other existing test.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "It can detect all known tropical diseases at once.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "It does not require a blood sample.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 26,
+    "caseText": null,
+    "questionText": "Where was the new test trialed?",
+    "explanation": "The text states: 'In clinical trials involving 5,000 patients across Brazil and Colombia.' Option C identifies the correct countries. Option A says only Brazil. Option B says the United States and Europe. Option D says Africa and Asia.",
+    "competency": "A2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only in Brazil.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "In the United States and Europe.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "In Brazil and Colombia.",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "In several African and Asian countries.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 27,
+    "caseText": "Text 5:\n\nA new mobile health application developed by Colombian biomedical engineers allows patients with chronic kidney disease to monitor their fluid intake, blood pressure, and medication schedules from home. The app sends daily reminders and generates weekly reports that are automatically shared with the patient's nephrologist.\n\nIn a six-month pilot study with 400 patients in Bogotá and Medellín, patients who used the app had 40% fewer emergency hospital visits compared to a control group. Doctors reported that the weekly reports helped them detect early warning signs of fluid overload and adjust treatment plans proactively.\n\nDespite these promising results, some patients — particularly those over 65 — found the app difficult to use. The developers plan to release an updated version with larger text, voice commands, and a simplified interface to address accessibility concerns.\n\n(Original content — Study2One)",
+    "questionText": "What is the main function of the health app described in the text?",
+    "explanation": "The text says the app 'allows patients with chronic kidney disease to monitor their fluid intake, blood pressure, and medication schedules from home.' Option B captures this function. Option A says it diagnoses diseases. Option C says it replaces doctors. Option D says it only tracks exercise.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To diagnose new kidney diseases in patients.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "To help kidney disease patients monitor their health at home.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "To replace nephrologists with automated treatment.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "To track only exercise routines for kidney patients.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 28,
+    "caseText": null,
+    "questionText": "What was the main result of the pilot study?",
+    "explanation": "The text states: 'patients who used the app had 40% fewer emergency hospital visits compared to a control group.' Option A correctly identifies this result. Option B says patients were cured. Option C says there was no difference. Option D says the app increased hospital visits.",
+    "competency": "A2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "App users had significantly fewer emergency hospital visits.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "All patients using the app were completely cured.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "There was no significant difference between app users and non-users.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "The app caused more patients to visit the emergency room.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 29,
+    "caseText": null,
+    "questionText": "What challenge did some patients face with the app?",
+    "explanation": "The text states: 'some patients — particularly those over 65 — found the app difficult to use.' Option C correctly identifies this challenge. Option A says the app was too expensive. Option B says it drained phone batteries. Option D says doctors refused to use it.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The app was too expensive for most patients.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "It drained their phone batteries too quickly.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Older patients found it difficult to use.",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "Doctors refused to look at the weekly reports.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 30,
+    "caseText": null,
+    "questionText": "The word 'proactively' in the second paragraph most likely means:",
+    "explanation": "In the context 'detect early warning signs of fluid overload and adjust treatment plans proactively,' the word means acting before a problem becomes serious — taking preventive action. Option D captures this meaning. Option A means 'quickly.' Option B means 'reluctantly.' Option C means 'after the problem occurs' (reactive).",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Quickly and without delay.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Reluctantly and with hesitation.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Only after a serious problem occurs.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "In advance, before a problem becomes serious.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionOrder": 31,
+    "caseText": "PART 4: Academic texts (Questions 31-55)\nLevel: B1-B2\n\nRead the following text and answer the questions.\n\nText A: Antimicrobial Stewardship in Hospital Settings\n\nAntimicrobial stewardship refers to a set of coordinated strategies designed to optimize the use of antimicrobial agents — including antibiotics, antivirals, and antifungals — in healthcare settings. The primary goals are to improve patient outcomes, reduce the development of antimicrobial resistance, and minimize adverse drug events. As drug-resistant infections become an increasingly urgent global threat, stewardship programs have moved from being a recommended best practice to a regulatory requirement in many countries.\n\nA typical stewardship program involves several key components. Prospective audit and feedback allow infectious disease specialists to review antimicrobial prescriptions after they are written and suggest modifications. Formulary restriction limits the use of certain broad-spectrum antibiotics to cases where they are clearly justified, requiring prior authorization from a specialist. Clinical guidelines and decision-support tools, often embedded in electronic health records, provide evidence-based recommendations at the point of prescribing.\n\nEducation is another pillar of stewardship. Training programs for prescribers emphasize the importance of obtaining appropriate cultures before initiating therapy, selecting the narrowest effective spectrum, and de-escalating therapy when culture results become available. Studies have shown that hospitals with active stewardship programs achieve a 15-30% reduction in antibiotic use without negatively affecting patient outcomes, and in many cases, patient outcomes actually improve.\n\nHowever, implementing stewardship programs in resource-limited settings presents unique challenges. Many hospitals in low- and middle-income countries lack the laboratory infrastructure needed to perform timely cultures and susceptibility testing. Without these diagnostic capabilities, clinicians often resort to empiric broad-spectrum therapy, which, while sometimes necessary, accelerates resistance development. Furthermore, a shortage of infectious disease specialists means that prospective audits may not be feasible in all institutions.\n\nDespite these obstacles, low-cost interventions such as antibiotic time-outs — scheduled reassessments of ongoing antimicrobial therapy at 48-72 hours — have shown promise in improving prescribing practices even in settings with limited resources. International organizations, including the WHO, have called for scaled-up investment in laboratory capacity and stewardship training as essential components of the global response to antimicrobial resistance.\n\n(Original content — Study2One)",
+    "questionText": "What is the main purpose of antimicrobial stewardship programs?",
+    "explanation": "The first paragraph states the primary goals: 'to improve patient outcomes, reduce the development of antimicrobial resistance, and minimize adverse drug events.' Option B correctly summarizes these goals. Option A says to increase antibiotic sales. Option C says to replace antibiotics with natural remedies. Option D says to train new doctors.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To increase the sale of broad-spectrum antibiotics.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "To optimize antimicrobial use, reduce resistance, and improve patient outcomes.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "To replace antibiotics with natural remedies.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "To train new doctors in surgical techniques.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 32,
+    "caseText": null,
+    "questionText": "According to the text, what does 'formulary restriction' mean?",
+    "explanation": "The text explains: 'Formulary restriction limits the use of certain broad-spectrum antibiotics to cases where they are clearly justified, requiring prior authorization from a specialist.' Option A captures this definition. Option B says banning all antibiotics. Option C says making them cheaper. Option D says allowing unrestricted access.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Limiting certain antibiotics to cases where specialist approval has been given.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Banning all antibiotics from hospital use.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Making broad-spectrum antibiotics cheaper for patients.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Allowing any doctor to prescribe any antibiotic without restrictions.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 33,
+    "caseText": null,
+    "questionText": "What does 'de-escalating therapy' most likely refer to in paragraph 3?",
+    "explanation": "In context, de-escalation is mentioned alongside 'selecting the narrowest effective spectrum' and adjusting once 'culture results become available.' It means switching from a broad-spectrum antibiotic to a narrower one once the specific pathogen is identified. Option C captures this. Option A says stopping treatment. Option B says increasing dosage. Option D says switching to surgery.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Stopping all antibiotic treatment immediately.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Increasing the dosage of the current medication.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Switching from a broad-spectrum antibiotic to a more targeted one.",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "Replacing antibiotic therapy with surgical intervention.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 34,
+    "caseText": null,
+    "questionText": "What challenge do resource-limited hospitals face in implementing stewardship?",
+    "explanation": "Paragraph 4 states: 'Many hospitals in low- and middle-income countries lack the laboratory infrastructure needed to perform timely cultures and susceptibility testing' and there is 'a shortage of infectious disease specialists.' Option D identifies both challenges. Option A says staff refuse to participate. Option B says patients prefer broad-spectrum antibiotics. Option C says stewardship is too expensive for any hospital.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hospital staff refuse to participate in stewardship activities.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Patients demand broad-spectrum antibiotics.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Stewardship programs are too expensive for any hospital to implement.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "They lack laboratory infrastructure and have a shortage of infectious disease specialists.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionOrder": 35,
+    "caseText": null,
+    "questionText": "What is an 'antibiotic time-out' as described in the text?",
+    "explanation": "The text defines it as 'scheduled reassessments of ongoing antimicrobial therapy at 48-72 hours.' Option B matches this definition. Option A says a break from all medications. Option C says a meeting to discuss new antibiotics. Option D says a period when antibiotics are not available.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A mandatory break from all medications for 48 hours.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "A scheduled review of whether ongoing antibiotic therapy should be continued or changed.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "A weekly meeting to discuss new antibiotics on the market.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "A period when the hospital pharmacy does not stock antibiotics.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 36,
+    "caseText": "Text B: Mental Health Among University Students: A Growing Concern\n\nMental health challenges among university students have reached unprecedented levels in recent years. A comprehensive survey of 35,000 students across 100 universities in Latin America, conducted between 2023 and 2025, found that 42% reported symptoms of moderate to severe anxiety, while 31% reported depressive symptoms. These figures represent a significant increase from pre-pandemic levels, when anxiety rates hovered around 28% and depression around 20%.\n\nSeveral factors contribute to this trend. Academic pressure — including heavy course loads, competitive grading, and uncertainty about employment after graduation — is consistently cited as the primary stressor. Financial strain, particularly for students who must work part-time or full-time to fund their education, compounds these pressures. Social media use, while facilitating connection, has also been linked to increased feelings of inadequacy, loneliness, and fear of missing out (FOMO).\n\nThe transition to university life itself represents a critical vulnerability period. Many students leave their family homes and support networks for the first time, and the loss of familiar coping mechanisms can precipitate mental health crises. First-generation university students — those whose parents did not attend higher education — face additional challenges, including a sense of not belonging and difficulty navigating institutional systems designed with more privileged students in mind.\n\nUniversity counseling centers have struggled to meet the growing demand. Average wait times for a first appointment have increased from one week in 2019 to four weeks in 2025, and many centers report that their counselor-to-student ratios far exceed recommended standards. In response, some institutions have adopted innovative approaches: peer support programs, mental health first aid training for faculty, digital counseling platforms, and partnerships with community mental health organizations.\n\nExperts emphasize that addressing student mental health requires systemic change, not just expanded counseling services. Curriculum design that allows for adequate rest, transparent assessment criteria that reduce unnecessary anxiety, and institutional cultures that normalize help-seeking behavior are all critical components of a comprehensive approach. As one researcher noted, «We cannot counsel our way out of a problem that is fundamentally structural.»\n\n(Original content — Study2One)",
+    "questionText": "According to the survey, what percentage of students reported anxiety symptoms?",
+    "explanation": "The text states: '42% reported symptoms of moderate to severe anxiety.' Option C is correct. Option A says 28% (the pre-pandemic figure). Option B says 31% (the depression rate). Option D says 55%.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "28%",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "31%",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "42%",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "55%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 37,
+    "caseText": null,
+    "questionText": "What additional challenge do first-generation university students face?",
+    "explanation": "The text states that first-generation students face 'a sense of not belonging and difficulty navigating institutional systems designed with more privileged students in mind.' Option A captures this. Option B says they cannot use computers. Option C says they are not allowed to join student groups. Option D says they receive lower grades automatically.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A sense of not belonging and difficulty navigating university systems.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "They cannot use computers or digital platforms.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "They are not allowed to join student organizations.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "They automatically receive lower grades than other students.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 38,
+    "caseText": null,
+    "questionText": "The word 'precipitate' in paragraph 3 is closest in meaning to:",
+    "explanation": "In context, 'the loss of familiar coping mechanisms can precipitate mental health crises' means it can trigger or cause crises to happen. Option B captures this meaning. Option A means 'prevent.' Option C means 'slowly resolve.' Option D means 'predict.'",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "prevent",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "trigger or cause to happen suddenly",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "slowly resolve over time",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "accurately predict in advance",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 39,
+    "caseText": null,
+    "questionText": "What does the quote at the end of the text suggest?",
+    "explanation": "The quote «We cannot counsel our way out of a problem that is fundamentally structural» means that individual therapy alone cannot solve a problem caused by systemic/structural issues. Option D captures this meaning. Option A says counseling is useless. Option B says the problem is not real. Option C says only counselors can solve the problem.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "That counseling services are completely useless for students.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "That the mental health crisis is exaggerated by researchers.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "That only professional counselors can solve the mental health crisis.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "That systemic and institutional changes are needed, not just more counseling.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionOrder": 40,
+    "caseText": null,
+    "questionText": "Which of the following is mentioned as an innovative approach adopted by universities?",
+    "explanation": "Paragraph 4 lists innovative approaches: 'peer support programs, mental health first aid training for faculty, digital counseling platforms, and partnerships with community mental health organizations.' Option B (peer support programs) is one of them. Option A (mandatory meditation classes) is not mentioned. Option C (reducing course loads by half) is not mentioned. Option D (banning social media) is not mentioned.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mandatory meditation classes for all students.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Peer support programs and digital counseling platforms.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "Reducing all course loads by half.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Banning social media on campus networks.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 41,
+    "caseText": "Text C: Climate Change and Human Health: The Emerging Crisis\n\nThe health consequences of climate change are no longer theoretical projections — they are observable realities affecting populations across every continent. Rising global temperatures, shifting precipitation patterns, and increased frequency of extreme weather events are creating conditions that directly and indirectly threaten human health in multiple interconnected ways.\n\nDirect health impacts include heat-related illness and mortality. As heat waves become more frequent, prolonged, and intense, vulnerable populations — including the elderly, outdoor workers, and those with pre-existing cardiovascular or respiratory conditions — face heightened risks of heat stroke, dehydration, and exacerbation of chronic diseases. The 2023 European heat wave, for example, was associated with an estimated 61,000 excess deaths across the continent.\n\nIndirect effects are equally concerning. Changes in temperature and rainfall patterns are expanding the geographic range of disease-carrying vectors such as mosquitoes and ticks. Dengue fever, once confined primarily to tropical regions, is now appearing at higher altitudes and latitudes where it was previously unknown. Similarly, Lyme disease, transmitted by ticks, has expanded its range northward in both North America and Europe.\n\nFood security represents another critical pathway through which climate change affects health. Droughts, floods, and unpredictable growing seasons reduce crop yields and increase food prices, disproportionately affecting low-income populations. Malnutrition, already a major global health challenge, is projected to worsen as agricultural productivity declines in many of the world's poorest regions.\n\nMental health impacts, while less visible, are increasingly documented. The term «eco-anxiety» has emerged to describe chronic worry about environmental destruction. Communities affected by climate-related disasters such as hurricanes, wildfires, and floods experience elevated rates of post-traumatic stress disorder (PTSD), depression, and substance abuse. Indigenous communities, whose cultural identity is often closely tied to the natural environment, face particular psychological distress as ecosystems change irreversibly.\n\n(Original content — Study2One)",
+    "questionText": "According to the text, which populations are most vulnerable to heat waves?",
+    "explanation": "Paragraph 2 identifies 'the elderly, outdoor workers, and those with pre-existing cardiovascular or respiratory conditions' as vulnerable populations. Option A correctly lists these groups. Option B says young athletes. Option C says office workers. Option D says everyone equally.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The elderly, outdoor workers, and people with heart or lung conditions.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Young athletes and professional swimmers.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Office workers and university students.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "All populations are equally vulnerable.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 42,
+    "caseText": null,
+    "questionText": "What does the text say about the geographic range of dengue fever?",
+    "explanation": "Paragraph 3 states: 'Dengue fever, once confined primarily to tropical regions, is now appearing at higher altitudes and latitudes where it was previously unknown.' Option C correctly captures this change. Option A says it is decreasing. Option B says it only exists in Africa. Option D says it has been eliminated.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It is decreasing due to better mosquito control.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "It only exists in sub-Saharan Africa.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "It is expanding to higher altitudes and latitudes beyond traditional tropical areas.",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "It has been completely eliminated through vaccination.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 43,
+    "caseText": null,
+    "questionText": "The word 'exacerbation' in paragraph 2 is closest in meaning to:",
+    "explanation": "In context, 'exacerbation of chronic diseases' refers to making existing conditions worse. Option D captures this meaning. Option A means 'cure.' Option B means 'diagnosis.' Option C means 'prevention.'",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "complete cure",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "initial diagnosis",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "effective prevention",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "worsening or intensification",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionOrder": 44,
+    "caseText": null,
+    "questionText": "What is 'eco-anxiety' as described in the text?",
+    "explanation": "The text defines eco-anxiety as 'chronic worry about environmental destruction.' Option B matches this definition. Option A describes a physical allergy. Option C describes fear of doctors. Option D describes anxiety about technology.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A physical allergic reaction to polluted environments.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Chronic worry and distress about environmental destruction.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "Fear of visiting doctors or medical facilities.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Anxiety caused by excessive use of technology.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 45,
+    "caseText": null,
+    "questionText": "Which organizational pattern does the author use in this text?",
+    "explanation": "The text systematically categorizes climate-health impacts: direct (heat), indirect (vectors), food security, and mental health. Each paragraph addresses a different category. This is a classification structure. Option A (chronological) is incorrect. Option C (problem-solution) is partially true but the text does not propose solutions. Option D (compare-contrast) is incorrect.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Chronological order of historical climate events.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Classification of different types of health impacts from climate change.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "Problem-and-solution structure with detailed policy proposals.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Compare-and-contrast analysis of different countries' responses.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 46,
+    "caseText": "Text D: The Ethics of Telemedicine: Access, Privacy, and the Doctor-Patient Relationship\n\nThe rapid expansion of telemedicine has brought undeniable benefits to healthcare delivery, but it has also introduced a set of ethical questions that the medical community is still grappling with. At the heart of these debates are three core concerns: equitable access, patient privacy, and the transformation of the doctor-patient relationship.\n\nThe promise of telemedicine is that it can democratize healthcare by bringing specialist consultations to patients regardless of their geographic location. In theory, a patient in a remote village in the Colombian Andes could consult with a cardiologist in Bogotá without traveling for hours. In practice, however, the digital divide means that the communities most in need of remote healthcare services are often the least equipped to access them. Reliable internet, compatible devices, and digital literacy are prerequisites that many rural and marginalized communities still lack.\n\nPrivacy concerns in telemedicine are multifaceted. Patient data transmitted over the internet is potentially vulnerable to interception, and the platforms used for virtual consultations may not always meet the same security standards as hospital information systems. Moreover, patients conducting consultations from their homes may lack a private space, meaning that sensitive medical information could be overheard by family members or others. The question of data ownership — who controls the recordings and transcripts of telemedicine sessions — remains unresolved in many jurisdictions.\n\nPerhaps the most philosophically interesting ethical dimension concerns the doctor-patient relationship itself. Traditional medical ethics is built upon the concept of the clinical encounter — a face-to-face interaction in which the physician can observe the patient's body language, assess their physical state through examination, and create the conditions of trust and empathy that facilitate healing. Telemedicine, by mediating this encounter through a screen, inevitably alters these dynamics. Some patients report feeling less comfortable discussing sensitive topics during video consultations, while others appreciate the convenience and reduced anxiety of consulting from a familiar environment.\n\nCritics argue that the normalization of telemedicine risks creating a two-tier healthcare system: in-person, comprehensive care for the wealthy, and screen-mediated, limited care for everyone else. Advocates counter that imperfect access to telemedicine is still better than no access at all, and that the technology will continue to improve. What seems clear is that ethical frameworks for telemedicine must evolve as rapidly as the technology itself.\n\n(Original content — Study2One)",
+    "questionText": "What are the three core ethical concerns about telemedicine mentioned in the text?",
+    "explanation": "Paragraph 1 identifies the three core concerns: 'equitable access, patient privacy, and the transformation of the doctor-patient relationship.' Option A matches these exactly. Option B includes cost, which is not listed as a core concern. Option C includes government regulation. Option D includes training.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Equitable access, patient privacy, and the doctor-patient relationship.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Cost of technology, doctor training, and patient satisfaction.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Government regulation, pharmaceutical influence, and treatment quality.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Internet speed, device quality, and technical training.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 47,
+    "caseText": null,
+    "questionText": "What does the text identify as the 'digital divide' in the context of telemedicine?",
+    "explanation": "The text explains: 'the digital divide means that the communities most in need of remote healthcare services are often the least equipped to access them' due to lacking 'reliable internet, compatible devices, and digital literacy.' Option B captures this. Option A says it is about internet speed differences between hospitals. Option C says it is about doctors who refuse technology. Option D says it is the gap between old and new medical equipment.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The difference in internet speed between urban hospitals.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "The gap between communities that can and cannot access digital healthcare services.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "The divide between doctors who use technology and those who do not.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "The gap between old and new medical equipment in hospitals.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 48,
+    "caseText": null,
+    "questionText": "According to the text, why might privacy be compromised during a telemedicine consultation?",
+    "explanation": "Paragraph 3 mentions that 'patients conducting consultations from their homes may lack a private space, meaning that sensitive medical information could be overheard by family members.' It also mentions data vulnerability during internet transmission. Option C covers both points. Option A says doctors share information on social media. Option B says consultations are recorded and sold. Option D says hospitals publish patient records.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Doctors share patient information on social media.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Consultations are automatically recorded and sold to insurance companies.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Data may be intercepted online, and patients may lack private spaces at home.",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "Hospitals publish patient records on their websites.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 49,
+    "caseText": null,
+    "questionText": "What do critics fear about the normalization of telemedicine?",
+    "explanation": "The text states: 'Critics argue that the normalization of telemedicine risks creating a two-tier healthcare system: in-person, comprehensive care for the wealthy, and screen-mediated, limited care for everyone else.' Option A captures this concern. Option B says it will eliminate all hospitals. Option C says it will make healthcare free. Option D says it will improve equality.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It could create a two-tier system with better care for the wealthy and limited care for others.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "It will eliminate the need for all physical hospitals.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "It will make all healthcare services completely free.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "It will lead to perfect equality in healthcare access.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 50,
+    "caseText": null,
+    "questionText": "The phrase 'grappling with' in paragraph 1 most closely means:",
+    "explanation": "'Grappling with' means struggling to deal with or trying hard to understand something difficult. Option D captures this meaning. Option A means 'ignoring.' Option B means 'easily solving.' Option C means 'celebrating.'",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "completely ignoring",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "easily solving without effort",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "celebrating with enthusiasm",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "struggling to deal with or understand",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionOrder": 51,
+    "caseText": "Text E: Global Vaccine Equity: Lessons from the COVID-19 Pandemic\n\nThe COVID-19 pandemic exposed a stark disparity in global vaccine distribution that had profound consequences for public health worldwide. While high-income countries secured advance purchase agreements with multiple pharmaceutical companies, many low- and middle-income countries waited months or even years for sufficient vaccine supplies. By mid-2022, more than 75% of adults in wealthy nations had received at least one dose, compared to fewer than 15% in the world's poorest countries.\n\nThe COVAX initiative, co-led by the WHO, Gavi (the Vaccine Alliance), and CEPI, was established to ensure equitable vaccine access. COVAX aimed to provide enough doses to vaccinate at least 20% of each participating country's population by the end of 2021. However, the initiative fell significantly short of its targets, hampered by supply constraints, export bans by producing countries, and insufficient funding commitments from wealthier nations.\n\nIntellectual property (IP) protections became a contentious issue during the pandemic. Advocates for a temporary waiver of vaccine-related patents argued that suspending IP rights would enable manufacturers in developing countries to produce generic versions of approved vaccines, dramatically increasing global supply. Pharmaceutical companies and some governments opposed waivers, contending that IP protections are essential incentives for the research and development investments that made rapid vaccine creation possible in the first place.\n\nBeyond supply, last-mile delivery presented enormous logistical challenges. mRNA vaccines required ultra-cold storage at temperatures as low as -70°C, infrastructure that was unavailable in many parts of Africa, Southeast Asia, and Latin America. Even when vaccines arrived, healthcare worker shortages, inadequate transportation networks, and vaccine hesitancy fueled by misinformation slowed rollout efforts.\n\nThe pandemic has catalyzed calls for fundamental reform of global health governance. Proposals include establishing regional vaccine manufacturing hubs in Africa and South America to reduce dependency on a small number of producing countries, creating a binding international pandemic treaty with enforceable equity provisions, and reforming the funding model for organizations like COVAX to ensure faster, more reliable resource mobilization. Whether these reforms materialize will likely determine how the world responds to the next pandemic.\n\n(Original content — Study2One)",
+    "questionText": "What disparity in vaccine distribution does the text describe?",
+    "explanation": "The text states: 'more than 75% of adults in wealthy nations had received at least one dose, compared to fewer than 15% in the world's poorest countries.' Option B correctly identifies this disparity. Option A says all countries received equal amounts. Option C says poor countries received vaccines first. Option D says only European countries were vaccinated.",
+    "competency": "B1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "All countries received equal amounts of vaccines at the same time.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Wealthy nations vaccinated most adults while the poorest countries vaccinated fewer than 15%.",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "Low-income countries received vaccines before wealthy nations.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Only European countries had access to COVID-19 vaccines.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 52,
+    "caseText": null,
+    "questionText": "Why did the COVAX initiative fall short of its targets?",
+    "explanation": "The text states COVAX was 'hampered by supply constraints, export bans by producing countries, and insufficient funding commitments from wealthier nations.' Option C lists these reasons. Option A says it was too expensive for participants. Option B says vaccines expired before delivery. Option D says countries refused to participate.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Because participation in COVAX was too expensive for developing nations.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Because all vaccines expired before they could be delivered.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Due to supply constraints, export bans, and insufficient funding from wealthy nations.",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "Because most countries refused to participate in the initiative.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 53,
+    "caseText": null,
+    "questionText": "What argument do pharmaceutical companies make against waiving vaccine patents?",
+    "explanation": "The text states they contend 'that IP protections are essential incentives for the research and development investments that made rapid vaccine creation possible in the first place.' Option A captures this argument. Option B says they want to help developing countries. Option C says patents do not affect production. Option D says all vaccines are already free.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Patent protections incentivize the research investment needed to develop new vaccines.",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "They want to donate all their vaccines for free to developing countries.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Patents have no effect on vaccine production or distribution.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "All vaccines are already available as generics worldwide.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionOrder": 54,
+    "caseText": null,
+    "questionText": "What logistical challenge specific to mRNA vaccines does the text mention?",
+    "explanation": "Paragraph 4 states: 'mRNA vaccines required ultra-cold storage at temperatures as low as -70°C, infrastructure that was unavailable in many parts of Africa, Southeast Asia, and Latin America.' Option D identifies this specific challenge. Option A says they needed to be taken orally. Option B says they required injection by specialists only. Option C says they had a shelf life of one year.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "They needed to be administered orally, not by injection.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "They could only be given by highly trained specialists.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "They had a shelf life of one year at room temperature.",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "They required ultra-cold storage infrastructure that many countries lacked.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "questionOrder": 55,
+    "caseText": null,
+    "questionText": "What is the author's main purpose in writing this text?",
+    "explanation": "The text describes the pandemic vaccine inequity, analyzes contributing factors (COVAX shortfalls, IP debates, logistical challenges), and discusses proposals for reform. The purpose is to analyze the failures and advocate for systemic change. Option C captures this. Option A says to promote a specific pharmaceutical company. Option B says to argue against vaccination. Option D says to provide a timeline of vaccine development.",
+    "competency": "B2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To promote a specific pharmaceutical company's vaccine.",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "To argue that vaccination programs are unnecessary.",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "To analyze global vaccine inequity during the pandemic and advocate for reform.",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "To provide a detailed scientific explanation of how mRNA vaccines work.",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -135,6 +135,9 @@ export default function DayPage() {
   if (dayData.isExamDay) {
     return (
       <div className="px-4 py-6 space-y-6 pb-32">
+        <Link href="/dashboard" className="text-xs text-gray-500 hover:text-gray-300 transition-colors">
+          ← Volver al inicio
+        </Link>
         <div className="text-center">
           <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">
             {dayData.moduleIcon} {dayData.moduleName} · Examen Diario
@@ -178,6 +181,9 @@ export default function DayPage() {
 
   return (
     <div className="px-4 py-6 space-y-4 pb-32">
+      <Link href="/dashboard" className="text-xs text-gray-500 hover:text-gray-300 transition-colors">
+        ← Volver al inicio
+      </Link>
       {/* Day Header */}
       <div className="text-center">
         <p className="text-xs text-gray-400 uppercase tracking-wider font-semibold">

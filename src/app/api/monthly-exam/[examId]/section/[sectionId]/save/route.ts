@@ -12,6 +12,13 @@ export async function POST(
     return NextResponse.json({ error: "No autorizado" }, { status: 401 });
   }
 
+  if (session.user.role !== "STUDENT") {
+    return NextResponse.json(
+      { error: "Solo estudiantes pueden acceder a simulacros" },
+      { status: 403 }
+    );
+  }
+
   const { examId, sectionId } = await params;
   const body = await req.json();
 
@@ -32,15 +39,21 @@ export async function POST(
     return NextResponse.json({ error: "Sección no activa" }, { status: 403 });
   }
 
-  // Server-enforced timing: calculate real elapsed from startedAt
+  // Validate section belongs to the exam
   const section = await prisma.examSection.findUnique({
     where: { id: sectionId },
-    select: { durationMinutes: true, isWriting: true },
+    select: { examId: true, durationMinutes: true, isWriting: true },
   });
 
   if (!section) {
     return NextResponse.json({ error: "Sección no encontrada" }, { status: 404 });
   }
+
+  if (section.examId !== examId) {
+    return NextResponse.json({ error: "La sección no pertenece a este simulacro" }, { status: 400 });
+  }
+
+  // Server-enforced timing: calculate real elapsed from startedAt
 
   const now = new Date();
   const serverElapsed = sectionAttempt.startedAt
@@ -102,6 +115,22 @@ export async function POST(
 
   // Save answer events (research metrics)
   if (body.answerEvents && Array.isArray(body.answerEvents) && body.answerEvents.length > 0) {
+    // Build correctness map from DB to avoid trusting client-sent isCorrect
+    const eventOptionIds = body.answerEvents
+      .map((e: { selectedOptionId: string | null }) => e.selectedOptionId)
+      .filter((id: string | null): id is string => !!id);
+
+    const correctnessMap = new Map<string, boolean>();
+    if (eventOptionIds.length > 0) {
+      const options = await prisma.examSectionOption.findMany({
+        where: { id: { in: eventOptionIds } },
+        select: { id: true, isCorrect: true },
+      });
+      for (const opt of options) {
+        correctnessMap.set(opt.id, opt.isCorrect);
+      }
+    }
+
     await prisma.examAnswerEvent.createMany({
       data: body.answerEvents.map((e: {
         questionId: string;
@@ -116,7 +145,7 @@ export async function POST(
         selectedOptionId: e.selectedOptionId || null,
         previousOptionId: e.previousOptionId || null,
         eventType: e.eventType as "SELECTED" | "CHANGED" | "CLEARED",
-        isCorrect: e.isCorrect ?? false,
+        isCorrect: e.selectedOptionId ? (correctnessMap.get(e.selectedOptionId) ?? false) : false,
         timestamp: new Date(e.timestamp),
       })),
     });
